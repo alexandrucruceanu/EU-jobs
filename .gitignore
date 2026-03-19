@@ -12,8 +12,10 @@ wheels/
 # Secrets
 .env
 
-# Parsed markdown (reproducible via process.py)
+# Parsed markdown (reproducible via process.py / scrape_eu.py)
 pages/
+pages_eu/
+raw_eu/
 
 # Embeddings (unused in final visualization)
 embed.py

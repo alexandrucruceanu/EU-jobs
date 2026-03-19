@@ -1,13 +1,13 @@
-# AI Exposure of the US Job Market
+# AI Exposure of the European Job Market
 
-This document contains structured data on 342 US occupations from the Bureau of Labor Statistics Occupational Outlook Handbook, each scored for AI exposure on a 0-10 scale by an LLM (Gemini Flash). Use this data to analyze, question, and discuss how AI will reshape the US labor market.
+This document contains structured data on EU occupations standardized by the ESCO framework (European Skills, Competences, Qualifications and Occupations), each scored for AI exposure on a 0-10 scale by an LLM. Use this data to analyze, question, and discuss how AI will reshape the European labor market.
 
-Live visualization: https://karpathy.ai/jobs/
+Live visualization: https://karpathy.ai/jobs/  (Forked for EU data)
 GitHub: https://github.com/karpathy/jobs
 
 ## Scoring methodology
 
-Each occupation was scored on a single AI Exposure axis from 0 to 10, measuring how much AI will reshape that occupation. The score considers both direct automation (AI doing the work) and indirect effects (AI making workers so productive that fewer are needed).
+Each occupation was scored on a single AI Exposure axis from 0 to 10, measuring how much AI will reshape that occupation. The score considers both direct automation (AI doing the work) and indirect effects (AI making workers so productive that fewer are needed) within the context of European labor frameworks and regulations.
 
 A key heuristic: if the job can be done entirely from a home office on a computer — writing, coding, analyzing, communicating — then AI exposure is inherently high (7+), because AI capabilities in digital domains are advancing rapidly. Conversely, jobs requiring physical presence, manual skill, or real-time human interaction have a natural barrier.
 

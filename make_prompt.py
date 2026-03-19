@@ -14,7 +14,7 @@ import json
 def fmt_pay(pay):
     if pay is None:
         return "?"
-    return f"${pay:,}"
+    return f"€{pay:,}"
 
 
 def fmt_jobs(jobs):
@@ -28,15 +28,20 @@ def fmt_jobs(jobs):
 
 
 def main():
-    # Load all data sources
-    with open("occupations.json") as f:
+    # Load all EU data sources
+    with open("occupations_eu.json") as f:
         occupations = json.load(f)
 
-    with open("occupations.csv") as f:
+    with open("occupations_eu.csv") as f:
         csv_rows = {row["slug"]: row for row in csv.DictReader(f)}
 
-    with open("scores.json") as f:
-        scores = {s["slug"]: s for s in json.load(f)}
+    # Fallback to scores.json if scores_eu.json doesn't exist yet
+    scores_file = "scores_eu.json" if os.path.exists("scores_eu.json") else "scores.json"
+    if os.path.exists(scores_file):
+        with open(scores_file) as f:
+            scores = {s["slug"]: s for s in json.load(f)}
+    else:
+        scores = {}
 
     # Merge into unified records
     records = []
@@ -66,11 +71,11 @@ def main():
     lines = []
 
     # ── Header ──
-    lines.append("# AI Exposure of the US Job Market")
+    lines.append("# AI Exposure of the European Job Market")
     lines.append("")
-    lines.append("This document contains structured data on 342 US occupations from the Bureau of Labor Statistics Occupational Outlook Handbook, each scored for AI exposure on a 0-10 scale by an LLM (Gemini Flash). Use this data to analyze, question, and discuss how AI will reshape the US labor market.")
+    lines.append(f"This document contains structured data on {len(records)} EU occupations standardized by the ESCO framework, each scored for AI exposure on a 0-10 scale by an LLM. Use this data to analyze, question, and discuss how AI will reshape the European labor market.")
     lines.append("")
-    lines.append("Live visualization: https://karpathy.ai/jobs/")
+    lines.append("Live visualization: https://karpathy.ai/jobs/  (Forked for EU data)")
     lines.append("GitHub: https://github.com/karpathy/jobs")
     lines.append("")
 
@@ -104,7 +109,7 @@ def main():
 
     lines.append(f"- Total occupations: {len(records)}")
     lines.append(f"- Total jobs: {total_jobs:,} ({total_jobs/1e6:.0f}M)")
-    lines.append(f"- Total annual wages: ${total_wages/1e12:.1f}T")
+    lines.append(f"- Total annual wages: €{total_wages/1e12:.1f}T")
     lines.append(f"- Job-weighted average AI exposure: {w_avg:.1f}/10")
     lines.append("")
 
@@ -125,18 +130,18 @@ def main():
         jobs = sum(r["jobs"] or 0 for r in group)
         wages = sum((r["jobs"] or 0) * (r["pay"] or 0) for r in group)
         avg_pay = wages / jobs if jobs else 0
-        lines.append(f"| {name} | {len(group)} | {fmt_jobs(jobs)} | {jobs/total_jobs*100:.1f}% | ${wages/1e12:.1f}T | {wages/total_wages*100:.1f}% | {fmt_pay(int(avg_pay))} |")
+        lines.append(f"| {name} | {len(group)} | {fmt_jobs(jobs)} | {jobs/total_jobs*100:.1f}% | €{wages/1e12:.1f}T | {wages/total_wages*100:.1f}% | {fmt_pay(int(avg_pay))} |")
     lines.append("")
 
     # By pay band
     lines.append("### Average exposure by pay band (job-weighted)")
     lines.append("")
     pay_bands = [
-        ("<$35K", 0, 35000),
-        ("$35-50K", 35000, 50000),
-        ("$50-75K", 50000, 75000),
-        ("$75-100K", 75000, 100000),
-        ("$100K+", 100000, float("inf")),
+        ("<€35K", 0, 35000),
+        ("€35-50K", 35000, 50000),
+        ("€50-75K", 50000, 75000),
+        ("€75-100K", 75000, 100000),
+        ("€100K+", 100000, float("inf")),
     ]
     lines.append("| Pay band | Avg exposure | Jobs |")
     lines.append("|----------|-------------|------|")
@@ -152,11 +157,11 @@ def main():
     lines.append("### Average exposure by education level (job-weighted)")
     lines.append("")
     edu_groups = [
-        ("No degree / HS diploma", ["No formal educational credential", "High school diploma or equivalent"]),
-        ("Postsecondary / Associate's", ["Postsecondary nondegree award", "Some college, no degree", "Associate's degree"]),
-        ("Bachelor's", ["Bachelor's degree"]),
-        ("Master's", ["Master's degree"]),
-        ("Doctoral / Professional", ["Doctoral or professional degree"]),
+        ("EQF Levels 1-2 (Basic)", ["EQF Level 1", "EQF Level 2", "Primary", "Lower secondary"]),
+        ("EQF Levels 3-4 (Upper Secondary/VET)", ["EQF Level 3", "EQF Level 4", "Upper secondary"]),
+        ("EQF Level 5 (Short-cycle Tertiary)", ["EQF Level 5"]),
+        ("EQF Level 6 (Bachelor's)", ["EQF Level 6", "Bachelor's degree"]),
+        ("EQF Level 7-8 (Master's/Doctoral)", ["EQF Level 7", "EQF Level 8", "Master's degree", "Doctoral"]),
     ]
     lines.append("| Education | Avg exposure | Jobs |")
     lines.append("|-----------|-------------|------|")
@@ -168,8 +173,8 @@ def main():
             lines.append(f"| {name} | {ws/wc:.1f} | {fmt_jobs(wc)} |")
     lines.append("")
 
-    # BLS outlook vs exposure
-    lines.append("### BLS-projected declining occupations")
+    # Projections outlook vs exposure
+    lines.append("### Projected declining EU occupations")
     lines.append("")
     declining = [r for r in records if r["outlook_pct"] is not None and r["outlook_pct"] < 0]
     declining.sort(key=lambda r: r["outlook_pct"])
@@ -190,7 +195,7 @@ def main():
     lines.append("")
 
     # ── Full occupation table ──
-    lines.append("## All 342 occupations")
+    lines.append(f"## All {len(records)} occupations")
     lines.append("")
     lines.append("Sorted by AI exposure (descending), then by number of jobs (descending).")
     lines.append("")

@@ -1,13 +1,12 @@
 """
-Score each occupation's AI exposure using an LLM via OpenRouter.
+Score each occupation's AI exposure using the Gemini API.
 
-Reads Markdown descriptions from pages/, sends each to an LLM with a scoring
+Reads Markdown descriptions from pages_eu/, sends each to an LLM with a scoring
 rubric, and collects structured scores. Results are cached incrementally to
-scores.json so the script can be resumed if interrupted.
+scores_eu.json so the script can be resumed if interrupted.
 
 Usage:
     uv run python score.py
-    uv run python score.py --model google/gemini-3-flash-preview
     uv run python score.py --start 0 --end 10   # test on first 10
 """
 
@@ -15,19 +14,21 @@ import argparse
 import json
 import os
 import time
-import httpx
 from dotenv import load_dotenv
+
+from google import genai
+from google.genai import types
+from pydantic import BaseModel, Field
 
 load_dotenv()
 
-DEFAULT_MODEL = "google/gemini-3-flash-preview"
-OUTPUT_FILE = "scores.json"
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
+DEFAULT_MODEL = "gemini-3.1-flash-lite-preview"
+OUTPUT_FILE = "scores_eu.json"
 
 SYSTEM_PROMPT = """\
 You are an expert analyst evaluating how exposed different occupations are to \
-AI. You will be given a detailed description of an occupation from the Bureau \
-of Labor Statistics.
+AI. You will be given a detailed description of an occupation from the ESCO \
+framework (European Skills, Competences, Qualifications and Occupations).
 
 Rate the occupation's overall **AI Exposure** on a scale from 0 to 10.
 
@@ -76,57 +77,48 @@ paralegal, copywriter.
 - **10: Maximum exposure.** Routine information processing, fully digital, \
 with no physical component. AI can already do most of it today. \
 Examples: data entry clerk, telemarketer.
-
-Respond with ONLY a JSON object in this exact format, no other text:
-{
-  "exposure": <0-10>,
-  "rationale": "<2-3 sentences explaining the key factors>"
-}\
 """
 
+class OccupationScore(BaseModel):
+    exposure: int = Field(description="0-10 score for AI Exposure")
+    rationale: str = Field(description="2-3 sentences explaining the key factors")
 
 def score_occupation(client, text, model):
     """Send one occupation to the LLM and parse the structured response."""
-    response = client.post(
-        API_URL,
-        headers={
-            "Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}",
-        },
-        json={
-            "model": model,
-            "messages": [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": text},
-            ],
-            "temperature": 0.2,
-        },
-        timeout=60,
+    response = client.models.generate_content(
+        model=model,
+        contents=text,
+        config=types.GenerateContentConfig(
+            system_instruction=SYSTEM_PROMPT,
+            temperature=0.2,
+            response_mime_type="application/json",
+            response_json_schema=OccupationScore.model_json_schema()
+        )
     )
-    response.raise_for_status()
-    content = response.json()["choices"][0]["message"]["content"]
-
-    # Strip markdown code fences if present
-    content = content.strip()
-    if content.startswith("```"):
-        content = content.split("\n", 1)[1]  # remove first line
-        if content.endswith("```"):
-            content = content[:-3]
-        content = content.strip()
-
-    return json.loads(content)
-
+    return json.loads(response.text)
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--start", type=int, default=0)
     parser.add_argument("--end", type=int, default=None)
-    parser.add_argument("--delay", type=float, default=0.5)
+    parser.add_argument("--delay", type=float, default=2.0)
     parser.add_argument("--force", action="store_true",
                         help="Re-score even if already cached")
     args = parser.parse_args()
 
-    with open("occupations.json") as f:
+    # Use the provided key
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        try:
+            from dotenv import load_dotenv
+            load_dotenv()
+            api_key = os.environ["GEMINI_API_KEY"]
+        except Exception:
+            raise SystemExit("ERROR: Set GEMINI_API_KEY in .env or as an environment variable.")
+    client = genai.Client(api_key=api_key)
+
+    with open("occupations_eu.json", encoding="utf-8") as f:
         occupations = json.load(f)
 
     subset = occupations[args.start:args.end]
@@ -134,7 +126,7 @@ def main():
     # Load existing scores
     scores = {}
     if os.path.exists(OUTPUT_FILE) and not args.force:
-        with open(OUTPUT_FILE) as f:
+        with open(OUTPUT_FILE, encoding="utf-8") as f:
             for entry in json.load(f):
                 scores[entry["slug"]] = entry
 
@@ -142,7 +134,6 @@ def main():
     print(f"Already cached: {len(scores)}")
 
     errors = []
-    client = httpx.Client()
 
     for i, occ in enumerate(subset):
         slug = occ["slug"]
@@ -150,15 +141,16 @@ def main():
         if slug in scores:
             continue
 
-        md_path = f"pages/{slug}.md"
+        md_path = f"pages_eu/{slug}.md"
         if not os.path.exists(md_path):
             print(f"  [{i+1}] SKIP {slug} (no markdown)")
             continue
 
-        with open(md_path) as f:
+        with open(md_path, encoding="utf-8") as f:
             text = f.read()
-
-        print(f"  [{i+1}/{len(subset)}] {occ['title']}...", end=" ", flush=True)
+            
+        safe_title = occ['title'].encode("ascii", "ignore").decode("ascii")
+        print(f"  [{i+1}/{len(subset)}] {safe_title}...", end=" ", flush=True)
 
         try:
             result = score_occupation(client, text, args.model)
@@ -169,17 +161,16 @@ def main():
             }
             print(f"exposure={result['exposure']}")
         except Exception as e:
-            print(f"ERROR: {e}")
+            err_msg = str(e).encode("ascii", "ignore").decode("ascii")
+            print(f"ERROR: {err_msg[:200]}")
             errors.append(slug)
 
         # Save after each one (incremental checkpoint)
-        with open(OUTPUT_FILE, "w") as f:
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(list(scores.values()), f, indent=2)
 
         if i < len(subset) - 1:
             time.sleep(args.delay)
-
-    client.close()
 
     print(f"\nDone. Scored {len(scores)} occupations, {len(errors)} errors.")
     if errors:
@@ -197,7 +188,6 @@ def main():
         print("Distribution:")
         for k in sorted(by_score):
             print(f"  {k}: {'█' * by_score[k]} ({by_score[k]})")
-
 
 if __name__ == "__main__":
     main()
