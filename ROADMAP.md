@@ -1,31 +1,61 @@
-# EU Jobs Data Adaptation Roadmap
+# Roadmap
 
-## Phase 1: Research and Planning
-- [x] Analyze the `karpathy/jobs` architecture and data pipeline.
-- [x] Identify the current US BLS dependencies (`scrape.py`, `process.py`, `parse_detail.py`).
-- [x] Research and select the primary EU data source (ESCO API targeting ISCO-08 hierarchies).
-- [x] Map the chosen EU data source fields to the existing US BLS fields (Title, Pay, Employment Count, Education, SOC code equivalent).
+## Completed
 
-## Phase 2: Building the Scraper & Parser
-- [x] Create a new scraping script (`scrape_eu.py`) to download 436 ISCO-08 broad economy group data.
-- [x] Develop a new parsing script (`process_eu.py`) to clean and format the raw JSON into Markdown pages.
-- [x] Update `make_csv_eu.py` to extract structured data and simulate EU weights for complete visualization.
+### Phase 1: Research & Planning ✅
+- Analyzed `karpathy/jobs` architecture and US BLS data pipeline
+- Selected ESCO API + ISCO-08 hierarchies as primary EU data source
+- Mapped EU fields to existing BLS schema
 
-## Phase 3: Adapting the LLM Pipeline
-- [x] Modify `prompt.md` and `make_prompt.py` to reflect EU data terminology and specific labor frameworks.
-- [x] Rearchitect `score.py` using Gemini 3.1 Flash-Lite with robust API rate limiting and UTF-8 console crash-proofing.
-- [x] Run `score.py` to compute "AI Exposure" scores for 436 European ISCO-08 groups.
+### Phase 2: EU Scraper & Parser ✅
+- Built `scrape_eu.py` for ESCO taxonomy download (436 ISCO-08 Unit Groups)
+- Built `process_eu.py` for Markdown page generation
+- Built `make_csv_eu.py` with EU-adapted structured data
 
-## Phase 4: Frontend Visualization & Launch
-- [x] Adjust `build_site_data.py` to merge the EU CSV stats and the generated LLM scores into `site/data.json`.
-- [x] Modify `site/index.html` to update any hardcoded text referring to US data, BLS, or USD ($) to instead refer to the EU, ESCO, and Euros (€).
+### Phase 3: LLM Scoring Pipeline ✅
+- Adapted `score.py` for Gemini 3.1 Flash-Lite with rate-limit handling
+- Generated AI exposure scores (0–10) for all 436 occupations
+- Moved API keys to `.env` (removed all hardcoded secrets)
 
-## Phase 5: Global i18n Adaptation
-- [x] Build an automatic translation layer (`translate_ui.py`) leveraging the Gemini API.
-- [x] Distil all generic UI labels into an `en.json` primary dictionary.
-- [x] Generate 23 additional European language JSON files and inject a dynamic header switcher into the `index.html`.
+### Phase 4: Frontend Visualization ✅
+- Migrated `index.html` to EU terminology (ESCO, €, ISCO codes)
+- Canvas-based treemap with 4 color layers (Growth, Pay, Education, AI Exposure)
 
-## Phase 6: Final Delivery
-- [x] Complete a full 100% economy scrape (436 occupations).
-- [x] Verify API robustness and multi-language switching perfectly mirrors the original repo functionality.
-- [x] Finalized Documentation (`README.md`, `ROADMAP.md`).
+### Phase 5: Multilingual i18n ✅
+- Built `translate_ui.py` to translate UI into 23 additional EU languages
+- Created `inject_native_titles.py` for official ESCO job titles
+- Dynamic language switcher in the header (all 24 official EU languages)
+
+### Phase 6: Real Eurostat Data ✅
+- Integrated Eurostat 2023 census employment figures (198M total jobs)
+- Built `fetch_eurostat.py` for ISCO 2-digit broadgroup employment data
+
+### Phase 7: Methodology Transparency ✅
+- Added data methodology disclaimer explaining imputed vs. exact metrics
+- Translated disclaimer across all 24 languages
+
+### Phase 8: Advanced Search ✅
+- Added real-time search bar filtered by job title or 4-digit ISCO code
+- Visual highlighting and dimming of matching/non-matching tiles
+
+### Phase 9: Sector Domain Grouping ✅
+- Created ISCO 2-digit → 19 BLS-style sector mapping in `build_site_data.py`
+- Rendered domain borders and sector labels on the treemap canvas
+- Translated all 19 sector labels across 24 languages
+
+### Phase 10: Repo Cleanup & Publishing ✅
+- Archived original US BLS pipeline files to `.archive/`
+- Security audit: removed hardcoded API key, created `.env` + `.env.example`
+- Published to GitHub: `alexandrucruceanu/EU-jobs`
+- Deployed to GitHub Pages via Actions workflow
+
+---
+
+## Future Ideas
+
+- [ ] Per-country breakdowns (individual EU member state data)
+- [ ] Historical trend comparisons (2019 vs. 2023 employment shifts)
+- [ ] ESCO skills/competences overlay on the treemap
+- [ ] Dark/light theme toggle
+- [ ] Mobile-responsive layout improvements
+- [ ] Custom LLM prompt builder for community scoring layers

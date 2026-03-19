@@ -6,13 +6,16 @@ dist/
 wheels/
 *.egg-info
 
+# Archived original US BLS pipeline
+.archive/
+
 # Virtual environments
 .venv
 
 # Secrets
 .env
 
-# Parsed markdown (reproducible via process.py / scrape_eu.py)
+# Scraped data (reproducible via scrape_eu.py / process_eu.py)
 pages/
 pages_eu/
 raw_eu/

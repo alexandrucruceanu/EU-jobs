@@ -2,8 +2,8 @@
 
 This document contains structured data on EU occupations standardized by the ESCO framework (European Skills, Competences, Qualifications and Occupations), each scored for AI exposure on a 0-10 scale by an LLM. Use this data to analyze, question, and discuss how AI will reshape the European labor market.
 
-Live visualization: https://karpathy.ai/jobs/  (Forked for EU data)
-GitHub: https://github.com/karpathy/jobs
+Live visualization: https://alexandrucruceanu.github.io/EU-jobs/
+GitHub: https://github.com/alexandrucruceanu/EU-jobs
 
 ## Scoring methodology
 
