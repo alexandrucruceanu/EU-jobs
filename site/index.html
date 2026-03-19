@@ -1059,11 +1059,24 @@ document.getElementById("searchInput").addEventListener("input", (e) => {
   draw();
 });
 
+function getBestLanguage() {
+  const supported = ["bg", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv"];
+  // Check browser languages in order of preference
+  const browserLangs = navigator.languages || [navigator.language];
+  for (let l of browserLangs) {
+    const code = l.split("-")[0].toLowerCase();
+    if (supported.includes(code)) return code;
+  }
+  return "en";
+}
+
 fetch("data.json")
   .then(r => r.json())
   .then(d => {
     data = d;
-    loadLanguage("en");
+    const initialLang = getBestLanguage();
+    document.getElementById("languageSelect").value = initialLang;
+    loadLanguage(initialLang);
     updateStats();
     drawGradientLegend();
     resize();
