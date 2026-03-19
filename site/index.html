@@ -4,6 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>European Job Market Visualizer</title>
+<meta name="description" content="Interactive treemap exploring 436 ISCO-08 occupations across the EU, with AI exposure scoring, Eurostat data, and 24-language support.">
+<meta name="keywords" content="EU job market, AI exposure, ISCO-08, ESCO, automation, job visualization, Eurostat">
+<meta property="og:title" content="European Job Market Visualizer">
+<meta property="og:description" content="Explore AI impact on 436 EU occupations across 24 languages.">
+<meta property="og:image" content="https://alexandrucruceanu.github.io/EU-jobs/screenshot.png">
+<meta property="og:url" content="https://alexandrucruceanu.github.io/EU-jobs/">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Analytics Placeholder (Replace G-XXXXXXXXXX with your GA4 ID) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -52,6 +69,15 @@ body {
   text-decoration: none;
 }
 .intro h1 a:hover { text-decoration: underline; }
+.bmc-link { 
+  display: inline-flex; 
+  align-items: center; 
+  margin-left: auto; 
+  transition: transform 0.2s; 
+}
+.bmc-link:hover { transform: scale(1.05); }
+.bmc-link img { height: 32px !important; width: 116px !important; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+
 .intro p {
   font-size: 15px;
   line-height: 1.6;
@@ -69,6 +95,8 @@ body {
   user-select: none;
 }
 .intro summary:hover { color: var(--fg); }
+.header-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+
 .intro .prompt-box {
   margin-top: 8px;
   background: rgba(0,0,0,0.3);
@@ -221,37 +249,45 @@ canvas#canvas {
 <div id="wrapper">
 <div id="header">
   <div class="intro">
-    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-      <h1 data-i18n="title" style="margin-bottom:0px;">European Job Market Visualizer</h1>
-      <select id="languageSelect" style="padding:4px 8px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
-        <option value="en">English (EN)</option>
-        <option value="bg">Bulgarian (BG)</option>
-        <option value="cs">Czech (CS)</option>
-        <option value="da">Danish (DA)</option>
-        <option value="de">German (DE)</option>
-        <option value="el">Greek (EL)</option>
-        <option value="es">Spanish (ES)</option>
-        <option value="et">Estonian (ET)</option>
-        <option value="fi">Finnish (FI)</option>
-        <option value="fr">French (FR)</option>
-        <option value="ga">Irish (GA)</option>
-        <option value="hr">Croatian (HR)</option>
-        <option value="hu">Hungarian (HU)</option>
-        <option value="it">Italian (IT)</option>
-        <option value="lt">Lithuanian (LT)</option>
-        <option value="lv">Latvian (LV)</option>
-        <option value="mt">Maltese (MT)</option>
-        <option value="nl">Dutch (NL)</option>
-        <option value="pl">Polish (PL)</option>
-        <option value="pt">Portuguese (PT)</option>
-        <option value="ro">Romanian (RO)</option>
-        <option value="sk">Slovak (SK)</option>
-        <option value="sl">Slovenian (SL)</option>
-        <option value="sv">Swedish (SV)</option>
-      </select>
-      <div class="search-container">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="searchInput" data-i18n-placeholder="search_placeholder" placeholder="Search by title or code...">
+    <div class="header-top">
+      <h1>
+        <span data-i18n="title">European Job Market Visualizer</span>
+        <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">github.com/alexandrucruceanu/EU-jobs</a>
+      </h1>
+      <div style="display:flex; align-items:center; gap:16px;">
+        <a href="https://buymeacoffee.com/alexander_th" target="_blank" class="bmc-link">
+          <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
+        </a>
+        <select id="languageSelect" style="padding:4px 8px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
+          <option value="en">English (EN)</option>
+          <option value="bg">Bulgarian (BG)</option>
+          <option value="cs">Czech (CS)</option>
+          <option value="da">Danish (DA)</option>
+          <option value="de">German (DE)</option>
+          <option value="el">Greek (EL)</option>
+          <option value="es">Spanish (ES)</option>
+          <option value="et">Estonian (ET)</option>
+          <option value="fi">Finnish (FI)</option>
+          <option value="fr">French (FR)</option>
+          <option value="ga">Irish (GA)</option>
+          <option value="hr">Croatian (HR)</option>
+          <option value="hu">Hungarian (HU)</option>
+          <option value="it">Italian (IT)</option>
+          <option value="lt">Lithuanian (LT)</option>
+          <option value="lv">Latvian (LV)</option>
+          <option value="mt">Maltese (MT)</option>
+          <option value="nl">Dutch (NL)</option>
+          <option value="pl">Polish (PL)</option>
+          <option value="pt">Portuguese (PT)</option>
+          <option value="ro">Romanian (RO)</option>
+          <option value="sk">Slovak (SK)</option>
+          <option value="sl">Slovenian (SL)</option>
+          <option value="sv">Swedish (SV)</option>
+        </select>
+        <div class="search-container">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" data-i18n-placeholder="search_placeholder" placeholder="Search by title or code...">
+        </div>
       </div>
     </div>
     <p data-i18n="intro1_html">This is a research tool that visualizes <b>over 400 occupations</b> from the <a href="https://ec.europa.eu/esco/portal/home">ESCO framework</a>, covering the European job market. Each rectangle's <b>area</b> is proportional to total employment. <b>Color</b> shows the selected metric &mdash; toggle between projected growth outlook, median pay, education requirements, and AI exposure. Click any tile to view its full ESCO page. This is not a report, a paper, or a serious economic publication &mdash; it is a development tool for exploring EU data visually.</p>
