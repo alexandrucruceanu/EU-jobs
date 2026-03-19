@@ -9,6 +9,9 @@ wheels/
 # Archived original US BLS pipeline
 .archive/
 
+# Marketing assets
+.marketing/
+
 # Virtual environments
 .venv
 
