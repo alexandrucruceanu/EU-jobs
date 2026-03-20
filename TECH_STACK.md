@@ -16,6 +16,7 @@
 |:--|:--|
 | **Vanilla HTML/CSS/JS** | Zero-dependency static site |
 | **Canvas API** | Squarified treemap rendering with domain grouping |
+| **Responsive Design** | Vertical category stacking logic for mobile viewports |
 | **Custom i18n engine** | 24-language JSON dictionaries loaded dynamically |
 | **CSS Custom Properties** | Dark theme design tokens |
 

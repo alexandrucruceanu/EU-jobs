@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.1.0] — 2026-03-20
+
+### Added
+- **Mobile-responsive layout** — Treemap categories stack vertically on small screens (<768px)
+- **Enhanced label visibility** — Largest job cells in each category now prioritize title display
+- **Dynamic canvas scaling** — Treemap height adjusts to fit vertical stacking on mobile
+
 ## [1.0.0] — 2026-03-19
 
 ### Added

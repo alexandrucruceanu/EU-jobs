@@ -49,6 +49,11 @@
 - Published to GitHub: `alexandrucruceanu/EU-jobs`
 - Deployed to GitHub Pages via Actions workflow
 
+### Phase 11: Mobile Optimization ✅
+- Implemented vertical stacking of categories for narrow viewports
+- Added dynamic canvas height adjustment for better mobile scrolling
+- Improved job title rendering logic to ensure visibility in significant cells
+
 ---
 
 ## Future Ideas
@@ -57,5 +62,5 @@
 - [ ] Historical trend comparisons (2019 vs. 2023 employment shifts)
 - [ ] ESCO skills/competences overlay on the treemap
 - [ ] Dark/light theme toggle
-- [ ] Mobile-responsive layout improvements
+- [ ] ESCO skills/competences overlay on the treemap
 - [ ] Custom LLM prompt builder for community scoring layers

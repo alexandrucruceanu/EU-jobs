@@ -567,21 +567,53 @@ function layout() {
   const wrapper = document.getElementById("wrapper");
   const headerH = document.getElementById("header").offsetHeight;
   const w = wrapper.clientWidth;
-  const h = Math.round(w * 3 / 4);
-  canvas.width = w * dpr; canvas.height = h * dpr;
-  canvas.style.width = w + "px"; canvas.style.height = h + "px";
-  const tx = MARGIN, ty = MARGIN, tw = w - MARGIN * 2, th = h - MARGIN * 2;
+  
+  const isMobile = window.innerWidth < 768;
+  let h;
+  
+  const tx = MARGIN, ty = MARGIN, tw = w - MARGIN * 2;
   const byCategory = {};
   for (const d of data) { if (!byCategory[d.category]) byCategory[d.category] = []; byCategory[d.category].push(d); }
   const categories = Object.keys(byCategory).map(cat => ({
     cat, items: byCategory[cat].sort((a, b) => (b.jobs || 0) - (a.jobs || 0)),
     value: byCategory[cat].reduce((s, d) => s + (d.jobs || 1), 0),
   })).sort((a, b) => b.value - a.value);
-  groupRects = squarify(categories, tx, ty, tw, th);
+
+  const totalValue = categories.reduce((s, c) => s + c.value, 0);
+
+  if (isMobile) {
+    // Vertical stacking for mobile
+    groupRects = [];
+    let currentY = ty;
+    // We want a total height that feels good for scrolling. 
+    // Let's say we want 200px minimum per category, or proportional to jobs.
+    const minCatH = 160;
+    const baseHeight = Math.max(1200, categories.length * minCatH);
+    
+    for (const c of categories) {
+      const catH = Math.max(minCatH, (c.value / totalValue) * baseHeight);
+      groupRects.push({ ...c, rx: tx, ry: currentY, rw: tw, rh: catH });
+      currentY += catH + GAP * 2;
+    }
+    h = currentY + MARGIN;
+  } else {
+    // Desktop squarified layout
+    h = Math.round(w * 3 / 4);
+    const th = h - MARGIN * 2;
+    groupRects = squarify(categories, tx, ty, tw, th);
+  }
+
+  canvas.width = w * dpr; canvas.height = h * dpr;
+  canvas.style.width = w + "px"; canvas.style.height = h + "px";
+
   rects = [];
   for (const cr of groupRects) {
     const items = cr.items.map(d => ({ ...d, value: d.jobs || 1 }));
     const innerRects = squarify(items, cr.rx + CAT_PAD, cr.ry + CAT_PAD, cr.rw - CAT_PAD * 2, cr.rh - CAT_PAD * 2);
+    // Mark the largest item in each category to ensure its title is shown
+    if (innerRects.length > 0) {
+      innerRects[0].isLargestInCat = true;
+    }
     for (const ir of innerRects) rects.push(ir);
   }
 }
@@ -619,7 +651,7 @@ function draw() {
       ctx.strokeRect(rx, ry, rw, rh); 
     }
     
-    if (rw > 50 && rh > 18) {
+    if ((rw > 50 && rh > 18) || (r.isLargestInCat && rw > 30 && rh > 14)) {
       ctx.save(); ctx.beginPath(); ctx.rect(rx + 4, ry + 2, rw - 8, rh - 4); ctx.clip();
       const fontSize = Math.min(13, Math.max(9, Math.min(rw / 10, rh / 3)));
       ctx.font = `500 ${fontSize}px -apple-system, system-ui, sans-serif`;
@@ -629,7 +661,7 @@ function draw() {
       
       ctx.textBaseline = "top";
       ctx.fillText(_t_job(r.title), rx + 5, ry + 4);
-      if (rh > 34 && rw > 60) {
+      if (rh > 30 && rw > 50) {
         ctx.font = `400 ${Math.max(8, fontSize - 2)}px -apple-system, system-ui, sans-serif`;
         ctx.fillStyle = isMatch ? "rgba(255,255,255,0.5)" : "rgba(255,255,255,0.1)";
         ctx.fillText(tileSubInfo(r), rx + 5, ry + 4 + fontSize + 2);

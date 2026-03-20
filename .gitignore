@@ -29,3 +29,6 @@ embeddings.json
 
 # macOS
 .DS_Store
+
+# Local Conversation Summaries
+docs/conversations/

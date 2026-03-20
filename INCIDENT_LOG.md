@@ -46,3 +46,11 @@ Notable issues encountered during development and their resolutions.
 **Symptom:** A Gemini API key was hardcoded as fallback default in `score.py` and `translate_ui.py`.  
 **Root Cause:** Original development convenience pattern — `os.environ.get("KEY", "fallback_value")`.  
 **Resolution:** Created `.env` file (gitignored), added `.env.example` template, and refactored both scripts to require the environment variable with a clear error message if missing. Key recommended for rotation.
+---
+
+### INC-006: Mobile Treemap Layout for better UX
+**Date:** 2026-03-20  
+**Severity:** Low  
+**Symptom:** On narrow screens, the original squarified category layout made labels illegible and cells too small.  
+**Root Cause:** The squarify algorithm targets a square aspect ratio, which doesn't scroll well on mobile phones.  
+**Resolution:** Replaced the global category squarification with a vertical stack for viewports <768px. Ensured the largest cell in each category forces its title to be visible.
