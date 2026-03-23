@@ -256,6 +256,7 @@ canvas#canvas {
         <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">github.com/alexandrucruceanu/EU-jobs</a>
       </h1>
       <div style="display:flex; align-items:center; gap:16px;">
+        <a href="map.html" style="padding:4px 12px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2); text-decoration:none; white-space:nowrap;" title="Map View">🗺 Map</a>
         <a href="https://buymeacoffee.com/alexander_th" target="_blank" class="bmc-link">
           <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
         </a>
@@ -284,6 +285,36 @@ canvas#canvas {
           <option value="sk">Slovak (SK)</option>
           <option value="sl">Slovenian (SL)</option>
           <option value="sv">Swedish (SV)</option>
+        </select>
+        <select id="regionSelect" style="padding:4px 8px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
+          <option value="eu" data-i18n="region_eu">European Union (EU)</option>
+          <option value="at" data-i18n="region_at">Austria (AT)</option>
+          <option value="be" data-i18n="region_be">Belgium (BE)</option>
+          <option value="bg" data-i18n="region_bg">Bulgaria (BG)</option>
+          <option value="cy" data-i18n="region_cy">Cyprus (CY)</option>
+          <option value="cz" data-i18n="region_cz">Czechia (CZ)</option>
+          <option value="de" data-i18n="region_de">Germany (DE)</option>
+          <option value="dk" data-i18n="region_dk">Denmark (DK)</option>
+          <option value="ee" data-i18n="region_ee">Estonia (EE)</option>
+          <option value="el" data-i18n="region_el">Greece (EL)</option>
+          <option value="es" data-i18n="region_es">Spain (ES)</option>
+          <option value="fi" data-i18n="region_fi">Finland (FI)</option>
+          <option value="fr" data-i18n="region_fr">France (FR)</option>
+          <option value="hr" data-i18n="region_hr">Croatia (HR)</option>
+          <option value="hu" data-i18n="region_hu">Hungary (HU)</option>
+          <option value="ie" data-i18n="region_ie">Ireland (IE)</option>
+          <option value="it" data-i18n="region_it">Italy (IT)</option>
+          <option value="lt" data-i18n="region_lt">Lithuania (LT)</option>
+          <option value="lu" data-i18n="region_lu">Luxembourg (LU)</option>
+          <option value="lv" data-i18n="region_lv">Latvia (LV)</option>
+          <option value="mt" data-i18n="region_mt">Malta (MT)</option>
+          <option value="nl" data-i18n="region_nl">Netherlands (NL)</option>
+          <option value="pl" data-i18n="region_pl">Poland (PL)</option>
+          <option value="pt" data-i18n="region_pt">Portugal (PT)</option>
+          <option value="ro" data-i18n="region_ro">Romania (RO)</option>
+          <option value="se" data-i18n="region_se">Sweden (SE)</option>
+          <option value="si" data-i18n="region_si">Slovenia (SI)</option>
+          <option value="sk" data-i18n="region_sk">Slovakia (SK)</option>
         </select>
         <div class="search-container">
           <span class="search-icon">🔍</span>
@@ -1139,17 +1170,30 @@ function getBestLanguage() {
   return "en";
 }
 
-fetch("data.json")
-  .then(r => r.json())
-  .then(d => {
-    data = d;
-    const initialLang = getBestLanguage();
-    document.getElementById("languageSelect").value = initialLang;
-    loadLanguage(initialLang);
-    updateStats();
-    drawGradientLegend();
-    resize();
-  });
+function loadData(region) {
+  const file = `data_${region.toLowerCase()}.json`;
+  fetch(file + "?v=" + new Date().getTime())
+    .then(r => r.json())
+    .then(d => {
+      data = d;
+      updateStats();
+      drawGradientLegend();
+      resize();
+    });
+}
+
+document.getElementById("regionSelect").addEventListener("change", (e) => {
+  loadData(e.target.value);
+});
+
+// Initial load - check for ?region= URL parameter
+const urlParams = new URLSearchParams(window.location.search);
+const initialRegion = urlParams.get("region") || "eu";
+const initialLang = getBestLanguage();
+document.getElementById("languageSelect").value = initialLang;
+loadLanguage(initialLang);
+document.getElementById("regionSelect").value = initialRegion;
+loadData(initialRegion);
 
 window.addEventListener("resize", resize);
 </script>

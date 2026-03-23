@@ -2,6 +2,29 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.0.0] — 2026-03-23
+
+### Added
+- **27 EU member states** — Per-country data for all EU countries (AT, BE, BG, CY, CZ, DE, DK, EE, EL, ES, FI, FR, HR, HU, IE, IT, LT, LU, LV, MT, NL, PL, PT, RO, SE, SI, SK)
+- **Interactive map view** (`site/map.html`) — Choropleth map of Europe with 4 metric layers (Employment, Growth, Pay, AI Exposure)
+- **Country summary data** (`site/data_summary.json`) — Aggregated statistics per country for map visualization
+- **SVG map generator** — Python script to generate EU map paths from Natural Earth 110m GeoJSON
+- **Region URL parameter** — `index.html?region=de` loads Germany directly
+- **Map ↔ Treemap navigation** — Bidirectional links between map and treemap views
+
+### Fixed
+- **Job inflation for small countries** — Heuristic fallback job counts now scale proportionally to each country's real workforce size
+- **Pay data not country-specific** — Added wage level indices (Eurostat earn_ses_annual) so pay reflects real country wage levels (e.g., Bulgaria ~€12K, Luxembourg ~€65K)
+- **Eurostat earnings key mismatch** — `fetch_eurostat.py` saved as `"earnings_annual"` but CSV builder read `"earnings"` — fixed
+- **Double ×2080 conversion** — Removed duplicate hourly-to-annual pay conversion in fetch script
+
+### Changed
+- `fetch_eurostat.py` — Expanded to fetch all 27 EU country codes; fixed earnings storage key
+- `make_csv_eu.py` — Dynamic region processing with job scaling and wage level indices
+- `build_site_data.py` — Generates per-country JSON files and `data_summary.json` with weighted averages
+- `index.html` — Region selector with all 27 countries; dynamic data loading; map navigation link
+- `i18n/en.json` and `i18n/es.json` — Added translation keys for all 27 EU member states
+
 ## [1.1.0] — 2026-03-20
 
 ### Added

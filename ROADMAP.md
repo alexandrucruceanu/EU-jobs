@@ -54,13 +54,27 @@
 - Added dynamic canvas height adjustment for better mobile scrolling
 - Improved job title rendering logic to ensure visibility in significant cells
 
+### Phase 12: Per-Country Breakdowns ✅
+- Expanded `fetch_eurostat.py` to fetch employment data for all 27 EU member states
+- Updated `make_csv_eu.py` with job scaling factors and wage level indices
+- Dynamic region selection in the frontend with per-country JSON data files
+- Fixed job inflation bug for small countries (e.g., Luxembourg: 4M → 307K)
+- Fixed pay data to reflect country-specific wage levels
+
+### Phase 13: Interactive Map View ✅
+- Built `site/map.html` with choropleth map of Europe using Natural Earth 110m GeoJSON
+- 4 metric toggles: Total Employment, Growth Outlook, Median Pay, AI Exposure
+- Sorted country sidebar with color swatches and metric values
+- Hover tooltips and click-to-treemap navigation
+- Bidirectional map ↔ treemap navigation
+
 ---
 
 ## Future Ideas
 
-- [ ] Per-country breakdowns (individual EU member state data)
 - [ ] Historical trend comparisons (2019 vs. 2023 employment shifts)
 - [ ] ESCO skills/competences overlay on the treemap
 - [ ] Dark/light theme toggle
-- [ ] ESCO skills/competences overlay on the treemap
 - [ ] Custom LLM prompt builder for community scoring layers
+- [ ] Fix Eurostat earnings API fetch (currently returns 0 records)
+- [ ] Regional (NUTS-2) sub-national breakdowns

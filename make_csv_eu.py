@@ -212,19 +212,21 @@ def extract_occupation_md(md_path, occ_meta):
 
     return row
 
-def main():
-    if not os.path.exists("occupations_eu.json"):
-        print("occupations_eu.json not found. Please run scrape_eu.py first.")
-        return
-
-    with open("occupations_eu.json", "r") as f:
-        occupations = json.load(f)
-
-    eurostat_emp = {}
-    if os.path.exists("eurostat_real.json"):
-        with open("eurostat_real.json", "r") as f:
-            eurostat_emp = json.load(f).get("employment", {})
-
+def process_region(region_label, occupations, eurostat_data, output_csv):
+    """Process a single region and write its CSV."""
+    region_emp = eurostat_data.get(region_label, {}).get("employment", {})
+    region_earn = eurostat_data.get(region_label, {}).get("earnings", {})
+    
+    # Compute scaling factor for heuristic fallback jobs
+    # The heuristic defaults target EU-scale (~200M workforce)
+    # For smaller countries, we scale down proportionally
+    EU_BASELINE_JOBS = 200_000_000
+    region_total_emp = sum(region_emp.values()) if region_emp else 0
+    if region_total_emp > 0:
+        job_scale_factor = region_total_emp / EU_BASELINE_JOBS
+    else:
+        job_scale_factor = 1.0  # No scaling if no data
+    
     # First pass: map SOC codes and count 2-digit bucket sizes for Eurostat distribution
     occ_map = {}
     bucket_counts = {}
@@ -247,16 +249,30 @@ def main():
         "url",
     ]
 
+    # Wage level index relative to EU average (EU=1.0)
+    # Based on Eurostat gross annual earnings data (earn_ses_annual, 2022)
+    # Scaled so EU-average heuristic pay becomes country-appropriate
+    WAGE_LEVEL_INDEX = {
+        "EU": 1.00,
+        "AT": 1.15, "BE": 1.20, "BG": 0.28, "CY": 0.60, "CZ": 0.42,
+        "DE": 1.25, "DK": 1.45, "EE": 0.48, "EL": 0.45, "ES": 0.65,
+        "FI": 1.10, "FR": 1.00, "HR": 0.38, "HU": 0.38, "IE": 1.25,
+        "IT": 0.80, "LT": 0.42, "LU": 1.60, "LV": 0.38, "MT": 0.55,
+        "NL": 1.20, "PL": 0.38, "PT": 0.48, "RO": 0.30, "SE": 1.15,
+        "SI": 0.60, "SK": 0.38,
+    }
+    wage_scale = WAGE_LEVEL_INDEX.get(region_label, 1.0)
+
     rows = []
     missing = 0
     for slug, (occ, code, bucket) in occ_map.items():
         md_path = f"pages_eu/{slug}.md"
         
-        # Determine real jobs
-        real_jobs = "10000"
-        if bucket in eurostat_emp and bucket_counts[bucket] > 0:
-            real_jobs_int = int(eurostat_emp[bucket] / bucket_counts[bucket])
-            real_jobs = str(real_jobs_int)
+        # Determine real jobs from Eurostat
+        real_jobs = None
+        if bucket in region_emp and bucket_counts[bucket] > 0:
+            real_jobs_int = int(region_emp[bucket] / bucket_counts[bucket])
+            real_jobs = str(max(1, real_jobs_int))
 
         if not os.path.exists(md_path):
             missing += 1
@@ -265,20 +281,59 @@ def main():
             row = extract_occupation_md(md_path, occ)
 
         # Apply real Eurostat jobs overriding the heuristic
-        if real_jobs != "10000":
+        if real_jobs is not None:
             row["num_jobs_2024"] = real_jobs
+        elif job_scale_factor < 1.0:
+            # Scale down heuristic-generated jobs for smaller countries
+            try:
+                heuristic_jobs = int(row["num_jobs_2024"])
+                scaled_jobs = max(1, int(heuristic_jobs * job_scale_factor))
+                row["num_jobs_2024"] = str(scaled_jobs)
+            except (ValueError, TypeError):
+                pass
+        
+        # Apply Eurostat earnings if available for this bucket
+        if bucket in region_earn and region_earn[bucket] > 0:
+            hourly_rate = region_earn[bucket]
+            row["median_pay_hourly"] = f"{hourly_rate:.2f}"
+            row["median_pay_annual"] = str(round(hourly_rate * 2080))
+        elif wage_scale != 1.0:
+            # Scale heuristic pay to country's wage level
+            try:
+                pay = int(row["median_pay_annual"])
+                scaled_pay = max(8000, int(pay * wage_scale))
+                row["median_pay_annual"] = str(scaled_pay)
+                row["median_pay_hourly"] = f"{scaled_pay / 2080:.2f}"
+            except (ValueError, TypeError):
+                pass
 
         rows.append(row)
 
-    with open("occupations_eu.csv", "w", newline="", encoding="utf-8") as f:
+    with open(output_csv, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"Wrote {len(rows)} rows to occupations_eu.csv (missing MD: {missing})")
-    print(f"\nSample rows:")
-    for r in rows[:3]:
-        print(f"  {r['title']}: €{r['median_pay_annual']}/yr, {r['num_jobs_2024']} jobs, {r['outlook_pct']}% outlook, ISCO: {r['soc_code']}")
+    print(f"[{region_label}] Wrote {len(rows)} rows to {output_csv} (missing MD: {missing})")
+
+
+def main():
+    if not os.path.exists("occupations_eu.json"):
+        print("occupations_eu.json not found. Please run scrape_eu.py first.")
+        return
+
+    with open("occupations_eu.json", "r") as f:
+        occupations = json.load(f)
+
+    eurostat_data = {}
+    if os.path.exists("eurostat_real.json"):
+        with open("eurostat_real.json", "r") as f:
+            eurostat_data = json.load(f)
+
+    # Process all regions found in eurostat_real.json
+    for region_label in eurostat_data.keys():
+        output_csv = f"occupations_{region_label.lower()}.csv"
+        process_region(region_label, occupations, eurostat_data, output_csv)
 
 if __name__ == "__main__":
     main()

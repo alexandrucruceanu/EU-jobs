@@ -10,6 +10,7 @@ Usage:
 
 import csv
 import json
+import os
 
 
 # ── ISCO 2-digit → BLS-style sector mapping ────────────────────────────
@@ -78,14 +79,14 @@ def isco_to_sector(code):
     return ISCO2_TO_SECTOR.get(code[:2], "other")
 
 
-def main():
-    # Load AI exposure scores
-    with open("scores_eu.json") as f:
-        scores_list = json.load(f)
-    scores = {s["slug"]: s for s in scores_list}
-
+def build_data(csv_path, scores, output_json):
+    """Merge CSV stats with scores and write to JSON."""
     # Load CSV stats
-    with open("occupations_eu.csv") as f:
+    if not os.path.exists(csv_path):
+        print(f"Warning: {csv_path} not found. Skipping.")
+        return
+
+    with open(csv_path, encoding="utf-8") as f:
         reader = csv.DictReader(f)
         rows = list(reader)
 
@@ -99,7 +100,7 @@ def main():
             "title": row["title"],
             "slug": slug,
             "category": isco_to_sector(soc_code),
-            "pay": int(row["median_pay_annual"]) if row["median_pay_annual"] else None,
+            "pay": int(float(row["median_pay_annual"])) if row["median_pay_annual"] else None,
             "jobs": int(row["num_jobs_2024"]) if row["num_jobs_2024"] else None,
             "outlook": int(row["outlook_pct"]) if row["outlook_pct"] else None,
             "outlook_desc": row["outlook_desc"],
@@ -110,15 +111,58 @@ def main():
             "code": soc_code,
         })
 
-    import os
     os.makedirs("site", exist_ok=True)
-    with open("site/data.json", "w") as f:
+    with open(output_json, "w") as f:
         json.dump(data, f)
 
-    print(f"Wrote {len(data)} occupations to site/data.json")
-    total_jobs = sum(d["jobs"] for d in data if d["jobs"])
+    print(f"Wrote {len(data)} occupations to {output_json}")
+    valid_jobs = [d for d in data if d["jobs"]]
+    total_jobs = sum(d["jobs"] for d in valid_jobs)
     print(f"Total jobs represented: {total_jobs:,}")
+    
+    # Calculate weighted averages
+    avg_growth = sum(d["outlook"] * d["jobs"] for d in valid_jobs if d["outlook"] is not None) / total_jobs if total_jobs > 0 else 0
+    avg_pay = sum(d["pay"] * d["jobs"] for d in valid_jobs if d["pay"] is not None) / total_jobs if total_jobs > 0 else 0
+    avg_exposure = sum(d["exposure"] * d["jobs"] for d in valid_jobs if d["exposure"] is not None) / total_jobs if total_jobs > 0 else 0
 
+    return {
+        "total_jobs": total_jobs,
+        "avg_growth": avg_growth,
+        "avg_pay": avg_pay,
+        "avg_exposure": avg_exposure
+    }
+
+
+def main():
+    # Load AI exposure scores
+    if not os.path.exists("scores_eu.json"):
+        print("scores_eu.json not found. Please run score_eu.py first.")
+        return
+
+    with open("scores_eu.json") as f:
+        scores_list = json.load(f)
+    scores = {s["slug"]: s for s in scores_list}
+
+    # Build data for all regions
+    summary = {}
+    import glob
+    csv_files = glob.glob("occupations_*.csv")
+    for csv_path in csv_files:
+        region_code = csv_path.replace("occupations_", "").replace(".csv", "").lower()
+        output_json = f"site/data_{region_code}.json"
+        stats = build_data(csv_path, scores, output_json)
+        summary[region_code] = stats
+
+    # Write summary data
+    with open("site/data_summary.json", "w") as f:
+        json.dump(summary, f, indent=2)
+    print("Wrote site/data_summary.json")
+
+    # Legacy / Default data.json (alias for EU)
+    import shutil
+    if os.path.exists("site/data_eu.json"):
+        shutil.copy("site/data_eu.json", "site/data.json")
+        print("Copied data_eu.json to site/data.json (default)")
 
 if __name__ == "__main__":
     main()
