@@ -68,6 +68,14 @@
 - Hover tooltips and click-to-treemap navigation
 - Bidirectional map ↔ treemap navigation
 
+### Phase 14: Localization & UI Parity ✅
+- Migrated 15 "sad-funny" job market quotes to `i18n/*.json` (24 languages)
+- Built dynamic quote randomization engine in `shared.js`
+- Implemented glassmorphism cookie consent banner
+- Corrected map projection and tiny-state positions (Malta)
+- Unified header/footer styling across all views
+- Added `robots.txt` for SEO
+
 ---
 
 ## Future Ideas

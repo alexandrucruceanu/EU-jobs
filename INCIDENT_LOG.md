@@ -48,9 +48,20 @@ Notable issues encountered during development and their resolutions.
 **Resolution:** Created `.env` file (gitignored), added `.env.example` template, and refactored both scripts to require the environment variable with a clear error message if missing. Key recommended for rotation.
 ---
 
-### INC-006: Mobile Treemap Layout for better UX
-**Date:** 2026-03-20  
-**Severity:** Low  
-**Symptom:** On narrow screens, the original squarified category layout made labels illegible and cells too small.  
-**Root Cause:** The squarify algorithm targets a square aspect ratio, which doesn't scroll well on mobile phones.  
-**Resolution:** Replaced the global category squarification with a vertical stack for viewports <768px. Ensured the largest cell in each category forces its title to be visible.
+---
+6: 
+51: ### INC-006: Mobile Treemap Layout for better UX
+52: **Date:** 2026-03-20  
+53: **Severity:** Low  
+54: **Symptom:** On narrow screens, the original squarified category layout made labels illegible and cells too small.  
+55: **Root Cause:** The squarify algorithm targets a square aspect ratio, which doesn't scroll well on mobile phones.  
+56: **Resolution:** Replaced the global category squarification with a vertical stack for viewports <768px. Ensured the largest cell in each category forces its title to be visible.
+57: 
+58: ---
+59: 
+60: ### INC-007: Regional Coordinate Discrepancies (Malta)
+61: **Date:** 2026-03-24  
+62: **Severity:** Low  
+63: **Symptom:** Malta was visually rendered inside Turkey or in incorrect positions on the Map view.  
+64: **Root Cause:** Inaccurate lat/long centroids for very small island nations and bounding box calculation errors in the Albers projection.  
+65: **Resolution:** Manually adjusted the geographic coordinates in the data pipeline to ensure accurate visual placement on the choropleth map.

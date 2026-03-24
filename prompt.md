@@ -21,9 +21,9 @@ Calibration anchors:
 
 ## Aggregate statistics
 
-- Total occupations: 342
-- Total jobs: 143,066,500 (143M)
-- Total annual wages: $8.9T
+- Total occupations: 436
+- Total jobs: 198,000,000 (198M)
+- Total annual wages: €8.9T
 - Job-weighted average AI exposure: 4.9/10
 
 ### Breakdown by exposure tier

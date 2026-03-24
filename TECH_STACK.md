@@ -43,4 +43,6 @@
 | JSON | `data.json`, `scores_eu.json`, `occupations_eu.json`, `i18n/*.json` |
 | CSV | `occupations_eu.csv` |
 | Markdown | `prompt.md`, `pages_eu/*.md` |
-| HTML | `site/index.html` |
+| HTML | `site/index.html`, `site/map.html` |
+| JS | `site/shared.js` (Cookie consent, Localized quotes) |
+| TXT | `site/robots.txt` (SEO) |

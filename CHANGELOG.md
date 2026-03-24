@@ -2,6 +2,20 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.1.0] — 2026-03-24
+
+### Added
+- **24-Language Localized Quotes** — 15 "sad-funny" job market quotes translated across all official EU languages, appearing randomly in the footer.
+- **Dynamic i18n Quote Management** — Integrated `window.updateFunnyFooter()` into the shared translation engine in `shared.js`.
+- **Cookie Consent Banner** — Functional cookie acceptance popup with glassmorphism design on both Treemap and Map views.
+- **Search Engine Optimization** — Created `robots.txt` and verified meta tags for better discoverability.
+
+### Fixed
+- **Malta Position Correction** — Fixed the geographic coordinates for Malta on the Map view (Albers projection).
+
+### Changed
+- **UI Parity** — Unified header and footer styles between `index.html` (Treemap) and `map.html` (Map), ensuring a consistent premium look.
+
 ## [2.0.0] — 2026-03-23
 
 ### Added

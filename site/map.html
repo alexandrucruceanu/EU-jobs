@@ -5,92 +5,198 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EU Job Market Map</title>
 <meta name="description" content="Interactive choropleth map of EU job market data across 27 member states.">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
 :root {
-  --bg1: #0d1117;
-  --bg2: #161b22;
-  --bg3: #1c2333;
-  --fg: #e6edf3;
-  --fg2: #8b949e;
-  --accent: #58a6ff;
-  --border: rgba(255,255,255,0.08);
+  --bg: #0a0a0f;
+  --bg2: #12121a;
+  --fg: #e0e0e8;
+  --fg2: #888894;
 }
-* { margin:0; padding:0; box-sizing:border-box; }
+
 body {
-  font-family: 'Inter', -apple-system, sans-serif;
-  background: var(--bg1);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
   color: var(--fg);
   min-height: 100vh;
   overflow-x: hidden;
 }
 
-/* Header */
-.header {
+#wrapper {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 20px 28px 16px;
+  flex-shrink: 0;
+}
+.intro {
+  margin-bottom: 24px;
+}
+.intro h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 16px 24px;
-  border-bottom: 1px solid var(--border);
-  background: var(--bg2);
+  gap: 14px;
   flex-wrap: wrap;
 }
-.header h1 {
-  font-size: 18px;
-  font-weight: 600;
-  white-space: nowrap;
-}
-.header h1 a {
-  color: var(--fg);
-  text-decoration: none;
-}
-.header h1 a:hover { color: var(--accent); }
-.header .nav-links {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-}
-.header .nav-links a {
+.intro h1 a {
+  font-size: 13px;
+  font-weight: 400;
   color: var(--fg2);
   text-decoration: none;
-  font-size: 13px;
-  padding: 5px 12px;
+}
+.intro h1 a:hover { text-decoration: underline; }
+
+.intro p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--fg2);
+  margin-bottom: 8px;
+}
+.intro a { color: var(--fg2); }
+.intro strong, .intro b { color: var(--fg); font-weight: 600; }
+
+.intro details { margin: 10px 0; }
+.intro summary {
+  font-size: 14px;
+  color: var(--fg2);
+  cursor: pointer;
+  user-select: none;
+}
+.intro summary:hover { color: var(--fg); }
+
+.intro .prompt-box {
+  margin-top: 8px;
+  background: rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.06);
   border-radius: 6px;
-  border: 1px solid var(--border);
-  transition: all 0.2s;
+  padding: 12px 16px;
+  font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--fg2);
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
-.header .nav-links a:hover,
-.header .nav-links a.active {
-  color: var(--fg);
-  background: var(--bg3);
-  border-color: var(--accent);
+
+.bmc-link { 
+  display: inline-flex; 
+  align-items: center; 
+  margin-left: auto; 
+  transition: transform 0.2s; 
 }
+.bmc-link:hover { transform: scale(1.05); }
+.bmc-link img { height: 32px !important; width: 116px !important; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.header-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+
+/* Cookie Banner */
+#cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(18, 18, 26, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 16px 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: opacity 0.4s, transform 0.4s;
+}
+#cookie-banner.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.cookie-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+.cookie-content p {
+  font-size: 14px;
+  color: var(--fg2);
+  flex: 1;
+  margin: 0;
+}
+.cookie-content button {
+  background: var(--fg);
+  color: var(--bg);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.cookie-content button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Quotes */
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+#footer-quote {
+  font-style: italic;
+  color: var(--fg2);
+  font-size: 15px;
+  margin-bottom: 12px;
+  min-height: 1.5em;
+}
+.footer-bottom {
+  font-size: 12px;
+  color: var(--fg2);
+}
+.footer-bottom a { color: var(--fg); text-decoration: none; opacity: 0.7; }
+.footer-bottom a:hover { opacity: 1; text-decoration: underline; }
+
 
 /* Metric selector */
 .controls {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 4px;
   padding: 20px 24px 8px;
   flex-wrap: wrap;
 }
 .metric-btn {
-  padding: 8px 18px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: var(--bg2);
+  padding: 6px 14px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: transparent;
   color: var(--fg2);
   cursor: pointer;
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: 500;
   font-family: inherit;
-  transition: all 0.25s ease;
+  transition: all 0.15s;
 }
-.metric-btn:hover { border-color: var(--fg2); color: var(--fg); }
-.metric-btn.active {
-  background: linear-gradient(135deg, #1a3a5c, #1a2d4a);
-  border-color: var(--accent);
+.metric-btn:hover {
+  background: rgba(255,255,255,0.04);
   color: var(--fg);
-  box-shadow: 0 0 12px rgba(88,166,255,0.15);
+}
+.metric-btn.active {
+  background: rgba(255,255,255,0.08);
+  color: var(--fg);
+  border-color: rgba(255,255,255,0.2);
 }
 
 /* Map container */
@@ -105,7 +211,6 @@ body {
 #map-container {
   position: relative;
   flex: 1;
-  max-width: 900px;
   min-width: 500px;
 }
 #map-svg {
@@ -115,7 +220,7 @@ body {
 }
 #map-svg .eu-country {
   stroke: rgba(255,255,255,0.25);
-  stroke-width: 0.8;
+  stroke-width: 2.5;
   cursor: pointer;
   transition: opacity 0.2s, stroke-width 0.15s;
 }
@@ -126,8 +231,8 @@ body {
   filter: brightness(1.2);
 }
 #map-svg .context-country {
-  fill: #1a1f2e;
-  stroke: rgba(255,255,255,0.08);
+  fill: #101018;
+  stroke: rgba(255,255,255,0.05);
   stroke-width: 0.5;
 }
 
@@ -138,19 +243,21 @@ body {
 }
 .legend-card {
   background: var(--bg2);
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 20px;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255,255,255,0.06);
 }
 .legend-title {
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
   margin-bottom: 16px;
-  color: var(--fg);
+  color: var(--fg2);
 }
 .legend-gradient {
-  height: 12px;
-  border-radius: 6px;
+  height: 10px;
+  border-radius: 2px;
   margin-bottom: 6px;
 }
 .legend-labels {
@@ -166,25 +273,25 @@ body {
   max-height: 500px;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: var(--bg3) transparent;
+  scrollbar-color: rgba(255,255,255,0.1) transparent;
 }
 .country-item {
   display: flex;
   align-items: center;
   padding: 6px 8px;
-  border-radius: 6px;
+  border-radius: 4px;
   cursor: pointer;
   transition: background 0.15s;
   gap: 10px;
   font-size: 13px;
 }
 .country-item:hover {
-  background: var(--bg3);
+  background: rgba(255,255,255,0.04);
 }
 .country-swatch {
-  width: 14px;
-  height: 14px;
-  border-radius: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
   flex-shrink: 0;
 }
 .country-name {
@@ -196,31 +303,32 @@ body {
 .country-value {
   font-weight: 500;
   font-variant-numeric: tabular-nums;
-  color: var(--accent);
+  color: var(--fg);
 }
 
 /* Tooltip */
 #tooltip {
   position: fixed;
   pointer-events: none;
-  background: rgba(13, 17, 23, 0.95);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(88,166,255,0.3);
-  border-radius: 10px;
-  padding: 14px 18px;
+  background: var(--bg2);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  padding: 12px 16px;
   font-size: 13px;
+  line-height: 1.5;
   z-index: 1000;
   opacity: 0;
-  transition: opacity 0.15s;
+  transition: opacity 0.12s;
   min-width: 200px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  max-width: 280px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
 }
 #tooltip.visible { opacity: 1; }
 #tooltip .tt-country {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   margin-bottom: 8px;
-  color: var(--accent);
+  color: #fff;
 }
 #tooltip .tt-row {
   display: flex;
@@ -228,8 +336,8 @@ body {
   padding: 2px 0;
   gap: 16px;
 }
-#tooltip .tt-label { color: var(--fg2); }
-#tooltip .tt-value { font-weight: 500; font-variant-numeric: tabular-nums; }
+#tooltip .tt-label { color: var(--fg2); font-size: 12px; }
+#tooltip .tt-value { font-weight: 500; font-variant-numeric: tabular-nums; font-size: 12px; }
 
 /* Footer */
 .footer {
@@ -237,10 +345,10 @@ body {
   padding: 20px;
   color: var(--fg2);
   font-size: 12px;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(255,255,255,0.06);
   margin-top: 24px;
 }
-.footer a { color: var(--accent); text-decoration: none; }
+.footer a { color: var(--fg2); text-decoration: none; }
 .footer a:hover { text-decoration: underline; }
 
 @media (max-width: 860px) {
@@ -251,19 +359,117 @@ body {
 </head>
 <body>
 
-<div class="header">
-  <h1><a href="index.html">EU Job Market Visualizer</a></h1>
-  <div class="nav-links">
-    <a href="index.html">🗂 Treemap</a>
-    <a href="map.html" class="active">🗺 Map View</a>
+<div id="wrapper">
+
+<div id="header">
+  <div class="intro">
+    <div class="header-top">
+      <h1>
+        <span data-i18n="title">European Job Market Visualizer</span>
+        <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">github.com/alexandrucruceanu/EU-jobs</a>
+      </h1>
+      <div style="display:flex; align-items:center; gap:16px;">
+        <a href="index.html" style="padding:4px 12px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2); text-decoration:none; white-space:nowrap;" title="Treemap View">▤ Treemap</a>
+        <a href="https://buymeacoffee.com/alexander_th" target="_blank" class="bmc-link">
+          <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
+        </a>
+        <select id="languageSelect" style="padding:4px 8px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
+          <option value="en">English (EN)</option>
+          <option value="bg">Bulgarian (BG)</option>
+          <option value="cs">Czech (CS)</option>
+          <option value="da">Danish (DA)</option>
+          <option value="de">German (DE)</option>
+          <option value="el">Greek (EL)</option>
+          <option value="es">Spanish (ES)</option>
+          <option value="et">Estonian (ET)</option>
+          <option value="fi">Finnish (FI)</option>
+          <option value="fr">French (FR)</option>
+          <option value="ga">Irish (GA)</option>
+          <option value="hr">Croatian (HR)</option>
+          <option value="hu">Hungarian (HU)</option>
+          <option value="it">Italian (IT)</option>
+          <option value="lt">Lithuanian (LT)</option>
+          <option value="lv">Latvian (LV)</option>
+          <option value="mt">Maltese (MT)</option>
+          <option value="nl">Dutch (NL)</option>
+          <option value="pl">Polish (PL)</option>
+          <option value="pt">Portuguese (PT)</option>
+          <option value="ro">Romanian (RO)</option>
+          <option value="sk">Slovak (SK)</option>
+          <option value="sl">Slovenian (SL)</option>
+          <option value="sv">Swedish (SV)</option>
+        </select>
+        <select id="regionSelect" style="padding:4px 8px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
+          <option value="eu" data-i18n="region_eu">European Union (EU)</option>
+          <option value="at" data-i18n="region_at">Austria (AT)</option>
+          <option value="be" data-i18n="region_be">Belgium (BE)</option>
+          <option value="bg" data-i18n="region_bg">Bulgaria (BG)</option>
+          <option value="cy" data-i18n="region_cy">Cyprus (CY)</option>
+          <option value="cz" data-i18n="region_cz">Czechia (CZ)</option>
+          <option value="de" data-i18n="region_de">Germany (DE)</option>
+          <option value="dk" data-i18n="region_dk">Denmark (DK)</option>
+          <option value="ee" data-i18n="region_ee">Estonia (EE)</option>
+          <option value="el" data-i18n="region_el">Greece (EL)</option>
+          <option value="es" data-i18n="region_es">Spain (ES)</option>
+          <option value="fi" data-i18n="region_fi">Finland (FI)</option>
+          <option value="fr" data-i18n="region_fr">France (FR)</option>
+          <option value="hr" data-i18n="region_hr">Croatia (HR)</option>
+          <option value="hu" data-i18n="region_hu">Hungary (HU)</option>
+          <option value="ie" data-i18n="region_ie">Ireland (IE)</option>
+          <option value="it" data-i18n="region_it">Italy (IT)</option>
+          <option value="lt" data-i18n="region_lt">Lithuania (LT)</option>
+          <option value="lu" data-i18n="region_lu">Luxembourg (LU)</option>
+          <option value="lv" data-i18n="region_lv">Latvia (LV)</option>
+          <option value="mt" data-i18n="region_mt">Malta (MT)</option>
+          <option value="nl" data-i18n="region_nl">Netherlands (NL)</option>
+          <option value="pl" data-i18n="region_pl">Poland (PL)</option>
+          <option value="pt" data-i18n="region_pt">Portugal (PT)</option>
+          <option value="ro" data-i18n="region_ro">Romania (RO)</option>
+          <option value="se" data-i18n="region_se">Sweden (SE)</option>
+          <option value="si" data-i18n="region_si">Slovenia (SI)</option>
+          <option value="sk" data-i18n="region_sk">Slovakia (SK)</option>
+        </select>
+      </div>
+    </div>
+    <p data-i18n="intro1_html">This is a research tool that visualizes <b>over 400 occupations</b> from the <a href="https://ec.europa.eu/esco/portal/home">ESCO framework</a>, covering the European job market. Each rectangle's <b>area</b> is proportional to total employment. <b>Color</b> shows the selected metric &mdash; toggle between projected growth outlook, median pay, education requirements, and AI exposure. Click any tile to view its full ESCO page. This is not a report, a paper, or a serious economic publication &mdash; it is a development tool for exploring EU data visually.</p>
+    <p data-i18n="intro2_html"><b>LLM-powered coloring:</b> The <a href="https://github.com/karpathy/jobs">source code</a> includes scrapers, parsers, and a pipeline for writing custom LLM prompts to score and color occupations by any criteria. You write a prompt, the LLM scores each occupation, and the treemap colors accordingly. The "Digital AI Exposure" option is one example &mdash; it estimates how much current AI (which is primarily digital) will reshape each occupation. But you could write a different prompt for any question &mdash; e.g. exposure to humanoid robotics, offshoring risk, climate impact &mdash; and re-run the pipeline to get a different coloring.</p>
+    <details>
+      <summary data-i18n="prompt_summary">View the Digital AI Exposure scoring prompt (example)</summary>
+      <div class="prompt-box">You are an expert analyst evaluating how exposed different occupations are to AI. You will be given a detailed description of an occupation from the ESCO framework (European Skills, Competences, Qualifications and Occupations).
+
+Rate the occupation's overall AI Exposure on a scale from 0 to 10.
+
+AI Exposure measures: how much will AI reshape this occupation? Consider both direct effects (AI automating tasks currently done by humans) and indirect effects (AI making each worker so productivity that fewer are needed).
+
+A key signal is whether the job's work product is fundamentally digital. If the job can be done entirely from a home office on a computer — writing, coding, analyzing, communicating — then AI exposure is inherently high (7+), because AI capabilities in digital domains are advancing rapidly. Even if today's AI can't handle every aspect of such a job, the trajectory is steep and the ceiling is very high. Conversely, jobs requiring physical presence, manual skill, or real-time human interaction in the physical world have a natural barrier to AI exposure.
+
+Use these anchors to calibrate your score:
+
+- 0–1: Minimal exposure. The work is almost entirely physical, hands-on, or requires real-time human presence in unpredictable environments. AI has essentially no impact on daily work. Examples: roofer, landscaper, commercial diver.
+
+- 2–3: Low exposure. Mostly physical or interpersonal work. AI might help with minor peripheral tasks (scheduling, paperwork) but doesn't touch the core job. Examples: electrician, plumber, firefighter, dental hygienist.
+
+- 4–5: Moderate exposure. A mix of physical/interpersonal work and knowledge work. AI can meaningfully assist with the information-processing parts but a substantial share of the job still requires human presence. Examples: registered nurse, police officer, veterinarian.
+
+- 6–7: High exposure. Predominantly knowledge work with some need for human judgment, relationships, or physical presence. AI tools are already useful and workers using AI may be substantially more productive. Examples: teacher, manager, accountant, journalist.
+
+- 8–9: Very high exposure. The job is almost entirely done on a computer. All core tasks — writing, coding, analyzing, designing, communicating — are in domains where AI is rapidly improving. The occupation faces major restructuring. Examples: software developer, graphic designer, translator, data analyst, paralegal, copywriter.
+
+- 10: Maximum exposure. Routine information processing, fully digital, with no physical component. AI can already do most of it today. Examples: data entry clerk, telemarketer.
+
+Respond with ONLY a JSON object in this exact format, no other text:
+{"exposure": &lt;0-10&gt;, "rationale": "&lt;2-3 sentences explaining the key factors&gt;"}</div>
+    </details>
+    <p data-i18n="caveat_html"><b>Caveat on Digital AI Exposure scores:</b> These are rough LLM estimates, not rigorous predictions. A high score does not predict the job will disappear. Software developers score 9/10 because AI is transforming their work &mdash; but demand for software could easily <em>grow</em> as each developer becomes more productive. The score does not account for demand elasticity, latent demand, regulatory barriers, or social preferences for human workers. Many high-exposure jobs will be reshaped, not replaced.</p>
+    <p data-i18n="methodology_html"><b>Data Methodology:</b> Total Employment reflects exact EU27 2023 Eurostat census figures (198M). Because granular 4-digit socio-economic data is statistically suppressed across all 27 member states, Growth, Pay, and Education metrics are algorithmic approximations imputed directly from official Eurostat 2-digit broad category averages.</p>
   </div>
 </div>
 
 <div class="controls" id="metric-controls">
-  <button class="metric-btn active" data-metric="total_jobs">Total Employment</button>
-  <button class="metric-btn" data-metric="avg_growth">Growth Outlook</button>
-  <button class="metric-btn" data-metric="avg_pay">Median Pay</button>
-  <button class="metric-btn" data-metric="avg_exposure">AI Exposure</button>
+  <button class="metric-btn active" data-metric="total_jobs" data-i18n="total_jobs">Total Employment</button>
+  <button class="metric-btn" data-metric="avg_growth" data-i18n="avg_outlook">Growth Outlook</button>
+  <button class="metric-btn" data-metric="avg_pay" data-i18n="avg_pay">Median Pay</button>
+  <button class="metric-btn" data-metric="avg_exposure" data-i18n="avg_exposure">AI Exposure</button>
 </div>
 
 <div class="map-wrapper">
@@ -292,11 +498,31 @@ body {
 </div>
 
 <div class="footer">
-  Data: <a href="https://ec.europa.eu/eurostat" target="_blank">Eurostat</a> &middot;
-  <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">GitHub</a>
+  <div id="footer-quote"></div>
+  <div class="footer-bottom">
+    Data: <a href="https://ec.europa.eu/eurostat" target="_blank">Eurostat</a> &middot;
+    <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">GitHub</a>
+  </div>
 </div>
 
+</div> <!-- /#wrapper -->
+
 <script>
+window.__i18n = {};
+function _t(key) { return window.__i18n[key] || key; }
+
+function applyI18nToDOM() {
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const v = _t(el.getAttribute("data-i18n"));
+    if (v) el.innerHTML = v;
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    const v = _t(el.getAttribute("data-i18n-placeholder"));
+    if (v) el.placeholder = v;
+  });
+  if (window.updateFunnyFooter) window.updateFunnyFooter();
+}
+
 const COUNTRY_NAMES = {
   at:"Austria",be:"Belgium",bg:"Bulgaria",cy:"Cyprus",cz:"Czechia",
   de:"Germany",dk:"Denmark",ee:"Estonia",el:"Greece",es:"Spain",
@@ -308,59 +534,72 @@ const COUNTRY_NAMES = {
 
 const METRIC_CONFIG = {
   total_jobs: {
-    label: "Total Employment",
+    labelKey: "total_jobs",
     format: v => v >= 1e6 ? (v/1e6).toFixed(1)+"M" : (v/1e3).toFixed(0)+"K",
-    colorScale: ["#0d2137", "#1a4a7a", "#2a7ab5", "#4db8e8", "#7dd3fc", "#bae6fd"],
-    unit: "jobs"
+    unit: "jobs",
+    colorFn: (t, _) => greenRedCSS(1 - t),
+    gradientCSS: null
   },
   avg_growth: {
     label: "Growth Outlook (%)",
     format: v => v.toFixed(1)+"%",
-    colorScale: ["#7f1d1d", "#b91c1c", "#dc7d26", "#eab308", "#84cc16", "#22c55e"],
-    unit: "%"
+    unit: "%",
+    // Growth: red(bad) → green(good), same as treemap
+    colorFn: (t, _) => greenRedCSS(1 - t),
+    gradientCSS: null  // built dynamically
   },
   avg_pay: {
     label: "Median Annual Pay (€)",
     format: v => "€"+Math.round(v/1000)+"K",
-    colorScale: ["#1a1a2e", "#2d1b69", "#5b21b6", "#7c3aed", "#a78bfa", "#c4b5fd"],
-    unit: "€"
+    unit: "€",
+    // Pay: red(low) → green(high), same as treemap
+    colorFn: (t, _) => greenRedCSS(1 - t),
+    gradientCSS: null
   },
   avg_exposure: {
     label: "AI Exposure (0-10)",
     format: v => v.toFixed(1),
-    colorScale: ["#064e3b", "#065f46", "#047857", "#d97706", "#dc2626", "#991b1b"],
-    unit: "/10"
+    unit: "/10",
+    // Exposure: green(low) → red(high), same as treemap
+    colorFn: (t, _) => greenRedCSS(t),
+    gradientCSS: null
   }
 };
 
 let mapPaths, summaryData, currentMetric = "total_jobs";
 
-function lerp(a, b, t) { return a + (b - a) * t; }
+// ── Color functions (same as treemap) ──────────────────────────────────
 
-function interpolateColor(colors, t) {
-  t = Math.max(0, Math.min(1, t));
-  const idx = t * (colors.length - 1);
-  const lo = Math.floor(idx), hi = Math.ceil(idx);
-  const frac = idx - lo;
-  const c1 = hexToRgb(colors[lo]), c2 = hexToRgb(colors[hi]);
-  const r = Math.round(lerp(c1.r, c2.r, frac));
-  const g = Math.round(lerp(c1.g, c2.g, frac));
-  const b = Math.round(lerp(c1.b, c2.b, frac));
+function boostContrast(t) {
+  const c = (t - 0.5) * 2;
+  const b = Math.sign(c) * Math.pow(Math.abs(c), 0.55);
+  return b / 2 + 0.5;
+}
+
+function greenRedCSS(t) {
+  t = boostContrast(Math.max(0, Math.min(1, t)));
+  let r, g, b;
+  if (t < 0.5) {
+    const s = t / 0.5;
+    r = Math.round(30 + s * 200);
+    g = Math.round(180 - s * 20);
+    b = Math.round(40 - s * 20);
+  } else {
+    const s = (t - 0.5) / 0.5;
+    r = Math.round(230 + s * 25);
+    g = Math.round(160 - s * 130);
+    b = Math.round(20 - s * 5);
+  }
   return `rgb(${r},${g},${b})`;
 }
 
-function hexToRgb(hex) {
-  const v = parseInt(hex.slice(1), 16);
-  return { r: (v>>16)&255, g: (v>>8)&255, b: v&255 };
-}
-
 function getCountryColor(code, metric) {
-  if (!summaryData[code]) return "#1a1f2e";
+  if (!summaryData[code]) return "#101018";
   const val = summaryData[code][metric];
   const vals = Object.keys(summaryData).filter(k=>k!=="eu").map(k=>summaryData[k][metric]);
   const min = Math.min(...vals), max = Math.max(...vals);
   const t = max > min ? (val - min) / (max - min) : 0.5;
-  return interpolateColor(METRIC_CONFIG[metric].colorScale, t);
+  return METRIC_CONFIG[metric].colorFn(t);
 }
 
 function renderMap() {
@@ -396,8 +635,8 @@ function renderMap() {
   // Add Malta as a circle (too small for natural earth 110m)
   if (!mapPaths.eu.mt) {
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-    circle.setAttribute("cx", "530");
-    circle.setAttribute("cy", "630");
+    circle.setAttribute("cx", "548");
+    circle.setAttribute("cy", "615");
     circle.setAttribute("r", "5");
     circle.setAttribute("class", "eu-country");
     circle.setAttribute("data-code", "mt");
@@ -420,16 +659,28 @@ function updateColors() {
     const code = el.getAttribute("data-code");
     el.setAttribute("fill", getCountryColor(code, currentMetric));
   });
+  updateLegendTitle();
   updateLegend();
   updateCountryList();
 }
 
 function updateLegend() {
   const cfg = METRIC_CONFIG[currentMetric];
-  document.getElementById("legend-title").textContent = cfg.label;
+  // title updated separately vía updateLegendTitle()
 
+  // Build gradient from color function
   const gradient = document.getElementById("legend-gradient");
-  gradient.style.background = `linear-gradient(to right, ${cfg.colorScale.join(", ")})`;
+  if (cfg.gradientCSS) {
+    gradient.style.background = cfg.gradientCSS;
+  } else {
+    // Generate gradient from the color function
+    const stops = [];
+    for (let i = 0; i <= 10; i++) {
+      const t = i / 10;
+      stops.push(cfg.colorFn(t));
+    }
+    gradient.style.background = `linear-gradient(to right, ${stops.join(", ")})`;
+  }
 
   const vals = Object.keys(summaryData).filter(k=>k!=="eu").map(k=>summaryData[k][currentMetric]);
   document.getElementById("legend-min").textContent = cfg.format(Math.min(...vals));
@@ -446,9 +697,11 @@ function updateCountryList() {
   list.innerHTML = entries.map(code => {
     const color = getCountryColor(code, currentMetric);
     const val = cfg.format(summaryData[code][currentMetric]);
+    let countryLabel = _t("region_" + code) || COUNTRY_NAMES[code];
+    countryLabel = countryLabel.replace(/\\s\\([A-Z]{2}\\)$/, "");
     return `<div class="country-item" data-code="${code}" onclick="window.location.href='index.html?region=${code}'">
       <div class="country-swatch" style="background:${color}"></div>
-      <span class="country-name">${COUNTRY_NAMES[code]}</span>
+      <span class="country-name">${countryLabel}</span>
       <span class="country-value">${val}</span>
     </div>`;
   }).join("");
@@ -459,7 +712,9 @@ function onCountryHover(e) {
   if (!summaryData[code]) return;
   const d = summaryData[code];
   const tt = document.getElementById("tooltip");
-  document.getElementById("tt-country").textContent = COUNTRY_NAMES[code] || code.toUpperCase();
+  let countryLabel = _t("region_" + code) || COUNTRY_NAMES[code] || code.toUpperCase();
+  countryLabel = countryLabel.replace(/\\s\\([A-Z]{2}\\)$/, "");
+  document.getElementById("tt-country").textContent = countryLabel;
   document.getElementById("tt-jobs").textContent = METRIC_CONFIG.total_jobs.format(d.total_jobs);
   document.getElementById("tt-growth").textContent = d.avg_growth.toFixed(1) + "%";
   document.getElementById("tt-pay").textContent = "€" + Math.round(d.avg_pay).toLocaleString();
@@ -490,6 +745,50 @@ document.querySelectorAll(".metric-btn").forEach(btn => {
   });
 });
 
+function updateLegendTitle() {
+  const cfg = METRIC_CONFIG[currentMetric];
+  document.getElementById("legend-title").textContent = _t(cfg.labelKey) || cfg.labelKey;
+}
+
+function loadLanguage(lang) {
+  fetch("i18n/" + lang + ".json?v=" + new Date().getTime())
+    .then(r => r.json())
+    .then(dict => {
+      window.__i18n = dict;
+      applyI18nToDOM();
+      updateLegendTitle();
+      // Update country names in legend list and tooltip
+      if (summaryData && mapPaths) {
+        renderMap();
+      }
+    }).catch(e => console.error("Missing translation:", e));
+}
+
+function getBestLanguage() {
+  const supported = ["bg", "cs", "da", "de", "el", "en", "es", "et", "fi", "fr", "ga", "hr", "hu", "it", "lt", "lv", "mt", "nl", "pl", "pt", "ro", "sk", "sl", "sv"];
+  const browserLangs = navigator.languages || [navigator.language];
+  for (let l of browserLangs) {
+    const code = l.split("-")[0].toLowerCase();
+    if (supported.includes(code)) return code;
+  }
+  return "en";
+}
+
+document.getElementById("languageSelect").addEventListener("change", (e) => loadLanguage(e.target.value));
+
+document.getElementById("regionSelect").addEventListener("change", (e) => {
+  if (e.target.value === "eu") return;
+  window.location.href = "index.html?region=" + e.target.value;
+});
+
+const urlParams = new URLSearchParams(window.location.search);
+const initialLang = urlParams.get("lang") || getBestLanguage();
+document.getElementById("languageSelect").value = initialLang;
+loadLanguage(initialLang);
+
+const initialRegion = urlParams.get("region") || "eu";
+document.getElementById("regionSelect").value = initialRegion;
+
 // Load data
 Promise.all([
   fetch("eu_map_paths.json").then(r => r.json()),
@@ -500,5 +799,6 @@ Promise.all([
   renderMap();
 });
 </script>
+<script src="shared.js"></script>
 </body>
 </html>

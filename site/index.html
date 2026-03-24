@@ -98,6 +98,76 @@ body {
 .intro summary:hover { color: var(--fg); }
 .header-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
 
+/* Cookie Banner */
+#cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: rgba(18, 18, 26, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 16px 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: opacity 0.4s, transform 0.4s;
+}
+#cookie-banner.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.cookie-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  width: 100%;
+}
+.cookie-content p {
+  font-size: 14px;
+  color: var(--fg2);
+  flex: 1;
+  margin: 0;
+}
+.cookie-content button {
+  background: var(--fg);
+  color: var(--bg);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.cookie-content button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+#footer-quote {
+  font-style: italic;
+  color: var(--fg2);
+  font-size: 15px;
+  margin-bottom: 12px;
+  min-height: 1.5em;
+}
+.footer-bottom {
+  font-size: 12px;
+  color: var(--fg2);
+}
+.footer-bottom a { color: var(--fg); text-decoration: none; opacity: 0.7; }
+.footer-bottom a:hover { opacity: 1; text-decoration: underline; }
+
 .intro .prompt-box {
   margin-top: 8px;
   background: rgba(0,0,0,0.3);
@@ -367,7 +437,7 @@ Respond with ONLY a JSON object in this exact format, no other text:
     </div>
     <div class="gradient-legend">
       <span id="legendLow" data-i18n="legend_declining">Declining</span>
-      <canvas id="gradientLegend" width="80" height="8"></canvas>
+      <canvas id="gradientLegend" width="200" height="10"></canvas>
       <span id="legendHigh" data-i18n="legend_growing">Growing</span>
     </div>
   </div>
@@ -388,6 +458,15 @@ Respond with ONLY a JSON object in this exact format, no other text:
 </div>
 
 <canvas id="canvas"></canvas>
+
+<div class="footer">
+  <div id="footer-quote"></div>
+  <div class="footer-bottom">
+    Data: <a href="https://ec.europa.eu/eurostat" target="_blank">Eurostat</a> &middot;
+    <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">GitHub</a>
+  </div>
+</div>
+
 </div>
 
 <div id="tooltip">
@@ -410,6 +489,7 @@ function _t_job(title) {
 
 let colorMode = "outlook";
 let searchTerm = "";
+let payMin = 25000, payMax = 250000;  // dynamic pay range, updated on data load
 
 function boostContrast(t) {
   const c = (t - 0.5) * 2;
@@ -452,7 +532,8 @@ function outlookColor(v, a) {
 }
 function payColor(v, a) {
   if (v == null) return `rgba(128,128,128,${a})`;
-  const t = 1 - (Math.log(Math.max(25000, Math.min(250000, v))) - Math.log(25000)) / (Math.log(250000) - Math.log(25000));
+  const lo = Math.max(1, payMin), hi = Math.max(lo + 1, payMax);
+  const t = 1 - (Math.log(Math.max(lo, Math.min(hi, v))) - Math.log(lo)) / (Math.log(hi) - Math.log(lo));
   return greenRedCSS(t, a);
 }
 function eduColor(idx, a) {
@@ -762,7 +843,7 @@ function tooltipHighlight(d) {
     const color = payColor(v, 1);
     return `<span style="color:${color};font-weight:600;">${_t("tt_median_pay")}: ${formatPay(v)}</span>` +
       `<div style="margin-top:3px;height:4px;background:rgba(255,255,255,0.08);border-radius:2px;">` +
-      `<div style="height:100%;width:${Math.min(100, v / 150000 * 100)}%;background:${color};border-radius:2px;"></div></div>`;
+      `<div style="height:100%;width:${Math.min(100, v / payMax * 100)}%;background:${color};border-radius:2px;"></div></div>`;
   } else if (colorMode === "education") {
     const edu = d.education || "";
     const idx = EDU_LEVELS.indexOf(edu);
@@ -925,17 +1006,25 @@ function updatePayStats(totalJobs) {
     <div class="stat-big"><span style="color:${payColor(avg, 1)}">&euro;${Math.round(avg / 1000)}K</span></div>
     <div class="stat-label">${_t("job_weighted")}</div>`;
 
-  // Histogram
-  const buckets = [
-    { lo: 0, hi: 30000, mid: 25000 }, { lo: 30000, hi: 40000, mid: 35000 }, { lo: 40000, hi: 55000, mid: 47000 },
-    { lo: 55000, hi: 75000, mid: 65000 }, { lo: 75000, hi: 100000, mid: 87000 }, { lo: 100000, hi: Infinity, mid: 130000 },
-  ];
+  // Histogram — dynamic buckets based on dataset pay range
+  const NUM_BUCKETS = 10;
+  const histStart = Math.floor(payMin / 10000) * 10000;  // round down to nearest 10K
+  const histEnd = Math.ceil(payMax / 10000) * 10000;     // round up to nearest 10K
+  const step = Math.max(5000, Math.round((histEnd - histStart) / NUM_BUCKETS / 1000) * 1000);
+  const buckets = [];
+  for (let i = 0; i < NUM_BUCKETS; i++) {
+    const lo = histStart + i * step;
+    const hi = (i === NUM_BUCKETS - 1) ? Infinity : histStart + (i + 1) * step;
+    buckets.push({ lo, hi, mid: lo + step / 2 });
+  }
   const histJobs = buckets.map(() => 0);
   for (const d of data) { if (d.pay != null && d.jobs) { const i = buckets.findIndex(b => d.pay >= b.lo && d.pay < b.hi); if (i >= 0) histJobs[i] += d.jobs; } }
   const maxH = Math.max(...histJobs);
+  const fmtK = v => v >= 1000 ? "€" + Math.round(v / 1000) + "K" : "€" + v;
+  const midIdx = Math.floor(NUM_BUCKETS / 2);
   document.getElementById("block3").innerHTML = `<h3>${_t("jobs_by_pay")}</h3>
     <div class="histogram">${histJobs.map((c, i) => `<div class="bar" style="height:${Math.max(2, maxH > 0 ? c / maxH * 100 : 0)}%;background:${payColor(buckets[i].mid, 0.7)}"></div>`).join("")}</div>
-    <div class="hist-labels"><span>&euro;30K</span><span>&euro;65K</span><span>&euro;100K+</span></div>`;
+    <div class="hist-labels"><span>${fmtK(buckets[0].lo)}</span><span>${fmtK(buckets[midIdx].lo)}</span><span>${fmtK(buckets[NUM_BUCKETS-1].lo)}+</span></div>`;
 
   // Tiers
   const tiers = PAY_BANDS.map(t => {
@@ -949,7 +1038,7 @@ function updatePayStats(totalJobs) {
   const byEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.pay);
   document.getElementById("block5").innerHTML = `<h3>${_t("pay_by_education")}</h3><div class="hbar-chart">${renderHbars(byEdu.map(g => ({
     label: g.label, val: "\u20ac" + Math.round(g.avg / 1000) + "K",
-    pct: Math.max(0, Math.min(100, (Math.log(Math.max(25000, g.avg)) - Math.log(25000)) / (Math.log(250000) - Math.log(25000)) * 100)),
+    pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
 
@@ -957,7 +1046,7 @@ function updatePayStats(totalJobs) {
   const byOl = weightedAvgByGroups(OUTLOOK_TIERS, (d, g) => d.outlook != null && d.outlook >= g.min && d.outlook <= g.max, d => d.pay);
   document.getElementById("block6").innerHTML = `<h3>${_t("pay_by_outlook")}</h3><div class="hbar-chart">${renderHbars(byOl.map(g => ({
     label: g.label.replace(/ \(.*/, ""), val: "\u20ac" + Math.round(g.avg / 1000) + "K",
-    pct: Math.max(0, Math.min(100, (Math.log(Math.max(25000, g.avg)) - Math.log(25000)) / (Math.log(250000) - Math.log(25000)) * 100)),
+    pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
 
@@ -999,7 +1088,7 @@ function updateEducationStats(totalJobs) {
   const payByEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.pay);
   document.getElementById("block5").innerHTML = `<h3>${_t("avg_pay_by_edu")}</h3><div class="hbar-chart">${renderHbars(payByEdu.map(g => ({
     label: g.label, val: "\u20ac" + Math.round(g.avg / 1000) + "K",
-    pct: Math.max(0, Math.min(100, (Math.log(Math.max(25000, g.avg)) - Math.log(25000)) / (Math.log(250000) - Math.log(25000)) * 100)),
+    pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
 
@@ -1087,22 +1176,24 @@ function resize() { dpr = window.devicePixelRatio || 1; layout(); draw(); }
 
 // ── Legend gradient ────────────────────────────────────────────────────
 
-const LEGEND_CONFIG = {
-  exposure:  { low: "Low", high: "High" },
-  outlook:   { low: "Declining", high: "Growing" },
-  pay:       { low: "\u20ac25K", high: "\u20ac250K" },
-  education: { low: "No degree", high: "Doctoral" },
-};
+function getLegendConfig() {
+  return {
+    exposure:  { low: "Low", high: "High" },
+    outlook:   { low: "Declining", high: "Growing" },
+    pay:       { low: "\u20ac" + Math.round(payMin / 1000) + "K", high: "\u20ac" + Math.round(payMax / 1000) + "K" },
+    education: { low: "No degree", high: "Doctoral" },
+  };
+}
 
 function drawGradientLegend() {
   const c = document.getElementById("gradientLegend");
   const gctx = c.getContext("2d");
-  for (let x = 0; x < 80; x++) {
-    const t = x / 79;
+  for (let x = 0; x < 200; x++) {
+    const t = x / 199;
     gctx.fillStyle = colorMode === "exposure" ? greenRedCSS(t, 1) : greenRedCSS(1 - t, 1);
-    gctx.fillRect(x, 0, 1, 8);
+    gctx.fillRect(x, 0, 1, 10);
   }
-  const cfg = LEGEND_CONFIG[colorMode];
+  const cfg = getLegendConfig()[colorMode];
   document.getElementById("legendLow").textContent = cfg.low;
   document.getElementById("legendHigh").textContent = cfg.high;
 }
@@ -1133,6 +1224,7 @@ function applyI18nToDOM() {
     const key = el.getAttribute("data-i18n-placeholder");
     if (window.__i18n[key]) el.placeholder = window.__i18n[key];
   });
+  if (window.updateFunnyFooter) window.updateFunnyFooter();
 }
 
 function loadLanguage(lang) {
@@ -1176,6 +1268,10 @@ function loadData(region) {
     .then(r => r.json())
     .then(d => {
       data = d;
+      // Compute dynamic pay range for this dataset
+      const pays = data.filter(x => x.pay != null).map(x => x.pay);
+      payMin = pays.length > 0 ? Math.min(...pays) : 25000;
+      payMax = pays.length > 0 ? Math.max(...pays) : 250000;
       updateStats();
       drawGradientLegend();
       resize();
@@ -1197,5 +1293,6 @@ loadData(initialRegion);
 
 window.addEventListener("resize", resize);
 </script>
+<script src="shared.js"></script>
 </body>
 </html>
