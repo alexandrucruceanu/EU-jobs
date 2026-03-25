@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5329",
+  "title": "Personal care workers in health services not elsewhere classified",
+  "preferredLabel": {
+    "no": "Andre pleiemedarbeidere",
+    "de": "Betreuungsberufe im Gesundheitswesen, anderweitig nicht genannt",
+    "sv": "Övrig vård- och omsorgspersonal",
+    "fi": "Muut terveydenhuoltoalan työntekijät",
+    "pt": "Outros trabalhadores de serviços de assistência pessoal nos serviços de saúde",
+    "bg": "Персонал, полагащ здравни грижи за хора, некласифициран другаде",
+    "el": "Απασχολούμενοι στην παροχή ατομικής φροντίδας στον τομέα των υπηρεσιών υγείας π.δ.κ.α.",
+    "mt": "Ħaddiema involuti fil-kura personali li mhumiex imsemmija x’imkien ieħor",
+    "lt": "Kitur nepriskirti asmens sveikatos priežiūros darbuotojai",
+    "en": "Personal care workers in health services not elsewhere classified",
+    "hr": "Djelatnici/djelatnice za zdravstvenu i socijalnu skrb, d.n.",
+    "lv": "Citur neklasificēti individuālās aprūpes darbinieki veselības pakalpojumu jomā",
+    "it": "Addetti all’assistenza alle persone nei servizi sanitari non classificati altrove",
+    "fr": "Personnel soignant et assimilé, non classé ailleurs",
+    "hu": "Máshová nem sorolható személygondozási foglalkozásúak (egészségügyben)",
+    "es": "Trabajadores de los cuidados personales en servicios de salud no clasificados bajo otros epígrafes",
+    "et": "Hooldustöötajad meditsiiniasutustes, mujal liigitamata",
+    "cs": "Pracovníci osobní péče v oblasti zdravotnictví jinde neuvedení",
+    "sk": "Pracovníci v oblasti osobnej zdravotnej starostlivosti inde neuvedení",
+    "sl": "Poklici za socialno oskrbo, d. n.",
+    "pl": "Pracownicy opieki osobistej w usługach zdrowotnych gdzie indziej niesklasyfikowani",
+    "ro": "Personal de îngrijire în domeniul sănătății neclasificat în grupele de bază anterioare",
+    "da": "Andet omsorgsarbejde inden for sundhedsområdet",
+    "nl": "Verzorgend personeel in de gezondheidszorg, niet elders geclassificeerd"
+  },
+  "code": "5329",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5329"
+    },
+    {
+      "datatype": "",
+      "value": "5329"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers providers of routine health and personal care support services not classified elsewhere in Minor Group 532: Personal Care Workers in Health Services.  For instance, the group includes occupations such as dental aid, sterilization aid, hospital orderly, medical imaging assistant, and pharmacy aid.\nIn such cases tasks would include -\n(a)  cleaning and sterilizing surgical, dental and pharmaceutical instruments, bottles, beakers and other equipment;\n(b)  labelling drugs, chemicals and other pharmaceutical preparations and replenishing stock on shelves;\n(c)  lifting, turning and moving patients and transporting them in wheelchairs or on moveable beds;\n(d)  preparing patients for examination or treatment;\n(e)  setting up instrument trays, preparing materials, and assisting dentists or radiographers during  procedures;\n(f)  exposing diagnostic X-rays.\nExamples of the occupations classified here:\n- Dental aide\n- First aid attendant\n- Hospital orderly\n- Medical imaging assistant\n- Pharmacy aide\n- Phlebotomist\n- Sterilization aide\nSome related occupations classified elsewhere:\n- Pharmaceutical assistant - 3213\n- Dental technician - 3214\n- Dental assistant - 3251\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5329&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5329",
+      "title": "Personal care workers in health services not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C532&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C532",
+        "title": "Personal care workers in health services",
+        "code": "532"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5ee264b2-9bc5-40f6-9db3-c87143af6b2d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5ee264b2-9bc5-40f6-9db3-c87143af6b2d",
+        "title": "phlebotomist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a30734bb-2f10-4747-a94c-75f5ec3c63a4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a30734bb-2f10-4747-a94c-75f5ec3c63a4",
+        "title": "hospital porter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7005c266-d1a9-42ac-8c36-b42d5d755463&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7005c266-d1a9-42ac-8c36-b42d5d755463",
+        "title": "sterile services technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3352",
+  "title": "Government tax and excise officials",
+  "preferredLabel": {
+    "no": "Skattefunksjonærer",
+    "de": "Fachkräfte in der Steuerverwaltung",
+    "fi": "Verovalmistelijat ja -tarkastajat",
+    "sv": "Taxeringstjänstemän",
+    "pt": "Agentes dos impostos",
+    "bg": "Служители в държавната администрация, извършващи данъчен и финансов контрол",
+    "mt": "Uffiċjali tat-taxxa u tas-sisa",
+    "el": "Υπάλληλοι δημόσιων οικονομικών υπηρεσιών, ειδικοί επί φορολογικών θεμάτων",
+    "lt": "Mokesčių ir akcizo tarnybų pareigūnai",
+    "en": "Government tax and excise officials",
+    "hr": "Poreznici/poreznice",
+    "lv": "Valsts nodokļu inspektori",
+    "it": "Agenti delle tasse e delle imposte",
+    "fr": "Contrôleurs des impôts",
+    "hu": "Adóhatósági ügyintézők",
+    "es": "Agentes de administración tributaria",
+    "et": "Maksu- ja aktsiisiametnikud",
+    "cs": "Pracovníci veřejné správy v oblasti daní",
+    "sk": "Štátni úradníci v daňovej oblasti",
+    "sl": "Davkarji/davkarice",
+    "pl": "Urzędnicy do spraw podatków",
+    "da": "Administration af skatte- og afgiftslovgivning",
+    "ro": "Inspectori fiscali",
+    "nl": "Ambtenaren: belastingen en accijnzen"
+  },
+  "code": "3352",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3352"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3352"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Government tax and excise officials examine tax returns, bills of sale and other documents to determine the type and amount of taxes, duties and other types of fees to be paid by individuals or businesses, referring exceptional or important cases to accountants, senior government officials or managers.\nTasks include -\n(a)  advising organizations, enterprises and the public on government laws, rules and regulations concerning the determination and payment of taxes, duties and other government fees, and on the public’s rights and obligations;\n(b)  examining tax returns, bills of sale and other relevant documents to determine types and amounts of taxes, duties and other types of fees to be paid;\n(c)  investigating filed tax returns and accounting records, systems and internal controls of organizations to ensure compliance with taxation laws and regulations;\n(d)  performing related administrative tasks to document findings, maintain records and report on actions taken for cases.\nExamples of the occupations classified here:\n- Excise officer\n- Taxation inspector\n- Tax officer\nSome related occupations classified elsewhere: \n- Accountant - 2411 \n- Auditor - 2411\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3352&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3352",
+      "title": "Government tax and excise officials"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C335&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C335",
+        "title": "Regulatory government associate professionals",
+        "code": "335"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4a39fddb-17e7-4431-be03-613edab8d1c8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4a39fddb-17e7-4431-be03-613edab8d1c8",
+        "title": "tax compliance officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c766198e-5b9c-4c85-9fef-be27c783ab19&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c766198e-5b9c-4c85-9fef-be27c783ab19",
+        "title": "tax inspector"
+      }
+    ]
+  },
+  "_embedded": {}
+}

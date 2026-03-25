@@ -1,0 +1,83 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3253",
+  "title": "Community health workers",
+  "preferredLabel": {
+    "de": "Fachkräfte in der öffentlichen Gesundheitsfürsorge",
+    "fi": "Terveysneuvojat",
+    "sv": "Hälsoinformatörer",
+    "pt": "Técnicos dos serviços de saúde comunitária",
+    "bg": "Здравни работници в общности",
+    "el": "Εργαζόμενοι σε κοινοτικές υπηρεσίες υγείας",
+    "mt": "Ħaddiema tas-saħħa tal-komunità",
+    "lt": "Visuomenės sveikatos priežiūros darbuotojai",
+    "en": "Community health workers",
+    "lv": "Sabiedrības veselības darbinieki",
+    "hr": "Patronažni zdravstveni djelatnici/patronažne zdravstvene djelatnice",
+    "it": "Operatori sanitari della comunità",
+    "fr": "Agents de santé communautaire",
+    "hu": "Közösségi egészségügyi foglalkozásúak",
+    "es": "Trabajadores comunitarios de la salud",
+    "et": "Kohalike omavalitsuste tervishoiutöötajad",
+    "cs": "Odborní pracovníci v oblasti komunitního zdravotnictví",
+    "sk": "Pracovníci ochrany a prevencie verejného zdravia",
+    "sl": "Patronažni zdravstveni delavci/patronažne zdravstvene delavke",
+    "pl": "Felczerzy",
+    "ro": "Lucrător în domeniul sănătății publice",
+    "da": "Assisterende sundhedsarbejde ved lokale/akutte behandlingscentre",
+    "nl": "Vakspecialisten basisgezondheidszorg"
+  },
+  "code": "3253",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3253"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3253"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Community health workers provide health education, referral and follow-up, case management, basic preventive health care and home visiting services to specific communities. They provide support and assistance to individuals and families in navigating the health and social services system.\nTasks include -\n(a)   providing  information to families and communities on a range of health issues including nutrition, hygiene, infant and child care, immunizations, family planning,  risk factors and prevention of common infectious diseases, poisoning prevention, first aid for treatment of simple and common ailments, substance abuse, domestic violence and other topics;\n(b)   visiting families in their homes to provide information on the health, social and other services available and support them in gaining access to these services; \n(c)   visiting families who do not usually access medical establishments to monitor on a regular basis certain conditions such as progress with pregnancy, child growth and development, and environmental sanitation;\n(d)  distributing to households medical supplies for the prevention and treatment of endemic diseases such as malaria, pneumonia and diarrhoeal diseases, and instructing family and community members in the use of these products;\n(e)  conducting outreach efforts to groups who do not usually access medical establishments with information and basic medical supplies for prevention and management of certain health conditions for which they are most at risk, such as HIV/AIDS and other communicable diseases;\n(f)  collecting data from households and communities who do not usually access medical establishments for purposes of patient monitoring and referral and reporting to meet health regulations.\nExamples of the occupations classified here:\n- Community health aide\n- Community health promoter\n- Community health worker\n- Village health worker\nSome related occupations classified elsewhere:\n- Traditional midwife - 3222\n- Village healer - 3230\n- Home care aide - 5322\nNotes\nOccupations included in this unit group normally require formal or informal training and supervision recognized by the health and social services authorities. Providers of routine personal care and traditional medicine practitioners are not included here.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3253&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3253",
+      "title": "Community health workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C325&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C325",
+        "title": "Other health associate professionals",
+        "code": "325"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c7ad889f-10fc-4346-b740-bd479ad82b47&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c7ad889f-10fc-4346-b740-bd479ad82b47",
+        "title": "community health worker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,98 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3252",
+  "title": "Medical records and health information technicians",
+  "preferredLabel": {
+    "de": "Fachkräfte im Bereich medizinische Dokumentation und Information",
+    "sv": "Patientadministratörer m.fl.",
+    "fi": "Potilas- ja terveystietojen käsittelijät",
+    "pt": "Técnicos de registos médicos e de informação sobre saúde",
+    "bg": "Специалисти по медицински досиета и здравна информация",
+    "mt": "Tekniċi tar-reġistri (rekords) mediċi u tal-informazzjoni dwar is-saħħa",
+    "el": "Τεχνικοί ιατρικών αρχείων και πληροφοριών υγείας",
+    "lt": "Medicininių įrašų ir sveikatos informacijos technikai",
+    "en": "Medical records and health information technicians",
+    "lv": "Medicīniskās dokumentācijas un informācijas apstrādes speciālisti",
+    "hr": "Tehničari/tehničarke za vođenje zdravstvenih kartoteka i informacija",
+    "it": "Addetti alle cartelle cliniche e alla documentazione sanitaria",
+    "fr": "Techniciens de dossiers médicaux",
+    "hu": "Egészségügyi nyilvántartások és dokumentációk technikusai",
+    "es": "Técnicos en documentación sanitaria",
+    "et": "Meditsiiniregistrite ja terviseteabe tehnikud",
+    "cs": "Technici pro lékařské záznamy a informace o zdravotním stavu",
+    "sk": "Odborní pracovníci v oblasti zdravotnej dokumentácie a informácií",
+    "sl": "Tehniki/tehnice za vodenje zdravstvenih kartotek in zdravstvenih podatkov",
+    "pl": "Technicy w dziedzinie dokumentacji medycznej i informacji zdrowotnej",
+    "da": "Teknikerarbejde inden for medicinsk registrering og sundhedsinformation",
+    "ro": "Tehnicieni fișe medicale și informații privind starea de sănătate",
+    "nl": "Technici op het gebied van medische dossiers en gezondheidsvoorlichting"
+  },
+  "code": "3252",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3252"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3252"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Medical records and health information technicians develop, maintain and implement health records processing, storage and retrieval systems in medical facilities and other health care settings to meet the legal, professional, ethical and administrative record-keeping requirements of health services delivery.\nTasks include - \n (a)  planning, developing, maintaining  and operating a variety of health record indexes and storage and retrieval systems to collect, classify, store and analyse information; \n(b)  transcribing, compiling and processing patient medical records, admission and discharge documents, and other medical reports into record-keeping systems to provide data for patient monitoring and referral, epidemiological monitoring, research, billing, cost control and care improvement; \n(c)  reviewing records for completeness, accuracy and compliance with regulations; \n(d)  translating narrative descriptions and numeric information from medical records and other documents on health services delivery into codes associated with standard classification systems;\n(e)  protecting the security of medical records to ensure that confidentiality is maintained, and releasing information to authorized persons and agencies in accordance with regulations; \n(f)  supervising clerical and administrative workers involved in the maintenance of medical records.\nExamples of the occupations classified here:\n- Clinical coder \n- Disease registry technician\n- Health information clerk\n- Medical records analyst \n- Medical records clerk \n- Medical records technician\n- Medical records unit supervisor\nSome related occupations classified elsewhere:\n- Medical secretary - 3344\n- Data entry clerk - 4132\n- Filing clerk - 4415\nNotes\nOccupations included in this unit group normally require knowledge of medical terminology, legal aspects of health information, health data standards and computer- or paper-based data management as obtained through formal education and/or on-the-job training.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3252&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3252",
+      "title": "Medical records and health information technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C325&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C325",
+        "title": "Other health associate professionals",
+        "code": "325"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/983c2816-a339-4817-97f4-151a9ff3e64d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/983c2816-a339-4817-97f4-151a9ff3e64d",
+        "title": "medical records manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/92be1fac-97c4-4d4d-ada7-f6aa07d6f316&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/92be1fac-97c4-4d4d-ada7-f6aa07d6f316",
+        "title": "waiting list coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/14eb2c85-fce5-40b6-bcd0-46ac99994b0d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/14eb2c85-fce5-40b6-bcd0-46ac99994b0d",
+        "title": "medical records clerk"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/32ac76f6-20a0-469e-8cac-e68634087dd3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/32ac76f6-20a0-469e-8cac-e68634087dd3",
+        "title": "picture archiving and communication systems administrator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

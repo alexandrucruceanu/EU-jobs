@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2265",
+  "title": "Dieticians and nutritionists",
+  "preferredLabel": {
+    "de": "Diätologen und Ernährungsberater",
+    "no": "Ernæringsfysiologer",
+    "fi": "Ravitsemusalan erityisasiantuntijat",
+    "sv": "Dietister och nutritionister",
+    "pt": "Dietistas e nutricionistas",
+    "bg": "Диетолози и специалисти по хранене",
+    "mt": "Djetologi u nutrizzjonisti",
+    "el": "Διαιτολόγοι και διατροφολόγοι",
+    "lt": "Dietistai ir mitybos specialistai",
+    "en": "Dieticians and nutritionists",
+    "hr": "Dijetetičari/dijetetičarke i nutricionisti/nutricionistice",
+    "lv": "Dietologi un vecākie uztura speciālisti",
+    "it": "Dietologi e nutrizionisti",
+    "fr": "Diététiciens et spécialistes de la nutrition",
+    "hu": "Dietetikusok és táplálkozás-szakértők",
+    "es": "Dietistas y nutricionistas",
+    "et": "Dietoloogid ja toitumisspetsialistid",
+    "cs": "Specialisté v oblasti dietetiky a specialisté na výživu",
+    "sk": "Špecialisti na výživu a dietetiku",
+    "sl": "Strokovnjaki/strokovnjakinje za dietno prehrano, za zdravo prehrano",
+    "pl": "Dietetycy i żywieniowcy",
+    "ro": "Dieteticieni și nutriționiști",
+    "da": "Kost- og ernæringsarbejde",
+    "nl": "Diëtisten en voedingsdeskundigen"
+  },
+  "code": "2265",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2265"
+    },
+    {
+      "datatype": "",
+      "value": "2265"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Dieticians and nutritionists assess, plan and implement programmes to enhance the impact of food and nutrition on human health.\nTasks include -\n(a)  instructing individuals, families and communities on nutrition, the planning of diets and preparation of food to maximize health benefits and reduce potential risks to health;\n(b)  planning diets and menus, supervising the preparation and serving of meals, and monitoring food intake and quality to provide nutritional care in settings offering food services; \n(c)  compiling and assessing data relating to health and nutritional status of individuals, groups and communities based on nutritional values of food served or consumed;\n(d)  planning and conducting nutrition assessments, intervention programmes, and education and training to improve nutritional levels among individuals and communities;\n(e)  consulting with other health professionals and care providers to manage the dietary and nutritional needs of patients;\n(f)  developing and evaluating food and nutrition products to meet nutritional requirements;\n(g)  conducting research on nutrition and disseminating the findings at scientific conferences and in other settings.\nExamples of the occupations classified here:\n- Clinical dietician\n- Food service dietician\n- Nutritionist\n- Public health nutritionist\n- Sports nutritionist\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2265&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2265",
+      "title": "Dieticians and nutritionists"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C226&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C226",
+        "title": "Other health professionals",
+        "code": "226"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8a53f8d3-d995-4c7b-a70d-d79f76bdcb3f",
+        "title": "dietitian"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,204 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7223",
+  "title": "Metal working machine tool setters and operators",
+  "preferredLabel": {
+    "no": "Metalldreiere mv.",
+    "de": "Werkzeugmaschineneinrichter und -bediener",
+    "sv": "Verktygsuppsättare, metallarbete",
+    "fi": "Koneenasettajat ja koneistajat",
+    "pt": "Afinadores e operadores de máquinas do tratamento das superfícies dos metais",
+    "bg": "Настройчици и оператори на металообработващи машини",
+    "el": "Ρυθμιστές και ρυθμιστές-χειριστές εργαλειομηχανών κατεργασίας μετάλλων",
+    "mt": "Ħaddiema li jissettjaw u operaturi tal-magni tax-xogħol tal-metall",
+    "lt": "Metalo apdirbimo staklių derintojai ir operatoriai",
+    "en": "Metal working machine tool setters and operators",
+    "hr": "Kovinoglodači/kovinoglodačice i srodna zanimanja",
+    "lv": "Metālapstrādes darbgaldu strādnieki un operatori",
+    "it": "Modellatori e tracciatori meccanici di macchine utensili",
+    "fr": "Régleurs et conducteurs de machines-outils",
+    "hu": "Fémmegmunkálógép-beállítók és -üzemeltetők",
+    "es": "Reguladores y operadores de máquinas herramientas",
+    "et": "Tööpinkide seadistajad",
+    "cs": "Seřizovači a obsluha kovoobráběcích strojů",
+    "sk": "Nastavovači a operátori kovoobrábacích strojov",
+    "sl": "Strugarji/strugarke ipd.",
+    "pl": "Ustawiacze i operatorzy obrabiarek skrawających do metali",
+    "da": "Operatør- og opstillingsarbejde af metalforarbejdningsmaskiner",
+    "ro": "Reglori și operatori de mașini-unelte",
+    "nl": "Instellers en bedieningspersoneel gereedschapswerktuigen"
+  },
+  "code": "7223",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7223"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7223"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Metal working machine tool setters and operators set and/or operate various machine tools, working to fine tolerances.\nTasks include -\n(a)  setting one or more types of machine tool for production of metal articles in standardized series;\n(b)  operating and monitoring metal working machines such as lathes, milling, planing, boring, drilling, grinding or honing machines, including multipurpose numerically controlled metal working machines;\n(c)  performing similar tasks when machining plastics and other metal substitutes;\n(d)  observing machine operations to detect work piece defects or machine malfunctions, and adjusting machines as necessary;\n(e)  inspecting work pieces for defects, and measuring work pieces to determine accuracy of machine operation, using rules, templates or other measuring instruments;\n(f)  changing worn machine accessories such as cutting tools and brushes, using hand tools.\nExamples of the occupations classified here:\n- Boring machine operator\n- Casting machine operator\n- Machine tool operator\n- Machine tool setter\n- Machine tool setter-operator\n- Metal turner\n- Rivet production machine operator\n- Tool production machine operator\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7223&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7223",
+      "title": "Metal working machine tool setters and operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C722&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C722",
+        "title": "Blacksmiths, toolmakers and related trades workers",
+        "code": "722"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/23043d05-42c4-4811-b478-f8a17d22480b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/23043d05-42c4-4811-b478-f8a17d22480b",
+        "title": "moulding machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/98164d70-93a8-409c-aa9f-7d56314f4d7f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/98164d70-93a8-409c-aa9f-7d56314f4d7f",
+        "title": "router operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/aa3780b7-3b06-40ae-8764-293fec6819d2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/aa3780b7-3b06-40ae-8764-293fec6819d2",
+        "title": "drill press operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/733d65ac-250b-45d7-ba3c-cc5f48e9e11d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/733d65ac-250b-45d7-ba3c-cc5f48e9e11d",
+        "title": "laser marking machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/16811760-fb2d-42cf-912d-2215f085898f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/16811760-fb2d-42cf-912d-2215f085898f",
+        "title": "plasma cutting machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/60b9b847-d964-4a8a-a756-904080b0f35f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/60b9b847-d964-4a8a-a756-904080b0f35f",
+        "title": "stamping press operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ebe42b55-4801-493f-af18-04a35ebfbb9c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ebe42b55-4801-493f-af18-04a35ebfbb9c",
+        "title": "drilling machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a67721a6-a95d-4c3b-a48c-f9920941ecd1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a67721a6-a95d-4c3b-a48c-f9920941ecd1",
+        "title": "straightening machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/02d4f153-8e43-444d-8bd4-8171d49eab12&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/02d4f153-8e43-444d-8bd4-8171d49eab12",
+        "title": "gear machinist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a5245c01-4ca8-406e-a152-620c28530ea8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a5245c01-4ca8-406e-a152-620c28530ea8",
+        "title": "metal planer operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d792974a-077b-44a7-9421-b3ab7fdc7c40&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d792974a-077b-44a7-9421-b3ab7fdc7c40",
+        "title": "swaging machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/669353c2-3f5a-4bc4-939b-6afb6a0c7d13&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/669353c2-3f5a-4bc4-939b-6afb6a0c7d13",
+        "title": "metal nibbling operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0e09c42d-bff2-4c35-8e1f-639a6dddaa5d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0e09c42d-bff2-4c35-8e1f-639a6dddaa5d",
+        "title": "boring machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cb3432f8-bad7-4703-ba66-dc980a4ce4f7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cb3432f8-bad7-4703-ba66-dc980a4ce4f7",
+        "title": "scrap metal operative"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8d3cc890-5902-4fac-9438-6098a3ee437c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8d3cc890-5902-4fac-9438-6098a3ee437c",
+        "title": "upsetting machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2fc8dace-d828-4af3-b0cb-e1cb73726f4b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2fc8dace-d828-4af3-b0cb-e1cb73726f4b",
+        "title": "screw machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5c082067-ea18-4ccb-8c43-e70b18ad8120&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5c082067-ea18-4ccb-8c43-e70b18ad8120",
+        "title": "computer numerical control machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/afe9eaa4-433f-4ae6-90ff-afa098ccf1bb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/afe9eaa4-433f-4ae6-90ff-afa098ccf1bb",
+        "title": "chain making machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/898f99f7-8c0a-4212-9e58-9ab00379e5ae&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/898f99f7-8c0a-4212-9e58-9ab00379e5ae",
+        "title": "fitter and turner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18a98579-f0b1-4dde-944f-1758dc113099&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/18a98579-f0b1-4dde-944f-1758dc113099",
+        "title": "spark erosion machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/77a25ee0-94ad-443e-91ea-3e6d3506181b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/77a25ee0-94ad-443e-91ea-3e6d3506181b",
+        "title": "thread rolling machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c44f9f8c-46a6-40da-9630-cc568a18cc51&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c44f9f8c-46a6-40da-9630-cc568a18cc51",
+        "title": "ornamental metal worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5d46e448-b6bb-48e5-b245-5aad68e06085&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5d46e448-b6bb-48e5-b245-5aad68e06085",
+        "title": "oxy fuel burning machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a51ab2e2-aaa9-4d7d-a747-bff2e276636a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a51ab2e2-aaa9-4d7d-a747-bff2e276636a",
+        "title": "heat treatment furnace operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0f905036-055f-41d9-b292-e3c02617a193&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0f905036-055f-41d9-b292-e3c02617a193",
+        "title": "briquetting machine operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

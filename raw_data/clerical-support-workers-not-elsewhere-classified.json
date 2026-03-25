@@ -1,0 +1,88 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4419",
+  "title": "Clerical support workers not elsewhere classified",
+  "preferredLabel": {
+    "de": "Bürokräfte und verwandte Berufe, anderweitig nicht genannt",
+    "sv": "Övrig kontors- och kundservicepersonal",
+    "fi": "Muut muualla luokittelemattomat toimistotyöntekijät",
+    "pt": "Outros empregados de apoio administrativo, n.e.",
+    "bg": "Друг помощен административен персонал, некласифициран другаде",
+    "el": "Υπάλληλοι γραφείου π.δ.κ.α.",
+    "mt": "Ħaddiema li jagħtu appoġġ klerikali li mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti įstaigų tarnautojai",
+    "en": "Clerical support workers not elsewhere classified",
+    "lv": "Citur neklasificēti kalpotāji",
+    "hr": "Administrativni službenici/administrativne službenice d. n.",
+    "it": "Altri impiegati di ufficio non classificati altrove",
+    "fr": "Employés administratifs non classés ailleurs",
+    "hu": "Máshová nem sorolható egyéb irodai kisegítő foglalkozásúak",
+    "es": "Personal de apoyo administrativo no clasificado bajo otros epígrafes",
+    "et": "Mujal liigitamata lihtametnikud",
+    "cs": "Úředníci jinde neuvedení",
+    "sk": "Pomocní administratívni pracovníci inde neuvedení",
+    "sl": "Drugi uradniki/druge uradnice za pisarniško poslovanje, d. n.",
+    "pl": "Pracownicy pomocniczy gdzie indziej niesklasyfikowani",
+    "da": "Almindeligt kontor- og kundeservicearbejde ikke klassificeret andetsteds",
+    "ro": "Lucrători în servicii suport neclasificați în grupele de bază anterioare",
+    "nl": "Administratief personeel, niet elders geclassificeerd"
+  },
+  "code": "4419",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4419"
+    },
+    {
+      "datatype": "",
+      "value": "4419"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers clerical support workers not classified elsewhere in Major Group 4: Clerical Support Workers. For instance, the group includes correspondence clerks, press clippers and publication clerks.\nIn such cases tasks would include -\n(a)  receiving customers’ orders for classified advertising, writing and editing copy, calculating advertising rates and billing customers;\n (b)  writing business and government correspondence such as replies to requests for information and assistance, damage claims, credit and billing inquiries and service complaints;\n(c)  assisting in the preparation of periodicals, advertisements, catalogues, directories and other material for publication; \n(d)  reading newspapers, magazines, press releases and other publications to locate and file articles of interest to staff and clients.\nExamples of the occupations classified here:\n- Advertising clerk\n- Correspondence clerk\n- Directory compiler\n- Press clipper\n- Publication clerk\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4419&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4419",
+      "title": "Clerical support workers not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C441&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C441",
+        "title": "Other clerical support workers",
+        "code": "441"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/54cba39a-5bb8-4e4c-89cd-d6097d3c6c3a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/54cba39a-5bb8-4e4c-89cd-d6097d3c6c3a",
+        "title": "advertising assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c8505fa5-0a33-4143-bd87-f24f569e8813&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c8505fa5-0a33-4143-bd87-f24f569e8813",
+        "title": "foreign language correspondence clerk"
+      }
+    ]
+  },
+  "_embedded": {}
+}

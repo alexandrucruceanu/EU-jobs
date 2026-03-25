@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8344",
+  "title": "Lifting truck operators",
+  "preferredLabel": {
+    "de": "Gabelstaplerfahrer und verwandte Berufe",
+    "no": "Truckførere",
+    "fi": "Ahtaajat ja trukinkuljettajat ym.",
+    "sv": "Truckförare",
+    "pt": "Operadores de empilhadores",
+    "bg": "Оператори на подемно-транспортни съоръжения",
+    "mt": "Operaturi ta’ trakkijiet armati bil-lifter",
+    "el": "Χειριστές μηχανημάτων ανύψωσης",
+    "lt": "Krovininių platformų ir krautuvų operatoriai",
+    "en": "Lifting truck operators",
+    "lv": "Autoiekrāvēju operatori",
+    "hr": "Rukovatelji/rukovateljice teškim kamionima s dizalicom",
+    "it": "Conduttori di carrelli elevatori",
+    "fr": "Conducteurs de chariots élévateurs",
+    "hu": "Emelőtargonca-kezelők",
+    "es": "Operadores de autoelevadoras",
+    "et": "Tõstukijuhid",
+    "cs": "Obsluha vysokozdvižných vozíků",
+    "sk": "Operátori vysokozdvižných vozíkov",
+    "sl": "Upravljavci/upravljavke težkih tovornjakov z dvigalom",
+    "pl": "Operatorzy urządzeń dźwigowych",
+    "da": "Truckførerarbejde",
+    "ro": "Operatori la instalațiile de transport mărfuri paletizate",
+    "nl": "Heftruckbestuurders"
+  },
+  "code": "8344",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8344"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8344"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Lifting truck operators drive, operate and monitor lifting trucks or similar vehicles to transport, lift and stack pallets with goods.\nTasks include -\n(a)  operating and monitoring lifting truck and similar equipment to load and unload, transport, lift and stack goods and pallets in terminals, harbours, warehouses, factories and other establishments;\n(b)  positioning lifting devices under, over, or around loaded pallets, skids and boxes, and securing material or products for transport to designated areas;\n(c)  inspecting equipment to identify wear and damage;\n(d)  performing routine maintenance on vehicles and equipment;\n(e)  keeping records of work undertaken and breakdowns of vehicles.\nExamples of the occupations classified here:\n- Forklift truck driver\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8344&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8344",
+      "title": "Lifting truck operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C834&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C834",
+        "title": "Mobile plant operators",
+        "code": "834"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/eeac6251-1974-42f5-91ed-513c6c883755&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/eeac6251-1974-42f5-91ed-513c6c883755",
+        "title": "forklift operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

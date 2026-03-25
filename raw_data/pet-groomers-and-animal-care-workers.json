@@ -1,0 +1,129 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5164",
+  "title": "Pet groomers and animal care workers",
+  "preferredLabel": {
+    "de": "Tierpfleger und -betreuer",
+    "no": "Dyrepassere og - trenere mv.",
+    "sv": "Djurfrisörer och djurskötare",
+    "fi": "Eläintenhoitajat ja lemmikkieläinten trimmaajat",
+    "pt": "Tratadores e guardadores de animais",
+    "bg": "Персонал, грижещ се за животни и домашни любимци",
+    "el": "Φροντιστές ζώων συντροφιάς και απασχολούμενοι με την περιποίηση ζώων",
+    "mt": "Ħaddiema involuti fid-dehra tal-annimali tad-dar u ħaddiema involuti fil-kura tagħhom",
+    "lt": "Gyvūnų augintinių kirpėjai ir gyvūnų priežiūros darbuotojai",
+    "en": "Pet groomers and animal care workers",
+    "hr": "Njegovatelji/njegovateljice, radnici/radnice koje skrbe o životinjama",
+    "lv": "Mājdzīvnieku kopēji un dzīvnieku aprūpes darbinieki",
+    "it": "Personale addetto alla cura degli animali",
+    "fr": "Toiletteurs et gardiens d’animaux",
+    "hu": "Hobbiállat-gondozók és -kozmetikusok",
+    "es": "Cuidadores de animales",
+    "et": "Lemmikloomade iluteenuste osutajad ja lemmikloomade hooldajad",
+    "cs": "Pracovníci zajišťující služby spojené s péčí o domácí a jiná zvířata",
+    "sk": "Pracovníci zabezpečujúci starostlivosť o zvieratá",
+    "sl": "Negovalci/negovalke, oskrbniki/oskrbnice malih živali",
+    "pl": "Opiekunowie zwierząt domowych i pracownicy zajmujący się zwierzętami",
+    "da": "Arbejde med kæledyr",
+    "ro": "Îngrijitor animale și animale de companie",
+    "nl": "Dierenverzorgers"
+  },
+  "code": "5164",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5164"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5164"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Pet groomers and animal care workers feed, handle, train and groom animals and assist veterinarians, animal health technologists and technicians in veterinary facilities, animal shelters, breeding and boarding kennels, zoos, laboratories, retail pet shops, riding schools, dog training schools, pet grooming and similar establishments.\nTasks include -\n(a)  bathing and feeding animals;\n(b)  leading or carrying animals to treatment rooms and holding them during treatment;\n(c)  cleaning and sterilizing veterinary surgical instruments;\n(d)  labelling drugs, chemicals and other pharmaceutical preparations and replenishing stock;\n(e)  sterilizing bottles, beakers and other equipment;\n(f)  cleaning, organizing and disinfecting animal quarters such as pens, stables, cages and yards, and animal equipment such as saddles and bridles;\n(g)  collecting and recording animal information such as weight, size, physical condition, treatments received, medications given and food intake;\n(h)  training animals to develop and maintain desired behaviours for competition, entertainment, obedience, security, riding and other activities;\n(i)  grooming animals by performing tasks such as washing, brushing, clipping and trimming coats, cutting nails and cleaning ears.\nExamples of the occupations classified here:\n- Animal attendant\n- Dog trainer\n- Horse breaker\n- Veterinary aide\n- Zoo keeper\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5164&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5164",
+      "title": "Pet groomers and animal care workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C516&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C516",
+        "title": "Other personal services workers",
+        "code": "516"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2de007c6-3223-4cd1-9561-e8a2e16e049d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2de007c6-3223-4cd1-9561-e8a2e16e049d",
+        "title": "animal welfare inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7ceb2340-339c-4367-bc4e-e08f57c992f6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7ceb2340-339c-4367-bc4e-e08f57c992f6",
+        "title": "animal shelter worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/701f9161-72e4-4ff3-a9e8-8e6352664ef0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/701f9161-72e4-4ff3-a9e8-8e6352664ef0",
+        "title": "cattle pedicure"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1ee1b792-4d5f-4555-be4e-ce7e4c05d1a9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1ee1b792-4d5f-4555-be4e-ce7e4c05d1a9",
+        "title": "animal handler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a491c5c1-e126-4414-9ac9-3625a4a79513&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a491c5c1-e126-4414-9ac9-3625a4a79513",
+        "title": "game keeper"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2b292d4d-1905-45ec-a7c0-1ca7b45a4162&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2b292d4d-1905-45ec-a7c0-1ca7b45a4162",
+        "title": "dog breeder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bc1748c7-29d6-43d5-a304-6b74f317ac26&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bc1748c7-29d6-43d5-a304-6b74f317ac26",
+        "title": "kennel supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/84cdc2ef-ee7c-42b1-be19-5e1c6b537f8f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/84cdc2ef-ee7c-42b1-be19-5e1c6b537f8f",
+        "title": "pet sitter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0b14d5d7-1bbe-4403-b9e6-7b0f37fc44fc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0b14d5d7-1bbe-4403-b9e6-7b0f37fc44fc",
+        "title": "animal care attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/62204bd8-98b5-418f-b189-7333904cbde7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/62204bd8-98b5-418f-b189-7333904cbde7",
+        "title": "zoo section leader"
+      }
+    ]
+  },
+  "_embedded": {}
+}

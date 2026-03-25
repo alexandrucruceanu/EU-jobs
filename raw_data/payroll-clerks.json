@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4313",
+  "title": "Payroll clerks",
+  "preferredLabel": {
+    "de": "Bürokräfte in der Lohnbuchhaltung",
+    "no": "Lønningsmedarbeidere",
+    "fi": "Palkanlaskijat",
+    "sv": "Löneassistenter",
+    "pt": "Empregados dos serviços de pagamento de salários",
+    "bg": "Служители, водещи платежни ведомости",
+    "el": "Υπάλληλοι μισθοδοσίας",
+    "mt": "Skrivani fil-qasam tal-istipendji",
+    "lt": "Darbo užmokesčio apskaitos tarnautojai",
+    "en": "Payroll clerks",
+    "lv": "Algu aprēķināšanas darbinieki",
+    "hr": "Službenici/službenice za obračun plaća",
+    "it": "Addetti buste paga",
+    "fr": "Commis, service de paie",
+    "hu": "Bérszámfejtők",
+    "es": "Empleados encargados de las nóminas",
+    "et": "Palgaarvestajad",
+    "cs": "Mzdoví účetní",
+    "sk": "Administratívni pracovníci v oblasti mzdového účtovníctva",
+    "sl": "Uradniki/uradnice za plače",
+    "pl": "Pracownicy obsługi płacowej",
+    "ro": "Funcționari în domeniul salarizării",
+    "da": "Almindeligt kontorarbejde inden for lønbehandling",
+    "nl": "Loonadministrateurs"
+  },
+  "code": "4313",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4313"
+    },
+    {
+      "datatype": "",
+      "value": "4313"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Payroll clerks collect, verify and process payroll information and compute pay and benefit entitlements for employees within a department, company or other establishment.\nTasks include -\n(a)  maintaining records of employee attendance, leave and overtime to calculate pay and benefit entitlements, using manual or computerized systems;\n(b)  preparing and verifying statements of earnings for employees, indicating gross and net salaries and deductions such as taxes, union dues, garnishments and insurance and pension plans; \n(c)  preparing employee payments and benefit payments by cheque or electronic transfer; \n(d)  reviewing time sheets, work charts, wage computation and other information to detect and reconcile payroll discrepancies; \n(e)  verifying attendance, hours worked and pay adjustments, and posting information into designated records.\nExample of the occupations included here:\n- Wages clerk\nSome related occupations classified elsewhere:\n- Accounting assistant - 3313\n- Bookkeeper - 3313\n- Accounts clerk - 4311\n- Bookkeeping clerk - 4311\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4313&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4313",
+      "title": "Payroll clerks"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C431&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C431",
+        "title": "Numerical clerks",
+        "code": "431"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ade351da-7bda-424e-8682-bbdcab2a25be&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ade351da-7bda-424e-8682-bbdcab2a25be",
+        "title": "payroll clerk"
+      }
+    ]
+  },
+  "_embedded": {}
+}

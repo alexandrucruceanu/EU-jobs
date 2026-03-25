@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5112",
+  "title": "Transport conductors",
+  "preferredLabel": {
+    "de": "Schaffner",
+    "no": "Konduktører",
+    "sv": "Tågvärdar, ombordansvariga m.fl.",
+    "fi": "Konduktöörit, lipuntarkastajat ym.",
+    "pt": "Cobradores, revisores de bilhetes e trabalhadores similares dos transportes",
+    "bg": "Кондуктори",
+    "el": "Εισπράκτορες μεταφορικών μέσων",
+    "mt": "Kundutturi tat-trasport",
+    "lt": "Transporto konduktoriai",
+    "en": "Transport conductors",
+    "lv": "Transporta konduktori",
+    "hr": "Kondukteri/kondukterke",
+    "it": "Controllori e bigliettai di trasporti pubblici",
+    "fr": "Contrôleurs et receveurs de transports publics",
+    "hu": "Kalauzok",
+    "es": "Revisores y cobradores de los transportes públicos",
+    "et": "Kontrolörid ja konduktorid",
+    "cs": "Průvodčí a příbuzní pracovníci v dopravě",
+    "sk": "Sprievodcovia v doprave",
+    "sl": "Sprevodniki/sprevodnice",
+    "pl": "Konduktorzy",
+    "da": "Kontrolarbejde under rejser",
+    "ro": "Conductori în transporturi",
+    "nl": "Conducteurs"
+  },
+  "code": "5112",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5112"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5112"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Transport conductors check and issue tickets and ensure the safety and comfort of passengers on trains, trams, buses and other public transport vehicles.\nTasks include -\n(a)  collecting and issuing tickets, passes or fares, and checking the validity of tickets issued previously;\n(b)  attending to sleeping-cars and their occupants on passenger trains;\n(c)  providing assistance with boarding, seating and luggage as required, especially to elderly, sick or injured people;\n(d)  opening and closing doors for passengers;\n(e)  performing equipment safety checks prior to departure;\n(f)  signalling to drivers to stop or proceed;\n(g)  greeting passengers boarding transportation equipment, and announcing routes and stops.\n(h)  ensuring that safety regulations are respected;\n (i)  responding to passengers’ requests and complaints and providing information about stops and connections;\n (j)  taking appropriate action in case of emergencies or accidents.\nExamples of the occupations classified here:\n- Bus conductor\n- Cable car conductor\n- Ticket inspector (public transport)\n- Train conductor\n- Tram conductor\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5112&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5112",
+      "title": "Transport conductors"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C511&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C511",
+        "title": "Travel attendants, conductors and guides",
+        "code": "511"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ea034d66-0d35-4891-b82c-6434cad2c76f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ea034d66-0d35-4891-b82c-6434cad2c76f",
+        "title": "train conductor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9653fb92-ad48-4865-a471-f270302fa93b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9653fb92-ad48-4865-a471-f270302fa93b",
+        "title": "railway passenger service agent"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9cee6106-04cf-401a-ae4c-b4b8652d6915&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9cee6106-04cf-401a-ae4c-b4b8652d6915",
+        "title": "chief conductor"
+      }
+    ]
+  },
+  "_embedded": {}
+}

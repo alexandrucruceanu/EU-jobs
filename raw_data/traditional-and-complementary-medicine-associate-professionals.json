@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3230",
+  "title": "Traditional and complementary medicine associate professionals",
+  "preferredLabel": {
+    "no": "Yrker innen alternativ medisin",
+    "de": "Nicht akademische Fachkräfte in traditioneller und komplementärer Medizin",
+    "sv": "Utövare av komplementär och alternativ medicin",
+    "fi": "Luontais- ja vaihtoehtohoitajat",
+    "pt": "Profissionais de nível intermédio das medicinas tradicionais e alternativas",
+    "bg": "Приложни специалисти в областта на традиционната и комплементарната медицина",
+    "el": "Βοηθοί επαγγελματιών παραδοσιακής και συμπληρωματικής ιατρικής",
+    "mt": "Professjonisti assoċjati tal-mediċina tradizzjonali u kumplimentari",
+    "lt": "Jaunesnieji tradicinės ir liaudies medicinos specialistai",
+    "en": "Traditional and complementary medicine associate professionals",
+    "hr": "Zanimanja srodna stručnjacima za tradicionalnu i komplementarnu medicinu",
+    "lv": "Tradicionālās un komplimentārās medicīnas speciālisti",
+    "it": "Assistenti della medicina tradizionale e complementare",
+    "fr": "Praticiens des médecines traditionnelles et des médecines complémentaires",
+    "hu": "Hagyományos orvoslás és alternatív gyógymód foglalkozásúak",
+    "es": "Profesionales de nivel medio de medicina tradicional y alternativa",
+    "et": "Rahva- ja alternatiivmeditsiini abipersonal",
+    "cs": "Odborní pracovníci tradiční a alternativní medicíny",
+    "sk": "Odborní pracovníci v oblasti tradičnej a alternatívnej medicíny",
+    "sl": "Strokovni sodelavci/strokovne sodelavke za tradicionalno in dopolnilno medicino",
+    "pl": "Średni personel w dziedzinie medycyny tradycyjnej i komplementarnej",
+    "ro": "Practicieni asociați în domeniul medicinii complementare/alternative",
+    "da": "Assisterende arbejde inden for naturmedicin og alternativ behandling",
+    "nl": "Vakspecialisten op het gebied van de traditionele en de alternatieve geneeskunde"
+  },
+  "code": "3230",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3230"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3230"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Traditional and complementary medicine associate professionals prevent, care for and treat human physical and mental illnesses, disorders and injuries using herbal and other therapies based on theories, beliefs and experiences originating in specific cultures. They administer treatments using traditional techniques and medicaments, either acting independently or according to therapeutic care plans established by a traditional medicine or other health professional. \nTasks include -\n(a)  examining patients and interviewing them and their families to determine their health status and the nature of physical or mental disorders or illnesses or other ailments;\n(b)  recommending and providing care and treatment for illnesses and other ailments using traditional techniques and medicaments, such as physical manipulation and exercises, blood-letting using natural vessels, and preparations using herbs, plants, insects and animal extracts;\n(c)  administering  treatments such as acupuncture, ayurvedic, homeopathic and herbal medicine according to therapeutic care plans and procedures usually developed by a traditional medicine or other health professional;\n(d)   providing care and treatment for physical injuries such as setting and healing fractured and dislocated bones using traditional methods of physical manipulation and herbal therapies;\n(e)  advising individuals, families and the community on health, nutrition, hygiene, lifestyle and other issues to maintain or improve health and well-being;\n(f)  referring patients to, and exchanging information with, other health care providers to ensure comprehensive and continuing care.\nExamples of the occupations classified here:\n- Acupuncture technician\n- Ayurvedic technician\n- Bonesetter\n- Herbalist \n- Homeopathy technician\n- Scraping and cupping therapist\n- Village healer\n- Witch doctor\nSome related occupations classified elsewhere:\n- Acupuncturist - 2230\n- Ayurvedic practitioner - 2230\n- Chinese herbal medicine practitioner - 2230\n- Homeopath - 2230\n- Naturopath - 2230\n- Chiropractor - 2269\n- Osteopath - 2269\n- Traditional midwife - 3222\n- Acupressure therapist - 3255\n- Hydrotherapist - 3255\n- Faith healer - 3413\nNotes\nOccupations in traditional and complementary for which competent performance requires an extensive understanding of the benefits and applications of traditional and complementary therapies, developed as the result of extended formal study of these techniques as well as human anatomy and elements of modern medicine, are classified in Unit Group 2230: Traditional and Complementary Medicine Professionals.  Those occupations whose practice requires a less extensive understanding, based on relatively short periods of formal or informal education and training, or informally through the traditions and practices of the communities where they originated, are included in Unit Group 3230: Traditional and Complementary Medicine Associate Professionals.  Practitioners working in the singular application of approaches to herbal medicines, spiritual therapies or manual therapeutic techniques are excluded from Unit Group 2230. \nFaith healers who treat human ailments through spiritual therapies, without using herbal therapies or other medicaments or physical treatments, are included in Unit Group 3413: Religious Associate Professionals. \nOccupations that provide therapy using traditional forms of massage and the application of pressure, such as acupressure and shiatsu therapists, are classified in Unit Group 3255: Physiotherapy Technicians and Assistants. \nTraditional and lay midwives, who provide basic pregnancy and birthing care and advice based primarily on experience and knowledge acquired informally through the traditions and practices of the communities where they originated, are classified in Unit Group 3222: Midwifery Associate Professionals.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3230&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3230",
+      "title": "Traditional and complementary medicine associate professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C323&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C323",
+        "title": "Traditional and complementary medicine associate professionals",
+        "code": "323"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/463558cd-6e02-43a8-a675-d4e65af70431&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/463558cd-6e02-43a8-a675-d4e65af70431",
+        "title": "herbal therapist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

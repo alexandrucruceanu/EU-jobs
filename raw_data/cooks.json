@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5120",
+  "title": "Cooks",
+  "preferredLabel": {
+    "de": "Köche",
+    "no": "Kokker",
+    "fi": "Ravintola- ja suurtaloustyöntekijät",
+    "sv": "Kockar och kallskänkor",
+    "pt": "Cozinheiros",
+    "bg": "Готвачи",
+    "el": "Μάγειροι",
+    "mt": "Koki",
+    "lt": "Virėjai",
+    "en": "Cooks",
+    "hr": "Kuhari/kuharice",
+    "lv": "Pavāri",
+    "it": "Cuochi",
+    "fr": "Cuisiniers",
+    "hu": "Szakácsok",
+    "es": "Cocineros",
+    "et": "Kokad",
+    "cs": "Kuchaři (kromě šéfkuchařů)",
+    "sk": "Kuchári",
+    "sl": "Kuharji/kuharice",
+    "pl": "Kucharze",
+    "ro": "Bucătari",
+    "da": "Kokkearbejde",
+    "nl": "Koks"
+  },
+  "code": "5120",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5120"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5120"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Cooks plan, organize, prepare and cook meals, according to recipes or under the supervision of chefs, in hotels, restaurants and other eating places, on board ships, on passenger trains and in private households.\nTasks include -\n(a)  planning meals, preparing and cooking foodstuffs;\n(b)  planning, supervising and coordinating the work of kitchen helpers; \n(c)  checking the quality of food; \n(d)  weighing, measuring and mixing ingredients according to recipes and personal judgement;\n(e)  regulating the temperature of ovens, grills, roasters and other cooking equipment; inspecting and cleaning the kitchen, kitchen equipment and serving areas to ensure safe and sanitary food handling practices; \n(f)  operating large-volume cooking equipment such as grills, deep-fat fryers, or griddles.\nExamples of the occupations classified here: \n- Cook\nSome related occupations classified elsewhere:\n- Café manager - 1412 \n- Restaurant manager - 1412\n- Chef - 3434\n- Fast food preparer - 9411\nNotes\nOperators of small cafés, restaurants and bars for whom the management and supervision of staff is not a significant component of the work are classified in Unit Groups 5120: Cooks, 5131: Waiters or 5132: Bartenders, depending on the main tasks performed. \n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5120&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5120",
+      "title": "Cooks"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C512&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C512",
+        "title": "Cooks",
+        "code": "512"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/90f75f67-495d-49fa-ab57-2f320e251d7e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/90f75f67-495d-49fa-ab57-2f320e251d7e",
+        "title": "cook"
+      }
+    ]
+  },
+  "_embedded": {}
+}

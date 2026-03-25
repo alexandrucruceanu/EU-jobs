@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1112",
+  "title": "Senior government officials",
+  "preferredLabel": {
+    "de": "Leitende Verwaltungsbedienstete",
+    "no": "Toppledere i offentlig administrasjon",
+    "sv": "Högre ämbetsmän",
+    "fi": "Julkishallinnon ylimmät virkamiehet",
+    "pt": "Dirigentes superiores da administração pública",
+    "bg": "Висши служители в органите на изпълнителната власт",
+    "el": "Ανώτερα διοικητικά στελέχη της δημόσιας διοίκησης",
+    "mt": "Uffiċjali governattivi anzjani",
+    "lt": "Vyresnieji valstybės pareigūnai",
+    "en": "Senior government officials",
+    "lv": "Valsts augstākās amatpersonas un ierēdņi vadītāja amatā",
+    "hr": "Dužnosnici/dužnosnice  tijela državne vlasti",
+    "it": "Dirigenti superiori della pubblica amministrazione",
+    "fr": "Cadres supérieurs de l’administration publique",
+    "hu": "Országos közigazgatási vezetők",
+    "es": "Personal directivo de la administración pública",
+    "et": "Kõrgemad valitsusametnikud",
+    "cs": "Vysocí státní úředníci",
+    "sk": "Vysokí štátni úradníci",
+    "sl": "Visoki vladni uradniki/visoke vladne uradnice",
+    "pl": "Wyżsi urzędnicy administracji publicznej",
+    "ro": "Înalți conducători ai administrației publice",
+    "da": "Øverste ledelse i offentlige virksomheder",
+    "nl": "Ambtenaren in beleidvoerende functies"
+  },
+  "code": "1112",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1112"
+    },
+    {
+      "datatype": "",
+      "value": "1112"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Senior government officials advise governments on policy matters, oversee the interpretation and implementation of government policies and legislation by government departments and agencies, represent their country abroad and act on its behalf, or carry out similar tasks in intergovernmental organizations. They plan, organize, direct, control and evaluate the overall activities of municipal or local, regional and national government departments, boards, agencies or commissions in accordance with legislation and policies established by government and legislative bodies.\nTasks include -\n(a)  advising national, state, regional or local governments and legislators on policy matters;\n(b)  advising on the preparation of government budgets, laws and regulations, including amendments;\n(c)  establishing objectives for government departments or agencies in accordance with government legislation and policy;\n(d)  formulating or approving and evaluating programmes and procedures for the implementation of government policies in conjunction or consultation with government,\n(e)  recommending, reviewing, evaluating and approving documents, briefs and reports submitted by middle managers and senior staff members;\n(f)  ensuring appropriate systems and procedures are developed and implemented to provide budgetary control;\n(g)  coordinating activities with other senior government managers and officials;\n(h)  making presentations to legislative and other government committees regarding policies, programmes or budgets;\n(i)  overseeing the interpretation and implementation of government policies and legislation by government departments and agencies.\nExamples of the occupations classified here:\n-  Ambassador\n-  City administrator\n-  Civil service commissioner\n-  Consul-general\n-  Director-general (government department)\n-  Director-general (intergovernmental organization)\n-  Fire commissioner\n-  Inspector-general (police)\n-  Permanent head (government department)\n-  Police chief constable\n-  Police commissioner\n-  Secretary-general (government administration)\n-  Under-secretary (government)\n\n\nNote\nChief executives of government-owned enterprises are included in Unit Group 1120: Managing Directors and Chief Executives.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1112&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1112",
+      "title": "Senior government officials"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C111&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C111",
+        "title": "Legislators and senior officials",
+        "code": "111"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0752ed49-03e7-4d75-8314-a051b3771a1d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0752ed49-03e7-4d75-8314-a051b3771a1d",
+        "title": "public administration manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f2413988-f76a-4636-a4b1-9952517aa21f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f2413988-f76a-4636-a4b1-9952517aa21f",
+        "title": "fire commissioner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9e4269d5-e10e-4f49-ac99-65c833f933a2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9e4269d5-e10e-4f49-ac99-65c833f933a2",
+        "title": "central bank governor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a8d05b64-f60b-4dd9-91c2-e2e63d82f2f5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a8d05b64-f60b-4dd9-91c2-e2e63d82f2f5",
+        "title": "consul"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2ae275fe-4f11-4a38-9e95-d466d74b42a3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2ae275fe-4f11-4a38-9e95-d466d74b42a3",
+        "title": "police commissioner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1fb92021-9576-4c85-8759-f6918e9f0ad4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1fb92021-9576-4c85-8759-f6918e9f0ad4",
+        "title": "diplomat"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5c5b153e-4bf8-4f3d-973d-12fabf306d12&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5c5b153e-4bf8-4f3d-973d-12fabf306d12",
+        "title": "secretary general"
+      }
+    ]
+  },
+  "_embedded": {}
+}

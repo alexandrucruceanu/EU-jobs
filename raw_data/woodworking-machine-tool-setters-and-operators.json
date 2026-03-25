@@ -1,0 +1,108 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7523",
+  "title": "Woodworking-machine tool setters and operators",
+  "preferredLabel": {
+    "de": "Einrichter und Bediener von Holzbearbeitungsmaschinen",
+    "fi": "Konepuusepät",
+    "sv": "Trämaskinställare och trämaskinskötare",
+    "pt": "Operadores de máquinas para trabalhar madeira",
+    "bg": "Настройчици и оператори настройчици на дървообработващи машини",
+    "mt": "Ħaddiema li jissettjaw u operaturi tal-magni tal-injam",
+    "el": "Ρυθμιστές και ρυθμιστές-χειριστές μηχανημάτων επεξεργασίας ξύλου",
+    "lt": "Medžio apdirbimo staklių derintojai ir operatoriai",
+    "en": "Woodworking-machine tool setters and operators",
+    "lv": "Kokapstrādes darbgaldu regulētāji un operatori",
+    "hr": "Rukovatelji/rukovateljice strojevima za preradu drva i srodna zanimanja",
+    "it": "Modellatori e tracciatori meccanici di macchine utensili",
+    "fr": "Régleurs et conducteurs de machines à bois",
+    "hu": "Famegmunkáló gépek beállítói és üzemeltetői",
+    "es": "Reguladores y operadores de máquinas de labrar madera",
+    "et": "Puidutöötluspinkide seadistajad ja operaatorid",
+    "cs": "Seřizovači a obsluha dřevoobráběcích strojů",
+    "sk": "Nastavovači a operátori drevoobrábacích strojov",
+    "sl": "Nastavljavci/nastavljavke lesnoobdelovalnih strojev ipd.",
+    "pl": "Ustawiacze i operatorzy maszyn do obróbki drewna i pokrewni",
+    "ro": "Reglori și operatori mașini de prelucrat lemn",
+    "da": "Operatør- og opstillingsarbejde af træforarbejdningsmaskiner",
+    "nl": "Instellers en bedieningspersoneel houtbewerkingsmachines"
+  },
+  "code": "7523",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7523"
+    },
+    {
+      "datatype": "",
+      "value": "7523"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Woodworking machine tool setters and operators set-up, operate and monitor automatic or semi-automatic woodworking machines such as precision sawing, shaping, planing, boring, turning and woodcarving machines to fabricate or repair wooden parts for furniture, fixtures and other wooden products.\nTasks include -\n(a)  setting up, programming, operating and monitoring several types of woodworking machines for sawing, shaping, boring, drilling, planing, pressing, turning, sanding or carving to fabricate or repair wooden parts for furniture, fixtures and other wooden products;\n(b)  operating preset special-purpose woodworking machines to fabricate wooden products such as coat hangers, mop handles, clothespins and other products;\n(c)  selecting knives, saws, blades, cutter heads, cams, bits or belts according to work piece, machine functions and product specifications;\n(d)  installing and adjusting blades, cutter heads, boring-bits and sanding-belts, and using hand tools and rules;\n(e)  setting and adjusting various kinds of woodworking machines for operation by others;\n(f)  reading and interpreting specifications or following verbal instructions.\nExamples of the occupations classified here:\n- Carving machine operator (wood)\n- Furniture production machine operator\n- Precision woodworking sawyer\n- Wood products machine operator\n- Wood turner\n- Woodworking lathe operator \n- Woodworking machine setter\n- Woodworking machine setter-operator\n- Woodworking machine set-up operator\nSome related occupations classified elsewhere:\n- Wood and related products assemblers - 8219\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7523&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7523",
+      "title": "Woodworking-machine tool setters and operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C752&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C752",
+        "title": "Wood treaters, cabinet-makers and related trades workers",
+        "code": "752"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3bdf6206-e952-4177-a17b-2a03bfee2144&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3bdf6206-e952-4177-a17b-2a03bfee2144",
+        "title": "wood sander"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7e08d38d-30c9-4a6f-b88e-b28e87c0b259&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7e08d38d-30c9-4a6f-b88e-b28e87c0b259",
+        "title": "wood boring machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a77bc925-c441-42f2-92d4-666b103fc025&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a77bc925-c441-42f2-92d4-666b103fc025",
+        "title": "wood pallet maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ac160654-0d3e-49aa-b798-1861ce9d78b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ac160654-0d3e-49aa-b798-1861ce9d78b6",
+        "title": "woodturner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ceb5277b-2c4d-4cb9-9b7e-b386e66e11ba&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ceb5277b-2c4d-4cb9-9b7e-b386e66e11ba",
+        "title": "nailing machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/77a05858-f682-4648-baa5-9b86deeffbc1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/77a05858-f682-4648-baa5-9b86deeffbc1",
+        "title": "wooden furniture machine operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

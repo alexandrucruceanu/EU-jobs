@@ -1,0 +1,164 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3119",
+  "title": "Physical and engineering science technicians not elsewhere classified",
+  "preferredLabel": {
+    "de": "Material- und ingenieurtechnische Fachkräfte, anderweitig nicht genannt",
+    "no": "Andre ingeniører",
+    "sv": "Övriga ingenjörer och tekniker",
+    "fi": "Muut fysiikan, kemian ja teknisten alojen asiantuntijat",
+    "pt": "Outros técnicos das ciências físicas e da engenharia",
+    "bg": "Приложни специалисти във физическите и техническите науки, некласифицирани другаде",
+    "mt": "Tekniċi tax-xjenza fiżika u tal-inġinerija mhux ikklassifikati x’imkien ieħor",
+    "el": "Τεχνικοί επιστημών φυσικής και μηχανικής π.δ.κ.α.",
+    "lt": "Kitur nepriskirti, fizinių ir inžinerijos mokslų technikai",
+    "en": "Physical and engineering science technicians not elsewhere classified",
+    "lv": "Citur neklasificēti fizikas un inženierzinātņu speciālisti",
+    "hr": "Tehničko-tehnološki tehničari/tehničko-tehnološke tehničarke d. n.",
+    "it": "Altri tecnici delle scienze fisiche e ingegneristiche non classificati altrove",
+    "fr": "Techniciens des sciences physiques et techniques non classés ailleurs",
+    "hu": "Máshová nem sorolható természettudományi és műszaki technikusok",
+    "es": "Técnicos en ciencias físicas y en ingeniería no clasificados bajo otros epígrafes",
+    "et": "Füüsika-, keemia-, inseneriteaduse jms alade tehnikud, mujal liigitamata",
+    "cs": "Technici ve fyzikálních a příbuzných oborech jinde neuvedení",
+    "sk": "Technici vo fyzikálnych a technických vedách inde neuvedení",
+    "sl": "Tehniki/tehnice tehnično-tehnoloških strok, d. n.",
+    "pl": "Technicy nauk fizycznych, chemicznych i technicznych gdzie indziej niesklasyfikowani",
+    "ro": "Tehnicieni în științe inginerești neclasificați în grupele de bază anterioare",
+    "da": "Andet teknikerarbejde inden for fysisk videnskab og ingeniørvirksomhed",
+    "nl": "Technici op het gebied van natuurkunde en ingenieurswetenschappen, niet elders geclassificeerd"
+  },
+  "code": "3119",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3119"
+    },
+    {
+      "datatype": "",
+      "value": "3119"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers physical and engineering science technicians not classified elsewhere in Minor Group 311: Physical and Engineering Science Technicians. For instance, the unit group includes those who assist scientists and engineers engaged in developing procedures or conducting research on safety, biomedical, environmental or industrial and production engineering.\nIn such cases tasks would include - \n(a)  collecting data and providing technical assistance regarding:  efficient, safe and economic utilization of personnel, material and equipment;  methods of work and sequence of operations and supervision of their implementation; and efficient layout of plant or establishment;\n(b)  aiding in the identification of potential hazards and introducing safety procedures and devices;\n(c)  modifying and testing equipment and devices used in the prevention, control and remediation of environmental pollution, in site remediation and land reclamation;\n(d)  assisting in the development of environmental pollution remediation devices under the direction of an engineer;\n(e)  assisting engineers in testing and designing robotics equipment.\nExamples of the occupations classified here:\n- Engineering technician (production)\n- Fire investigator\n- Forensic science technician\n- Quantity surveying technician\n- Robotics technician \n- Time and motion study technician\n\nSome related occupations classified elsewhere:\n- Production engineer - 2141\n- Time and motion study engineer - 2141\n- Quantity surveyor - 2149\n- Aeronautics engineering technician - 3115\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3119&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3119",
+      "title": "Physical and engineering science technicians not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C311&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C311",
+        "title": "Physical and engineering science technicians",
+        "code": "311"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/998a0bf4-b1be-42ab-aee5-0096c9be3319&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/998a0bf4-b1be-42ab-aee5-0096c9be3319",
+        "title": "quality engineering technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/08f5481e-9233-4ef2-9e4b-945224879ce5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/08f5481e-9233-4ef2-9e4b-945224879ce5",
+        "title": "commissioning technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/42381741-f3a7-4b26-b35c-da6fad9f1cfd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/42381741-f3a7-4b26-b35c-da6fad9f1cfd",
+        "title": "product development engineering technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/745c8bb3-b50b-4380-9377-1b68a6576986&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/745c8bb3-b50b-4380-9377-1b68a6576986",
+        "title": "textile process controller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/822bbc2d-bc6a-4fb5-afb8-89170120c6d8",
+        "title": "airport maintenance technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c8ee6499-7613-4c02-9edf-2a0edcf47705&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c8ee6499-7613-4c02-9edf-2a0edcf47705",
+        "title": "aviation safety officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d515e82a-ca9f-4be4-9823-33694dff7304&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d515e82a-ca9f-4be4-9823-33694dff7304",
+        "title": "leather goods product developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5791a961-4717-4230-a245-a4082a675f04&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5791a961-4717-4230-a245-a4082a675f04",
+        "title": "automation engineering technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a645b7e5-dfa8-4cce-938f-2d6395a6b51d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a645b7e5-dfa8-4cce-938f-2d6395a6b51d",
+        "title": "leather goods manufacturing technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1209b85e-80f1-490f-a7e1-6ad220bb956d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1209b85e-80f1-490f-a7e1-6ad220bb956d",
+        "title": "footwear product developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bcc21c63-7eee-4520-8fa7-43eefd389668&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bcc21c63-7eee-4520-8fa7-43eefd389668",
+        "title": "industrial engineering technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/53be4843-8f31-4645-b25c-9a5bbb04f6b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/53be4843-8f31-4645-b25c-9a5bbb04f6b6",
+        "title": "process engineering technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/59dae100-fdfe-44bd-8bd8-a0d3cd813ce4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/59dae100-fdfe-44bd-8bd8-a0d3cd813ce4",
+        "title": "footwear production technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/afee6a28-f654-4ac7-a665-f758616bc689&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/afee6a28-f654-4ac7-a665-f758616bc689",
+        "title": "food technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3288a2fe-4934-47c8-ad0b-11b16c9cd461&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3288a2fe-4934-47c8-ad0b-11b16c9cd461",
+        "title": "utilities inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8b828b9f-e41a-48d1-9d35-2c4378279a79&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8b828b9f-e41a-48d1-9d35-2c4378279a79",
+        "title": "pipeline compliance coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/250d6493-68ab-4d69-ba67-c10293a20f49&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/250d6493-68ab-4d69-ba67-c10293a20f49",
+        "title": "photonics engineering technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

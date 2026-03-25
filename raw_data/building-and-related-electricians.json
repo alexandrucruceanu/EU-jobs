@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7411",
+  "title": "Building and related electricians",
+  "preferredLabel": {
+    "no": "Elektrikere",
+    "de": "Bauelektriker und verwandte Berufe",
+    "sv": "Installations- och serviceelektriker",
+    "fi": "Rakennussähköasentajat",
+    "pt": "Electricistas da construção e similares",
+    "bg": "Строителни електротехници и сродни на тях",
+    "el": "Ηλεκτρολόγοι κτιρίων και ασκούντες συναφή επαγγέλματα",
+    "mt": "Ħaddiema li jdaħħlu l-elettriku fil-bini u dawk relatati ma’ dawn",
+    "lt": "Pastatų ir kitokie elektrikai",
+    "en": "Building and related electricians",
+    "lv": "Būvelektriķi un tiem radniecīgu nozaru elektriķi",
+    "hr": "Elektroinstalateri/elektroinstalaterke i srodna zanimanja",
+    "it": "Elettricisti dell’edilizia ed assimilati",
+    "fr": "Électriciens du bâtiment et assimilés",
+    "hu": "Építőipari villanyszerelők és hasonló foglalkozásúak",
+    "es": "Electricistas de obras y afines",
+    "et": "Ehituselektrikud",
+    "cs": "Stavební a provozní elektrikáři",
+    "sk": "Stavební elektrikári",
+    "sl": "Elektroinštalaterji/elektroinštalaterke v gradbeništvu ipd.",
+    "pl": "Elektrycy budowlani i pokrewni",
+    "ro": "Electricieni construcții și asimilați",
+    "da": "Elektrikerarbejde",
+    "nl": "Bouwelektriciens e.d."
+  },
+  "code": "7411",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7411"
+    },
+    {
+      "datatype": "",
+      "value": "7411"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Building and related electricians install, maintain and repair electrical wiring systems and related equipment and fixtures.\nTasks include -\n(a)  installing, maintaining and repairing electrical wiring systems and related equipment in various buildings such as schools, hospitals, commercial establishments, residential buildings and other structures;\n(b)  examining blueprints, wiring diagrams and specifications to determine sequences and methods of operation;\n(c)  planning layout and installation of electrical wiring, equipment and fixtures, based on job specifications and relevant standards; \n(d)  inspecting electrical systems, equipment, and components to identify hazards, defects, and the need for adjustment or repair;\n(e)  selecting, cutting and connecting wire and cable to terminals and connectors;\n(f)  measuring and laying out installation reference points;\n(g)  positioning and installing electrical switchboards;\n(h)  testing continuity of circuits.\nExamples of the occupations classified here:\n- Building repairs electrician\n- Electrician\nSome related occupations classified elsewhere:\n- Electrical fitter - 7412\n- Electrical mechanic - 7412\n- Electrical line installer - 7413\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7411&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7411",
+      "title": "Building and related electricians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C741&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C741",
+        "title": "Electrical equipment installers and repairers",
+        "code": "741"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4910419f-b4af-4f59-b544-9dbebc8a74f0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4910419f-b4af-4f59-b544-9dbebc8a74f0",
+        "title": "electrician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

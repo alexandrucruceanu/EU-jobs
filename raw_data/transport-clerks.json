@@ -1,0 +1,179 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4323",
+  "title": "Transport clerks",
+  "preferredLabel": {
+    "de": "Bürokräfte in der Transportwirtschaft und verwandte Berufe",
+    "no": "Transportfunksjonærer",
+    "fi": "Kuljetuksen toimistotyöntekijät",
+    "sv": "Transportassistenter",
+    "pt": "Empregados dos serviços de transportes",
+    "bg": "Персонал, водещ транспортни документи",
+    "mt": "Skrivani fil-qasam tat-trasport",
+    "el": "Υπάλληλοι υπηρεσιών μεταφορών",
+    "lt": "Transporto tarnautojai",
+    "en": "Transport clerks",
+    "lv": "Transporta uzskaites darbinieki",
+    "hr": "Prometni uredski službenici/prometne uredske službenice",
+    "it": "Addetti alla gestione amministrativa dei trasporti",
+    "fr": "Employés du service des transports",
+    "hu": "Szállítmányozási nyilvántartók",
+    "es": "Empleados de servicios de transporte",
+    "et": "Transpordiametnikud",
+    "cs": "Úředníci v dopravě a přepravě",
+    "sk": "Administratívni pracovníci v doprave",
+    "sl": "Uradniki/uradnice za promet",
+    "pl": "Pracownicy pomocniczy do spraw transportu",
+    "ro": "Funcționari în transporturi",
+    "da": "Registreringsarbejde inden for transport- og trafikstyring",
+    "nl": "Administratief transportpersoneel"
+  },
+  "code": "4323",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "4323"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4323"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Transport clerks keep records of operational aspects and coordinate the timing of train, road and air passenger and freight transport, and prepare reports for management.\nTasks include -\n(a)  keeping records of operational aspects and coordinating the timing of passenger and freight transport;\n(b)  directing train routings within a division or zone of a railway system and keeping related records;\n(c)  directing, controlling and keeping records of freight handling at a railway yard;\n(d)  coordinating and keeping records of operational activities concerning road transport, such as allocation and scheduling of vehicles and drivers, loading and unloading of vehicles, and storage of goods in transit;\n(e)  coordinating and keeping records of operational activities concerning air transport of passengers and freight, such as passenger lists and freight manifests;\n(f)  preparing reports for management.\n Examples of the occupations classified here: \n- Clerical controller (transport service)\n- Clerical dispatcher (transport service)\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4323&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4323",
+      "title": "Transport clerks"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C432&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C432",
+        "title": "Material-recording and transport clerks",
+        "code": "432"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6e785f05-969e-4940-aedb-d0f896bb0230&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6e785f05-969e-4940-aedb-d0f896bb0230",
+        "title": "aircraft dispatcher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/656674ac-9d4e-4a91-963f-c0b6edfd55a4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/656674ac-9d4e-4a91-963f-c0b6edfd55a4",
+        "title": "bus route supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/260b01cc-7dd6-4584-8863-cae5426819c6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/260b01cc-7dd6-4584-8863-cae5426819c6",
+        "title": "ship planner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d811881c-5241-47b1-be29-64ee488d3642&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d811881c-5241-47b1-be29-64ee488d3642",
+        "title": "baggage flow supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f57eb0cb-e67a-419c-9b7b-4abd811b7e2f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f57eb0cb-e67a-419c-9b7b-4abd811b7e2f",
+        "title": "move coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c3abb0cb-c78c-4136-b9f9-f9feca9179fa&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c3abb0cb-c78c-4136-b9f9-f9feca9179fa",
+        "title": "gas scheduling representative"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b9836ed2-1ca7-49b4-9f0e-bb5d2ca14443",
+        "title": "road transport maintenance scheduler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8908d5aa-ac58-465e-9b75-7e02ed4af3a9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8908d5aa-ac58-465e-9b75-7e02ed4af3a9",
+        "title": "water traffic coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fa404a79-4091-47f9-a635-c2e3c576ece8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fa404a79-4091-47f9-a635-c2e3c576ece8",
+        "title": "port coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/279c0ab1-212b-4e89-a41f-048f5de9dadf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/279c0ab1-212b-4e89-a41f-048f5de9dadf",
+        "title": "rail logistics coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f3eb330a-03b5-4537-ac0e-bcee5c67bcff&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f3eb330a-03b5-4537-ac0e-bcee5c67bcff",
+        "title": "aircraft cargo operations coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f643bff3-74ef-48d1-b033-820e2d8659e9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f643bff3-74ef-48d1-b033-820e2d8659e9",
+        "title": "rail traffic controller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c3760388-d070-491a-9c1f-be305a576815&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c3760388-d070-491a-9c1f-be305a576815",
+        "title": "ship pilot dispatcher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0cd0082a-ca15-4dcd-b352-b7600c916d8e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0cd0082a-ca15-4dcd-b352-b7600c916d8e",
+        "title": "vessel operations coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e9640041-ca34-4955-aa8c-629717d0dcda&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e9640041-ca34-4955-aa8c-629717d0dcda",
+        "title": "tram controller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/49e28648-4fa8-4b36-ac4d-781c108547bf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/49e28648-4fa8-4b36-ac4d-781c108547bf",
+        "title": "freight transport dispatcher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/61ed67cd-67d7-44d8-bc2d-47fc79110a59&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/61ed67cd-67d7-44d8-bc2d-47fc79110a59",
+        "title": "taxi controller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/562dd713-5745-4457-929e-5b909da084ca&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/562dd713-5745-4457-929e-5b909da084ca",
+        "title": "pipeline route manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/555ad9ba-72cf-4bc0-9ea6-c36041462be5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/555ad9ba-72cf-4bc0-9ea6-c36041462be5",
+        "title": "gas transmission system operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/74d47633-8e9e-4e08-9cba-d2292c211218&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/74d47633-8e9e-4e08-9cba-d2292c211218",
+        "title": "dangerous goods safety adviser"
+      }
+    ]
+  },
+  "_embedded": {}
+}

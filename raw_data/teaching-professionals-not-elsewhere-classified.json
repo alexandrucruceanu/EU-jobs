@@ -1,0 +1,139 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2359",
+  "title": "Teaching professionals not elsewhere classified",
+  "preferredLabel": {
+    "de": "Lehrkräfte, anderweitig nicht genannt",
+    "no": "Andre lærere",
+    "fi": "Opinto-ohjaajat ja muut opetuksen erityisasiantuntijat",
+    "sv": "Övriga pedagoger med teoretisk specialistkompetens",
+    "pt": "Outros especialistas de ensino, n.e.",
+    "bg": "Друг педагогически персонал, некласифициран другаде",
+    "mt": "Professjonisti tat-tagħlim li mhumiex ikklassifikati x’imkien ieħor",
+    "el": "Εκπαιδευτικοί π.δ.κ.α.",
+    "lt": "Kitur nepriskirti mokymo specialistai",
+    "en": "Teaching professionals not elsewhere classified",
+    "hr": "Stručnjaci/stručnjakinje za odgoj i obrazovanje, d. n.",
+    "lv": "Citur neklasificēti izglītības jomas vecākie speciālisti",
+    "it": "Specialisti dell’educazione non classificati altrove",
+    "fr": "Spécialistes de l’enseignement, non classés ailleurs",
+    "hu": "Máshová nem sorolható oktatási foglalkozásúak",
+    "es": "Profesionales de la enseñanza no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata õpetajad ja koolitajad",
+    "cs": "Specialisté v oblasti výchovy a vzdělávání jinde neuvedení",
+    "sk": "Odborní pedagogickí pracovníci inde neuvedení",
+    "sl": "Strokovnjaki/strokovnjakinje za vzgojo in izobraževanje, d. n.",
+    "pl": "Specjaliści szkolnictwa gdzie indziej niesklasyfikowani",
+    "ro": "Specialiști în învățământ neclasificați în grupele de bază anterioare",
+    "da": "Undervisnings- og pædagogisk arbejde ikke klassificeret andetsteds",
+    "nl": "Onderwijsgevenden, niet elders geclassificeerd"
+  },
+  "code": "2359",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2359"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2359"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers teaching professionals not classified elsewhere in Sub-major Group 23: Teaching Professionals. For instance, the group includes those who provide private tuition in subjects other than foreign languages and the arts, and those who provide educational counselling to students.\nIn such cases tasks performed would include -\n(a)  assessing students’ level of ability and determining learning needs; \n(b)  planning, preparing and delivering programmes of study, lessons and workshops for individual students and groups;\n(c)  preparing and presenting material on the theory of the subject area being studied;\n(d)  instructing and demonstrating practical aspects of the subject area being studied;\n(e)  assigning exercises and work relevant to students’ level of ability, interests and aptitude;\n(f)  assessing students and offering advice, criticism and encouragement;\n(g)  revising curricula, course content, course materials and methods of instruction; \n(h)  preparing students for examinations and assessments; \n(i)  counselling students regarding educational issues such as course and programme selection, class scheduling, school adjustment, truancy, study habits and career planning; \n(j)  counselling students to help them understand and overcome personal, social or behavioural problems affecting their education;\n(k)  preparing students for later educational experiences by encouraging them to explore learning opportunities and to persevere with challenging tasks.\nExamples of the occupations classified here:\n-  Literacy tutor (private tuition)\n-  Mathematics coach (private tuition)\n-  School counsellor\n- Student adviser\nSome related occupations classified elsewhere:\n- University lecturer - 2310\n- Vocational education teacher - 2320\n- Secondary school teacher - 2330\n- Primary school teacher - 2341\n- Intensive language teacher - 2353\n- Migrant education teacher - 2353\n- Music teacher (private tuition) - 2354\n- Dance teacher (private tuition) - 2355\n- Drama teacher (private tuition) - 2355\n- Painting teacher (private tuition) - 2355\n- Sculpture teacher (private tuition) -2355 \n- Educational psychologist - 2634\n- Family counsellor - 2635\n- Social worker - 2635\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2359&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2359",
+      "title": "Teaching professionals not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C235&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C235",
+        "title": "Other teaching professionals",
+        "code": "235"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2ddde737-28f3-444d-b1f8-ef12cc2df3c7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2ddde737-28f3-444d-b1f8-ef12cc2df3c7",
+        "title": "academic support officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6e1b1bd7-9eec-4f10-bce7-94a27d9023e8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6e1b1bd7-9eec-4f10-bce7-94a27d9023e8",
+        "title": "admissions coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a9c30651-ccbc-4a80-900c-7880615cdf6e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a9c30651-ccbc-4a80-900c-7880615cdf6e",
+        "title": "instructional designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6afe39e2-2674-45db-b05c-a6cab02fe25b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6afe39e2-2674-45db-b05c-a6cab02fe25b",
+        "title": "further education teacher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/abab3d6a-82b9-49bd-8a4b-7bc678130558&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/abab3d6a-82b9-49bd-8a4b-7bc678130558",
+        "title": "academic advisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a6517365-211c-456d-aca4-1a0115c7b1e1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a6517365-211c-456d-aca4-1a0115c7b1e1",
+        "title": "e-learning architect"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/21f4eb29-f6e5-4623-acb9-f3ff9c2f525d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/21f4eb29-f6e5-4623-acb9-f3ff9c2f525d",
+        "title": "public speaking coach"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ec5b72d1-0206-4179-9abd-570c66bc44b9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ec5b72d1-0206-4179-9abd-570c66bc44b9",
+        "title": "e-learning developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/59bce29f-5c8b-47cf-bfd4-6ec003f5323a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/59bce29f-5c8b-47cf-bfd4-6ec003f5323a",
+        "title": "tutor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3d0f86c1-9bdd-4e84-bc62-93a716128c8d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3d0f86c1-9bdd-4e84-bc62-93a716128c8d",
+        "title": "learning mentor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2412bbb1-29ca-4e17-a2b8-70694f0cb14f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2412bbb1-29ca-4e17-a2b8-70694f0cb14f",
+        "title": "educational counsellor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/653374a9-a96e-4c5b-849f-62ae67b0ed62&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/653374a9-a96e-4c5b-849f-62ae67b0ed62",
+        "title": "prison instructor"
+      }
+    ]
+  },
+  "_embedded": {}
+}

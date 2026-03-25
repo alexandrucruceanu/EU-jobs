@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1324",
+  "title": "Supply, distribution and related managers",
+  "preferredLabel": {
+    "de": "Führungskräfte in der Beschaffung, Logistik und in verwandten Bereichen",
+    "no": "Ledere av logistikk og transport mv.",
+    "sv": "Inköps- och distributionschefer m.fl.",
+    "fi": "Hankinta- ja jakelujohtajat ym.",
+    "pt": "Directores de compras, transportes e distribuição",
+    "bg": "Ръководители на звена за доставки, дистрибуция и сродни на тях",
+    "el": "Διευθυντές τροφοδοσίας, διανομής και σχετικών δραστηριοτήτων",
+    "mt": "Maniġers tal-provvista, distribuzzjoni u ħwejjeġ oħra relatati",
+    "lt": "Tiekimo, platinimo ir susijusių paslaugų vadovai",
+    "en": "Supply, distribution and related managers",
+    "lv": "Transporta, sakaru, noliktavu, sagādes, loģistikas un tām radniecīgu jomu vadītāji",
+    "hr": "Direktori/direktorice za nabavu i distribuciju",
+    "it": "Dirigenti nei servizi di approvvigionamento, distribuzione ed assimilati",
+    "fr": "Directeurs et cadres de direction, approvisionnement, distribution et assimilés",
+    "hu": "Beszerzési, értékesítési és hasonló vezetők",
+    "es": "Directores de empresas de abastecimiento, distribución y afines",
+    "et": "Põhitegevuse juhid tarne ja turustamise alal",
+    "cs": "Vedoucí a řídící pracovníci v dopravě, logistice a příbuzných oborech",
+    "sk": "Riadiaci pracovníci (manažéri) v doprave a logistike",
+    "sl": "Menedžerji/menedžerke nabave, distribucije ipd.",
+    "pl": "Kierownicy do spraw logistyki i pokrewni",
+    "da": "Ledelse af hovedaktiviteten inden for forsyning, distribution o.l.",
+    "ro": "Conducători de unități din domeniul aprovizionării și desfacerii de mărfuri",
+    "nl": "Leidinggevende functies op het gebied van toelevering, distributie en op aanverwante gebieden"
+  },
+  "code": "1324",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1324"
+    },
+    {
+      "datatype": "",
+      "value": "1324"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Supply, distribution and related managers plan, direct and coordinate passenger transportation systems and facilities and the supply, transportation, storage and distribution of goods, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks include - \n(a)  determining, implementing and monitoring purchasing, storage and distribution strategies, policies and plans; \n(b)  preparing and implementing plans to maintain required stock levels at minimum cost; \n(c)  negotiating contracts with suppliers to meet quality, cost and delivery requirements; \n(d)  monitoring and reviewing storage and inventory systems to meet supply requirements, and control stock levels; \n(e)  overseeing the dispatch of road vehicles, trains, vessels or aircraft;\n(f)  operating recording systems to track all movements of goods, and ensuring reordering and restocking at optimal times;\n(g)  liaising with other departments and customers concerning requirements for outward goods and associated forwarding transportation;\n(h)  overseeing the recording of purchase, storage and distribution transactions;\n(i)  establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(j)  establishing and directing operational and administrative procedures; \n(k)  planning and directing daily operations;\n(l)  overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n-  Bus station manager \n-  Logistics manager \n-  Purchasing manager\n-  Railway station manager\n-  Railway station master\n-  Supply and distribution manager\n-  Supply chain manager\n-  Transport company manager\n-  Urban transit system manager\n-  Warehouse manager\nNote\nChief executives of major airports, railway companies, urban transit systems and other transportation corporations that have hierarchies of managers are included in Unit Group 1120: Managing Directors and Chief Executives.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1324&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1324",
+      "title": "Supply, distribution and related managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C132&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C132",
+        "title": "Manufacturing, mining, construction, and distribution managers",
+        "code": "132"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/788a9895-a39a-4a83-be90-e006e2f8dce5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/788a9895-a39a-4a83-be90-e006e2f8dce5",
+        "title": "pipeline superintendent"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0d442b70-5413-4820-bebf-36dd5ce437ac&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0d442b70-5413-4820-bebf-36dd5ce437ac",
+        "title": "air traffic manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/823db06f-25e1-4658-b063-d6ef956b41f5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/823db06f-25e1-4658-b063-d6ef956b41f5",
+        "title": "logistics and distribution manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fc35b7ca-ecec-40d7-91b5-5065f662d955&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fc35b7ca-ecec-40d7-91b5-5065f662d955",
+        "title": "airport director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b39a74a2-37fe-4fdc-ba8e-5bbbbdce2d89&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b39a74a2-37fe-4fdc-ba8e-5bbbbdce2d89",
+        "title": "railway station manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8f928d49-da89-4d07-9123-2151a4d276d4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8f928d49-da89-4d07-9123-2151a4d276d4",
+        "title": "move manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3530b443-d2bf-4741-b771-12c77e7c6232&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3530b443-d2bf-4741-b771-12c77e7c6232",
+        "title": "movie distributor"
+      }
+    ]
+  },
+  "_embedded": {}
+}

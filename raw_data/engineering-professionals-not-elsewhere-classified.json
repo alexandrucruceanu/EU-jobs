@@ -1,0 +1,154 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2149",
+  "title": "Engineering professionals not elsewhere classified",
+  "preferredLabel": {
+    "de": "Ingenieure, anderweitig nicht genannt",
+    "no": "Andre sivilingeniører (unntatt elektroteknologi)",
+    "fi": "Muut tekniikan erityisasiantuntijat",
+    "sv": "Övriga civilingenjörer m.fl.",
+    "pt": "Outros engenheiros (excluindo de electrotecnologia)",
+    "bg": "Специалисти по технически науки, некласифицирани другаде",
+    "el": "Μηχανικοί π.δ.κ.α.",
+    "mt": "Professjonisti tal-inġinerija li mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti inžinerijos specialistai",
+    "en": "Engineering professionals not elsewhere classified",
+    "hr": "Stručnjaci/stručnjakinje tehničko-tehnoloških znanosti (osim elektrotehnike) d. n.",
+    "lv": "Citur neklasificēti inženieri",
+    "it": "Specialisti in ingegneria non classificati altrove",
+    "fr": "Spécialistes, sciences techniques non classés ailleurs",
+    "hu": "Máshová nem sorolható mérnökök",
+    "es": "Ingenieros no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata tehnikateaduste tippspetsialistid",
+    "cs": "Specialisté v oblasti techniky (kromě elektrotechniky) jinde neuvedení",
+    "sk": "Technickí špecialisti inde neuvedení (okrem špecialistov v oblasti elektrotechnológií)",
+    "sl": "Strokovnjaki/strokovnjakinje tehnično-tehnoloških strok, d. n.",
+    "pl": "Inżynierowie gdzie indziej niesklasyfikowani",
+    "ro": "Ingineri și asimilați neclasificați în grupele de bază anterioare",
+    "da": "Andet ingeniørarbejde (undtagen elektroteknologi)",
+    "nl": "Ingenieurs, niet elders geclassificeerd"
+  },
+  "code": "2149",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2149"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2149"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers engineering professionals not classified elsewhere in Minor Group 214: Engineering Professionals (excluding Electrotechnology) or in Minor Group 215: Electrotechnology Engineers. For instance, the group includes those who conduct research, advise on or develop engineering procedures and solutions concerning workplace safety, biomedical engineering, optics, materials, nuclear power generation and explosives.\nIn such cases tasks would include -\n(a)  applying knowledge of engineering to the design, development and evaluation of biological and health systems and products such as artificial organs, prostheses, and instrumentation;\n(b)  designing devices used in various medical procedures and imaging systems such as magnetic resonance imaging, and devices for automating insulin injections or controlling body functions;\n(c)  designing components of optical instruments such as lenses, microscopes, telescopes, lasers, optical disc systems and other equipment that utilize the properties of light; \n(d)  designing, testing, and coordinating the development of explosive ordnance material to meet military procurement specifications;\n(e)  designing and overseeing the construction and operation of nuclear reactors and power plants and nuclear fuels reprocessing and reclamation systems;\n(f)  designing and developing nuclear equipment such as reactor cores, radiation shielding and associated instrumentation and control mechanisms;\n(g)  assessing damage and providing calculations for marine salvage operations;\n(h)  studying and advising on engineering aspects of particular manufacturing processes, such as those related to glass, ceramics, textiles, leather products, wood and printing;\n(i)  identifying potential hazards and introducing safety procedures and devices.\nExamples of the occupations classified here:\n-  Biomedical engineer\n-  Explosive ordnance engineer\n-  Marine salvage engineer \n-  Materials engineer\n-  Nuclear power generation engineer\n-  Optical engineer\n-  Quantity surveyor\n-  Safety engineer\n-  Time and motion study engineer\nSome related occupations classified elsewhere:\n-  Industrial and production engineers - 2141\n-  Environmental engineers - 2143\n-  Surveyor - 2165\nNotes:\nIt should be noted that, while they are appropriately classified in this unit group with other engineering professionals, biomedical engineers are considered to be an integral part of the health workforce alongside those occupations classified in Sub-major Group 22: Health Professionals, and others classified in a number of other unit groups in Major Group 2: Professionals.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2149&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2149",
+      "title": "Engineering professionals not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C214&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C214",
+        "title": "Engineering professionals (excluding electrotechnology)",
+        "code": "214"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b065b637-5cb5-44d9-8c39-08004b51734e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b065b637-5cb5-44d9-8c39-08004b51734e",
+        "title": "acoustical engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c8fa93eb-7c2c-42c3-b135-c2e825a6615e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c8fa93eb-7c2c-42c3-b135-c2e825a6615e",
+        "title": "test engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b2cede50-82bb-4684-9f11-1930e12ad672&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b2cede50-82bb-4684-9f11-1930e12ad672",
+        "title": "energy engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4a375b68-88a0-4e5f-99ce-9b01341dfb81&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4a375b68-88a0-4e5f-99ce-9b01341dfb81",
+        "title": "materials engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/70182f44-e444-4bf3-940f-0c054c1d5917&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/70182f44-e444-4bf3-940f-0c054c1d5917",
+        "title": "textile, leather and footwear researcher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4daee8bd-8400-4da6-ba52-30d4c193d1a9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4daee8bd-8400-4da6-ba52-30d4c193d1a9",
+        "title": "aviation ground systems engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e047b8f5-9491-4da2-8816-7aa37ad2370d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e047b8f5-9491-4da2-8816-7aa37ad2370d",
+        "title": "patent engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fde4372d-8293-42de-afbb-8b5a9b274fe7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fde4372d-8293-42de-afbb-8b5a9b274fe7",
+        "title": "application engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a1273779-d2d4-4708-a406-62f7cdd26aab&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a1273779-d2d4-4708-a406-62f7cdd26aab",
+        "title": "health and safety engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/01989dd8-36c0-43cc-a82d-2bfc409de9c4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/01989dd8-36c0-43cc-a82d-2bfc409de9c4",
+        "title": "dismantling engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/551a6797-3ca9-41fc-9dca-9a982a8fd8a6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/551a6797-3ca9-41fc-9dca-9a982a8fd8a6",
+        "title": "robotics engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f9433fdb-dde1-46cf-9e91-b49d243946a7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f9433fdb-dde1-46cf-9e91-b49d243946a7",
+        "title": "bioengineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0cca32c2-9308-4927-adb2-14771ab787f0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0cca32c2-9308-4927-adb2-14771ab787f0",
+        "title": "quantity surveyor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/76abbb82-c103-4d7a-a4c0-14dba4d6199a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/76abbb82-c103-4d7a-a4c0-14dba4d6199a",
+        "title": "commissioning engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ab3c4d3e-3189-47ad-82af-57cdae3cb589&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ab3c4d3e-3189-47ad-82af-57cdae3cb589",
+        "title": "optical engineer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

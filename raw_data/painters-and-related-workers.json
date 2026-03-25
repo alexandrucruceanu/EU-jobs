@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7131",
+  "title": "Painters and related workers",
+  "preferredLabel": {
+    "no": "Malere og byggtapetserere",
+    "de": "Maler und verwandte Berufe",
+    "fi": "Rakennusmaalarit ym.",
+    "sv": "Målare",
+    "pt": "Pintores da construção e similares",
+    "bg": "Бояджии",
+    "mt": "Żebbiegħa u ħaddiema relatati ma’ dawn",
+    "el": "Ελαιοχρωματιστές, βαφείς, και ασκούντες συναφή επαγγέλματα",
+    "lt": "Dažytojai ir susijusių profesijų darbininkai",
+    "en": "Painters and related workers",
+    "lv": "Krāsotāji un tiem radniecīgu profesiju darbinieki",
+    "hr": "Soboslikari/soboslikarice, ličioci/ličiteljice i srodna zanimanja",
+    "it": "Imbianchini ed assimilati",
+    "fr": "Peintres en bâtiment et poseurs de papiers peints",
+    "hu": "Festők és hasonló foglalkozásúak",
+    "es": "Pintores y empapeladores",
+    "et": "Maalrid jms töölised",
+    "cs": "Malíři (vč. stavebních lakýrníků a natěračů), tapetáři",
+    "sk": "Maliari a podobní robotníci",
+    "sl": "Pleskarji/pleskarke ipd.",
+    "pl": "Malarze budowlani i pokrewni",
+    "da": "Malerarbejde",
+    "ro": "Zugravi și asimilați",
+    "nl": "Schilders e.d."
+  },
+  "code": "7131",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7131"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7131"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Painters and related workers prepare surfaces of buildings and other structures for painting, apply protective and decorative coats of paint or similar materials, or cover interior walls and ceilings of buildings with wallpaper or other finishes.\nTasks include -\n(a)  cleaning and preparing walls and other surfaces of buildings for painting or wallpapering;\n(b)  selecting and preparing paints to required colours by mixing pigments and additives;\n(c)  applying or spraying paint, varnish and similar materials to surfaces, fixtures and fittings of buildings;\n(d)  measuring and hanging wallpaper or other fabrics on interior walls and ceilings;\n(e)  applying paints, varnishes and stains to surfaces using brushes, rollers and sprays.\nExamples of the occupations classified here:\n- Building painter\n- Paperhanger\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7131&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7131",
+      "title": "Painters and related workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C713&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C713",
+        "title": "Painters, building structure cleaners and related trades workers",
+        "code": "713"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a2abd144-2a36-45ea-919c-1fcc6ebc5d45&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a2abd144-2a36-45ea-919c-1fcc6ebc5d45",
+        "title": "paperhanger"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/15620506-fb5d-49cd-87a2-1c9047fb406a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/15620506-fb5d-49cd-87a2-1c9047fb406a",
+        "title": "construction painter"
+      }
+    ]
+  },
+  "_embedded": {}
+}

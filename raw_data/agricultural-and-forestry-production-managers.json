@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1311",
+  "title": "Agricultural and forestry production managers",
+  "preferredLabel": {
+    "de": "Führungskräfte in der Produktion in Land- und Forstwirtschaft",
+    "no": "Ledere i skogbruk",
+    "fi": "Maa- ja metsätalouden johtajat",
+    "sv": "Driftchefer inom jordbruk och skogsbruk",
+    "pt": "Directores de produção na agricultura, produção animal e floresta",
+    "bg": "Ръководители в селското и горското стопанство",
+    "el": "Διευθυντές παραγωγής στη γεωργία και στη δασοκομία",
+    "mt": "Maniġers tal-produzzjoni fl-agrikoltura u l-forestrija",
+    "lt": "Žemės ūkio ir miškininkystės gamybos vadovai",
+    "en": "Agricultural and forestry production managers",
+    "lv": "Lauksaimniecības, mežsaimniecības un zivsaimniecības ražošanas vadītāji",
+    "hr": "Direktori/direktorice proizvodnje u poljoprivredi i šumarstvu",
+    "it": "Dirigenti nella produzione agricola e forestale",
+    "fr": "Directeurs et cadres de direction, agriculture et sylviculture",
+    "hu": "Mezőgazdasági és erdőgazdálkodási termelési vezetők",
+    "es": "Directores de producción agropecuaria y silvicultura",
+    "et": "Tootmisjuhid põllumajanduses ja metsanduses",
+    "cs": "Vedoucí a řídící pracovníci v zemědělství a lesnictví",
+    "sk": "Riadiaci pracovníci (manažéri) v poľnohospodárstve a lesníctve",
+    "sl": "Menedžerji/menedžerke proizvodnje v kmetijstvu in gozdarstvu",
+    "pl": "Kierownicy produkcji w rolnictwie i leśnictwie",
+    "da": "Ledelse af produktion i landbrug og skovbrug",
+    "ro": "Conducători de unități din agricultură și silvicultură",
+    "nl": "Leidinggevende functies op het gebied van de landbouw- en bosbouwproductie"
+  },
+  "code": "1311",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1311"
+    },
+    {
+      "datatype": "",
+      "value": "1311"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Agricultural and forestry production managers plan, direct and coordinate production in large-scale agricultural, horticultural and forestry operations such as plantations, large ranches, collective farms and agricultural cooperatives to grow and harvest crops, and breed and raise livestock.\nTasks include -\n(a) monitoring agricultural and forestry market activity and planning production to meet contract requirements and market demand;\n(b) establishing and managing budgets, monitoring production output and costs, recording information such as farm management practices, and preparing financial and operational reports;\n(c) conferring with buyers to arrange for the sale of crops and livestock;\n(d) contracting with farmers or independent owners for production of crops and livestock, or for management of production;\n(e) planning the type, intensity and sequence of farm operations (e.g. determining the best times for planting, spraying and harvesting);\n(f) analysing soil to determine types and quantities of fertilizer required for maximum production;\n(g) purchasing machinery, equipment and supplies such as tractors, seed, fertilizer and chemicals;\n(h) identifying and controlling agricultural and forest environmental toxins, weeds, pests and diseases;\n(i) organizing farming operations such as maintaining buildings, water supply systems and equipment;\n(j) directing and coordinating activities such as planting, irrigation, chemical application, harvesting and grading; \n(k) inspecting plantations and fields to determine maturity dates of crops, or to estimate potential crop damage from weather;\n (l) overseeing the selection, training and performance of agricultural and forestry workers and contractors.\nExamples of the occupations classified here:\n-  Forestry manager\n-  Plantation manager\n-  Ranch manager\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1311&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1311",
+      "title": "Agricultural and forestry production managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C131&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C131",
+        "title": "Production managers in agriculture, forestry and fisheries",
+        "code": "131"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f04eaeff-52f5-4d52-93ad-6f846884827f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f04eaeff-52f5-4d52-93ad-6f846884827f",
+        "title": "forester"
+      }
+    ]
+  },
+  "_embedded": {}
+}

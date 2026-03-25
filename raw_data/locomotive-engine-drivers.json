@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8311",
+  "title": "Locomotive engine drivers",
+  "preferredLabel": {
+    "no": "Lokomotiv og T-baneførere",
+    "de": "Lokomotivführer",
+    "fi": "Veturinkuljettajat",
+    "sv": "Lokförare",
+    "pt": "Maquinistas de locomotivas",
+    "bg": "Локомотивни машинисти",
+    "el": "Μηχανοδηγοί σιδηροδρόμων",
+    "mt": "Sewwieqa ta’ ferrovija",
+    "lt": "Lokomotyvų mašinistai",
+    "en": "Locomotive engine drivers",
+    "hr": "Strojovođe/strojovotkinje",
+    "lv": "Lokomotīvju mašīnisti",
+    "it": "Conducenti di locomotive",
+    "fr": "Conducteurs de locomotives",
+    "hu": "Mozdonyvezetők",
+    "es": "Maquinistas de locomotoras",
+    "et": "Veduri- ja rongijuhid",
+    "cs": "Strojvedoucí a řidiči kolejových motorových vozíků",
+    "sk": "Rušňovodiči",
+    "sl": "Vozniki/voznice železniških vozil",
+    "pl": "Maszyniści kolejowi",
+    "ro": "Mecanici de locomotivă",
+    "da": "Togførerarbejde",
+    "nl": "Treinmachinisten"
+  },
+  "code": "8311",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8311"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8311"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Locomotive engine drivers drive, or assist in driving, locomotive engines to transport passengers and freight.\nTasks include -\n(a)  driving or assisting in driving a steam, electric or diesel-electric locomotive engine;\n(b)  driving an underground or elevated passenger train;\n(c)  driving a locomotive to haul carriages underground or on the surface of a mine or quarry;\n(d)  watching for track hazards and observing signals and indicator gauges;\n(e)  operating communications systems to communicate with train crews and traffic controllers to ensure safe operation and scheduling of trains.\nExamples of the occupations classified here:\n- Locomotive driver\n- Metropolitan railway driver\n- Train driver\nSome related occupations classified elsewhere:\n- Tram driver - 8331\nNotes\nDrivers of vehicles that operate on fixed rail systems that are separated from public roadways are classified in Unit Group 8311: Locomotive Engine Drivers. Drivers of vehicles for passenger transportation on fixed rails that are incorporated in the public roadway are classified in Unit Group 8331: Bus and Tram Drivers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8311&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8311",
+      "title": "Locomotive engine drivers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C831&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C831",
+        "title": "Locomotive engine drivers and related workers",
+        "code": "831"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/81f6a814-1f4e-47d4-9c75-47977c7267ee&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/81f6a814-1f4e-47d4-9c75-47977c7267ee",
+        "title": "train driver"
+      }
+    ]
+  },
+  "_embedded": {}
+}

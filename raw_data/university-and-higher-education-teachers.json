@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2310",
+  "title": "University and higher education teachers",
+  "preferredLabel": {
+    "de": "Universitäts- und Hochschullehrer",
+    "no": "Universitets- og høyskolelektorer/-lærere",
+    "fi": "Yliopistojen ja ammattikorkeakoulujen opettajat",
+    "sv": "Universitets- och högskollärare",
+    "pt": "Professores dos ensinos universitário e superior",
+    "bg": "Преподаватели в университети, колежи и други висши училища",
+    "el": "Διδακτικό προσωπικό ανώτατων εκπαιδευτικών ιδρυμάτων",
+    "mt": "Għalliema tal-università u tal-edukazzjoni ogħla",
+    "lt": "Aukštųjų mokyklų dėstytojai",
+    "en": "University and higher education teachers",
+    "hr": "Sveučilišni i visokoškolski nastavnici/ sveučilišne i visokoškolske nastavnice",
+    "lv": "Universitāšu un citu augstākās izglītības iestāžu pasniedzēji",
+    "it": "Docenti universitari e professori dell’insegnamento superiore",
+    "fr": "Professeurs d’université et d’établissements d’enseignement supérieur",
+    "hu": "Egyetemek és egyéb felsőoktatási intézmények oktatói",
+    "es": "Profesores de universidades y de la enseñanza superior",
+    "et": "Ülikoolide ja kõrgkoolide õppejõud",
+    "cs": "Učitelé na vysokých a vyšších odborných školách",
+    "sk": "Univerzitní a vysokoškolskí učitelia",
+    "sl": "Univerzitetni in visokošolski učitelji/univerzitetne in visokošolske učiteljice",
+    "pl": "Nauczyciele akademiccy",
+    "da": "Undervisning og forskning på universiteter og højere læreranstalter",
+    "ro": "Profesori universitari și asimilați",
+    "nl": "Professoren en andere onderwijsgevenden in het hoger onderwijs"
+  },
+  "code": "2310",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2310"
+    },
+    {
+      "datatype": "",
+      "value": "2310"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "University and higher education teachers prepare and deliver lectures and conduct tutorials in one or more subjects within a prescribed course of study at a university or other higher educational institution. They conduct research, and prepare scholarly papers and books.\nTasks include -\n(a)  designing and modifying curricula and preparing courses of study in accordance with requirements;\n(b)  preparing and delivering lectures and conducting tutorials, seminars and laboratory experiments;\n(c)  stimulating discussion and independent thought among students;\n(d)  supervising, where appropriate, experimental and practical work undertaken by students;\n(e)  administering, evaluating and marking examination papers and tests;\n(f)  directing research of postgraduate students or other members of department;\n(g)  researching into and developing concepts, theories and operational methods for application in industrial and other fields;\n(h)  preparing scholarly books, papers or articles;\n(i)  participating in departmental and faculty meetings and in conferences and seminars.\nExamples of the occupations classified here:\n- Higher education lecturer\n- Professor\n- University lecturer \n- University tutor\nSome related occupations classified elsewhere:\n- University chancellor - 1120\n- Dean (university)-1345\n- Higher education faculty head - 1345\n- Vocational education teacher - 2320\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2310&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2310",
+      "title": "University and higher education teachers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C231&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C231",
+        "title": "University and higher education teachers",
+        "code": "231"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/684fd8d5-9b40-4b02-a680-438f0082d923&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/684fd8d5-9b40-4b02-a680-438f0082d923",
+        "title": "higher education lecturer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3a55ef85-5abf-48e2-884b-5efaf881bfb1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3a55ef85-5abf-48e2-884b-5efaf881bfb1",
+        "title": "social work practice educator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

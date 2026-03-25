@@ -1,0 +1,129 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8342",
+  "title": "Earthmoving and related plant operators",
+  "preferredLabel": {
+    "no": "Anleggsmaskinførere",
+    "de": "Führer von Erdbewegungs- und verwandten Maschinen",
+    "fi": "Maansiirtokoneiden ym. kuljettajat",
+    "sv": "Anläggningsmaskinförare m.fl.",
+    "pt": "Operadores de máquinas de terraplenagem e similares",
+    "bg": "Оператори на земекопни съоръжения и сродни на тях",
+    "el": "Χειριστές χωματουργικών και παρόμοιων μηχανημάτων",
+    "mt": "Operaturi ta’ impjanti li jneħħu l-art u oħrajn relatati ma’ dawn",
+    "lt": "Žemės darbų ir panašių mašinų operatoriai",
+    "en": "Earthmoving and related plant operators",
+    "hr": "Rukovatelji/rukovateljice građevinskim i sličnim strojevima",
+    "lv": "Zemes racēju un tiem līdzīgu mašīnu operatori",
+    "it": "Conduttori di macchinari per movimento terra ed assimilati",
+    "fr": "Conducteurs d’engins de terrassement et de matériels similaires",
+    "hu": "Földmozgató és hasonló gépek kezelői",
+    "es": "Operadores de máquinas de movimiento de tierras y afines",
+    "et": "Maaparandus- jms masinate juhid",
+    "cs": "Obsluha zemních a příbuzných strojů",
+    "sk": "Operátori pojazdných zariadení na zemné a podobné práce",
+    "sl": "Upravljavci/upravljavke strojev za zemeljska dela ipd.",
+    "pl": "Operatorzy sprzętu do robót ziemnych i urządzeń pokrewnych",
+    "da": "Entreprenørmaskinførerarbejde",
+    "ro": "Conducători de mașini și utilaje terasiere",
+    "nl": "Bedieningspersoneel van grondverzetmachines e.d."
+  },
+  "code": "8342",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8342"
+    },
+    {
+      "datatype": "",
+      "value": "8342"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Earthmoving and related plant operators operate machines to excavate, grade, level, smooth and compact earth or similar materials.\nTasks include -\n(a)  operating and monitoring excavating machinery equipped with moveable shovels, grab-buckets or dragline buckets, to excavate and move earth, rock, sand, gravel or similar materials;\n(b)  operating and monitoring machinery for digging trenches for sewers, drainage, water, oil, gas or similar pipelines;\n(c)  operating and monitoring machinery equipped with concave steel blades to move, distribute and level earth, sand, snow and other materials;\n(d)  operating and monitoring equipment to remove sand, gravel and mud from bottom of body of water;\n(e)  operating and monitoring machines for hammering wooden, concrete or steel piles into ground;\n(f)  operating and monitoring power rollers to compact and smooth layers of materials in making roads and pavements, and similar work;\n(g)  operating and monitoring machines which spread and smooth concrete or bituminous or tar preparations to construct roadways, roads or similar surfaces.\nExamples of the occupations classified here:\n- Bulldozer operator\n- Excavator operator\n- Front-end loader operator\n- Pile-driver operator\n- Road-roller operator\n- Road surface laying machine operator\n- Snow-groomer operator\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8342&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8342",
+      "title": "Earthmoving and related plant operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C834&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C834",
+        "title": "Mobile plant operators",
+        "code": "834"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5f68c4c3-9d25-48e2-8efc-5471a80fb155&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5f68c4c3-9d25-48e2-8efc-5471a80fb155",
+        "title": "road construction worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1bcc6461-4cc2-4732-a6d0-901687046443&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1bcc6461-4cc2-4732-a6d0-901687046443",
+        "title": "snow-clearing worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cb3c0f82-a79b-4518-ad1f-5463b3e74831&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cb3c0f82-a79b-4518-ad1f-5463b3e74831",
+        "title": "scraper operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cae71f3f-ad4d-480e-b501-bff22827e60c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cae71f3f-ad4d-480e-b501-bff22827e60c",
+        "title": "bulldozer operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/47c27a07-4657-42b7-adee-d805902c1ff8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/47c27a07-4657-42b7-adee-d805902c1ff8",
+        "title": "dredge operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b4f4b21e-7664-45ca-9697-9123cfd8c9ef&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b4f4b21e-7664-45ca-9697-9123cfd8c9ef",
+        "title": "pile driving hammer operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4370b117-d9ec-424c-80de-fd92ba740f65&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4370b117-d9ec-424c-80de-fd92ba740f65",
+        "title": "road roller operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/426c8cca-31f7-4a88-af60-6f5365ab3a62&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/426c8cca-31f7-4a88-af60-6f5365ab3a62",
+        "title": "grader operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b5b8c259-7557-4f5f-9f56-155b038946c1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b5b8c259-7557-4f5f-9f56-155b038946c1",
+        "title": "surface mine plant operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/eedbf8b1-9432-4f42-ab7f-db5cd3eb2a05&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/eedbf8b1-9432-4f42-ab7f-db5cd3eb2a05",
+        "title": "excavator operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

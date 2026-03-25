@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8211",
+  "title": "Mechanical machinery assemblers",
+  "preferredLabel": {
+    "no": "Montører av mekaniske produkter",
+    "de": "Berufe der Montage von mechanischen Bauteilen",
+    "sv": "Fordonsmontörer m.fl.",
+    "fi": "Konepaja- ja metallituotteiden kokoonpanijat",
+    "pt": "Montadores de maquinaria mecânica",
+    "bg": "Машинни монтажници",
+    "mt": "Muntaturi ta’ magni mekkaniċi",
+    "el": "Συναρμολογητές μηχανημάτων και μηχανών",
+    "lt": "Mechaninių mašinų surinkėjai",
+    "en": "Mechanical machinery assemblers",
+    "lv": "Mehānisko mašīnu montieri",
+    "hr": "Sastavljači/sastavljačice strojeva i uređaja",
+    "it": "Assemblatori di parti di macchine",
+    "fr": "Monteurs en construction mécanique",
+    "hu": "Mechanikai gépek összeszerelői",
+    "es": "Ensambladores de maquinaria mecánica",
+    "et": "Mehaaniliste seadmete monteerijad",
+    "cs": "Montážní dělníci mechanických zařízení",
+    "sk": "Montážni robotníci mechanických zariadení",
+    "sl": "Sestavljavci/sestavljavke mehanskih strojev",
+    "pl": "Monterzy maszyn i urządzeń mechanicznych",
+    "ro": "Asamblori de mașini și echipamente mecanice",
+    "da": "Monteringsarbejde af mekaniske maskiner",
+    "nl": "Assembleurs van mechanische werktuigen"
+  },
+  "code": "8211",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8211"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8211"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Mechanical machinery assemblers assemble, according to procedures strictly laid down, component parts of mechanical machinery such as engines, motor vehicles, turbines and aircraft.\nTasks include -\n(a)  assembling and installing prefabricated parts or components to form subassemblies, mechanical machinery, engines and finished motor vehicles;\n(b)  reviewing work orders, specifications, diagrams and drawings to determine materials needed and assembly instructions; \n(c)  recording production and operational data on specified forms;\n(d)  inspecting and testing completed components and assemblies;\n(e)  rejecting faulty assemblies and components.\nExamples of the occupations classified here:\n- Aircraft assembler\n- Bench fitter (trucks)\n- Engine assembler\n- Engine installer \n- Gearbox assembler\n- Turbine assembler\n- Vehicle assembler\nSome related occupations classified elsewhere:\n- Motor vehicle mechanic - 7231\n- Electromechanical equipment assembler - 8212\n- Bicycle assembler - 8219\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8211&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8211",
+      "title": "Mechanical machinery assemblers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C821&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C821",
+        "title": "Assemblers",
+        "code": "821"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/769159bd-2929-4d40-8aeb-a99a387a0829&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/769159bd-2929-4d40-8aeb-a99a387a0829",
+        "title": "motorcycle assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/be0e6189-46a5-4b90-8622-2d1988efba1a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/be0e6189-46a5-4b90-8622-2d1988efba1a",
+        "title": "industrial machinery assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/88a34087-311e-497e-ad81-a6843b9b461e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/88a34087-311e-497e-ad81-a6843b9b461e",
+        "title": "vessel engine assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1a6d1acf-5956-4ba0-95bf-b15b05a02013&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1a6d1acf-5956-4ba0-95bf-b15b05a02013",
+        "title": "mechatronics assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/839d738b-8b54-4408-868a-6d8af102d2de&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/839d738b-8b54-4408-868a-6d8af102d2de",
+        "title": "rolling stock assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ffc292f1-89e2-4406-8eff-39096c94e731&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ffc292f1-89e2-4406-8eff-39096c94e731",
+        "title": "motor vehicle assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ad7c76e8-af96-42af-99a5-d579f707758c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ad7c76e8-af96-42af-99a5-d579f707758c",
+        "title": "aircraft assembler"
+      }
+    ]
+  },
+  "_embedded": {}
+}

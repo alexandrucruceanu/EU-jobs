@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2514",
+  "title": "Applications programmers",
+  "preferredLabel": {
+    "de": "Anwendungsprogrammierer",
+    "no": "Applikasjonsprogrammerere",
+    "sv": "Applikationsprogrammerare",
+    "fi": "Sovellusohjelmoijat",
+    "pt": "Programadores de aplicações",
+    "bg": "Приложни програмисти",
+    "mt": "Programmaturi tal-applikazzjonijiet",
+    "el": "Προγραμματιστές εφαρμογών",
+    "lt": "Taikomųjų programų programuotojai",
+    "en": "Applications programmers",
+    "lv": "Lietojumprogrammu izstrādātāji",
+    "hr": "Programeri/programerke za razvoj aplikacija",
+    "it": "Programmatori di applicazioni",
+    "fr": "Programmeurs d’applications",
+    "hu": "Alkalmazásfejlesztők",
+    "es": "Programadores de aplicaciones",
+    "et": "Rakenduste programmeerijad",
+    "cs": "Programátoři počítačových aplikací",
+    "sk": "Aplikační programátori",
+    "sl": "Programerji/programerke računalniških aplikacij",
+    "pl": "Programiści aplikacji",
+    "da": "Vedligeholdelse og dokumentation af software",
+    "ro": "Programatori de aplicații",
+    "nl": "Applicatieprogrammeurs"
+  },
+  "code": "2514",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2514"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2514"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Applications programmers write and maintain programmable code outlined in technical instructions and specifications for software applications and operating systems.\nTasks include -\n(a)  writing and maintaining program code outlined in instructions and specifications in accordance with quality accredited standards;\n(b)  revising, repairing or expanding existing programs to increase operating efficiency or adapt to new requirements;\n(c)  conducting trial runs of programs and software applications to confirm that they will produce the desired information;\n(d)  compiling and writing documentation of program development;\n(e)  identifying and communicating technical problems, processes and solutions.\nExamples of the occupations classified here:\n- Applications programmer\nSome related occupations classified elsewhere: \n- Programmer analyst - 2512\n- Software developer - 2512\n- Multimedia programmer - 2513\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2514&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2514",
+      "title": "Applications programmers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C251&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C251",
+        "title": "Software and applications developers and analysts",
+        "code": "251"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6e5ceba0-df96-465f-adb4-2e06ae715d43&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6e5ceba0-df96-465f-adb4-2e06ae715d43",
+        "title": "numerical tool and process control programmer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bd272aee-adc9-4a06-a15c-a73b4b4a46a7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bd272aee-adc9-4a06-a15c-a73b4b4a46a7",
+        "title": "ICT application developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/456ed487-02f2-45c9-9213-d0fd8e9a069d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/456ed487-02f2-45c9-9213-d0fd8e9a069d",
+        "title": "ICT application configurator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bb6198c4-1d3e-40b9-9cc4-ad2dd9d7c74b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bb6198c4-1d3e-40b9-9cc4-ad2dd9d7c74b",
+        "title": "industrial mobile devices software developer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

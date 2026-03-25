@@ -1,0 +1,129 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2269",
+  "title": "Health professionals not elsewhere classified",
+  "preferredLabel": {
+    "de": "Akademische und verwandte Gesundheitsberufe, anderweitig nicht genannt",
+    "no": "Kiropraktorer mv.",
+    "sv": "Övriga hälso- och sjukvårdsspecialister",
+    "fi": "Muut terveydenhuollon erityisasiantuntijat",
+    "pt": "Outros profissionais de saúde, n.e.",
+    "bg": "Други здравни специалисти, некласифицирани другаде",
+    "el": "Επαγγελματίες του τομέα της υγείας π.δ.κ.α.",
+    "mt": "Professjonisti tas-saħħa li mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti sveikatos priežiūros specialistai",
+    "en": "Health professionals not elsewhere classified",
+    "hr": "Zdravstveni stručnjaci/zdravstvene stručnjakinje d. n.",
+    "lv": "Citur neklasificēti vecākie veselības aprūpes speciālisti",
+    "it": "Specialisti della salute non classificati altrove",
+    "fr": "Spécialistes de la santé non classés ailleurs",
+    "hu": "Máshová nem sorolható egészségügyi foglalkozásúak",
+    "es": "Profesionales de la salud no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata tervishoiutöötajad",
+    "cs": "Specialisté v oblasti zdravotnictví jinde neuvedení",
+    "sk": "Špecialisti v zdravotníctve inde neuvedení",
+    "sl": "Zdravstveni strokovnjaki/strokovnjakinje, d. n.",
+    "pl": "Specjaliści ochrony zdrowia gdzie indziej niesklasyfikowani",
+    "da": "Sundhedsarbejde ikke klassificeret andetsteds",
+    "ro": "Specialiști în domeniul sănătății, neclasificați în grupele de bază anterioare",
+    "nl": "Specialisten op het gebied van de gezondheidszorg, niet elders geclassificeerd"
+  },
+  "code": "2269",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2269"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2269"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers health professionals not classified elsewhere in Sub-major Group 22: Health Professionals. For instance, the group includes occupations such as podiatrist, occupational therapist, recreational therapist, chiropractor, osteopath and other professionals providing diagnostic, preventive, curative and rehabilitative health services.\nIn such cases tasks would include -\n(a)  interviewing patients and conducting diagnostic tests to determine their health status, functional limitations, and the nature of physical or mental disorders, illnesses or other health problems; \n(b)  developing and implementing treatment plans for injuries, illnesses and other physical and mental impairments;\n(c)  evaluating and documenting patients’ progress through treatment plans, and referring patients and families to medical doctors or other health care providers for specialized, rehabilitative or other care services as needed;\n(d)  administering therapeutic care and treatment to patients, including through application of manual and physical chiropractic and osteopathic techniques;\n(e)  recommending environmental adaptations in the home, leisure, work and school environments on an individual or group basis to enable individuals with functional limitations to perform their daily activities and occupations;\n(f)  planning and implementing therapeutic programmes on an individual and group basis for improving and maintaining physical, cognitive, emotional and social functioning, including through the use of arts and crafts, dance and movement, music and other recreational activities; \n(g)  identifying and prescribing treatments for conditions affecting the foot, ankle and related structures of the leg due to illness, disease or other physical impairment, and prescribing corrective footwear and advising on foot care to manage foot ailments;\n(h)  performing minor surgical procedures such as on the foot and ankles.\nExamples of the occupations classified here: \n- Arts therapist\n- Chiropractor\n- Dance and movement therapist\n- Occupational therapist\n- Osteopath\n- Podiatrist\n- Recreational therapist\n\nNote\nAlthough in some jurisdictions chiropractic and osteopathy are considered to have the attributes of medical specializations, practitioners in these disciplines should always be classified here.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2269&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2269",
+      "title": "Health professionals not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C226&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C226",
+        "title": "Other health professionals",
+        "code": "226"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/be235deb-6181-43ca-8127-7010a689643a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/be235deb-6181-43ca-8127-7010a689643a",
+        "title": "specialist chiropractor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e81269d8-f301-4c82-9235-ba33ec9b0434&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e81269d8-f301-4c82-9235-ba33ec9b0434",
+        "title": "animal osteopath"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/11a6d0f6-e692-4774-aa5f-193b67d31022&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/11a6d0f6-e692-4774-aa5f-193b67d31022",
+        "title": "kinesiologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f9395e4d-d66f-49ce-a8f5-721991139e79&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f9395e4d-d66f-49ce-a8f5-721991139e79",
+        "title": "recreational therapist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4f08cd74-71c6-43aa-88d4-841e5bb677f7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4f08cd74-71c6-43aa-88d4-841e5bb677f7",
+        "title": "podiatry assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/49e4e358-8ba3-4a05-8ef9-abb73156f5f7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/49e4e358-8ba3-4a05-8ef9-abb73156f5f7",
+        "title": "chiropractor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/82cbe20d-967c-4161-9ecd-eafc724d171c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/82cbe20d-967c-4161-9ecd-eafc724d171c",
+        "title": "occupational therapy assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7639a601-6db0-41ed-9fb0-813d9b8beb05&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7639a601-6db0-41ed-9fb0-813d9b8beb05",
+        "title": "radiographer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cf9b6da9-3a59-4780-bec9-500b148b8878&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cf9b6da9-3a59-4780-bec9-500b148b8878",
+        "title": "podiatrist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/33da5532-8c4e-4d1b-b52e-c201ee1bc7ab&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/33da5532-8c4e-4d1b-b52e-c201ee1bc7ab",
+        "title": "occupational therapist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,83 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8321",
+  "title": "Motorcycle drivers",
+  "preferredLabel": {
+    "de": "Kraftradfahrer",
+    "sv": "Motorcykelförare",
+    "fi": "Moottoripyörälähetit ym.",
+    "pt": "Condutores de motociclos",
+    "bg": "Водачи на мотоциклети",
+    "mt": "Sewwieqa tal-mutur",
+    "el": "Οδηγοί μοτοσικλετών",
+    "lt": "Motociklų vairuotojai",
+    "en": "Motorcycle drivers",
+    "hr": "Vozači/vozačice motocikala",
+    "lv": "Motociklu vadītāji",
+    "it": "Motociclisti",
+    "fr": "Conducteurs de motocycles",
+    "hu": "Motorkerékpár-vezetők",
+    "es": "Conductores de motocicletas",
+    "et": "Mootorrattajuhid",
+    "cs": "Řidiči motocyklů",
+    "sk": "Vodiči motocyklov",
+    "sl": "Vozniki/voznice motornih koles",
+    "pl": "Kierowcy motocykli",
+    "ro": "Conducători de motociclete",
+    "da": "Motorcykelførere",
+    "nl": "Bestuurders van motorrijwielen"
+  },
+  "code": "8321",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8321"
+    },
+    {
+      "datatype": "",
+      "value": "8321"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Motorcycle drivers drive and tend motorcycles or motorized tricycles equipped to transport materials, goods or passengers.\nTasks include -\n(a)  driving and tending motorcycles or motorized tricycles to transport materials, goods and passengers;\n(b)  observing traffic rules and signals;\n(c)  cleaning and washing vehicles as well as performing maintenance and minor repairs;\n(d)  keeping a record of journeys;\n(e)  delivering messages.\nExamples of the occupations classified here:\n- Dispatch rider\n- Driver (motorized rickshaw)\n- Driver (motorized tricycle)\n- Motorcyclist\nSome related occupations classified elsewhere:\n- Driver (pedal vehicle) - 9331\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8321&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8321",
+      "title": "Motorcycle drivers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C832&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C832",
+        "title": "Car, van and motorcycle drivers",
+        "code": "832"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b5f6bb2c-0602-484d-a87f-9cac33f83010&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b5f6bb2c-0602-484d-a87f-9cac33f83010",
+        "title": "motorcycle delivery person"
+      }
+    ]
+  },
+  "_embedded": {}
+}

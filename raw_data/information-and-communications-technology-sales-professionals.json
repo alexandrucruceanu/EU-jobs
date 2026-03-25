@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2434",
+  "title": "Information and communications technology sales professionals",
+  "preferredLabel": {
+    "no": "Salgskonsulenter innen IKT-produkter",
+    "de": "Akademische und vergleichbare Fachkräfte im Vertrieb von Informations- und Kommunikationstechnologie",
+    "fi": "Tieto- ja viestintätekniikan myynnin erityisasiantuntijat",
+    "sv": "Försäljare inom informations- och kommunikationsteknik (IKT)",
+    "pt": "Especialistas em vendas, de tecnologias da informação e comunicação",
+    "bg": "Специалисти по продажби в областта на информационните и комуникационни технологии",
+    "el": "Επαγγελματίες σύμβουλοι πωλήσεων στον τομέα των τεχνολογιών πληροφόρησης και επικοινωνίας",
+    "mt": "Professjonisti tat-teknoloġija tal-informazzjoni u l-komunikazzjonijiet",
+    "lt": "Informacinių technologijų ir ryšių paslaugų pardavimo specialistai",
+    "en": "Information and communications technology sales professionals",
+    "hr": "Stručnjaci/stručnjakinje za prodaju informacijsko-komunikacijske tehnologije",
+    "lv": "Informācijas un komunikāciju tehnoloģiju tirdzniecības vecākie speciālisti",
+    "it": "Specialisti delle vendite nel settore delle tecnologie dell’informazione e della comunicazione",
+    "fr": "Spécialistes des ventes, des technologies de l’information et des communications",
+    "hu": "Információs és kommunikációs technológiák értékesítői",
+    "es": "Profesionales de ventas de tecnología de la información y las comunicaciones",
+    "et": "Info- ja kommunikatsioonitehnoloogia müügispetsialistid",
+    "cs": "Specialisté v oblasti prodeje informačních a komunikačních technologií",
+    "sk": "Špecialisti v oblasti predaja informačných a komunikačných technológií (IKT)",
+    "sl": "Strokovnjaki/strokovnjakinje za prodajo informacijske in komunikacijske tehnologije",
+    "pl": "Specjaliści do spraw sprzedaży z dziedziny technologii informacyjno-komunikacyjnych",
+    "ro": "Specialiști în vânzarea produselor de tehnologia informației și comunicațiilor",
+    "da": "Arbejde inden for salg af informations- og kommunikationsteknologi",
+    "nl": "Verkopers informatie- en communicatietechnologie"
+  },
+  "code": "2434",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2434"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2434"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Information and communications technology (ICT) sales professionals sell, at the wholesale level, a range of computer hardware, software and other information and communications technology goods and services including installations, and provide specialized information as required.\nTasks include -\n(a)  soliciting orders and selling goods to retail, industrial, wholesale and other establishments;\n(b)  selling technical equipment, supplies and related services to business establishments or individuals;\n(c)  discussing the needs of new and existing customers and providing specialized information about how particular equipment, supplies and services meet those needs;\n(d)  quoting and negotiating prices and credit terms, and completing contracts and recording orders;\n(e)  updating customer records and preparing sales reports;\n(f)  arranging delivery of goods, installation of equipment and the provision of services;\n(g)  reporting customers’ reactions and requirements to manufacturers.\nExamples of the occupations classified here:\n- Sales representative (computers)\n- Sales representative (communications technology)\nSome related occupations classified elsewhere:\n- Shop sales assistants - 5223\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2434&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2434",
+      "title": "Information and communications technology sales professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C243&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C243",
+        "title": "Sales, marketing and public relations professionals",
+        "code": "243"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/89b85c45-ddc7-4fe1-be5a-d3db2be11f3b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/89b85c45-ddc7-4fe1-be5a-d3db2be11f3b",
+        "title": "ICT account manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6e591f17-65c1-4a24-af2a-ca7862d4625e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6e591f17-65c1-4a24-af2a-ca7862d4625e",
+        "title": "technical sales representative in electronic and telecommunications equipment"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/57b459d4-655c-4053-b189-3c249ce33faf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/57b459d4-655c-4053-b189-3c249ce33faf",
+        "title": "ICT business development manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/16605833-c196-48d7-a6f5-bbdebdc353df&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/16605833-c196-48d7-a6f5-bbdebdc353df",
+        "title": "ICT presales engineer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

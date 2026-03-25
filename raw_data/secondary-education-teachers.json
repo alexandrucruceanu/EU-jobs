@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2330",
+  "title": "Secondary education teachers",
+  "preferredLabel": {
+    "no": "Lektorer mv. (videregående skole)",
+    "de": "Lehrkräfte im Sekundarbereich",
+    "fi": "Lukion ja peruskoulun yläluokkien opettajat",
+    "sv": "Gymnasielärare",
+    "pt": "Professores dos ensinos básico (2.o e 3.o ciclos) e secundário",
+    "bg": "Учители в средни училища",
+    "el": "Καθηγητές δευτεροβάθμιας εκπαίδευσης",
+    "mt": "Għalliema tal-edukazzjoni sekondarja",
+    "lt": "Pagrindinio ir vidurinio ugdymo mokytojai",
+    "en": "Secondary education teachers",
+    "hr": "Nastavnici/nastavnice u srednjim školama",
+    "lv": "Vidējās izglītības iestāžu pedagogi",
+    "it": "Professori di scuola secondaria",
+    "fr": "Professeurs, enseignement secondaire",
+    "hu": "Középiskolai tanárok",
+    "es": "Profesores de enseñanza secundaria",
+    "et": "Üldhariduskoolide vanema astme õpetajad",
+    "cs": "Učitelé na středních školách",
+    "sk": "Učitelia na stredných školách",
+    "sl": "Srednješolski učitelji/srednješolske učiteljice",
+    "pl": "Nauczyciele szkół średnich",
+    "ro": "Profesori în învățământul secundar",
+    "da": "Undervisning på gymnasialt niveau",
+    "nl": "Onderwijsgevenden in het secundair onderwijs"
+  },
+  "code": "2330",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2330"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2330"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Secondary education teachers teach one or more subjects at secondary education level, excluding subjects intended to prepare students for employment in specific occupational areas.\nTasks include -\n(a)  designing and modifying curricula and preparing educational courses of study in accordance with curriculum guidelines;\n(b)  establishing and enforcing rules for behaviour and procedures for maintaining order among students;\n(c)  preparing and giving lessons, discussions, and demonstrations in one or more subjects; \n(d)  establishing clear objectives for all lessons, units, and projects and communicating those objectives to students;\n(e)  preparing materials and classrooms for class activities;\n(f)  adapting teaching methods and instructional materials to meet students’ varying needs and interests;\n(g)  observing and evaluating students’ performance and behaviour;\n(h)  preparing, administering and marking tests,  assignments and examinations to evaluate pupils' progress;\n(i)  preparing reports about pupils’ work and conferring with other teachers and parents;\n(j)  participating in meetings concerning the school’s educational or organizational policies;\n(k)  planning, organizing and participating in school activities such as excursions, sporting events and concerts.\nExamples of the occupations classified here:\n- Secondary school teacher\n- High school teacher\nSome related occupations classified elsewhere:\n- Head teacher - 1345\n- School principal - 1345\n- Vocational education teacher - 2320\n- Schools inspector - 2351\n- Literacy tutor (private tuition) - 2359\n- Mathematics coach (private tuition) - 2359\n- School counsellor - 2359\nNotes\nThose who teach vocational subjects that are intended to prepare students for employment in a particular occupational group should be classified in Unit Group 2320: Vocational Education Teachers, whether they work in a general secondary school or in a  vocational or technical school or college.  Those who teach, at secondary education level, subjects such as mathematics that do not aim to prepare students for employment in a specific occupational area, should be classified in Unit Group 2330: Secondary Education Teachers, even if they are employed in a vocational or technical college.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2330&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2330",
+      "title": "Secondary education teachers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C233&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C233",
+        "title": "Secondary education teachers",
+        "code": "233"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5efb2c08-ba3a-4659-a2e4-1883f54e77b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5efb2c08-ba3a-4659-a2e4-1883f54e77b6",
+        "title": "secondary school teacher"
+      }
+    ]
+  },
+  "_embedded": {}
+}

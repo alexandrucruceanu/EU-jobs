@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8112",
+  "title": "Mineral and stone processing plant operators",
+  "preferredLabel": {
+    "de": "Bediener von Mineral- und Gesteinsaufbereitungsanlagen",
+    "no": "Prosessoperatører (oppredning)",
+    "sv": "Processoperatörer, stenkross- och malmförädlingsanläggning",
+    "fi": "Rikastustyöntekijät",
+    "pt": "Operadores de instalações de processamento de minérios e rochas",
+    "bg": "Машинни оператори по обработка на руди и минерали",
+    "el": "Χειριστές εγκαταστάσεων επεξεργασίας ορυκτών μεταλλευμάτων και πετρωμάτων",
+    "mt": "Operaturi tal-impjant tal-ipproċessar tal-minerali u tal-ġebel",
+    "lt": "Mineralų ir uolienų apdorojimo įrenginių operatoriai",
+    "en": "Mineral and stone processing plant operators",
+    "hr": "Rukovatelji/rukovateljice postrojenjima i strojevima za obradu rude i kamena",
+    "lv": "Minerālu un akmens apstrādes iekārtu operatori",
+    "it": "Conduttori di impianti per il trattamento di minerali e di pietre",
+    "fr": "Conducteurs d’installations de préparation des minerais et de la roche",
+    "hu": "Szilárdásványfeldolgozó-gépek kezelői",
+    "es": "Operadores de instalaciones de procesamiento de minerales y rocas",
+    "et": "Mäe- ja kivitöötlusmasinate operaatorid",
+    "cs": "Obsluha zařízení na úpravu rudných a nerudných surovin",
+    "sk": "Operátori zariadení na spracovanie nerastov a kameňov",
+    "sl": "Upravljavci/upravljavke procesnih strojev in naprav za obdelavo rude in kamnin",
+    "pl": "Operatorzy maszyn i urządzeń do przeróbki mechanicznej kopalin",
+    "ro": "Operatori la instalațiile de prelucrare a minereurilor și rocilor",
+    "da": "Operatørarbejde ved anlæg til råstofudvinding",
+    "nl": "Bedieningspersoneel van installaties voor de verwerking van mineralen en gesteente"
+  },
+  "code": "8112",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8112"
+    },
+    {
+      "datatype": "",
+      "value": "8112"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Mineral and stone processing plant operators monitor and operate machinery and equipment for processing rocks, minerals and stone to recover refined products for immediate use or further processing.\nTasks include -\n(a)  setting up and operating stationary plant and machinery which grind, crush, cut, saw and slice rocks, minerals and stones according to the specifications for the job;\n(b)  positioning blocks and slabs of stone onto machines for sawing, cutting and further working;\n(c)  monitoring and maintaining the flow of unprocessed rocks, minerals and stones from conveyors into machines;\n(d)  operating washing, separating, leaching, precipitating, filtering, extracting and combining equipment to remove waste material and recover minerals;\n(e)  combining mineral ores with solvents to facilitate further processing;\n(f)  separating metal and mineral concentrates from ore and alluvial deposits by thickening, flotation, gravity separation, filtration, or magnetic and electrostatic separation;\n(g)  observing meters, gauges and control panels, adjusting valves and controls to ensure the safe and efficient operation of equipment, detecting malfunctions and assisting with plant and machinery maintenance and repair;\n(h)  examining processed materials visually or with hands to ensure compliance with established standards and job specifications, and collecting samples for testing in laboratories;\n(i)  recording information about processing completed during shifts, such as quantities, types and dimensions of materials produced;\n(j)  sorting, stacking and moving processed minerals and stone for packaging, further processing or shipping.\nExamples of the occupations classified here:\n- Coal washer\n- Crusher operator (mineral or stone processing)\n- Flotation worker (mineral processing)\n- Gold precipitator\n- Machine operator (stone cutting or processing)\n- Milling machine operator (minerals)\n\nSome related occupations classified elsewhere:\n- Stone cutter (hand or hand-powered tools) - 7113\n- Stonemason - 7113\n- Stone polisher (hand or hand-powered tools) - 7113\n- Stone splitter (hand or hand-powered tools) - 7113 \n- Machine operator (cast stone production) - 8114\n- Stone polishing machine operator - 8114\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8112&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8112",
+      "title": "Mineral and stone processing plant operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C811&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C811",
+        "title": "Mining and mineral processing plant operators",
+        "code": "811"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/610bee9f-d7f0-4b18-918e-f2a4a91f8912&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/610bee9f-d7f0-4b18-918e-f2a4a91f8912",
+        "title": "stone driller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/66d22b81-1b5e-42a1-b904-ac67b4a896c6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/66d22b81-1b5e-42a1-b904-ac67b4a896c6",
+        "title": "mineral processing operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bcb7efae-2374-4ea7-a8e7-a77e4c6ecfc8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bcb7efae-2374-4ea7-a8e7-a77e4c6ecfc8",
+        "title": "mineral crushing operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3e9c6f2a-dc20-4366-aeb9-99dffd635b4c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3e9c6f2a-dc20-4366-aeb9-99dffd635b4c",
+        "title": "stone planer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,129 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2619",
+  "title": "Legal professionals not elsewhere classified",
+  "preferredLabel": {
+    "de": "Juristen, anderweitig nicht genannt",
+    "no": "Andre juridiske yrker",
+    "fi": "Muut lainopilliset erityisasiantuntijat",
+    "sv": "Övriga jurister",
+    "pt": "Outros especialistas em assuntos jurídicos",
+    "bg": "Юристи, некласифицирани другаде",
+    "mt": "Professjonisti legali li mhumiex ikklassifikati x’imkien ieħor",
+    "el": "Επαγγελματίες του νομικού κλάδου π.δ.κ.α.",
+    "lt": "Kitur nepriskirti teisės specialistai",
+    "en": "Legal professionals not elsewhere classified",
+    "lv": "Citur neklasificēti juridisko lietu vecākie speciālisti",
+    "hr": "Pravni stručnjaci/pravne stručnjakinje d. n.",
+    "it": "Specialisti in scienze giuridiche non classificati altrove",
+    "fr": "Juristes non classés ailleurs",
+    "hu": "Máshová nem sorolható jogi foglalkozásúak",
+    "es": "Profesionales en derecho no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata õigusspetsialistid",
+    "cs": "Specialisté v právní oblasti a pracovníci v příbuzných oborech jinde neuvedení",
+    "sk": "Špecialisti v oblasti práva inde neuvedení",
+    "sl": "Pravni strokovnjaki/pravne strokovnjakinje, d. n.",
+    "pl": "Specjaliści z dziedziny prawa gdzie indziej niesklasyfikowani",
+    "da": "Andet juridisk arbejde",
+    "ro": "Specialiști în domeniul juridic neclasificați în grupele de bază anterioare",
+    "nl": "Juristen, niet elders geclassificeerd"
+  },
+  "code": "2619",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2619"
+    },
+    {
+      "datatype": "",
+      "value": "2619"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers legal professionals not classified elsewhere in Minor Group 261: Legal Professionals. For instance, the group includes those who perform legal functions other than pleading or prosecuting cases or presiding over judicial proceedings.\nIn such cases tasks would include -\n(a)  giving advice on legal aspects of various personal, business and administrative problems;\n(b)  drawing up legal documents and contracts;\n(c)  arranging property transfers;\n(d)  determining, by inquest, the causes of any death not obviously due to natural causes.\nExamples of the occupations classified here:\n- Coroner\n- Jurist (except lawyer or judge)\n- Notary\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2619&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2619",
+      "title": "Legal professionals not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C261&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C261",
+        "title": "Legal professionals",
+        "code": "261"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c6c48286-2037-47e3-a132-b745dce858e2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c6c48286-2037-47e3-a132-b745dce858e2",
+        "title": "coroner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/246dda29-70f6-408b-b205-aa17b2ffb168&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/246dda29-70f6-408b-b205-aa17b2ffb168",
+        "title": "election observer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/76884a72-d8b8-4819-bd40-71d6420a9a42&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/76884a72-d8b8-4819-bd40-71d6420a9a42",
+        "title": "court jury coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7b89d3e0-c6fb-4c95-bf0d-3b4acf05f9d6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7b89d3e0-c6fb-4c95-bf0d-3b4acf05f9d6",
+        "title": "legislative drafter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/403be630-8d1e-43b7-9f07-098aca5bb689&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/403be630-8d1e-43b7-9f07-098aca5bb689",
+        "title": "mediator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/31854d78-3615-43a4-aa3a-c597ecb20ceb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/31854d78-3615-43a4-aa3a-c597ecb20ceb",
+        "title": "legal consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d21890a3-cbe9-49df-9a19-a4120d866548&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d21890a3-cbe9-49df-9a19-a4120d866548",
+        "title": "notary"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8801ef16-92a4-4889-8f80-9b78206c7ec0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8801ef16-92a4-4889-8f80-9b78206c7ec0",
+        "title": "human rights officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/666846b2-01ce-43f6-8cb7-f3be09fac4a2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/666846b2-01ce-43f6-8cb7-f3be09fac4a2",
+        "title": "ombudsman"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/779d13be-60b4-48f3-a339-fe483be96c7f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/779d13be-60b4-48f3-a339-fe483be96c7f",
+        "title": "regulatory affairs manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2633",
+  "title": "Philosophers, historians and political scientists",
+  "preferredLabel": {
+    "no": "Rådgivere/forskere",
+    "de": "Philosophen, Historiker und Politologen",
+    "sv": "Filosofer, historiker och statsvetare",
+    "fi": "Historioitsijat, politiikan tutkijat ja filosofit",
+    "pt": "Filósofos, historiadores e especialistas das ciências políticas",
+    "bg": "Философи, историци и политолози",
+    "mt": "Filosofi, storiċi u xjenzati tal-politika",
+    "el": "Φιλόσοφοι, ιστορικοί και πολιτικοί επιστήμονες",
+    "lt": "Filosofai, istorikai ir politologai",
+    "en": "Philosophers, historians and political scientists",
+    "hr": "Filozofi/filozofkinje, povjesničari/povjesničarke i politolozi/politologinje",
+    "lv": "Filozofi, vēsturnieki un politologi",
+    "it": "Filosofi, storici e specialisti in scienze politiche",
+    "fr": "Philosophes, historiens et spécialistes des sciences politiques",
+    "hu": "Filozófusok, történészek és politológusok",
+    "es": "Filósofos, historiadores y especialistas en ciencias políticas",
+    "et": "Filosoofid, ajaloolased ja politoloogid",
+    "cs": "Filozofové, historici a politologové",
+    "sk": "Filozofi, historici a politológovia",
+    "sl": "Filozofi/filozofinje, zgodovinarji/zgodovinarke in politologi/politologinje",
+    "pl": "Filozofowie, historycy i politolodzy",
+    "da": "Arbejde inden for filosofi, historie og statskundskab",
+    "ro": "Filozofi, istorici și specialiști în științe politice",
+    "nl": "Filosofen, historici en politicologen"
+  },
+  "code": "2633",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2633"
+    },
+    {
+      "datatype": "",
+      "value": "2633"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Philosophers, historians and political scientists conduct research into the nature of human experience and existence, phases or aspects of human history, and political structures, movements and behaviour. They document and report on findings to inform and guide political and individual actions\nTasks include -\n(a)  researching, including by reasoning, into the general causes, principles and meanings of the world, human actions, experience and existence, and interpreting and developing philosophical concepts and theories;\n(b)  consulting and comparing primary sources such as original or contemporary records of past events, and secondary sources such as archaeological or anthropological findings;\n(c)  extracting relevant material, checking its authenticity, and researching into and describing the history of a particular period, country or region, or a particular facet - for example economic, social or political - of its history;\n(d)  conducting research in such fields as political philosophy, or past and present theory and practice of political systems, institutions or behaviour;\n(e)  observing contemporary political institutions and opinions, collecting data on them from various sources, including interviews with government and political party officials and other relevant persons;\n(f)  developing theories, models and methods to interpret and describe the nature of human experience and historical and political events and behaviour;\n(g)  presenting findings and conclusions for publication or use by government, political parties or other organizations and interested persons;\n(h)  preparing scholarly papers and reports.\nExamples of the occupations classified here:\n- Genealogist\n- Historian\n- Philosopher\n- Political scientist\nSome related occupations classified elsewhere:\n- Political adviser - 2422\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2633&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2633",
+      "title": "Philosophers, historians and political scientists"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C263&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C263",
+        "title": "Social and religious professionals",
+        "code": "263"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4f89b0d2-b666-4890-af01-25d1d60da1f3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4f89b0d2-b666-4890-af01-25d1d60da1f3",
+        "title": "political scientist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0cd729a6-ed11-4338-ac4b-d4b924390128&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0cd729a6-ed11-4338-ac4b-d4b924390128",
+        "title": "historian"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bfc92738-128b-44f5-92d4-51b10df17961&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bfc92738-128b-44f5-92d4-51b10df17961",
+        "title": "philosopher"
+      }
+    ]
+  },
+  "_embedded": {}
+}

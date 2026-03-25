@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9213",
+  "title": "Mixed crop and livestock farm labourers",
+  "preferredLabel": {
+    "no": "Hjelpearbeidere i kombinasjonsbruk",
+    "de": "Hilfsarbeiter in Ackerbau und Tierhaltung (ohne ausgeprägten Schwerpunkt)",
+    "fi": "Yhdistetyn maanviljelyn ja karjankasvatuksen avustavat työntekijät",
+    "sv": "Medhjälpare, växtodling och djuruppfödning, blandad drift",
+    "pt": "Trabalhadores não qualificados de explorações com agricultura e produção animal combinadas",
+    "bg": "Работници в смесени растениевъдни и животновъдни стопанства",
+    "el": "Ανειδίκευτοι εργάτες μεικτών γεωργοκτηνοτροφικών εκμεταλλεύσεων",
+    "mt": "Ħaddiema fl-irziezet fejn jitkabbru prodotti mħallta tar-raba’ u annimali ħajjin",
+    "lt": "Nekvalifikuoti kultūrinių lauko augalų ir galvijų ūkių darbininkai",
+    "en": "Mixed crop and livestock farm labourers",
+    "lv": "Jauktu lauksaimniecības kultūru un lopkopības fermu strādnieki",
+    "hr": "Radnici/radnice na poljoprivrednom gospodarstvu mješovite proizvodnje (biljne i stočarske)",
+    "it": "Braccianti agricoli e addetti al bestiame",
+    "fr": "Manœuvres de l’agriculture et de l’élevage",
+    "hu": "Képesítést nem igénylő mezőgazdasági foglalkozásúak",
+    "es": "Peones de explotaciones de cultivos mixtos y ganaderos",
+    "et": "Talutöölised (kes tegelevad nii taimede kui ka loomadega)",
+    "cs": "Pomocní pracovníci ve smíšené hospodářství",
+    "sk": "Pomocní pracovníci v zmiešanej rastlinnej a živočíšnej výrobe",
+    "sl": "Delavci/delavke za preprosta kmetijska dela na mešanih kmetijah",
+    "pl": "Pomocniczy robotnicy przy produkcji roślinnej i zwierzęcej",
+    "ro": "Muncitori în ferme mixte",
+    "da": "Manuelt arbejde inden for både agerbrug og husdyravl",
+    "nl": "Ongeschoolde arbeiders op gemengde bedrijven"
+  },
+  "code": "9213",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9213"
+    },
+    {
+      "datatype": "",
+      "value": "9213"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Mixed crop and livestock farm labourers perform simple and routine tasks in farm production of both crops and animals.\nTasks include -\n(a)  digging and shovelling to clear ditches or for other purposes;\n(b)  loading and unloading supplies, produce and other materials;\n(c)  raking, pitching and stacking straw, hay and similar materials;\n(d)  watering, thinning and weeding crops by hand or using hand tools;\n(e)  picking fruit, nuts, vegetables and other crops and collecting eggs;\n(f)  planting and harvesting field crops such as rice, by hand;\n(g)  feeding, watering and cleaning animals and keeping their quarters clean;\n(h)  monitoring livestock and reporting on their condition;\n(i)  assisting with herding, droving and separating livestock for milking, shearing, transportation or slaughter, and between pastures;\n(j)  grading, sorting, bunching and packing produce into containers;\n(k)  performing minor repairs on fixtures, buildings, equipment and fences.\nExamples of the occupations classified here:\n- Farm labourer\nSome related occupations classified elsewhere:\n- Skilled farm worker (mixed farming) - 6130\n- Firewood collector - 9624\n- Water collector - 9624\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9213&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9213",
+      "title": "Mixed crop and livestock farm labourers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C921&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C921",
+        "title": "Agricultural, forestry and fishery labourers",
+        "code": "921"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c9191f7f-28b5-4df8-991d-804c53009b83&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c9191f7f-28b5-4df8-991d-804c53009b83",
+        "title": "crop production worker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

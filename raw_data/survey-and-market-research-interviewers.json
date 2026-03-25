@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4227",
+  "title": "Survey and market research interviewers",
+  "preferredLabel": {
+    "no": "Intervjuere",
+    "de": "Interviewer im Bereich Umfragen und Marktforschung",
+    "fi": "Tutkimus- ja markkinatutkimushaastattelijat",
+    "sv": "Marknadsundersökare, intervjuare",
+    "pt": "Entrevistadores de inquéritos e estudos de mercado",
+    "bg": "Анкетьори в изследвания",
+    "el": "Συνεντεύκτες ερευνών αγοράς και λοιπών ερευνών",
+    "mt": "Intervistaturi dwar istħarriġ u riċerka tas-suq",
+    "lt": "Tyrimų ir rinkotyros apklausėjai",
+    "en": "Survey and market research interviewers",
+    "lv": "Aptauju un tirgus pētījumu veicēji",
+    "hr": "Anketari/anketarke za istraživanje tržišta",
+    "it": "Addetti alla rilevazione e alle indagini di mercato",
+    "fr": "Intervieweurs, enquêtes et études de marché",
+    "hu": "Összeírók és piackutatási kérdezők",
+    "es": "Entrevistadores de encuestas y de investigaciones de mercados",
+    "et": "Uuringute sh turu-uuringute tegijad",
+    "cs": "Tazatelé průzkumů",
+    "sk": "Anketári, prieskumníci trhu",
+    "sl": "Anketarji/anketarke za izvajanje splošnih in tržnih raziskav",
+    "pl": "Ankieterzy",
+    "ro": "Operatori de interviu pentru sondaje și cercetare de piață",
+    "da": "Interviewarbejde inden for markedsundersøgelse",
+    "nl": "Interviewers voor enquêtes en marktonderzoek"
+  },
+  "code": "4227",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4227"
+    },
+    {
+      "datatype": "",
+      "value": "4227"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Survey and market research interviewers interview people and record their responses to survey and market research questions on a range of topics.\nTasks include -\n(a)  contacting individuals by telephone or in person and explaining the purpose of the interview;\n(b)  asking questions following the outlines of questionnaires and surveys;\n(c)  recording responses on paper or entering responses directly into a computer database through computer-assisted interviewing systems;\n(d)  identifying and resolving inconsistencies in responses;\n(e)  providing feedback to survey sponsors concerning problems in obtaining valid data.\nExamples of the occupations classified here:\n- Market research interviewer \n- Public opinion interviewer \n- Survey interviewer\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4227&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4227",
+      "title": "Survey and market research interviewers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C422&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C422",
+        "title": "Client information workers",
+        "code": "422"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a1cf1406-3632-494c-bff3-0bd5d5327d8f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a1cf1406-3632-494c-bff3-0bd5d5327d8f",
+        "title": "survey enumerator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7843a4c6-a9f6-4095-94b9-45b384d4bd57&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7843a4c6-a9f6-4095-94b9-45b384d4bd57",
+        "title": "market research interviewer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

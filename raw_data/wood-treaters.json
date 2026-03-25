@@ -1,0 +1,88 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7521",
+  "title": "Wood treaters",
+  "preferredLabel": {
+    "de": "Holztrockner und -konservierer",
+    "sv": "Ytbehandlare, trä",
+    "fi": "Raakapuun käsittelijät",
+    "pt": "Trabalhadores do tratamento da madeira",
+    "bg": "Работници по обработка на дърво",
+    "mt": "Ħaddiema li jittrattaw l-injam",
+    "el": "Τεχνίτες επεξεργασίας ξύλου",
+    "lt": "Medienos meistrai",
+    "en": "Wood treaters",
+    "hr": "Prerađivači/prerađivačice drva",
+    "lv": "Koksnes pirmapstrādes strādnieki",
+    "it": "Artigiani e operai specializzati del trattamento del legno",
+    "fr": "Métiers qualifiés du traitement du bois",
+    "hu": "Famegmunkálók",
+    "es": "Operarios del tratamiento de la madera",
+    "et": "Puidutöötlejad",
+    "cs": "Zpracovatelé dřeva",
+    "sk": "Spracovatelia dreva",
+    "sl": "Obdelovalci/obdelovalke lesa",
+    "pl": "Pracownicy przygotowujący drewno",
+    "ro": "Lucrători în tratarea lemnului",
+    "da": "Håndværkspræget træimprægneringsarbejde",
+    "nl": "Houtbehandelaars"
+  },
+  "code": "7521",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7521"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7521"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Wood treaters season, preserve and treat wood and lumber manually or using wood treatment equipment such as kilns and tanks. \nTasks include -\n(a)  operating and tending kilns, treating tanks and other equipment to dry lumber, prepare and season wood and other wood products, and to impregnate wood products with preservatives;\n(b)  monitoring equipment operation, gauges and panel lights in order to detect deviations from standards and to ensure that processes are operating according to specifications;\n(c)  operating valves to admit treating solution into treatment vessels, maintain specified heat, vacuum and hydraulic pressure and levels of solution during each phase of the treatment cycle;\n(d)  activating  vacuum and hydraulic pressure pumps that remove air and steam from retorts and force treating solution into pores of wood to accelerate the treatment process;\n(e)  assisting in maintaining processing equipment and machines as required;\n(f)  cleaning, lubricating and adjusting equipment;\n(g)  transporting materials and products to and from work areas manually or using carts, handtrucks or hoists;\n(h)  completing and maintaining production reports.\nExamples of the occupations classified here:\n- Dry kiln operator\n- Lumber kiln operator\n- Timber treating tank operator\n- Veneer dryer tender\n- Wood seasoner\n- Wood treater\nSome related occupations classified elsewhere:\n- Wood processing plant operator - 8172\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7521&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7521",
+      "title": "Wood treaters"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C752&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C752",
+        "title": "Wood treaters, cabinet-makers and related trades workers",
+        "code": "752"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b0cb4f78-c361-48cf-97aa-25104ac2647c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b0cb4f78-c361-48cf-97aa-25104ac2647c",
+        "title": "wood treater"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/44b0f118-2a70-4eec-b301-89d7fd84a3d0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/44b0f118-2a70-4eec-b301-89d7fd84a3d0",
+        "title": "wood drying kiln operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

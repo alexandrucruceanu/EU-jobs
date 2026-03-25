@@ -1,0 +1,134 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2412",
+  "title": "Financial and investment advisers",
+  "preferredLabel": {
+    "no": "Finans- og investeringsrådgivere",
+    "de": "Finanz- und Anlageberater",
+    "fi": "Rahoitus- ja sijoitusneuvojat",
+    "sv": "Finans- och investeringsrådgivare",
+    "pt": "Consultores financeiros e de investimentos",
+    "bg": "Финансови и инвестиционни консултанти",
+    "mt": "Konsulenti finanzjarji u tal-investiment",
+    "el": "Χρηματοοικονομικοί σύμβουλοι και σύμβουλοι επενδύσεων",
+    "lt": "Finansų ir investicijų konsultantai",
+    "en": "Financial and investment advisers",
+    "hr": "Financijski i investicijski savjetnici/financijske i investicijske savjetnice",
+    "lv": "Finanšu un investīciju konsultanti",
+    "it": "Consulenti finanziari e per gli investimenti",
+    "fr": "Conseillers en finances et investissements",
+    "hu": "Pénzügyi és befektetési tanácsadók",
+    "es": "Asesores financieros y en inversiones",
+    "et": "Finantsnõustajad",
+    "cs": "Finanční a investiční poradci",
+    "sk": "Finanční a investiční poradcovia",
+    "sl": "Finančni, naložbeni svetovalci/finančne, naložbene svetovalke",
+    "pl": "Doradcy finansowi i inwestycyjni",
+    "da": "Rådgivning inden for finans, forsikring og investering",
+    "ro": "Specialiști consultanți în domeniul financiar și al investițiilor",
+    "nl": "Financieel en beleggingsadviseurs"
+  },
+  "code": "2412",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2412"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2412"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Financial and investment advisers develop financial plans for individuals and organizations, and invest and manage funds on their behalf.\nTasks include -\n(a)  building and maintaining a client base;\n(b)  interviewing clients to determine financial status and objectives, risk tolerance and other information needed to develop financial plans and investment strategies;\n(c)  setting financial objectives, and developing and implementing strategies for achieving them;\n(d)  arranging to buy and sell stocks and bonds for clients;\n(e)  monitoring investment performance, and reviewing and revising investment plans based on modified needs and changes in markets;\n(f)  recommending and arranging insurance cover for clients.\nExamples of the occupations classified here:\n-  Estate planner\n-  Financial planner\n-  Investment adviser\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2412&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2412",
+      "title": "Financial and investment advisers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C241&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C241",
+        "title": "Finance professionals",
+        "code": "241"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4ed22a87-8478-4731-be11-5942eacb2e16&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4ed22a87-8478-4731-be11-5942eacb2e16",
+        "title": "public funding advisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/38d9c76b-1a7b-4d65-879b-733ae7e9364e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/38d9c76b-1a7b-4d65-879b-733ae7e9364e",
+        "title": "investment adviser"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/21de0f3b-a71a-4263-a9ba-90c5f3721b4d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/21de0f3b-a71a-4263-a9ba-90c5f3721b4d",
+        "title": "financial planner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b09acdda-6680-49d1-a411-129610ee3bc0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b09acdda-6680-49d1-a411-129610ee3bc0",
+        "title": "risk manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/394a4bdd-7032-4d87-89a2-9d937cebdd09&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/394a4bdd-7032-4d87-89a2-9d937cebdd09",
+        "title": "economic policy officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/de99886e-59e3-432d-ba53-9652dbe378d6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/de99886e-59e3-432d-ba53-9652dbe378d6",
+        "title": "programme funding manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/50760da6-abc3-424c-b159-8ddf0818e016&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/50760da6-abc3-424c-b159-8ddf0818e016",
+        "title": "business valuer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d2d451cc-e839-4192-be54-d7724814aa03&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d2d451cc-e839-4192-be54-d7724814aa03",
+        "title": "corporate banking manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b95bdbed-1e7e-482a-aa73-7bdbb3e36358&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b95bdbed-1e7e-482a-aa73-7bdbb3e36358",
+        "title": "investment fund manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/659b0ffd-337c-4a1f-82e3-2730812279de&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/659b0ffd-337c-4a1f-82e3-2730812279de",
+        "title": "venture capitalist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7284ccbf-e2fd-4e2f-8bbf-bc54eab610d5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7284ccbf-e2fd-4e2f-8bbf-bc54eab610d5",
+        "title": "personal trust officer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

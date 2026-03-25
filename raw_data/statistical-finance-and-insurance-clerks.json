@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4312",
+  "title": "Statistical, finance and insurance clerks",
+  "preferredLabel": {
+    "de": "Bürokräfte in der Statistik, im Finanz- und Versicherungswesen",
+    "no": "Forsikrings- og finansmedarbeidere",
+    "sv": "Statistikkontorister m.fl.",
+    "fi": "Tilasto-, rahoitus- ja vakuutusalan toimistotyöntekijät",
+    "pt": "Empregados, dos serviços de estatística, financeiros e seguros",
+    "bg": "Служители, водещи статистически, финансови и застрахователни документи",
+    "el": "Υπάλληλοι στατιστικών, οικονομικών και ασφαλιστικών υπηρεσιών",
+    "mt": "Skrivani fil-qasam tal-istatistika, finanzi u assigurazzjoni",
+    "lt": "Statistikos, finansų ir draudimo tarnautojai",
+    "en": "Statistical, finance and insurance clerks",
+    "lv": "Statistikas, finanšu un apdrošināšanas darbinieki",
+    "hr": "Službenici/službenice u statistici, financijama i osiguranju",
+    "it": "Addetti a servizi statistici, finanziari e assicurativi",
+    "fr": "Employés de services statistiques ou financiers",
+    "hu": "Statisztikai, pénzügyi és biztosítási nyilvántartók",
+    "es": "Empleados de servicios estadísticos, financieros y de seguros",
+    "et": "Statistika-, rahandus- ja kindlustusametnikud",
+    "cs": "Úředníci v oblasti statistiky, financí a pojištění",
+    "sk": "Administratívni pracovníci v oblasti štatistiky, financií a poistenia",
+    "sl": "Uradniki/uradnice v statistiki, financah, zavarovalništvu",
+    "pl": "Pracownicy do spraw statystycznych, finansowych i ubezpieczeniowych",
+    "ro": "Funcționari în domeniul statistic, financiar și asigurări",
+    "da": "Almindeligt kontorarbejde vedrørende statistik, finansielle transaktioner og forsikringer",
+    "nl": "Administratief personeel statistiek, financiën en verzekeringen"
+  },
+  "code": "4312",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "4312"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4312"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Statistical, finance and insurance clerks obtain, compile and compute statistical or actuarial data or perform clerical tasks relating to the transactions of insurance establishments, banks and other financial establishments.\nTasks include -\n(a)  processing insurance enrolments, cancellations, claims transactions, policy changes and payments;\n(b)  obtaining and compiling statistical or actuarial data based on routine or special sources of information;\n(c)  calculating totals, averages, percentages and other details and presenting them in the required tabular form;\n(d)  preparing financial documents, and calculating interest or brokerage charges and stamp duties payable;\n(e)  maintaining records of bonds, shares and other securities bought or sold on behalf of clients or employers.\nExamples of the occupations classified here:\n- Actuarial clerk\n- Brokerage clerk\n- Finance clerk\n- Insurance clerk\n- Mortgage clerk\n- Securities clerk\n- Statistical clerk\nSome related occupations classified elsewhere:\n- Stocks and shares broker - 3311\n- Accounting assistant - 3313\n- Statistical assistant - 3314\n- Trade broker - 3324\n- Accounts clerk - 4311\n- Bookkeeping clerk - 4311\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4312&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4312",
+      "title": "Statistical, finance and insurance clerks"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C431&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C431",
+        "title": "Numerical clerks",
+        "code": "431"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b2e81332-0972-4e0f-9a4d-1d15c9c9513b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b2e81332-0972-4e0f-9a4d-1d15c9c9513b",
+        "title": "back office specialist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/84fabf82-4abf-4f41-99aa-55718a2e500b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/84fabf82-4abf-4f41-99aa-55718a2e500b",
+        "title": "tax clerk"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c5c1c40f-d2b7-437f-b3e8-b9da48f6d728&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c5c1c40f-d2b7-437f-b3e8-b9da48f6d728",
+        "title": "property assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fd0801c9-809a-4cfd-98ed-6c5860c163f2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fd0801c9-809a-4cfd-98ed-6c5860c163f2",
+        "title": "investment clerk"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1f665529-96e9-46c1-99f4-9ffbf9ffa036&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1f665529-96e9-46c1-99f4-9ffbf9ffa036",
+        "title": "auditing clerk"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b7fc1cd1-0d6d-4e9e-8a9f-c3270201be81",
+        "title": "foreign exchange cashier"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9a39a143-d93c-4093-ba3b-47fb67ade318&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9a39a143-d93c-4093-ba3b-47fb67ade318",
+        "title": "insurance clerk"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,83 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9520",
+  "title": "Street vendors (excluding food)",
+  "preferredLabel": {
+    "de": "Straßenverkäufer (ohne Lebensmittel)",
+    "fi": "Katumyyjät (pl. elintarvikkeet)",
+    "sv": "Ambulerande gatuförsäljare (utom mat)",
+    "pt": "Vendedores ambulantes (excluindo de produtos comestíveis)",
+    "bg": "Улични продавачи на нехранителни стоки",
+    "mt": "Ħaddiema li jbiegħu l-ikel fit-toroq (eskluż l-ikel)",
+    "el": "Πλανόδιοι πωλητές (εξαιρουμένων των πωλητών τροφίμων)",
+    "lt": "Gatvės prekeiviai (išskyrus maisto)",
+    "en": "Street vendors (excluding food)",
+    "lv": "Ielu pārdevēji (izņemot pārtikas preces)",
+    "hr": "Ulični prodavači/ulične prodavačice (osim hrane)",
+    "it": "Venditori ambulanti di prodotti non alimentari",
+    "fr": "Vendeurs ambulants (à l’exception de l’alimentation)",
+    "hu": "Utcai árusok (kivéve az élelmiszerárusokat)",
+    "es": "Vendedores ambulantes (excluyendo de comida)",
+    "et": "Välimüüjad (v.a toidu- ja joogimüüjad)",
+    "cs": "Pouliční prodejci (kromě potravin)",
+    "sk": "Pouliční predavači (okrem jedla)",
+    "sl": "Poulični prodajalci/poulične prodajalke (razen hrane)",
+    "pl": "Sprzedawcy uliczni produktów nieżywnościowych",
+    "ro": "Vânzători ambulanți (exclusiv produse alimentare)",
+    "da": "Gadesalg (undtagen madvarer)",
+    "nl": "Straatverkopers (m.u.v. voedsel)"
+  },
+  "code": "9520",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9520"
+    },
+    {
+      "datatype": "",
+      "value": "9520"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Street vendors (excluding food) sell a usually limited range of goods (excluding food for immediate consumption) in streets and public places such as stations, cinemas or theatres.\nTasks include -\n(a)  buying or receiving items for sale, or making simple items;\n(b)  loading and unloading baskets, trays, pushcarts, bicycles, hand-trucks or other vehicles, to transport goods to the streets or public places such as stations or cinemas;\n(c)  displaying goods or calling out to attract customers’ attention;\n(d)  approaching potential customers on streets, or by going from house to house, to offer goods for sale; \n(e)  receiving immediate payment.\nExamples of the occupations classified here:\n- Hawker\n- Newspaper vendor\n- Pedlar\nSome related occupations classified elsewhere:\n- Market salesperson - 5211\n- Street stall salesperson - 5211\n- Street food vendor - 5212\n- Door-to-door sales representative - 5243\n- Free newspaper distributor - 9510\nNotes\nVendors from street and market stalls of fresh food products not intended for immediate consumption (such as fruit, vegetables, meat and dairy products) are classified in Unit Group 5211: Stall and Market Salespersons. Vendors from street and market stalls of a variety of prepared meals and food items for immediate consumption are classified in Unit Group 5246: Food Service Counter Attendants. Vendors in streets and public places of food and beverages for immediate consumption from pushcarts, trucks, trays or baskets are classified in Unit Group 5212: Street Food Salespersons. Vendors in streets and public places of non-food items (or of pre-packaged non-perishable food items such as confectionery) from pushcarts, trucks, trays or baskets are classified in Unit Group 9520: Street Vendors (excluding food).\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9520&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9520",
+      "title": "Street vendors (excluding food)"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C952&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C952",
+        "title": "Street vendors (excluding food)",
+        "code": "952"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b059d331-2dd9-4d7d-923e-1dd029d2e58c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b059d331-2dd9-4d7d-923e-1dd029d2e58c",
+        "title": "hawker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

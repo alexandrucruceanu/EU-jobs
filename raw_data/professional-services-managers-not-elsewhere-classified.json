@@ -1,0 +1,194 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1349",
+  "title": "Professional services managers not elsewhere classified",
+  "preferredLabel": {
+    "no": "Andre ledere av produksjon og tjenesteyting",
+    "de": "Führungskräfte in der Erbringung von speziellen Dienstleistungen, anderweitig nicht genannt",
+    "sv": "Övriga chefer inom utbildning, vård, omsorg och finansiell verksamhet",
+    "fi": "Muut yhteiskunnan palvelujen johtajat",
+    "pt": "Directores de outros serviços especializados",
+    "bg": "Ръководители в областта на професионалните услуги, некласифицирани другаде",
+    "el": "Διευθυντές επιχειρήσεων παροχής επαγγελματικών υπηρεσιών π.δ.κ.α.",
+    "mt": "Maniġers ta’ servizzi professjonali li mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti profesinių paslaugų srities vadovai",
+    "en": "Professional services managers not elsewhere classified",
+    "hr": "Ravnatelji/ravnateljice ustanova za pružanje stručnih usluga d. n.",
+    "lv": "Citur neklasificēti vadītāji specializēto pakalpojumu jomā",
+    "it": "Dirigenti in servizi professionali non classificati altrove",
+    "fr": "Autres cadres de direction, services spécialisés non classés ailleurs",
+    "hu": "Máshová nem sorolható szakmai szolgáltatások vezetői",
+    "es": "Directores y gerentes de servicios profesionales no clasificados bajo otros epígrafes",
+    "et": "Professionaalseid teenuseid osutavate asutuste juhid, mujal liigitamata",
+    "cs": "Vedoucí a řídící pracovníci knihoven, muzeí, bezpečnosti a v příbuzných oblastech jinde neuvedení",
+    "sk": "Riadiaci pracovníci (manažéri) v špecializovaných službách inde neuvedení",
+    "sl": "Menedžerji/menedžerke za strokovne storitve, d. n.",
+    "pl": "Kierownicy do spraw usług profesjonalnych gdzie indziej niesklasyfikowani",
+    "da": "Anden ledelse af hovedaktiviteten inden for servicefag",
+    "ro": "Conducători de unități de prestări servicii, neclasificați în grupele de bază anterioare",
+    "nl": "Leidinggevende functies op het gebied van professionele diensten, niet elders geclassificeerd"
+  },
+  "code": "1349",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "1349"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1349"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers managers who plan, direct, coordinate and evaluate the provision of specialized professional and technical services and are not classified in Minor Group 121: Business Services and Administration Managers, or elsewhere in Minor Group 134: Professional Services Managers. For instance, managers responsible for the provision of policing, correctional, library, legal and fire services are classified here.\nIn such cases tasks would include -\n(a)  providing overall direction and management for a service, facility, organization or centre; \n(b)  developing, implementing and monitoring procedures, policies and standards for staff; \n(c)  directing, supervising and evaluating the work activities of professional, technical, clerical, service, maintenance and other personnel; \n(d)  monitoring and evaluating resources devoted to the provision of services;\n(e)  controlling administrative operations such as budget planning, report preparation, and expenditure on supplies, equipment and services;\n(f)  planning, directing and coordinating the provision of services;\n(g)  coordinating cooperation with other service provision agencies in the same or related fields;\n(h)  managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(i)  overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n -  Archives manager\n -  Art gallery manager\n -  Correctional services manager\n -  Legal service manager\n -  Library manager\n -  Museum manager\n -  Police superintendent\n -  Prison governor\nNote\nProfessional services managers are responsible for planning, directing and coordinating the provision of specialized professional and technical services. Specialized qualifications and extensive experience relevant to one or more occupations classified in Major Group 2: Professionals, or Major Group 3: Technicians and Associate Professionals, are usually required.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1349&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1349",
+      "title": "Professional services managers not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C134&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C134",
+        "title": "Professional services managers",
+        "code": "134"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a05d0a6d-7b60-445a-8dcb-282c7d5a6852&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a05d0a6d-7b60-445a-8dcb-282c7d5a6852",
+        "title": "chief fire officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4b214899-ed00-4156-b269-a23df0fb1093&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4b214899-ed00-4156-b269-a23df0fb1093",
+        "title": "environmental protection manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3f6fc9db-18c1-45e8-819e-baf7b6cfe372&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3f6fc9db-18c1-45e8-819e-baf7b6cfe372",
+        "title": "court administrator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bcc2c1db-f969-4355-bebf-4878ff6c2a94&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bcc2c1db-f969-4355-bebf-4878ff6c2a94",
+        "title": "service manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/83588a0e-b63d-4483-a884-06f1e3a1a4be&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/83588a0e-b63d-4483-a884-06f1e3a1a4be",
+        "title": "translation agency manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8c8ec7a2-adbb-4d1a-9a56-a7048d66c00b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8c8ec7a2-adbb-4d1a-9a56-a7048d66c00b",
+        "title": "aviation surveillance and code coordination manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7d7ea936-a1c6-499d-9aa7-054e943b019b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7d7ea936-a1c6-499d-9aa7-054e943b019b",
+        "title": "interpretation agency manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cc937d5f-4072-4fe7-bc23-2c9a465b8754&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cc937d5f-4072-4fe7-bc23-2c9a465b8754",
+        "title": "museum director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cfda19c9-c7e1-497d-a18b-66e29c773745&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cfda19c9-c7e1-497d-a18b-66e29c773745",
+        "title": "airspace manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/db4f28ff-c208-4830-ab8b-4b07776db134&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/db4f28ff-c208-4830-ab8b-4b07776db134",
+        "title": "artistic director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/64b136da-aedf-48a2-96a0-72eb850bfcd0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/64b136da-aedf-48a2-96a0-72eb850bfcd0",
+        "title": "rescue centre manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/aab8009a-5759-4f52-8865-6cc657b1f099&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/aab8009a-5759-4f52-8865-6cc657b1f099",
+        "title": "publications coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/44ec4c04-c2d4-4b92-bb27-e56f5b096d97&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/44ec4c04-c2d4-4b92-bb27-e56f5b096d97",
+        "title": "airside safety manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a005f8a2-2d8a-433e-8d89-13575f822fd4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a005f8a2-2d8a-433e-8d89-13575f822fd4",
+        "title": "energy manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/24d39e12-e104-49d3-8224-8b7a5f9b99d1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/24d39e12-e104-49d3-8224-8b7a5f9b99d1",
+        "title": "library manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/db4057de-0c5a-4f68-8f81-2c0765978afb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/db4057de-0c5a-4f68-8f81-2c0765978afb",
+        "title": "front of house manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f4de7e28-ca67-46cd-b760-30e02b3aa83b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f4de7e28-ca67-46cd-b760-30e02b3aa83b",
+        "title": "medical laboratory manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fb022de4-920a-4eb0-80f9-fbb8ecfc36b1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fb022de4-920a-4eb0-80f9-fbb8ecfc36b1",
+        "title": "archive manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6db9eeae-aef5-4f56-913d-4650e4c720c6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6db9eeae-aef5-4f56-913d-4650e4c720c6",
+        "title": "correctional services manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e2ad6d3e-1736-466b-a2bf-9823f683c8ab&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e2ad6d3e-1736-466b-a2bf-9823f683c8ab",
+        "title": "book publisher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/20e39113-05f5-4184-94e2-f5e8e8c8d2ea&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/20e39113-05f5-4184-94e2-f5e8e8c8d2ea",
+        "title": "sport administrator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2f8acdc5-76f5-498b-9818-df075e324eaa&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2f8acdc5-76f5-498b-9818-df075e324eaa",
+        "title": "aviation communications and frequency coordination manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2c8a4b72-21f4-4ab1-9dbd-1cae779211b7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2c8a4b72-21f4-4ab1-9dbd-1cae779211b7",
+        "title": "commercial art gallery manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

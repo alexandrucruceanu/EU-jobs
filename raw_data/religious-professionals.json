@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2636",
+  "title": "Religious professionals",
+  "preferredLabel": {
+    "de": "Geistliche Seelsorger",
+    "no": "Geistlige yrker",
+    "fi": "Papit ym. uskonnollisen elämän erityisasiantuntijat",
+    "sv": "Präster",
+    "pt": "Ministros de culto e membros de ordens religiosas",
+    "bg": "Религиозни духовници",
+    "el": "Κληρικοί και επαγγελματίες του θρησκευτικού τομέα",
+    "mt": "Professjonisti reliġjużi",
+    "lt": "Religijų specialistai",
+    "en": "Religious professionals",
+    "hr": "Vjerski stručnjaci/vjerske stručnjakinje",
+    "lv": "Reliģisko lietu vecākie speciālisti",
+    "it": "Specialisti in discipline religiose",
+    "fr": "Ministres des cultes",
+    "hu": "Vallási foglalkozásúak",
+    "es": "Profesionales religiosos",
+    "et": "Religiooni valdkonna spetsialistid",
+    "cs": "Specialisté v církevní oblasti a v příbuzných oborech",
+    "sk": "Špecialisti v oblasti religionistiky",
+    "sl": "Poklici verskih delavcev/delavk",
+    "pl": "Specjaliści z zakresu działalności religijnej",
+    "ro": "Specialiști în religie",
+    "da": "Arbejde inden for religion",
+    "nl": "Theologen en bedienaars van de eredienst"
+  },
+  "code": "2636",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2636"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2636"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Religious professionals function as perpetuators of sacred traditions, practices and beliefs. They conduct religious services, celebrate or administer the rites of a religious faith or denomination, provide spiritual and moral guidance and perform other functions associated with the practice of a religion.\nTasks include -\n(a)  perpetuating sacred traditions, practices and beliefs;\n(b)  conducting religious services, rites and ceremonies;\n(c)  undertaking various administrative and social duties, including participating in committees and meetings of religious organizations;\n(d)  providing spiritual and moral guidance in accordance with the religion professed;\n(e)  propagating religious doctrines in own country or abroad;\n(f)  preparing and presenting religious sermons;\n(g)  developing and directing study courses and religious education programmes;\n(h)  counselling individuals regarding interpersonal, health, financial and religious problems;\n(i)  scheduling and participating in special events such as camps, conferences, seminars and retreats.\nExamples of the occupations classified here:\n- Bonze\n- Imam\n- Minister of religion\n- Poojari\n- Priest\n- Rabbi\nSome related occupations classified elsewhere:\n- Lay preacher - 3413\n- Monk - 3413\n- Nun - 3413\nNote\nMembers of religious orders whose work involves performing the tasks of other occupations, for example as teachers, nurses or welfare support workers, should be classified according to the main tasks and duties performed in the job.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2636&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2636",
+      "title": "Religious professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C263&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C263",
+        "title": "Social and religious professionals",
+        "code": "263"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ed256ed0-0432-4969-8544-3e5e01a517a9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ed256ed0-0432-4969-8544-3e5e01a517a9",
+        "title": "minister of religion"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6d421d34-baa1-44f9-9ea0-231d76e325fd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6d421d34-baa1-44f9-9ea0-231d76e325fd",
+        "title": "religion scientific researcher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0f086907-96a6-4e88-bf00-a84295125a6a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0f086907-96a6-4e88-bf00-a84295125a6a",
+        "title": "missionary"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a4dd6eae-ca75-456f-829d-333671a7c186&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a4dd6eae-ca75-456f-829d-333671a7c186",
+        "title": "chaplain"
+      }
+    ]
+  },
+  "_embedded": {}
+}

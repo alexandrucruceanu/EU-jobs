@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4224",
+  "title": "Hotel receptionists",
+  "preferredLabel": {
+    "no": "Hotellresepsjonister",
+    "de": "Hotelrezeptionisten",
+    "fi": "Hotellin vastaanottovirkailijat",
+    "sv": "Hotellreceptionister",
+    "pt": "Recepcionistas de hotel",
+    "bg": "Рецепционисти в хотели",
+    "mt": "Dawk li jaħdmu fir-reception tal-lukandi",
+    "el": "Υπάλληλοι υποδοχής σε ξενοδοχεία",
+    "lt": "Viešbučių registratoriai",
+    "en": "Hotel receptionists",
+    "lv": "Viesnīcu reģistratori",
+    "hr": "Hotelski recepcionari/hotelske recepcionarke",
+    "it": "Portieri di albergo",
+    "fr": "Réceptionnistes, hôtellerie",
+    "hu": "Szállodai fogadóportások",
+    "es": "Recepcionistas de hoteles",
+    "et": "Hotellide administraatorid",
+    "cs": "Recepční v hotelích",
+    "sk": "Hoteloví recepční",
+    "sl": "Hotelski receptorji/hotelske receptorke",
+    "pl": "Recepcjoniści hotelowi",
+    "ro": "Recepționeri în domeniul hotelier",
+    "da": "Hotelreceptionistarbejde",
+    "nl": "Hotelreceptionisten"
+  },
+  "code": "4224",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "4224"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4224"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Hotel receptionists welcome and register guests in hotels and other establishments that provide accommodation services. They assign rooms, issue keys, provide information concerning the services provided, make room reservations, keep a record of rooms available for occupancy, present statements of charges to departing guests and receive payment.\nTasks include -\n(a)  maintaining an inventory of rooms available for occupancy, reservations and room assignments; \n(b)  registering arriving guests, assigning rooms, verifying customers’ credit and issuing room keys;\n(c)  providing information regarding hotel services and services available in the community;\n(d)  providing information about availability of accommodation and making room reservations;\n(e)  responding to guests’ requests for housekeeping and maintenance services as well as to complaints; \n(f)  contacting housekeeping or maintenance services when guests report problems;\n(g)  compiling and checking guest accounts for charges using computerized or manual systems;\n(h)  receiving and forwarding messages in person or using telephones or telephone switchboards;\n(i)  reviewing statements of charges to departing guests and receiving payment.\nExamples of the occupations classified here:\n- Hotel front desk clerk\n- Hotel receptionist\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4224&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4224",
+      "title": "Hotel receptionists"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C422&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C422",
+        "title": "Client information workers",
+        "code": "422"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/82025c02-9082-416c-998b-f51eb0359ee6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/82025c02-9082-416c-998b-f51eb0359ee6",
+        "title": "hospitality establishment receptionist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

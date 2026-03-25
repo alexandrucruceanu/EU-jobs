@@ -1,0 +1,119 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4212",
+  "title": "Bookmakers, croupiers and related gaming workers",
+  "preferredLabel": {
+    "no": "Bingoverter",
+    "de": "Buchmacher, Croupiers und verwandte Berufe im Bereich Glücks- und Wettspiele",
+    "sv": "Oddssättare, croupierer m.fl.",
+    "fi": "Vedonvälittäjät, bingo- ja kasinopelin hoitajat ym.",
+    "pt": "Empregados de apostas, em casinos e similares",
+    "bg": "Букмейкъри, крупиета и сродни на тях",
+    "el": "Πράκτορες στοιχημάτων, κρουπιέρηδες και εργαζόμενοι σε επιχειρήσεις τυχερών παιγνίων",
+    "mt": "Dawk li jżommu l-flus tal-logħob tal-azzard (bookmakers), dawk li għandhom x’jaqsmu mal-logħob fil-casino (croupiers) u ħaddiema relatati mal-logħob",
+    "lt": "Lažybų tarpininkai, lošimo namų tarnautojai ir susiję lošimų tarnautojai",
+    "en": "Bookmakers, croupiers and related gaming workers",
+    "hr": "Službenici/službenice u kladionici, kasinu i srodna zanimanja",
+    "lv": "Bukmeikeri, krupjē un tiem radniecīgi spēļu industrijas darbinieki",
+    "it": "Allibratori, croupier ed assimilati",
+    "fr": "Croupiers et assimilés dans le secteur des jeux de hasard",
+    "hu": "Bukmékerek, krupiék és hasonló foglalkozásúak",
+    "es": "Receptores de apuestas y afines",
+    "et": "Kihlvedude vahendajad, krupjeed jm hasartmängude vahendajad",
+    "cs": "Bookmakeři, krupiéři a pracovníci v příbuzných oborech",
+    "sk": "Bookmakeri, krupieri a pracovníci v stávkových kanceláriách a herniach",
+    "sl": "Sprejemalci/sprejemalke stav, krupjeji/krupjejke ipd.",
+    "pl": "Bukmacherzy, krupierzy i pokrewni",
+    "da": "Bookmaker- og croupierarbejde samt beslægtede funktioner",
+    "ro": "Agenți de pariuri, crupieri și alți lucrători asimilați",
+    "nl": "Bookmakers, croupiers e.d."
+  },
+  "code": "4212",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "4212"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4212"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Bookmakers and croupiers and related gaming workers determine odds and receive and pay off bets on results of sporting or other events, or conduct games of chance in gambling establishments.\nTasks include -\n(a)  determining risks to decide odds and to hedge or refuse bets;\n(b)  preparing and issuing lists of approximate odds;\n(c)  distributing cards, rolling dice or spinning a roulette wheel:\n(d)  explaining and interpreting operating rules of a gambling establishment;\n(e)  announcing winning numbers, paying winners and collecting payments from losers;\nExamples of the occupations classified here:\n- Bookmaker\n- Croupier\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4212&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4212",
+      "title": "Bookmakers, croupiers and related gaming workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C421&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C421",
+        "title": "Tellers, money collectors and related clerks",
+        "code": "421"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2f7f5c84-b9b3-41ea-aa5f-5997d0873141&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2f7f5c84-b9b3-41ea-aa5f-5997d0873141",
+        "title": "bingo caller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6fefa90d-9a71-49c6-be92-52397e9795e6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6fefa90d-9a71-49c6-be92-52397e9795e6",
+        "title": "odds compiler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d18a8976-a283-42ad-9541-75c49396dbd7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d18a8976-a283-42ad-9541-75c49396dbd7",
+        "title": "lottery operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fb1a7aab-1e33-4712-b8e0-d335243aba58&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fb1a7aab-1e33-4712-b8e0-d335243aba58",
+        "title": "gaming dealer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e96cec32-9960-4496-a790-a9d2254906fc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e96cec32-9960-4496-a790-a9d2254906fc",
+        "title": "tote operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/eb198788-0b99-4583-a7c5-0139ff9f91ad&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/eb198788-0b99-4583-a7c5-0139ff9f91ad",
+        "title": "casino gaming manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/961cbd1f-2a9b-4756-b227-67a1c23c94b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/961cbd1f-2a9b-4756-b227-67a1c23c94b6",
+        "title": "casino cashier"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/264e1a4a-5074-47e2-a6d9-d225d48e8a9a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/264e1a4a-5074-47e2-a6d9-d225d48e8a9a",
+        "title": "bookmaker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

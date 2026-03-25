@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5222",
+  "title": "Shop supervisors",
+  "preferredLabel": {
+    "no": "Butikkavdelingssjefer",
+    "de": "Verkaufsaufsichtskräfte in Handelsgeschäften",
+    "fi": "Myymäläesimiehet",
+    "sv": "Säljande butikschefer och avdelningschefer i butik",
+    "pt": "Supervisores de loja",
+    "bg": "Управители на магазини",
+    "mt": "Superviżuri tal-ħwienet",
+    "el": "Επόπτες καταστημάτων",
+    "lt": "Parduotuvių prižiūrėtojai",
+    "en": "Shop supervisors",
+    "lv": "Vecākie pārdevēji",
+    "hr": "Poslovođe/poslovotkinje u trgovinama",
+    "it": "Addetto ai controlli delle vendite",
+    "fr": "Superviseurs, magasins",
+    "hu": "Vezető eladók",
+    "es": "Supervisores de tiendas y almacenes",
+    "et": "Vanemmüüjad",
+    "cs": "Vedoucí pracovních týmů v prodejnách",
+    "sk": "Vedúci predajne/oddelenia",
+    "sl": "Trgovski poslovodja/trgovska poslovodkinja",
+    "pl": "Kierownicy sklepów",
+    "ro": "Supraveghetori în magazine",
+    "da": "Butiksledere",
+    "nl": "Toezichthoudend personeel in winkels"
+  },
+  "code": "5222",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5222"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5222"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Shop supervisors supervise and coordinate the activities of shop sales assistants, checkout operators and other workers in retail and wholesale shops such as supermarkets and department stores.\nTasks include -\n(a)  planning and preparing work schedules and assigning staff to specific duties;\n(b)  instructing staff on sales procedures, including how to handle difficult or complex cases;\n(c)  ensuring that customers receive prompt service;\n(d)  participating in and providing advice to managers on interviewing, hiring, training, evaluating, promoting and dismissing staff, and resolving staff grievances;\n(e)  examining returned goods and deciding on appropriate action;\n(f)  taking inventory of goods for sale and ordering new stock;\n(g)  ensuring that goods and services are correctly priced and displayed;\n(h)  ensuring that safety procedures are enforced.\nExamples of the occupations classified here:\n- Checkout supervisor\n- Supermarket supervisor\nSome related occupations classified elsewhere:\n- Shop manager - 1420\n- Street stall salesperson - 5211\n- Shopkeeper - 5221\n\nNote\nOperators of small shops for whom the management and supervision of staff are not a significant component of the work are classified in Unit Group 5221: Shopkeepers.  Shop managers who, in addition to supervision of staff, perform management tasks such as determining product mix, overall setting of prices, budgeting and making decisions on staff levels, selection and recruitment are classified in Unit Group 1420: Retail and Wholesale Trade Managers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5222&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5222",
+      "title": "Shop supervisors"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C522&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C522",
+        "title": "Shop salespersons",
+        "code": "522"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bdfb48e0-79dc-4b63-8470-db2e03b37326&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bdfb48e0-79dc-4b63-8470-db2e03b37326",
+        "title": "shop supervisor"
+      }
+    ]
+  },
+  "_embedded": {}
+}

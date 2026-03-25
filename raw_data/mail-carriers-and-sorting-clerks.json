@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4412",
+  "title": "Mail carriers and sorting clerks",
+  "preferredLabel": {
+    "no": "Postbud og postsorterere",
+    "de": "Postverteiler und -sortierer",
+    "fi": "Postinkantajat ja -lajittelijat",
+    "sv": "Brevbärare och brevsorterare",
+    "pt": "Carteiros e similares",
+    "bg": "Пощальони и сортировачи",
+    "mt": "Skrivani li jaħdmu fit-tqassim u l-organizzazzjoni tal-posta",
+    "el": "Ταχυδρομικοί και υπάλληλοι διαλογής αλληλογραφίας",
+    "lt": "Paštininkai ir panašių profesijų tarnautojai",
+    "en": "Mail carriers and sorting clerks",
+    "lv": "Pasta piegādes un šķirošanas darbinieki",
+    "hr": "Poštari/poštarice",
+    "it": "Addetti all’inoltro e allo smistamento di posta e documentazione",
+    "fr": "Employés de service du courrier",
+    "hu": "Postai kézbesítők és válogatók",
+    "es": "Empleados de servicios de correos",
+    "et": "Postisorteerijad ja -kättetoimetajad",
+    "cs": "Pracovníci poštovního provozu (kromě úředníků na přepážkách)",
+    "sk": "Poštoví doručovatelia a pracovníci v triediarňach",
+    "sl": "Usmerjevalci/usmerjevalke in raznašalci/raznašalke pošte ipd.",
+    "pl": "Doręczyciele i sortowacze poczty",
+    "ro": "Curieri și sortatori corespondență",
+    "da": "Postbud- og -betjentarbejde samt postsorteringsarbejde",
+    "nl": "Postboden en postsorteerders"
+  },
+  "code": "4412",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4412"
+    },
+    {
+      "datatype": "",
+      "value": "4412"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Mail carriers and sorting clerks perform sorting, recording, delivery and other duties in connection with mail services from post offices or related organizations, as well as from or within an establishment.\nTasks include -\n(a)  performing mail-handling duties in public post offices or privately owned delivery establishments;\n(b)  sorting and delivering mail to private houses and businesses; \n(c)  providing delivery confirmation records when requested by the client;\n(d)  sorting and keeping simple records of incoming and outgoing correspondence and dispatching outgoing mail in various establishments;\nExamples of the occupations classified here:\n- Mail clerk\n- Post carrier\n- Postman/woman\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4412&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4412",
+      "title": "Mail carriers and sorting clerks"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C441&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C441",
+        "title": "Other clerical support workers",
+        "code": "441"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/511f366c-ba41-4826-9622-8cda6d6e3b91&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/511f366c-ba41-4826-9622-8cda6d6e3b91",
+        "title": "mail clerk"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7ed2e153-8da8-4c0d-b4c5-3402c623f34b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7ed2e153-8da8-4c0d-b4c5-3402c623f34b",
+        "title": "postman/postwoman"
+      }
+    ]
+  },
+  "_embedded": {}
+}

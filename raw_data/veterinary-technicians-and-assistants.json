@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3240",
+  "title": "Veterinary technicians and assistants",
+  "preferredLabel": {
+    "de": "Veterinärmedizinische Fachkräfte und Assistenten",
+    "no": "Dyrepleiere",
+    "fi": "Seminologit ym.",
+    "sv": "Djursjukvårdare m.fl.",
+    "pt": "Técnicos e assistentes veterinários",
+    "bg": "Ветеринарни техници и асистенти",
+    "mt": "Tekniċi u assistenti veterinarji",
+    "el": "Τεχνικοί και βοηθοί κτηνιάτρων",
+    "lt": "Veterinarijos technikai ir felčeriai",
+    "en": "Veterinary technicians and assistants",
+    "hr": "Veterinarski tehničari, asistenti/ veterinarske tehničarke, asistentice",
+    "lv": "Veterinārfeldšeri un veterinārārstu asistenti",
+    "it": "Tecnici e assistenti veterinari",
+    "fr": "Techniciens et assistants vétérinaires",
+    "hu": "Állatorvosi technikusok és asszisztensek",
+    "es": "Técnicos y asistentes veterinarios",
+    "et": "Abiloomaarstid",
+    "cs": "Veterinární technici a asistenti",
+    "sk": "Veterinárni technici a asistenti",
+    "sl": "Veterinarski tehniki, asistenti/veterinarske tehnice, asistentke",
+    "pl": "Technicy i asystenci weterynaryjni",
+    "ro": "Tehnicieni și asistenți veterinari",
+    "da": "Dyrlægeassistent- og teknikerarbejde",
+    "nl": "Veterinair technici en dierenartsassistenten"
+  },
+  "code": "3240",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3240"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3240"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Veterinary technicians and assistants carry out advisory, diagnostic, preventive and curative veterinary tasks, more limited in scope and complexity than those carried out by, and with the guidance of, veterinarians. They care for animals under treatment and in temporary residence at veterinary facilities, perform routine procedures and assist veterinarians to perform procedures and operations.\nTasks include -\n(a)  advising communities and individuals on the treatment of animals and their diseases and injuries;\n(b)  conducting examinations of animals to make diagnoses or refer more difficult cases to veterinarians when needed;\n(c)  treating ill or injured animals, especially for common diseases and disorders;\n(d)  cleaning and sterilising examination tables and instruments and preparing materials used in the examination and treatment of animals;\n(e)  carrying out technical tasks connected with artificial insemination of animals;\n(f)  getting animals ready for examination or treatment and restraining or holding them during treatment;\n(g)  assisting veterinarians to administer anaesthetics and oxygen during treatment;\n(h)  placing animals in cages for recovery from operations and monitoring their condition;\n(i)  producing radiographs, collecting samples, and performing other laboratory tests to assist in diagnosis of animal health problems;\n(j)  performing routine animal dental procedures and assisting veterinarians with animal dentistry.\nExamples of the occupations classified here:\n- Artificial inseminator\n- Veterinary assistant\n- Veterinary nurse\n- Veterinary vaccinator\nSome related occupations classified elsewhere:\n- Veterinarian - 2250\n- Animal attendant - 5164\n- Veterinary aide - 5164\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3240&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3240",
+      "title": "Veterinary technicians and assistants"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C324&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C324",
+        "title": "Veterinary technicians and assistants",
+        "code": "324"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/289c7385-2342-4a4e-b0b1-7b2e977aea79&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/289c7385-2342-4a4e-b0b1-7b2e977aea79",
+        "title": "alternative animal therapist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/99ebf2c2-1811-4c77-b2e6-7008cba29ea0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/99ebf2c2-1811-4c77-b2e6-7008cba29ea0",
+        "title": "veterinary technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

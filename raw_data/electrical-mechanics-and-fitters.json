@@ -1,0 +1,139 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7412",
+  "title": "Electrical mechanics and fitters",
+  "preferredLabel": {
+    "no": "Automatikere",
+    "de": "Elektromechaniker und verwandte Berufe",
+    "sv": "Industrielektriker",
+    "fi": "Muut sähköasentajat",
+    "pt": "Electromecânicos e afinadores de aparelhos eléctricos",
+    "bg": "Електромеханици и електромонтьори",
+    "el": "Μηχανικοί και εφαρμοστές ηλεκτρολογικού εξοπλισμού",
+    "mt": "Mekkaniċi elettriċi u fitters",
+    "lt": "Elektromechanikai ir elektromonteriai",
+    "en": "Electrical mechanics and fitters",
+    "lv": "Elektroiekārtu mehāniķi un atslēdznieki",
+    "hr": "Elektromehaničari/elektromehaničarke",
+    "it": "Installatori e riparatori di apparati elettromeccanici",
+    "fr": "Mécaniciens et ajusteurs d’appareils électriques",
+    "hu": "Elektroműszerészek és -szerelők",
+    "es": "Mecánicos y ajustadores electricistas",
+    "et": "Elektriseadmete mehhaanikud ja paigaldajad",
+    "cs": "Elektromechanici a seřizovači",
+    "sk": "Elektromechanici a nastavovači",
+    "sl": "Elektromehaničarji/elektromehaničarke",
+    "pl": "Elektromechanicy i elektromonterzy",
+    "ro": "Mecanici și instalatori de echipamente electrice",
+    "da": "Elektromekanikerarbejde",
+    "nl": "Installateurs van elektrische apparatuur"
+  },
+  "code": "7412",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7412"
+    },
+    {
+      "datatype": "",
+      "value": "7412"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Electrical mechanics and fitters fit, adjust, install and repair electrical machinery and other electrical apparatus and equipment in buildings, factories, motor vehicles, workshops or other places.\nTasks include -\n(a)  fitting, adjusting and repairing various kinds of electrical machinery and motors, generators, switchgear and control apparatus, instruments, or electrical parts of elevators and related equipment;\n(b)  fitting, adjusting and repairing electrical parts in domestic appliances, industrial machines and other appliances;\n(c)  inspecting and testing manufactured electrical products;\n(d)  installing, testing, connecting, commissioning, maintaining and modifying electrical equipment, wiring and control systems; \n(e)  designing, installing, maintaining, servicing and repairing electricand hydraulic passenger and freight lifts, escalators, moving walkways and other lift equipment;\n(f)  connecting electrical systems to the power supply;\n(g)  replacing and repairing defective parts.\nExamples of the occupations classified here:\n- Armature builder\n- Automotive electrician\n- Electrical generator fitter\n- Electrical mechanic\n- Lift mechanic\nSome related occupations classified elsewhere:\n- Electronics mechanic - 7421\n- Electrical equipment assembler - 8212\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7412&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7412",
+      "title": "Electrical mechanics and fitters"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C741&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C741",
+        "title": "Electrical equipment installers and repairers",
+        "code": "741"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fd86ebe1-bad4-4486-9b76-01a48030e49a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fd86ebe1-bad4-4486-9b76-01a48030e49a",
+        "title": "rolling stock electrician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f8d1bcf9-9ca1-408f-a713-7bdf28c400fd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f8d1bcf9-9ca1-408f-a713-7bdf28c400fd",
+        "title": "lift engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5d009d45-3bb9-4e33-8760-294f59adec8c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5d009d45-3bb9-4e33-8760-294f59adec8c",
+        "title": "electrical mechanic"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9422c30d-c5ef-4fcc-a493-d67ee42189c0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9422c30d-c5ef-4fcc-a493-d67ee42189c0",
+        "title": "marine electrician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6188bf20-5cdb-4702-af72-2cb67ec39810&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6188bf20-5cdb-4702-af72-2cb67ec39810",
+        "title": "ride technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8cf68522-dfc9-43c0-9f65-892703f4705e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8cf68522-dfc9-43c0-9f65-892703f4705e",
+        "title": "ground lighting officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8b8ae0a5-342c-43ae-b856-e1fea6fd6d1c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8b8ae0a5-342c-43ae-b856-e1fea6fd6d1c",
+        "title": "power tool repair technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/06bd6285-13ed-4ea7-90cc-e9638a0600a9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/06bd6285-13ed-4ea7-90cc-e9638a0600a9",
+        "title": "automotive battery technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/98562ce3-9632-4226-b129-c67eb9c54f0f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/98562ce3-9632-4226-b129-c67eb9c54f0f",
+        "title": "wind turbine technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f4eaff3d-f8d0-4a6a-aa90-76827c0fbada&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f4eaff3d-f8d0-4a6a-aa90-76827c0fbada",
+        "title": "household appliances repair technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6656337f-67eb-4f48-b1e4-ecccdfa44dd2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6656337f-67eb-4f48-b1e4-ecccdfa44dd2",
+        "title": "automotive electrician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c07ab008-79c1-4516-8dcc-8289f797dc34&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c07ab008-79c1-4516-8dcc-8289f797dc34",
+        "title": "mining electrician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

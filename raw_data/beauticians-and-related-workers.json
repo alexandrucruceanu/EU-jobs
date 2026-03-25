@@ -1,0 +1,139 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5142",
+  "title": "Beauticians and related workers",
+  "preferredLabel": {
+    "de": "Kosmetiker und verwandte Berufe",
+    "no": "Kosmetologer mv.",
+    "sv": "Hudterapeuter m.fl.",
+    "fi": "Kosmetologit ym.",
+    "pt": "Esteticistas e similares",
+    "bg": "Козметици и сродни на тях",
+    "mt": "Ħaddiema involuti fil-qasam tas-sbuħija (beauticians) u ħaddiema oħra f’oqsma relatati ma’ dan",
+    "el": "Αισθητικοί και ασκούντες συναφή επαγγέλματα",
+    "lt": "Kosmetologai ir susijusių profesijų darbuotojai",
+    "en": "Beauticians and related workers",
+    "lv": "Skaistumkopšanas un tai radniecīgu profesiju darbinieki",
+    "hr": "Kozmetičari/kozmetičarke, pedikeri/pedikerke i srodna zanimanja",
+    "it": "Estetisti ed assimilati",
+    "fr": "Esthéticiens et assimilés",
+    "hu": "Kozmetikusok és hasonló foglalkozásúak",
+    "es": "Especialistas en tratamientos de belleza y afines",
+    "et": "Kosmeetikud jms alade töötajad",
+    "cs": "Kosmetici a pracovníci v příbuzných oborech",
+    "sk": "Kozmetici a podobní pracovníci",
+    "sl": "Kozmetiki/kozmetičarke ipd.",
+    "pl": "Kosmetyczki i pokrewni",
+    "da": "Kosmetologarbejde og beslægtede funktioner",
+    "ro": "Cosmeticieni și asimilați",
+    "nl": "Schoonheidsspecialisten e.d."
+  },
+  "code": "5142",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5142"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5142"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Beauticians and related workers give facial and body beauty treatments, apply cosmetics and make-up and give other kinds of treatment to individuals in order to improve their appearance.\nTasks include -\n(a)  cleaning and applying creams, lotions and related products to face and other parts of the body;\n(b)  giving facial and body massage;\n(c)  applying make-up to clients of a beauty parlour or to actors and other performers; \n(d)  cleaning, shaping and polishing finger- and toenails and treating ailments of the human foot such as corns, calluses or deformed toenails;\n(e)  attending to clients taking baths and administering elementary massage;\n(f)  using waxing, sugaring and depilation techniques to remove unwanted bodily hair;\n(g)  advising clients on diet and exercise to assist in weight loss and slimming;\n(h)  arranging appointments and collecting payments.\nExamples of the occupations classified here:\n- Bath attendant\n- Beautician\n- Make-up artist\n- Manicurist\n- Pedicurist\n- Slimming consultant\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5142&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5142",
+      "title": "Beauticians and related workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C514&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C514",
+        "title": "Hairdressers, beauticians and related workers",
+        "code": "514"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/49713da4-4e97-4f82-bd1c-16ce7f9179b7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/49713da4-4e97-4f82-bd1c-16ce7f9179b7",
+        "title": "make-up artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bced9b86-d4e7-42f8-bb47-acb2001b9bd0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bced9b86-d4e7-42f8-bb47-acb2001b9bd0",
+        "title": "manicurist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/be375e11-9a70-47cb-8091-711c94ed0c13&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/be375e11-9a70-47cb-8091-711c94ed0c13",
+        "title": "tanning consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/489b9a38-89a2-425c-95b9-79cec66379e1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/489b9a38-89a2-425c-95b9-79cec66379e1",
+        "title": "pedicurist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2d5a50c6-0bf4-45c3-805c-44d1bf1e3d12&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2d5a50c6-0bf4-45c3-805c-44d1bf1e3d12",
+        "title": "spa attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/763f82c2-81e3-48d2-9cdf-f532b5016a1f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/763f82c2-81e3-48d2-9cdf-f532b5016a1f",
+        "title": "weight loss consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d5ce0c23-6f8a-459f-9bf9-a7cb9768740a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d5ce0c23-6f8a-459f-9bf9-a7cb9768740a",
+        "title": "personal stylist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/72413d91-f212-4ad6-bf95-8b78a37c041a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/72413d91-f212-4ad6-bf95-8b78a37c041a",
+        "title": "hair removal technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5dd01019-3999-4d90-bc8a-7a04b0b208b0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5dd01019-3999-4d90-bc8a-7a04b0b208b0",
+        "title": "make-up and hair designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d3fd0898-51f7-42a3-8f44-09408fc796f6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d3fd0898-51f7-42a3-8f44-09408fc796f6",
+        "title": "beauty salon attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1978c6ff-37b4-48f1-9aa6-88b9c568f74f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1978c6ff-37b4-48f1-9aa6-88b9c568f74f",
+        "title": "masseur/masseuse"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a1e1a788-2352-4172-8fcf-1f985a6968b0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a1e1a788-2352-4172-8fcf-1f985a6968b0",
+        "title": "aesthetician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

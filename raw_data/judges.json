@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2612",
+  "title": "Judges",
+  "preferredLabel": {
+    "de": "Richter",
+    "no": "Dommere",
+    "sv": "Domare",
+    "fi": "Tuomioistuinlakimiehet",
+    "pt": "Juízes e magistrados",
+    "bg": "Съдии",
+    "el": "Δικαστές",
+    "mt": "Imħallfin",
+    "lt": "Teisėjai",
+    "en": "Judges",
+    "lv": "Tiesneši",
+    "hr": "Suci/sutkinje",
+    "it": "Magistrati",
+    "fr": "Magistrats",
+    "hu": "Bírák",
+    "es": "Jueces",
+    "et": "Kohtunikud",
+    "cs": "Soudci a příbuzní pracovníci",
+    "sk": "Sudcovia",
+    "sl": "Sodniki, sodnice",
+    "pl": "Sędziowie",
+    "ro": "Magistrați",
+    "da": "Dommerarbejde",
+    "nl": "Rechters"
+  },
+  "code": "2612",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2612"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2612"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Judges preside over civil and criminal proceedings in courts of law.\nTasks include -\n(a)  presiding over trials and hearings;\n(b)  interpreting and enforcing rules of procedure and making rulings regarding the admissibility of evidence;\n(c)  determining the rights and obligations of the parties involved, and in cases tried by jury;\n(d)  instructing the jury on points of law that are applicable to the case;\n(e)  weighing and considering evidence in non-jury trials and deciding legal guilt or innocence or degree of liability of the accused or defendant;\n(f)  passing sentence on persons convicted in criminal cases, determining damages or other appropriate remedy in civil cases and issuing court orders;\n(g)  researching legal issues and writing opinions on the issues.\nExamples of the occupations classified here: \n- Chief justice\n- Judge\n- Magistrate\nSome related occupations classified elsewhere:\n- Court clerk - 3411\n- Justice of the peace - 3411\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2612&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2612",
+      "title": "Judges"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C261&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C261",
+        "title": "Legal professionals",
+        "code": "261"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f634ce9b-68a5-4a8a-af4a-ed13fc0deba9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f634ce9b-68a5-4a8a-af4a-ed13fc0deba9",
+        "title": "justice of the peace"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/07bd65d7-c13f-443a-bdf6-88903f3822be&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/07bd65d7-c13f-443a-bdf6-88903f3822be",
+        "title": "judge"
+      }
+    ]
+  },
+  "_embedded": {}
+}

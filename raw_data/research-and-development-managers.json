@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1223",
+  "title": "Research and development managers",
+  "preferredLabel": {
+    "no": "Forsknings- og utviklingsledere",
+    "de": "Führungskräfte in Forschung und Entwicklung",
+    "sv": "Forsknings- och utvecklingschefer",
+    "fi": "Tutkimus- ja kehitysjohtajat",
+    "pt": "Directores de investigação e desenvolvimento",
+    "bg": "Ръководители на звена за научноизследователска и развойна дейност",
+    "el": "Διευθυντές έρευνας και ανάπτυξης",
+    "mt": "Maniġers ta’ riċerka u żvilupp",
+    "lt": "Mokslinių tyrimų ir plėtros vadovai",
+    "en": "Research and development managers",
+    "hr": "Direktori/direktorice istraživanja i razvoja",
+    "lv": "Pētniecības un attīstības jomas vadītāji",
+    "it": "Dirigenti nel settore ricerca e sviluppo",
+    "fr": "Directeurs et cadres de direction, recherche-développement",
+    "hu": "Kutatási és fejlesztési vezetők",
+    "es": "Directores de investigación y desarrollo",
+    "et": "Uurimis- ja arendusjuhid",
+    "cs": "Vedoucí a řídící pracovníci v oblasti výzkumu a vývoje",
+    "sk": "Riadiaci pracovníci (manažéri) v oblasti výskumu a vývoja",
+    "sl": "Menedžerji/menedžerke za raziskave in razvoj",
+    "pl": "Kierownicy do spraw badań i rozwoju",
+    "ro": "Conducători în domeniul cercetării și dezvoltării",
+    "da": "Ledelse af kommerciel forskning og udvikling",
+    "nl": "Leidinggevende functies op het gebied van speur- en ontwikkelingswerk"
+  },
+  "code": "1223",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1223"
+    },
+    {
+      "datatype": "",
+      "value": "1223"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Research and development managers plan, direct and coordinate the research and development activities of an enterprise or organization or of enterprises that provide related services to other enterprises and organizations.\nTasks include -\n(a)   planning, directing and coordinating research and development activities, in-house or commissioned from external research organizations, to develop new or improved technical processes, products, knowledge, or utilization of materials;\n(b)   planning the overall research and development programme of an enterprise or organization, specifying goals and budgetary requirements;\n(c)   leading and managing the activities of research and development staff;\n(d)   establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(e)   establishing and directing operational and administrative procedures;\n(f)   planning and directing daily operations;\n(g)  overseeing the selection, training and performance of staff;\n(h)   representing the enterprise or organization at conventions, seminars and conferences.\nExamples of the occupations classified here:\n-  Product development manager\n-  Research manager\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1223&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1223",
+      "title": "Research and development managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C122&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C122",
+        "title": "Sales, marketing and development managers",
+        "code": "122"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/73ceb2f9-18e3-4cfe-9c06-e9fb31ece440&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/73ceb2f9-18e3-4cfe-9c06-e9fb31ece440",
+        "title": "research and development manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9f508305-80ce-4111-8722-f2c9b4a44890&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9f508305-80ce-4111-8722-f2c9b4a44890",
+        "title": "product manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

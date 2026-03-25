@@ -1,0 +1,83 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5162",
+  "title": "Companions and valets",
+  "preferredLabel": {
+    "de": "Gesellschafter und Zofen/Kammerdiener",
+    "sv": "Sällskapsdamer och betjänter",
+    "fi": "Henkilökohtaiset palvelijat",
+    "pt": "Pessoal de companhia e ajudantes de quarto",
+    "bg": "Компаньони и камериери",
+    "el": "Προσωπικοί συνοδοί και προσωπικοί υπηρέτες",
+    "mt": "Ħaddiema nvoluti fl-akkompanjament ta’ oħrajn (companions) u ħaddiema li jagħtu servizz billi jieħdu ħsieb l-oħrajn (valets)",
+    "lt": "Tarnai ir palydovai",
+    "en": "Companions and valets",
+    "hr": "Pratitelj/pratiteljice i posluga",
+    "lv": "Pavadoņi un sulaiņi",
+    "it": "Personale di compagnia e valletti",
+    "fr": "Personnel de compagnie et valets de chambre",
+    "hu": "Társalkodók és komornyikok",
+    "es": "Acompañantes y ayudantes de cámara",
+    "et": "Ajaviiteseltsilised ja teenrid",
+    "cs": "Společníci a osobní sluhové",
+    "sk": "Spoločníci a sluhovia (komorníci)",
+    "sl": "Osebni spremljevalci/osebne spremljevalke",
+    "pl": "Osoby do towarzystwa",
+    "ro": "Însoțitori și valeți",
+    "da": "Kammertjenerarbejde",
+    "nl": "Gezelschapspersonen en persoonlijke bedienden"
+  },
+  "code": "5162",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5162"
+    },
+    {
+      "datatype": "",
+      "value": "5162"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Companions and valets provide companionship and attend to various needs of the client or employer.\nTasks include -\n(a)  providing companionship to the employer by accompanying him/her to various places, reading, conversing and participating in activities such as sports;\n(b)  assisting in entertaining visitors in the employer’s home;\n(c)  keeping wardrobe and personal effects of the employer in good order.\nExamples of the occupations classified here:\n- Companion\n- Personal maid\n- Valet\nSome related occupations classified elsewhere:\n- Butler - 5152\n- Dancing partner - 5169\n- Social escort - 5169\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5162&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5162",
+      "title": "Companions and valets"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C516&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C516",
+        "title": "Other personal services workers",
+        "code": "516"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d5954a2b-a525-45b7-b6d9-b62efafc6c78&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d5954a2b-a525-45b7-b6d9-b62efafc6c78",
+        "title": "companion"
+      }
+    ]
+  },
+  "_embedded": {}
+}

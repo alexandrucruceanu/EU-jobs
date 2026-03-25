@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3123",
+  "title": "Construction supervisors",
+  "preferredLabel": {
+    "no": "Arbeidsleder",
+    "de": "Bauleiter",
+    "sv": "Arbetsledare inom bygg och anläggning",
+    "fi": "Rakennusalantyönjohtajat",
+    "pt": "Supervisores de construção",
+    "bg": "Приложни специалисти с контролни функции в строителството",
+    "mt": "Sorveljaturi tal-kostruzzjoni",
+    "el": "Επόπτες κατασκευαστικών μονάδων",
+    "lt": "Statybos darbų prižiūrėtojai",
+    "en": "Construction supervisors",
+    "hr": "Građevinski nadzornici/građevinske nadzornice",
+    "lv": "Būvniecības uzraugi",
+    "it": "Supervisori edili",
+    "fr": "Superviseurs, bâtiment",
+    "hu": "Építőipari irányítók",
+    "es": "Supervisores de la construcción",
+    "et": "Ehitusjärelevalveinspektorid",
+    "cs": "Mistři a příbuzní pracovníci ve stavebnictví",
+    "sk": "Vedúci pracovníci v stavebníctve (supervízori)",
+    "sl": "gradbeni nadzorniki/gradbene nadzornice",
+    "pl": "Mistrzowie produkcji w budownictwie",
+    "ro": "Controlori-supraveghetori în construcții",
+    "da": "Tilsynsarbejde inden for byggeri og anlæg",
+    "nl": "Toezichthoudend personeel in de bouwnijverheid"
+  },
+  "code": "3123",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3123"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3123"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Construction supervisors coordinate, supervise and schedule the activities of workers engaged in the construction and repair of buildings and structures.\nTasks include -\n(a)  reading specifications to determine construction requirements and planning procedures;\n(b)  organizing and coordinating the material and human resources required to complete jobs;\n(c)  examining and inspecting work progress;\n(d)  examining equipment and construction sites to ensure that health and safety requirements are met;\n(e)  supervising construction sites and coordinating work with other construction projects;\n(f)  supervising the activities of building trades workers, labourers and other construction workers.\nExamples of the occupations classified here:\n- Building construction supervisor\n- Site manager (construction)\nSome related occupations classified elsewhere:\n- Construction project manager - 1323\n- Project builder - 1323\n- Clerk of works - 3112\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3123&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3123",
+      "title": "Construction supervisors"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C312&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C312",
+        "title": "Mining, manufacturing and construction supervisors",
+        "code": "312"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0dd7e6cd-2e5a-4fae-9ce0-6a3622d4019f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0dd7e6cd-2e5a-4fae-9ce0-6a3622d4019f",
+        "title": "construction general supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e575efca-c3e4-43fe-8c46-327d310f795e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e575efca-c3e4-43fe-8c46-327d310f795e",
+        "title": "underwater construction supervisor"
+      }
+    ]
+  },
+  "_embedded": {}
+}

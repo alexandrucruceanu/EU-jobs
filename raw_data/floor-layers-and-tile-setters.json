@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7122",
+  "title": "Floor layers and tile setters",
+  "preferredLabel": {
+    "de": "Boden- und Fliesenleger",
+    "no": "Gulv- og flisleggere",
+    "sv": "Golvläggare",
+    "fi": "Lattianpäällystystyöntekijät",
+    "pt": "Assentadores de revestimentos e ladrilhadores",
+    "bg": "Работници по поставяне на подови настилки и облицовки",
+    "mt": "Ħaddiema involuti fit-tqegħid tal-art u dawk li jqiegħdu l-madum",
+    "el": "Επιστρωτές δαπέδων και επενδυτές τοίχου",
+    "lt": "Grindų ir plytelių klojėjai",
+    "en": "Floor layers and tile setters",
+    "hr": "Podopolagači/podopolagačice i srodna zanimanja",
+    "lv": "Grīdu seguma klājēji un flīzētāji",
+    "it": "Pavimentatori e posatori di rivestimenti",
+    "fr": "Poseurs de revêtements de sol et carreleurs",
+    "hu": "Burkolók",
+    "es": "Parqueteros y colocadores de suelos",
+    "et": "Põrandategijad ja plaatijad",
+    "cs": "Podlaháři a obkladači",
+    "sk": "Podlahári a obkladači",
+    "sl": "Polagalci/polagalke podov ipd.",
+    "pl": "Posadzkarze i glazurnicy",
+    "da": "Arbejde med gulv- og klinkelægning",
+    "ro": "Parchetari, linoliști, mozaicari și faianțari",
+    "nl": "Vloerleggers en tegelzetters"
+  },
+  "code": "7122",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7122"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7122"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Floor layers and tile setters install, maintain and repair flooring, and cover floors, walls and other surfaces with carpets, tiles or mosaic panels for decorative or other purposes.\nTasks include -\n(a)  preparing floor areas for covering with a variety of materials;\n(b)  assembling carpet, tiles or other materials and laying them on floors according to design and other specifications;\n(c)  preparing wall areas for covering with tiles or other materials for decorative or other purposes such as acoustic insulation;\n(d)  setting tiles and constructing and laying mosaic panels to walls, floors and other surfaces.\nExamples of the occupations classified here:\n- Carpet layer\n- Marble setter\n- Parquetry worker\n- Tile setter\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7122&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7122",
+      "title": "Floor layers and tile setters"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C712&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C712",
+        "title": "Building finishers and related trades workers",
+        "code": "712"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/02447817-ea01-4d8b-b09c-8bc128e447e6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/02447817-ea01-4d8b-b09c-8bc128e447e6",
+        "title": "tile fitter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e43d0f86-7abf-4c6e-b2b3-10970ddf6518&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e43d0f86-7abf-4c6e-b2b3-10970ddf6518",
+        "title": "carpet fitter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0663d464-f139-4554-ae87-97aa6c4dad77&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0663d464-f139-4554-ae87-97aa6c4dad77",
+        "title": "resilient floor layer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4f1bb8b4-3fff-4e68-b427-8c892534a181&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4f1bb8b4-3fff-4e68-b427-8c892534a181",
+        "title": "hardwood floor layer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

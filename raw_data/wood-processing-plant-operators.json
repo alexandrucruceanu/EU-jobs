@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8172",
+  "title": "Wood processing plant operators",
+  "preferredLabel": {
+    "no": "Operatører innen trelastproduksjon",
+    "de": "Bediener von Anlagen zur Holzaufbereitung",
+    "fi": "Puu- ja sahatavaran prosessityöntekijät",
+    "sv": "Sågverksoperatörer",
+    "pt": "Operadores de instalações para trabalhar madeiras",
+    "bg": "Машинни оператори в дървообработващата промишленост",
+    "el": "Χειριστές εγκαταστάσεων επεξεργασίας ξύλου",
+    "mt": "Operaturi ta’ impjanti tal-ipproċessar tal-injam",
+    "lt": "Medienos apdirbimo įrenginių operatoriai",
+    "en": "Wood processing plant operators",
+    "hr": "Rukovatelji/rukovateljice postrojenjima i strojevima za preradu drva",
+    "lv": "Koksnes apstrādes iekārtu operatori",
+    "it": "Conduttori di impianti per la trasformazione del legno",
+    "fr": "Conducteurs d’installations pour le travail du bois",
+    "hu": "Fafeldolgozó berendezések kezelői",
+    "es": "Operadores de instalaciones de procesamiento de la madera",
+    "et": "Puidutöötlemisseadmete operaatorid",
+    "cs": "Obsluha strojů a zařízení na zpracování dřeva",
+    "sk": "Operátori zariadení na spracovanie dreva",
+    "sl": "Upravljavci/upravljavke strojev za predelavo lesa",
+    "pl": "Operatorzy maszyn i urządzeń do obróbki drewna",
+    "ro": "Operatori la instalațiile de prelucrare a lemnului",
+    "da": "Operatørarbejde ved træforarbejdning",
+    "nl": "Bedieningspersoneel van installaties voor de houtbewerking"
+  },
+  "code": "8172",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8172"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8172"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Wood processing plant operators monitor, operate and control lumber mill equipment for sawing timber logs into rough lumber, cutting veneer, making plywood and particle board, and otherwise preparing wood for further use.\nTasks include -\n(a)  examining logs and rough lumber to determine size, condition, quality and other characteristics to decide best lumber cuts to carry out, or operating automated equipment to convey logs through laser scanners which determine the most productive and profitable cutting patterns;\n(b)  operating and monitoring log in-feed and conveyor systems;\n(c)  operating and monitoring head saws, resaws and multiblade saws to saw logs, cants, flitches, slabs or wings and remove rough edges from sawn timber into dressed lumber of various sizes, and to saw or split shingles and shakes; \n(d)  operating and monitoring plywood core-laying machines and hot-plate plywood presses and machines which cut veneer;\n(e)  cleaning and lubricating sawmill equipment.\nExamples of the occupations classified here:\n- Circular saw operator\n- Log cut-off operator\n- Plywood press-operator\n- Sawmill operator\n- Sawmill planer operator \n- Sawmill trimmer operator \n- Wood processing plant sawyer\n- Veneer lathe operator\nSome related occupations classified elsewhere:\n- Timber treating tank operator - 7521\n- Veneer dryer tender - 7521\n- Wood working machine operator - 7523\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8172&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8172",
+      "title": "Wood processing plant operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C817&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C817",
+        "title": "Wood processing and papermaking plant operators",
+        "code": "817"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c0eb9240-4f70-4393-bdf0-723ce7fdbd36&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c0eb9240-4f70-4393-bdf0-723ce7fdbd36",
+        "title": "engineered wood board machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bd378c4e-f656-46af-a728-fcfb40b113ef&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bd378c4e-f656-46af-a728-fcfb40b113ef",
+        "title": "crosscut saw operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/976c739f-fec7-45c2-b12e-e1b496aa816b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/976c739f-fec7-45c2-b12e-e1b496aa816b",
+        "title": "chipper operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/865adac9-9bb7-4680-a13d-62b2942974ac&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/865adac9-9bb7-4680-a13d-62b2942974ac",
+        "title": "sawmill operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5e5522c5-4b09-4586-a8f0-3b6d66d99969&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5e5522c5-4b09-4586-a8f0-3b6d66d99969",
+        "title": "debarker operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7109cdfd-1618-43b6-8317-8dc90fa583e6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7109cdfd-1618-43b6-8317-8dc90fa583e6",
+        "title": "wood fuel pelletiser"
+      }
+    ]
+  },
+  "_embedded": {}
+}

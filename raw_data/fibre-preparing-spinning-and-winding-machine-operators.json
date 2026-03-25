@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8151",
+  "title": "Fibre preparing, spinning and winding machine operators",
+  "preferredLabel": {
+    "no": "Spinne- og nøstemaskinoperatører",
+    "de": "Bediener von Spinnstoffaufbereitungs-, Spinn- und Spulmaschinen",
+    "sv": "Maskinoperatörer, garnberedning",
+    "fi": "Kuitujenkäsittely-, kehruu- ja puolauskoneiden hoitajat",
+    "pt": "Operadores de máquinas para preparar, fiar, torcer e bobinar fibras têxteis",
+    "bg": "Машинни оператори в предачното производство",
+    "el": "Χειριστές μηχανών προπαρασκευής ινών, κλωστικών μηχανών και στριπτηρίων",
+    "mt": "Operaturi tal-magni li jippreparaw, idawwru u jdommu l-fibra",
+    "lt": "Pluošto ruošimo, verpimo ir vijimo mašinų operatoriai",
+    "en": "Fibre preparing, spinning and winding machine operators",
+    "lv": "Dzijas sagatavošanas, vērpšanas un šķeterēšanas mašīnu operatori",
+    "hr": "Rukovatelji/rukovateljice strojevima za predenje, sukanje i premotavanje",
+    "it": "Conduttori di macchinari per preparare le fibre, per la filatura e la bobinatura",
+    "fr": "Conducteurs de machines à préparer les fibres, à filer et à bobiner",
+    "hu": "Fonalelőkészítő, -fonó és -sodró gépek kezelői",
+    "es": "Operadores de máquinas de preparación de fibras, hilado y devanado",
+    "et": "Ettevalmistus-, ketrus- ja poolimismasinate operaatorid",
+    "cs": "Obsluha strojů na úpravu vláken, dopřádání a navíjení příze a nití",
+    "sk": "Operátori strojov na výrobu vlákien a pradiarenských výrobkov",
+    "sl": "Upravljavci/upravljavke strojev za predenje, previjanje ipd.",
+    "pl": "Operatorzy maszyn do przygotowania włókien, przewijarek i skręcarek nitek",
+    "da": "Operatørarbejde ved forarbejdning af materialer i fiber og tekstil",
+    "ro": "Operatori la mașini și utilaje de filatură",
+    "nl": "Bedieningspersoneel van machines voor het bereiden van spinvezels, het spinnen en het opwinden"
+  },
+  "code": "8151",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8151"
+    },
+    {
+      "datatype": "",
+      "value": "8151"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Fibre preparing, spinning and winding machine operators monitor and operate machines which prepare fibres, and spin, double, twist and wind yarn and thread from natural textile fibres. They twist two or more strands of yarn to prepare single stronger, smoother, uniform and heavier strands, and treat textiles to make them stiff and water resistant.\nTasks include -\n(a)  operating and monitoring  machines for tearing woollen rags into fibre;\n(b)  operating and monitoring machines for cleaning and turning woollen yarn waste into fluffed wool;\n(c)  operating and monitoring machines which combine textile fibres into uniform blends;\n(d)  operating and monitoring machines which clean and fluff textile fibres,  transform them into sliver, comb them into sliver for first drawing, combine slivers into sliver lap or sliver laps into ribbon lap;\n(e)  operating draw frames (machines) having numbers of drawing sets, each set combining several slivers into one of nearly the same weight and thickness as any of the original slivers;\n(f)  operating and monitoring machines which spin thread and yarn from roving, wind two or more threads onto a bobbin, twist two or more strands of yarn or thread into single strands of yarn to increase strength, smoothness and/or uniformity of yarn, or wind yarn or thread from one package to another;\n(g)  operating and monitoring spinning frames that draw out and twist roving or sliver into yarn;\n(h)  operating and monitoring  machines for drawing slivers received from drawing machines into loosely twisted strands;\n(i)  preparing sizing for use in stiffening and finishing cloth and yarn by mixing ingredients such as starch, tallow, resins and soaps with water and boiling mixture for specified times in steam;\n(j)  treating textiles with chemicals to make them water resistant;\n(k)  cleaning rollers and cylinders of carding machines to remove wool waste; \n(l)  operating and resurfacing metal drawing rolls of various spinning, combing and lapping machines with new rubber or leather covers.\nExamples of the occupations classified here:\n- Fibre combing machine operator\n- Fibre preparing machine operator\n- Thread and yarn spinning machine operator\n- Thread and yarn twisting machine operator\n- Thread and yarn winding machine operator\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8151&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8151",
+      "title": "Fibre preparing, spinning and winding machine operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C815&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C815",
+        "title": "Textile, fur and leather products machine operators",
+        "code": "815"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/06461fc3-1274-40a1-9322-dfc2753f5eea&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/06461fc3-1274-40a1-9322-dfc2753f5eea",
+        "title": "spinning textile technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/59bbece0-d1dc-4f4a-845e-1523f68afb2d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/59bbece0-d1dc-4f4a-845e-1523f68afb2d",
+        "title": "spinning machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4c86c7c1-0839-456e-856f-65396d1f39d7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4c86c7c1-0839-456e-856f-65396d1f39d7",
+        "title": "winding machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d87b1c64-eed1-404c-87de-f9f81c85fbde&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d87b1c64-eed1-404c-87de-f9f81c85fbde",
+        "title": "cotton gin operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

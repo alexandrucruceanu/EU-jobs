@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2656",
+  "title": "Announcers on radio, television and other media",
+  "preferredLabel": {
+    "no": "Programledere i TV og radio",
+    "de": "Sprecher im Rundfunk, Fernsehen und sonstigen Medien",
+    "sv": "Presentatörer inom radio, tv och andra media",
+    "fi": "Juontajat, kuuluttajat ym.",
+    "pt": "Locutores e apresentadores de rádio, televisão e outros meios de comunicação",
+    "bg": "Радио-, телевизионни и други говорители",
+    "el": "Παρουσιαστές ραδιοφώνου, τηλεόρασης και άλλων μέσων μαζικής επικοινωνίας",
+    "mt": "Ħabbara fuq ir-radju, televiżjoni u midja oħra",
+    "lt": "Radijo, televizijos ir kitų informacijos sklaidos priemonių diktoriai",
+    "en": "Announcers on radio, television and other media",
+    "hr": "Spikeri/spikerice na radiju, televiziji i u drugim medijima",
+    "lv": "Radio, televīzijas un citu mediju diktori",
+    "it": "Annunciatori della radio e della televisione e di altri media",
+    "fr": "Annonceurs-présentateurs de radio, de télévision et autres médias",
+    "hu": "Rádió-, televízió- és egyéb médiabemondók",
+    "es": "Locutores de radio, televisión y otros medios de comunicación",
+    "et": "Raadio-, televisiooni- jms diktorid",
+    "cs": "Moderátoři v rozhlasu a televizi a ostatní moderátoři",
+    "sk": "Moderátori a hlásatelia v rozhlase, televízii a v ostatných médiách",
+    "sl": "Napovedovalci/napovedovalke na radiu, televiziji in drugih medijih",
+    "pl": "Prezenterzy radiowi, telewizyjni i pokrewni",
+    "ro": "Crainici la radio, televiziune și alte mijloace de comunicare",
+    "da": "Speakerarbejde på radio, tv og andre medier",
+    "nl": "Omroepers voor radio, televisie en andere media"
+  },
+  "code": "2656",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2656"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2656"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Announcers on radio, television and other media read news bulletins, conduct interviews, and make other announcements or introductions on radio, television, and in theatres and other establishments or media.\nTasks include -\n(a)  reading news bulletins and making other announcements on radio or television;\n(b)  introducing performing artists or persons being interviewed, and making related announcements on radio, television, or in theatres, night clubs and other establishments;\n(c)  interviewing persons in public, especially on radio and television;\n(d)  studying background information in order to prepare for programmes or interviews;\n(e)  commenting on music and other matters, such as weather or traffic conditions.\nExamples of the occupations classified here:\n- Radio announcer\n- Television announcer\n- News anchor\n- Sports announcer\n- Talk show host/hostess\n- Traffic reporter\n- Weather reporter\nSome related occupations classified elsewhere:\n- Journalist - 2642\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2656&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2656",
+      "title": "Announcers on radio, television and other media"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C265&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C265",
+        "title": "Creative and performing artists",
+        "code": "265"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/09a9a956-db70-436f-8398-d85a17f6cdfe&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/09a9a956-db70-436f-8398-d85a17f6cdfe",
+        "title": "presenter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/83e45d86-1bce-45c5-ba8b-097738f9f28b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/83e45d86-1bce-45c5-ba8b-097738f9f28b",
+        "title": "news anchor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0dce2f9b-eda5-4dc4-ba74-36eeed8c9a44&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0dce2f9b-eda5-4dc4-ba74-36eeed8c9a44",
+        "title": "audio describer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

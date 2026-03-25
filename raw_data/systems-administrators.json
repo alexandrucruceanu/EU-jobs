@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2522",
+  "title": "Systems administrators",
+  "preferredLabel": {
+    "de": "Systemadministratoren",
+    "no": "Systemadministratorer",
+    "fi": "Tietojärjestelmien ylläpitäjät",
+    "sv": "Systemadministratörer",
+    "pt": "Administradores de sistemas",
+    "bg": "Системни администратори",
+    "mt": "Amministraturi tas-sistemi",
+    "el": "Διαχειριστές συστημάτων",
+    "lt": "Sistemų administratoriai",
+    "en": "Systems administrators",
+    "lv": "Sistēmu administratori",
+    "hr": "Administratori sustava/administratorice sustava",
+    "it": "Amministratori di sistema",
+    "fr": "Administrateurs de systèmes",
+    "hu": "Rendszergazdák",
+    "es": "Administradores de sistemas",
+    "et": "Süsteemiadministraatorid",
+    "cs": "Systémoví administrátoři (správci systémů)",
+    "sk": "Správcovia systémov",
+    "sl": "Sistemski upravljavci/sistemske upravljavke",
+    "pl": "Administratorzy systemów",
+    "ro": "Administratori de sistem",
+    "da": "Systemadministration",
+    "nl": "Systeembeheerders"
+  },
+  "code": "2522",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2522"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2522"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Systems administrators develop, control, maintain and support the optimal performance and security of information technology systems.\nTasks include -\n(a)  maintaining and administering computer networks and related computing environments, including computer hardware, systems software, applications software and all configurations;\n(b)  recommending changes to improve systems and network configurations, and determining hardware or software requirements related to such changes;\n(c)  diagnosing hardware and software problems;\n(d)  performing data backups and disaster recovery operations;\n(e)  operating master consoles to monitor the performance of computer systems and networks, and to coordinate computer network access and use.\nExamples of the occupations classified here:\n- Network administrator\n- Systems administrator (computers)\nSome related occupations classified elsewhere:\n- Database administrator - 2521\n- Network analyst - 2523\n- Webmaster - 3514\n- Website administrator -  3514\n- Website technician - 3514\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2522&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2522",
+      "title": "Systems administrators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C252&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C252",
+        "title": "Database and network professionals",
+        "code": "252"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9e2e6e1e-363b-4e1b-a673-7bc0f7343300",
+        "title": "ICT system administrator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

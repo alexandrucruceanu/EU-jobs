@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3332",
+  "title": "Conference and event planners",
+  "preferredLabel": {
+    "de": "Konferenz- und Veranstaltungsplaner",
+    "no": "Konferanse- og arrangementsplanleggere mv.",
+    "sv": "Konferens- och evenemangsplanerare",
+    "fi": "Konferenssi- ja tapahtumajärjestäjät",
+    "pt": "Organizadores de conferências e eventos",
+    "bg": "Организатори на конференции и събития",
+    "el": "Διοργανωτές συνεδρίων και εκδηλώσεων",
+    "mt": "Organizzaturi ta’ konferenzi u attivitajiet",
+    "lt": "Konferencijų ir renginių planuotojai",
+    "en": "Conference and event planners",
+    "lv": "Konferenču un pasākumu organizatori",
+    "hr": "Organizatori/organizatorice konferencija i događaja",
+    "it": "Organizzatori di conferenze e di eventi",
+    "fr": "Organisateurs de conférences et d’événements",
+    "hu": "Konferencia- és rendezvényszervezők",
+    "es": "Organizadores de conferencias y eventos",
+    "et": "Konverentside ja ürituste korraldajad",
+    "cs": "Organizátoři konferencí a událostí",
+    "sk": "Organizátori konferencií a spoločenských podujatí",
+    "sl": "Organizatorji/organizatorke konferenc in dogodkov",
+    "pl": "Organizatorzy konferencji i imprez zbiorowych",
+    "da": "Konference- og eventplanlægning",
+    "ro": "Organizatori de conferințe și evenimente",
+    "nl": "Organisatoren van conferenties en evenementen"
+  },
+  "code": "3332",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3332"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3332"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Conference and event planners organize and coordinate services for conferences, events, functions, banquets and seminars.\nTasks include -\n(a)  promoting conferences, conventions and trade shows to potential customers; \n(b)  responding to inquiries concerning services provided and costs for room and equipment hire, catering and related services; \n(c)  meeting with clients to discuss their needs and outlining package options to meet these needs; \n(d)  arranging and coordinating services such as conference facilities, catering, signage, displays, audiovisual and computer equipment, accommodation, transport and social events for participants, and logistical arrangements for presenters; \n(e)  organizing registration of participants; \n(f)  negotiating the type and costs of services to be provided within budget;\n(g)  overseeing work by contractors and reporting on variations to work orders.\nExamples of the occupations classified here:\n- Conference and event organizer\n- Conference planner \n- Wedding planner\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3332&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3332",
+      "title": "Conference and event planners"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C333&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C333",
+        "title": "Business services agents",
+        "code": "333"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/84931290-ad27-45ad-b611-9556c5facbdb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/84931290-ad27-45ad-b611-9556c5facbdb",
+        "title": "event assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1b38a27d-ef98-4d9f-b1b2-8c109bf47e79&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1b38a27d-ef98-4d9f-b1b2-8c109bf47e79",
+        "title": "event manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

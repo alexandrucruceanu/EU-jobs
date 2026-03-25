@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5413",
+  "title": "Prison guards",
+  "preferredLabel": {
+    "de": "Gefängnisaufseher",
+    "no": "Fengselsbetjenter",
+    "sv": "Kriminalvårdare",
+    "fi": "Vanginvartijat",
+    "pt": "Guardas dos serviços prisionais",
+    "bg": "Затворнически надзиратели",
+    "el": "Δεσμοφύλακες",
+    "mt": "Gwardjani tal-ħabs",
+    "lt": "Įkalinimo įstaigų sargybiniai",
+    "en": "Prison guards",
+    "hr": "Zatvorski policajci/zatvorske policajke",
+    "lv": "Cietumsargi",
+    "it": "Agenti di custodia carceraria",
+    "fr": "Gardiens de prison",
+    "hu": "Börtönőrök",
+    "es": "Guardianes de prisión",
+    "et": "Vangivalvurid",
+    "cs": "Dozorci ve věznicích",
+    "sk": "Väzenskí dozorcovia",
+    "sl": "Pazniki/paznice v zaporu",
+    "pl": "Strażnicy więzienni",
+    "ro": "Agenți de penitenciare",
+    "da": "Fængselsbetjentarbejde",
+    "nl": "Gevangenbewaarders"
+  },
+  "code": "5413",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5413"
+    },
+    {
+      "datatype": "",
+      "value": "5413"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Prison guards watch over and maintain order among inmates of prisons, reformatories or penitentiaries.\nTasks include -\n(a)  searching arriving prisoners, putting their valuables in safekeeping, escorting prisoners to cells and locking them in;\n(b)  making periodic inspection tours of cells and inspecting and maintaining the security of locks, windows, doors and gates;\n(c)  supervising prisoners at work and meals, and during recreation periods;\n(d)  observing the conduct and behaviour of prisoners to prevent disturbances and escapes;\n(e)  patrolling prison areas to prevent escapes;\n(f)  assisting with the implementation of rehabilitation programmes;\n(g)  escorting prisoners in transit and during temporary leave. \nExamples of the occupations classified here:\n- Prison guard\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5413&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5413",
+      "title": "Prison guards"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C541&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C541",
+        "title": "Protective services workers",
+        "code": "541"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3327a087-cd36-4b02-ac1b-6455f59f9312&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3327a087-cd36-4b02-ac1b-6455f59f9312",
+        "title": "prison officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6e36bf67-9df2-4d68-8f78-fca1d34acc0b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6e36bf67-9df2-4d68-8f78-fca1d34acc0b",
+        "title": "juvenile correctional officer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

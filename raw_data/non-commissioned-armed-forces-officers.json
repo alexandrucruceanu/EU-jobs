@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C0210",
+  "title": "Non-commissioned armed forces officers",
+  "preferredLabel": {
+    "de": "Unteroffiziere in regulären Streitkräften",
+    "no": "Befal med sersjant grad",
+    "fi": "Aliupseerit",
+    "sv": "Specialistofficerare",
+    "pt": "Graduados não oficiais das forças armadas",
+    "bg": "Подофицери във въоръжените сили",
+    "mt": "Uffiċjali mhux ikkummissjonati tal-forzi armati",
+    "el": "Υπαξιωματικοί των ενόπλων δυνάμεων",
+    "lt": "Ginkluotųjų pajėgų puskarininkiai",
+    "en": "Non-commissioned armed forces officers",
+    "hr": "Dočasnici/dočasnice",
+    "lv": "Apakšvirsnieka pakāpes armijas profesijas",
+    "it": "Sottufficiali delle forze armate",
+    "fr": "Sous-officiers des forces armées",
+    "hu": "Fegyveres erők tiszthelyettesei",
+    "es": "Suboficiales de las fuerzas armadas",
+    "et": "Kaitseväe allohvitserid",
+    "cs": "Poddůstojníci v ozbrojených silách",
+    "sk": "Poddôstojníci ozbrojených síl",
+    "sl": "Podčastniki/podčastnice",
+    "pl": "Podoficerowie",
+    "da": "Militært arbejde på befalingsmandsniveau (underofficersarbejde)",
+    "ro": "Subofițeri de armată",
+    "nl": "Onderofficieren"
+  },
+  "code": "0210",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "0210"
+    },
+    {
+      "datatype": "",
+      "value": "0210"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Non-commissioned armed forces officers enforce military discipline and supervise the activities of those employed in Sub-major Group 0310: Armed Forces Occupations, Other Ranks, and/or perform similar tasks to those performed in a variety of civilian occupations outside the armed forces. This group includes members of the armed forces holding ranks such as sergeant, warrant officer and sergeant major.\nExamples of the occupations classified here:\n- Boatswain (navy)\n- Flight sergeant\n- Sergeant (army)\n- Sergeant major\n- Warrant officer\nExcluded from this group are: \n -  jobs held by persons in civilian employment of government establishments concerned with defence issues;\n -  police (other than military police);\n -  customs inspectors and members of border or other armed civilian services.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C0210&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C0210",
+      "title": "Non-commissioned armed forces officers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C021&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C021",
+        "title": "Non-commissioned armed forces officers",
+        "code": "021"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cb3b2662-774a-4e6f-841e-f120244d7031&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cb3b2662-774a-4e6f-841e-f120244d7031",
+        "title": "sergeant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1de91afd-9da2-47ab-a7e7-19bf931709a4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1de91afd-9da2-47ab-a7e7-19bf931709a4",
+        "title": "special forces officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4a3f40a8-0587-494c-b8d3-7098b8c5992f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4a3f40a8-0587-494c-b8d3-7098b8c5992f",
+        "title": "army corporal"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/86c892cf-09a3-44c8-b9d1-814d93dbcbb4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/86c892cf-09a3-44c8-b9d1-814d93dbcbb4",
+        "title": "warfare specialist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

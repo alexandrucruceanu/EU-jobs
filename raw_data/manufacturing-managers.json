@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1321",
+  "title": "Manufacturing managers",
+  "preferredLabel": {
+    "no": "Ledere av industriproduksjon mv.",
+    "de": "Führungskräfte in der Produktion bei der Herstellung von Waren",
+    "fi": "Teollisuuden tuotantojohtajat",
+    "sv": "Chefer inom tillverkning",
+    "pt": "Directores das indústrias transformadoras",
+    "bg": "Ръководители в преработващата промишленост",
+    "mt": "Maniġers tal-manifattura",
+    "el": "Διευθυντές επιχειρήσεων μεταποίησης",
+    "lt": "Gamybos vadovai",
+    "en": "Manufacturing managers",
+    "hr": "Direktori/direktorice proizvodnje u prerađivačkoj industriji",
+    "lv": "Vadītāji apstrādes rūpniecībā",
+    "it": "Dirigenti dell’industria manifatturiera",
+    "fr": "Directeurs et cadres de direction, industrie manufacturière",
+    "hu": "Feldolgozóipari vezetők",
+    "es": "Directores de industrias manufactureras",
+    "et": "Põhitegevuse juhid tööstuses",
+    "cs": "Vedoucí a řídící pracovníci v průmyslové výrobě",
+    "sk": "Riadiaci pracovníci (manažéri) v priemyselnej výrobe",
+    "sl": "Menedžerji/menedžerke proizvodnje v predelovalnih dejavnostih",
+    "pl": "Kierownicy w przemyśle przetwórczym",
+    "da": "Ledelse af hovedaktiviteten inden for fremstillingsvirksomhed (undtagen landbrug, skovbrug og fiskeri)",
+    "ro": "Conducători de unități din industria prelucrătoare",
+    "nl": "Leidinggevende functies in de industrie"
+  },
+  "code": "1321",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1321"
+    },
+    {
+      "datatype": "",
+      "value": "1321"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Manufacturing managers plan, direct and coordinate activities concerned with the production of goods, the production and distribution of electricity, gas and water, and the collection, treatment and disposal of waste.  They may manage the production departments of large enterprises or be the managers of small manufacturing companies. \nTasks include -\n(a)  determining, implementing and monitoring production strategies, policies and plans; \n(b)  planning details of production activities in terms of output quality and quantity, cost, time available and labour requirements;\n(c)  controlling the operation of production plant and quality procedures through planning of maintenance, designation of operating hours and supply of parts and tools;\n(d)  establishing and managing budgets, monitoring production output and costs, and adjusting processes and resources to minimize costs;\n(e)  consulting with and informing other managers about production matters;\n(f)  overseeing the acquisition and installation of new plant and equipment; \n(g)  controlling the preparation of production records and reports;\n(h)  coordinating the implementation of occupational health and safety requirements;\n(i)   identifying business opportunities and determining products to be manufactured;\n(j)   researching and implementing regulatory and statutory requirements affecting manufacturing operations and the environment;\n(k)  overseeing the provision of quotations for the manufacture of specialized goods and establishing contracts with customers and suppliers;\n(l)  overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n-  Manufacturer\n-  Manufacturing manager\n-  Production and operations manager (manufacturing)\nSome related occupations classified elsewhere:\n-  Production supervisor (manufacturing) - 3122\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1321&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1321",
+      "title": "Manufacturing managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C132&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C132",
+        "title": "Manufacturing, mining, construction, and distribution managers",
+        "code": "132"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6426ada1-4d8c-4612-99e3-91bc569805ee&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6426ada1-4d8c-4612-99e3-91bc569805ee",
+        "title": "manufacturing manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

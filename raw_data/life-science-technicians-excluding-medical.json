@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3141",
+  "title": "Life science technicians (excluding medical)",
+  "preferredLabel": {
+    "de": "Biotechniker (ohne medizinische Fachberufe)",
+    "no": "Bioteknikere (ikke-medisinske laboratorier)",
+    "fi": "Laborantit ym.",
+    "sv": "Biologtekniker m.fl.",
+    "pt": "Técnicos das ciências da vida (excluindo medicina)",
+    "bg": "Природонаучни техници (без медицинските)",
+    "el": "Τεχνικοί των επιστημών της ζωής (εξαιρουμένων των ιατρικών)",
+    "mt": "Tekniċi tax-xjenza tal-ħajja (eskluża dik medika)",
+    "lt": "Gyvosios gamtos mokslų technikai (išskyrus medicinos)",
+    "en": "Life science technicians (excluding medical)",
+    "hr": "Laboratorijski tehničari/laboratorijske tehničarke u biomedicini, biologiji, farmakologiji (osim medicinsko-laboratorijskih tehničara)",
+    "lv": "Dzīvās dabas zinātņu speciālisti (izņemot medicīnu)",
+    "it": "Tecnici nelle scienze della vita (ad eccezione delle scienze mediche)",
+    "fr": "Techniciens des sciences de la vie (à l’exception de la médecine)",
+    "hu": "Élettani tudományok technikusai (kivéve az orvostudományt)",
+    "es": "Técnicos en ciencias biológicas (excluyendo la medicina)",
+    "et": "Biotehnikud (v.a meditsiini alal töötavad tehnikud)",
+    "cs": "Technici v biologických oborech (kromě zdravotnických)",
+    "sk": "Technici v oblasti biologických vied (okrem medicíny)",
+    "sl": "Laboratorijski tehniki/laboratorijske tehnice v biomedicini, biologiji, farmakologiji (razen v zdravstvu)",
+    "pl": "Technicy nauk biologicznych (z wyłączeniem nauk medycznych)",
+    "ro": "Tehnicieni în științele vieții (exclusiv cei din medicină)",
+    "da": "Teknikerarbejde inden for biovidenskab (undtagen medicinsk område)",
+    "nl": "Technici op het gebied van de biowetenschappen (m.u.v. medisch)"
+  },
+  "code": "3141",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3141"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3141"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Life science technicians (excluding medical) provide technical support to life science professionals undertaking research, analysis and testing of living organisms, and development and application of products and processes resulting from research in areas such as natural resource management, environmental protection, plant and animal biology, microbiology, and cell and molecular biology.\nTasks include -\n(a) assisting in designing, setting up and conducting experiments;\n(b) setting up, calibrating, operating and maintaining laboratory instruments and equipment;\n(c) collecting and preparing specimens and samples, chemical solutions and slides and growing cultures for use in experiments;\n(d) performing routine field and laboratory tests;\n(e) monitoring experiments to ensure adherence to correct laboratory quality control procedures and health and safety guidelines;\n(f) making observations of tests and analysing, calculating, recording and reporting test results using appropriate scientific methods;\n(g) preserving, classifying and cataloguing specimens and samples;\n(h) keeping detailed logs of worked performed;\n (i) using computers to develop models and analyse data;\n (j) using complex and high-powered equipment to perform work;\n (k) participating in the research, development and manufacture of products and processes;\n (l)  ordering and stocking laboratory supplies;\n (m) maintaining relevant databases.\nExamples of the occupations classified here:\n- Bacteriology technician\n- Biochemistry technician\n- Herbarium technician\n- Pharmacology technician\n- Serology technician\n- Tissue culture technician\n- Zoology technician\nSome related occupations classified elsewhere:\n- Forensic science technician - 3119\n- Medical laboratory technician - 3212\n- Pathology laboratory technician - 3212\n- Pharmaceutical technician - 3213\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3141&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3141",
+      "title": "Life science technicians (excluding medical)"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C314&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C314",
+        "title": "Life science technicians and related associate professionals",
+        "code": "314"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0da75680-fbf9-44d8-802a-ac12eb425a34&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0da75680-fbf9-44d8-802a-ac12eb425a34",
+        "title": "biotechnical technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4fef1907-cf82-413b-841a-02ef57e299a6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4fef1907-cf82-413b-841a-02ef57e299a6",
+        "title": "scientific laboratory technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

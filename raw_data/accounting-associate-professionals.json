@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3313",
+  "title": "Accounting associate professionals",
+  "preferredLabel": {
+    "de": "Nicht akademische Fachkräfte im Rechnungswesen",
+    "no": "Regnskapsførere",
+    "sv": "Redovisningsekonomer m.fl.",
+    "fi": "Kirjanpidon ja laskentatoimen asiantuntijat",
+    "pt": "Técnicos de contabilidade",
+    "bg": "Оперативни счетоводители",
+    "mt": "Professjonisti assoċjati tal-kontabilità",
+    "el": "Βοηθοί λογιστών",
+    "lt": "Jaunesnieji apskaitos specialistai",
+    "en": "Accounting associate professionals",
+    "hr": "Ekonomisti/ekonomistice i voditelji/voditeljice dijelova računovodstva",
+    "lv": "Grāmatvedības speciālisti",
+    "it": "Contabili (livello intermedio)",
+    "fr": "Professions intermédiaires de la comptabilité",
+    "hu": "Számviteli foglalkozásúak",
+    "es": "Tenedores de libros",
+    "et": "Raamatupidamise abispetsialistid",
+    "cs": "Odborní pracovníci v oblasti účetnictví a ekonomiky",
+    "sk": "Odborní pracovníci v oblasti účtovníctva",
+    "sl": "Knjigovodje/knjigovodkinje",
+    "pl": "Średni personel w zakresie rachunkowości",
+    "ro": "Specialiști în contabilitate auxiliari",
+    "da": "Regnskabsarbejde",
+    "nl": "Vakspecialisten boekhouding"
+  },
+  "code": "3313",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3313"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3313"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Accounting associate professionals maintain complete records of financial transactions of an undertaking and verify accuracy of documents and records relating to such transactions.\nTasks include -\n(a)  maintaining complete records of all financial transactions of an undertaking according to general bookkeeping principles, with guidance from accountants;\n(b)  verifying accuracy of documents and records relating to payments, receipts and other financial transactions;\n(c)  preparing financial statements and reports for specified periods;\n(d)  applying knowledge of bookkeeping principles and practices in order to identify and solve problems arising in the course of their work;\n(e)  using standard computer software packages to perform accounting and related calculations;\n(f)  supervising the work of accounts and bookkeeping clerks.\nExample of the occupations classified here:\n- Accounting assistant\n- Bookkeeper\nSome related occupations classified elsewhere:\n- Accountant - 2411   \n- Actuarial assistant - 3314\n- Bookkeeping clerk - 4311\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3313&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3313",
+      "title": "Accounting associate professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C331&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C331",
+        "title": "Financial and mathematical associate professionals",
+        "code": "331"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bb4ca5c1-879d-44e8-840d-24f320206bff&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bb4ca5c1-879d-44e8-840d-24f320206bff",
+        "title": "grants administrator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bfe142b9-a049-4d41-89c4-fd2f34ac56b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bfe142b9-a049-4d41-89c4-fd2f34ac56b6",
+        "title": "accounting assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c3aae59e-1441-4b3e-bdd1-6da50dc7cf42&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c3aae59e-1441-4b3e-bdd1-6da50dc7cf42",
+        "title": "bookkeeper"
+      }
+    ]
+  },
+  "_embedded": {}
+}

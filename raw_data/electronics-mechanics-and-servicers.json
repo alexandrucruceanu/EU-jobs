@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7421",
+  "title": "Electronics mechanics and servicers",
+  "preferredLabel": {
+    "no": "Serviceelektronikere",
+    "de": "Elektroniker und Elektronik-Servicetechniker",
+    "sv": "Elektronikreparatörer m.fl.",
+    "fi": "Elektroniikka- ja automaatiolaitteiden asentajat ja korjaajat",
+    "pt": "Mecânicos e reparadores de equipamentos electrónicos",
+    "bg": "Механици и сервизни техници на електронни съоръжения",
+    "el": "Μηχανικοί και συντηρητές ηλεκτρονικού εξοπλισμού",
+    "mt": "Mekkaniċi elettroniċi u dawk li jagħtu servizz f’dan il-qasam",
+    "lt": "Elektroninės įrangos mechanikai ir taisytojai",
+    "en": "Electronics mechanics and servicers",
+    "lv": "Elektronikas mehāniķi un apkalpotāji",
+    "hr": "Mehaničari/mehaničarke i serviseri/serviserke elektronike",
+    "it": "Riparatori e manutentori di apparati elettronici industriali",
+    "fr": "Mécaniciens et réparateurs d'appareils électroniques",
+    "hu": "Elektronikai műszerészek és karbantartók",
+    "es": "Mecánicos y reparadores en electrónica",
+    "et": "Elektroonikaseadmete mehaanikud ja hooldajad",
+    "cs": "Mechanici a opraváři elektronických přístrojů",
+    "sk": "Mechanici a opravári elektronických zariadení",
+    "sl": "Mehaniki/mehaničarke, serviserji/serviserke elektronskih naprav",
+    "pl": "Monterzy elektronicy i serwisanci urządzeń elektronicznych",
+    "da": "Elektronikmekanikerarbejde",
+    "ro": "Mecanici de echipamente electronice",
+    "nl": "Installateurs en onderhoudsmonteurs op het gebied van de elektronica"
+  },
+  "code": "7421",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7421"
+    },
+    {
+      "datatype": "",
+      "value": "7421"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Electronics mechanics and servicers fit, maintain, adjust and repair electronic equipment such as commercial and office machines and electronic instruments and control systems.\nTasks include -\n(a)  examining and testing machines, instruments, components, control systems and other electronic equipment to identify faults;\n(b)  adjusting, repairing and replacing worn and defective parts and wiring, and maintaining machines, equipment and instruments;\n(c)  reassembling, test operating and adjusting equipment;\n(d)  installing electronic instruments and control systems;\n(e)  coordinating work with that of engineers, technicians and other maintenance personnel;\n(f)  interpreting test data to diagnose malfunctions and systemic performance problems;\n(g)   installing, adjusting, repairing or replacing electrical and electronic components, assemblies and systems, using hand tools, power tools or soldering irons;\n(h)  connecting components to assemblies such as radio systems, instruments, magnetos, inverters and in-flight refuelling systems;\n(i)   keeping records of maintenance and repair work.\nExamples of the occupations classified here:\n- Aircraft maintenance engineer (avionics)\n- Automated teller machines mechanic\n- Avionics technician \n- Electronic equipment servicer\n- Electronics mechanic\n- Photocopy machine technician\nSome related occupations classified elsewhere:\n- Air traffic safety technician - 3155\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7421&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7421",
+      "title": "Electronics mechanics and servicers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C742&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C742",
+        "title": "Electronics and telecommunications installers and repairers",
+        "code": "742"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/490d0c6f-0dc8-4825-9f17-207749fb1785&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/490d0c6f-0dc8-4825-9f17-207749fb1785",
+        "title": "ATM repair technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/75c5bab4-2546-4ba3-996d-42a9a1bab55d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/75c5bab4-2546-4ba3-996d-42a9a1bab55d",
+        "title": "railway electronic technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d9ab0f3d-078d-42a7-a502-3e739e0aeff6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d9ab0f3d-078d-42a7-a502-3e739e0aeff6",
+        "title": "avionics technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b493b10d-7131-4814-93bb-a2c1be4a095f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b493b10d-7131-4814-93bb-a2c1be4a095f",
+        "title": "office equipment repair technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f8ab2e08-d14e-4938-a2cd-c04821556db7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f8ab2e08-d14e-4938-a2cd-c04821556db7",
+        "title": "consumer electronics repair technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ecdc43f5-3b32-4f94-abf8-cd46480c8cb8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ecdc43f5-3b32-4f94-abf8-cd46480c8cb8",
+        "title": "vehicle electronics installer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1d196f32-05ca-4ea5-a347-4fccbb3da863&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1d196f32-05ca-4ea5-a347-4fccbb3da863",
+        "title": "marine electronics technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

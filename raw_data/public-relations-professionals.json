@@ -1,0 +1,124 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2432",
+  "title": "Public relations professionals",
+  "preferredLabel": {
+    "no": "Informasjonsrådgivere",
+    "de": "Akademische und vergleichbare Fachkräfte in der Öffentlichkeitsarbeit",
+    "fi": "Tiedottajat",
+    "sv": "Informatörer, kommunikatörer och PR-specialister",
+    "pt": "Especialistas em relações públicas",
+    "bg": "Специалисти по връзки с обществеността",
+    "el": "Επαγγελματίες σύμβουλοι δημοσίων σχέσεων",
+    "mt": "Professjonisti tar-relazzjonijiet pubbliċi",
+    "lt": "Ryšių su visuomene specialistai",
+    "en": "Public relations professionals",
+    "lv": "Sabiedrisko attiecību vecākie speciālisti",
+    "hr": "Stručnjaci/stručnjakinje za odnose s javnošću",
+    "it": "Specialisti delle pubbliche relazioni",
+    "fr": "Spécialistes des relations publiques",
+    "hu": "PR-foglalkozásúak",
+    "es": "Profesionales de relaciones públicas",
+    "et": "Avalike suhete spetsialistid",
+    "cs": "Specialisté v oblasti styku s veřejností",
+    "sk": "Špecialisti pre styk s verejnosťou",
+    "sl": "Strokovnjaki/strokovnjakinje za odnose z javnostmi",
+    "pl": "Specjaliści do spraw public relations",
+    "da": "Arbejde inden for PR",
+    "ro": "Specialiști în relații publice",
+    "nl": "Specialisten op het gebied van public relations"
+  },
+  "code": "2432",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2432"
+    },
+    {
+      "datatype": "",
+      "value": "2432"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Public relations professionals plan, develop, implement and evaluate information and communication strategies that create an understanding and a favourable view of businesses and other organizations, their goods and services, and their role in the community.\nTasks include -\n(a)  planning and organizing publicity campaigns and communication strategies; \n(b)  advising executives on the public relations implications of their policies, programmes and practices, and preparing and controlling the issue of news and press releases; \n(c)  undertaking and commissioning public opinion research, analysing the findings and planning public relations and promotional campaigns; \n(d)  organizing special events, seminars, entertainment, competitions and social functions to promote goodwill and favourable publicity; \n(e)  representing organizations and arranging interviews with publicity media; \n(f)  attending business, social and other functions to promote the organization; \n(g)  commissioning and obtaining photographs and other illustrative material; \n(h)  selecting, appraising and revising material submitted by publicity writers, photographers, illustrators and others to create favourable publicity.\nExamples of the occupations classified here:\n- Publicity agent\n- Public relations copy writer \n- Public relations officer\n- Press liaison officer\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2432&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2432",
+      "title": "Public relations professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C243&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C243",
+        "title": "Sales, marketing and public relations professionals",
+        "code": "243"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3e213d52-e7a0-4980-99d9-23da1f717f50&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3e213d52-e7a0-4980-99d9-23da1f717f50",
+        "title": "political campaign officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f6811475-94d4-4d13-8d5f-f173978ae7ec&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f6811475-94d4-4d13-8d5f-f173978ae7ec",
+        "title": "political party agent"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c0489e22-6a1b-4e52-974a-eb71bbb42134&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c0489e22-6a1b-4e52-974a-eb71bbb42134",
+        "title": "public relations officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/137b1d11-c4bc-4016-89ba-45345d4c71f0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/137b1d11-c4bc-4016-89ba-45345d4c71f0",
+        "title": "online community manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/82fe0140-7069-47f9-a7d4-d63a611cb5bd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/82fe0140-7069-47f9-a7d4-d63a611cb5bd",
+        "title": "election agent"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/98358049-fbcd-479e-a644-e92bde5af2e0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/98358049-fbcd-479e-a644-e92bde5af2e0",
+        "title": "activism officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/903dc1bf-2da8-477d-83b2-687d360cf1da&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/903dc1bf-2da8-477d-83b2-687d360cf1da",
+        "title": "intercultural communication consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9e285322-2cfa-430f-9b66-41be57d698e2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9e285322-2cfa-430f-9b66-41be57d698e2",
+        "title": "public affairs consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c2e6609d-0abe-4a38-b295-e06edbd52e82&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c2e6609d-0abe-4a38-b295-e06edbd52e82",
+        "title": "fundraising manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,104 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3259",
+  "title": "Health associate professionals not elsewhere classified",
+  "preferredLabel": {
+    "no": "Andre helseyrker",
+    "de": "Assistenzberufe im Gesundheitswesen, anderweitig nicht genannt",
+    "fi": "Muut terveydenhuollon asiantuntijat",
+    "sv": "Övriga tandsköterskor, optikerassistenter m.fl.",
+    "pt": "Outros profissionais de nível intermédio da saúde, n.e.",
+    "bg": "Други приложни специалисти в здравеопазването, некласифицирани другаде",
+    "mt": "Professjonisti assoċjati tas-saħħa li mhumiex ikklassifikati x’imkien ieħor",
+    "el": "Βοηθοί επαγγελματιών του τομέα της υγείας π.δ.κ.α.",
+    "lt": "Kitur nepriskirti jaunesnieji sveikatos priežiūros specialistai",
+    "en": "Health associate professionals not elsewhere classified",
+    "lv": "Citur neklasificēti veselības aprūpes speciālisti",
+    "hr": "Zdravstveni radnici/zdravstvene radnice d. n.",
+    "it": "Tecnici delle scienze della salute non classificati altrove",
+    "fr": "Professions intermédiaires de la santé non classées ailleurs",
+    "hu": "Máshová nem sorolható egészségügyi foglalkozásúak",
+    "es": "Profesionales de la salud de nivel medio no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata tervishoiu alal töötavad spetsialistid",
+    "cs": "Odborní pracovníci v oblasti zdravotnictví jinde neuvedení",
+    "sk": "Odborní pracovníci v zdravotníctve inde neuvedení",
+    "sl": "Tehniki in strokovni sodelavci/tehnice in strokovne sodelavke v zdravstvu, d. n.",
+    "pl": "Średni personel ochrony zdrowia gdzie indziej niesklasyfikowany",
+    "ro": "Specialiști în domeniul sănătății, asimilați, neclasificați în grupele de bază anterioare",
+    "da": "Tekniker- og assistentarbejde inden for sundhedsområdet ikke klassificeret andetsteds",
+    "nl": "Vakspecialisten op het gebied van de gezondheidszorg, niet elders geclassificeerd"
+  },
+  "code": "3259",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3259"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3259"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers health associate professionals not classified elsewhere in Sub-major Group 32: Health Associate Professionals. For instance, the group includes occupations such as HIV counsellor, family planning counsellor and other health associate professionals.\nIn such cases tasks would include -\n(a)  interviewing and examining patients to obtain information on their health status and the nature and extent of injury, illness or other physical or mental health condition;   \n(b) providing information and counselling to patients and families about certain health conditions, prevention and treatment options, treatment adherence, and personal behaviours that can affect health outcomes; \n(c)  administering therapeutic care and treatment to patients;\n(d ) performing certain basic clinical procedures such as administration of HIV antibody tests or insertion of intrauterine devices;\n(e) dispensing and advising on dietary supplements, antiretroviral and prophylaxis medications, and other health care products;\n(f)  monitoring patients’ progress through treatment plans, and identifying signs and symptoms requiring referral to a medical doctor or other health professional;\n(g)  recording information on patients’ health status and responses to treatment in medical record-keeping systems;\n(h)  sharing information with other health care providers when required to ensure continuing and comprehensive care.\nExamples of the occupations classified here: \n- Anaesthesia technician\n- Family planning counsellor\n- HIV counsellor\n- Respiratory therapy technician\nNote  \nOccupations included in this unit group normally require formal training in health service provision. \n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3259&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3259",
+      "title": "Health associate professionals not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C325&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C325",
+        "title": "Other health associate professionals",
+        "code": "325"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/16e65196-3449-4c88-b379-0aa98f43db2b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/16e65196-3449-4c88-b379-0aa98f43db2b",
+        "title": "anaesthetic technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d1b8c046-3867-423a-84fd-41f7be3a6d29&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d1b8c046-3867-423a-84fd-41f7be3a6d29",
+        "title": "assistant clinical psychologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a7198837-139d-49c7-8fd0-eb8d8c1ee844&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a7198837-139d-49c7-8fd0-eb8d8c1ee844",
+        "title": "osteopath"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7b8b6118-6876-4a71-81a6-4b5fa9bfa221&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7b8b6118-6876-4a71-81a6-4b5fa9bfa221",
+        "title": "respiratory therapy technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/68bc2af1-96ea-4ec2-8b2f-5cde76472135&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/68bc2af1-96ea-4ec2-8b2f-5cde76472135",
+        "title": "dietetic technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

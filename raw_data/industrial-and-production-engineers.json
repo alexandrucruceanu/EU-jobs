@@ -1,0 +1,129 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2141",
+  "title": "Industrial and production engineers",
+  "preferredLabel": {
+    "no": "Sivilingeniører (industri og produksjon)",
+    "de": "Wirtschafts- und Produktionsingenieure",
+    "sv": "Civilingenjörer m.fl., industri och produktion",
+    "fi": "Teollisen valmistuksen ja tuotantotekniikan erityisasiantuntijat",
+    "pt": "Engenheiros industriais e de produção",
+    "bg": "Инженери специалисти по управление на преработвателни и производствени инсталации",
+    "el": "Μηχανικοί βιομηχανίας και παραγωγής",
+    "mt": "Inġiniera industrijali u tal-produzzjoni",
+    "lt": "Technologijų ir gamybos inžinieriai",
+    "en": "Industrial and production engineers",
+    "lv": "Rūpniecības un ražošanas inženieri",
+    "hr": "Inženjeri/inženjerke industrijskog inženjerstva i proizvodnje",
+    "it": "Ingegneri industriali e gestionali",
+    "fr": "Spécialistes, sciences techniques de la production et de l’industrie",
+    "hu": "Ipari és termelési mérnökök",
+    "es": "Ingenieros industriales y de producción",
+    "et": "Tööstus- ja tootmisinsenerid",
+    "cs": "Inženýři v průmyslu a ve výrobě",
+    "sk": "Špecialisti v oblasti priemyslu a výroby",
+    "sl": "Inženirji/inženirke v industriji in proizvodnji",
+    "pl": "Inżynierowie do spraw przemysłu i produkcji",
+    "ro": "Ingineri tehnologi și de producție",
+    "da": "Ingeniørarbejde i industri og produktion",
+    "nl": "Industrieel ingenieurs en productie-ingenieurs"
+  },
+  "code": "2141",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2141"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2141"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Industrial and production engineers conduct research and design, organize and oversee the construction, operation and maintenance of industrial production processes and installations. They establish programmes for the coordination of manufacturing activities and assess cost effectiveness and safety.\nTasks include -\n(a)  studying functional statements, organizational charts and project information to determine functions and responsibilities of workers and work units and to identify areas of duplication;\n(b)  establishing work measurement programmes and analysing work samples to develop standards for labour utilization;\n(c)  analysing workforce utilization, facility layout, operational data and production schedules and costs to determine optimum worker and equipment efficiencies;\n(d)  developing specifications for manufacture, and determining materials, equipment, piping, material flows, capacities and layout of plant and systems;\n(e)  organizing and managing project labour and the delivery of materials, plant and equipment;\n(f)  establishing standards and policies for installation, modification, quality control, testing, inspection and maintenance according to engineering principles and safety regulations;\n(g)  inspecting plant to improve and maintain performance;\n(h)  directing the maintenance of plant buildings and equipment, and coordinating the requirements for new designs, surveys and maintenance schedules;\n(i)  advising management on new production methods, techniques and equipment;\n(j)  liaising with materials buying, storing and controlling departments to ensure a steady flow of supplies.\nExamples of the occupations classified here:\n-  Industrial efficiency engineer\n-  Industrial engineer\n-  Industrial plant engineer\n-  Production engineer\nSome related occupations classified elsewhere:\n-  Manufacturing production manager - 1321\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2141&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2141",
+      "title": "Industrial and production engineers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C214&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C214",
+        "title": "Engineering professionals (excluding electrotechnology)",
+        "code": "214"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/615920c5-4f63-4eb3-8b60-afaaed3ab1ff&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/615920c5-4f63-4eb3-8b60-afaaed3ab1ff",
+        "title": "maintenance and repair engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/53d2052f-edc0-4f44-8be1-164526412bfe&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/53d2052f-edc0-4f44-8be1-164526412bfe",
+        "title": "industrial engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8a925aca-f636-437c-8962-5deae170e246&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8a925aca-f636-437c-8962-5deae170e246",
+        "title": "food and beverage packaging technologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/97d65832-3817-4ded-946b-cfc4a0237b9a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/97d65832-3817-4ded-946b-cfc4a0237b9a",
+        "title": "leather production planner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/51cd3a7a-eae6-4dc6-9f24-179d7ec6d230&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/51cd3a7a-eae6-4dc6-9f24-179d7ec6d230",
+        "title": "logistics analyst"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2bf5169b-2c89-451a-9274-e2b4bc1f9487&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2bf5169b-2c89-451a-9274-e2b4bc1f9487",
+        "title": "clothing technologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8de99659-5b10-4825-ac67-0c50189bcc3c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8de99659-5b10-4825-ac67-0c50189bcc3c",
+        "title": "packaging production manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/85acc7e9-1fac-4e91-962b-8b8031f39487&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/85acc7e9-1fac-4e91-962b-8b8031f39487",
+        "title": "textile technologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/91d0f74b-8612-49cc-a7da-83ee3c4b94d9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/91d0f74b-8612-49cc-a7da-83ee3c4b94d9",
+        "title": "leather goods industrial engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b5eaf231-77ad-4a86-8e54-15cc4398aad2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b5eaf231-77ad-4a86-8e54-15cc4398aad2",
+        "title": "process engineer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

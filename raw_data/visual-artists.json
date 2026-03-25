@@ -1,0 +1,139 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2651",
+  "title": "Visual artists",
+  "preferredLabel": {
+    "de": "Bildende Künstler",
+    "no": "Skulptører",
+    "sv": "Konstnärer",
+    "fi": "Kuvataiteilijat",
+    "pt": "Artistas de artes visuais (plásticas)",
+    "bg": "Творци в областта на изобразителното изкуство",
+    "mt": "Artisti Viżivi",
+    "el": "Εικαστικοί καλλιτέχνες",
+    "lt": "Regimojo meno kūrėjai ir atlikėjai",
+    "en": "Visual artists",
+    "lv": "Vizuālo mākslu mākslinieki",
+    "hr": "Likovni umjetnici/likovne umjetnice",
+    "it": "Specialisti delle arti visive",
+    "fr": "Artistes plasticiens",
+    "hu": "Vizuális művészek",
+    "es": "Artistas de artes plásticas",
+    "et": "Kujutavad kunstnikud",
+    "cs": "Výtvarní umělci",
+    "sk": "Výtvarní umelci",
+    "sl": "Vizualni umetniki/vizualne umetnice",
+    "pl": "Artyści sztuk wizualnych",
+    "ro": "Specialiști în arte vizuale",
+    "da": "Kunstnerisk arbejde inden for visuelle kunstarter",
+    "nl": "Beeldend kunstenaars"
+  },
+  "code": "2651",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2651"
+    },
+    {
+      "datatype": "",
+      "value": "2651"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Visual artists create and execute works of art by sculpting, painting, drawing, creating cartoons, engraving or using other techniques.\nTasks include -\n(a)  conceiving and developing ideas, designs and styles for paintings, drawings and sculptures;\n(b)  arranging objects, positioning models, and selecting landscapes and other visual forms according to chosen subject matter;\n(c)  selecting artistic media, method and materials;\n(d)  creating representational or abstract three-dimensional or relief forms by shaping, carving and working and combining materials such as wood, stone, clay, metal, ice or paper;\n(e)  creating representational or abstract drawings and paintings using pencils, ink, chalk, oil paints, water colours or through the application of other techniques;\n(f)  creating drawings and engraving or etching them on metal, wood or other materials;\n(g)  creating cartoons to depict persons and events, often in caricature;\n(h)  restoring damaged, soiled and faded paintings and other art objects.\nExamples of the occupations classified here: \n- Cartoonist\n- Ceramic artist\n- Illustrator\n- Picture restorer\n- Portrait painter\n- Sculptor\nSome related occupations classified elsewhere:\n- Industrial designer - 2163\n- Graphic designer - 2166\n- Painting teacher (private tuition) - 2355\n- Potter - 7314\n- Decorative painter - 7316\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2651&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2651",
+      "title": "Visual artists"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C265&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C265",
+        "title": "Creative and performing artists",
+        "code": "265"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/802a0e5d-5625-4166-a1f0-d13e2586df55&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/802a0e5d-5625-4166-a1f0-d13e2586df55",
+        "title": "printmaker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ecd0fad8-b099-4c47-93f6-dde9f6f6c5fc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ecd0fad8-b099-4c47-93f6-dde9f6f6c5fc",
+        "title": "cartoonist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/09a40a9a-2b60-422c-abe4-96d829bc27df&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/09a40a9a-2b60-422c-abe4-96d829bc27df",
+        "title": "art restorer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/94d94bd0-9ac3-4bd8-81c0-c3fdf551aa16&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/94d94bd0-9ac3-4bd8-81c0-c3fdf551aa16",
+        "title": "sculptor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/969f8af0-3c0d-403a-9c16-a6fb76c6b443&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/969f8af0-3c0d-403a-9c16-a6fb76c6b443",
+        "title": "conceptual artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c05090e2-d599-46c8-a47b-3d52a893ca55&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c05090e2-d599-46c8-a47b-3d52a893ca55",
+        "title": "mask maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ae66ca51-e762-48b4-bd46-071dc87cb30d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ae66ca51-e762-48b4-bd46-071dc87cb30d",
+        "title": "storyboard artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b2f5ed56-c83f-40d0-b861-f5253cd3d1d9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b2f5ed56-c83f-40d0-b861-f5253cd3d1d9",
+        "title": "glass artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/374d925a-107b-4c99-bc8b-75483441f062&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/374d925a-107b-4c99-bc8b-75483441f062",
+        "title": "artistic painter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/42ff9e52-1f56-427d-b772-b9328c39b98a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/42ff9e52-1f56-427d-b772-b9328c39b98a",
+        "title": "drawing artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ec0e64c9-6d9b-4a9f-a022-a418f3b381fe&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ec0e64c9-6d9b-4a9f-a022-a418f3b381fe",
+        "title": "ceramicist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7beefadd-ea05-4f59-bc4b-01075f27b937&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7beefadd-ea05-4f59-bc4b-01075f27b937",
+        "title": "video artist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

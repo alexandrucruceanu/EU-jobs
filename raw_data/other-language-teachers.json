@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2353",
+  "title": "Other language teachers",
+  "preferredLabel": {
+    "no": "Andre språklærere",
+    "de": "Sonstige Sprachlehrer",
+    "sv": "Övriga språklärare",
+    "fi": "Muut kieltenopettajat",
+    "pt": "Outros professores de línguas",
+    "bg": "Други учители по чужди езици",
+    "el": "Άλλοι καθηγητές ξένων γλωσσών, εκτός των εκπαιδευτικών ιδρυμάτων",
+    "mt": "Għalliema oħra ta’ lingwi",
+    "lt": "Kiti kalbų mokytojai",
+    "en": "Other language teachers",
+    "hr": "Nastavnici/nastavnice izvanškolskoga jezičnog obrazovanja",
+    "lv": "Citi valodu skolotāji",
+    "it": "Altri professori di lingue",
+    "fr": "Autres professeurs de langues",
+    "hu": "Egyéb nyelvtanárok",
+    "es": "Otros profesores de idiomas",
+    "et": "Muud keeleõpetajad",
+    "cs": "Lektoři jazyků",
+    "sk": "Ostatní učitelia jazykov",
+    "sl": "Drugi učitelji jezikov/druge učiteljice jezikov",
+    "pl": "Lektorzy języków obcych",
+    "da": "Anden sprogundervisning",
+    "ro": "Alți instructori-formatori de limbi străine",
+    "nl": "Andere taalleraren"
+  },
+  "code": "2353",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2353"
+    },
+    {
+      "datatype": "",
+      "value": "2353"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Other language teachers teach non-native languages to adults and children who are learning a language for reasons of migration, to fulfil employment requirements or opportunities, to facilitate participation in educational programmes delivered in a foreign language, or for personal enrichment. They work outside the mainstream primary, secondary and higher education systems, or in support of students and teachers within those systems.\nTasks include -\n(a)  assessing the level of ability and the extent of language difficulties of students,  and establishing students’ needs and learning goals; \n(b)  planning, preparing and delivering lessons and workshops for groups and individuals, with content and rate of progression adapted to students’ abilities and needs; \n(c)  designing and producing teaching materials and adapting existing materials; \n(d)  assessing students’ progress;\n(e)  assisting students in classroom settings where subjects are taught in a language other than the students’ native language;\n(f)  providing assistance to other teachers by designing special teaching programmes for students still learning the main language of instruction;\n(g)  assigning and correcting work, and preparing and grading exams; \n(h)  assessing, recording and reporting on students’ progress.\nExamples of the occupations classified here:\n-  Intensive language teacher\n-  Migrant education teacher\n-  Practical language teacher\n-  Second language teacher\nSome related occupations classified elsewhere:\n-  University lecturer - 2310\n-  Vocational education teacher - 2320\n-  Secondary school teacher - 2330\n-  Primary school teacher - 2341\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2353&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2353",
+      "title": "Other language teachers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C235&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C235",
+        "title": "Other teaching professionals",
+        "code": "235"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9711dcfc-d9a8-4fba-9c5e-8428d8bcb53e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9711dcfc-d9a8-4fba-9c5e-8428d8bcb53e",
+        "title": "language school teacher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/59c724f9-0cfe-4d51-8a7f-9ee182d9e2c2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/59c724f9-0cfe-4d51-8a7f-9ee182d9e2c2",
+        "title": "sign language teacher"
+      }
+    ]
+  },
+  "_embedded": {}
+}

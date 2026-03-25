@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9329",
+  "title": "Manufacturing labourers not elsewhere classified",
+  "preferredLabel": {
+    "de": "Hilfsarbeiter bei der Herstellung von Waren, anderweitig nicht genannt",
+    "no": "Andre hjelpearbeidere i industri",
+    "fi": "Muut valmistusalan avustavat työntekijät",
+    "sv": "Övriga fabriksarbetare",
+    "pt": "Outros trabalhadores não qualificados da indústria transformadora",
+    "bg": "Работници в преработващата промишленост, некласифицирани другаде",
+    "el": "Ανειδίκευτοι εργάτες μεταποίησης π.δ.κ.α.",
+    "mt": "Ħaddiema tal-manifattura li mhumiex imsemmijin x’imkien ieħor",
+    "lt": "Kitur nepriskirti nekvalifikuoti apdirbimo pramonės darbininkai",
+    "en": "Manufacturing labourers not elsewhere classified",
+    "hr": "Jednostavna zanimanja u prerađivačkoj industriji, d. n.",
+    "lv": "Citur neklasificēti rūpniecības strādnieki",
+    "it": "Personale non qualificato delle attività industriali non classificato altrove",
+    "fr": "Manœuvres des industries manufacturières non classés ailleurs",
+    "hu": "Máshová nem sorolható képesítést nem igénylő ipari foglalkozásúak",
+    "es": "Peones de la industria manufacturera no clasificados bajo otros epígrafes",
+    "et": "Tootmisala lihttöölised, mujal liigitamata",
+    "cs": "Pomocní pracovníci ve výrobě jinde neuvedení",
+    "sk": "Pomocní pracovníci vo výrobe inde neuvedení",
+    "sl": "Delavci/delavke za preprosta dela v predelovalnih dejavnostih, d. n.",
+    "pl": "Robotnicy przy pracach prostych w przemyśle gdzie indziej niesklasyfikowani",
+    "da": "Andet manuelt produktionsarbejde",
+    "ro": "Muncitori în industria prelucrătoare neclasificați în grupele de bază anterioare",
+    "nl": "Ongeschoolde arbeiders in de industrie, niet elders geclassificeerd"
+  },
+  "code": "9329",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9329"
+    },
+    {
+      "datatype": "",
+      "value": "9329"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Manufacturing labourers not elsewhere classified assist the work of machine operators and assemblers and perform a variety of simple and routine manual tasks in manufacturing, excluding packing and labelling finished products.\nTasks include -\n(a)  conveying goods, material, equipment and other items to work areas, and removing finished pieces; \n(b)  loading and unloading vehicles, trucks and trolleys;\n(c)  clearing machine blockages, and cleaning machinery, equipment and tools;\n(d)  carrying out manual sorting of products or components.\nExamples of the occupations classified here:\n- Bottle sorter\n- Factory hand\n- Material handler\n- Stacker\nSome related occupations classified elsewhere:\n-  Electrical equipment assembler - 8212\n-  Electronic equipment assembler - 8212\n-  Leather products assembler - 8219\n-  Rubber products assembler - 8219\n-  Hand packer - 9321\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9329&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9329",
+      "title": "Manufacturing labourers not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C932&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C932",
+        "title": "Manufacturing labourers",
+        "code": "932"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a4e96a0c-3a49-4cd3-a45c-ff081c28405d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a4e96a0c-3a49-4cd3-a45c-ff081c28405d",
+        "title": "wood caulker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/245be6d1-fe9a-4ac8-9f81-122a687e4724&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/245be6d1-fe9a-4ac8-9f81-122a687e4724",
+        "title": "factory hand"
+      }
+    ]
+  },
+  "_embedded": {}
+}

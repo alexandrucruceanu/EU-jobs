@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3421",
+  "title": "Athletes and sports players",
+  "preferredLabel": {
+    "de": "Athleten und Berufssportler",
+    "no": "Idrettsutøvere",
+    "sv": "Professionella idrottsutövare m.fl.",
+    "fi": "Urheilijat",
+    "pt": "Atletas e desportistas, de competição",
+    "bg": "Атлети и състезатели",
+    "el": "Επαγγελματίες αθλητές, εν γένει",
+    "mt": "Atleti u dawk li jilagħbu l-isport",
+    "lt": "Sportininkai ir žaidėjai",
+    "en": "Athletes and sports players",
+    "lv": "Individuālo un komandu sporta veidu sportisti",
+    "hr": "Športaši/športašice i srodna zanimanja",
+    "it": "Atleti e sportivi",
+    "fr": "Athlètes et sportifs de compétition",
+    "hu": "Sportolók",
+    "es": "Atletas y deportistas",
+    "et": "Sportlased",
+    "cs": "Atleti a ostatní profesionální sportovci",
+    "sk": "Športovci",
+    "sl": "Športniki/športnice",
+    "pl": "Sportowcy zawodowi",
+    "ro": "Atleți și sportivi",
+    "da": "Sportsudøvere",
+    "nl": "Atleten en andere sportbeoefenaren"
+  },
+  "code": "3421",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3421"
+    },
+    {
+      "datatype": "",
+      "value": "3421"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Athletes and sport players participate in competitive sporting events. They train and compete, either individually or as part of a team, in their chosen sport.\nTasks include -\n(a)  participating in competitive sporting events;\n(b)  participating in regular practice and training sessions and undertaking private training to maintain the required standard of fitness and skill;\n(c)  undertaking sports promotional activities and media interviews;\n(d)  maintaining a high degree of expertise in a particular sport;\n(e)  deciding on strategies in consultation with coaches;\n(f)  assessing other competitors and conditions at venues; \n(g)  competing in sporting events;\n(h)  adhering to the rules and regulations associated with a specific sport.\nExamples of the occupations classified here:\n- Athlete\n- Bicycle racer\n- Boxer\n- Chess player\n- Footballer\n- Golfer\n- Hockey player\n- Jockey\n- Poker player \n- Racing driver\n- Skier\n- Tennis player\n- Wrestler\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3421&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3421",
+      "title": "Athletes and sports players"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C342&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C342",
+        "title": "Sports and fitness workers",
+        "code": "342"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/082c234c-0dda-490a-b5af-757c3e48da90&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/082c234c-0dda-490a-b5af-757c3e48da90",
+        "title": "professional athlete"
+      }
+    ]
+  },
+  "_embedded": {}
+}

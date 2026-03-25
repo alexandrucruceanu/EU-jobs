@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8322",
+  "title": "Car, taxi and van drivers",
+  "preferredLabel": {
+    "de": "Personenkraftwagen-, Taxi-, Kleintransporter- und Kleinbusfahrer",
+    "no": "Bil-",
+    "sv": "Bil- och taxiförare",
+    "fi": "Henkilö-, taksi- ja pakettiautonkuljettajat",
+    "pt": "Condutores de automóveis ligeiros, táxis e carrinhas",
+    "bg": "Водачи на леки автомобили, вкл. таксита и микробуси",
+    "mt": "Sewwieqa tal-karozza, vann jew mutur",
+    "el": "Οδηγοί αυτοκινήτων, ταξί και μικρών φορτηγών",
+    "lt": "Lengvųjų automobilių, taksi ir furgonų vairuotojai",
+    "en": "Car, taxi and van drivers",
+    "hr": "Vozači/vozačice osobnih vozila, taksija i lakih dostavnih vozila",
+    "lv": "Vieglo automobiļu, taksometru un mazietilpīgo kravas automobiļu un mikroautobusu vadītāji",
+    "it": "Conducenti di automobili, taxi e furgoni",
+    "fr": "Chauffeurs de taxi et conducteurs d’automobiles et de camionnettes",
+    "hu": "Személy- és tehergépkocsi-vezetők, taxisofőrök",
+    "es": "Conductores de automóviles, taxis y camionetas",
+    "et": "Sõiduauto-, takso- ja paketiauto juhid",
+    "cs": "Řidiči osobních a malých dodávkových automobilů, taxikáři",
+    "sk": "Vodiči osobných motorových vozidiel, dodávok a taxíkov",
+    "sl": "Vozniki/voznice avtomobilov, taksijev in lahkih dostavnih vozil",
+    "pl": "Kierowcy samochodów osobowych, taksówek i samochodów dostawczych",
+    "da": "Chauffører af biler, taxier og varevogne",
+    "ro": "Șoferi de autoturisme și camionete",
+    "nl": "Chauffeurs van auto’s, taxi’s en bestelwagens"
+  },
+  "code": "8322",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8322"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8322"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Car, taxi and van drivers drive and tend motorcars and vans to transport passengers, mail or goods.\nTasks include -\n(a)  driving and tending passenger vans, cars or taxis;\n(b)  driving and tending cars, vans or small trucks to deliver mail or goods;\n(c)  assisting passengers with handling of luggage;\n(d)  collecting fares, payments for deliveries, or documents certifying deliveries;\n(e)  operating telecommunications equipment to report location and availability, and following directions of control centre;\n(f)  determining most appropriate route;\n(g)  assisting physically challenged passengers;\n(h)  operating equipment to facilitate the loading and unloading of physically challenged passengers.\nExamples of the occupations classified here:\n- Ambulance driver\n- Car driver\n- Parking valet\n- Taxi driver\n- Van driver\nSome related occupations classified elsewhere:\n- Driver (motorized rickshaw) - 8321\n- Bus driver - 8331\n- Heavy truck driver - 8332\n- Pedal vehicle driver - 9331\n- Rickshaw puller - 9331\n- Animal-drawn vehicle driver - 9332\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8322&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8322",
+      "title": "Car, taxi and van drivers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C832&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C832",
+        "title": "Car, van and motorcycle drivers",
+        "code": "832"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/976f752c-5f10-42ca-84fb-89aa529af04f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/976f752c-5f10-42ca-84fb-89aa529af04f",
+        "title": "patient transport services driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0c408028-c48f-4df8-ba5d-c3d3be15f5a2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0c408028-c48f-4df8-ba5d-c3d3be15f5a2",
+        "title": "delivery driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/af513bd8-4340-4452-aa30-05a073ecc49a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/af513bd8-4340-4452-aa30-05a073ecc49a",
+        "title": "hearse driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6f7c1e84-8162-4c20-a575-b57ff624eef5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6f7c1e84-8162-4c20-a575-b57ff624eef5",
+        "title": "taxi driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8d4ce4a2-3453-4aa3-befb-7a24595cd68f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8d4ce4a2-3453-4aa3-befb-7a24595cd68f",
+        "title": "armoured car driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/880a6cd1-2356-4994-8983-ac364763beaf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/880a6cd1-2356-4994-8983-ac364763beaf",
+        "title": "parking valet"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e75305db-9011-4ee0-ab62-8d41a98f807e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e75305db-9011-4ee0-ab62-8d41a98f807e",
+        "title": "private chauffeur"
+      }
+    ]
+  },
+  "_embedded": {}
+}

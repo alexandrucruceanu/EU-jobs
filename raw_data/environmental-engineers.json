@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2143",
+  "title": "Environmental engineers",
+  "preferredLabel": {
+    "de": "Umweltschutzingenieure",
+    "no": "Sivilingeniører (miljøteknikk)",
+    "fi": "Ympäristötekniikan erityisasiantuntijat",
+    "sv": "Civilingenjörer m.fl., miljöteknik",
+    "pt": "Engenheiros do ambiente",
+    "bg": "Инженер-еколози",
+    "el": "Μηχανικοί περιβάλλοντος",
+    "mt": "Inġiniera ambjentali",
+    "lt": "Aplinkos apsaugos inžinieriai",
+    "en": "Environmental engineers",
+    "lv": "Vides jomas inženieri",
+    "hr": "Inženjeri/inženjerke za okoliš",
+    "it": "Ingegneri ambientali",
+    "fr": "Ingénieurs écologistes",
+    "hu": "Környezetvédelmi mérnökök",
+    "es": "Ingenieros medioambientales",
+    "et": "Keskkonnateaduste insenerid",
+    "cs": "Specialisté v oblasti průmyslové ekologie",
+    "sk": "Špecialisti v oblasti životného prostredia",
+    "sl": "Inženirji/inženirke varstva okolja",
+    "pl": "Inżynierowie inżynierii środowiska",
+    "ro": "Ingineri în domeniul protecției mediului",
+    "da": "Ingeniørarbejde inden for miljø",
+    "nl": "Milieu-ingenieurs"
+  },
+  "code": "2143",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2143"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2143"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Environmental engineers conduct research, advise on, design and direct implementation of solutions to prevent, control or remedy negative impacts of human activity on the environment utilizing a variety of engineering disciplines. They conduct environmental assessments of construction and civil engineering projects and apply engineering principles to pollution control, recycling and waste disposal.\nTasks include -\n(a)  conducting research, assessing and reporting on the environmental impact of existing and proposed construction, civil engineering and other activities;\n(b)  inspecting industrial and municipal facilities and programmes to evaluate operational effectiveness and ensure compliance with environmental regulations; \n(c)  designing and overseeing the development of systems, processes and equipment for control, management, or remediation of water, air or soil quality;\n(d)  providing environmental engineering assistance in network analysis, regulatory analysis, and planning or reviewing database development;\n(e)  obtaining, updating, and maintaining plans, permits, and standard operating procedures; \n(f)  providing engineering and technical support for environmental remediation and litigation projects, including remediation system design and determination of regulatory applicability;\n(g)  monitoring progress of environmental improvement programmes;\n(h)  advising corporations and government agencies of procedures to follow in cleaning up contaminated sites to protect people and the environment;\n(i)  collaborating with environmental scientists, planners, hazardous waste technicians, engineers from other disciplines, and specialists in law and business to address environmental problems.\nExamples of the occupations classified here:\n-  Air pollution control engineer\n-  Environmental analyst\n-  Environmental engineer\n-  Environmental remediation specialist\n-  Wastewater process engineer\nSome related occupations classified elsewhere:\n-  Environmental scientist - 2133\n-  Radiation protection expert - 2263\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2143&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2143",
+      "title": "Environmental engineers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C214&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C214",
+        "title": "Engineering professionals (excluding electrotechnology)",
+        "code": "214"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a7358961-46d4-4715-ac1e-6148fd042510&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a7358961-46d4-4715-ac1e-6148fd042510",
+        "title": "environmental expert"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ac1fc6a9-70d2-475c-8fa0-82ef83830968&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ac1fc6a9-70d2-475c-8fa0-82ef83830968",
+        "title": "environmental engineer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7213",
+  "title": "Sheet-metal workers",
+  "preferredLabel": {
+    "de": "Blechkaltverformer",
+    "no": "Kopper- og blikkenslagere",
+    "fi": "Ohutlevysepät",
+    "sv": "Tunnplåtslagare",
+    "pt": "Caldeireiros, latoeiros e bate-chapas",
+    "bg": "Тенекеджии",
+    "mt": "Ħaddiema li jużaw il-pjanċi tal-metall",
+    "el": "Τεχνίτες κατασκευής, εγκατάστασης και επισκευής ειδών από φύλλα μετάλλων (ελασματουργοί-φανοποιοί)",
+    "lt": "Valcuotojai, skardininkai ir susijusių profesijų darbininkai",
+    "en": "Sheet-metal workers",
+    "lv": "Valcētāji un skārdnieki",
+    "hr": "Limari/limarice i srodna zanimanja",
+    "it": "Lattonieri e calderai",
+    "fr": "Tôliers-chaudronniers",
+    "hu": "Fémlemez-megmunkálók",
+    "es": "Chapistas y caldereros",
+    "et": "Lehtmetalli töötlejad",
+    "cs": "Pracovníci na zpracování plechu",
+    "sk": "Klampiari",
+    "sl": "Kleparji/kleparke",
+    "pl": "Blacharze",
+    "da": "Pladesmedarbejde",
+    "ro": "Tinichigii-cazangii",
+    "nl": "Plaatwerkers"
+  },
+  "code": "7213",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7213"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7213"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Sheet metal workers make, install and repair articles and parts of articles made out of sheet metal such as sheet steel, copper, tin, brass, aluminium, zinc or galvanized iron.\nTasks include -\n(a)  marking sheet metal for cutting and shaping;\n(b)  making and repairing household utensils and other articles in tin, copper and light alloys, or ornamental articles and fittings;\n(c)  making and repairing boilers, tanks, vats and similar containers;\n(d)  installing and repairing sheet metal parts of vehicles and aircraft;\n(e)  converting blueprints into shop drawings to be followed in the construction and assembly of sheet metal products;\n(f)  determining project requirements, including scope, assembly sequences and required methods and materials, according to blueprints, drawings and written or verbal instructions;\n(g)  inspecting product quality and installation to ensure conformity with specifications.\nExamples of the occupations classified here:\n- Boilersmith\n- Coppersmith\n- Panel beater\n- Tinsmith\nNotes\nInstallers of metal roofing are classified in Unit Group 7121: Roofers.  Installers of metal drains, gutters and ducts are classified in Unit Group 7126: Plumbers and Pipe Fitters.  Workers who make sheet metal products for adaptation and installation by roofers and plumbers are classified in Unit Group 7213: Sheet Metal Workers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7213&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7213",
+      "title": "Sheet-metal workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C721&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C721",
+        "title": "Sheet and structural metal workers, moulders and welders, and related workers",
+        "code": "721"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5ed024ab-3b6a-4e06-a7fe-8a29f8469a64&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5ed024ab-3b6a-4e06-a7fe-8a29f8469a64",
+        "title": "boilermaker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/572c9810-e1ee-4f7a-a71f-820f17c0c25b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/572c9810-e1ee-4f7a-a71f-820f17c0c25b",
+        "title": "sheet metal worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1a1ea837-0103-4230-8756-533a77c5f9f4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1a1ea837-0103-4230-8756-533a77c5f9f4",
+        "title": "container equipment assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2d6d4cb2-5d46-4d1f-939b-7f55c02c64cb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2d6d4cb2-5d46-4d1f-939b-7f55c02c64cb",
+        "title": "coppersmith"
+      }
+    ]
+  },
+  "_embedded": {}
+}

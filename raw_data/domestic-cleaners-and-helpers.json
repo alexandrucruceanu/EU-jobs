@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9111",
+  "title": "Domestic cleaners and helpers",
+  "preferredLabel": {
+    "de": "Reinigungspersonal und Hilfskräfte in Privathaushalten",
+    "no": "Renholdere i private hjem",
+    "sv": "Hemservicepersonal",
+    "fi": "Kotiapulaiset ja -siivoojat",
+    "pt": "Pessoal de limpeza e auxiliar, em casas particulares",
+    "bg": "Домашни чистачи и помощници",
+    "el": "Οικιακοί βοηθοί και καθαριστές",
+    "mt": "Ħaddiema li jnaddfu u dawk li jagħtu servizz ta’ għajnuna domestika",
+    "lt": "Namų valytojai ir pagalbininkai",
+    "en": "Domestic cleaners and helpers",
+    "hr": "Čistači/čistačice i kućne pomoćnice i srodna zanimanja",
+    "lv": "Mājstrādnieki",
+    "it": "Addetti alle pulizie domestiche e collaboratori domestici",
+    "fr": "Aides de ménage à domicile",
+    "hu": "Háztartási takarítók és kisegítők",
+    "es": "Limpiadores y asistentes domésticos",
+    "et": "Koduabilised ja korterikoristajad",
+    "cs": "Uklízeči a pomocníci v domácnostech (kromě hospodyní)",
+    "sk": "Upratovači a pomocníci v domácnostiach",
+    "sl": "Čistilci/čistilke in gospodinjski pomočniki/gospodinjske pomočnice na domu",
+    "pl": "Pomoce domowe i sprzątacze domowi",
+    "da": "Rengøringsarbejde i private hjem",
+    "ro": "Menajere",
+    "nl": "Huishoudelijke hulpen en schoonmakers in huishoudens"
+  },
+  "code": "9111",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "9111"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9111"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Domestic cleaners and helpers sweep, vacuum clean, wash and polish, take care of household linen, purchase household supplies, prepare food, serve meals and perform various other domestic duties.\nTasks include -\n(a)  sweeping, vacuum cleaning, polishing and washing floors and furniture, or washing windows and other fixtures;\n(b)  washing, ironing and mending linen and other textiles;\n(c)  washing dishes;\n(d)  helping with preparation, cooking and serving of meals and refreshments;\n(e)  purchasing food and various other household supplies; \n(f)  cleaning, disinfecting and deodorizing kitchens, bathrooms and toilets;\n(g)  cleaning windows and other glass surfaces.\nExamples of the occupations classified here:\n- Charworker (domestic)\n- Domestic cleaner\n- Domestic helper\nSome related occupations classified elsewhere:\n- Domestic housekeeper - 5152\n- Hotel cleaner - 9112\n- Hand launderer - 9121\n- Street sweeper - 9613\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9111&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9111",
+      "title": "Domestic cleaners and helpers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C911&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C911",
+        "title": "Domestic, hotel and office cleaners and helpers",
+        "code": "911"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cbad55a4-c7cf-4ab6-9540-eac72b26729b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cbad55a4-c7cf-4ab6-9540-eac72b26729b",
+        "title": "domestic cleaner"
+      }
+    ]
+  },
+  "_embedded": {}
+}

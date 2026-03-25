@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2523",
+  "title": "Computer network professionals",
+  "preferredLabel": {
+    "de": "Akademische und vergleichbare Fachkräfte für Computernetzwerke",
+    "no": "Nettverksansvarlige",
+    "sv": "Nätverksadministratörer",
+    "fi": "Tietoverkkojen erityisasiantuntijat",
+    "pt": "Especialistas de redes informáticas",
+    "bg": "Специалисти по компютърни мрежи",
+    "mt": "Professjonisti tan-netwerk tal-kompjuter",
+    "el": "Επαγγελματίες δικτύων Η/Υ",
+    "lt": "Kompiuterių tinklų specialistai",
+    "en": "Computer network professionals",
+    "lv": "Datortīklu vecākie speciālisti",
+    "hr": "Stručnjaci/stručnjakinje za razvoj računalnih mreža",
+    "it": "Specialisti in reti informatiche",
+    "fr": "Spécialistes des réseaux d’ordinateurs",
+    "hu": "Számítógép-hálózati foglalkozásúak",
+    "es": "Profesionales en redes de computadores",
+    "et": "Elektrooniliste võrgustike spetsialistid",
+    "cs": "Specialisté v oblasti počítačových sítí",
+    "sk": "Špecialisti v oblasti počítačových sietí",
+    "sl": "Strokovnjaki/strokovnjakinje za računalniška omrežja",
+    "pl": "Specjaliści do spraw sieci komputerowych",
+    "da": "Arbejde med computernetværk",
+    "ro": "Specialiști în rețele de calculatoare",
+    "nl": "Netwerkspecialisten"
+  },
+  "code": "2523",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2523"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2523"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Computer network professionals research, analyse, design, test and recommend strategies for network architecture and development.  They implement, manage, maintain and configure network hardware and software, and monitor, troubleshoot and optimize performance.\nTasks include -\n(a)  analysing, developing, interpreting and evaluating complex system design and architecture specifications, data models and diagrams in the development, configuration and integration of computer systems;\n(b)  researching, analysing, evaluating and monitoring network infrastructure to ensure that networks are configured to operate at optimal performance;\n(c)  assessing and recommending improvements to network operations and integrated hardware, software, communications and operating systems;\n(d)  providing specialist skills in supporting and troubleshooting network problems and emergencies;\n(e)  installing, configuring, testing, maintaining and administering new and upgraded networks, software database applications, servers and workstations;\n(f)  preparing and maintaining procedures and documentation for network inventory, and recording diagnosis and resolution of network faults, enhancements and modifications to networks and maintenance instructions;\n(g)  monitoring network traffic and activity, capacity and usage to ensure continued integrity and optimal network performance.\nExamples of the occupations classified here:\n-  Communications analyst (computers)\n-  Network analyst\nSome related occupations classified elsewhere:\n- Systems analysts - 2511\n- Network administrator - 2522\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2523&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2523",
+      "title": "Computer network professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C252&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C252",
+        "title": "Database and network professionals",
+        "code": "252"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e0b544dd-b621-4126-a55e-054af25c6ea0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e0b544dd-b621-4126-a55e-054af25c6ea0",
+        "title": "ICT network architect"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cf2b03cd-feb7-4f47-90f6-ff1ed6016d3d",
+        "title": "ICT network engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4543bf7b-8ffb-4ade-88b9-58da34366f04&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4543bf7b-8ffb-4ade-88b9-58da34366f04",
+        "title": "ICT capacity planner"
+      }
+    ]
+  },
+  "_embedded": {}
+}

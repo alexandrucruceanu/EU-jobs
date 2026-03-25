@@ -1,0 +1,108 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3255",
+  "title": "Physiotherapy technicians and assistants",
+  "preferredLabel": {
+    "de": "Physiotherapeutische Techniker und Assistenten",
+    "sv": "Sjukgymnastassistenter",
+    "fi": "Fysioterapeutit ym.",
+    "pt": "Técnicos e assistentes de fisioterapia",
+    "bg": "Приложни специалисти във физиотерапията",
+    "el": "Τεχνικοί και βοηθοί φυσιοθεραπείας",
+    "mt": "Tekniċi u assistenti tal-fiżjoterapija",
+    "lt": "Fizioterapijos technikai ir fizioterapeutų padėjėjai",
+    "en": "Physiotherapy technicians and assistants",
+    "lv": "Fizioterapijas speciālisti un asistenti",
+    "hr": "Fizioterapeutski tehničari/fizioterapeutske tehničarke",
+    "it": "Tecnici e assistenti della riabilitazione",
+    "fr": "Techniciens et assistants en physiothérapie",
+    "hu": "Fizioterápiás technikusok és asszisztensek",
+    "es": "Técnicos y asistentes fisioterapeutas",
+    "et": "Füsioteraapia tehnikud ja füsioterapeutide abid",
+    "cs": "Odborní pracovníci v oblasti rehabilitace",
+    "sk": "Fyzioterapeutickí technici a asistenti",
+    "sl": "Fizioterapevtski tehniki/fizioterapevtske tehnice in fizioterapevtski asistenti/fizioterapevtske asistentke",
+    "pl": "Technicy fizjoterapii i masażyści",
+    "ro": "Tehnicieni și asistenți în fizioterapie",
+    "da": "Assisterende arbejde inden for fysioterapi",
+    "nl": "Technici en assistenten op het gebied van de fysiotherapie"
+  },
+  "code": "3255",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3255"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3255"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Physiotherapy technicians and assistants provide physical therapeutic treatments to patients in circumstances where functional movement is threatened by injury, disease or impairment. Therapies are usually provided according to rehabilitative plans established by a physiotherapist or other health professional.\nTasks include -\n(a)  administering manual treatments such as massage therapy or pressure point therapy;\n(b)  administering electrical modality treatments, ultrasound and other physical therapies using specialized techniques and equipment; \n(c)  instructing, motivating, safeguarding and assisting patients as they practise physical exercises, relaxation techniques and functional activities; \n(d)  conferring with physiotherapists or other health care providers to evaluate patient information for planning, modifying and coordinating treatment;\n(e)   monitoring and recording patients’ progress during treatment, including measuring their range-of-joint motion and vital signs; \n(f)   fitting patients for orthopaedic braces, prostheses and other physical support devices such as crutches, and instructing patients in the use of such devices.\nExamples of the occupations classified here:\n- Acupressure therapist \n- Electrotherapist\n- Hydrotherapist\n- Massage therapist \n- Physical rehabilitation technician \n- Physiotherapy technician\n- Shiatsu therapist\nSome related occupations classified elsewhere:\n- Physiotherapist  - 2264\n- Chiropractor - 2269\n- Occupational therapist - 2269\n- Podiatrist - 2269\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3255&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3255",
+      "title": "Physiotherapy technicians and assistants"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C325&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C325",
+        "title": "Other health associate professionals",
+        "code": "325"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ceda6443-e1dd-4890-b018-42318e3abac2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ceda6443-e1dd-4890-b018-42318e3abac2",
+        "title": "sophrologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f88124d7-ee7e-4d21-9036-0658b496c119&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f88124d7-ee7e-4d21-9036-0658b496c119",
+        "title": "physiotherapy assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9487f835-b5a9-4742-8ecf-35520911e28c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9487f835-b5a9-4742-8ecf-35520911e28c",
+        "title": "massage therapist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b01affdd-c8a9-4121-bc50-a5be17f014eb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b01affdd-c8a9-4121-bc50-a5be17f014eb",
+        "title": "shiatsu practitioner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/754c349d-67d5-48e5-81c1-e84d2fab59d0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/754c349d-67d5-48e5-81c1-e84d2fab59d0",
+        "title": "aromatherapist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0b2d3242-22a3-4de5-bd29-efd39cdf2c31&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0b2d3242-22a3-4de5-bd29-efd39cdf2c31",
+        "title": "animal therapist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

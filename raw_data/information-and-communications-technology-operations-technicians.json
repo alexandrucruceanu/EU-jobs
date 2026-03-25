@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3511",
+  "title": "Information and communications technology operations technicians",
+  "preferredLabel": {
+    "de": "Techniker für den Betrieb von Informations- und Kommunikationstechnologie",
+    "no": "Driftsteknikere",
+    "fi": "Käytön operaattorit",
+    "sv": "Drifttekniker, IKT",
+    "pt": "Técnicos das tecnologias da informação e comunicação",
+    "bg": "Оперативни техници в областта на информационните и комуникационните технологии",
+    "el": "Τεχνικοί λειτουργιών των τεχνολογιών πληροφόρησης και επικοινωνίας",
+    "mt": "Tekniċi tal-operazzjonijiet tat-teknoloġija tal-informazzjoni u l-komunikazzjoni",
+    "lt": "Informacinių technologijų ir ryšių sistemų eksploatavimo technikai",
+    "en": "Information and communications technology operations technicians",
+    "hr": "Tehničari/tehničarke informacijske i komunikacijske tehnologije za podršku radu",
+    "lv": "Informācijas un komunikāciju tehnoloģiju darbības speciālisti",
+    "it": "Tecnici per la gestione dell’informazione e della comunicazione",
+    "fr": "Techniciens des technologies de l’information et des communications, opérations",
+    "hu": "Információs és kommunikációs technológiák üzemeltető technikusai",
+    "es": "Técnicos en operaciones de tecnología de la información y las comunicaciones",
+    "et": "Info- ja kommunikatsioonitehnoloogia operatsioonitehnikud",
+    "cs": "Technici provozu informačních a komunikačních technologií",
+    "sk": "Technici prevádzky informačných a komunikačných technológií",
+    "sl": "Tehniki/tehnice za dejavnosti na področju informacijske in komunikacijske tehnologije",
+    "pl": "Operatorzy urządzeń informacyjno-komunikacyjnych",
+    "ro": "Tehnicieni pentru operațiuni în domeniul tehnologiei informației și comunicațiilor",
+    "da": "Driftsteknikerarbejde inden for informations- og kommunikationsteknologi",
+    "nl": "Technici voor de werking van informatie- en communicatietechnologie"
+  },
+  "code": "3511",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3511"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3511"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Information and communications technology operations technicians support the day-to-day processing, operation and monitoring of information and communications technology systems, peripherals, hardware, software and related computer equipment to ensure optimal performance and identify any problems.\nTasks include - \n(a)  operating and controlling peripheral and related computer equipment;\n(b)  entering commands, using computer terminals, and activating controls on computer and peripheral equipment to integrate and operate equipment; \n(c)  monitoring systems for equipment failure or errors in performance;\n(d)  notifying supervisors or maintenance technicians of equipment malfunctions;\n(e)  responding to program error messages by finding and correcting problems, escalating the problem to other staff or terminating the program;\n(f)  reading job set-up instructions to determine equipment to be used, order of use, material such as disks and paper to be loaded, and to control settings;\n(g)  retrieving, separating and sorting program output as needed, and sending data to specified users;\n(h)  loading peripheral equipment, such as printers, with selected materials for operating runs, or overseeing loading of peripheral equipment by peripheral equipment operators.\nExamples of the occupations classified here:\n- Computer operator\n- Computer peripheral equipment operator\n- High-speed computer printer operator\nSome related occupations classified elsewhere:\n- Computer network technician - 3513\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3511&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3511",
+      "title": "Information and communications technology operations technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C351&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C351",
+        "title": "Information and communications technology operations and user support technicians",
+        "code": "351"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9729c0f3-c9bc-482e-ac59-a82ec3b67ba3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9729c0f3-c9bc-482e-ac59-a82ec3b67ba3",
+        "title": "data centre operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,134 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7543",
+  "title": "Product graders and testers (excluding foods and beverages)",
+  "preferredLabel": {
+    "de": "Produkttester und -klassierer (ohne Nahrungsmittel und Getränke)",
+    "no": "Produkttestere (ikke matprodukter)",
+    "sv": "Produkttestare och kvalitetsbedömare (utom drycker och livsmedel)",
+    "fi": "Luokittelijat ja laaduntarkkailijat (pl. ruoat ja juomat)",
+    "pt": "Calibrador e verificador de produtos (excluindo produtos alimentares e bebidas)",
+    "bg": "Работници, които окачествяват и изпробват продукти (без храни и напитки)",
+    "el": "Αξιολογητές και δοκιμαστές προϊόντων (εξαιρουμένων των τροφίμων και ποτών)",
+    "mt": "Ħaddiema u dawk li jagħtu l-grad u jittestjaw il-prodott (esklużi l-ikel u x-xorb)",
+    "lt": "Produktų rūšiuotojai ir bandytojai (išskyrus maisto ir gėrimų)",
+    "en": "Product graders and testers (excluding foods and beverages)",
+    "hr": "Ocjenjivači/ocjenjivačice proizvoda (osim namirnica)",
+    "lv": "Produktu vērtētāji un izmēģinātāji (izņemot pārtiku un dzērienus)",
+    "it": "Classificatori e collaudatori di prodotti (ad eccezione dei prodotti alimentari e delle bevande)",
+    "fr": "Classeurs et essayeurs de produits (à l’exception des aliments et des boissons)",
+    "hu": "Termékosztályozók és -vizsgálók (kivéve az élelmiszereket)",
+    "es": "Clasificadores y probadores de productos (excluyendo alimentos y bebidas)",
+    "et": "Toodete (v.a toidud ja joogid) testijad",
+    "cs": "Kvalitáři a testovači výrobků (kromě potravin a nápojů)",
+    "sk": "Kvalitári a kontrolóri výrobkov (okrem potravín a nápojov)",
+    "sl": "Ocenjevalci/ocenjevalke proizvodov (razen hrane in pijače)",
+    "pl": "Klasyfikatorzy i testerzy produktów (z wyłączeniem żywności i napojów)",
+    "ro": "Sortatori și controlori de calitate pentru produse (exclusiv mâncăruri și băuturi)",
+    "da": "Kvalitetskontrol og testarbejde af produkter (undtagen nærings- og nydelsesmidler)",
+    "nl": "Klasseerders en testers (m.u.v. voedingsmiddelen en dranken)"
+  },
+  "code": "7543",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7543"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7543"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Product graders and testers (excluding foods and beverages) inspect, test, sort, sample and weigh raw materials, manufactured components and non-comestible goods produced or sold, to ensure compliance with quality standards, to identify defects, wear and deviations from specifications, and to grade and classify them according to their quality.\nTasks include -\n(a)  inspecting and testing products, parts and materials for conformity with specifications and standards;\n(b)  grading and classifying natural textile fibres for spinning and winding;\n(c)  discarding or rejecting products, materials and equipment not meeting specifications; \n(d)  analysing and interpreting blueprints, data, manuals and other materials to determine specifications, inspection and testing procedures;\n(e)  notifying supervisors and other personnel of production problems, and assisting in identifying and correcting these problems; \n(f)  recording inspection or test data such as weights, temperatures, grades or moisture content, and quantities inspected or graded; \n(g)  marking items with details such as grade and acceptance or rejection status; \n(h)  measuring dimensions of products using instruments such as rulers, calipers, gauges or micrometers;\n (i)  analysing test data and making computations as necessary to determine test results.\nExamples of the occupations classified here:\n- Product grader\n- Quality inspector\n- Wool classer\nSome related occupations classified elsewhere:\n- Product safety inspector - 3257\n- Food grader - 7515\n- Fur grader - 7531\n- Pelt grader - 7535\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7543&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7543",
+      "title": "Product graders and testers (excluding foods and beverages)"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C754&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C754",
+        "title": "Other craft and related workers",
+        "code": "754"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/43eb6228-8241-47d6-875e-7ccc214291d5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/43eb6228-8241-47d6-875e-7ccc214291d5",
+        "title": "battery test technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b9c80d74-97b6-4a4b-849e-a3908ba57ae1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b9c80d74-97b6-4a4b-849e-a3908ba57ae1",
+        "title": "veneer grader"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/295dbed9-0330-42af-8650-f9296c6eb195&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/295dbed9-0330-42af-8650-f9296c6eb195",
+        "title": "automotive test driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2555a1bc-9f30-4371-9499-64793e48cd55&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2555a1bc-9f30-4371-9499-64793e48cd55",
+        "title": "printed circuit board test technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b2cac4bc-abb7-41b3-a515-2ad006b8ebf6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b2cac4bc-abb7-41b3-a515-2ad006b8ebf6",
+        "title": "control panel tester"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b0ad8659-0410-4b5b-9466-a90f8b3cdac9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b0ad8659-0410-4b5b-9466-a90f8b3cdac9",
+        "title": "product quality controller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/753939ad-b03e-47cd-913b-56f30b5ae8fc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/753939ad-b03e-47cd-913b-56f30b5ae8fc",
+        "title": "product assembly inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cc8f929a-75fa-404d-aa17-3301fb494b4f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cc8f929a-75fa-404d-aa17-3301fb494b4f",
+        "title": "product grader"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/61d9270c-491d-438d-8d41-77ba2e0ef023&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/61d9270c-491d-438d-8d41-77ba2e0ef023",
+        "title": "product quality inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/82d75f3b-644a-4582-ad6b-a2a1833e44cb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/82d75f3b-644a-4582-ad6b-a2a1833e44cb",
+        "title": "non-destructive testing specialist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3a75b477-e151-40fb-9909-b3641401bfed&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3a75b477-e151-40fb-9909-b3641401bfed",
+        "title": "automated optical inspection operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

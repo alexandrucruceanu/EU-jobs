@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2643",
+  "title": "Translators, interpreters and other linguists",
+  "preferredLabel": {
+    "no": "Oversettere",
+    "de": "Übersetzer, Dolmetscher und andere Linguisten",
+    "fi": "Kääntäjät, tulkit ja muut kielitieteilijät",
+    "sv": "Översättare, tolkar och andra språkvetare",
+    "pt": "Tradutores, intérpretes e outros linguistas",
+    "bg": "Писмени преводачи, устни преводачи и други езиковеди",
+    "mt": "Tradutturi, interpreti u lingwisti oħra",
+    "el": "Μεταφραστές, διερμηνείς και άλλοι γλωσσολόγοι",
+    "lt": "Vertėjai raštu, vertėjai žodžiu ir kiti lingvistai",
+    "en": "Translators, interpreters and other linguists",
+    "lv": "Tulkotāji, tulki un citi lingvisti",
+    "hr": "Prevoditelji/prevoditeljice, tumači/tumačiteljice i drugi jezikoslovci/druge jezikoslovke",
+    "it": "Traduttori, interpreti e altri linguisti",
+    "fr": "Traducteurs, interprètes et linguistes",
+    "hu": "Fordítók, tolmácsok és egyéb nyelvészek",
+    "es": "Traductores, intérpretes y lingüistas",
+    "et": "Tõlgid, tõlkijad ja keeleteadlased",
+    "cs": "Překladatelé, tlumočníci a jazykovědci",
+    "sk": "Prekladatelia, tlmočníci a jazykovedci",
+    "sl": "Prevajalci/prevajalke, tolmači/tolmačke in drugi jezikoslovci/druge jezikoslovke",
+    "pl": "Filolodzy i tłumacze",
+    "ro": "Traducători, interpreți și alți lingviști",
+    "da": "Translatørarbejde og andet sprogvidenskabeligt arbejde",
+    "nl": "Vertalers, tolken en andere taalkundigen"
+  },
+  "code": "2643",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2643"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2643"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Translators, interpreters and other linguists translate or interpret from one language into another and study the origin, development and structure of languages.\nTasks include -\n(a)  studying relationships between ancient parent languages and modern language groups, tracing the origin and evolution of words, grammar and language forms, and presenting findings;\n(b)  advising on or preparing language classification systems, grammars, dictionaries and similar materials;\n(c)  translating from one language into another and ensuring that the correct meaning of the original is retained, that legal, technical or scientific works are correctly rendered, and that the phraseology and terminology of the spirit and style of literary works are conveyed as far as possible;\n(d)  developing methods for the use of computers and other instruments to improve productivity and quality of translation;\n(e)  interpreting from a spoken or a signed language into another spoken or signed language, in particular at conferences, meetings and similar occasions, and ensuring that the correct meaning and, as far as possible, the spirit of the original are transmitted;\n(f)  revising and correcting translated material.\nExamples of the occupations classified here:\n- Interpreter\n- Lexicographer\n- Philologist\n- Sign language interpreter\n- Subtitler\n- Translator\n- Translator-reviser\nSome related occupations classified elsewhere:\n- Author - 2641\n- Book editor - 2641\n- Journalist - 2642\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2643&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2643",
+      "title": "Translators, interpreters and other linguists"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C264&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C264",
+        "title": "Authors, journalists and linguists",
+        "code": "264"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a9c7a04d-807a-41b5-b441-87c73c73c9c5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a9c7a04d-807a-41b5-b441-87c73c73c9c5",
+        "title": "linguist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1a07bd7d-2e1d-4930-a84a-1a442b8f2a44&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1a07bd7d-2e1d-4930-a84a-1a442b8f2a44",
+        "title": "translator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/49c3db8c-c586-42d1-9726-f65d8303c0b1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/49c3db8c-c586-42d1-9726-f65d8303c0b1",
+        "title": "lexicographer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/23e692a9-a242-4d4f-988f-ed562f757864&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/23e692a9-a242-4d4f-988f-ed562f757864",
+        "title": "interpreter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9a2147aa-a72f-4f83-8653-c3f50d4e1e73&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9a2147aa-a72f-4f83-8653-c3f50d4e1e73",
+        "title": "sign language interpreter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/757da94f-d1f3-48ad-ac61-74e22bc18cca&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/757da94f-d1f3-48ad-ac61-74e22bc18cca",
+        "title": "graphologist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

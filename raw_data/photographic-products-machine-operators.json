@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8132",
+  "title": "Photographic products machine operators",
+  "preferredLabel": {
+    "de": "Bediener von Anlagen für fotografische Erzeugnisse",
+    "no": "Operatører innen produksjon av fotofilm og -papir mv.",
+    "sv": "Maskinoperatörer, fotografiska produkter",
+    "fi": "Valokuvatuotteiden valmistuksen prosessityöntekijät",
+    "pt": "Operadores de máquinas para o fabrico de produtos fotográficos",
+    "bg": "Машинни оператори в производството на фотографски продукти",
+    "mt": "Operaturi ta’ magni ta’ prodotti fotografiċi",
+    "el": "Χειριστές μηχανών παραγωγής φωτογραφικών προϊόντων",
+    "lt": "Fotografijos gaminių gamybos mašinų operatoriai",
+    "en": "Photographic products machine operators",
+    "hr": "Rukovatelji/rukovateljice strojevima za izradu fotografskih proizvoda",
+    "lv": "Fotoizstrādājumu ražošanas iekārtu operatori",
+    "it": "Conduttori di macchinari per la fabbricazione di prodotti fotografici",
+    "fr": "Conducteurs de machines pour la fabrication des produits photographiques",
+    "hu": "Fényképészeti termékeket gyártó gépek kezelői",
+    "es": "Operadores de máquinas para fabricar productos fotográficos",
+    "et": "Fotograafiatoodete valmistamiseks kasutatavate masinate operaatorid",
+    "cs": "Obsluha strojů a zařízení na výrobu a zpracování fotografických materiálů",
+    "sk": "Operátori zariadení na výrobu fotografických výrobkov",
+    "sl": "Upravljavci/upravljavke naprav za izdelavo fotografskih in mikrofilmskih izdelkov",
+    "pl": "Operatorzy urządzeń do produkcji materiałów światłoczułych i obróbki filmów",
+    "ro": "Operatori la mașini și instalații destinate fabricării produselor fotografice",
+    "da": "Operatørarbejde ved fremstilling af fotografiske produkter",
+    "nl": "Bedieningspersoneel van machines voor de vervaardiging van fotografische producten"
+  },
+  "code": "8132",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8132"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8132"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Photographic products machine operators operate and monitor equipment which makes photographic film and paper, and which processes exposed photographic film and makes prints.\nTasks include -\n(a)  operating and monitoring equipment which makes photographic film and paper;\n(b)  operating, monitoring and testing photographic processing and printing equipment, and maintaining operational standards;\n(c)  preparing exposed film for different processing batches in dark rooms and dark chambers;\n(d)  inspecting images, films and prints, and adjusting settings on printmaking equipment to produce the required colour, brightness, contrast, number, size and type of prints;\n(e)  adjusting settings and running automatic developing equipment;\n(f)  operating equipment to transfer film to videotape or other electronic media;\n(g)  performing photographic processing-related tasks;\n(h)  operating automatic equipment (in retail establishments) to develop colour negatives, prints and slides.\nExamples of occupations classified here:\n- Colour developer (film)\n- Darkroom technician\n- Developing machine operator (photography)\n- Enlarging machine operator\n- Photograph enlarger\n- Photographic film machine operator\n- Photographic film printer\n- Photographic processor\n- Photograph printer\nSome related occupations classified elsewhere:\n- Photographer - 3431\n- Photolithographer - 7321\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8132&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8132",
+      "title": "Photographic products machine operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C813&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C813",
+        "title": "Chemical and photographic products plant and machine operators",
+        "code": "813"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7180a7be-68cd-4636-8c12-706722ad8862&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7180a7be-68cd-4636-8c12-706722ad8862",
+        "title": "photographic developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b4f08f2e-3c97-4484-9094-446a17dad802&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b4f08f2e-3c97-4484-9094-446a17dad802",
+        "title": "motion picture film developer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,83 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2230",
+  "title": "Traditional and complementary medicine professionals",
+  "preferredLabel": {
+    "de": "Akademische und vergleichbare Fachkräfte in der traditionellen und komplementären Medizin",
+    "sv": "Utövare av komplementär och alternativ medicin med särskild kompetens",
+    "fi": "Perinteisen ja vaihtoehtohoidon erityisasiantuntijat",
+    "pt": "Especialistas das medicinas tradicionais e alternativas",
+    "bg": "Специалисти в областта на традиционната и комплементарната медицина",
+    "el": "Επαγγελματίες παραδοσιακής και συμπληρωματικής ιατρικής",
+    "mt": "Professjonisti tal-mediċina tradizzjonali u kumplimentari",
+    "lt": "Tradicinės ir liaudies medicinos specialistai",
+    "en": "Traditional and complementary medicine professionals",
+    "lv": "Tradicionālās un komplimentārās medicīnas vecākie speciālisti",
+    "hr": "Stručnjaci/stručnjakinje za tradicionalnu i komplementarnu medicinu",
+    "it": "Specialisti della medicina tradizionale e complementare",
+    "fr": "Spécialistes des médecines traditionnelles et des médecines complémentaires",
+    "hu": "Hagyományos és alternatív gyógyítók",
+    "es": "Profesionales de medicina tradicional y alternativa",
+    "et": "Rahva- ja alternatiivmeditsiini tippspetsialistid",
+    "cs": "Specialisté v oblasti tradiční a alternativní medicíny",
+    "sk": "Špecialisti v oblasti tradičnej a alternatívnej medicíny",
+    "sl": "Strokovnjaki/strokovnjakinje za tradicionalno in dopolnilno medicino",
+    "pl": "Specjaliści medycyny tradycyjnej i komplementarnej",
+    "ro": "Practicieni de medicină complementară/alternativă",
+    "da": "Arbejde inden for naturmedicin og alternativ behandling",
+    "nl": "Specialisten op het gebied van de traditionele en de alternatieve geneeskunde"
+  },
+  "code": "2230",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2230"
+    },
+    {
+      "datatype": "",
+      "value": "2230"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Traditional and complementary medicine professionals examine patients, prevent and treat illness, disease, injury and other physical and mental impairments and maintain general health in humans by applying knowledge, skills and practices acquired through extensive study of  the theories, beliefs and experiences, originating in specific cultures.\nTasks include - \n(a)  conducting physical examinations of patients and interviewing them and their families to determine their health status; \n(b)  developing and implementing treatment plans for physical, mental and psychosocial ailments using applications such as acupuncture, ayurvedic, homeopathic and herbal medicine;\n(c)  evaluating and documenting patients’ progress through treatment plans;\n(d)  providing health, nutrition and lifestyle advice to individuals, families and communities;\n(e)  prescribing and preparing traditional medicines, such as herbal, plant, mineral and animal extracts, to stimulate the body’s capacity for self-healing; \n(f)  exchanging  information about patients with other health care workers as needed to ensure continuing and comprehensive health care; \n(g)  conducting research into traditional and complementary medicines and treatments and disseminating findings such as through scientific papers and reports.\nExamples of the occupations classified here:\n- Acupuncturist\n- Ayurvedic practitioner\n- Chinese herbal medicine practitioner\n- Homeopath \n- Naturopath\n- Unani practitioner\nSome related occupations classified elsewhere:\n- Chiropractor - 2269\n- Osteopath - 2269\n- Acupuncture technician - 3230\n- Ayurvedic technician - 3230\n- Herbalist - 3230\n- Homeopathy technician - 3230\n- Scraping and cupping therapist - 3230\n- Village healer - 3230\n- Witch doctor - 3230\n- Acupressure therapist - 3255\n- Hydrotherapist - 3255\n- Shiatsu therapist - 3255\n- Faith healer - 3413\nNotes\nOccupations in traditional and complementary medicine for which competent performance requires an extensive understanding of the benefits and applications of traditional and complementary therapies, developed as the result of extended formal study of these techniques as well as human anatomy and elements of modern medicine, are classified in Unit Group 2230: Traditional and Complementary Medicine Professionals.  Those occupations whose practice requires a less extensive understanding based on relatively short periods of formal or informal education and training, or informally through the traditions and practices of the communities where they originated, are included in Unit Group 3230: Traditional and Complementary Medicine Associate Professionals.  Practitioners working in the singular application of approaches to herbal medicines, spiritual therapies or manual therapeutic techniques are excluded from Unit Group 2230.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2230&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2230",
+      "title": "Traditional and complementary medicine professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C223&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C223",
+        "title": "Traditional and complementary medicine professionals",
+        "code": "223"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c2a29b8d-1042-4766-a162-e174c7a77421&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c2a29b8d-1042-4766-a162-e174c7a77421",
+        "title": "complementary therapist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

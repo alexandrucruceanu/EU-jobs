@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5132",
+  "title": "Bartenders",
+  "preferredLabel": {
+    "no": "Bartendere",
+    "de": "Barkeeper",
+    "sv": "Bartendrar",
+    "fi": "Baarimestarit",
+    "pt": "Empregados de bar",
+    "bg": "Бармани",
+    "el": "Μπάρμεν",
+    "mt": "Dawk li jservu x-xorb fil-bars",
+    "lt": "Barmenai",
+    "en": "Bartenders",
+    "lv": "Bārmeņi",
+    "hr": "Barmeni/barmenice",
+    "it": "Baristi",
+    "fr": "Barmen",
+    "hu": "Pultosok",
+    "es": "Camareros de barra",
+    "et": "Baarmenid ja baaridaamid",
+    "cs": "Barmani",
+    "sk": "Barmani",
+    "sl": "Točaji/točajke",
+    "pl": "Barmani",
+    "ro": "Barmani",
+    "da": "Bartenderarbejde",
+    "nl": "Barpersoneel"
+  },
+  "code": "5132",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5132"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5132"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Bartenders prepare, mix and serve alcoholic and non-alcoholic drinks directly to customers over a bar or counter, or through waiters.\nTasks include -\n(a)  taking beverage orders from serving staff or directly from patrons;\n(b)  preparing and serving alcoholic and non-alcoholic drinks at a bar;\n(c)  washing used glassware, cleaning and maintaining bar service areas, tea- and coffee-making areas and equipment such as espresso machines;\n(d)  collecting payment for sales, operating cash registers and balancing cash receipts;\n(e)  tapping kegs and attaching supply lines;\n(f)  assisting in keeping the bar properly stocked and arranging bottles and glasses;\n(g)  checking identification of customers to verify age requirements for purchase of alcohol;\n(h)  taking steps to limit problems related to excessive drinking, such as persuading customers to stop drinking, declining further service or ordering transportation;\n(i)  mixing ingredients to prepare cocktails and other drinks;\n(j)  serving snacks or other food items to customers at the bar.\nExamples of the occupations classified here:\n- Bartender\nSome related occupations classified elsewhere:\n- Café manager - 1412 \n- Restaurant manager - 1412\n- Waiter - 5131\nNotes\nOperators of small cafés, restaurants and bars for whom the management and supervision of staff is not a significant component of the work are classified in Unit Groups 5120: Cooks, 5131: Waiters or 5132: Bartenders, depending on the main tasks performed. \n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5132&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5132",
+      "title": "Bartenders"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C513&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C513",
+        "title": "Waiters and bartenders",
+        "code": "513"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2f5e38a0-6578-4665-bdbd-e2ab505be140&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2f5e38a0-6578-4665-bdbd-e2ab505be140",
+        "title": "bartender"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7522",
+  "title": "Cabinet-makers and related workers",
+  "preferredLabel": {
+    "no": "Møbelsnekkere",
+    "de": "Möbeltischler und verwandte Berufe",
+    "fi": "Huonekalupuusepät ym.",
+    "sv": "Möbelsnickare m.fl.",
+    "pt": "Marceneiros e similares",
+    "bg": "Дърводелци, мебелисти и сродни на тях",
+    "el": "Επιπλοποιοί και ασκούντες συναφή επαγγέλματα",
+    "mt": "Ħaddiema li jagħmlu l-għamara u oħrajn relatati ma’ dan",
+    "lt": "Baldžiai ir susijusių profesijų darbininkai",
+    "en": "Cabinet-makers and related workers",
+    "lv": "Mēbeļu un citu koka izstrādājumu ražotāji",
+    "hr": "Stolari/stolarice i srodna zanimanja",
+    "it": "Ebanisti ed assimilati",
+    "fr": "Ébénistes, menuisiers et assimilés",
+    "hu": "Műbútorasztalosok és hasonló foglalkozásúak",
+    "es": "Ebanistas y afines",
+    "et": "Tislerid jms töölised",
+    "cs": "Truhláři (kromě stavebních) a pracovníci v příbuzných oborech",
+    "sk": "Stolári – výrobcovia výrobkov z dreva",
+    "sl": "Mizarji/mizarke ipd.",
+    "pl": "Stolarze meblowi i pokrewni",
+    "da": "Møbelsnedkerarbejde",
+    "ro": "Ebeniști și asimilați",
+    "nl": "Meubelmakers e.d."
+  },
+  "code": "7522",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7522"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7522"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Cabinet-makers and related workers make, decorate and repair wooden furniture, carts and other vehicles, wheels, parts, fittings, patterns, models and other wooden products using woodworking machines, machine tools and specialized hand tools.\nTasks include -\n(a)  operating woodworking machines such as power saws, jointers, mortisers and shapers, and using hand tools to cut, shape and form parts and components;\n(b)  studying plans, verifying dimensions of articles to be made, or preparing specifications and checking the quality and fit of pieces in order to ensure adherence to specifications; \n(c)  trimming joints and fitting parts and subassemblies together to form complete units using glue and clamps, and reinforcing joints using nails, screws or other fasteners;\n(d)  making, restyling and repairing various wooden articles such as cabinets, furniture, vehicles, scale models, sports equipment and other parts or products;\n(e)  decorating furniture and fixtures by inlaying wood or applying veneer and carving designs;\n(f)  finishing surfaces of wooden articles or furniture.\nExamples of the occupations classified here:\n- Cabinet-maker\n- Cartwright\n- Furniture cabinet-maker\n- Wheelwright\n- Wood patternmaker\nSome related occupations classified elsewhere:\n- Carpenters and joiners - 7115\n- Wood and related products assemblers - 8219\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7522&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7522",
+      "title": "Cabinet-makers and related workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C752&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C752",
+        "title": "Wood treaters, cabinet-makers and related trades workers",
+        "code": "752"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/501a3798-08bf-4475-88d2-0e8c9befb101&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/501a3798-08bf-4475-88d2-0e8c9befb101",
+        "title": "cooper"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6f8f1da1-9160-4b9f-ba30-e3396d3b2f92&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6f8f1da1-9160-4b9f-ba30-e3396d3b2f92",
+        "title": "recreation model maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fb6df00f-4810-442b-8f93-89b9580c7c9f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fb6df00f-4810-442b-8f93-89b9580c7c9f",
+        "title": "furniture finisher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5a551d36-0e14-40ab-84a2-7aa9b37dc528&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5a551d36-0e14-40ab-84a2-7aa9b37dc528",
+        "title": "furniture restorer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e1416610-ad08-4f37-8b46-9f99632a5c0f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e1416610-ad08-4f37-8b46-9f99632a5c0f",
+        "title": "cabinet maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/59088d93-bd71-4fd7-a39e-8cc9dd37dfae&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/59088d93-bd71-4fd7-a39e-8cc9dd37dfae",
+        "title": "antique furniture reproducer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2dc86f3d-a90e-4e7a-8a94-0bd728f22d7b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2dc86f3d-a90e-4e7a-8a94-0bd728f22d7b",
+        "title": "frame maker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

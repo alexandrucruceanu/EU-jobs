@@ -1,0 +1,184 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8131",
+  "title": "Chemical products plant and machine operators",
+  "preferredLabel": {
+    "de": "Bediener von Anlagen und Maschinen für chemische Erzeugnisse",
+    "no": "Operatører innen kjemisk industri",
+    "fi": "Kemianteollisuuden prosessityöntekijät",
+    "sv": "Maskinoperatörer, kemiska och farmaceutiska produkter",
+    "pt": "Operadores de instalações e de máquinas para o fabrico de produtos químicos",
+    "bg": "Машинни оператори в химическото производство",
+    "mt": "Operaturi ta’ impjant u magni ta’ prodotti kimiċi",
+    "el": "Χειριστές εγκαταστάσεων και μηχανών παραγωγής χημικών προϊόντων",
+    "lt": "Chemijos gaminių gamybos įrenginių ir mašinų operatoriai",
+    "en": "Chemical products plant and machine operators",
+    "hr": "Rukovatelji/rukovateljice postrojenjima i strojevima za kemijsku preradu i proizvodnju kemijskih proizvoda",
+    "lv": "Ķīmisko izstrādājumu ražošanas iekārtu un mašīnu operatori",
+    "it": "Conduttori di impianti e macchinari per la fabbricazione di prodotti derivati dalla chimica",
+    "fr": "Conducteurs d’installations et de machines de traitement chimique",
+    "hu": "Vegyipari termékeket gyártó berendezések és gépek kezelői",
+    "es": "Operadores de plantas y máquinas de productos químicos",
+    "et": "Keemiaseadmete ja -masinate operaatorid",
+    "cs": "Obsluha strojů a zařízení pro chemickou výrobu",
+    "sk": "Operátori zariadení na výrobu chemických výrobkov",
+    "sl": "Upravljavci/upravljavke strojev in naprav za proizvodnjo kemičnih izdelkov",
+    "pl": "Operatorzy maszyn i urządzeń do produkcji wyrobów chemicznych",
+    "ro": "Operatori la mașini și instalații destinate fabricării produselor chimice",
+    "da": "Operatørarbejde ved fremstilling af kemiske produkter",
+    "nl": "Bedieningspersoneel van machines en installaties voor de chemische industrie"
+  },
+  "code": "8131",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8131"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8131"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Chemical products plant and machine operators monitor and operate units and machinery to blend, mix, process and package a wide range of chemical products.\nTasks include - \n(a) setting up, starting, controlling, adjusting and stopping machines and plant;\n(b) monitoring reaction processes and transfers of products in conformity with safety procedures; \n(c) monitoring meters, gauges and electronic instrumentation on one or more chemical or formulation units, such as mixers, kettles, blenders, dryers, or tabletting, encapsulation, granulation and coating machines;\n(d) measuring, weighing and loading chemical ingredients following formulation cards;\n(e) making samples and performing routine chemical and physical tests of products and recording production data;\n(f) cleaning and performing minor repairs to machines and plant.\nExamples of the occupations classified here:\n- Candle production machine operator\n- Explosive products machine operator\n- Pharmaceutical and toiletry products machine operator\nSome related occupations classified elsewhere:\n- Chemical processing plant controller - 3133\n- Petroleum and natural gas refining plant operator - 3134\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8131&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8131",
+      "title": "Chemical products plant and machine operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C813&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C813",
+        "title": "Chemical and photographic products plant and machine operators",
+        "code": "813"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0152b59d-5005-470c-9273-ef321477d8dc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0152b59d-5005-470c-9273-ef321477d8dc",
+        "title": "nonwoven filament machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1999bdfa-f9c4-4a0b-8565-0305108ca65e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1999bdfa-f9c4-4a0b-8565-0305108ca65e",
+        "title": "dry house attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3a67544c-919f-4051-b812-c08e69eec3fd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3a67544c-919f-4051-b812-c08e69eec3fd",
+        "title": "plodder operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8f71761e-6fa5-4237-a240-4d0c7feff026&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8f71761e-6fa5-4237-a240-4d0c7feff026",
+        "title": "coking furnace operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/21a42cfb-68c7-4f84-bdd7-81de07a6fff3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/21a42cfb-68c7-4f84-bdd7-81de07a6fff3",
+        "title": "gauger"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c93d58bd-3aa6-4de4-812d-010542f1dec8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c93d58bd-3aa6-4de4-812d-010542f1dec8",
+        "title": "pill maker operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7c64479f-7a76-49e9-ac42-bd925f2bf99d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7c64479f-7a76-49e9-ac42-bd925f2bf99d",
+        "title": "mine control room operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0d61e7e7-afde-49ca-b554-4633842be030&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0d61e7e7-afde-49ca-b554-4633842be030",
+        "title": "lime kiln operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d3382c5a-589f-453d-a6d8-d28695057079&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d3382c5a-589f-453d-a6d8-d28695057079",
+        "title": "fermenter operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c7c3f05b-319b-4aa7-891e-78106f875de2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c7c3f05b-319b-4aa7-891e-78106f875de2",
+        "title": "soap tower operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/30cdbb0a-4f62-4d0e-811c-72e3f95d017b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/30cdbb0a-4f62-4d0e-811c-72e3f95d017b",
+        "title": "nitrator operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5b3ef95b-7d99-4af9-b2d0-41c6bc33f58c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5b3ef95b-7d99-4af9-b2d0-41c6bc33f58c",
+        "title": "chemical mixer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0dae04a4-fa4c-40d3-8518-122cc0f7bfcf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0dae04a4-fa4c-40d3-8518-122cc0f7bfcf",
+        "title": "granulator machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/310ad9e0-ffc9-4980-b47c-1e856a404eff&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/310ad9e0-ffc9-4980-b47c-1e856a404eff",
+        "title": "distillation operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/782ced63-e234-42a4-a7bd-a2d9a12ee61a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/782ced63-e234-42a4-a7bd-a2d9a12ee61a",
+        "title": "capsule filling machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/daa6197d-dba6-49b5-8223-b31b7a126e4e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/daa6197d-dba6-49b5-8223-b31b7a126e4e",
+        "title": "wax bleacher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ff5210a5-2ea9-43b4-bebc-8d565f928eaa&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ff5210a5-2ea9-43b4-bebc-8d565f928eaa",
+        "title": "cosmetics production machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d5ad1da5-cf69-4508-9148-a5338f4ffe0e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d5ad1da5-cf69-4508-9148-a5338f4ffe0e",
+        "title": "perfume production machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/01da600c-ddb3-4a37-95e9-5301b459ae90&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/01da600c-ddb3-4a37-95e9-5301b459ae90",
+        "title": "nitroglycerin separator operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/39e06c20-d262-44f9-a6a8-a0f3ba9e887c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/39e06c20-d262-44f9-a6a8-a0f3ba9e887c",
+        "title": "soap maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bfdc096e-e450-424d-9340-46968047ed68&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bfdc096e-e450-424d-9340-46968047ed68",
+        "title": "nitroglycerin neutraliser"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7542",
+  "title": "Shotfirers and blasters",
+  "preferredLabel": {
+    "de": "Sprengmeister und Sprengbeauftragte",
+    "no": "Skytebaser og sprengningsarbeidere",
+    "fi": "Panostajat ja räjäyttäjät",
+    "sv": "Bergsprängare",
+    "pt": "Carregadores de fogo e dinamitadores",
+    "bg": "Бомбаджии",
+    "el": "Γομωτές και πυροδότες",
+    "mt": "Tiraturi u dawk li jisparaw l-isplussiv",
+    "lt": "Sprogdintojai",
+    "en": "Shotfirers and blasters",
+    "hr": "Mineri/minerice, pirotehničar/pirotehničarke i srodna zanimanja",
+    "lv": "Spridzinātāji",
+    "it": "Brillatori e artificieri",
+    "fr": "Boutefeux",
+    "hu": "Lő- és robbantómesterek",
+    "es": "Dinamiteros y pegadores",
+    "et": "Lõhkajad ja õhkijad",
+    "cs": "Střelmistři",
+    "sk": "Strelmajstri",
+    "sl": "Minerji/minerke ipd.",
+    "pl": "Górnicy strzałowi",
+    "ro": "Artificieri",
+    "da": "Sprængnings- og fyrværkeriarbejde",
+    "nl": "Schietmeesters en schiethouwers"
+  },
+  "code": "7542",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7542"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7542"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Shotfirers and blasters position, assemble and detonate explosives at mining, quarrying and demolition sites.\nTasks include -\n(a)  ensuring that workplace safety and explosives handling, storage and transport procedures and regulations are followed;\n(b)  planning and giving instructions for the layout, depth and diameter of blast holes;\n(c)  checking depth and cleanliness of blast holes;\n(d)  determining quantity and type of explosives to be used;\n(e)  loading explosives into blast holes;\n(f)  assembling, or directing other workers to assemble, primer charges using detonators and explosive cartridges, and attaching electrical wires, fuses and detonating cords to primers;\n(g)  connecting wires, fuses and detonator cords into series, testing electrical circuits and repairing malfunctions, and connecting series to blasting machines;\n(h)  covering charges, filling blast holes with rock dust, sand and other materials, and tamping material to compact charges;\n(i)  ensuring that all explosives are detonated, and reporting and attending to misfires;\n(j)  declaring blast areas safe before and after detonation of explosives;\n(k)  compiling and maintaining records about usage of explosives in compliance with laws and regulations.\nExamples of the occupations classified here:\n- Blaster\n- Powderman\n- Powder monkey\n- Shotfirer\nSome related occupations classified elsewhere:\n- Mining supervisor - 3121\n- Driller (mining) - 8111\n- Driller (oil or gas well) - 8113\n- Mining labourer - 9311\n- Quarry labourer - 9311\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7542&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7542",
+      "title": "Shotfirers and blasters"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C754&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C754",
+        "title": "Other craft and related workers",
+        "code": "754"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2aae7736-f58b-4027-8de4-6884281c3b0b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2aae7736-f58b-4027-8de4-6884281c3b0b",
+        "title": "shotfirer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

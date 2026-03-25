@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7318",
+  "title": "Handicraft workers in textile, leather and related materials",
+  "preferredLabel": {
+    "no": "Vevere",
+    "de": "Kunsthandwerkliche Berufe für Textilien, Leder und verwandte Materialien",
+    "sv": "Konsthantverkare i textil, läder m.m.",
+    "fi": "Tekstiili-, nahka- yms. käsityötuotteiden tekijät",
+    "pt": "Artesãos de artigos em têxteis, couro e materiais similares",
+    "bg": "Майстори занаятчии на изделия от текстил, кожа и сродни материали",
+    "el": "Χειροτέχνες υφάσματος, δέρματος και συναφών υλικών",
+    "mt": "Ħaddiema li jagħmlu l-affarijiet maħduma bl-idejn mit-tessuti, ġild u materjali relatati",
+    "lt": "Amatininkai, gaminantys dirbinius iš tekstilės, odos ir panašių medžiagų",
+    "en": "Handicraft workers in textile, leather and related materials",
+    "lv": "Tekstila, ādas un radniecīgu materiālu mākslas priekšmetu izgatavotāji",
+    "hr": "Izrađivači/izrađivačice tradicijskih proizvoda od tekstila, kože i srodnih materijala",
+    "it": "Artigiani delle lavorazioni dei tessili, del cuoio e simili",
+    "fr": "Métiers de l’artisanat sur textile, sur cuir et sur des matériaux similaires",
+    "hu": "Textil-, bőrművesek és hasonló foglalkozásúak",
+    "es": "Artesanos de los tejidos, el cuero y materiales similares",
+    "et": "Käsitöölised, kes kasutavad tekstiile, nahka jms materjale",
+    "cs": "Řemeslníci pracující s textilem, kůží a příbuznými materiály (tradiční lidová tvorba)",
+    "sk": "Remeselníci spracúvajúci textil, kožu a podobný materiál",
+    "sl": "Izdelovalci/izdelovalke predmetov domače obrti iz tekstilij, usnja in podobnih materialov",
+    "pl": "Rękodzielnicy wytwarzający wyroby z tkanin, skóry i pokrewnych materiałów",
+    "da": "Håndfremstilling af produkter i tekstil, læder og tilsvarende materialer",
+    "ro": "Muncitori calificați în executarea de produse artizanale din textile, piele și materiale similare",
+    "nl": "Ambachtslieden werkend met textiel, leder e.d."
+  },
+  "code": "7318",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7318"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7318"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Handicraft workers in textile, leather and related materials apply traditional techniques and patterns to produce woven fabrics, knitted, embroidered, woven and other garments and articles for household use, as well as traditional footwear, handbags, belts and other accessories.\nTasks include -\n(a)  spinning and dyeing with natural dyestuffs, wool, cotton and other fibres;\n(b)  lace-making, and weaving, knitting or embroidering various garments and articles for household use;\n(c)  preparing and dyeing hides with natural dyestuffs and making traditional footwear or handbags, belts and other accessories;\n(d)  spinning and winding yarn by hand;\n(e)  drawing warp threads into looms by hand;\n(f)  weaving plain or figured cloth, tapestry, lace, carpets or other fabrics on hand looms;\n(g)  making carpets by using a knotting technique;\n(h)  knitting garments and other articles on hand-operated machines or by hand;\n(i)  crocheting or making braid by hand;\n(j)  making nets by hand;\n(k)  grading and classifying natural textile fibres;\n(l)  washing wool fibres;\n(m)  cleaning and fluffing textile fibres;\n(n)  forming fibres into sliver, combing them, combining sliver into sliver laps or forming sliver into rove.\nExamples of the occupations classified here:\n- Carpets handicraft worker\n- Carpet weaver\n- Cloth weaver\n- Knitter\n- Leather handicraft worker\n- Loom threader\n- Textile fibre comber\n- Textile fibre drawer\n- Textile fibre rover\n- Textiles handicraft worker\n- Thread and yarn spinner\n\nSome related occupations classified elsewhere:\n- Textile fibre combing machine operator - 8151\n- Knitting machine operator - 8152\n- Weaving machine operator - 8152\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7318&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7318",
+      "title": "Handicraft workers in textile, leather and related materials"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C731&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C731",
+        "title": "Handicraft workers",
+        "code": "731"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/02375132-3290-4221-bf55-d93ec61a3bf3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/02375132-3290-4221-bf55-d93ec61a3bf3",
+        "title": "weaver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/72d03aad-2003-404e-ae71-a37206e3566b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/72d03aad-2003-404e-ae71-a37206e3566b",
+        "title": "leather goods artisanal worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8b97d85f-4a7a-4908-aa72-9c947c0cb0cd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8b97d85f-4a7a-4908-aa72-9c947c0cb0cd",
+        "title": "carpet handicraft worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b3cd0522-14a9-4e21-a7ee-c9a1f9c0de51&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b3cd0522-14a9-4e21-a7ee-c9a1f9c0de51",
+        "title": "carpet weaver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ebff4fcf-6b69-4290-a55c-9bfe4cc7a1ef&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ebff4fcf-6b69-4290-a55c-9bfe4cc7a1ef",
+        "title": "fishing net maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3562e70c-016c-455c-b949-521a367418a5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3562e70c-016c-455c-b949-521a367418a5",
+        "title": "knitter"
+      }
+    ]
+  },
+  "_embedded": {}
+}

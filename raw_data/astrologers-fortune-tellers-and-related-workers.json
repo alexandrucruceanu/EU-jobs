@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5161",
+  "title": "Astrologers, fortune-tellers and related workers",
+  "preferredLabel": {
+    "no": "Astrologer mv.",
+    "de": "Astrologen, Wahrsager und verwandte Berufe",
+    "fi": "Astrologit, ennustajat ym.",
+    "sv": "Astrologer, siare m.fl.",
+    "pt": "Astrólogos, adivinhadores e similares",
+    "bg": "Астролози, гадатели и сродни на тях",
+    "el": "Αστρολόγοι, μελλοντολόγοι και ασκούντες συναφή επαγγέλματα",
+    "mt": "Astrologi, dawk li jħabbru l-futur u ħaddiema oħra relatati ma’ dan",
+    "lt": "Astrologai, būrėjai ir susijusių profesijų darbuotojai",
+    "en": "Astrologers, fortune-tellers and related workers",
+    "lv": "Astrologi, zīlnieki un tiem radniecīgu profesiju darbinieki",
+    "hr": "Astrolozi/astrologinje i srodna zanimanja",
+    "it": "Astrologi, chiromanti ed assimilati",
+    "fr": "Astrologues, diseurs de bonne aventure et assimilés",
+    "hu": "Asztrológusok, jövendőmondók és hasonló foglalkozások",
+    "es": "Astrólogos, adivinadores y afines",
+    "et": "Astroloogid, ennustajad jms töötajad",
+    "cs": "Astrologové, jasnovidci a pracovníci v příbuzných oborech",
+    "sk": "Astrológovia, jasnovidci a podobní pracovníci",
+    "sl": "Astrologi/astrologinje, vedeževalci/vedeževalke ipd.",
+    "pl": "Astrologowie, wróżbici i pokrewni",
+    "da": "Astrologiarbejde og beslægtede funktioner",
+    "ro": "Astrologi, prezicători și asimilați",
+    "nl": "Astrologen, waarzeggers e.d."
+  },
+  "code": "5161",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5161"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5161"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Astrologers, fortune-tellers and related workers recount past and predict future events in persons’ lives by practicing astrology, on the basis of characteristics of the clients’ palms, samples of playing cards drawn or other techniques.\nTasks include -\n(a)  casting horoscopes of individuals at birth or later to recount past and forecast future events and conditions of their lives; \n(b)  interpreting characteristics of clients’ palms, samples of playing cards, position of tea leaves or coffee remnants in a cup, shapes and patterns of bones of dead animals, etc.;\n(c)  forecasting future events on the basis of these interpretations;\n(d)  determining auspicious times for various human activities such as inaugurations, marriages, journeys and religious and other ceremonies;\n(e) giving warnings and advice on possible courses of action;\n(f)  advising individuals on precautions to be taken to avoid evil influences.\nExamples of the occupations classified here:\n- Astrologer\n- Fortune-teller\n- Numerologist\n- Palmist\nSome related occupations classified elsewhere:\n- Witch doctor - 3230 \n- Faith healer - 3413\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5161&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5161",
+      "title": "Astrologers, fortune-tellers and related workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C516&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C516",
+        "title": "Other personal services workers",
+        "code": "516"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6b0ad7c0-a37f-45c6-a486-ee943a11429e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6b0ad7c0-a37f-45c6-a486-ee943a11429e",
+        "title": "astrologer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fd8b68c0-7341-44bb-855d-9b1254eade33&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fd8b68c0-7341-44bb-855d-9b1254eade33",
+        "title": "psychic"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/31d0e6b8-64ae-4b04-b988-dbee03a4aaa9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/31d0e6b8-64ae-4b04-b988-dbee03a4aaa9",
+        "title": "medium"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a1d0eb6b-20ac-4a2c-a7c1-9b016ea92b24&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a1d0eb6b-20ac-4a2c-a7c1-9b016ea92b24",
+        "title": "fortune teller"
+      }
+    ]
+  },
+  "_embedded": {}
+}

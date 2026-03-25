@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8121",
+  "title": "Metal processing plant operators",
+  "preferredLabel": {
+    "de": "Bediener von Anlagen in der Metallerzeugung und -umformung",
+    "no": "Operatører innen metallurgiske prosessfag",
+    "fi": "Metalliteollisuuden prosessityöntekijät",
+    "sv": "Processoperatörer vid stål- och metallverk",
+    "pt": "Operadores de instalações de transformação de metais",
+    "bg": "Машинни оператори в металургичното производство",
+    "el": "Χειριστές εξοπλισμού επεξεργασίας μεταλλικών προϊόντων",
+    "mt": "Operaturi tal-impjanti tal-ipproċessar tal-metall",
+    "lt": "Metalų perdirbimo ir apdorojimo įrenginių operatoriai",
+    "en": "Metal processing plant operators",
+    "hr": "Rukovatelji/rukovateljice postrojenjima za proizvodnju metala",
+    "lv": "Metāla apstrādes iekārtu operatori",
+    "it": "Conduttori di impianti per la trasformazione dei metalli",
+    "fr": "Conducteurs d’installations de transformation et de traitement des métaux",
+    "hu": "Fémfeldolgozó berendezések kezelői",
+    "es": "Operadores de instalaciones de procesamiento de metales",
+    "et": "Metallitootmisseadmete operaatorid",
+    "cs": "Obsluha zařízení na zpracování kovů",
+    "sk": "Operátori zariadení na spracovanie kovov",
+    "sl": "Upravljavci/upravljavke procesnih strojev za obdelavo kovin",
+    "pl": "Operatorzy maszyn i urządzeń do obróbki metali",
+    "da": "Operatørarbejde ved forarbejdning af metal",
+    "ro": "Operatori la instalațiile de prelucrare a metalelor",
+    "nl": "Bedieningspersoneel van metaalbewerkings- en metaalverwerkingsinstallaties"
+  },
+  "code": "8121",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8121"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8121"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Metal processing plant operators monitor, operate, adjust and maintain single-function process machinery and equipment to process and convert mineral ores and refine, harden, roll and extrude metals.\nTasks include -\n(a)  setting up, preparing and adjusting mineral ore and metal processing machinery to carry out one step in the overall mineral ore or metal processing operation; \n(b)  operating single-function machinery to grind, separate, filter, mix, treat, cast, roll, refine or otherwise process metals and mineral ores; \n(c)  observing gauges, meters, computer printouts, video monitors and products to ensure the correct operation of machines and verify specified processing conditions;\n(d)  adjusting equipment, valves, pumps, controls and process equipment;\n(e)  controlling the preparation, measuring and feeding of raw materials and processing agents into the plant;\n(f)  controlling process start-up and shut-down, troubleshooting and monitoring outside process equipment;\n(g)  verifying equipment for malfunctions, carrying out routine operating tests and arranging for maintenance;\n(h)  analysing sample products, performing tests, recording data and writing production logs.\nExamples of the occupations classified here:\n- Ladle pourer\n- Metal extrusion plant operator\n- Metal heat treating operator\n- Steel roller\nSome related occupations classified elsewhere:\n- Blast furnace operator - 3135\n- Central control caster - 3135\n- Rolling mill control operator - 3135\n- Metal coating machine operator - 8122\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8121&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8121",
+      "title": "Metal processing plant operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C812&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C812",
+        "title": "Metal processing and finishing plant operators",
+        "code": "812"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c2d5daae-8f8a-45b1-8e76-3284b84ce195&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c2d5daae-8f8a-45b1-8e76-3284b84ce195",
+        "title": "spring maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6dbca2aa-f83b-4567-a4e7-b9a21fb948bf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6dbca2aa-f83b-4567-a4e7-b9a21fb948bf",
+        "title": "metal rolling mill operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7664f3e6-b469-4e1a-b52c-8a7ac866eb5a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7664f3e6-b469-4e1a-b52c-8a7ac866eb5a",
+        "title": "wire weaving machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/000e93a3-d956-4e45-aacb-f12c83fedf84&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/000e93a3-d956-4e45-aacb-f12c83fedf84",
+        "title": "metal drawing machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a0f9903e-2ba5-4b9d-bb0a-a8646db15221&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a0f9903e-2ba5-4b9d-bb0a-a8646db15221",
+        "title": "extrusion machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/25206eaa-04da-4fd6-bac7-173d7eb142dc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/25206eaa-04da-4fd6-bac7-173d7eb142dc",
+        "title": "casting machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/57b89801-0e43-4b19-bf29-ef9a51d65155&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/57b89801-0e43-4b19-bf29-ef9a51d65155",
+        "title": "metal annealer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

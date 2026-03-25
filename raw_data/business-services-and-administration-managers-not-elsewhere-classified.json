@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1219",
+  "title": "Business services and administration managers not elsewhere classified",
+  "preferredLabel": {
+    "no": "Andre administrative ledere",
+    "de": "Führungskräfte in der betrieblichen Verwaltung und in unternehmensbezogenen Dienstleistungen, anderweitig nicht genannt",
+    "sv": "Övriga chefer inom företagstjänster och administration",
+    "fi": "Muut hallintojohtajat ja kaupalliset johtajat",
+    "pt": "Directores administrativos e de serviços às empresas não classificados em outra parte",
+    "bg": "Ръководители в бизнес услугите и административните дейности, некласифицирани другаде",
+    "el": "Διευθυντές και ανώτερα διευθυντικά στελέχη επιχειρηματικών υπηρεσιών και διοίκησης π.δ.κ.α.",
+    "mt": "Maniġers tas-servizzi ta’ negozju u amministrazzjoni mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti verslo paslaugų srities ir administracijos vadovai",
+    "en": "Business services and administration managers not elsewhere classified",
+    "lv": "Citur neklasificēti komercpakalpojumu un administrācijas jomas vadītāji",
+    "hr": "Poslovni i administrativni direktori/direktorice d. n.",
+    "it": "Dirigenti nei servizi alle imprese e dell’amministrazione non classificati altrove",
+    "fr": "Directeurs des services administratifs non classés ailleurs",
+    "hu": "Máshová nem sorolható üzleti és igazgatási vezetők",
+    "es": "Directores de administración y servicios no clasificados bajo otros epígrafes",
+    "et": "Põhitegevuse juhid ja haldusdirektorid, mujal liigitamata",
+    "cs": "Vedoucí a řídící pracovníci univerzálních dílčích celků jinde neuvedení",
+    "sk": "Riadiaci pracovníci (manažéri) administratívnych a podporných činností inde neuvedení",
+    "sl": "Upravno-administrativni in poslovni menedžerji, d. n.",
+    "pl": "Kierownicy do spraw obsługi biznesu i zarządzania gdzie indziej niesklasyfikowani",
+    "ro": "Directori de întreprinderi și conducători din domeniul administrativ neclasificați în grupele de bază anterioare",
+    "da": "Ledelse inden for anden forretningsservice og andre administrative funktioner",
+    "nl": "Leidinggevende functies op het gebied van zakelijke diensten en op administratief gebied, niet elders geclassificeerd"
+  },
+  "code": "1219",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1219"
+    },
+    {
+      "datatype": "",
+      "value": "1219"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers business services and administration managers not classified elsewhere in Minor Group 121: Business Services and Administration Managers. For instance, the group includes occupations such as facilities manager, cleaning services manager and administrative services manager employed either as the manager of a department of a large enterprise and organization, or of an enterprise that provides such services to other enterprises and organizations.\nIn such cases tasks would include -\n(a)  providing administrative, strategic planning and operational support, research and advice to senior management on matters such as the management of building facilities and administrative services;\n(b)  developing and managing the organization’s administrative and physical resources;\n(c)  developing and implementing administrative and procedural statements and guidelines for use by staff in the organization; \n(d)  analysing complex resource management issues and initiatives that affect the organization, and  preparing associated reports, correspondence and submissions;\n(e)  providing information and support for the preparation of financial reports and budgets;\n(f)  leading, managing and developing administrative staff to ensure smooth business operations and the provision of accurate and timely information;\n(g)  representing the enterprise or organization in negotiations, and at conventions, seminars, public hearings and forums;\n(h)  establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(i)  planning and directing daily operations;\n(j)  overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n-  Administrative services manager\n-  Cleaning services manager\n-  Corporate services manager\n-  Facilities manager \n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1219&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1219",
+      "title": "Business services and administration managers not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C121&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C121",
+        "title": "Business services and administration managers",
+        "code": "121"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/94e0bedd-e56e-42be-a5a4-b74a260f437c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/94e0bedd-e56e-42be-a5a4-b74a260f437c",
+        "title": "department manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bea99fea-0383-4c63-b944-70d4799de2c5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bea99fea-0383-4c63-b944-70d4799de2c5",
+        "title": "project manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/109e0a5d-203d-4af6-8f70-692111335ec3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/109e0a5d-203d-4af6-8f70-692111335ec3",
+        "title": "quality services manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/680831bb-64fc-4fc8-ae58-c450327d9700&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/680831bb-64fc-4fc8-ae58-c450327d9700",
+        "title": "manufacturing facility manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8b26eec6-7497-4218-8364-9b5983b04ae7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8b26eec6-7497-4218-8364-9b5983b04ae7",
+        "title": "defence administration officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1313aeea-63a9-4b4d-82d1-dbe00ff9ed10&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1313aeea-63a9-4b4d-82d1-dbe00ff9ed10",
+        "title": "corporate social responsibility manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3c136897-4e0e-41ef-bb57-d8152323b93a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3c136897-4e0e-41ef-bb57-d8152323b93a",
+        "title": "business service manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

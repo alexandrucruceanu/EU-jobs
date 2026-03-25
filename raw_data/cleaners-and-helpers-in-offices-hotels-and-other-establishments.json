@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9112",
+  "title": "Cleaners and helpers in offices, hotels and other establishments",
+  "preferredLabel": {
+    "no": "Renholdere i virksomheter",
+    "de": "Reinigungspersonal und Hilfskräfte in Büros, Hotels und anderen Einrichtungen",
+    "fi": "Toimisto- ja laitossiivoojat ym.",
+    "sv": "Hotell- och kontorsstädare m.fl.",
+    "pt": "Pessoal de limpeza e auxiliar, em escritórios, hotéis e outros estabelecimentos",
+    "bg": "Чистачи и помощници в офиси, хотели и други учреждения",
+    "mt": "Ħaddiema li jnaddfu u dawk li jagħtu servizz ta’ għajnuna f’uffiċini, lukandi u stabbilimenti oħra",
+    "el": "Καθαριστές και βοηθοί γραφείων, ξενοδοχείων και άλλων χώρων",
+    "lt": "Biurų, viešbučių ir kitų įstaigų valytojai, kambarinės ir pagalbininkai",
+    "en": "Cleaners and helpers in offices, hotels and other establishments",
+    "hr": "Domaćinska zanimanja u uredima, hotelima i ostalim objektima",
+    "lv": "Biroju, viesnīcu un citu iestāžu apkopēji",
+    "it": "Addetti alle pulizie in uffici, esercizi alberghieri ed altri esercizi",
+    "fr": "Agents d’entretien dans les bureaux, les hôtels et autres établissements",
+    "hu": "Irodai, szállodai és egyéb intézményi takarítók és kisegítők",
+    "es": "Limpiadores y asistentes de oficinas, hoteles y otros establecimientos",
+    "et": "Abilised ning koristajad kodudes, hotellides jms asutustes",
+    "cs": "Uklízeči a pomocníci v kancelářích, hotelích a jiných zařízeních",
+    "sk": "Upratovači a pomocníci v úradoch, hoteloch a podobných zariadeniach",
+    "sl": "Drugi čistilci/druge čistilke, strežniki/strežnice ipd.",
+    "pl": "Sprzątacze biurowi, hotelowi i sprzątacze innych obiektów",
+    "da": "Rengøringsarbejde undtagen i private hjem",
+    "ro": "Personal de serviciu în birouri, hoteluri și alte instituții",
+    "nl": "Schoonmakers in hotels, kantoren e.d."
+  },
+  "code": "9112",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9112"
+    },
+    {
+      "datatype": "",
+      "value": "9112"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Cleaners and helpers in offices, hotels and other establishments perform various cleaning tasks in order to keep clean and tidy the interiors and fixtures of hotels, offices and other establishments, as well as of aircraft, trains, buses and similar vehicles.\nTasks include -\n(a)  sweeping or vacuum cleaning, washing and polishing floors, furniture and other fixtures in buildings, coaches, buses, trams, trains and aircraft;\n(b)  making beds, cleaning bathrooms, supplying towels, soap and related items;\n(c)  cleaning kitchens and generally helping with kitchen work, including dishwashing;\n(d)  picking up rubbish, emptying garbage containers and taking contents to waste areas to removal.\nExamples of the occupations classified here:\n- Aircraft cleaner\n- Hotel cleaner\n- Lavatory attendant\n- Office cleaner\nSome related occupations classified elsewhere:\n- Domestic housekeeper - 5152\n- Building caretaker - 5153\n- Domestic cleaner - 9111\n- Dishwasher - 9412\n- Kitchen helper - 9412\n- Street sweeper - 9613\nNote\nWorkers who perform cleaning and helping tasks only in kitchens and other food preparation areas are classified in Unit Group 9412:  Kitchen Helpers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9112&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9112",
+      "title": "Cleaners and helpers in offices, hotels and other establishments"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C911&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C911",
+        "title": "Domestic, hotel and office cleaners and helpers",
+        "code": "911"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/69e4e877-9d7a-4df0-973b-34defd318e26&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/69e4e877-9d7a-4df0-973b-34defd318e26",
+        "title": "aircraft groomer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1a8bda86-307e-4cc0-a945-ceb678ff1471&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1a8bda86-307e-4cc0-a945-ceb678ff1471",
+        "title": "toilet attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/731ecac4-06e8-4ec2-a559-101fecbd9183&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/731ecac4-06e8-4ec2-a559-101fecbd9183",
+        "title": "room attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/23be4cb6-c5e7-449e-8d76-8edfe9a00478&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/23be4cb6-c5e7-449e-8d76-8edfe9a00478",
+        "title": "furniture cleaner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cb932c74-c13b-47e9-9a85-318bd8eb2f96&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cb932c74-c13b-47e9-9a85-318bd8eb2f96",
+        "title": "train cleaner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/303a1e34-cb16-4054-b323-81e5eec17397&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/303a1e34-cb16-4054-b323-81e5eec17397",
+        "title": "building cleaner"
+      }
+    ]
+  },
+  "_embedded": {}
+}

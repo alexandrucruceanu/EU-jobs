@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2162",
+  "title": "Landscape architects",
+  "preferredLabel": {
+    "de": "Landschaftsarchitekten",
+    "no": "Landskapsarkitekter",
+    "fi": "Maisema-arkkitehdit",
+    "sv": "Landskapsarkitekter",
+    "pt": "Arquitectos paisagistas",
+    "bg": "Ландшафтни архитекти",
+    "mt": "Arkitetti tal-pajsaġġ",
+    "el": "Αρχιτέκτονες τοπίου",
+    "lt": "Kraštovaizdžio architektai",
+    "en": "Landscape architects",
+    "lv": "Ainavu arhitekti",
+    "hr": "Krajobrazni arhitekti/krajobrazne arhitektice",
+    "it": "Paesaggisti",
+    "fr": "Architectes paysagistes",
+    "hu": "Tájépítészek",
+    "es": "Arquitectos paisajistas",
+    "et": "Maastikuarhitektid",
+    "cs": "Zahradní a krajinní architekti",
+    "sk": "Krajinní a záhradní architekti",
+    "sl": "Krajinski arhitekti/krajinske arhitektke",
+    "pl": "Architekci krajobrazu",
+    "da": "Arbejde med landskabsarkitektur",
+    "ro": "Arhitecți în domeniul peisagistic",
+    "nl": "Landschapsarchitecten"
+  },
+  "code": "2162",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2162"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2162"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Landscape architects plan and design landscapes and open spaces for projects such as parks, schools, institutions, roads, external areas for commercial, industrial and residential sites, and plan and monitor their construction, maintenance and rehabilitation.\nTasks include -\n(a)  developing new or improved theories and methods and providing advice on policy related to landscape architecture;\n(b)  inspecting sites and consulting clients, management and other stakeholders to determine type, style and size of proposed buildings, parks, roads and other open spaces;\n(c)  compiling and analysing site and community data about geographical and ecological features, landforms, soils, vegetation, site hydrology, visual characteristics and human-made structures, to formulate land use and development recommendations, feasibility studies and environmental impact statements;\n(d)  preparing reports, strategic plans, site plans, working drawings, specifications and cost estimates for land development, showing location and details of proposals, including ground modelling, structures, vegetation and access;\n(e)  writing specifications and contract documents for use by builders and civil engineering contractors and calling tenders on behalf of clients;\n(f)  making necessary contacts to ensure feasibility of projects regarding style, cost, timing and compliance with regulations;\n(g)  identifying and finding best solutions for problems regarding function and quality of exterior environments and making necessary designs, drawings and plans;\n(h)  monitoring construction or rehabilitation work to ensure compliance with specifications and quality standards;\n(i)  maintaining technical liaison and consultancy with other relevant specialists.\nExample of the occupations classified here:\n- Landscape architect\nSome related occupations classified elsewhere:\n-Building architect - 2161\n- Urban planner - 2164\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2162&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2162",
+      "title": "Landscape architects"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C216&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C216",
+        "title": "Architects, planners, surveyors and designers",
+        "code": "216"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/52207284-2681-40d3-a317-ec81ca1b3e41&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/52207284-2681-40d3-a317-ec81ca1b3e41",
+        "title": "landscape architect"
+      }
+    ]
+  },
+  "_embedded": {}
+}

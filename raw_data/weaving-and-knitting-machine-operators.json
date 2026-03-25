@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8152",
+  "title": "Weaving and knitting machine operators",
+  "preferredLabel": {
+    "no": "Operatører innen tekstilproduksjon mv.",
+    "de": "Bediener von Web-, Strick- und Wirkmaschinen",
+    "fi": "Kutoma- ja neulekoneiden hoitajat",
+    "sv": "Maskinoperatörer, vävning och stickning",
+    "pt": "Operadores de máquinas, de tecer e tricotar",
+    "bg": "Машинни оператори в тъкачното производство",
+    "el": "Χειριστές υφαντικών και πλεκτικών μηχανών",
+    "mt": "Operaturi ta’ magni li jinsġu u jinnittjaw",
+    "lt": "Audimo ir mezgimo mašinų operatoriai",
+    "en": "Weaving and knitting machine operators",
+    "lv": "Aušanas un adīšanas mašīnu operatori",
+    "hr": "Rukovatelji/rukovateljice tkalačkim, pletačkim i sličnim strojevima",
+    "it": "Conduttori di telai meccanici per la tessitura e la maglieria",
+    "fr": "Conducteurs de métiers mécaniques à tisser et à tricoter",
+    "hu": "Szövő- és kötőgépkezelők",
+    "es": "Operadores de telares y otras máquinas tejedoras",
+    "et": "Riide- ja silmuskudumismasinate operaatorid",
+    "cs": "Obsluha tkacích a pletacích strojů",
+    "sk": "Operátori tkacích a pletacích strojov",
+    "sl": "Upravljavci/upravljavke strojev za pletenje, tkanje ipd.",
+    "pl": "Operatorzy maszyn tkackich i dziewiarskich",
+    "da": "Operatørarbejde ved vævning og strikning",
+    "ro": "Operatori la mașini de țesut și tricotat",
+    "nl": "Bedieningspersoneel van weefgetouwen en breimachines"
+  },
+  "code": "8152",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8152"
+    },
+    {
+      "datatype": "",
+      "value": "8152"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Weaving and knitting machine operators set up, operate and monitor weaving and knitting machines which process yarn or thread into woven, non-woven and knitted products such as cloth, lace, carpets, industrial fabric, hosiery and knitted garments, or to quilt and embroider fabric.\nTasks include -\n(a)  setting up and operating batteries of automatic, link-type knitting machines to knit garments of specified pattern and design;\n(b)  threading yarn, thread and fabric through guides, needles and rollers of machines for weaving, knitting or other processing;\n(c)  tending automatic looms that simultaneously weave pile yarn, filling yarn and warp yarn material to produce carpets and rugs with various coloured designs;\n(d)  operating and monitoring looms on which yarn or twist is intersected and knotted at regular intervals to form mesh;\n(e)  operating and monitoring large automatic multi-needle machines to embroider material or to sew lengths of several layers of material to make yard goods, quilts or mattress coverings;\n(f)  tending circular knitting machines with automatic pattern controls that knit seamless hose;\n(g)  operating and monitoring knitting machines to knit hosiery to shape of foot and leg;\n(h)  operating and monitoring machines for knitting heels and toes of socks into ribs or tops cut from circular fabric;\n(i)  operating and monitoring machines which seam openings in toes of socks;\n(j)  operating and monitoring crochet machines to knit lace, trimming, etc. of desired patterns or design;\n(k)  examining looms to determine causes of loom stoppage, such as warp filling, harness breaks or mechanical defects;\n(l)  repairing or replacing worn or defective needles and other components;\n(m)  cleaning, oiling and lubricating machines, using air hoses, cleaning solutions, rags, oil cans and/or grease guns.\nExamples of the occupations classified here:\n- Carpet weaving machine operator\n- Knitting machine operator\n- Net production machine operator\n- Weaving machine operator\nSome related occupations classified elsewhere:\n- Carpet weaver - 7318\n- Cloth weaver - 7318\n- Knitter - 7318\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8152&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8152",
+      "title": "Weaving and knitting machine operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C815&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C815",
+        "title": "Textile, fur and leather products machine operators",
+        "code": "815"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/939e05ea-2589-4e3c-a501-eea2bdd6864a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/939e05ea-2589-4e3c-a501-eea2bdd6864a",
+        "title": "weaving machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2b136e51-154b-4cb2-8130-f73228f14b11&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2b136e51-154b-4cb2-8130-f73228f14b11",
+        "title": "textile machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6da80214-d360-49ec-b1e7-172ab0a0cb0c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6da80214-d360-49ec-b1e7-172ab0a0cb0c",
+        "title": "knitting machine operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

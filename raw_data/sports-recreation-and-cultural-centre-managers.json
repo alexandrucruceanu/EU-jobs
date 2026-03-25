@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1431",
+  "title": "Sports, recreation and cultural centre managers",
+  "preferredLabel": {
+    "de": "Führungskräfte in der Erbringung von Dienstleistungen im Bereich Sport, Erholung und Kultur",
+    "no": "Sports-",
+    "fi": "Urheilu-, vapaa-aika- ja kulttuurikeskusten johtajat",
+    "sv": "Chefer för sport-, fritids- och kulturcenter",
+    "pt": "Directores e gerentes de centros desportivos, recreativos e culturais",
+    "bg": "Ръководители на спортни центрове, центрове за отдих и културни центрове",
+    "mt": "Maniġers ta’ ċentri ta’ sport, mogħdija ta’ żmien u kultura",
+    "el": "Διευθυντές αθλητικών κέντρων, κέντρων αναψυχής και πολιτιστικών κέντρων",
+    "lt": "Sporto, laisvalaikio ir kultūros centrų vadovai",
+    "en": "Sports, recreation and cultural centre managers",
+    "lv": "Sporta, atpūtas un kultūras centru vadītāji",
+    "hr": "Direktori/direktorice športskih, rekreacijskih i kulturnih centara",
+    "it": "Dirigenti di centri per le attività sportive, ricreative e culturali",
+    "fr": "Directeurs et gérants, centres sportifs, centres de loisirs et centres culturels",
+    "hu": "Sport-, rekreációs és kulturális központok vezetői",
+    "es": "Gerentes de centros deportivos, de esparcimiento y culturales",
+    "et": "Spordi-, rekreatsiooni- ja kultuuriasutuste juhid",
+    "cs": "Vedoucí a řídící pracovníci ve sportovních, zábavních a příbuzných zařízeních",
+    "sk": "Riadiaci pracovníci (manažéri) v športových, rekreačných a kultúrnych zariadeniach",
+    "sl": "Menedžerji/menedžerke športnih, rekreativnih centrov in kulturnih zavodov",
+    "pl": "Kierownicy ośrodków sportowych, rekreacyjnych i kulturalnych",
+    "da": "Ledelse af hovedaktiviteten inden for sport, forlystelse og kultur",
+    "ro": "Conducători de centre sportive, recreative și culturale",
+    "nl": "Leidinggevende functies op het gebied van sport en recreatie en bij culturele centra"
+  },
+  "code": "1431",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1431"
+    },
+    {
+      "datatype": "",
+      "value": "1431"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Sports, recreation and cultural centre managers plan, organize and control the operations of establishments that provide sporting, artistic, theatrical and other recreational and amenity services.\nTasks include -\n(a)  planning and organizing the range and mix of entertainment, attractions, cultural activities and sports and fitness programmes to be offered by the centre; \n(b)  ensuring that facilities are kept clean and in good condition;\n(c)  keeping abreast of new trends and developments in the creative arts and arranging theatrical productions and performances by bands and orchestras;\n(d)  advising on the facilities available and promoting publicity in relation to events, shows and activities;\n(e)  checking and keeping custody of all cash receipts and making regular stock checks;\n(f)  establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(g)  planning and directing daily operations;\n(h)  controlling the selection, supervision and performance of staff;\n(i)  ensuring compliance with health and safety regulations.\nExamples of the occupations classified here:\n-  Amusement park manager\n-  Billiards or pool hall manager\n-  Casino manager\n-  Cinema manager\n-  Leisure centre manager\n-  Riding school manager\n-  Sports centre manager\n-  Theatre manager\n-  Theme park manager\n\nSome related occupations classified elsewhere:\n-  Art gallery manager - 1349\n-  Library manager - 1349\n-  Museum manager - 1349\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1431&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1431",
+      "title": "Sports, recreation and cultural centre managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C143&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C143",
+        "title": "Other services managers",
+        "code": "143"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/825ab049-2f0c-4acf-b402-9c6bb51acca2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/825ab049-2f0c-4acf-b402-9c6bb51acca2",
+        "title": "sport facility manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6066ed14-ace3-4352-b656-2b621fd7bc88&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6066ed14-ace3-4352-b656-2b621fd7bc88",
+        "title": "cultural facilities manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/771955d9-e988-47f3-b60f-207adb2cd571&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/771955d9-e988-47f3-b60f-207adb2cd571",
+        "title": "recreational facilities manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

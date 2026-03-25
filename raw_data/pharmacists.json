@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2262",
+  "title": "Pharmacists",
+  "preferredLabel": {
+    "de": "Apotheker",
+    "no": "Farmasøyter",
+    "fi": "Proviisorit",
+    "sv": "Apotekare",
+    "pt": "Farmacêuticos",
+    "bg": "Фармацевти",
+    "mt": "Spiżjara",
+    "el": "Φαρμακοποιοί",
+    "lt": "Vaistininkai",
+    "en": "Pharmacists",
+    "hr": "Farmaceuti/farmaceutkinje",
+    "lv": "Farmaceiti un farmakologi",
+    "it": "Farmacisti",
+    "fr": "Pharmaciens",
+    "hu": "Gyógyszerészek",
+    "es": "Farmacéuticos",
+    "et": "Proviisorid",
+    "cs": "Farmaceuti",
+    "sk": "Farmaceuti",
+    "sl": "Farmacevti/farmacevtke",
+    "pl": "Farmaceuci",
+    "ro": "Farmaciști",
+    "da": "Farmaceutarbejde",
+    "nl": "Apothekers"
+  },
+  "code": "2262",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2262"
+    },
+    {
+      "datatype": "",
+      "value": "2262"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Pharmacists store, preserve, compound and dispense medicinal products and counsel on the proper use and adverse effects of drugs and medicines following prescriptions issued by medical doctors and other health professionals. They contribute to researching, testing, preparing, prescribing and monitoring medicinal therapies for optimizing human health.\nTasks include -\n(a)  receiving prescriptions for medicinal products from medical doctors and other health professionals, checking patients’ medicine histories, and ensuring proper dosage and methods of administration and drug compatibility before dispensing; \n(b)  preparing or supervising the preparation and labelling of liquid medicines, ointments, powders, tablets and other medications to fill prescriptions; \n(c)  providing information and advice to prescribers and clients regarding drug interactions, incompatibility and contraindications, side effects, dosage and proper medication storage; \n(d)  collaborating with other health care professionals to plan, monitor, review, and evaluate the quality and effectiveness of the medicine therapy of individual patients, and the effectiveness of particular drugs or therapies; \n(e)  maintaining prescription files and recording the issue of narcotics, poisons and habit-forming drugs in accordance with legal and professional requirements; \n(f)  storing and preserving vaccines, serums and other drugs subject to deterioration; \n(g)  advising clients on and supplying non-prescription medicines and diagnostic and therapeutic aids for common conditions; \n(h)  supervising and coordinating the work of pharmacy technicians, pharmacy interns and pharmacy sales assistants; \n(i)  conducting research to develop and improve pharmaceuticals, cosmetics and related chemical products; \n(j)  conferring with chemists, engineering professionals and other professionals about manufacturing techniques and ingredients; \n(k)  testing and analysing drugs to determine their identity, purity and strength in relation to specified standards;\n(l)   evaluating labels, packaging and advertising of drug products;\n(m) developing information and risks of particular drugs.\nExamples of the occupations classified here:\n- Dispensing chemist\n- Hospital pharmacist \n- Industrial pharmacist\n- Retail pharmacist\nSome related occupations classified elsewhere:\n- Pharmacologist - 2131\n- Pharmaceutical technician - 3213\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2262&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2262",
+      "title": "Pharmacists"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C226&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C226",
+        "title": "Other health professionals",
+        "code": "226"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7c132147-428b-4ea3-87e1-70f7abb691ce&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7c132147-428b-4ea3-87e1-70f7abb691ce",
+        "title": "pharmacist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,129 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7231",
+  "title": "Motor vehicle mechanics and repairers",
+  "preferredLabel": {
+    "no": "Bilmekanikere",
+    "de": "Kraftfahrzeugmechaniker und -schlosser",
+    "sv": "Motorfordonsmekaniker och motorfordonsreparatörer",
+    "fi": "Moottoriajoneuvojen asentajat ja korjaajat",
+    "pt": "Mecânicos e reparadores de veículos a motor",
+    "bg": "Механици и монтьори на моторни превозни средства",
+    "mt": "Mekkaniċi u dawk li jsewwu vetturi bil-mutur",
+    "el": "Μηχανικοί και επισκευαστές αυτοκίνητων οχημάτων",
+    "lt": "Variklinių transporto priemonių mechanikai ir taisytojai",
+    "en": "Motor vehicle mechanics and repairers",
+    "hr": "Mehaničari/mehaničarke i monteri/monterke motornih vozila",
+    "lv": "Mehānisko transportlīdzekļu mehāniķi un atslēdznieki",
+    "it": "Meccanici e riparatori di veicoli a motore",
+    "fr": "Mécaniciens et réparateurs de véhicules à moteur",
+    "hu": "Gépjárműszerelők és -karbantartók",
+    "es": "Mecánicos y reparadores de vehículos de motor",
+    "et": "Mootorsõidukite mehaanikud ja lukksepad",
+    "cs": "Mechanici a opraváři motorových vozidel",
+    "sk": "Mechanici a opravári motorových vozidiel",
+    "sl": "Mehaniki/mehaničarke in popravljavci/popravljavke motornih vozil in koles",
+    "pl": "Mechanicy pojazdów samochodowych",
+    "da": "Mekanikerarbejde inden for motorkøretøjer",
+    "ro": "Mecanici de autovehicule",
+    "nl": "Automonteurs"
+  },
+  "code": "7231",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7231"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7231"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Motor vehicle mechanics and repairers fit, install, maintain, service and repair engines and the mechanical and related equipment of passenger cars, delivery trucks, motorcycles and other motor vehicles.\nTasks include -\n(a)  detecting and diagnosing faults in engines and parts; \n(b)  fitting, examining, testing and servicing motor vehicle and motorcycle engines;\n(c)  replacing engine components or complete engines;\n(d)  fitting, examining, adjusting, dismantling, rebuilding and replacing defective parts of motor vehicles;\n(e)  installing or adjusting motors and brakes, and adjusting steering or other parts of motor vehicles;\n(f)  installing, adjusting, servicing and replacing mechatronics components of motor vehicles;\n(g)  performing scheduled maintenance services, such as oil changes, lubrications and engine tune-ups, to achieve smoother running of vehicles and ensure compliance with pollution regulations;\n(h)  reassembling engines and parts after being repaired.\nExamples of the occupations classified here:\n- Automotive brakes systems service technician\n- Diesel fitter (road transport)\n- Engine fitter (motor vehicle)\n- Garage mechanic\n- Moped repairer \n- Motorcycle mechanic\n- Motorized rickshaw mechanic \n- Motor vehicle engine and fuel systems service technician\n- Motor vehicle mechanic\n- Motor vehicle mechatronics service technician\n- Motor vehicle repairer\n- Motor vehicle service technician\n- Small engine mechanic\nSome related occupations classified elsewhere:\n- Bicycle repairer - 7234\n- Automotive electrician - 7412\n- Electrical mechanic - 7412\n- Motor vehicle engine assembler - 8211\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7231&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7231",
+      "title": "Motor vehicle mechanics and repairers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C723&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C723",
+        "title": "Machinery mechanics and repairers",
+        "code": "723"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0ec62c2e-30c9-434e-bf36-5277a0840450&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0ec62c2e-30c9-434e-bf36-5277a0840450",
+        "title": "refurbishing technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3b4eb248-6b40-42fe-9d10-cba8ccfe6613&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3b4eb248-6b40-42fe-9d10-cba8ccfe6613",
+        "title": "vehicle maintenance attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b8db7ef4-4057-4e88-8e2a-105b4b59fb67&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b8db7ef4-4057-4e88-8e2a-105b4b59fb67",
+        "title": "automotive brake technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5ab842f6-1f75-4d84-bf41-b8a9799347df&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5ab842f6-1f75-4d84-bf41-b8a9799347df",
+        "title": "coachbuilder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c0749528-ee2a-41bd-a1f6-c13825b5e569&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c0749528-ee2a-41bd-a1f6-c13825b5e569",
+        "title": "roadside vehicle technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/98c429ad-128e-467e-803a-9a6dc1ceed72&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/98c429ad-128e-467e-803a-9a6dc1ceed72",
+        "title": "tyre fitter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4ad4024e-d1d3-4dea-b6d1-2c7948111dce&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4ad4024e-d1d3-4dea-b6d1-2c7948111dce",
+        "title": "vehicle technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/264b00c9-84d0-4dc9-b590-aed2cea2b904&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/264b00c9-84d0-4dc9-b590-aed2cea2b904",
+        "title": "vehicle maintenance supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/24d378d8-1e16-4667-bdb4-1f4a0f2c6379&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/24d378d8-1e16-4667-bdb4-1f4a0f2c6379",
+        "title": "diesel engine mechanic"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/158965f1-bd83-441c-bca8-1975b74dedc5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/158965f1-bd83-441c-bca8-1975b74dedc5",
+        "title": "restoration technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

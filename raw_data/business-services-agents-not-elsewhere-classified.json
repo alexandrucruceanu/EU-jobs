@@ -1,0 +1,134 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3339",
+  "title": "Business services agents not elsewhere classified",
+  "preferredLabel": {
+    "no": "Andre yrker innen forretningstjenester",
+    "de": "Fachkräfte für unternehmensbezogene Dienstleistungen, anderweitig nicht genannt",
+    "sv": "Övriga förmedlare m.fl.",
+    "fi": "Muut liike-elämän asiantuntijat",
+    "pt": "Outros agentes de negócios",
+    "bg": "Посредници в бизнес услугите, некласифицирани другаде",
+    "el": "Πράκτορες παροχής υπηρεσιών σε επιχειρήσεις π.δ.κ.α.",
+    "mt": "Aġenti ta’ servizzi tan-negozju li mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti verslo paslaugų agentai",
+    "en": "Business services agents not elsewhere classified",
+    "lv": "Citur neklasificēti komercpakalpojumu jomas speciālisti",
+    "hr": "Poslovni posrednici/poslovne posrednice d. n.",
+    "it": "Agenti commerciali non classificati altrove",
+    "fr": "Agents de services commerciaux non classés ailleurs",
+    "hu": "Máshová nem sorolható üzleti szolgáltatásokat nyújtók",
+    "es": "Agentes de servicios comerciales no clasificados bajo otros epígrafes",
+    "et": "Äriteenuste agendid, mujal liigitamata",
+    "cs": "Zprostředkovatelé služeb jinde neuvedení",
+    "sk": "Sprostredkovatelia obchodných služieb inde neuvedení",
+    "sl": "Posredniki/posrednice za poslovne storitve, d. n.",
+    "pl": "Agenci usług biznesowych gdzie indziej niesklasyfikowani",
+    "da": "Andet arbejde inden for forretningsservice",
+    "ro": "Agenți de servicii comerciale neclasificați în grupele de bază anterioare",
+    "nl": "Zakelijke dienstverleners, niet elders geclassificeerd"
+  },
+  "code": "3339",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3339"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3339"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers business services agents not classified elsewhere in Minor Group 333: Business Services Agents. For instance, the group includes those who establish business contacts, sell business services such as advertising space in the media, arrange contracts for performances of athletes, entertainers and artists, for the publication of books, the production of plays, or the recording, performance and sale of music, sell property and goods by auction and who design and organize package and group tours.\nIn such cases tasks would include -\n(a) obtaining information about services to be sold and needs of prospective buyers;\n(b)  negotiating contracts on behalf of seller or buyer and explaining terms of sale and payment to client;\n(c)  signing agreements on behalf of seller or buyer and ensuring that the contract is honoured;\n(d)  making sure that the business service purchased is made available to the buyer in the agreed format at the agreed time;\n(e)  selling by auction various kinds of property, cars, commodities, livestock, art, jewellery and other objects.\n(f)  organizing group tours for business or vacation travel and making bulk travel and accommodation bookings.\n\nExamples of the occupations classified here:\n- Advertising salesperson\n- Auctioneer\n- Literary agent\n- Musical performance agent\n- Sports agent\n- Theatrical agent\n- Tour operator\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3339&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3339",
+      "title": "Business services agents not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C333&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C333",
+        "title": "Business services agents",
+        "code": "333"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c85e39a4-2c40-413f-a171-45907ecdd599&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c85e39a4-2c40-413f-a171-45907ecdd599",
+        "title": "talent agent"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4887c8a5-35d3-44c3-be69-346027e485f0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4887c8a5-35d3-44c3-be69-346027e485f0",
+        "title": "hospitality entertainment manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3ae4fd99-814a-4d06-a7db-5ee680c22e26&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3ae4fd99-814a-4d06-a7db-5ee680c22e26",
+        "title": "tourism contract negotiator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2049d7ef-9ebe-41ae-b8b5-e97b77ee58a2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2049d7ef-9ebe-41ae-b8b5-e97b77ee58a2",
+        "title": "relocation officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f5332f2d-3119-4194-8b5c-d0a5d97f55ef&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f5332f2d-3119-4194-8b5c-d0a5d97f55ef",
+        "title": "advertising sales agent"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/35bedc78-1c15-4db7-9c6d-c55e9b5c7b54&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/35bedc78-1c15-4db7-9c6d-c55e9b5c7b54",
+        "title": "venue programmer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1da55a33-09b3-4ac7-818e-2a0fea68cecc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1da55a33-09b3-4ac7-818e-2a0fea68cecc",
+        "title": "publishing rights manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/02609ece-cea3-43fa-bf38-b6fb821f28b2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/02609ece-cea3-43fa-bf38-b6fb821f28b2",
+        "title": "tour operators manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f1ecc3c4-8212-4386-871a-6fda1b5b4d91&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f1ecc3c4-8212-4386-871a-6fda1b5b4d91",
+        "title": "auctioneer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/21ae429f-a152-46a6-a73c-9ec65c7803f0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/21ae429f-a152-46a6-a73c-9ec65c7803f0",
+        "title": "promoter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5a8835bf-65c7-48e3-ab2f-7ad98b3fdb59&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5a8835bf-65c7-48e3-ab2f-7ad98b3fdb59",
+        "title": "intellectual property consultant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

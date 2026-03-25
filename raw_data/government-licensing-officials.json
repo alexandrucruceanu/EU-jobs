@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3354",
+  "title": "Government licensing officials",
+  "preferredLabel": {
+    "de": "Fachkräfte bei staatlichen Pass-, Lizenz- und Genehmigungsstellen",
+    "no": "Saksbehandlere for førerkort",
+    "fi": "Lupavirkamiehet",
+    "sv": "Tillståndsinspektörer",
+    "pt": "Agentes dos serviços de licenças e autorizações",
+    "bg": "Служители в държавната администрация, издаващи разрешителни и лицензии",
+    "mt": "Uffiċjali tal-għoti tal-liċenzji tal-gvern",
+    "el": "Υπάλληλοι χορήγησης κρατικών αδειών",
+    "lt": "Licencijų išdavimo pareigūnai",
+    "en": "Government licensing officials",
+    "lv": "Valsts licencēšanas speciālisti",
+    "hr": "Referenti/referentice za koncesije, dozvole i srodna zanimanja",
+    "it": "Agenti dei servizi pubblici di permessi e licenze",
+    "fr": "Agents des services publics accordant des permis et des licences",
+    "hu": "Hatósági engedélyezési ügyintézők",
+    "es": "Agentes de servicios de expedición de licencias y permisos",
+    "et": "Litsentsi- ja passiametnikud",
+    "cs": "Pracovníci veřejné správy vydávající různá povolení",
+    "sk": "Štátni úradníci v oblasti udeľovania licencií",
+    "sl": "Referenti/referentke za koncesije, dovoljenja ipd.",
+    "pl": "Urzędnicy organów udzielających licencji",
+    "ro": "Inspectori guvernamentali în licențe, permise și autorizații",
+    "da": "Udstedelse af pas, kørekort o.l.",
+    "nl": "Ambtenaren: vergunningen"
+  },
+  "code": "3354",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3354"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3354"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Government licensing officials examine applications for licences to export or import goods, set up businesses, build houses or other structures or to obtain passports, determine eligibility of applications for issuing licences or passports, and identify specific conditions or restrictions to be attached to licences issued, referring exceptional or important cases to senior government officials or managers.\nTasks include -\n(a)  advising individuals on government laws and regulations concerning the type of licence required and the conditions attached to such licences, and on the public’s rights and obligations;\n(b)  examining applications and relevant documents and determining whether a licence can be granted and the conditions which should be attached;\n(c)  examining applications and approving the issue of passports;\n(d)  performing related administrative tasks to process applications, document activities, evaluations and determinations, and to prepare correspondence to inform applicants of licensing decisions;\n(e)  administering and scoring tests required to license applicants.\nExamples of the occupations classified here:\n- Building permit (licensing) officer \n- Business permit (licensing) officer\n- Licensing officer\n- Passport officer (issuing) \nSome related occupations classified elsewhere:\n- Building inspector - 3112 \n- Fire inspector - 3112\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3354&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3354",
+      "title": "Government licensing officials"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C335&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C335",
+        "title": "Regulatory government associate professionals",
+        "code": "335"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/aaf732b5-ee19-4c82-a08f-700fb98f5ca7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/aaf732b5-ee19-4c82-a08f-700fb98f5ca7",
+        "title": "passport officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/39c89133-bd2a-45db-b3eb-529b94daeeaf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/39c89133-bd2a-45db-b3eb-529b94daeeaf",
+        "title": "licensing officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e19fe26f-0759-4bb1-af71-5bbecf3df69f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e19fe26f-0759-4bb1-af71-5bbecf3df69f",
+        "title": "immigration adviser"
+      }
+    ]
+  },
+  "_embedded": {}
+}

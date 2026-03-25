@@ -1,0 +1,119 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3341",
+  "title": "Office supervisors",
+  "preferredLabel": {
+    "no": "Arbeidsledere for kontorpersonell",
+    "de": "Sekretariatsleiter",
+    "fi": "Toimistotyön esimiehet",
+    "sv": "Arbetsledare för kontorspersonal",
+    "pt": "Chefe de escritório",
+    "bg": "Офис мениджъри",
+    "mt": "Superviżuri tal-uffiċċju",
+    "el": "Επόπτες γραφείου",
+    "lt": "Įstaigų tarnautojų prižiūrėtojai",
+    "en": "Office supervisors",
+    "hr": "Voditelji/voditeljice ureda",
+    "lv": "Biroja vadītāji",
+    "it": "Capiufficio",
+    "fr": "Superviseurs, travail de bureau",
+    "hu": "Irodavezetők",
+    "es": "Supervisores de secretaría",
+    "et": "Kabinettide esindajad",
+    "cs": "Vedoucí administrativních agend",
+    "sk": "Supervízori v administratíve",
+    "sl": "Vodje pisarne",
+    "pl": "Kierownicy biura",
+    "da": "Kontorledere",
+    "ro": "Coordonatori de birou",
+    "nl": "Kantoorchefs"
+  },
+  "code": "3341",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3341"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3341"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Office supervisors supervise and coordinate the activities of workers in Major Group 4: Clerical Support Workers.\nTasks include -\n (a)  coordinating, assigning and reviewing the work of clerks engaged in the following duties: word processing, record keeping and filing, operating telephones and switchboards; data entry, desktop publishing and other activities involving general office and administrative skills; \n(b)  establishing work schedules and procedures and coordinating activities with other work units or departments;\n(c)  resolving work-related problems and preparing and submitting progress and other reports; \n(d)  training and instructing employees in job duties, safety procedures and company policies, or arranging for training to be provided; \n(e)  evaluating employees’ job performance and conformity with  regulations, and recommending appropriate personnel action; \n(f)  assisting in recruitment, interviewing and selection of employees.\nExamples of the occupations classified here:\n- Clerical supervisor\n- Data entry supervisor \n- Filing clerks supervisor \n- Personnel clerks supervisor\nSome related occupations classified elsewhere:\n- Medical records unit supervisor - 3252\nNotes\nWorkers who supervise the activities of clerical support workers in law offices and legal departments are classified in Unit Group 3342: Legal Secretaries. Those who supervise the activities of clerical support workers in health facilities where the work requires specialist knowledge related to health and medicine, such as processing medical records and hospital admission details, are classified in Unit Group 3344: Medical Secretaries.  Those who provide direct secretarial and administrative support to a manager or professional, (except legal and health professionals) and also supervise the activities of clerical support workers are classified in Unit Group 3343: Administrative and Executive Secretaries.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3341&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3341",
+      "title": "Office supervisors"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C334&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C334",
+        "title": "Administrative and specialised secretaries",
+        "code": "334"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6aa78e46-ce22-421f-8a75-e915ac63c9d0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6aa78e46-ce22-421f-8a75-e915ac63c9d0",
+        "title": "call centre supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/30ca97f4-a4fd-4189-a781-ac08f6b09b78&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/30ca97f4-a4fd-4189-a781-ac08f6b09b78",
+        "title": "call centre analyst"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/580c98d4-fb97-4597-864c-54140f058f1b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/580c98d4-fb97-4597-864c-54140f058f1b",
+        "title": "call centre quality auditor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/dd25a2b0-add0-4ae2-bd85-bb644e0d0c39&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/dd25a2b0-add0-4ae2-bd85-bb644e0d0c39",
+        "title": "call centre manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0deaceea-69d8-4304-bc80-0b3d0491a241&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0deaceea-69d8-4304-bc80-0b3d0491a241",
+        "title": "field survey manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6e6839b6-099c-4802-906e-7f2c8203ee69&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6e6839b6-099c-4802-906e-7f2c8203ee69",
+        "title": "office manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/af355ac4-dd89-44df-99a6-bba70202d6fe&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/af355ac4-dd89-44df-99a6-bba70202d6fe",
+        "title": "data entry supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9d2aae3e-cbfe-409f-86cc-7cef9cd0435a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9d2aae3e-cbfe-409f-86cc-7cef9cd0435a",
+        "title": "contact centre supervisor"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2659",
+  "title": "Creative and performing artists not elsewhere classified",
+  "preferredLabel": {
+    "de": "Bildende und darstellende Künstler, anderweitig nicht genannt",
+    "no": "Andre utøvende kunstneriske yrker",
+    "sv": "Övriga konstnärer, skådespelare m.fl.",
+    "fi": "Muut taiteilijat",
+    "pt": "Outros artistas criativos e das artes do espectáculo",
+    "bg": "Творци и изпълнители, некласифицирани другаде",
+    "mt": "Artisti kreattivi u li jagħtu spettaklu li mhumiex ikklassifikati x’imkien ieħor",
+    "el": "Καλλιτέχνες εν γένει π.δ.κ.α.",
+    "lt": "Kitur nepriskirti kūrybiniai darbuotojai ir atlikėjai",
+    "en": "Creative and performing artists not elsewhere classified",
+    "hr": "Produktivni i reproduktivni umjetnici d. n.",
+    "lv": "Citur neklasificēti mākslinieki radošo un izpildītājmākslu jomā",
+    "it": "Specialisti in discipline artistico-espressive non classificati altrove",
+    "fr": "Artistes créateurs et exécutants non classés ailleurs",
+    "hu": "Máshová nem sorolható képző- és előadó-művészek",
+    "es": "Artistas creativos e interpretativos no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata loomingulised töötajad",
+    "cs": "Výkonní umělci jinde neuvedení",
+    "sk": "Tvoriví a interpretační umelci inde neuvedení",
+    "sl": "Umetniški ustvarjalci, poustvarjalci/umetniške ustvarjalke, poustvarjalke, d. n.",
+    "pl": "Twórcy i artyści sceniczni gdzie indziej niesklasyfikowani",
+    "da": "Andet arbejde med kunst og kreative fag",
+    "ro": "Artiști creatori și actori neclasificați în grupele de bază anterioare",
+    "nl": "Scheppende en uitvoerende kunstenaars, niet elders geclassificeerd"
+  },
+  "code": "2659",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2659"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2659"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers all creative and performing artists not classified elsewhere in Minor Group 265: Creative and Performing Artists. For instance, the group includes clowns, magicians, acrobats and other performing artists.\nIn such cases tasks would include -\n(a)  performing amusing antics and telling funny stories;\n(b)  performing tricks of illusion and sleight of hand, and feats of hypnotism;\n(c)  performing difficult and spectacular acrobatics, and gymnastic or juggling feats;\n(d)  training and performing with animals.\nExamples of the occupations classified here:\n- Acrobat\n- Aerialist\n- Clown\n- Hypnotist\n- Magician\n- Puppeteer\n- Stand-up comedian\n- Ventriloquist\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2659&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2659",
+      "title": "Creative and performing artists not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C265&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C265",
+        "title": "Creative and performing artists",
+        "code": "265"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8cc90646-fc23-445f-a95f-e28e6b5d5a05&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8cc90646-fc23-445f-a95f-e28e6b5d5a05",
+        "title": "tourist animator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/080bce18-066b-4431-90ed-e07608f73fe0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/080bce18-066b-4431-90ed-e07608f73fe0",
+        "title": "street artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a655aff1-e5e9-4c64-bc85-b902568a3dfb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a655aff1-e5e9-4c64-bc85-b902568a3dfb",
+        "title": "performance artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4efdf62f-a1d9-450e-aebc-2d6a6110f05d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4efdf62f-a1d9-450e-aebc-2d6a6110f05d",
+        "title": "community artist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

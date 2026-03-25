@@ -1,0 +1,149 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7233",
+  "title": "Agricultural and industrial machinery mechanics and repairers",
+  "preferredLabel": {
+    "de": "Landmaschinen- und Industriemaschinenmechaniker und -schlosser",
+    "no": "Anleggsmaskin- og industrimekanikere",
+    "sv": "Underhållsmekaniker och maskinreparatörer",
+    "fi": "Maatalous- ja teollisuuskoneasentajat ja -korjaajat",
+    "pt": "Mecânicos e reparadores de máquinas agrícolas e industriais",
+    "bg": "Механици и монтьори на промишлени и селскостопански машини и оборудване",
+    "mt": "Mekkaniċi u dawk li jsewwu magni agrikoli u industrijali",
+    "el": "Μηχανικοί και επισκευαστές γεωργικών και βιομηχανικών μηχανημάτων",
+    "lt": "Pramonės ir žemės ūkio mašinų mechanikai ir taisytojai",
+    "en": "Agricultural and industrial machinery mechanics and repairers",
+    "lv": "Lauksaimniecības un rūpniecības mašīnu mehāniķi un atslēdznieki",
+    "hr": "Mehaničari/mehaničarke i monteri/monterke industrijskih i ostalih strojeva i srodna zanimanja",
+    "it": "Meccanici e riparatori di macchinari agricoli e industriali",
+    "fr": "Mécaniciens et réparateurs de machines agricoles et industrielles",
+    "hu": "Mezőgazdasági és iparigép-szerelők és -karbantartók",
+    "es": "Mecánicos y reparadores de máquinas agrícolas e industriales",
+    "et": "Põllumajandus- ja tööstusmasinate mehaanikud ning lukksepad",
+    "cs": "Mechanici a opraváři zemědělských, průmyslových a jiných strojů a zařízení",
+    "sk": "Mechanici a opravári poľnohospodárskych a priemyselných strojov",
+    "sl": "Mehaniki/mehaničarke in popravljavci/popravljavke industrijskih in drugih strojev ipd.",
+    "pl": "Mechanicy maszyn i urządzeń rolniczych i przemysłowych",
+    "ro": "Mecanici de mașini agricole și industriale",
+    "da": "Mekanikerarbejde, landbrugs- og industrimaskiner",
+    "nl": "Monteurs industriële en landbouwmachines"
+  },
+  "code": "7233",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7233"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7233"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Agricultural and industrial machinery mechanics and repairers fit, install, examine, service and repair engines, agricultural and industrial machinery and mechanical equipment, except motor vehicle, aircraft and electric motors.\nTasks include -\n(a)  fitting, installing, examining, servicing and repairing engines, machinery and mechanical equipment;\n(b)  oiling and greasing stationary engines and machinery;\n(c)  inspecting and testing new machinery and mechanical equipment for conformity with standards and specifications;\n(d)  disassembling machinery and equipment to remove parts and make repairs;\n(e)  examining parts for defects such as breakage and excessive wear;\n(f)  operating newly repaired machinery and equipment to verify the adequacy of repairs;\n(g)  recording repairs and maintenance performed.\nExamples of the occupations classified here:\n- Construction machinery mechanic\n- Construction machinery repairer\n- Farm machinery repairer\n- Mining machinery fitter\n- Mining machinery repairer\n- Stationary engine fitter\n- Stationary engine repairer\n- Train engine fitter\n- Train engine repairer\nSome related occupations classified elsewhere:\n- Air conditioning equipment mechanic - 7127\n- Electrical mechanic - 7412\n- Mechanical machinery assembler - 8211\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7233&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7233",
+      "title": "Agricultural and industrial machinery mechanics and repairers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C723&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C723",
+        "title": "Machinery mechanics and repairers",
+        "code": "723"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/00c8d1cf-24f2-47d1-9f10-765e1c102811&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/00c8d1cf-24f2-47d1-9f10-765e1c102811",
+        "title": "land-based machinery technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b0480558-269d-4903-9bc7-f390cd6a6964&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b0480558-269d-4903-9bc7-f390cd6a6964",
+        "title": "construction equipment technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2aa7fbbb-f06e-4454-8ff8-2d799e86ba51&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2aa7fbbb-f06e-4454-8ff8-2d799e86ba51",
+        "title": "textile machinery technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/955ae83a-4d91-4db8-a5d6-bd489e5058df&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/955ae83a-4d91-4db8-a5d6-bd489e5058df",
+        "title": "mining equipment mechanic"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/599c2ce9-0e1b-4f63-9d65-1f19b3847efb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/599c2ce9-0e1b-4f63-9d65-1f19b3847efb",
+        "title": "forge equipment technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/23eddde2-5e8b-4953-b275-cdc864e6d976&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/23eddde2-5e8b-4953-b275-cdc864e6d976",
+        "title": "greaser"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/24119471-6ca1-465b-8f48-b2aec5c60869&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/24119471-6ca1-465b-8f48-b2aec5c60869",
+        "title": "rotating equipment mechanic"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5aff8b2a-298a-456d-957a-274c774e8523&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5aff8b2a-298a-456d-957a-274c774e8523",
+        "title": "moulding machine technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/88589d68-b870-440e-8444-32e9935cbbbc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/88589d68-b870-440e-8444-32e9935cbbbc",
+        "title": "marine mechanic"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/53c7756d-4114-4c7f-90b0-26717f458ac5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/53c7756d-4114-4c7f-90b0-26717f458ac5",
+        "title": "pneumatic systems technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0b6e1a0d-63fe-42d4-8dff-2ff187a9fea9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0b6e1a0d-63fe-42d4-8dff-2ff187a9fea9",
+        "title": "fluid power technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/269c47e7-9017-4aa6-bce8-49e89a696a64&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/269c47e7-9017-4aa6-bce8-49e89a696a64",
+        "title": "industrial machinery mechanic"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6b46ea2f-403a-473c-b2e5-9fcf0c2bd634&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6b46ea2f-403a-473c-b2e5-9fcf0c2bd634",
+        "title": "fisheries assistant engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d051a141-92cd-4800-b0ee-6c8c31ea5838&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d051a141-92cd-4800-b0ee-6c8c31ea5838",
+        "title": "crane technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

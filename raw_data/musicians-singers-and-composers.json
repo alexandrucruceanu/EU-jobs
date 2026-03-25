@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2652",
+  "title": "Musicians, singers and composers",
+  "preferredLabel": {
+    "de": "Musiker, Sänger und Komponisten",
+    "no": "Dirigenter",
+    "sv": "Musiker, sångare och kompositörer",
+    "fi": "Muusikot, laulajat ja säveltäjät",
+    "pt": "Músicos, cantores e compositores",
+    "bg": "Музиканти, певци и композитори",
+    "el": "Μουσικοί, τραγουδιστές και συνθέτες",
+    "mt": "Mużiċisti, kantanti u kompożituri",
+    "lt": "Muzikantai, dainininkai ir kompozitoriai",
+    "en": "Musicians, singers and composers",
+    "hr": "Glazbeni umjetnici/glazbene umjetnice, pjevači/pjevačice i skladatelji/skladateljice",
+    "lv": "Mūziķi, dziedātāji un komponisti",
+    "it": "Musicisti, cantanti e compositori",
+    "fr": "Compositeurs, musiciens et chanteurs",
+    "hu": "Zenészek, énekesek és zeneszerzők",
+    "es": "Músicos, cantantes y compositores",
+    "et": "Muusikud, lauljad ja heliloojad",
+    "cs": "Hudebníci, zpěváci a skladatelé",
+    "sk": "Hudobníci, speváci a skladatelia",
+    "sl": "Glasbeniki/glasbenice, pevci/pevke, skladatelji/skladateljice",
+    "pl": "Muzycy, śpiewacy i kompozytorzy",
+    "ro": "Muzicieni, cântăreți și compozitori",
+    "da": "Kunstnerisk arbejde inden for musik og sang",
+    "nl": "Musici, zangers en componisten"
+  },
+  "code": "2652",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2652"
+    },
+    {
+      "datatype": "",
+      "value": "2652"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Musicians, singers and composers write, arrange, conduct and perform musical compositions.\nTasks include -\n(a)  creating melodic, harmonic and rhythmic structures to express ideas and emotions in musical form;\n(b)  translating ideas and concepts into standard musical signs and symbols for reproduction and performance;\n(c)  adapting or arranging music for particular instrumental or vocal groups, instruments or occasions;\n(d)  conducting instrumental or vocal groups;\n(e)  selecting music for performances and assigning instrumental parts to musicians;\n(f)  playing one or more musical instruments as a soloist or as a member of an orchestra or a musical group;\n(g)  singing as a soloist or as a member of a vocal group or other band;\n(h)  practising and rehearsing to maintain a high standard of performance.\nExamples of the occupations classified here:\n- Band leader\n- Composer\n- Instrumentalist\n- Music conductor \n- Night club musician\n- Night club singer\n- Orchestrator\n- Singer\n- Street musician\n- Street singer\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2652&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2652",
+      "title": "Musicians, singers and composers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C265&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C265",
+        "title": "Creative and performing artists",
+        "code": "265"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/13d8b1be-d711-4bbc-a45e-cad605162f41&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/13d8b1be-d711-4bbc-a45e-cad605162f41",
+        "title": "music director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d23fbcdc-d5e9-4724-a83f-99a0cfa8adb0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d23fbcdc-d5e9-4724-a83f-99a0cfa8adb0",
+        "title": "répétiteur"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f6803a58-91d9-4251-9a07-09fc387cec16&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f6803a58-91d9-4251-9a07-09fc387cec16",
+        "title": "musician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7dc05fcc-b079-45ed-b5d4-74c75f99976c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7dc05fcc-b079-45ed-b5d4-74c75f99976c",
+        "title": "composer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

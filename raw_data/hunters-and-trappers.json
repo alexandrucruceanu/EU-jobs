@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C6224",
+  "title": "Hunters and trappers",
+  "preferredLabel": {
+    "no": "Fangstfolk",
+    "de": "Jäger und Fallensteller",
+    "sv": "Jägare",
+    "fi": "Riistanhoitajat ja metsästäjät",
+    "pt": "Caçadores qualificados e utilizadores de armadilhas",
+    "bg": "Ловци и трапери",
+    "mt": "Kaċċaturi u nassaba",
+    "el": "Κυνηγοί και παγιδευτές θηραμάτων",
+    "lt": "Medžiotojai",
+    "en": "Hunters and trappers",
+    "hr": "Lovci/lovkinje, stupičari/stupičarke i srodna zanimanja",
+    "lv": "Mednieki",
+    "it": "Cacciatori",
+    "fr": "Chasseurs et trappeurs",
+    "hu": "Vadászok és vadbefogók",
+    "es": "Cazadores y tramperos",
+    "et": "Jahimehed ja karusnahakütid",
+    "cs": "Kvalifikovaní pracovníci v oblasti myslivosti",
+    "sk": "Poľovníci a lovci",
+    "sl": "Lovci/lovke ipd.",
+    "pl": "Myśliwi i traperzy",
+    "ro": "Lucrători în domeniul vânătorii",
+    "da": "Jagtarbejde",
+    "nl": "Jagers en vallenzetters"
+  },
+  "code": "6224",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "6224"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "6224"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Hunters and trappers catch and kill mammals, birds or reptiles mainly for meat, skin, feathers and other products for sale or delivery on a regular basis to wholesale buyers, marketing organizations or at markets.\nTasks include -\n(a)  setting traps to catch mammals, birds or reptiles;\n(b)  killing trapped or free mammals, birds or reptiles with firearms or other weapons;\n(c)  skinning and otherwise treating killed mammals, birds or reptiles to obtain desired products for sale or delivery;\n(d)  delivering or selling trapped live mammals, birds or reptiles;\n(e)  repairing and maintaining equipment.\nExamples of the occupations classified here:\n- Fur trapper\n- Seal hunter\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6224&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C6224",
+      "title": "Hunters and trappers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C622&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C622",
+        "title": "Fishery workers, hunters and trappers",
+        "code": "622"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c8ee41fc-7a5f-4255-adbd-dcc47cf2a28e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c8ee41fc-7a5f-4255-adbd-dcc47cf2a28e",
+        "title": "hunter"
+      }
+    ]
+  },
+  "_embedded": {}
+}

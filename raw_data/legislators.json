@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1111",
+  "title": "Legislators",
+  "preferredLabel": {
+    "no": "Politikere",
+    "de": "Angehörige gesetzgebender Körperschaften",
+    "fi": "Lainsäätäjät",
+    "sv": "Politiker",
+    "pt": "Membros dos corpos legislativos",
+    "bg": "Законодатели",
+    "el": "Μέλη των νομοθετικών σωμάτων",
+    "mt": "Leġiżlaturi",
+    "lt": "Teisės aktų leidėjai",
+    "en": "Legislators",
+    "lv": "Likumdevēji",
+    "hr": "Zakonodavci/zakonodavke",
+    "it": "Membri dell’esecutivo e dei corpi legislativi",
+    "fr": "Membres des corps législatifs",
+    "hu": "Törvényhozók",
+    "es": "Miembros del poder legislativo",
+    "et": "Seadusandjad",
+    "cs": "Představitelé zákonodárné a výkonné moci",
+    "sk": "Zákonodarcovia a ústavní činitelia",
+    "sl": "Zakonodajalci/zakonodajalke",
+    "pl": "Parlamentarzyści",
+    "da": "Øverste ledelse i lovgivende myndigheder",
+    "ro": "Legislatori, membri ai executivului",
+    "nl": "Leden van wetgevende lichamen"
+  },
+  "code": "1111",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1111"
+    },
+    {
+      "datatype": "",
+      "value": "1111"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Legislators determine, formulate and direct policies of national, state, regional or local governments and international governmental agencies, and make, ratify, amend or repeal laws, public rules and regulations. They include elected and non-elected members of parliaments, councils and governments.\nTasks include -\n(a)  presiding over or participating in the proceedings of legislative bodies and administrative councils of national, state, regional or local governments or legislative assemblies;\n(b)  determining, formulating and directing policies of national, state, regional or local governments;\n(c)  making, ratifying, amending or repealing laws, public rules and regulations within a statutory or constitutional framework;\n(d)  serving on government administrative boards or official committees;\n(e)  investigating matters of concern to the public and promoting the interests of the constituencies which they represent;\n(f)  attending community functions and meetings to provide service to the community, understand public opinion and provide information on government plans;\n(g)  negotiating with other legislators and representatives of interest groups in order to reconcile differing interests, and to create policies and agreements;\n(h)  as members of the government, directing senior administrators and officials of government departments and agencies in the interpretation and implementation of government policies.\nExamples of the occupations classified here:\n-  City councillor\n-  Government minister\n-  Mayor\n-  Member of parliament\n-  President (government)\n-  Secretary of state\n-  Senator\n-  State governor\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1111&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1111",
+      "title": "Legislators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C111&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C111",
+        "title": "Legislators and senior officials",
+        "code": "111"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d63789ac-74b5-40e3-b890-685513c38e12&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d63789ac-74b5-40e3-b890-685513c38e12",
+        "title": "provincial governor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5bca96fd-4203-400b-be58-9e9b50bc98da&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5bca96fd-4203-400b-be58-9e9b50bc98da",
+        "title": "member of parliament"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0ee67d5e-8de9-48f0-97c5-ba23d486b1e9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0ee67d5e-8de9-48f0-97c5-ba23d486b1e9",
+        "title": "secretary of state"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/73c3f018-71ce-4dc1-abdd-14cea7873717&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/73c3f018-71ce-4dc1-abdd-14cea7873717",
+        "title": "senator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7226c10f-701b-4711-8843-140aace12c6f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7226c10f-701b-4711-8843-140aace12c6f",
+        "title": "city councillor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6cee3765-2b3b-48b0-af2b-1eb512d071fd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6cee3765-2b3b-48b0-af2b-1eb512d071fd",
+        "title": "mayor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/404a50e9-61ce-448d-a695-bbfc697a0727&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/404a50e9-61ce-448d-a695-bbfc697a0727",
+        "title": "government minister"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7212",
+  "title": "Welders and flamecutters",
+  "preferredLabel": {
+    "de": "Schweißer und Brennschneider",
+    "no": "Sveisere",
+    "sv": "Svetsare och gasskärare",
+    "fi": "Hitsaajat ja kaasuleikkaajat",
+    "pt": "Soldadores e maçariqueiros",
+    "bg": "Заварчици и резачи на метал",
+    "el": "Συγκολλητές και φλογοκόπτες μετάλλων",
+    "mt": "Ħaddiema li jiwweldjaw u jaqtgħu bl-użu tan-nar",
+    "lt": "Suvirintojai",
+    "en": "Welders and flamecutters",
+    "lv": "Metinātāji un griezēji",
+    "hr": "Zavarivači/zavarivačice i srodna zanimanja",
+    "it": "Saldatori e tagliatori a fiamma",
+    "fr": "Soudeurs et oxycoupeurs",
+    "hu": "Hegesztők és lángvágók",
+    "es": "Soldadores y oxicortadores",
+    "et": "Keevitajad ja leeklõikajad",
+    "cs": "Svářeči, řezači plamenem a páječi",
+    "sk": "Zvárači a rezači plameňom",
+    "sl": "Varilci/varilke ipd.",
+    "pl": "Spawacze i pokrewni",
+    "da": "Svejsearbejde og skærebrænding",
+    "ro": "Sudori și debitatori autogeni",
+    "nl": "Lassers en snijders"
+  },
+  "code": "7212",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7212"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7212"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Welders and flame cutters weld and cut metal parts using gas flame, electric arc and other sources of heat to melt and cut, or to melt and fuse metal.\nTasks include -\n(a)  welding metal parts using gas flame, or an electric arc, thermite compound or other methods;\n(b)  operating resistance-welding machines;\n(c)  using blowtorches to make and repair lead linings, pipes, floors and other lead fixtures;\n(d)  brazing metal parts together;\n(e)  cutting metal pieces using gas flame or an electric arc; \n(f)  joining metal parts by hand soldering;\n(g)  monitoring the fitting, burning and welding processes to avoid overheating of parts or warping, shrinking, distortion or expansion of material;\n(h)  examining work pieces for defects and measuring work pieces with straight edges or templates to ensure conformity with specifications.\nExamples of the occupations classified here:\n- Brazier\n- Flame cutter\n- Welder\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7212&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7212",
+      "title": "Welders and flamecutters"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C721&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C721",
+        "title": "Sheet and structural metal workers, moulders and welders, and related workers",
+        "code": "721"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cdef4961-fcc2-4e00-bfe8-4480b33aa6f3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cdef4961-fcc2-4e00-bfe8-4480b33aa6f3",
+        "title": "welding coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7aedaa07-3884-4c5b-88f9-80997b2aa54b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7aedaa07-3884-4c5b-88f9-80997b2aa54b",
+        "title": "welder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6d72138d-2ebb-4a89-b2b2-8c22365b89bf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6d72138d-2ebb-4a89-b2b2-8c22365b89bf",
+        "title": "brazier"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/17b29190-6746-4b81-a1d1-8053a5bbc0e9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/17b29190-6746-4b81-a1d1-8053a5bbc0e9",
+        "title": "solderer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

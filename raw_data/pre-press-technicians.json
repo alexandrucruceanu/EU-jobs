@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7321",
+  "title": "Pre-press technicians",
+  "preferredLabel": {
+    "no": "Førtrykkere",
+    "de": "Techniker in der Druckvorstufe",
+    "sv": "Prepressoperatörer",
+    "fi": "Painopinnanvalmistajat",
+    "pt": "Técnicos de pré-impressão",
+    "bg": "Техници в предпечатната подготовка",
+    "mt": "Tekniċi tal-bidu tal-proċess",
+    "el": "Τεχνικοί προεκτύπωσης",
+    "lt": "Spausdinimo formų surinkėjai ir paruošėjai",
+    "en": "Pre-press technicians",
+    "lv": "Burtliči",
+    "hr": "Slagari/slagarke",
+    "it": "Tecnici prestampa",
+    "fr": "Compositeurs et préparateurs en forme imprimante et assimilés",
+    "hu": "Nyomtatás-előkészítéssel foglalkozó technikusok",
+    "es": "Cajistas, tipógrafos y afines",
+    "et": "Ladujad, küljendajad jms töölised",
+    "cs": "Pracovníci přípravy tisku",
+    "sk": "Technici pri príprave tlače",
+    "sl": "Stavci/stavke",
+    "pl": "Pracownicy przy pracach przygotowawczych do druku",
+    "ro": "Zețari și linotipiști",
+    "da": "Prepress-arbejde og grafisk formfremstilling",
+    "nl": "Prepresstechnici"
+  },
+  "code": "7321",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7321"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7321"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Pre-press technicians proof, format, set and compose text and graphics into a form suitable for use in various printing processes and representation in other visual media.\nTasks include -\n(a)  operating graphic cameras and other photographic equipment to reproduce camera-ready copy onto films, plates and digital output devices; \n(b)  using computer applications to generate images, text, layouts and impositions for print and other visual media displays;\n(c)  operating plate-making equipment to reproduce images from film to printing plates, digital output devices and presses;\n(d)  operating computer screen-based equipment for scanning, colour separation, colour correction, masking, creative design, combining, imposing, retouching, and other processes used to transfer copy to film and produce film for plate, digital output and cylinder productions;\n(e)  carrying out digital and chemical proofing from digital systems, and negative and positive films;\n(f)  evaluating printed proofs, checking and correcting them for quality;\n(g)  preparing and exposing carbon tissue for laying on cylinders by transfer method, and developing images.\nExamples of the occupations classified here:\n- Compositor\n- Desktop publishing operator\n- Electronic pre-press technician\n- Photogravurist\n- Photolithographer\n- Plate mounter (screen printing)\n- Plate maker (printing)\n- Screen maker\n- Typesetter\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7321&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7321",
+      "title": "Pre-press technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C732&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C732",
+        "title": "Printing trades workers",
+        "code": "732"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/54ffd31f-ed90-4af4-b877-cd246351ad39&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/54ffd31f-ed90-4af4-b877-cd246351ad39",
+        "title": "prepress technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

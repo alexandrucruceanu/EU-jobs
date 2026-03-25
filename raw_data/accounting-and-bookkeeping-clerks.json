@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4311",
+  "title": "Accounting and bookkeeping clerks",
+  "preferredLabel": {
+    "de": "Bürokräfte im Rechnungswesen und in der Buchhaltung",
+    "no": "Regnskapsmedarbeidere",
+    "sv": "Bokförings- och redovisningsassistenter",
+    "fi": "Taloushallinnon toimistotyöntekijät",
+    "pt": "Empregados, de contabilidade e escrituração comercial",
+    "bg": "Служители, водещи счетоводни сметки и документи",
+    "el": "Υπάλληλοι λογιστηρίου και τήρησης λογιστικών βιβλίων",
+    "mt": "Skrivani fil-qasam tal-kontabilità u l-irreġistrar tal-kotba",
+    "lt": "Apskaitos ir buhalterijos tarnautojai",
+    "en": "Accounting and bookkeeping clerks",
+    "lv": "Uzskaites un grāmatvedības darbinieki",
+    "hr": "Službenici/službenice u knjigovodstvu",
+    "it": "Aiuto contabili",
+    "fr": "Aides comptables et teneurs de livres",
+    "hu": "Számviteli és könyvelési nyilvántartók",
+    "es": "Empleados de contabilidad y cálculo de costos",
+    "et": "Arve- ja raamatupidamisametnikud",
+    "cs": "Úředníci v oblasti účetnictví",
+    "sk": "Administratívni pracovníci v účtovníctve",
+    "sl": "Uradniki/uradnice v računovodstvu in knjigovodstvu",
+    "pl": "Pracownicy rachunkowości i księgowości",
+    "ro": "Funcționari în servicii de evidență contabilă",
+    "da": "Almindeligt regnskabs- og bogføringsarbejde",
+    "nl": "Boekhoudkundige medewerkers"
+  },
+  "code": "4311",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "4311"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4311"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Accounting and bookkeeping clerks compute, classify, and record numerical data to keep financial records complete. They perform any combination of routine calculating, posting and verifying duties to obtain primary financial data for use in maintaining accounting records.\nTasks include -\n(a)  checking figures, postings and documents for correct entry, mathematical accuracy and proper codes; \n(b)  operating computers programmed with accounting software to record, store and analyse information;\n(c)  classifying, recording and summarizing numerical and financial data to compile and keep financial records, using journals and ledgers or computers; \n(d)  calculating, preparing and issuing bills, invoices, account statements and other financial statements according to established procedures. \n(e)  compiling statistical, financial, accounting or auditing reports and tables pertaining to such matters as cash receipts, expenditures, accounts payable and receivable, and profits and losses.\nExamples of the occupations included here:\n- Accounts clerk \n- Bookkeeping clerk \n- Cost computing clerk\nSome related occupations classified elsewhere:\n- Accounting assistant - 3313\n- Bookkeeper - 3313\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4311&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4311",
+      "title": "Accounting and bookkeeping clerks"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C431&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C431",
+        "title": "Numerical clerks",
+        "code": "431"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bafbc672-0ad9-41af-9de8-db0c91a24f9b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bafbc672-0ad9-41af-9de8-db0c91a24f9b",
+        "title": "billing clerk"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5c1eba1e-7820-4287-9746-4c5906320100&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5c1eba1e-7820-4287-9746-4c5906320100",
+        "title": "sales support assistant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4132",
+  "title": "Data entry clerks",
+  "preferredLabel": {
+    "no": "Dataregistrere",
+    "de": "Datenerfasser",
+    "fi": "Tallentajat",
+    "sv": "Dataregistrerare",
+    "pt": "Operadores de registo de dados",
+    "bg": "Оператори по въвеждане на данни",
+    "mt": "Skrivani tal-ġbir tad-dejta",
+    "el": "Χειριστές μηχανών εισαγωγής δεδομένων",
+    "lt": "Duomenų įvesties operatoriai",
+    "en": "Data entry clerks",
+    "hr": "Službenici/službenice za unos podataka",
+    "lv": "Datu ievadīšanas operatori",
+    "it": "Addetti all’inserimento dati",
+    "fr": "Opérateurs sur clavier numérique",
+    "hu": "Adatrögzítők",
+    "es": "Grabadores de datos",
+    "et": "Andmesisestajad",
+    "cs": "Pracovníci pro zadávání dat",
+    "sk": "Operátori dát",
+    "sl": "Vnašalci/vnašalke podatkov",
+    "pl": "Operatorzy wprowadzania danych",
+    "da": "Dataregistreringsarbejde",
+    "ro": "Operatori introducere date",
+    "nl": "Gegevensinvoerders"
+  },
+  "code": "4132",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4132"
+    },
+    {
+      "datatype": "",
+      "value": "4132"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Data entry clerks enter coded, statistical, financial and other numerical data into electronic equipment, computerized databases, spreadsheets or other data repositories using a keyboard, mouse, or optical scanner, speech recognition software or other data entry tools. They enter data into mechanical and electronic devices to perform mathematical calculations.\nTasks include -\n(a)  receiving and registering invoices, forms, records and other documents for data capture;\n(b)  entering numerical data, codes and text from source material into computer-compatible storage and processing devices;\n(c)  verifying accuracy and completeness of data and correcting entered data, if needed;\n(d)  operating bookkeeping and calculating machines; \n(e)  importing and exporting data between different database systems and software.\nExamples of the occupations classified here:\n- Data entry operator\n- Data input clerk  \n- Payment entry clerk\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4132&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4132",
+      "title": "Data entry clerks"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C413&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C413",
+        "title": "Keyboard operators",
+        "code": "413"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6353b3e8-e8f2-4ecb-b230-186927139892&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6353b3e8-e8f2-4ecb-b230-186927139892",
+        "title": "data entry clerk"
+      }
+    ]
+  },
+  "_embedded": {}
+}

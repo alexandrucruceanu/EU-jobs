@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2267",
+  "title": "Optometrists and ophthalmic opticians",
+  "preferredLabel": {
+    "de": "Optometristen und Orthoptisten",
+    "no": "Ergoterapeuter",
+    "sv": "Optiker",
+    "fi": "Optometrian erityisasiantuntijat",
+    "pt": "Optometristas e ópticos oftálmicos",
+    "bg": "Оптометристи и оптици",
+    "mt": "Optometristi u esperti tal-viżta oftalmiċi",
+    "el": "Οπτομέτρες και οπτικοί που εξετάζουν την όραση (οφθαλμολόγοι οπτικοί)",
+    "lt": "Optometrijos specialistai ir optikai",
+    "en": "Optometrists and ophthalmic opticians",
+    "lv": "Optometristi un redzes korekciju optiķi",
+    "hr": "Optometristi/optometristice i očni optičari/očne optičarke",
+    "it": "Optometristi e oftalmologi",
+    "fr": "Optométristes",
+    "hu": "Optometristák",
+    "es": "Optometristas",
+    "et": "Optometristid ja optikud",
+    "cs": "Specialisté v oblasti optiky a optometrie",
+    "sk": "Špecialisti v oftalmológii",
+    "sl": "Optometristi/optometristke in očesni optiki/očesne optičarke",
+    "pl": "Optometryści",
+    "ro": "Optometriști și opticieni",
+    "da": "Optiker/optometristarbejde",
+    "nl": "Optometristen en orthoptisten"
+  },
+  "code": "2267",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2267"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2267"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Optometrists and ophthalmic opticians provide diagnosis, management and treatment services for disorders of the eyes and visual system. They counsel on eye care and prescribe optical aids or other therapies for visual disturbance.\nTasks include -\n(a)  examining patients’ eyes and conducting diagnostic tests to assess ocular health and determine the nature and extent of vision problems and abnormalities;\n(b)  testing visual function using specialized instruments and equipment for measuring visual acuity and refractive error, function of visual pathways, visual fields, eye movements, freedom of vision and intraocular pressure;\n(c)  detecting, diagnosing and managing eye disease, including prescribing medications for treatment; \n(d)  consulting with and referring patients to ophthalmologists or other health professionals if additional medical treatment is necessary;\n(e)  detecting and diagnosing eye movement disorders and defects of binocular function, and planning and managing treatment programmes, including counselling patients in eye exercises to coordinate movement and focusing of eyes;\n(f)  prescribing corrective eyeglasses, contact lenses and other vision aids, and checking optical devices for performance, safety, comfort and lifestyle;\n(g)  advising on visual health matters such as contact lens care, vision care for the elderly, optics, visual ergonomics, and occupational and industrial eye safety.\nExamples of the occupations classified here:\n- Ophthalmic optician \n- Optometrist \n- Orthoptist\nSome related occupations classified elsewhere:\n- Ophthalmologist - 2212\n- Dispensing optician - 3254\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2267&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2267",
+      "title": "Optometrists and ophthalmic opticians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C226&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C226",
+        "title": "Other health professionals",
+        "code": "226"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/771244bf-b204-4e7f-8b25-ee523ae7b791&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/771244bf-b204-4e7f-8b25-ee523ae7b791",
+        "title": "orthoptist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bffbe18a-cb8b-4f90-bd87-7505cd3b16f5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bffbe18a-cb8b-4f90-bd87-7505cd3b16f5",
+        "title": "optometrist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

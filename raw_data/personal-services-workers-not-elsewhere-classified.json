@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5169",
+  "title": "Personal services workers not elsewhere classified",
+  "preferredLabel": {
+    "no": "Andre personlige tjenesteytere",
+    "de": "Berufe im Bereich personenbezogener Dienstleistungen, anderweitig nicht genannt",
+    "sv": "Övrig servicepersonal, personliga tjänster",
+    "fi": "Muualla luokittelemattomat henkilökohtaisen palvelun työntekijät",
+    "pt": "Outro pessoal dos serviços pessoais, n.e.",
+    "bg": "Друг обслужващ персонал, некласифициран другаде",
+    "mt": "Ħaddiema tas-servizzi tal-persunal li mhumiex ikklassifikati x’imkien ieħor",
+    "el": "Απασχολούμενοι στην παροχή προσωπικών υπηρεσιών π.δ.κ.α.",
+    "lt": "Kitur nepriskirti paslaugų asmenims darbuotojai",
+    "en": "Personal services workers not elsewhere classified",
+    "hr": "Uslužna zanimanja, d. n.",
+    "lv": "Citur neklasificēti individuālo pakalpojumu jomas darbinieki",
+    "it": "Professioni nei servizi alle persone non classificati altrove",
+    "fr": "Personnel des services directs aux particuliers, non classé ailleurs",
+    "hu": "Máshová nem sorolható személyi szolgáltatási foglalkozásúak",
+    "es": "Trabajadores de servicios personales no clasificados bajo otros epígrafes",
+    "et": "Inimestele teenuseid osutavad isikud, mujal liigitamata",
+    "cs": "Pracovníci v oblasti osobních služeb jinde neuvedení",
+    "sk": "Ostatní pracovníci v osobných službách inde neuvedení",
+    "sl": "Poklici za osebne storitve, d. n.",
+    "pl": "Pracownicy usług osobistych gdzie indziej niesklasyfikowani",
+    "da": "Servicearbejde ikke klassificeret andetsteds",
+    "ro": "Lucrători în domeniul serviciilor personale neclasificați în grupele de bază anterioare",
+    "nl": "Verleners van persoonlijke diensten, niet elders geclassificeerd"
+  },
+  "code": "5169",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5169"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5169"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers personal service workers not classified elsewhere in Sub-major Group 51: Personal Services Workers. For instance, those who provide services and companionship as dancing partners, social escorts and night-club hostesses or hosts are classified here.\nIn such cases tasks would include -\n(a)  accompanying clients to restaurants and other outings;\n(b)  acting as a dancing partner;\n(c)  welcoming clients to a night-club and ensuring that they are entertained well.\nExamples of the occupations classified here:\n- Club host\n- Club hostess\n- Dancing partner\n- Social escort\nSome related occupations classified elsewhere:\n- Companion - 5162\nNote\nCountries that have a requirement to compile statistics on those who provide sexual services to clients on a commercial basis should include them in Unit Group 5169: Personal Services Workers Not Elsewhere Classified. If there is a need, in national adaptations of ISCO-08, to identify this group separately from other occupations included in Unit Group 5169, use of Unit Group code 5168 is recommended for this purpose.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5169&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5169",
+      "title": "Personal services workers not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C516&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C516",
+        "title": "Other personal services workers",
+        "code": "516"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f84aae41-28cc-4aa0-a0df-e7c3030516fd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f84aae41-28cc-4aa0-a0df-e7c3030516fd",
+        "title": "dating service consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/db20c08e-819e-4410-91e2-6ac06add4e27&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/db20c08e-819e-4410-91e2-6ac06add4e27",
+        "title": "escort"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d1fc31d2-38e1-4000-85b7-3f82d2fbed9e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d1fc31d2-38e1-4000-85b7-3f82d2fbed9e",
+        "title": "club host/club hostess"
+      }
+    ]
+  },
+  "_embedded": {}
+}

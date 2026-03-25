@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7119",
+  "title": "Building frame and related trades workers not elsewhere classified",
+  "preferredLabel": {
+    "de": "Baukonstruktions- und verwandte Berufe, anderweitig nicht genannt",
+    "no": "Andre bygningsarbeidere",
+    "fi": "Muut rakennustyöntekijät",
+    "sv": "Övriga byggnads- och anläggningsarbetare",
+    "pt": "Outros trabalhadores qualificados da construção das estruturas básicas e similares",
+    "bg": "Строители на сгради и сродни на тях, некласифицирани другаде",
+    "mt": "Ħaddiema involuti fil-bini tal-oqfsa tad-djar u dawk involuti fi snajja’ relatati",
+    "el": "Κτίστες και ασκούντες συναφή επαγγέλματα π.δ.κ.α.",
+    "lt": "Kitur nepriskirti statybininkai montuotojai ir susijusių profesijų darbininkai",
+    "en": "Building frame and related trades workers not elsewhere classified",
+    "hr": "Zidari/zidarice i srodna građevinska zanimanja d.n.",
+    "lv": "Citur neklasificēti būvnieki un radniecīgo profesiju strādnieki",
+    "it": "Operai addetti alla costruzione di strutture edili ed assimilati non classificati altrove",
+    "fr": "Métiers qualifiés du bâtiment (gros œuvre) et assimilés non classés ailleurs",
+    "hu": "Máshová nem sorolható épületszerkezet-szerelők és hasonló foglalkozásúak",
+    "es": "Oficiales y operarios de la construcción (obra gruesa) y afines no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata üldehitustöölised",
+    "cs": "Řemeslníci a kvalifikovaní pracovníci hlavní stavební výroby a v příbuzných oborech jinde neuvedení",
+    "sk": "Kvalifikovaní stavební robotníci a remeselníci inde neuvedení",
+    "sl": "Gradbinci/gradbinke ipd., d. n.",
+    "pl": "Robotnicy budowlani robót stanu surowego gdzie indziej niesklasyfikowani",
+    "da": "Andet bygningsarbejde — basis",
+    "ro": "Muncitori constructori și asimilați neclasificați în grupele de bază anterioare",
+    "nl": "Bouwarbeiders ruwbouw, niet elders geclassificeerd"
+  },
+  "code": "7119",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7119"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7119"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers building frame and related trades workers not classified elsewhere in Minor Group 711: Building Frame and Related Trades Workers. For instance, the unit group includes steeplejacks, scaffolders and demolition workers.\nIn such cases tasks would include -\n(a)  climbing and performing miscellaneous construction and building maintenance work on tall structures such as towers, chimneys and spires;\n(b)  erecting temporary metal or wooden scaffolding on building sites;\n(c)  demolishing buildings and other structures.\nExamples of the occupations classified here:\n- Building wrecker\n- Prefabricated building assembler\n- Scaffolder\n- Skilled demolition worker\n- Steeplejack\nSome related occupations classified elsewhere:\n- Construction labourer (building work) - 9313\n- Demolition labourer - 9313\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7119&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7119",
+      "title": "Building frame and related trades workers not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C711&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C711",
+        "title": "Building frame and related trades workers",
+        "code": "711"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ac7c07d1-bc11-4f19-bca5-e468e9b1a53c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ac7c07d1-bc11-4f19-bca5-e468e9b1a53c",
+        "title": "steeplejack"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18fa8080-3156-429a-bbd7-b3ef559b6721&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/18fa8080-3156-429a-bbd7-b3ef559b6721",
+        "title": "construction scaffolder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/95da5e1b-cc1e-46bd-96c4-81d4f7003080&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/95da5e1b-cc1e-46bd-96c4-81d4f7003080",
+        "title": "manufactured wooden building assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/dd89e26f-bb5c-45cb-91c6-8b4d5d82a31f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/dd89e26f-bb5c-45cb-91c6-8b4d5d82a31f",
+        "title": "demolition worker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

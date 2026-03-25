@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3213",
+  "title": "Pharmaceutical technicians and assistants",
+  "preferredLabel": {
+    "no": "Reseptarer",
+    "de": "Pharmazeutisch-technische Assistenten",
+    "sv": "Receptarier",
+    "fi": "Farmaseutit",
+    "pt": "Técnicos e assistentes, farmacêuticos",
+    "bg": "Помощник-фармацевти",
+    "el": "Τεχνικοί και βοηθοί φαρμακοποιών",
+    "mt": "Tekniċi u assistenti farmaċewtiċi",
+    "lt": "Farmacijos technikai ir vaistininkų padėjėjai",
+    "en": "Pharmaceutical technicians and assistants",
+    "lv": "Farmācijas speciālisti un asistenti",
+    "hr": "Farmaceutski tehničari/farmaceutske tehničarke",
+    "it": "Tecnici e assistenti farmaceutici",
+    "fr": "Techniciens et assistants pharmaciens et préparateurs en pharmacie",
+    "hu": "Gyógyszerésztechnikusok és -asszisztensek",
+    "es": "Técnicos y asistentes farmacéuticos",
+    "et": "Farmatseudid",
+    "cs": "Farmaceutičtí asistenti",
+    "sk": "Farmaceutickí laboranti",
+    "sl": "Farmacevtski tehniki, asistenti/farmacevtske tehnice, asistentke",
+    "pl": "Technicy farmaceutyczni",
+    "ro": "Tehnicieni și asistenți de farmacie",
+    "da": "Arbejde inden for farmaci på mellemniveau",
+    "nl": "Farmaceutisch technici en apothekersassistenten"
+  },
+  "code": "3213",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3213"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3213"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Pharmaceutical technicians and assistants perform a variety of tasks associated with dispensing medicinal products under the guidance of a pharmacist or other health professional.\nTasks include - \n(a)  preparing medications and other pharmaceutical compounds under the guidance of a pharmacist or other health professional;\n(b)  dispensing medicines and drugs to clients and giving written and oral instructions on their use, as prescribed by medical doctors, veterinarians or other health professionals;\n(c)  receiving prescriptions or refill requests from health professionals and verifying that information is complete and accurate according to medical record-keeping standards;\n(d)  maintaining proper storage and security conditions for drugs;\n(e)  filling and labelling containers with prescribed medications;\n(f)  assisting clients by answering questions, locating items or referring them to a pharmacist for medication information; \n(g)  pricing and filing prescriptions that have been filled and establishing and maintaining patient records, including lists of medications taken by individual patients;\n(h)  ordering, labelling, and counting stocks of medications, chemicals and supplies, and entering inventory data into record-keeping systems;\n(i)  cleaning and preparing equipment and containers used to prepare and dispense medicines and pharmaceutical compounds.\nExamples of the occupations classified here:\n- Dispensing technician\n- Pharmaceutical assistant\n- Pharmaceutical technician\nSome related occupations classified elsewhere:\n- Pharmacist - 2262\n- Pharmacology technician - 3141\n- Pharmacy aide - 5329\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3213&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3213",
+      "title": "Pharmaceutical technicians and assistants"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C321&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C321",
+        "title": "Medical and pharmaceutical technicians",
+        "code": "321"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7b74626d-b487-48a1-9e80-47faf9928210&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7b74626d-b487-48a1-9e80-47faf9928210",
+        "title": "pharmacy technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c1a86d6d-7785-43e1-994b-958eba58fff7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c1a86d6d-7785-43e1-994b-958eba58fff7",
+        "title": "pharmacy assistant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

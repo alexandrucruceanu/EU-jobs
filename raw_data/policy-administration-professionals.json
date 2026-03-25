@@ -1,0 +1,149 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2422",
+  "title": "Policy administration professionals",
+  "preferredLabel": {
+    "no": "Høyere saksbehandlere i offentlig og privat virksomhet",
+    "de": "Akademische und vergleichbare Fachkräfte in der strategischen Planung in Politik und Wirtschaft",
+    "sv": "Planerare och utredare",
+    "fi": "Hallinnon ja elinkeinojen kehittämisen erityisasiantuntijat",
+    "pt": "Especialistas em políticas da administração",
+    "bg": "Специалисти по управленски политики",
+    "mt": "Professjonisti tal-politika tal-amministrazzjoni",
+    "el": "Επαγγελματίες διαχείρισης πολιτικής",
+    "lt": "Politikos administravimo specialistai",
+    "en": "Policy administration professionals",
+    "lv": "Politikas pārvaldības vecākie speciālisti",
+    "hr": "Stručnjaci/stručnjakinje za strateško planiranje",
+    "it": "Specialisti delle politiche di amministrazione",
+    "fr": "Spécialistes, administration et politiques",
+    "hu": "Stratégiai fejlesztők, elemzők",
+    "es": "Especialistas en políticas de administración",
+    "et": "Juhtivad haldusspetsialistid",
+    "cs": "Specialisté v oblasti strategie",
+    "sk": "Špecialisti v oblasti stratégie",
+    "sl": "Strokovnjaki/strokovnjakinje za upravljanje splošnih zadev",
+    "pl": "Specjaliści do spraw administracji i rozwoju",
+    "ro": "Specialiști în domeniul politicilor administrative",
+    "da": "Arbejde med virksomhedsstrategi/policy",
+    "nl": "Specialisten op het gebied van beleidsadministratie"
+  },
+  "code": "2422",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2422"
+    },
+    {
+      "datatype": "",
+      "value": "2422"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Policy administration professionals develop and analyse policies guiding the design, implementation and modification of government and commercial operations and programmes.\nTasks include - \n (a)  liaising and consulting with programme administrators and other interested parties to identify policy needs; \n(b)  reviewing existing policies and legislation to identify anomalies and out-of-date provisions;\n (c)  researching social, economic and industrial trends, and client expectations of programmes and services provided;\n(d)  formulating and analysing policy options, preparing briefing papers and recommendations for policy changes and advising on preferred options; \n(e)  assessing impacts, financial implications, interactions with other programmes and political and administrative feasibility of policies;\n(f)  conducting threat and risk assessments and developing responses; \n(g)  reviewing operations and programmes to ensure consistency with policies of the organization.\nExamples of the occupations classified here:\n- Intelligence officer\n- Policy analyst\n- Political adviser\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2422&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2422",
+      "title": "Policy administration professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C242&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C242",
+        "title": "Administration professionals",
+        "code": "242"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7b629a14-09d0-417e-8181-7683923b4e5e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7b629a14-09d0-417e-8181-7683923b4e5e",
+        "title": "sports programme coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/65fb0b53-b8c4-4839-b099-c80b6de5a158&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/65fb0b53-b8c4-4839-b099-c80b6de5a158",
+        "title": "employment programme coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8bf76ba6-e661-4574-9887-4f2cb943835a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8bf76ba6-e661-4574-9887-4f2cb943835a",
+        "title": "political affairs officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/61053604-8091-4a8e-9c63-5151051722e3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/61053604-8091-4a8e-9c63-5151051722e3",
+        "title": "healthcare consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/caf7b8fb-b2d6-46b7-bffa-bea7f8e4aed8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/caf7b8fb-b2d6-46b7-bffa-bea7f8e4aed8",
+        "title": "policy officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7819669b-30c2-42e6-a1c4-0bcd6f0379ff&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7819669b-30c2-42e6-a1c4-0bcd6f0379ff",
+        "title": "international relations officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c418ed9a-132f-48cd-ae5c-dd375070ee0e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c418ed9a-132f-48cd-ae5c-dd375070ee0e",
+        "title": "trade development officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ffade2f4-2528-4dfd-b36a-6e4092be08ed&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ffade2f4-2528-4dfd-b36a-6e4092be08ed",
+        "title": "civil service administrative officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3fa31588-2e4d-49c3-b839-4b615cc62742&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3fa31588-2e4d-49c3-b839-4b615cc62742",
+        "title": "humanitarian advisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d9004a14-bda2-4c63-ab64-17ca163ac1bd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d9004a14-bda2-4c63-ab64-17ca163ac1bd",
+        "title": "parliamentary assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/643a2225-6a01-4899-81b0-e867ca09b9c9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/643a2225-6a01-4899-81b0-e867ca09b9c9",
+        "title": "government planning inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4ca8ba6c-dc55-40c0-ae6c-d55c94dd2e03&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4ca8ba6c-dc55-40c0-ae6c-d55c94dd2e03",
+        "title": "intelligence officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/39e9fc8f-02bd-4577-b603-2dc96204ce74&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/39e9fc8f-02bd-4577-b603-2dc96204ce74",
+        "title": "community development officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1a46d0f0-93d7-44d1-bff9-58e3f21bd4c4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1a46d0f0-93d7-44d1-bff9-58e3f21bd4c4",
+        "title": "social service consultant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

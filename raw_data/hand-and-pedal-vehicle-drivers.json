@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9331",
+  "title": "Hand and pedal vehicle drivers",
+  "preferredLabel": {
+    "de": "Führer von Handwagen und pedalbetriebenen Fahrzeugen",
+    "no": "Førere av ikke-motorisert kjøretøy",
+    "fi": "Käsivetoisten ja poljinkulkuneuvojen kuljettajat",
+    "sv": "Cykelförare",
+    "pt": "Condutores de veículos accionados à mão ou a pedal",
+    "bg": "Водачи на превозни средства с ръчно и педално задвижване и управление",
+    "el": "Οδηγοί χειροκίνητων και ποδοκίνητων οχημάτων",
+    "mt": "Sewwieqa ta’ vetturi li jaħdmu bl-idejn u l-pedali",
+    "lt": "Rikšos vežimėlių ir pedalinių transporto priemonių vairuotojai",
+    "en": "Hand and pedal vehicle drivers",
+    "lv": "Ar roku vai pedāļiem darbināmu transportlīdzekļu vadītāji",
+    "hr": "Rukovatelji/rukovateljice ručnih vozila i vozila na pedale",
+    "it": "Conduttori di veicoli a braccia o a pedali",
+    "fr": "Conducteurs de véhicules à bras et à pédales",
+    "hu": "Kézi és lábbal hajtott járművek vezetői",
+    "es": "Conductores de vehículos accionados a pedal o a brazo",
+    "et": "Käsi- või pedaalsõidukijuhid",
+    "cs": "Obsluha ručních a pedálových vozidel",
+    "sk": "Vodiči vozidiel na ručný alebo nožný pohon",
+    "sl": "Upravljavci/upravljavke ročnih vozičkov in vozil na pedale",
+    "pl": "Prowadzący pojazdy napędzane siłą mięśni",
+    "da": "Førere af hånd- og pedaldrevne køretøjer",
+    "ro": "Conducători de vehicule acționate manual sau de pedale",
+    "nl": "Bestuurders van (bak)fietsen en handkarren"
+  },
+  "code": "9331",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "9331"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9331"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Hand and pedal vehicle drivers propel cycles, hand carts and similar vehicles to deliver messages and transport passengers or goods.\nTasks include -\n(a)  loading and unloading goods, or assisting passengers in getting on or off a vehicle;\n(b)  moving vehicle in the desired direction with due regard to other traffic and traffic regulations;\n(c)  inspecting vehicle components to identify wear and damage;\n(d)  maintaining vehicle, making minor repairs and installing replacement parts; \n(e)  collecting fares or charges.\nExamples of the occupations classified here:\n- Bicycle courier\n- Cycle rickshaw driver\n- Pedal vehicle driver\n- Rickshaw puller\nSome related occupations classified elsewhere:\n- Bicycle racer - 3421\n- Motorcyclist - 8321\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9331&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9331",
+      "title": "Hand and pedal vehicle drivers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C933&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C933",
+        "title": "Transport and storage labourers",
+        "code": "933"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3a959644-beed-4afc-8e57-d5068ae6a43e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3a959644-beed-4afc-8e57-d5068ae6a43e",
+        "title": "bicycle courier"
+      }
+    ]
+  },
+  "_embedded": {}
+}

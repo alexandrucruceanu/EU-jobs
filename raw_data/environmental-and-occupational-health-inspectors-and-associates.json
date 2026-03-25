@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3257",
+  "title": "Environmental and occupational health inspectors and associates",
+  "preferredLabel": {
+    "no": "Helse- og miljøkontrollører",
+    "de": "Nicht akademische Kontrolleure und Beauftragte in den Bereichen Umwelt- und Arbeitsmedizin sowie verwandte Berufe",
+    "fi": "Terveys- ja työsuojelutarkastajat",
+    "sv": "Miljö- och hälsoskyddsinspektörer m.fl.",
+    "pt": "Inspectores e técnicos de saúde ambiental e do trabalho",
+    "bg": "Инспектори по медицинска екология, хигиена и здравословни условия на труд и сродни на тях",
+    "el": "Επιθεωρητές και βοηθοί επαγγελματιών περιβαλλοντικής και επαγγελματικής υγείας",
+    "mt": "Spetturi tas-saħħa tal-ambjent u tal-impjiegi u assoċjati",
+    "lt": "Aplinkos ir profesinės sveikatos inspektoriai ir darbuotojai",
+    "en": "Environmental and occupational health inspectors and associates",
+    "lv": "Vides un arodveselības inspektori un radniecīgu profesiju speciālisti",
+    "hr": "Inspektori/inspektorice za zaštitu okoliša, higijenu i medicinu rada i srodna zanimanja",
+    "it": "Ispettori e tecnici della medicina ambientale e del lavoro",
+    "fr": "Inspecteurs, salubrité de l’environnement et de la santé au travail, et assimilés",
+    "hu": "Környezet- és foglalkozás-egészségügyi ellenőrök",
+    "es": "Inspectores de la salud laboral, medioambiental y afines",
+    "et": "Tervisekaitse- ja töötervishoiuinspektorid jms spetsialistid",
+    "cs": "Asistenti ochrany veřejného zdraví",
+    "sk": "Inšpektori hygieny, životného prostredia a zdravia pri práci",
+    "sl": "Inšpektorji/inšpektorice in strokovni sodelavci/strokovne sodelavke za okoljsko zdravstvo, higieno, zdravstvo pri delu",
+    "pl": "Inspektorzy ochrony środowiska, medycyny pracy i bezpieczeństwa i higieny pracy",
+    "ro": "Inspectori în domeniul protecției mediului și sănătății ocupaționale, asimilați",
+    "da": "Arbejde med kontrol af arbejdsmiljø og sikkerhed",
+    "nl": "Milieu-inspecteurs, inspecteurs arbeidshygiëne e.d."
+  },
+  "code": "3257",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3257"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3257"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Environmental and occupational health inspectors and associates investigate the implementation of rules and regulations relating to environmental factors that may affect human health, safety in the workplace, and safety of processes for the production of goods and services. They may implement and evaluate programmes to restore or improve safety and sanitary conditions under the supervision of a health professional.\nTasks include -\n(a)  advising employers’ and workers’ representatives on the implementation of governmental and other rules and regulations concerning occupational safety and the working environment;\n(b)  inspecting places of work to ensure that the working environment, machinery and equipment conform to governmental and other rules, regulations and standards related to sanitation and/or occupational and environmental health and safety;\n(c)  giving advice on environmental sanitary problems and techniques;\n(d)  inspecting places of work and, by interviews, observations and other means, obtaining information about work practices and accidents to determine compliance with safety rules and regulations;\n(e)  inspecting areas of production, processing, transport, handling, storage and sale of products to ensure conformity with governmental and other rules, regulations and standards;\n(f)  advising enterprises and the general public on the implementation of governmental and other rules and regulations concerning hygiene, sanitation, purity and grading of primary products, food, drugs, cosmetics and similar goods;\n(g)  inspecting establishments to ensure that they conform to governmental and other rules and regulations concerning emission of pollutants and disposal of dangerous wastes;\n(h)  initiating action to maintain or improve hygiene and prevent pollution of water, air, food or soil;\n(i)   promoting preventive and corrective measures such as control of disease-carrying organisms and of harmful substances in the air, hygienic food handling, proper disposal of waste and cleaning of public places;\n(j)   estimating quantities and costs of materials and labour required for health, safety and sanitation remediation projects;\nExamples of the occupations classified here:\n- Food sanitation and safety inspector\n- Health inspector\n- Occupational health and safety inspector\n- Pollution inspector\n- Product safety inspector\n- Sanitarian\n- Sanitary inspector\nSome related occupations classified elsewhere:\n- Environmental health officer - 2263\n- Occupational health and safety adviser - 2263\n- Occupational hygienist - 2263\n- Radiation protection expert - 2263\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3257&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3257",
+      "title": "Environmental and occupational health inspectors and associates"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C325&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C325",
+        "title": "Other health associate professionals",
+        "code": "325"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7d8b3c73-20f8-467e-91e4-00378673a2cd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7d8b3c73-20f8-467e-91e4-00378673a2cd",
+        "title": "food safety inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1b422c31-f242-46b5-bbdc-aa63885e4b5c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1b422c31-f242-46b5-bbdc-aa63885e4b5c",
+        "title": "transport health and safety inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a092cb70-f3e3-4224-98a3-b97c0114de77&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a092cb70-f3e3-4224-98a3-b97c0114de77",
+        "title": "environmental health inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/673f3266-ab1a-447d-9b28-fc5838dc07e3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/673f3266-ab1a-447d-9b28-fc5838dc07e3",
+        "title": "occupational health and safety inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c872187a-079b-413b-8503-7b5dd92abb88&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c872187a-079b-413b-8503-7b5dd92abb88",
+        "title": "food regulatory advisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a41acf2b-fb87-496f-aec3-7c5fdc5e9211&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a41acf2b-fb87-496f-aec3-7c5fdc5e9211",
+        "title": "industrial waste inspector"
+      }
+    ]
+  },
+  "_embedded": {}
+}

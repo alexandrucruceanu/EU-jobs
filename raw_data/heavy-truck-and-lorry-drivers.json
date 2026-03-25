@@ -1,0 +1,119 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8332",
+  "title": "Heavy truck and lorry drivers",
+  "preferredLabel": {
+    "no": "Lastebil- og trailersjåfører",
+    "de": "Fahrer schwerer Lastkraftwagen",
+    "sv": "Lastbilsförare",
+    "fi": "Kuorma-auton ja erikoisajoneuvojen kuljettajat",
+    "pt": "Motoristas de veículos pesados de mercadorias",
+    "bg": "Водачи на тежкотоварни автомобили",
+    "mt": "Sewwieqa ta’ trakkijiet kbar u żgħar",
+    "el": "Οδηγοί φορτηγών και βαρέων φορτηγών",
+    "lt": "Sunkiasvorių sunkvežimių ir krovinių transporto priemonių vairuotojai",
+    "en": "Heavy truck and lorry drivers",
+    "hr": "Vozači/vozačice teretnih vozila i kamiona",
+    "lv": "Smago kravas automobiļu ar piekabēm un autovilcienu vadītāji",
+    "it": "Conducenti di mezzi pesanti e camion",
+    "fr": "Conducteurs de poids lourds et de camions",
+    "hu": "Kamion- és teherautósofőrök",
+    "es": "Conductores de camiones pesados",
+    "et": "Veoautojuhid",
+    "cs": "Řidiči nákladních automobilů, tahačů a speciálních vozidel",
+    "sk": "Vodiči nákladných automobilov a kamiónov",
+    "sl": "Vozniki/voznice težkih tovornjakov in vlačilcev",
+    "pl": "Kierowcy samochodów ciężarowych",
+    "ro": "Șoferi de autocamioane și mașini de mare tonaj",
+    "da": "Lastbilchauffører",
+    "nl": "Vrachtwagenchauffeurs"
+  },
+  "code": "8332",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8332"
+    },
+    {
+      "datatype": "",
+      "value": "8332"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Heavy truck and lorry drivers drive and tend heavy motor vehicles to transport goods, liquids and heavy materials over short or long distances.\nTasks include -\n(a)  driving and tending a heavy motor vehicle, such as a lorry with or without trailer or a dump-truck, to transport goods, liquids or heavy materials over short or long distances;\n(b)  determining the most appropriate routes; \n(c)  ensuring that goods are stowed and securely covered to prevent loss and damage;\n(d)  assisting with or carrying out loading or unloading operations, using various lifting or tipping devices;\n(e)  carrying out minor maintenance to vehicles, and arranging major maintenance and repairs;\n(f)  estimating weights to comply with load limitations, and ensuring the safe distribution of weights.\nExamples of the occupations classified here:\n- Concrete mixer driver\n- Garbage truck driver\n- Heavy truck driver\n- Road train driver\nSome related occupations classified elsewhere:\n- Van driver - 8322\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8332&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8332",
+      "title": "Heavy truck and lorry drivers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C833&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C833",
+        "title": "Heavy truck and bus drivers",
+        "code": "833"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/45037d43-a8f5-4f46-b332-b2935bc305f4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/45037d43-a8f5-4f46-b332-b2935bc305f4",
+        "title": "cargo vehicle driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a504e79e-f146-4773-a1cf-2b15b9d614db&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a504e79e-f146-4773-a1cf-2b15b9d614db",
+        "title": "moving truck driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2480f8b0-4c02-4c66-84ad-2677c1548e03&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2480f8b0-4c02-4c66-84ad-2677c1548e03",
+        "title": "refuse vehicle driver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1bb2aa65-1524-4961-8dba-ad25f34f195f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1bb2aa65-1524-4961-8dba-ad25f34f195f",
+        "title": "fire service vehicle operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1e9e18cb-80b6-4598-acdb-ae3b51047720&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1e9e18cb-80b6-4598-acdb-ae3b51047720",
+        "title": "aircraft fuel system operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/57a09d3f-e3d6-49ad-8c88-d879fc4d0870&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/57a09d3f-e3d6-49ad-8c88-d879fc4d0870",
+        "title": "concrete pump operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/952aa13c-731f-4add-98d1-66b59f70e607&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/952aa13c-731f-4add-98d1-66b59f70e607",
+        "title": "live animal transporter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c5d779f4-345b-4918-872b-a1cbaeb1d9be&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c5d779f4-345b-4918-872b-a1cbaeb1d9be",
+        "title": "dangerous goods driver"
+      }
+    ]
+  },
+  "_embedded": {}
+}

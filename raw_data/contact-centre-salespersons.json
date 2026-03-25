@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5244",
+  "title": "Contact centre salespersons",
+  "preferredLabel": {
+    "no": "Telefon- og nettselgere",
+    "de": "Telefonverkäufer",
+    "sv": "Telefonförsäljare",
+    "fi": "Puhelin- ja asiakaspalvelukeskusten myyjät",
+    "pt": "Vendedores de centros de contacto",
+    "bg": "Продавачи в контактни центрове",
+    "el": "Πωλητές μέσω κέντρων επικοινωνίας (τηλεμάρκετινκ)",
+    "mt": "Ħaddiema li jbiegħu fiċ-ċentri ta’ kuntatt",
+    "lt": "Ryšių centro pardavėjai",
+    "en": "Contact centre salespersons",
+    "lv": "Pārdevēji pa telefonu",
+    "hr": "Prodavači/prodavačice u kontakt centru",
+    "it": "Venditori telefonici",
+    "fr": "Télévendeurs",
+    "hu": "Telefonos/multimédiás értékesítő ügynökök",
+    "es": "Vendedores por teléfono",
+    "et": "Telefonimüügi agendid",
+    "cs": "Prodejci po telefonu",
+    "sk": "Predavači cez telefón, internet a pod.",
+    "sl": "Prodajalci/prodajalke po telefonu",
+    "pl": "Sprzedawcy w ośrodkach kontaktów z klientami",
+    "da": "Salgsarbejde i kundekontaktcentre",
+    "ro": "Vânzători în case de comenzi",
+    "nl": "Televerkopers"
+  },
+  "code": "5244",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5244"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5244"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Contact centre salespersons contact existing and prospective customers, using the telephone or other electronic communications media, to promote goods and services, obtain sales and arrange sales visits. They may work from a customer contact centre or from non-centralized premises.\nTasks include -\n(a)  promoting goods and services by telephone or electronic mail, following scripts and working from lists of contacts;\n(b)  creating interest in goods and services, and seeking a sale or an agreement to see sales representatives;\n(c)  arranging processing and dispatch of goods and services, information kits and brochures to customers;\n(d)  arranging appointments for sales representatives;\n(e)  recording notes for follow-up action and updating marketing databases to reflect changes to the status of each customer;\n(f)  reporting competitor activities and issues raised by contacts for attention by managers;\n(g)  maintaining statistics of calls made and successes achieved;\n(h)  submitting periodic reports on telemarketing activities and results.\nExamples of the occupations classified here:\n- Call centre salesperson\n- Customer contact centre salesperson\n- Internet salesperson\n- Telemarketer\n- Telemarketing salesperson\nSome related occupations classified elsewhere:\n- Contact centre information clerk - 4222\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5244&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5244",
+      "title": "Contact centre salespersons"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C524&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C524",
+        "title": "Other sales workers",
+        "code": "524"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0ededdc2-050a-4ec3-8e70-6295105fcd19&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0ededdc2-050a-4ec3-8e70-6295105fcd19",
+        "title": "call centre agent"
+      }
+    ]
+  },
+  "_embedded": {}
+}

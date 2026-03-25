@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1343",
+  "title": "Aged care services managers",
+  "preferredLabel": {
+    "no": "Ledere av eldreomsorg",
+    "de": "Führungskräfte in der Erbringung von Dienstleistungen der Altenbetreuung",
+    "fi": "Vanhustenhuollon johtajat",
+    "sv": "Chefer inom äldrevård",
+    "pt": "Directores dos serviços de cuidados a pessoas idosas",
+    "bg": "Ръководители в областта на услугите за грижи за възрастни хора",
+    "el": "Διευθυντές υπηρεσιών φροντίδας ηλικιωμένων",
+    "mt": "Maniġers tas-servizzi ta’ kura għall-anzjani",
+    "lt": "Pagyvenusių žmonių slaugos ir socialinių paslaugų srities vadovai",
+    "en": "Aged care services managers",
+    "lv": "Vadītāji veco ļaužu aprūpes pakalpojumu jomā",
+    "hr": "Ravnatelji/ravnateljice ustanova za pružanje usluga njege starijim osobama",
+    "it": "Dirigenti nei servizi di assistenza agli anziani",
+    "fr": "Cadres de direction, services aux personnes âgées",
+    "hu": "Idősgondozási szolgáltatások vezetői",
+    "es": "Directores de servicios de cuidado de las personas de edad",
+    "et": "Vanurite hooldamise teenuseid osutavate asutuste juhid",
+    "cs": "Vedoucí a řídící pracovníci v oblasti péče o seniory",
+    "sk": "Riadiaci pracovníci (manažéri) v oblasti starostlivosti o starších ľudí",
+    "sl": "Menedžerji/menedžerke na področju varstva starejših občanov",
+    "pl": "Kierownicy do spraw usług w zakresie opieki nad osobami starszymi",
+    "ro": "Conducători de unități din domeniul îngrijirii persoanelor în vârstă",
+    "da": "Ledelse af hovedaktiviteten inden for ældreplejen",
+    "nl": "Leidinggevende functies op het gebied van ouderenzorg"
+  },
+  "code": "1343",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1343"
+    },
+    {
+      "datatype": "",
+      "value": "1343"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Aged care services managers plan, direct, coordinate and evaluate the provision of residential and personal care services for individuals and families who are in need of such services due to the effects of ageing.\nTasks include - \n(a)  providing overall direction and management for a service, facility, organization or centre; \n(b)  directing, supervising and evaluating the work activities of medical, nursing, technical, clerical, service, maintenance and other personnel; \n(c)  establishing objectives and evaluative or operational criteria for units they manage; \n(d)  directing or conducting recruitment, hiring and training of personnel;\n(e)  developing, implementing and monitoring procedures, policies and performance standards for nursing, personal care, technical and administrative staff; \n(f)  coordinating and administering welfare programmes and care services for the elderly;\n(g)  controlling administrative operations such as budget planning, report preparation, and expenditure on supplies, equipment and services; \n(h)  liaising with other health and welfare providers, boards and funding bodies to coordinate the provision of services;\n(i)  advising government bodies about measures to improve health and welfare services and facilities; \n(j)  representing the organization in negotiations, and at conventions, seminars, public hearings and forums.\nExamples of occupations classified here:\n-  Aged care home director\n-  Community aged care coordinator \n-  Nursing home director\n-  Retirement village coordinator\nSome related occupations classified elsewhere:\n-  Health services manager - 1342\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1343&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1343",
+      "title": "Aged care services managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C134&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C134",
+        "title": "Professional services managers",
+        "code": "134"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/eea2b5c6-48d1-4612-957e-585783b3c7bb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/eea2b5c6-48d1-4612-957e-585783b3c7bb",
+        "title": "elderly home manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

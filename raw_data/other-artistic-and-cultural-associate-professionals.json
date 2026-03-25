@@ -1,0 +1,193 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3435",
+  "title": "Other artistic and cultural associate professionals",
+  "preferredLabel": {
+    "de": "Sonstige Fachkräfte in Gestaltung und Kultur",
+    "sv": "Övriga fotografer, inredare m.fl.",
+    "fi": "Muut taide- ja kulttuurialan asiantuntijat",
+    "pt": "Outros técnicos de nível intermédio das actividades culturais e artísticas",
+    "bg": "Други приложни специалисти в областта на изкуствата и културата",
+    "mt": "Professjonisti assoċjati oħra fil-qasam tal-arti u l-kultura",
+    "el": "Άλλοι βοηθοί επαγγελματιών του καλλιτεχνικού και πολιτιστικού τομέα",
+    "lt": "Kiti jaunesnieji meno ir kultūros specialistai",
+    "en": "Other artistic and cultural associate professionals",
+    "lv": "Citi mākslas un kultūras speciālisti",
+    "hr": "Stručni suradnici/stručne suradnice za djelatnosti u umjetnosti i kulturi d. n.",
+    "it": "Altre professioni tecniche dei servizi ricreativi e culturali",
+    "fr": "Autres professions intermédiaires de la culture et de la création artistique",
+    "hu": "Egyéb művészeti és kulturális foglalkozásúak",
+    "es": "Otros profesionales de nivel medio en actividades culturales y artísticas",
+    "et": "Muud kunsti- ja kultuuriala töötajad",
+    "cs": "Ostatní odborní pracovníci v oblasti umění a kultury",
+    "sk": "Ostatní odborní pracovníci v oblasti umenia a kultúry inde neuvedení",
+    "sl": "Drugi strokovni sodelavci/druge strokovne sodelavke za umetniško in kulturno dejavnost",
+    "pl": "Pozostały średni personel w dziedzinie kultury i sztuki",
+    "ro": "Alți specialiști asimilați din domeniul artistic și cultural",
+    "da": "Andet arbejde inden for kunstneriske, kulturelle og kulinariske områder",
+    "nl": "Andere vakspecialisten op artistiek en cultureel gebied"
+  },
+  "code": "3435",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3435"
+    },
+    {
+      "datatype": "",
+      "value": "3435"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers artistic and cultural associate professionals not classified elsewhere in Minor Group 343: Artistic, Cultural and Culinary Associate Professionals. For instance, those who assist directors or actors with staging of theatrical, motion picture, television or commercial productions are classified here.\nExamples of the occupations classified here:\n- Body artist\n- Floor manager (broadcasting)\n- Lighting technician\n- Programme coordinator  (broadcasting)\n- Prompter\n- Property master (broadcasting)\n- Script-girl/boy\n- Special effects technician\n- Stage manager\n- Stage technician\n- Stunt artist\n- Stunt coordinator\n- Tattooist\n- Theatre technician\n- Theatrical dresser\n- Walker-on\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3435&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3435",
+      "title": "Other artistic and cultural associate professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C343&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C343",
+        "title": "Artistic, cultural and culinary associate professionals",
+        "code": "343"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2a6784d7-c457-413d-ba99-e320de11fc98&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2a6784d7-c457-413d-ba99-e320de11fc98",
+        "title": "dresser"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/949f1dc9-fb19-4212-8ac6-35ce83c88921&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/949f1dc9-fb19-4212-8ac6-35ce83c88921",
+        "title": "prompter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/08edf4c5-3551-4690-9d09-f9b8b9194c90&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/08edf4c5-3551-4690-9d09-f9b8b9194c90",
+        "title": "automated fly bar operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e1106f6d-81fc-44f8-af94-8b7d2763065c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e1106f6d-81fc-44f8-af94-8b7d2763065c",
+        "title": "assistant stage director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7d27600b-5cff-4ebc-b259-cc2d47572035&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7d27600b-5cff-4ebc-b259-cc2d47572035",
+        "title": "head of workshop"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/99b096eb-a628-4e69-a79b-0563f2ed1b93&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/99b096eb-a628-4e69-a79b-0563f2ed1b93",
+        "title": "script supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/59cfa27b-874f-48b7-8880-b65420239559&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/59cfa27b-874f-48b7-8880-b65420239559",
+        "title": "pyrotechnician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1aa4bb15-c527-4a3b-9270-b3c71c4be111&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1aa4bb15-c527-4a3b-9270-b3c71c4be111",
+        "title": "stage manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f09b6100-28a6-4be5-9726-ecf5b24f74f6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f09b6100-28a6-4be5-9726-ecf5b24f74f6",
+        "title": "theatre technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9ac10bde-93a0-4570-afc2-e2b6cf46d8d2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9ac10bde-93a0-4570-afc2-e2b6cf46d8d2",
+        "title": "lighting technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d6a395eb-6664-47f1-9be5-91aa2e8ba87d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d6a395eb-6664-47f1-9be5-91aa2e8ba87d",
+        "title": "fight director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e4fca489-4c79-4392-874f-9ea1051c05c8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e4fca489-4c79-4392-874f-9ea1051c05c8",
+        "title": "extra"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1bb7c072-38c8-430a-b943-76bfa312a5f4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1bb7c072-38c8-430a-b943-76bfa312a5f4",
+        "title": "stand-in"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a0ebd342-8f89-4947-893d-fee9468cf001&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a0ebd342-8f89-4947-893d-fee9468cf001",
+        "title": "pyrotechnic designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bd94312f-05c8-455d-a2f6-5490489ac4a4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bd94312f-05c8-455d-a2f6-5490489ac4a4",
+        "title": "prop master/prop mistress"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7f0d69cf-8b02-4a84-865a-37585dea9b43&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7f0d69cf-8b02-4a84-865a-37585dea9b43",
+        "title": "broadcasting programme director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/84f20f5d-149a-4512-b319-18a81d3d6026&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/84f20f5d-149a-4512-b319-18a81d3d6026",
+        "title": "stunt performer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/068df7d1-516f-4829-b339-294cb0cf6318&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/068df7d1-516f-4829-b339-294cb0cf6318",
+        "title": "lighting designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/40da2fc6-8cb4-4cd3-8fe3-899715905070&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/40da2fc6-8cb4-4cd3-8fe3-899715905070",
+        "title": "body artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bfc1b4e9-624c-4fba-89f2-d218bba9e257&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bfc1b4e9-624c-4fba-89f2-d218bba9e257",
+        "title": "flying director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7a18e959-44fe-49ae-9757-124f46a7487c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7a18e959-44fe-49ae-9757-124f46a7487c",
+        "title": "prop maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/71898b81-fc2f-4a97-826d-f45e49a8160a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/71898b81-fc2f-4a97-826d-f45e49a8160a",
+        "title": "assistant video and motion picture director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/89a0af2a-edf4-4d1a-8526-f4a8f476cea2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/89a0af2a-edf4-4d1a-8526-f4a8f476cea2",
+        "title": "location manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1411",
+  "title": "Hotel managers",
+  "preferredLabel": {
+    "de": "Führungskräfte in Hotels",
+    "no": "Hotellsjefer",
+    "fi": "Hotellinjohtajat",
+    "sv": "Hotellchefer",
+    "pt": "Directores e gerentes de hotelaria",
+    "bg": "Управители на хотели",
+    "el": "Διευθυντές ξενοδοχείων",
+    "mt": "Maniġers ta’ lukandi",
+    "lt": "Viešbučių vadovai",
+    "en": "Hotel managers",
+    "lv": "Vadītāji viesmīlības pakalpojumu jomā",
+    "hr": "Direktori/direktorice hotela i kampova",
+    "it": "Dirigenti nei servizi alberghieri",
+    "fr": "Directeurs et gérants, hôtellerie",
+    "hu": "Szállodaigazgatók",
+    "es": "Gerentes de hoteles",
+    "et": "Hotellide juhid",
+    "cs": "Vedoucí a řídící pracovníci v oblasti ubytovacích služeb",
+    "sk": "Riadiaci pracovníci (manažéri) v hoteloch",
+    "sl": "Menedžerji/menedžerke v gostinstvu, hotel",
+    "pl": "Kierownicy hoteli",
+    "ro": "Conducători de unități hoteliere",
+    "da": "Ledelse af hovedaktiviteten af hoteller",
+    "nl": "Hotelmanagers"
+  },
+  "code": "1411",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1411"
+    },
+    {
+      "datatype": "",
+      "value": "1411"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Hotel managers plan, organize and direct the operations of hotels, motels and similar establishments to provide guest accommodation and other services.\nTasks include - \n(a)  directing and overseeing reservation, reception, room service and housekeeping activities;\n(b)  supervising security arrangements and garden and property maintenance;\n(c)  planning and supervising bar, restaurant, function and conference activities;\n(d)  observing liquor, gaming and other laws and regulations;\n(e)  assessing and reviewing customer satisfaction;\n(f)  overseeing accounting and purchasing activities;\n(g)  undertaking budgeting for the establishment;\n(h)  controlling selection, training and supervision of staff; \n(i)  ensuring compliance with occupational health and safety regulations;\n(j)  providing guests with local tourism information, and arranging tours and transportation.\nExamples of the occupations classified here:\n-  Hotel manager\n-  Motel manager\n-  Youth hostel manager\nSome related occupations classified elsewhere:\n-  Bed and breakfast operator - 5152\nNotes\nOperators of small establishments, such as some bed and breakfast establishments and small guest houses that provide accommodation and limited meal services to clients effectively as paying guests in private households, and for whom the management and supervision of staff is not a significant component of the work, are classified in Unit Group 5152: Domestic Housekeepers.\nChief executive officers and specialized managers of hotel management companies or hotel chains are classified in the relevant unit group in Sub-major Groups 11 and 12.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1411&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1411",
+      "title": "Hotel managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C141&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C141",
+        "title": "Hotel and restaurant managers",
+        "code": "141"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/53cdd34e-22f2-41bd-b3c7-de22bf9bbcae&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/53cdd34e-22f2-41bd-b3c7-de22bf9bbcae",
+        "title": "accommodation manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/02e19186-458f-40eb-9e78-31c656d12ac7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/02e19186-458f-40eb-9e78-31c656d12ac7",
+        "title": "rooms division manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,149 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8142",
+  "title": "Plastic products machine operators",
+  "preferredLabel": {
+    "de": "Bediener von Maschinen zur Herstellung von Kunststoffwaren",
+    "no": "Operatører innen plastprodukter",
+    "fi": "Muovituoteteollisuuden prosessityöntekijät",
+    "sv": "Maskinoperatörer, plastindustri",
+    "pt": "Operadores de máquinas do fabrico de produtos de plástico",
+    "bg": "Машинни оператори в производството на пластмаси и пластмасови изделия",
+    "el": "Χειριστές μηχανών παραγωγής προϊόντων από πλαστικό",
+    "mt": "Operaturi ta’ magni ta’ prodotti tal-plastik",
+    "lt": "Plastikinių gaminių gamybos mašinų operatoriai",
+    "en": "Plastic products machine operators",
+    "hr": "Rukovatelji/rukovateljice strojevima za proizvodnju plastičnih proizvoda",
+    "lv": "Plastmasas izstrādājumu ražošanas iekārtu operatori",
+    "it": "Conduttori di macchinari per la fabbricazione di articoli in plastica",
+    "fr": "Conducteurs de machines pour la fabrication de produits en matières plastiques",
+    "hu": "Műanyag terméket gyártó gépek kezelői",
+    "es": "Operadores de máquinas para fabricar productos de material plástico",
+    "et": "Plasttoodete valmistamiseks kasutatavate masinate operaatorid",
+    "cs": "Obsluha strojů na výrobu a zpracování výrobků z plastu",
+    "sk": "Operátori strojov na výrobu výrobkov z plastov",
+    "sl": "Upravljavci/upravljavke strojev za proizvodnjo plastičnih izdelkov",
+    "pl": "Operatorzy maszyn do produkcji wyrobów z tworzyw sztucznych",
+    "da": "Operatørarbejde ved fremstilling af plast",
+    "ro": "Operatori la mașini și utilaje pentru fabricarea produselor din plastic",
+    "nl": "Bedieningspersoneel van machines voor de vervaardiging van producten van kunststof"
+  },
+  "code": "8142",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8142"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8142"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Plastic products machine operators monitor and operate machines which knead and blend compounds to obtain plastic materials and which make various plastic components and articles.\nTasks include -\n(a)  operating and monitoring machines which knead and blend compounds to obtain plastic materials;\n(b)  operating and monitoring machines which shape plastic materials by moulding, extrusion, blowing, cutting and other means;\n(c)  operating and monitoring machines which laminate plastics and plastic-impregnated materials or produce fibreglass;\n(d)  encasing uncoated wire, cord, cable and optic fibre in plastic;\n(e)  examining outputs for defects and conformity to specifications;\n(f)  recycling waste plastic materials;\n(g)  making artificial eyes and contact lens discs, making and repairing spectacle frames and plastic parts of orthopaedic appliances.\nExamples of the occupations classified here:\n- Laminated press operator (plastics)\n- Optic fibre drawer\n- Plastic cable making machine operator \n- Plastic extrusion machine operator\n- Plastic moulder\n- Plastics boat builder\n- Plastics bottle blowing machine operator\n- Plastics products machine operator \n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8142&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8142",
+      "title": "Plastic products machine operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C814&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C814",
+        "title": "Rubber, plastic and paper products machine operators",
+        "code": "814"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/84d45916-eef7-4c58-a73c-3639c9965014&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/84d45916-eef7-4c58-a73c-3639c9965014",
+        "title": "plastic furniture machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c22724a3-079c-4897-bd92-d99e068b6ffc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c22724a3-079c-4897-bd92-d99e068b6ffc",
+        "title": "pultrusion machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ec238461-93b6-4516-a251-52d1153b53ac&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ec238461-93b6-4516-a251-52d1153b53ac",
+        "title": "compression moulding machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8b98dbc3-11f7-4720-86de-dcecee368be1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8b98dbc3-11f7-4720-86de-dcecee368be1",
+        "title": "blow moulding machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/502fe307-ae65-46cb-a485-e559b9a35266&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/502fe307-ae65-46cb-a485-e559b9a35266",
+        "title": "injection moulding operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4a5ceaae-0f05-4091-bdbf-59f250ce6374&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4a5ceaae-0f05-4091-bdbf-59f250ce6374",
+        "title": "plastic heat treatment equipment operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/96514fed-b9a9-4df3-ab0b-20676369297d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/96514fed-b9a9-4df3-ab0b-20676369297d",
+        "title": "cake press operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8ba8acb8-c0f2-4679-ae15-3a4f6e876c6f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8ba8acb8-c0f2-4679-ae15-3a4f6e876c6f",
+        "title": "plastic rolling machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ae3f1edd-d191-4a8d-8dfc-099dcdc6f1e8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ae3f1edd-d191-4a8d-8dfc-099dcdc6f1e8",
+        "title": "record press operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/88b21b2f-350c-4f41-9680-a53f8ea708ed&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/88b21b2f-350c-4f41-9680-a53f8ea708ed",
+        "title": "filament winding operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4a30b421-2fda-42d6-b7e1-1c31753f061d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4a30b421-2fda-42d6-b7e1-1c31753f061d",
+        "title": "insulating tube winder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/772e57c5-fb25-4b0c-8cc8-f8944a9edfbc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/772e57c5-fb25-4b0c-8cc8-f8944a9edfbc",
+        "title": "fibreglass machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6e18b923-7c5f-42d7-8ff0-de8d8ba30dbf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6e18b923-7c5f-42d7-8ff0-de8d8ba30dbf",
+        "title": "vacuum forming machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/25f45b01-550c-4d17-b69e-7c5ba57c4218&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/25f45b01-550c-4d17-b69e-7c5ba57c4218",
+        "title": "fiberglass laminator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

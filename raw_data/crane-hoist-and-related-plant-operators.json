@@ -1,0 +1,104 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8343",
+  "title": "Crane, hoist and related plant operators",
+  "preferredLabel": {
+    "de": "Kranführer, Aufzugmaschinisten und Bediener verwandter Hebeeinrichtungen",
+    "no": "Kran- og heisførere mv.",
+    "sv": "Kranförare m.fl.",
+    "fi": "Nosturinkuljettajat",
+    "pt": "Operadores de gruas, guindastes e similares",
+    "bg": "Кранисти и сродни на тях оператори на повдигателни съоръжения",
+    "el": "Χειριστές γερανών, ανυψωτήρων και παρόμοιων μηχανημάτων",
+    "mt": "Operaturi ta’ impjanti ta’ krejnjiet u apparati li jerfgħu u affarijiet oħra relatati ma’ dawn",
+    "lt": "Kranų, kėlimo įrenginių ir panašių mašinų operatoriai",
+    "en": "Crane, hoist and related plant operators",
+    "hr": "Rukovatelji/rukovateljice dizalicama i sličnim uređajima",
+    "lv": "Autoceltņu un citu kraušanas iekārtu operatori",
+    "it": "Conduttori di macchinari per la perforazione e il sollevamento",
+    "fr": "Conducteurs de grues, d’engins de levage divers et de matériels similaires",
+    "hu": "Daruk, emelők és hasonló gépek kezelői",
+    "es": "Operadores de grúas, aparatos elevadores y afines",
+    "et": "Kraana-, tõstuki- jms tõsteseadmete juhid",
+    "cs": "Obsluha jeřábů, zdvihacích a podobných manipulačních zařízení",
+    "sk": "Operátori žeriavov, zdvíhacích a podobných zariadení",
+    "sl": "Upravljavci/upravljavke žerjavov, dvigal ipd.",
+    "pl": "Maszyniści i operatorzy maszyn i urządzeń dźwigowo-transportowych i pokrewni",
+    "da": "Kran- og liftførerarbejde",
+    "ro": "Conducători de macarale, poduri mobile, lifturi subterane și asimilați",
+    "nl": "Kraandrijvers en bedieningspersoneel van takels e.d."
+  },
+  "code": "8343",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8343"
+    },
+    {
+      "datatype": "",
+      "value": "8343"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Crane, hoist and related plant operators monitor and operate stationary and mobile cranes and other hoisting equipment.\nTasks include -\n(a)  operating and monitoring stationary or mobile cranes by raising and lowering jibs and booms to lift, move, position or place equipment and materials;\n(b)  operating and monitoring equipment for hoisting, lowering or raising workers and materials on construction sites or in mines;\n(c)  operating and monitoring ski-lifts and similar equipment;\n(d)  operating and monitoring machinery used to haul ferries or barges with goods, passengers and vehicles across short stretches of water;\n(e)  operating and monitoring machinery to open and close bridges for the passage of road and water traffic;\n(f)  operating and monitoring cranes equipped with dredging attachments to dredge waterways and other areas;\n(g)  operating cranes mounted on boats or barges to lift, move and place equipment and materials.\nExamples of the occupations classified here:\n- Cable car operator\n- Chair-lift operator\n- Crane operator\n- Funicular driver\n- Hoist operator\n- Mine cage operator\n- Ski-lift operator\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8343&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8343",
+      "title": "Crane, hoist and related plant operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C834&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C834",
+        "title": "Mobile plant operators",
+        "code": "834"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8f9b20ff-86b3-478c-8054-73a220973d6f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8f9b20ff-86b3-478c-8054-73a220973d6f",
+        "title": "automated cable vehicle controller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1f2b8092-1787-4ef4-9282-cf81ce4b4d76&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1f2b8092-1787-4ef4-9282-cf81ce4b4d76",
+        "title": "mobile crane operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0ea5fdff-074c-4094-98b9-04432361e4d9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0ea5fdff-074c-4094-98b9-04432361e4d9",
+        "title": "tower crane operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1de948c1-192a-4810-afb7-48548217a912&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1de948c1-192a-4810-afb7-48548217a912",
+        "title": "production plant crane operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/dc90cee4-bf4a-4d62-b729-faf49e62643e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/dc90cee4-bf4a-4d62-b729-faf49e62643e",
+        "title": "container crane operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

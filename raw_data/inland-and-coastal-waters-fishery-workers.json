@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C6222",
+  "title": "Inland and coastal waters fishery workers",
+  "preferredLabel": {
+    "de": "Binnen- und Küstenfischer",
+    "no": "Fiskere",
+    "fi": "Kalastajat",
+    "sv": "Fiskare (kustfiske och insjöfiske)",
+    "pt": "Trabalhadores qualificados da pesca – águas costeiras e interiores",
+    "bg": "Риболовци във вътрешни и крайбрежни води",
+    "el": "Αλιείς παράκτιων και εσωτερικών υδάτων",
+    "mt": "Ħaddiema involuti fis-sajd minn fuq l-art u fl-ibħra madwar il-kosta",
+    "lt": "Vidaus ir jūros pakrantės vandenų žvejai",
+    "en": "Inland and coastal waters fishery workers",
+    "hr": "Obalni ribari/obalne ribarke i srodna zanimanja",
+    "lv": "Iekšējo ūdeņu un piekrastes zvejnieki",
+    "it": "Pescatori della pesca costiera e in acque interne",
+    "fr": "Pêcheurs de la pêche côtière et en eaux intérieures",
+    "hu": "Belvízi és part menti halászok",
+    "es": "Pescadores de agua dulce y en aguas costeras",
+    "et": "Sisevete- ja rannapüügikalurid",
+    "cs": "Rybáři ve vnitrozemských a v pobřežních vodách",
+    "sk": "Pracovníci v rybárstve vo vnútrozemských a pobrežných vodách",
+    "sl": "Obalni ribiči/obalne ribičke ipd.",
+    "pl": "Rybacy śródlądowi i przybrzeżni",
+    "da": "Arbejde med fiskeri i kyst- og søområder",
+    "ro": "Pescari pe cursuri de ape interioare și în zone costiere",
+    "nl": "Vissers, binnen- en kustwateren"
+  },
+  "code": "6222",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "6222"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "6222"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Inland and coastal waters fishery workers, alone or as members of fishing-vessel crews, catch fish or gather other forms of aquatic life in inland or coastal waters for sale or delivery on a regular basis to wholesale buyers, marketing organizations or at markets.\nTasks include -\n(a)  preparing and repairing nets and other fishing gear and equipment;\n(b)  selecting areas for fishing, plotting courses and computing navigational positions using compass, charts and other aids;\n(c)  operating fishing vessels to, from and at fishing grounds;\n(d)  baiting, setting, operating and hauling in fishing gear by hand or using hoisting equipment;\n(e)  gathering various forms of aquatic life from shores and shallow waters;\n(f)  maintaining engine fishing gear and other on-board equipment;\n(g)  keeping records of transactions, fishing activities, weather and sea conditions, and estimating costs and budgets;\n(h)  sorting and storing catch in holds with salt and ice;\n(i)  removing catches from fishing equipment, measuring them to ensure compliance with legal size and returning undesirable or illegal catches to the water;\n(j)  directing fishing operations, and supervising fishing crew members.\nExamples of the occupations classified here:\n- Coastal fishery skipper\n- Fisher (coastal waters)\n- Fisher (inland waters)\nSome related occupations classified elsewhere:\n- Fishing operations manager - 1312\n- Deep-sea fisher - 6223\n- Oyster diver - 7541\n- Fishing labourer - 9216\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6222&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C6222",
+      "title": "Inland and coastal waters fishery workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C622&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C622",
+        "title": "Fishery workers, hunters and trappers",
+        "code": "622"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/270528cf-2bf9-463d-aeaa-d169b1f767c1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/270528cf-2bf9-463d-aeaa-d169b1f767c1",
+        "title": "fisheries boatman"
+      }
+    ]
+  },
+  "_embedded": {}
+}

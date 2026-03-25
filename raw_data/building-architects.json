@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2161",
+  "title": "Building architects",
+  "preferredLabel": {
+    "no": "Sivilarkitekter",
+    "de": "Architekten",
+    "fi": "Talonrakennuksen arkkitehdit",
+    "sv": "Arkitekter",
+    "pt": "Arquitectos de edifícios",
+    "bg": "Архитекти",
+    "el": "Αρχιτέκτονες κτιρίων",
+    "mt": "Arkitetti tal-bini",
+    "lt": "Statybos architektai",
+    "en": "Building architects",
+    "lv": "Būvniecības arhitekti",
+    "hr": "Arhitekti/arhitektice",
+    "it": "Architetti",
+    "fr": "Architectes, bâtiment",
+    "hu": "Építészek",
+    "es": "Arquitectos",
+    "et": "Hoonearhitektid",
+    "cs": "Stavební architekti",
+    "sk": "Stavební architekti",
+    "sl": "Gradbeni arhitekti/gradbene arhitektke",
+    "pl": "Architekci budowlani",
+    "da": "Arbejde med bygningsarkitektur",
+    "ro": "Arhitecți constructori",
+    "nl": "Architecten van gebouwen"
+  },
+  "code": "2161",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2161"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2161"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Building architects design commercial, industrial, institutional, residential and recreational buildings and plan and monitor their construction, maintenance and rehabilitation.\nTasks include -\n(a)  developing new or improved architectural theories and methods;\n(b)  inspecting sites and consulting clients, management and other stakeholders to determine type, style and size of proposed buildings and alterations to existing buildings;\n(c)  providing information regarding designs, materials and estimated building times;\n(d)  preparing project documentation, including sketches and scale drawings, and integrating structural, mechanical and aesthetic elements in final designs;\n(e)  writing specifications and contract documents for use by builders and calling tenders on behalf of clients;\n(f)  making necessary contacts to ensure feasibility of projects regarding style, cost, timing and compliance with regulations;\n(g)  identifying and finding best solutions for problems regarding function and quality of interior environments of buildings and making necessary designs, drawings and plans;\n(h)  monitoring construction or rehabilitation work to ensure compliance with specifications and quality standards;\n(i)  maintaining technical liaison and consultancy with other relevant specialists.\nExamples of the occupations classified here:\n- Building architect\n- Interior architect\nSome related occupations classified elsewhere:\n- Landscape architect - 2162\n- Interior decorator - 3432\n- Interior designers - 3432\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2161&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2161",
+      "title": "Building architects"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C216&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C216",
+        "title": "Architects, planners, surveyors and designers",
+        "code": "216"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8c3f536e-ba66-4321-ba40-363dc39f129b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8c3f536e-ba66-4321-ba40-363dc39f129b",
+        "title": "architect"
+      }
+    ]
+  },
+  "_embedded": {}
+}

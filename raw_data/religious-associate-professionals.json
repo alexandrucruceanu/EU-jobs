@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3413",
+  "title": "Religious associate professionals",
+  "preferredLabel": {
+    "no": "Religiøse yrker",
+    "de": "Ordensbrüder/-schwestern und Seelsorgehelfer",
+    "sv": "Pastorer",
+    "fi": "Seurakuntatyöntekijät",
+    "pt": "Técnicos de nível intermédio de apoio religioso",
+    "bg": "Религиозни служители",
+    "el": "Βοηθοί κληρικών και επαγγελματιών του θρησκευτικού τομέα",
+    "mt": "Professjonisti assoċjati reliġjużi",
+    "lt": "Jaunesnieji religijos profesijų specialistai",
+    "en": "Religious associate professionals",
+    "lv": "Reliģisko lietu speciālisti",
+    "hr": "Stručnjaci/stručnjakinje za vjerska pitanja",
+    "it": "Tecnici delle discipline religiose",
+    "fr": "Professions intermédiaires des religions",
+    "hu": "Vallási kiegészítő foglalkozásúak",
+    "es": "Auxiliares laicos de las religiones",
+    "et": "Religiooni valdkonna töötajad",
+    "cs": "Odborní pracovníci v církevní oblasti a v příbuzných oborech",
+    "sk": "Odborní pracovníci v oblasti religionistiky",
+    "sl": "Člani/članice samostanske skupnosti, duhovnikovi pomočniki/duhovnikove pomočnice ipd.",
+    "pl": "Pracownicy z zakresu działalności religijnej",
+    "da": "Arbejde med tilknytning til religion på mellemniveau",
+    "ro": "Specialiști în domeniul religiei, asimilați",
+    "nl": "Lagere functies op religieus gebied"
+  },
+  "code": "3413",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3413"
+    },
+    {
+      "datatype": "",
+      "value": "3413"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Religious associate professionals provide support to ministers of religion or to a religious community, undertake religious works, preach and propagate the teachings of a particular religion and endeavour to improve well-being through the power of faith and spiritual advice.\nTasks include -\n(a)  undertaking religious works;\n(b)  preaching and propagating the teachings of a particular religious faith;\n(c)  assisting at services of public worship and religious rites;\n(d)  providing religious education, spiritual guidance and moral support to individuals and  communities; \n(e)  administering and participating in programmes to provide food, clothing and shelter to those in need;\n(f)  advising communities and individuals on proper behaviour and faith to preserve or improve well-being.\nExamples of the occupations classified here:\n- Faith healer\n- Lay preacher\n- Monk\n- Nun\nSome related occupations classified elsewhere:\n- Bonze - 2636\n- Imam - 2636\n- Minister of religion - 2636\n- Poojari - 2636\n- Priest - 2636\n- Rabbi - 2636\n- Herbalist - 3230 \n- Village healer - 3230\n- Witch doctor - 3230\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3413&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3413",
+      "title": "Religious associate professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C341&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C341",
+        "title": "Legal, social and religious associate professionals",
+        "code": "341"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/33ae2ba9-9835-410f-8ea6-e5ac991f5975&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/33ae2ba9-9835-410f-8ea6-e5ac991f5975",
+        "title": "monk/nun"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/665266cb-50dd-44a5-a920-ab04c67e251a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/665266cb-50dd-44a5-a920-ab04c67e251a",
+        "title": "pastoral worker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

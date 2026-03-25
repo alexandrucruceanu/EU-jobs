@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1341",
+  "title": "Child care services managers",
+  "preferredLabel": {
+    "no": "Ledere av omsorgstjenester for barn",
+    "de": "Führungskräfte in der Erbringung von Dienstleistungen der Kinderbetreuung",
+    "sv": "Chefer inom barnomsorg",
+    "fi": "Lastenhoidon johtajat",
+    "pt": "Directores dos serviços de cuidados de crianças",
+    "bg": "Ръководители в областта на услугите за грижи за деца",
+    "mt": "Maniġers tas-servizzi ta’ kura għat-tfal",
+    "el": "Διευθυντές υπηρεσιών παιδικής μέριμνας",
+    "lt": "Vaikų priežiūros paslaugų srities vadovai",
+    "en": "Child care services managers",
+    "hr": "Ravnatelji/ravnateljice u području predškolskog odgoja",
+    "lv": "Vadītāji bērnu aprūpes pakalpojumu jomā",
+    "it": "Dirigenti nei servizi di sorveglianza dei bambini",
+    "fr": "Cadres de direction, garde d’enfants",
+    "hu": "Gyermekgondozási szolgáltatások vezetői",
+    "es": "Directores de servicios de cuidados infantiles",
+    "et": "Lastehoiuteenuseid osutavate asutuste juhid",
+    "cs": "Vedoucí a řídící pracovníci v oblasti péče o děti",
+    "sk": "Riadiaci pracovníci (manažéri) v oblasti starostlivosti o deti",
+    "sl": "Menedžerji/menedžerke na področju varstva otrok",
+    "pl": "Kierownicy do spraw usług opieki nad dziećmi",
+    "da": "Ledelse af hovedaktiviteten inden for pædagogisk arbejde med og omsorg for børn",
+    "ro": "Conducători de unități din domeniul îngrijirii copilului",
+    "nl": "Leidinggevende functies op het gebied van kinderverzorging"
+  },
+  "code": "1341",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1341"
+    },
+    {
+      "datatype": "",
+      "value": "1341"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Child care services managers plan, direct, coordinate and evaluate the provision of care for children in before-school, after-school, vacation and day care centres and services.\nTasks include - \n(a)  developing and implementing programmes to enhance the physical, social, emotional and intellectual development of young children;\n(b)  establishing and monitoring budgets and determining allocation of funds for staff, supplies, materials, equipment and maintenance;\n(c)  overseeing and coordinating the provision of care for children in before-school, after-school, day and vacation care centres;\n(d)  directing and supervising child carers in providing care and supervision for young children;\n(e)  managing physical facilities and making sure all buildings and equipment are maintained to ensure the centre is a safe area for children, staff and visitors;\n(f)  reviewing and interpreting government codes, and developing procedures to meet codes (e.g. concerning safety and security);\n(g)  monitoring children’s progress and conferring with parents or guardians;\n(h)  preparing and maintaining records and accounts for a child care centre;\n(i)  recruiting and evaluating staff and coordinating their professional development.\nExample of the occupations classified here:\n-  Child care centre manager\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1341&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1341",
+      "title": "Child care services managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C134&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C134",
+        "title": "Professional services managers",
+        "code": "134"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/526ba8e1-fc71-4657-8d27-52f03e8ca81d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/526ba8e1-fc71-4657-8d27-52f03e8ca81d",
+        "title": "child care coordinator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fa6bd9e9-9631-4abe-b2f8-fad7bf8a819d",
+        "title": "child day care centre manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c269387f-a652-4880-860a-e91ef105bfb7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c269387f-a652-4880-860a-e91ef105bfb7",
+        "title": "nursery school head teacher"
+      }
+    ]
+  },
+  "_embedded": {}
+}

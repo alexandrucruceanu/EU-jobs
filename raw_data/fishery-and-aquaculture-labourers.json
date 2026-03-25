@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9216",
+  "title": "Fishery and aquaculture labourers",
+  "preferredLabel": {
+    "de": "Hilfsarbeiter in der Fischerei und Aquakultur",
+    "no": "Hjelpearbeidere innen havbruk",
+    "fi": "Kalatalouden ja vesiviljelyn avustavat työntekijät",
+    "sv": "Medhjälpare, fiske och vattenbruk",
+    "pt": "Trabalhadores não qualificados da aquicultura e da pesca",
+    "bg": "Работници в риболова и развъждането на аквакултури",
+    "el": "Ανειδίκευτοι εργάτες αλιείας και υδατοκαλλιέργειας",
+    "mt": "Ħaddiema involuti fis-sajd u fl-akwakultura",
+    "lt": "Nekvalifikuoti žuvininkystės ir akvakultūros darbininkai",
+    "en": "Fishery and aquaculture labourers",
+    "hr": "Radnici/radnice u ribarstvu i akvakulturi",
+    "lv": "Zivsaimniecības un akvakultūras jomas strādnieki",
+    "it": "Personale non qualificato addetto alla pesca e all’acquacoltura",
+    "fr": "Manœuvres pêcheurs et aquaculteurs",
+    "hu": "Képesítést nem igénylő halászati és halgazdálkodási foglalkozásúak",
+    "es": "Peones de pesca y acuicultura",
+    "et": "Kalanduse lihttöölised ja kalakasvatustöölised",
+    "cs": "Pomocní pracovníci v rybářství",
+    "sk": "Pomocní pracovníci v rybárstve a akvakultúre",
+    "sl": "Delavci/delavke za preprosta ribiška in akvakulturna dela",
+    "pl": "Pomocniczy robotnicy w rybołówstwie i akwakulturze",
+    "da": "Manuelt arbejde inden for fiskeri og akvakultur",
+    "ro": "Muncitori în pescuit și culturi acvatice",
+    "nl": "Ongeschoolde arbeiders in de visserij en de visteelt"
+  },
+  "code": "9216",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "9216"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9216"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Fishery and aquaculture labourers perform simple and routine tasks to cultivate, catch and harvest fish and seafood in aquaculture and in inland, coastal and deep sea fishing operations.\nTasks include -\n(a)  cleaning the sea-bed and feeding fish and molluscs that are being cultivated;\n(b)  gathering seaweed, sea mosses, clams and other molluscs;\n(c)  preparing nets, lines and other fishing tackle and other deck equipment;\n(d)  operating fishing gear to catch fish and other marine life;\n(e)  cleaning, sorting and packing fish and seafood in ice and salt, and stowing catch in hold;\n(f)  cleaning deck surfaces and fish hold;\n(g)  handling mooring lines during docking.\nExamples of the occupations classified here:\n- Aquaculture labourer\n- Fishery labourer\nSome related occupations classified elsewhere:\n- Fish farmer - 6221\n- Coastal fishery skipper - 6222\n- Fisher (coastal waters) - 6222\n- Fisher (inland waters) - 6222\n- Deep sea fisher - 6223\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9216&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9216",
+      "title": "Fishery and aquaculture labourers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C921&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C921",
+        "title": "Agricultural, forestry and fishery labourers",
+        "code": "921"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fbf23c18-d9a3-4349-83dc-2bc39948bdf7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fbf23c18-d9a3-4349-83dc-2bc39948bdf7",
+        "title": "aquaculture harvesting worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/207d5c25-46fe-401c-b32f-551684e9a8ea&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/207d5c25-46fe-401c-b32f-551684e9a8ea",
+        "title": "on foot aquatic resources collector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2e4b41dd-b63d-403d-a0ad-dd323cd3ddac&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2e4b41dd-b63d-403d-a0ad-dd323cd3ddac",
+        "title": "aquaculture cage mooring worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/aa0fd823-2f45-41c8-a3c6-97d97885e455&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/aa0fd823-2f45-41c8-a3c6-97d97885e455",
+        "title": "water-based aquaculture worker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

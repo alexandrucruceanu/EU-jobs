@@ -1,0 +1,104 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3422",
+  "title": "Sports coaches, instructors and officials",
+  "preferredLabel": {
+    "no": "Trenere og idrettsdommere",
+    "de": "Sportlehrer, Sporttrainer und Sportfunktionäre",
+    "sv": "Idrottstränare, instruktörer och funktionärer",
+    "fi": "Urheiluvalmentajat ja toimitsijat",
+    "pt": "Treinadores, instrutores e árbitros, desportivos",
+    "bg": "Спортни треньори, инструктори и сродни на тях",
+    "mt": "Kowċis tal-isport, istrutturi u uffiċjali",
+    "el": "Προπονητές, εκπαιδευτές και διαιτητές",
+    "lt": "Sporto treneriai, instruktoriai ir pareigūnai",
+    "en": "Sports coaches, instructors and officials",
+    "hr": "Športski treneri/trenerice; športski instruktori/instruktorice",
+    "lv": "Sporta treneri, instruktori un speciālisti",
+    "it": "Allenatori, istruttori e agenti",
+    "fr": "Entraîneurs sportifs et arbitres de sport",
+    "hu": "Sportedzők, -oktatók és -tisztségviselők",
+    "es": "Entrenadores, instructores y árbitros de actividades deportivas",
+    "et": "Treenerid, spordiinstruktorid ja -ametnikud",
+    "cs": "Sportovní trenéři, instruktoři a úředníci sportovních klubů",
+    "sk": "Športoví tréneri, inštruktori a funkcionári",
+    "sl": "Športni trenerji, inštruktorji, funkcionarji/športne trenerke, inštruktorice, funkcionarke",
+    "pl": "Trenerzy, instruktorzy i działacze sportowi",
+    "da": "Træner-, instruktør- og dommerarbejde inden for sport",
+    "ro": "Antrenori, instructori și funcționari din domeniul sportului",
+    "nl": "Trainers, oefenmeesters en sportfunctionarissen"
+  },
+  "code": "3422",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3422"
+    },
+    {
+      "datatype": "",
+      "value": "3422"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Sports coaches, instructors and officials work with amateur and professional sportspersons to enhance performance and encourage greater participation in sport, and organize and officiate in sporting events according to established rules.\nTasks include -\n(a)  identifying strengths and weaknesses of athletes or teams;\n(b)  planning, developing and implementing training and practice sessions;\n(c)  developing, planning and coordinating competitive schedules and programmes;\n(d)  motivating and preparing athletes or teams for competitive events or games;\n(e)  formulating competitive strategy, developing game plans and directing athletes and players during games or athletic events;\n(f)  analysing and evaluating athletes’ or teams’ performances and modifying training programmes;\n(g)  monitoring and analysing technique and performance, and determining how future improvements can be made;\n(h)  officiating at sporting events or athletic competitions to maintain standards of play and to ensure that game rules and safety regulations are observed;\n(i)   recording lapsed time and keeping score during events or competitions;\n(j)   judging the performance of competitors, awarding points, imposing penalties for infractions and determining results;\n(k)  compiling scores and other athletic records.\nExamples of the occupations classified here:\n- Referee\n- Ski instructor\n- Sports coach\n- Sports official\n- Swimming instructor\nSome related occupations classified elsewhere:\n- Fitness instructor - 3423\n- Horse riding instructor - 3423\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3422&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3422",
+      "title": "Sports coaches, instructors and officials"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C342&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C342",
+        "title": "Sports and fitness workers",
+        "code": "342"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/388155cc-7ab8-46c7-8051-aefc7b276c84&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/388155cc-7ab8-46c7-8051-aefc7b276c84",
+        "title": "sport official"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5a80044b-9b2f-40eb-a210-0c1c3c958e0e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5a80044b-9b2f-40eb-a210-0c1c3c958e0e",
+        "title": "lifeguard instructor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/11695786-9fb7-4895-b161-0480419107e4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/11695786-9fb7-4895-b161-0480419107e4",
+        "title": "sports instructor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3e9c1262-4fe2-4eb1-bf94-4fe64498393a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3e9c1262-4fe2-4eb1-bf94-4fe64498393a",
+        "title": "sports coach"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/58f3f9fc-c9f6-4e14-bedf-a71ace5f27c5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/58f3f9fc-c9f6-4e14-bedf-a71ace5f27c5",
+        "title": "artistic coach"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,124 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2621",
+  "title": "Archivists and curators",
+  "preferredLabel": {
+    "de": "Archiv- und Museumswissenschaftler",
+    "no": "Arkivarer og kuratorer",
+    "sv": "Arkivarier och museitjänstemän",
+    "fi": "Arkistonhoitajat ja museoalan erityisasiantuntijat",
+    "pt": "Arquivistas e curadores de museus",
+    "bg": "Архивисти и уредници",
+    "mt": "Arkivisti u kuraturi",
+    "el": "Αρχειοφύλακες και έφοροι αρχαιοτήτων, μουσείων και αιθουσών έργων τέχνης",
+    "lt": "Archyvų ir muziejų specialistai",
+    "en": "Archivists and curators",
+    "hr": "Arhivisti/arhivistice i stručno muzejsko osoblje",
+    "lv": "Arhīvisti un muzeju vecākie speciālisti",
+    "it": "Archivisti e curatori di musei",
+    "fr": "Archivistes paléographes et conservateurs de musée",
+    "hu": "Levél- és irattárosok, muzeológusok",
+    "es": "Archivistas y curadores de museos",
+    "et": "Arhivaarid ja kuraatorid",
+    "cs": "Specialisté archiváři a kurátoři",
+    "sk": "Archivári a kurátori",
+    "sl": "Arhivarji/arhivarke in konservatorji/konservatorke",
+    "pl": "Archiwiści i muzealnicy",
+    "ro": "Arhivari și curatori",
+    "da": "Arkivar- og museumsinspektørarbejde",
+    "nl": "Archivarissen en conservatoren"
+  },
+  "code": "2621",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2621"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2621"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Archivists and curators collect, appraise and ensure the safekeeping and preservation of the contents of archives, artefacts and records of historical, cultural, administrative and artistic interest, and of art and other objects. They plan, devise and implement systems for the safekeeping of records and historically valuable documents.\nTasks include - \n(a)  evaluating and preserving records for administrative, historical, legal, evidential and other purposes;\n(b)  directing or carrying out the preparation of indexes, bibliographies, microfilm copies and other reference aids to the collected material and making them available to users;\n(c)  researching the origin, distribution and use of materials and objects of cultural and historical interest;\n(d)  organizing, developing and maintaining collections of artistic, cultural, scientific or historically significant items;\n(e)  directing or undertaking classification and cataloguing of museum and art gallery collections and organizing exhibitions;\n(f)  researching into, appraising, organizing and preserving historically significant and valuable documents such as government papers, private papers, photographs, maps, manuscripts and audiovisual materials;\n(g)  preparing scholarly papers and reports;\n(h)  planning and implementing the computerized management of archives and electronic records;\n(i)  organizing exhibitions at museums and art galleries, publicizing exhibits and arranging special displays for general, specialized or educational interest;\n(j)  appraising and acquiring archival materials to build and develop an archival collection for research purposes.\nExamples of the occupations classified here:\n- Archivist\n- Art gallery curator\n- Museum curator\n- Records manager\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2621&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2621",
+      "title": "Archivists and curators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C262&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C262",
+        "title": "Librarians, archivists and curators",
+        "code": "262"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7556c748-15b4-4e44-97d9-00d885d4cd7d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7556c748-15b4-4e44-97d9-00d885d4cd7d",
+        "title": "conservator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8f324afc-6ae8-48f5-af68-0fac08024fd1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8f324afc-6ae8-48f5-af68-0fac08024fd1",
+        "title": "exhibition registrar"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/691d30cc-6b2c-4025-89b4-3e719fe664c7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/691d30cc-6b2c-4025-89b4-3e719fe664c7",
+        "title": "exhibition curator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/96be6ac3-5932-4bfc-933d-84b267d0d486&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/96be6ac3-5932-4bfc-933d-84b267d0d486",
+        "title": "collection manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e7417f4f-7072-4b07-a71f-71f6fc7f5e5b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e7417f4f-7072-4b07-a71f-71f6fc7f5e5b",
+        "title": "zoo registrar"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a63733fa-f7ff-4733-8961-1ec4eeaab00b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a63733fa-f7ff-4733-8961-1ec4eeaab00b",
+        "title": "museum scientist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c2efadc4-6f47-4f34-997b-dd80aba609dd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c2efadc4-6f47-4f34-997b-dd80aba609dd",
+        "title": "arts education officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e3b08984-19fe-4d51-a1b0-990676fc7234&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e3b08984-19fe-4d51-a1b0-990676fc7234",
+        "title": "archivist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b9b47087-6045-405d-b769-6a0c94e2eb84&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b9b47087-6045-405d-b769-6a0c94e2eb84",
+        "title": "mediation and education manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

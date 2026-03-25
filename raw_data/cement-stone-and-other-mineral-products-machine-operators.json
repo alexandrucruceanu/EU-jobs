@@ -1,0 +1,119 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8114",
+  "title": "Cement, stone and other mineral products machine operators",
+  "preferredLabel": {
+    "no": "Operatører innen produksjon av betong mv.",
+    "de": "Bediener von Maschinen zur Herstellung und Verarbeitung von Zement, Steinen und sonstigen Mineralien",
+    "fi": "Betonituote- ym. teollisuuden prosessityöntekijät",
+    "sv": "Maskinoperatörer, cement-, sten- och betongvaror",
+    "pt": "Operadores de máquinas para trabalhar cimento, pedra e outros minerais",
+    "bg": "Машинни оператори в производството на цимент и други минерални продукти",
+    "mt": "Operaturi tal-magni li jipproduċu s-siment, il-ġebla u minerali oħra",
+    "el": "Χειριστές μηχανών παραγωγής προϊόντων από τσιμέντο, πέτρα και άλλα μη μεταλλικά ορυκτά",
+    "lt": "Cemento gamybos, akmens ir kitos mineralinės žaliavos apdirbimo mašinų operatoriai",
+    "en": "Cement, stone and other mineral products machine operators",
+    "lv": "Cementa ražošanas, akmens un citu minerālizejvielu apstrādes iekārtu operatori",
+    "hr": "Rukovatelji/rukovateljice strojevima za proizvodnju cementnih, mineralnih proizvoda i ostalih proizvoda od kamena",
+    "it": "Conduttori di macchinari per prodotti di cemento, pietra e altri minerali",
+    "fr": "Conducteurs de machines à fabriquer du ciment, de la pierre et d’autres produits minéraux",
+    "hu": "Cement- és más ásványitermék-gyártó gépek kezelői",
+    "es": "Operadores de máquinas para fabricar cemento y otros productos minerales",
+    "et": "Tsemendi-, kivi- ja muude mineraalide töötlemise masinate operaatorid",
+    "cs": "Obsluha strojů na výrobu výrobků z cementu, kamene a ostatních nerostů",
+    "sk": "Operátori strojov na výrobu cementu, spracovanie kameňa a nerastných surovín",
+    "sl": "Upravljavci/upravljavke strojev za proizvodnjo cementnih, mineralnih izdelkov in drugih izdelkov iz kamna",
+    "pl": "Operatorzy maszyn i urządzeń do produkcji betonu, asfaltobetonu, elementów betonowych i kamiennych i pokrewni",
+    "ro": "Operatori la mașini de preparare a cimentului, rocilor și altor produse minerale",
+    "da": "Operatørarbejde ved fremstilling af cement-, sten- og andre råstofprodukter",
+    "nl": "Bedieningspersoneel van machines voor de vervaardiging van cement, stenen en andere minerale producten."
+  },
+  "code": "8114",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8114"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8114"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Cement, stone and other mineral products machine operators monitor and operate machines for manufacturing and finishing precast concrete, bitumen and stone products, and making cast stone for building purposes.\nTasks include -\n(a)  operating extrusion, moulding, mixing, pumping, compacting, grinding and cutting machinery to manufacture and finish precast concrete and stone products;\n(b)  operating plant to produce cement, lime and clinker, including loading and unloading ingredients and operating continuous feed equipment such as pumps and conveyors;\n(c)  operating plant and machines which weigh and mix sand, gravel, cement, water and other ingredients to make concrete;\n(d)  operating plant and machinery which assemble and fill moulds with concrete and artificial stone mixtures, remove castings from moulds and finish surfaces of precast products;\n(e)  cutting, grinding, drilling, sandblasting and polishing concrete products and stone blocks, slabs and products to the specifications for the job;\n(f)  checking production plans and specifications to determine and select materials, ingredients, procedures, components, settings and adjustments for extrusion, moulding, mixing and compacting machines;\n(g)  monitoring plant and machines during operation by observing instruments such as temperature and pressure gauges, adjusting controls and reporting malfunctions as necessary;\n(h)  collecting and examining samples of mixtures and finished products for conformity with specifications and adjusting machine settings accordingly;\n(i)   checking and maintaining production records, including information about quantities, dimensions and types of materials and goods produced;\n(j)   arranging and assisting with plant and machinery maintenance and repair.\nExamples of the occupations classified here:\n- Cast-concrete products machine operator\n- Cast-stone products machine operator\n- Concrete finishing machine opeerator\n- Concrete production machine operator\n- Industrial diamond polishing machine operator\n- Stone polishing machine operator\nSome related occupations classified elsewhere:\n- Stone polisher (hand or hand-powered tools) - 7113\n- Stone processing machine operator - 8112\n- Kiln operator (brick, pottery or tiles)- 8181\n- Extruding clay press operator - 8181\nNote\nExamples of products produced by operators of plant and machines in this unit group include: mixed concrete for use in civil engineering and construction projects, flagstones, concrete bricks and tiles, fencing posts, moulded pipe sections and trench liners, concrete railway sleepers, walling and partition slabs, building components, cable conduits, fume and dust extraction conduits, abrasive wheels and outdoor furniture.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8114&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8114",
+      "title": "Cement, stone and other mineral products machine operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C811&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C811",
+        "title": "Mining and mineral processing plant operators",
+        "code": "811"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/990738f4-587c-4045-a10f-e3c1c019220e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/990738f4-587c-4045-a10f-e3c1c019220e",
+        "title": "block machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2fa8c1fc-e722-4985-9822-f5d8174248cf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2fa8c1fc-e722-4985-9822-f5d8174248cf",
+        "title": "asphalt plant operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c453886f-a8f0-434c-be0e-e6a12c49954f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c453886f-a8f0-434c-be0e-e6a12c49954f",
+        "title": "stone polisher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8d3fd879-986d-42e7-bf67-c3c415592fe3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8d3fd879-986d-42e7-bf67-c3c415592fe3",
+        "title": "precast moulder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a001cf0d-b0eb-420a-a110-9408448ba8b8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a001cf0d-b0eb-420a-a110-9408448ba8b8",
+        "title": "stone splitter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/86da9311-1f7a-40bb-af65-ed2a7178fcae&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/86da9311-1f7a-40bb-af65-ed2a7178fcae",
+        "title": "concrete products machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0477b9b0-8d2d-4eec-aaad-bac11092e98b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0477b9b0-8d2d-4eec-aaad-bac11092e98b",
+        "title": "slate mixer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8fdce434-caaa-42c7-a77c-7ba8d1cbc4be&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8fdce434-caaa-42c7-a77c-7ba8d1cbc4be",
+        "title": "electrolytic cell maker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

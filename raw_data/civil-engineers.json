@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2142",
+  "title": "Civil engineers",
+  "preferredLabel": {
+    "de": "Bauingenieure",
+    "no": "Sivilingeniører (bygg og anlegg)",
+    "fi": "Maa- ja vesirakentamisen erityisasiantuntijat",
+    "sv": "Civilingenjörer m.fl., bygg och anläggning",
+    "pt": "Engenheiros civis",
+    "bg": "Строителни инженери",
+    "mt": "Inġiniera ċivili",
+    "el": "Πολιτικοί μηχανικοί",
+    "lt": "Civilinės statybos inžinieriai",
+    "en": "Civil engineers",
+    "lv": "Būvinženieri",
+    "hr": "Inženjeri/inženjerke građevinarstva",
+    "it": "Ingegneri civili",
+    "fr": "Ingénieurs civils",
+    "hu": "Építőmérnökök",
+    "es": "Ingenieros civiles",
+    "et": "Ehitusinsenerid",
+    "cs": "Stavební inženýři",
+    "sk": "Stavební špecialisti",
+    "sl": "Inženirji/inženirke gradbeništva",
+    "pl": "Inżynierowie budownictwa",
+    "ro": "Ingineri constructori",
+    "da": "Ingeniørarbejde vedrørende bygninger og anlæg",
+    "nl": "Weg- en waterbouwkundig ingenieurs"
+  },
+  "code": "2142",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2142"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2142"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Civil engineers conduct research, advise on, design, and direct construction; manage the operation and maintenance of civil engineering structures; or study and advise on technological aspects of particular materials.\nTasks include -\n(a)  conducting research and developing new or improved theories and methods related to civil engineering;\n(b)  advising on and designing structures such as bridges, dams, docks, roads, airports, railways, canals, pipelines, waste-disposal and flood-control systems, and industrial and other large buildings;\n(c)  determining and specifying construction methods, materials and quality standards, and directing construction work;\n(d)  establishing control systems to ensure efficient functioning of structures as well as safety and environmental protection;\n(e)  organizing and directing maintenance and repair of existing civil engineering structures;\n(f)  analysing the behaviour of soil and rock when placed under pressure by proposed structures and designing structural foundations;\n(g)  analysing the stability of structures and testing the behaviour and durability of materials used in their construction.\nExamples of the occupations classified here:\n-  Civil engineer\n-  Geotechnical engineer \n-  Structural engineer\nSome related occupations classified elsewhere:\n-  Civil engineering project manager - 1323\n-  Geoscientist - 2114\n-  Metallurgist - 2146\n-  Mining engineer - 2146\n-  Town and traffic planners - 2164\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2142&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2142",
+      "title": "Civil engineers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C214&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C214",
+        "title": "Engineering professionals (excluding electrotechnology)",
+        "code": "214"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d7d986e1-7333-431b-9719-0c5c6939e360&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d7d986e1-7333-431b-9719-0c5c6939e360",
+        "title": "civil engineer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

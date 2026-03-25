@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2222",
+  "title": "Midwifery professionals",
+  "preferredLabel": {
+    "no": "Jordmødre",
+    "de": "Akademische und vergleichbare Geburtshilfefachkräfte",
+    "fi": "Johtavat kätilöt",
+    "sv": "Barnmorskor med särskild kompetens",
+    "pt": "Enfermeiros especialistas em saúde materna e obstetrícia",
+    "bg": "Акушери",
+    "mt": "Professjonisti tal-ostetrija",
+    "el": "Μαίες",
+    "lt": "Akušerijos specialistai",
+    "en": "Midwifery professionals",
+    "lv": "Vecmātes",
+    "hr": "Glavne primalje",
+    "it": "Specialisti in scienze sanitarie ostetriche",
+    "fr": "Sages-femmes",
+    "hu": "Szülésznők",
+    "es": "Profesionales de partería",
+    "et": "Ämmaemandad",
+    "cs": "Specialisté v oblasti porodnictví",
+    "sk": "Špecialisti v pôrodníctve",
+    "sl": "Strokovnjaki/strokovnjakinje za babištvo",
+    "pl": "Położne specjalistki",
+    "da": "Jordemoderarbejde",
+    "ro": "Moașe",
+    "nl": "Verloskundigen"
+  },
+  "code": "2222",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2222"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2222"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Midwifery professionals plan, manage, provide and evaluate midwifery care services before, during and after pregnancy and childbirth. They provide delivery care for reducing health risks to women and newborn children, working autonomously or in teams with other health care providers.\nTasks include -\n(a)  planning, providing and evaluating care and support services for women and babies before, during and after pregnancy and childbirth according to the practice and standards of modern midwifery care; \n(b)  providing advice to women and families and conducting community education on health, nutrition, hygiene, exercise, birth and emergency plans, breastfeeding, infant care, family planning and contraception, lifestyle and other topics related to pregnancy and childbirth; \n(c)  assessing progress during pregnancy and childbirth, managing complications and recognizing warning signs requiring referral to a medical doctor with specialized skills in obstetrics;\n(d)  monitoring the health status of newborns, managing complications and recognizing warning signs requiring referral to a medical doctor with specialized skills in neonatology;\n(e)  monitoring  pain and discomfort experienced by women during labour and delivery and alleviating pain using a variety of therapies, including the use of painkilling drugs;\n(f)   reporting births to government authorities to meet legal and professional requirements;\n(g)  conducting research on midwifery practices and procedures and disseminating findings such as through scientific papers and reports;\n(h)  planning and conducting midwifery education activities in clinical and community settings.\nExample of the occupations classified here:\n- Professional midwife\nSome related occupations classified elsewhere:\n- Professional nurse - 2221\n- Associate professional nurse - 3221\n- Associate professional midwife - 3222\n- Nursing aide (clinic or hospital) - 5321\nNote\nThe distinctions between nursing and midwifery professionals and associate professionals should be made on the basis of the nature of the work performed in relation to the tasks specified in this definition. The qualifications held by individuals or that predominate in the country are not the main factor in making this distinction, as training arrangements for nurses and midwives vary widely between countries and have varied over time within countries.  \nMidwives who combine midwifery education or research with clinical midwifery practice are classified in Unit Group 2222: Midwifery Professionals.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2222&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2222",
+      "title": "Midwifery professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C222&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C222",
+        "title": "Nursing and midwifery professionals",
+        "code": "222"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/95cda6a9-a70a-4a93-9442-11d573cb4a02&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/95cda6a9-a70a-4a93-9442-11d573cb4a02",
+        "title": "midwife"
+      }
+    ]
+  },
+  "_embedded": {}
+}

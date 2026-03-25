@@ -1,0 +1,104 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8312",
+  "title": "Railway brake, signal and switch operators",
+  "preferredLabel": {
+    "no": "Skiftekonduktører mv",
+    "de": "Bediener von Sicherungs-, Signal- und Leittechnik im Schienennetzbetrieb",
+    "sv": "Bangårdspersonal",
+    "fi": "Jarru-, turvalaite- ja vaihdetyöntekijät",
+    "pt": "Guarda-freios, agulheiros e agentes de manobras de caminhos-de-ferro",
+    "bg": "Железопътни спирачи, сигналисти и стрелочници",
+    "el": "Τροχοπεδητές, σηματοδότες και κλειδούχοι σιδηροδρόμων",
+    "mt": "Operaturi tal-brejkijiet, tas-sinjali u tal-iswiċċ fil-qasam ferrovjarju",
+    "lt": "Geležinkelio ratstabdininkai, signalizuotojai ir iešmininkai",
+    "en": "Railway brake, signal and switch operators",
+    "lv": "Dzelzceļa pārmijnieki, sakabinātāji un tiem radniecīgu profesiju darbinieki",
+    "hr": "Željeznička prometno-prijevozna zanimanja",
+    "it": "Frenatori, segnalatori e agenti di manovra ferroviari",
+    "fr": "Serre-freins, aiguilleurs et agents de manœuvre",
+    "hu": "Vasúti fékezők, jelzőberendezés- és váltókezelők",
+    "es": "Guardafrenos, guardagujas y agentes de maniobras",
+    "et": "Raudtee liiklustöötajad",
+    "cs": "Signalisti, brzdaři, výhybkáři, posunovači",
+    "sk": "Posunovači, signalisti, výhybkári",
+    "sl": "Železniški zavirači/železniške zaviračke, signalisti/signalistke, premikači/premikačice ipd.",
+    "pl": "Dyżurni ruchu, manewrowi i pokrewni",
+    "ro": "Frânari, acari și agenți de manevră",
+    "da": "Tograngering",
+    "nl": "Remmers, sein- en wisselwachters"
+  },
+  "code": "8312",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "8312"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8312"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Railway brakers, signallers and shunters take charge of and safeguard railway freight trains during runs, control the movement of railway traffic by operating signals, switch rolling stock and make up trains in railway yards, make up trains for hauling in mines and control their movement.\nTasks include -\n(a)  taking charge of and safeguarding freight train during runs;\n(b)  controlling the flow of railway traffic over sections of line by operating signals and switches from control panels or signal boxes;\n(c)  switching and coupling rolling stock in railway yards and sidings in accordance with orders about loading, unloading and make-up of trains;\n(d)  making up trains for hauling by locomotive or cable and directing their movement along haulage ways in a mine or quarry;\n(e)  checking train systems and equipment such as air-conditioning and heating systems, brakes and brake hoses prior to train run.\nExamples of the occupations classified here:\n- Braker (railway)\n- Shunter (railway)\n- Signaller (railway)\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8312&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8312",
+      "title": "Railway brake, signal and switch operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C831&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C831",
+        "title": "Locomotive engine drivers and related workers",
+        "code": "831"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5a16dff6-ca31-4a39-85dd-4b5aa0f45419&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5a16dff6-ca31-4a39-85dd-4b5aa0f45419",
+        "title": "shunter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a2fa73d0-7e51-456f-95c6-90f126f52ab8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a2fa73d0-7e51-456f-95c6-90f126f52ab8",
+        "title": "train dispatcher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/219e7fdd-5889-4517-9e86-620a12d535aa&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/219e7fdd-5889-4517-9e86-620a12d535aa",
+        "title": "train preparer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/12f9c0e8-26f4-4f1d-bf04-b16a34d12798&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/12f9c0e8-26f4-4f1d-bf04-b16a34d12798",
+        "title": "rail switchperson"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c92a4851-9418-4fb5-8201-c7e03cc2b6e2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c92a4851-9418-4fb5-8201-c7e03cc2b6e2",
+        "title": "level crossing signalperson"
+      }
+    ]
+  },
+  "_embedded": {}
+}

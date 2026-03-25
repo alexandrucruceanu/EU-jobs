@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2120",
+  "title": "Mathematicians, actuaries and statisticians",
+  "preferredLabel": {
+    "no": "Matematikere",
+    "de": "Mathematiker, Versicherungsmathematiker und Statistiker",
+    "fi": "Matemaatikot, aktuaarit ja tilastotieteilijät",
+    "sv": "Matematiker, aktuarier och statistiker",
+    "pt": "Matemáticos, actuários e estaticistas",
+    "bg": "Математици, актюери и статистици",
+    "mt": "Matematiċi, attwari u esperti tal-istatistika",
+    "el": "Μαθηματικοί, αναλογιστές και στατιστικοί",
+    "lt": "Matematikai, aktuarai ir statistikai",
+    "en": "Mathematicians, actuaries and statisticians",
+    "lv": "Matemātiķi, aktuāri un statistiķi",
+    "hr": "Matematičari/matematičarke, aktuari/aktuarke i statističari/statističarke",
+    "it": "Matematici, attuari e statistici",
+    "fr": "Mathématiciens, actuaires et statisticiens",
+    "hu": "Matematikusok, biztosításmatematikusok (aktuáriusok) és statisztikusok",
+    "es": "Matemáticos, actuarios y estadísticos",
+    "et": "Matemaatikud, aktuaarid ja statistikud",
+    "cs": "Specialisté v oblasti matematiky, statistiky a pojistné matematiky",
+    "sk": "Špecialisti v oblasti matematiky, poistnej matematiky a štatistiky",
+    "sl": "Matematiki/matematičarke, aktuarji/aktuarke in statistiki/statističarke",
+    "pl": "Matematycy, aktuariusze i statystycy",
+    "ro": "Matematicieni, actuari și statisticieni",
+    "da": "Arbejde med matematiske, aktuariske og statistiske metoder og teorier",
+    "nl": "Wiskundigen, actuarissen en statistici"
+  },
+  "code": "2120",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2120"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2120"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Mathematicians, actuaries and statisticians conduct research and improve or develop mathematical, actuarial and statistical concepts, theories and operational methods and techniques and advise on or engage in their practical application in such fields as engineering, business and social and other sciences.\nTasks include -\n(a)  studying, improving and developing mathematical, actuarial and statistical theories and techniques;\n(b)  advising on or applying mathematical principles, models and techniques to a wide range of tasks in the fields of engineering, natural, social or life sciences;\n(c)  conducting logical analyses of management problems, especially in terms of input-output effectiveness, and formulating mathematical models of each problem usually for programming and solution by computer;\n(d)  designing and putting into operation pension schemes and life, health, social and other types of insurance systems;\n(e)  applying mathematics, statistics, probability and risk theory to assess potential financial impacts of future events;\n(f)  planning and organizing surveys and other statistical collections, and designing questionnaires;\n(g)  evaluating, processing, analysing and interpreting statistical data and preparing them for publication;\n(h)  advising on or applying various data collection methods and statistical methods and techniques, and determining reliability of findings, especially in such fields as business or medicine as well as in other areas of natural, social or life sciences;\n(i)  preparing scientific papers and reports;\n(j)  supervising the work of mathematical, actuarial and statistical assistants and statistical clerks.\nExamples of the occupations classified here:\n-  Actuary\n-  Demographer\n-  Mathematician \n-  Operations research analyst\n-  Statistician\nSome related occupations classified elsewhere:\n-  Information systems analyst - 2511\n-  Actuarial assistant - 3314\n-  Mathematical assistant - 3314\n-  Statistical assistant - 3314\n-  Actuarial clerk - 4312\n-  Statistical clerk - 4312\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2120&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2120",
+      "title": "Mathematicians, actuaries and statisticians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C212&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C212",
+        "title": "Mathematicians, actuaries and statisticians",
+        "code": "212"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ac8b3cd1-a127-4e6a-8208-5cfcf7111955&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ac8b3cd1-a127-4e6a-8208-5cfcf7111955",
+        "title": "statistician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/068c2787-58ff-468e-bbb6-c4e5dd6ee482&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/068c2787-58ff-468e-bbb6-c4e5dd6ee482",
+        "title": "actuarial consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/491cf76d-eb0d-4f15-90f0-3f5c9b11472a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/491cf76d-eb0d-4f15-90f0-3f5c9b11472a",
+        "title": "gambling, betting, and lottery quality assurance engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ff656b3a-65a8-4b4f-b04e-9db12936519b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ff656b3a-65a8-4b4f-b04e-9db12936519b",
+        "title": "demographer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18552245-3c36-4a52-b4c6-295cabb5c93b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/18552245-3c36-4a52-b4c6-295cabb5c93b",
+        "title": "gambling, betting, and lottery game developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/72628f3a-fd49-499a-9741-870b0a1fcef2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/72628f3a-fd49-499a-9741-870b0a1fcef2",
+        "title": "mathematician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

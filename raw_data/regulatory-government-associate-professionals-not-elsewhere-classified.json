@@ -1,0 +1,119 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3359",
+  "title": "Regulatory government associate professionals not elsewhere classified",
+  "preferredLabel": {
+    "no": "Andre yrker innen offentlig forvaltning",
+    "de": "Fachkräfte in der öffentlichen Verwaltung, anderweitig nicht genannt",
+    "fi": "Muut julkishallinnon valmistelu- ja valvontavirkamiehet",
+    "sv": "Övriga tull-, taxerings- och socialförsäkringstjänstemän m.fl.",
+    "pt": "Outros agentes de nível intermédio para aplicação da lei e similares",
+    "bg": "Приложни специалисти в държавната администрация, некласифицирани другаде",
+    "mt": "Professjonisti assoċjati tar-regolatorja tal-gvern li mhumiex ikklassifikati x’imkien ieħor",
+    "el": "Λειτουργοί και ελεγκτές ρυθμιστικών-εκτελεστικών κρατικών υπηρεσιών π.δ.κ.α.",
+    "lt": "Kitur nepriskirti jaunesnieji valstybinių tarnybų specialistai",
+    "en": "Regulatory government associate professionals not elsewhere classified",
+    "hr": "Stručni suradnici/stručne suradnice na poslovima državne regulative d. n.",
+    "lv": "Citur neklasificēti valsts varas īstenošanas speciālisti",
+    "it": "Membri di organismi di governo con potestà regolamentare (livello intermedio) non classificati altrove",
+    "fr": "Professions intermédiaires de l’application de la loi et assimilées non classées ailleurs",
+    "hu": "Máshová nem sorolható közhivatali ügyintézők",
+    "es": "Agentes de la administración pública para la aplicación de la ley y afines no clasificados bajo otros epígrafes",
+    "et": "Valitsuse haldusalade ametnikud, mujal liigitamata",
+    "cs": "Pracovníci veřejné správy v oblasti státních regulací jinde neuvedení",
+    "sk": "Odborní pracovníci štátnej správy inde neuvedení",
+    "sl": "Strokovni državni uslužbenci/strokovne državne uslužbenke, d. n.",
+    "pl": "Urzędnicy państwowi do spraw nadzoru gdzie indziej niesklasyfikowani",
+    "ro": "Specialiști guvernamentali cu funcții de reglementare și asimilați neclasificați în grupele de bază anterioare",
+    "da": "Andet arbejde med forvaltning og udøvelse af lovgivning",
+    "nl": "Vakspecialisten bij de overheid, niet elders geclassificeerd"
+  },
+  "code": "3359",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3359"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3359"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers government regulatory associate professionals not classified elsewhere. For instance, the group includes agricultural, fisheries, forestry, prices, wages and weights and measures inspectors.\nIn such cases tasks would include -\n(a)  examining places of business to ensure the use of correct weights and measures in trade;\n(b)  monitoring price regulations to assess appropriateness of costs for goods and services to protect consumer interests;\n(c)  monitoring wage regulations to ensure appropriate levels of pay for work performed and to assess compliance with employment standards legislation;\n(d)  performing related investigative and administrative tasks to record findings, document compliance problems or inappropriate business practices and to prepare reports and correspondence.\nExamples of the occupations classified here:\n- Agricultural inspector\n- Fisheries inspector\n- Forestry inspector\n- Prices inspector\n- Wage inspector\n- Weights and measures inspector\nSome related occupations classified elsewhere:\n- Fire inspector - 3112 \n- Health inspector - 3257\n- Occupational health and safety inspector - 3257\n- Pollution inspector - 3257\n- Sanitary inspector - 3257\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3359&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3359",
+      "title": "Regulatory government associate professionals not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C335&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C335",
+        "title": "Regulatory government associate professionals",
+        "code": "335"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6c7d333a-b2a9-4325-b25b-566d1ecc956d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6c7d333a-b2a9-4325-b25b-566d1ecc956d",
+        "title": "forestry inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d9f67d41-5e35-49c1-82a4-05ed94fbc3ab&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d9f67d41-5e35-49c1-82a4-05ed94fbc3ab",
+        "title": "weights and measures inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/715b902f-b1b6-4366-afc6-ddb8ab715229&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/715b902f-b1b6-4366-afc6-ddb8ab715229",
+        "title": "agricultural inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/379a4f3f-4985-4764-8b2f-037946da855d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/379a4f3f-4985-4764-8b2f-037946da855d",
+        "title": "gaming inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c3fc5265-6333-483f-9339-b4b860efa08d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c3fc5265-6333-483f-9339-b4b860efa08d",
+        "title": "fisheries observer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2b31f745-f04f-4d2c-9692-4715e1448f80&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2b31f745-f04f-4d2c-9692-4715e1448f80",
+        "title": "health and safety inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cb60beab-7afb-4e99-8162-221abea68e6d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cb60beab-7afb-4e99-8162-221abea68e6d",
+        "title": "consumer rights advisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/50609eb5-9957-4cbf-9b91-6f46ce49cfad&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/50609eb5-9957-4cbf-9b91-6f46ce49cfad",
+        "title": "freight inspector"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9510",
+  "title": "Street and related service workers",
+  "preferredLabel": {
+    "no": "Reklamedistributører mv.",
+    "de": "Auf der Straße arbeitende Dienstleistungskräfte und verwandte Berufe",
+    "fi": "Mainosten jakajat, kengänkiillottajat ym.",
+    "sv": "Skoputsare m.fl.",
+    "pt": "Prestadores de serviços na rua",
+    "bg": "Работници, извършващи услуги на улицата",
+    "mt": "Ħaddiema li jagħtu servizz fit-toroq u dak relatat ma’ dan",
+    "el": "Πρόσωπα που παρέχουν μικροϋπηρεσίες στο δρόμο και ασκούντες συναφή επαγγέλματα",
+    "lt": "Gatvės ir susiję paslaugų sektoriaus darbuotojai",
+    "en": "Street and related service workers",
+    "lv": "Ielu strādnieki un tiem radniecīgu profesiju strādnieki",
+    "hr": "Ulični prodavači/ulične prodavačice i srodna uslužna zanimanja",
+    "it": "Venditori ambulanti di servizi",
+    "fr": "Travailleurs des petits métiers des rues et assimilés",
+    "hu": "Utcai és hasonló szolgáltatók",
+    "es": "Trabajadores ambulantes de servicios y afines",
+    "et": "Välimüüjad",
+    "cs": "Pracovníci pouličních služeb a pracovníci v příbuzných oborech",
+    "sk": "Pomocní pracovníci v pouličných službách",
+    "sl": "Poulični prodajalci/poulične prodajalke in podobni storitveni poklici",
+    "pl": "Pracownicy świadczący usługi na ulicach i pokrewni",
+    "da": "Servicearbejde på gaden",
+    "ro": "Prestatori ambulanți de mici servicii pentru populație și asimilați",
+    "nl": "Op straat uitgeoefende dienstverlenende beroepen"
+  },
+  "code": "9510",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "9510"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9510"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Street and related services workers provide a variety of services on streets and in other public places, including cleaning shoes, washing car windows, running errands, handing out leaflets, looking after property, and providing other on-the-spot street services.\nTasks include -\n(a)  obtaining the materials necessary to perform services;\n(b)  approaching people on the street to offer services;\n(c)  cleaning and polishing shoes;\n(d)  cleaning and polishing car windows;\n(e)  running errands;\n(f)  assisting car drivers to find a parking place and ensuring that the car is not damaged during the driver’s absence;\n(g)  handing out leaflets and free newspapers;\n(h)  receiving immediate payment.\nExamples of the occupations classified here:\n- Car window washer\n- Car guard\n- Errand boy\n- Free newspaper distributor\n- Leaflet distributor\n- Shoe-polisher\n\nSome related occupations classified elsewhere:\n- Service station attendant - 5245\n- Leaflet and newspaper deliverer - 9621\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9510&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9510",
+      "title": "Street and related service workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C951&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C951",
+        "title": "Street and related service workers",
+        "code": "951"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5ff100c2-00cd-4c64-82ae-8feab6712557&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5ff100c2-00cd-4c64-82ae-8feab6712557",
+        "title": "leaflet distributor"
+      }
+    ]
+  },
+  "_embedded": {}
+}

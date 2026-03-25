@@ -1,0 +1,149 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2166",
+  "title": "Graphic and multimedia designers",
+  "preferredLabel": {
+    "de": "Grafik- und Multimediadesigner",
+    "no": "Grafiske- og multimediadesignere",
+    "fi": "Graafiset ja multimediasuunnittelijat",
+    "sv": "Grafiska formgivare m.fl.",
+    "pt": "Designers gráficos e de multimédia",
+    "bg": "Графични и мултимедийни дизайнери",
+    "mt": "Disinjaturi tal-grafika u tal-multimidja",
+    "el": "Γραφίστες και σχεδιαστές πολυμέσων",
+    "lt": "Grafikos ir multimedijos dizaineriai",
+    "en": "Graphic and multimedia designers",
+    "hr": "Grafički dizajneri/grafičke dizajnerice i dizajneri/dizajnerice multimedijskih sadržaja",
+    "lv": "Grafikas un multimediju dizaineri",
+    "it": "Grafici e progettisti multimediali",
+    "fr": "Concepteurs graphiques, multimédia – graphistes",
+    "hu": "Tervezőgrafikusok és multimédiatervezők",
+    "es": "Diseñadores gráficos y multimedia",
+    "et": "Graafikud ja multimeediakunstnikud",
+    "cs": "Grafici a výtvarníci v multimédiích",
+    "sk": "Grafickí a multimediálni dizajnéri",
+    "sl": "Grafični in multimedijski oblikovalci/grafične in multimedijske oblikovalke",
+    "pl": "Projektanci grafiki i multimediów",
+    "da": "Arbejde med grafisk og multimediedesign",
+    "ro": "Designeri grafică și multimedia",
+    "nl": "Grafisch ontwerpers en multimediaontwerpers"
+  },
+  "code": "2166",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2166"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2166"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Graphic and multimedia designers design visual and audiovisual content for the communication of information using print, film, electronic, digital and other forms of visual and audio media. They create graphics, special effects, animation or other visual images for use in computer games, movies, music videos, print media and advertisements.\nTasks include -\n(a)  determining the objectives and constraints of the design brief by consulting with clients and stakeholders;\n(b)  undertaking research and analysing functional communication requirements;\n(c)  formulating design concepts for the subject to be communicated;\n(d)  preparing sketches, diagrams, illustrations and layouts to communicate design concepts;\n(e)  designing complex graphics and animation to satisfy functional, aesthetic and creative requirements of the design brief; \n(f)  creating two-dimensional and three-dimensional images depicting objects in motion or illustrating a process, using computer animation or modelling programmes;\n(g)  negotiating design solutions with clients, management, sales and production staff;\n(h)  selecting, specifying or recommending functional and aesthetic materials and media for publication, delivery or display;\n(i)  detailing and documenting the selected design for production;\n(j)  supervising or carrying out production in the chosen media.\nExamples of the occupations classified here:\n- Animator\n- Commercial artist\n- Computer games designer\n- Digital artist\n- Graphic designer\n- Illustrator\n- Multimedia designer\n- Publication designer\n- Website designer\nSome related occupations classified elsewhere:\n- Interior architect - 2161\n- Multimedia developers - 2513\n- Web developers - 2513\n- Visual artists - 2651\n- Interior designers - 3432\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2166&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2166",
+      "title": "Graphic and multimedia designers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C216&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C216",
+        "title": "Architects, planners, surveyors and designers",
+        "code": "216"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d5c4ab26-c293-4f4d-ad89-fe776f49a67f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d5c4ab26-c293-4f4d-ad89-fe776f49a67f",
+        "title": "digital artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/78216000-edc1-474b-9569-28ed6a657da2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/78216000-edc1-474b-9569-28ed6a657da2",
+        "title": "desktop publisher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/364d9e9f-b14c-4905-b9e5-5de623dba268&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/364d9e9f-b14c-4905-b9e5-5de623dba268",
+        "title": "stop-motion animator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/48c8eccb-4bd0-487e-a187-4953cbbe956e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/48c8eccb-4bd0-487e-a187-4953cbbe956e",
+        "title": "animator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cb93fd23-1f51-4495-867a-936c1967066b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cb93fd23-1f51-4495-867a-936c1967066b",
+        "title": "art director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/69bcbb0a-8d80-4ecd-b0a4-9adea2a40de2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/69bcbb0a-8d80-4ecd-b0a4-9adea2a40de2",
+        "title": "graphic designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bab5fa79-7f96-4e21-87b6-1eba560b8d9a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bab5fa79-7f96-4e21-87b6-1eba560b8d9a",
+        "title": "3D modeller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c995fe34-0909-4ce3-b7b7-97945efede56&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c995fe34-0909-4ce3-b7b7-97945efede56",
+        "title": "video designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b1c0714d-77f1-4732-8fd8-9f0739fb9974&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b1c0714d-77f1-4732-8fd8-9f0739fb9974",
+        "title": "special effects artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/951b9d94-9bf1-4771-877d-3a26b75d9e53&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/951b9d94-9bf1-4771-877d-3a26b75d9e53",
+        "title": "animation layout artist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1b949bae-882f-40ff-9fe7-3c8ede5e38b5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1b949bae-882f-40ff-9fe7-3c8ede5e38b5",
+        "title": "illustrator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d68ff35f-e34d-4e32-88ab-d6c06a6c25b9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d68ff35f-e34d-4e32-88ab-d6c06a6c25b9",
+        "title": "digital games designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d5a43cd3-230e-46d0-ba05-d67d61e5cfbb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d5a43cd3-230e-46d0-ba05-d67d61e5cfbb",
+        "title": "digital media designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/11830794-108c-48fe-a282-2cd7a2945344&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/11830794-108c-48fe-a282-2cd7a2945344",
+        "title": "gambling, betting, and lottery games designer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

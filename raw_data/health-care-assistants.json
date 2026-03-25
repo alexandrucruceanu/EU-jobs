@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5321",
+  "title": "Health care assistants",
+  "preferredLabel": {
+    "de": "Pflegehelfer",
+    "no": "Helsefagarbeidere",
+    "sv": "Undersköterskor, sjukvårdsbiträden m.fl.",
+    "fi": "Lähihoitajat",
+    "pt": "Assistentes de cuidados de saúde",
+    "bg": "Санитари",
+    "mt": "Assistenti għall-kura tas-saħħa",
+    "el": "Βοηθοί στον τομέα της υγείας",
+    "lt": "Asmens sveikatos priežiūros padėjėjai",
+    "en": "Health care assistants",
+    "lv": "Veselības aprūpes speciālistu palīgi",
+    "hr": "Djelatnici/djelatnice za zdravstvenu i socijalnu skrb u ustanovama",
+    "it": "Ausiliari sanitari",
+    "fr": "Aides-soignants en institution",
+    "hu": "Kisegítő gondozó személyzet",
+    "es": "Trabajadores de los cuidados personales en instituciones",
+    "et": "Hooldajad",
+    "cs": "Ošetřovatelé a příbuzní pracovníci v oblasti zdravotnictví (kromě domácí péče)",
+    "sk": "Asistenti zdravotnej starostlivosti",
+    "sl": "Pomočniki/pomočnice za zdravstveno nego",
+    "pl": "Pomocniczy personel medyczny",
+    "ro": "Îngrijitori în domeniul sănătății",
+    "da": "Omsorgsarbejde på institutioner (ekskl. plejehjem)",
+    "nl": "Ziekenverzorgers"
+  },
+  "code": "5321",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5321"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5321"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Health care assistants provide direct personal care and assistance with activities of daily living to patients and residents in a variety of health care settings such as hospitals, clinics and residential nursing care facilities. They generally work in implementation of established care plans and practices, and under the direct supervision of medical, nursing or other health professionals or associate professionals.\nTasks include -\n(a) providing care, support and treatment to patients and residents of medical, rehabilitative and residential care facilities according to treatment plans established by medical, nursing and other health professionals;\n(b)  assisting patients with personal and therapeutic care needs such as personal hygiene, feeding, dressing, physical mobility and exercise, communication, taking oral medications and changing dressings;\n(c)  positioning, lifting and turning patients and transporting them in wheelchairs or on movable beds;\n(d)  maintaining patients’ environmental hygiene standards, such as cleaning patient rooms and changing bed linen;\n(e)  providing massage and other non-pharmacological pain relief measures, such as during pregnancy and labour;\n(f)  observing patients’ condition, responses and behaviour and reporting changes to a health professional.\nExamples of the occupations classified here:\n- Birth assistant (clinic or hospital)\n- Nursing aide (clinic or hospital)\n- Patient care assistant\n- Psychiatric aid\nSome related occupations classified elsewhere:\n- Nurse (professional) - 2221\n- Nurse (associate professional) - 3221\n- Ambulance worker - 3258\n- Nursing aide (home) - 5322\nNotes\nWorkers who provide personal care to residents of institutions and facilities that have permanent medical or nursing supervision (such as hospitals, rehabilitation centres, residential nursing care facilities and nursing homes), and therefore work under the direct supervision of nurses, medical doctors, or other health professionals or associate professionals, are classified in Unit Group 5321: Health Care Assistants.  Workers who provide personal care to residents of independent living units, generally without permanent medical or nursing supervision, should be classified in Unit Group 5322: Home-based Personal Care Workers.  In general, workers classified in Minor Group 532: Personal Care Workers in Health Services do not perform tasks requiring extensive medical knowledge or training, such as administering medications and cleaning and dressing wounds: where tasks of this type are performed they are of a simple and routine nature.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5321&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5321",
+      "title": "Health care assistants"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C532&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C532",
+        "title": "Personal care workers in health services",
+        "code": "532"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d38c2107-98f2-47b7-8bb4-f69750d51082&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d38c2107-98f2-47b7-8bb4-f69750d51082",
+        "title": "healthcare assistant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

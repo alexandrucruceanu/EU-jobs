@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2221",
+  "title": "Nursing professionals",
+  "preferredLabel": {
+    "no": "Spesialsykepleiere",
+    "de": "Akademische und vergleichbare Krankenpflegefachkräfte",
+    "sv": "Sjuksköterskor med särskild kompetens",
+    "fi": "Ylihoitajat ja osastonhoitajat",
+    "pt": "Enfermeiros generalistas e especialistas",
+    "bg": "Медицински сестри",
+    "mt": "Professjonisti tal-infermerija",
+    "el": "Νοσηλευτές",
+    "lt": "Slaugos specialistai",
+    "en": "Nursing professionals",
+    "lv": "Vecākās medicīnas māsas",
+    "hr": "Glavni medicinski tehničari/glavne medicinske sestre opće njege",
+    "it": "Specialisti in scienze sanitarie infermieristiche",
+    "fr": "Cadres infirmiers",
+    "hu": "Diplomás ápolók",
+    "es": "Profesionales de enfermería",
+    "et": "Õendusala tippspetsialistid",
+    "cs": "Specialisté v oblasti ošetřovatelství",
+    "sk": "Špecialisti v ošetrovateľstve",
+    "sl": "Strokovnjaki/strokovnjakinje za zdravstveno nego",
+    "pl": "Pielęgniarki specjalistki",
+    "ro": "Asistenți medicali generaliști",
+    "da": "Sygeplejerskearbejde",
+    "nl": "Verpleegkundigen met hogere opleiding"
+  },
+  "code": "2221",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2221"
+    },
+    {
+      "datatype": "",
+      "value": "2221"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Nursing professionals provide treatment, support and care services for people who are in need of nursing care due to the effects of ageing, injury, illness or other physical or mental impairment, or potential risks to health. They assume responsibility for the planning and management of the care of patients, including the supervision of other health care workers, working autonomously or in teams with medical doctors and others in the practical application of preventive and curative measures.\nTasks include -\n(a)  planning, providing and evaluating nursing care for patients according to the practice and standards of modern nursing; \n(b)  coordinating the care of patients in consultation with other health professionals and members of health teams; \n(c)  developing and implementing care plans for the biological, social and psychological treatment of patients in collaboration with other health professionals; \n(d)  planning and providing personal care, treatments and therapies including administering medications, and monitoring responses to treatment or care plan;\n(e)  cleaning wounds and applying surgical dressings and bandages;\n(f)  monitoring pain and discomfort experienced by patients and alleviating pain using a variety of therapies, including the use of painkilling drugs; \n(g)  planning and participating in health education programmes, health promotion and nurse education activities in clinical and community settings; \n(h)  answering questions from patients and families and providing information about prevention of ill-health, treatment and care; \n(i)  supervising and coordinating the work of other nursing, health and personal care workers; \n(j)  conducting research on nursing practices and procedures and disseminating findings such as through scientific papers and reports.\nExamples of the occupations classified here:\n- Clinical nurse consultant\n- District nurse\n- Nurse anaesthetist\n- Nurse educator\n- Nurse practitioner\n- Operating theatre nurse\n- Professional nurse\n- Public health nurse\n- Specialist nurse\nSome related occupations classified elsewhere:\n- Professional midwife - 2222\n- Paramedical practitioners - 2240\n- University lecturer - 2310\n- Vocational education teacher - 2320\n- Associate professional nurse - 3221\n- Associate professional midwife - 3222\n- Nursing aide (clinic or hospital) - 5321\nNotes\nThe distinction between professional and associate professional nurses should be made on the basis of the nature of the work performed in relation to the tasks specified in this definition. The qualifications held by individuals or that predominate in the country are not the main factor in making this distinction, as training arrangements for nurses vary widely between countries and have varied over time within countries.\nNurses who combine nursing education or research with clinical nursing practice are classified in Unit Group 2221: Nursing Professionals. Nursing researchers who participate in biomedical research using living organisms and do not undertake clinical nursing practice are classified in Unit Group 2131: Biologists, Botanists, Zoologists and Related Professionals.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2221&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2221",
+      "title": "Nursing professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C222&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C222",
+        "title": "Nursing and midwifery professionals",
+        "code": "222"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba",
+        "title": "specialist nurse"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8d3e8aaa-791b-4c75-a465-f3f827028f50&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8d3e8aaa-791b-4c75-a465-f3f827028f50",
+        "title": "nurse responsible for general care"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/36494988-69d2-4420-9db4-eb56605ac983&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/36494988-69d2-4420-9db4-eb56605ac983",
+        "title": "advanced nurse practitioner"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7544",
+  "title": "Fumigators and other pest and weed controllers",
+  "preferredLabel": {
+    "de": "Kammerjäger und andere Schädlingsbekämpfungsberufe",
+    "no": "Desinfeksjonsarbeidere og skadedyrbekjempere",
+    "fi": "Savupuhdistajat, tuholais- ja rikkakasvintorjujat",
+    "sv": "Skadedjurssanerare m.fl.",
+    "pt": "Fumigadores e outros controladores de pragas e ervas daninhas",
+    "bg": "Работници по дезинфекция, дезинсекция и дератизация и работници по борба с плевелите",
+    "mt": "Fumigaturi u kontrolluri oħra tal-insetti u tal-ħaxix ħażin",
+    "el": "Απολυμαντές και υπεύθυνοι για τον έλεγχο εντόμων, παρασίτων και ζιζανίων",
+    "lt": "Fumigaciją atliekantys asmenys ir kiti kenkėjų ir piktžolių naikintojai",
+    "en": "Fumigators and other pest and weed controllers",
+    "lv": "Dezinfektori un citi kaitēkļu un nezāļu iznīcinātāji",
+    "hr": "Raskužitelji/raskužiteljice i srodna zanimanja",
+    "it": "Fumigatori, disinfestatori e diserbatori",
+    "fr": "Fumigateurs et préposés au contrôle de la vermine et des mauvaises herbes",
+    "hu": "Kártevőirtók",
+    "es": "Fumigadores y otros controladores de plagas y malas hierbas",
+    "et": "Kahjuritõrje spetsialistid",
+    "cs": "Hubitelé škůdců",
+    "sk": "Dezinfikátori a iní likvidátori škodcov a buriny",
+    "sl": "Razkuževalci/razkuževalke in drugi dezinsektorji/dezinsektorice ipd.",
+    "pl": "Robotnicy zajmujący się opryskami roślin i innymi metodami zwalczania szkodników i chwastów",
+    "ro": "Lucrători specializați în servicii de erbicidare si dezinsecție",
+    "da": "Desinfektionsarbejde og skadedyrsbekæmpelse",
+    "nl": "Ontsmetters en bestrijders van onkruid en ongedierte"
+  },
+  "code": "7544",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7544"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7544"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Fumigators and other pest and weed controllers use chemicals to remove harmful insects, small animals, wild plants and other unwanted organisms, to prevent damage to crops and to buildings and other structures and their surroundings, and to prevent health risks.\nTasks include -\n(a)  operating and monitoring equipment for spraying pests and weeds;\n(b)  mixing chemicals according to instructions;\n(c)  covering areas to specified depths with pesticides, applying knowledge of weather conditions, droplet sizes, elevation-to-distance ratios, and obstructions;\n(d)  spraying or releasing chemical solutions or toxic gases, and setting traps to kill pests and vermin, such as mice, termites and roaches;\n(e)  lifting, pushing and swinging nozzles, hoses and tubes in order to direct spray over designated areas;\n(f)  filling sprayer tanks with water and chemicals;\n(g)  cleaning and servicing machinery to ensure operating efficiency.\nExamples of the occupations classified here:\n- Fumigator\n- Pest controller\n- Weed controller\nSome related occupations classified elsewhere:\n- Aerial crop sprayer - 3153\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7544&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7544",
+      "title": "Fumigators and other pest and weed controllers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C754&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C754",
+        "title": "Other craft and related workers",
+        "code": "754"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/21cba86a-68c5-456c-aec2-cc04840b3c0e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/21cba86a-68c5-456c-aec2-cc04840b3c0e",
+        "title": "pest management worker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

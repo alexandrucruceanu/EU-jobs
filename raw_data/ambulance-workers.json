@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3258",
+  "title": "Ambulance workers",
+  "preferredLabel": {
+    "de": "Rettungsdienstpersonal",
+    "no": "Ambulansepersonell",
+    "fi": "Sairaankuljetuksen ensihoitajat",
+    "sv": "Ambulanssjukvårdare",
+    "pt": "Técnicos de ambulância",
+    "bg": "Приложни специалисти в оказването на спешна медицинска помощ",
+    "mt": "Ħaddiema tal-ambulanza",
+    "el": "Εργαζόμενοι σε ασθενοφόρα",
+    "lt": "Greitosios medicinos pagalbos darbuotojai",
+    "en": "Ambulance workers",
+    "lv": "Neatliekamās medicīniskās palīdzības darbinieki",
+    "hr": "Osoblje vozila hitne medicinske pomoći",
+    "it": "Infermieri di ambulanza",
+    "fr": "Ambulanciers",
+    "hu": "Mentőápolók",
+    "es": "Ayudantes de ambulancias",
+    "et": "Erakorralise abi spetsialistid",
+    "cs": "Zdravotničtí záchranáři",
+    "sk": "Zdravotnícki záchranári",
+    "sl": "Reševalno osebje",
+    "pl": "Noszowi",
+    "ro": "Lucrători pe ambulanță",
+    "da": "Redningsarbejde (Ambulancebehandler)",
+    "nl": "Ambulancepersoneel"
+  },
+  "code": "3258",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3258"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3258"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Ambulance workers provide emergency health care to patients who are injured, sick, infirm or otherwise physically or mentally impaired prior to and during transport to medical facilities.\nTasks include -\n(a)  assessing the health status of persons involved in accidents, natural disasters and other emergency situations, and determining needs for immediate and specialized medical assistance; \n(b)  performing medical procedures and administering drugs and other therapies according to protocol for emergency medical treatment, including resuscitating and defibrillating patients and operating life-support equipment; \n(c)  monitoring changes in the health status of patients during transport to and from medical, rehabilitation and other health care facilities; \n(d)  providing information and training to community groups and essential service workers in first aid for initial care of an illness or injury; \n(e)  attending and/or patrolling large-scale public gatherings and other events where health emergencies are more likely to occur; \n(f)  recording information on patients’ conditions and treatments provided in medical record-keeping systems.\nExamples of the occupations classified here:\n- Ambulance officer\n- Ambulance paramedic\n- Emergency medical technician\n- Emergency paramedic\nSome related occupations classified elsewhere:\n- Paramedical practitioner - 2240\n- Ambulance driver - 8322\nNote\nOccupations included in this unit group normally require formal training in emergency medical treatment, patient transport, ambulance principles and practice, or a related field. Ambulance drivers who do not provide health care are classified in Unit Group 8322: Car, Taxi and Van Drivers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3258&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3258",
+      "title": "Ambulance workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C325&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C325",
+        "title": "Other health associate professionals",
+        "code": "325"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0b5dfc02-b825-4445-811d-d39ed442657e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0b5dfc02-b825-4445-811d-d39ed442657e",
+        "title": "paramedic in emergency responses"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/64e909ad-1bd0-493c-a8dc-1afbed0c9c2f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/64e909ad-1bd0-493c-a8dc-1afbed0c9c2f",
+        "title": "emergency ambulance driver"
+      }
+    ]
+  },
+  "_embedded": {}
+}

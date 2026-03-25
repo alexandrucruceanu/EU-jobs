@@ -1,0 +1,119 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2529",
+  "title": "Database and network professionals not elsewhere classified",
+  "preferredLabel": {
+    "no": "Sikkerhetsanalytikere mv.",
+    "de": "Akademische und vergleichbare Fachkräfte für Datenbanken und Netzwerke, anderweitig nicht genannt",
+    "fi": "Muut tietokanta- ja tietoverkkojen erityisasiantuntijat",
+    "sv": "Övriga databas- och nätverksadministratörer",
+    "pt": "Outros especialistas de bases de dados e redes",
+    "bg": "Специалисти по бази данни и мрежи, некласифицирани другаде",
+    "mt": "Professjonisti tal-bażi tad-dejta u tan-netwerk li mhumiex ikklassifikati x’imkien ieħor",
+    "el": "Επαγγελματίες βάσεων δεδομένων και δικτύων π.δ.κ.α.",
+    "lt": "Kitur nepriskirti duomenų bazių ir tinklų specialistai",
+    "en": "Database and network professionals not elsewhere classified",
+    "hr": "Stručnjaci/stručnjakinje za baze podataka i računalne mreže, d. n.",
+    "lv": "Citur neklasificēti datubāzu un tīklu vecākie speciālisti",
+    "it": "Specialisti in basi dati e in reti informatiche non classificati altrove",
+    "fr": "Spécialistes des bases de données et des réseaux d’ordinateurs non classés ailleurs",
+    "hu": "Máshová nem sorolható adatbázis- és hálózati foglalkozásúak",
+    "es": "Especialistas en bases de datos y en redes de computadores no clasificados bajo otros epígrafes",
+    "et": "Andmebaaside ja võrgustikega tegelevad spetsialistid, mujal liigitamata",
+    "cs": "Specialisté v oblasti databází a počítačových sítí jinde neuvedení",
+    "sk": "Špecialisti v oblasti databáz a počítačových sietí inde neuvedení",
+    "sl": "Strokovnjaki/strokovnjakinje za podatkovne baze in računalniška omrežja, d. n.",
+    "pl": "Specjaliści do spraw baz danych i sieci gdzie indziej niesklasyfikowani",
+    "da": "Andet arbejde med databaser og netværk",
+    "ro": "Specialiști în baze de date și rețele neclasificați în grupele de bază anterioare",
+    "nl": "Databank- en netwerkspecialisten, niet elders geclassificeerd"
+  },
+  "code": "2529",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2529"
+    },
+    {
+      "datatype": "",
+      "value": "2529"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group includes database and network professionals not classified elsewhere in Minor Group 252: Database and Network Professionals.  For instance, the group includes information and communications technology security specialists.\nIn such cases tasks would include -\n(a)  developing plans to safeguard computer files against accidental or unauthorized modification, destruction or disclosure and to meet emergency data processing needs;\n(b)  training users and promoting security awareness to ensure system security and to improve server and network efficiency;\n(c)  conferring with users to discuss issues such as computer data access needs, security violations and programming changes; \n(d)  monitoring current reports of computer viruses to determine when to update virus protection systems;\n(e)  modifying computer security files to incorporate new software, correct errors or change individual access status;\n(f)  monitoring use of data files and regulate access to safeguard information in computer files;\n(g)  performing risk assessments and executing tests of data processing system to ensure functioning of data processing activities and security measures;\n(h)  encrypting data transmissions and erecting firewalls to conceal confidential information as it is being transmitted and to keep out tainted digital transfers.\nExamples of the occupations classified here:\n- Data miner\n- Digital forensic specialist\n- Security specialist (ICT)\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2529&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2529",
+      "title": "Database and network professionals not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C252&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C252",
+        "title": "Database and network professionals",
+        "code": "252"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0ce5a9f4-e00a-4bbe-b255-3c63407167a4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0ce5a9f4-e00a-4bbe-b255-3c63407167a4",
+        "title": "ICT security consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/276ba420-ef09-4a0e-b215-2c2e2f80ad28&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/276ba420-ef09-4a0e-b215-2c2e2f80ad28",
+        "title": "chief ICT security officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/76ef0a87-6afe-4560-b5d0-9a086abe45c5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/76ef0a87-6afe-4560-b5d0-9a086abe45c5",
+        "title": "ethical hacker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/812c217d-32b7-4f6a-9faf-993d3577ac7f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/812c217d-32b7-4f6a-9faf-993d3577ac7f",
+        "title": "knowledge engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0c448a27-10ec-43ba-b880-d9938bade424&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0c448a27-10ec-43ba-b880-d9938bade424",
+        "title": "digital forensics expert"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a99b38bc-6e71-4bef-b127-0f2b5e357815&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a99b38bc-6e71-4bef-b127-0f2b5e357815",
+        "title": "ICT resilience manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7754d570-9519-48c2-b1c9-8e165f8bca0f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7754d570-9519-48c2-b1c9-8e165f8bca0f",
+        "title": "ICT security manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0464b062-cea6-4164-b10d-956c61956ae7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0464b062-cea6-4164-b10d-956c61956ae7",
+        "title": "ICT security administrator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

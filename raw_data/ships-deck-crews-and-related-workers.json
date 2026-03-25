@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8350",
+  "title": "Ships’ deck crews and related workers",
+  "preferredLabel": {
+    "de": "Deckspersonal auf Schiffen und verwandte Berufe",
+    "no": "Dekks- og maskinmannskap (skip)",
+    "sv": "Matroser, jungmän m.fl.",
+    "fi": "Kansimiehistö ym. vesiliikenteen työntekijät",
+    "pt": "Tripulação de convés de navios e similares",
+    "bg": "Палубни моряци и сродни на тях",
+    "el": "Ναυτικοί-πλήρωμα καταστρώματος και ασκούντες συναφή επαγγέλματα",
+    "mt": "Membri ta’ ekwipaġġ fuq il-vapuri u ħaddiema relatati ma’ dan",
+    "lt": "Laivų įgulų nariai ir susijusių profesijų darbininkai",
+    "en": "Ships’ deck crews and related workers",
+    "lv": "Kuģu komandas un tām radniecīgu profesiju darbinieki",
+    "hr": "Kormilari/kormilarice, brodske strojovođe/brodske strojovotkinje i mornari/mornarke",
+    "it": "Marinai di coperta e operai assimilati",
+    "fr": "Matelots de pont et assimilés",
+    "hu": "Hajók fedélzeti személyzete és hasonló foglalkozásúak",
+    "es": "Marineros de cubierta y afines",
+    "et": "Laeva tekimeeskond jms töötajad",
+    "cs": "Pracovníci lodní posádky",
+    "sk": "Posádky lodí a podobní pracovníci",
+    "sl": "Krmarji/krmarke, ladijski/ladijske strojevodje, mornarji/mornarke ipd.",
+    "pl": "Marynarze i pokrewni",
+    "da": "Dæksarbejde og medhjælp om bord på skibe",
+    "ro": "Marinari, navigatori și asimilați",
+    "nl": "Dekpersoneel op schepen e.d."
+  },
+  "code": "8350",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8350"
+    },
+    {
+      "datatype": "",
+      "value": "8350"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Ship’s deck crews and related workers carry out deck duties on board ships and similar duties on board other water-borne craft.\nTasks include -\n(a)  standing look-out watches at sea and when entering or leaving harbour or other narrow waters;\n(b)  steering ships according to instructions;\n(c)  handling ropes and wires, and operating mooring equipment;\n(d)  maintaining and, in some cases, operating ships’ equipment, cargo gear, rigging, lifesaving and firefighting appliances;\n(e)  performing deck and hull cleaning, scraping, painting and other maintenance duties as required;\n(f)  breaking out, rigging and stowing cargo-handling gear, stationary rigging and running gear.\nExamples of the occupations classified here:\n- Boatswain\n- Ferry hand\n- Sailor\n- Tug hand\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8350&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8350",
+      "title": "Ships’ deck crews and related workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C835&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C835",
+        "title": "Ships’ deck crews and related workers",
+        "code": "835"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2e46a2a3-4d33-469e-8d50-588cc17e6bed&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2e46a2a3-4d33-469e-8d50-588cc17e6bed",
+        "title": "boatswain"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3a3fac9d-323e-4ba6-989b-0e1d44e113cc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3a3fac9d-323e-4ba6-989b-0e1d44e113cc",
+        "title": "ordinary seaman"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/837502a6-57d9-4df4-903a-8a67dd53927f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/837502a6-57d9-4df4-903a-8a67dd53927f",
+        "title": "engine minder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5684182e-7b4c-4eea-97d9-4c2b88b9f906&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5684182e-7b4c-4eea-97d9-4c2b88b9f906",
+        "title": "sailor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/18dafd4f-8c37-4276-b4b3-cfa31059b2b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/18dafd4f-8c37-4276-b4b3-cfa31059b2b6",
+        "title": "fisheries deckhand"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ddb3e6a4-5bae-480a-a49a-748f93022892&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ddb3e6a4-5bae-480a-a49a-748f93022892",
+        "title": "decksman"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bd22a34c-1dc2-48df-a254-66e5d03dec12&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bd22a34c-1dc2-48df-a254-66e5d03dec12",
+        "title": "matrose"
+      }
+    ]
+  },
+  "_embedded": {}
+}

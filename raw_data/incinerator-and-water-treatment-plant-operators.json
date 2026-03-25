@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3132",
+  "title": "Incinerator and water treatment plant operators",
+  "preferredLabel": {
+    "de": "Steuerer von Verbrennungs- und Wasserbehandlungsanlagen",
+    "no": "Kontrolloperatører ved forbrennings- kjøle- og vannrenseanlegg mv.",
+    "sv": "Drifttekniker, förbränningsstationer, vatten- och reningsverk",
+    "fi": "Jätteenpoltto- ja vedenpuhdistuslaitosten prosessinhoitajat",
+    "pt": "Operadores de incineradores e instalações de tratamento de água",
+    "bg": "Оператори на инсталации за изгаряне на отпадъци и на водопречиствателни станции",
+    "el": "Χειριστές μονάδων αποτέφρωσης και επεξεργασίας νερού",
+    "mt": "Operaturi tal-impjant tal-inċineratur u tal-ittrattar tal-ilma",
+    "lt": "Atliekų deginimo ir vandens valymo įrenginių operatoriai",
+    "en": "Incinerator and water treatment plant operators",
+    "lv": "Atkritumu dedzināšanas un ūdens attīrīšanas iekārtu operatori",
+    "hr": "Rukovoditelji/rukovoditeljice spalionica, pogona za pročišćavanje vode i srodna zanimanja",
+    "it": "Conduttori di inceneritori e di impianti del trattamento delle acque",
+    "fr": "Conducteurs d’incinérateurs et d’installations de traitement de l’eau",
+    "hu": "Égetőüzemi és víztisztító berendezések kezelői",
+    "es": "Operadores de incineradores, instalaciones de tratamiento de agua y afines",
+    "et": "Jäätmepõletustehaste ja veepuhastusjaamade operaatorid",
+    "cs": "Operátoři velínů a zařízení spaloven a vodáren a pracovníci v příbuzných oborech",
+    "sk": "Dispečeri v spaľovniach a vodárňach",
+    "sl": "Upravljavci/upravljavke sežigalnih naprav, čistilnih naprav za vodo",
+    "pl": "Operatorzy urządzeń do spalania odpadów i uzdatniania wody",
+    "ro": "Operatori incineratoare și uzine de tratare a apei",
+    "da": "Teknisk kontrolarbejde på forbrændings- og vandrensningsanlæg",
+    "nl": "Bedieningspersoneel verbrandingsovens en waterzuiveringsinstallaties"
+  },
+  "code": "3132",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3132"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3132"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Incinerator and water treatment plant operators monitor and operate computerized control systems and related equipment in solid and liquid waste treatment plants to regulate the treatment and disposal of sewage and wastes, and in water filtration and treatment plants to regulate the treatment and distribution of water.\nTasks include -\n(a)  operating and monitoring computerized control systems, machinery and related equipment in wastewater treatment, sewage treatment, and liquid waste plants to regulate flow, treatment and disposal of sewage and wastes, and in water filtration and treatment plants to regulate the treatment and distribution of water for human consumption and for later disposal into natural water systems;\n(b)  controlling the operation of multiple-hearth incinerator furnaces and related equipment to burn sludge and solid waste in waste treatment plants;\n(c)  inspecting equipment and monitoring operating conditions, meters, filters, chlorinators and gauges in central control rooms to determine load requirements, to verify that flows, pressures and temperatures are within specification, and to detect malfunctions;\n(d)  monitoring and adjusting controls of auxiliary equipment such as exhaust emissions, scrubbers and incinerator heat recovery units;\n(e)  collecting and testing water and sewage samples for chemical and bacterial content, using test equipment and colour analysis standards;\n(f)  analysing test results to make adjustments to plant equipment and systems to disinfect and deodorize water and other liquids;\n(g)  performing security and safety checks in plant and on grounds;\n(h)  completing and maintaining plant logs and reports.\nExamples of the occupations classified here:\n- Incinerator operator\n- Liquid waste process operator \n- Pumping-station operator \n- Sewage plant operator\n- Wastewater operator\n- Water treatment plant operator\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3132&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3132",
+      "title": "Incinerator and water treatment plant operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C313&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C313",
+        "title": "Process control technicians",
+        "code": "313"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7f800e7d-9d86-406a-9116-b5eca7526869&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7f800e7d-9d86-406a-9116-b5eca7526869",
+        "title": "water plant technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d99e2022-cbe1-4aaa-8f9d-7db129d61f0c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d99e2022-cbe1-4aaa-8f9d-7db129d61f0c",
+        "title": "wastewater treatment technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1b48fbd2-688f-4ba9-b430-86b2ae273724&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1b48fbd2-688f-4ba9-b430-86b2ae273724",
+        "title": "liquid waste treatment plant operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1ab184b6-de00-4476-ba1d-c6a71c668be3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1ab184b6-de00-4476-ba1d-c6a71c668be3",
+        "title": "water treatment systems operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3e626058-f669-4503-84ec-6ae1a6077a61&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3e626058-f669-4503-84ec-6ae1a6077a61",
+        "title": "incinerator operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d43e9693-7087-412c-b54c-e9068012630a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d43e9693-7087-412c-b54c-e9068012630a",
+        "title": "wastewater treatment operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fd6a1c18-b0ff-419f-a36a-e05957452d55&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fd6a1c18-b0ff-419f-a36a-e05957452d55",
+        "title": "solid waste operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

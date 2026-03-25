@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3151",
+  "title": "Ships’ engineers",
+  "preferredLabel": {
+    "no": "Skipsmaskinister",
+    "de": "Technische Schiffsoffiziere",
+    "sv": "Maskinbefäl",
+    "fi": "Laivojen konepäälliköt ja -mestarit",
+    "pt": "Oficiais maquinistas de navios",
+    "bg": "Корабни инженери, механици и техници",
+    "el": "Μηχανικοί ναυσιπλοΐας",
+    "mt": "Inġiniera navali",
+    "lt": "Laivų mechanikai",
+    "en": "Ships’ engineers",
+    "hr": "Časnici stroja/časnice stroja i srodna zanimanja",
+    "lv": "Kuģu mehāniķi",
+    "it": "Ufficiali di macchina navali",
+    "fr": "Officiers mécaniciens de navires",
+    "hu": "Hajógépészek",
+    "es": "Oficiales maquinistas en navegación",
+    "et": "Laevamehaanikud",
+    "cs": "Lodní technici",
+    "sk": "Lodní technici",
+    "sl": "Častniki/častnice ladijskega stroja ipd.",
+    "pl": "Pracownicy służb technicznych żeglugi",
+    "da": "Teknikerarbejde inden for skibsfart",
+    "ro": "Mecanici navali",
+    "nl": "Scheepswerktuigkundigen"
+  },
+  "code": "3151",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3151"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3151"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Ships’ engineers control and participate in the operation, maintenance and repair of mechanical, electrical and electronic equipment and machinery on board ship, or perform related supporting functions on shore.\nTasks include -\n(a)  controlling and participating in the operation, maintenance and repair of mechanical, electrical and electronic equipment and machinery on board ship;\n(b)  ordering fuel and other engine-room department stores and maintaining records of operations;\n(c)  performing technical supervision of the installation, maintenance and repair of ships’ machinery and equipment to ensure compliance with specifications and regulations;\n(d)  inspecting and conducting maintenance and emergency repairs to engines, machinery and auxiliary equipment;\n(e)  standing engine room watch, monitoring and noting performance of engines, machinery and auxiliary equipment.\nExamples of the occupations classified here:\n - Ships’ engineer\nSome related occupations classified elsewhere:\n- Marine engineer - 2144\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3151&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3151",
+      "title": "Ships’ engineers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C315&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C315",
+        "title": "Ship and aircraft controllers and technicians",
+        "code": "315"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cd19e8d1-6abd-4c99-a9bb-85e7c30aca31&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cd19e8d1-6abd-4c99-a9bb-85e7c30aca31",
+        "title": "marine chief engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/340b04fd-6312-47e5-80ff-28222a343864&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/340b04fd-6312-47e5-80ff-28222a343864",
+        "title": "fisheries refrigeration engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6ce86c90-36cc-43ef-a1e0-885d8151f976&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6ce86c90-36cc-43ef-a1e0-885d8151f976",
+        "title": "ship duty engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9dbbeb2c-0d51-4c03-8ef6-8dfa7360db22&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9dbbeb2c-0d51-4c03-8ef6-8dfa7360db22",
+        "title": "ship assistant engineer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

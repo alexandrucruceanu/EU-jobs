@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7311",
+  "title": "Precision-instrument makers and repairers",
+  "preferredLabel": {
+    "no": "Presisjonsinstrumentmakere og -reparatører",
+    "de": "Präzisionsinstrumentenmacher und -instandsetzer",
+    "sv": "Finmekaniker",
+    "fi": "Kellosepät ja muut hienomekaanisten instrumenttien tekijät ja korjaajat",
+    "pt": "Mecânicos e reparadores de instrumentos de precisão",
+    "bg": "Работници по производство и ремонт на прецизни инструменти",
+    "mt": "Ħaddiema li jagħmlu u jsewwu strumenti ta’ preċiżjoni",
+    "el": "Κατασκευαστές και επισκευαστές οργάνων ακριβείας",
+    "lt": "Tiksliųjų prietaisų ir įrankių gamintojai ir taisytojai",
+    "en": "Precision-instrument makers and repairers",
+    "hr": "Precizni mehaničari/precizne mehaničarke",
+    "lv": "Precīzijas izstrādājumu izgatavotāji un labotāji",
+    "it": "Addetti alla costruzione e riparazione di strumenti di precisione",
+    "fr": "Mécaniciens-réparateurs d’instruments de précision",
+    "hu": "Precíziósműszer-gyártók és -javítók",
+    "es": "Mecánicos y reparadores de instrumentos de precisión",
+    "et": "Täppisriistade valmistajad ja parandajad",
+    "cs": "Výrobci, mechanici a opraváři přesných přístrojů a zařízení",
+    "sk": "Výrobcovia a opravári presných prístrojov",
+    "sl": "Izdelovalci/izdelovalke in popravljavci/popravljavke preciznih instrumentov",
+    "pl": "Mechanicy precyzyjni",
+    "da": "Finmekanikerarbejde",
+    "ro": "Muncitori calificați în fabricarea/repararea instrumentelor și aparatelor de precizie",
+    "nl": "Vervaardigers en reparateurs van precisie-instrumenten"
+  },
+  "code": "7311",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7311"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7311"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Precision-instrument makers and repairers make, calibrate, repair, maintain, adjust and install mechanical watches and clocks, and nautical, meteorological, optical and other precision instruments and equipment, and set them for correct performance.\nTasks include -\n(a)  repairing, cleaning and adjusting mechanisms of timing instruments such as watches and clocks;\n(b)  adjusting timing regulators, using  calipers, watch-rate recorders and tweezers; \n(c)  cleaning, rinsing and drying timepiece parts, using solutions and ultrasonic or mechanical watch-cleaning machines; \n(d)  testing timepiece accuracy and performance, using meters and other electronic instruments;\n(e)  testing accuracy of meters, gauges, indicators, or other recording or controlling instruments to locate defective components and for conformity with standards;\n(f)  calibrating instruments or scales, using hand tools, computer or electronic devices;\n(g)  inspecting components, connections and drive mechanisms to detect defects;\n(h)  assembling instruments and devices such as barometers, control valves, gyroscopes, hygrometers, speedometers, tachometers and thermostats;\n(i)  testing, calibrating and adjusting electronic, mercurial, aneroid and other types of meteorological instruments for compliance with printed specifications and schematic diagrams, using voltmeters, oscilloscopes, tube testers and other test instruments;\n(j)  adjusting and repairing masts, supporting structures, clearance lights, control panels, control cabling and wiring, and other electrical and mechanical devices;\n(k)  repairing and setting optical instruments such as microscopes, telescopes, theodolites and sextants;\n(l)  checking whether assembled units conform to specifications and ensuring stipulated performance and sensitivity by standard tests.\nExamples of the occupations classified here:\n- Instrument/meteorological maker\n- Photographic equipment repairer\n- Surgical instrument maker \n- Watchmaker\nSome related occupations classified elsewhere:\n- Orthopaedic appliance maker - 3214\n- Locksmith - 7222\n- Machine tool operator - 7223\n- Watch assembler - 8212\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7311&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7311",
+      "title": "Precision-instrument makers and repairers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C731&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C731",
+        "title": "Handicraft workers",
+        "code": "731"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2ada3e89-9159-49e7-88f7-4dd435fd95ac&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2ada3e89-9159-49e7-88f7-4dd435fd95ac",
+        "title": "optical instrument repairer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/11eb55d3-4dbe-45c5-a6ce-f04ae843c938&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/11eb55d3-4dbe-45c5-a6ce-f04ae843c938",
+        "title": "clock and watchmaker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/dec7ed73-8688-4328-bc50-c72d31b25956&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/dec7ed73-8688-4328-bc50-c72d31b25956",
+        "title": "precision instrument assembler"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1a953e5a-f53f-461d-818b-6b2e655a751f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1a953e5a-f53f-461d-818b-6b2e655a751f",
+        "title": "watch and clock repairer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bca063d2-a904-45db-b3f4-0fd7e681753e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bca063d2-a904-45db-b3f4-0fd7e681753e",
+        "title": "surgical instrument maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/15d5636f-7714-4697-850a-67b7f7cb3837&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/15d5636f-7714-4697-850a-67b7f7cb3837",
+        "title": "optical instrument assembler"
+      }
+    ]
+  },
+  "_embedded": {}
+}

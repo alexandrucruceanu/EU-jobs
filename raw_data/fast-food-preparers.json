@@ -1,0 +1,88 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9411",
+  "title": "Fast food preparers",
+  "preferredLabel": {
+    "de": "Zubereiter von Fast Food und anderen Imbissen",
+    "fi": "Pikaruokatyöntekijät",
+    "sv": "Snabbmatspersonal och pizzabagare",
+    "pt": "Preparadores de refeições rápidas",
+    "bg": "Помощници при приготвянето на храни в заведения за бързо хранене",
+    "mt": "Ħaddiema li jippreparaw il-fast food",
+    "el": "Παρασκευαστές φαγητών ταχείας εστίασης (fast food)",
+    "lt": "Greitojo maisto ruošėjai",
+    "en": "Fast food preparers",
+    "lv": "Pārtikas sagatavotāji ātrās ēdināšanas uzņēmumos",
+    "hr": "Priprematelji/pripremateljice brze hrane",
+    "it": "Addetti di fast food",
+    "fr": "Cuisiniers, restauration rapide",
+    "hu": "Gyorsételek készítői",
+    "es": "Cocineros de comidas rápidas",
+    "et": "Kiirtoitlustuskettide abitöölised",
+    "cs": "Pracovníci pro přípravu rychlého občerstvení",
+    "sk": "Pomocní pracovníci pri príprave rýchleho občerstvenia",
+    "sl": "Pripravljavci/pripravljavke hitre hrane",
+    "pl": "Pracownicy przygotowujący posiłki typu fast food",
+    "da": "Tilberedning af fastfood",
+    "ro": "Ajutori la prepararea produselor alimentare de tip fast food",
+    "nl": "Bereiders van fastfood"
+  },
+  "code": "9411",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "9411"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9411"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Fast food preparers prepare and cook to order a limited range of foods or beverages that involve simple preparation processes and a small number of ingredients. They may take orders from customers and serve at counters or tables.\nTasks include -\n(a)  preparing simple or pre-prepared foods and beverages such as sandwiches, hamburgers, pizzas, fish and chips, salads and coffee;\n(b)  washing, cutting, measuring and mixing foods for cooking; \n(c)  operating large-volume single-process cooking equipment such as grills, deep-fat fryers or griddles; \n(d)  re-heating pre-prepared food;\n(e)  cleaning food preparation areas, cooking surfaces and utensils; \n(f)  taking and serving food and beverage orders in eating places that specialize in fast service and carry-out food; \n(g)  ordering and taking delivery of fast food ingredients; \n(h)  maintaining sanitation, health and safety standards in work areas; \n(i)  verifying that prepared food meets requirements for quality and quantity.\nExamples of the occupations classified here:\n- Fast food cook\n- Hamburger maker\n- Pizza maker\n- Short order cook\nSome related occupations classified elsewhere:\n- Chef - 3434\n- Cook - 5120\n- Food service counter attendant - 5246\n\nNote\nJobs that combine preparation of simple food items with taking orders,  serving clients and calculating or receiving payment should be classified in Unit Group 5246: Food Service Counter Attendants, unless client service is an incidental component of the work.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9411&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9411",
+      "title": "Fast food preparers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C941&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C941",
+        "title": "Food preparation assistants",
+        "code": "941"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a02a1117-212f-4a49-b21a-d3b971e00e48&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a02a1117-212f-4a49-b21a-d3b971e00e48",
+        "title": "pizzaiolo"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/96a0d8d3-d4a6-473d-80d6-b5dbadde940a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/96a0d8d3-d4a6-473d-80d6-b5dbadde940a",
+        "title": "quick service restaurant crew member"
+      }
+    ]
+  },
+  "_embedded": {}
+}

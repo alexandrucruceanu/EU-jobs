@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1222",
+  "title": "Advertising and public relations managers",
+  "preferredLabel": {
+    "no": "PR- og informasjonssjefer",
+    "de": "Führungskräfte in Werbung und Öffentlichkeitsarbeit",
+    "sv": "Informations-, kommunikations- och pr-chefer",
+    "fi": "Mainos- ja tiedotusjohtajat",
+    "pt": "Directores de publicidade e relações públicas",
+    "bg": "Ръководители на звена за реклама и връзки с обществеността",
+    "mt": "Maniġers tar-reklamar u relazzjonijiet pubbliċi",
+    "el": "Διευθυντές διαφήμισης και δημοσίων σχέσεων",
+    "lt": "Reklamos ir ryšių su visuomene srities vadovai",
+    "en": "Advertising and public relations managers",
+    "lv": "Reklāmas un sabiedrisko attiecību jomas vadītāji",
+    "hr": "Direktori/direktorice promidžbe i odnosa s javnošću",
+    "it": "Dirigenti nei servizi di pubblicità e pubbliche relazioni",
+    "fr": "Directeurs et cadres de direction, publicité et relations publiques",
+    "hu": "Reklám- és PR-vezetők",
+    "es": "Directores de publicidad y relaciones públicas",
+    "et": "Reklaami- ja suhtekorraldusjuhid",
+    "cs": "Vedoucí a řídící pracovníci v oblasti reklamy a styku s veřejností",
+    "sk": "Riadiaci pracovníci (manažéri) v oblasti reklamy a styku s verejnosťou",
+    "sl": "Menedžerji/menedžerke za oglaševanje in odnose z javnostmi",
+    "pl": "Kierownicy do spraw reklamy i public relations",
+    "ro": "Conducători în domeniul publicității și relațiilor publice",
+    "da": "Ledelse af reklame og PR",
+    "nl": "Leidinggevende functies op het gebied van reclame en public relations"
+  },
+  "code": "1222",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1222"
+    },
+    {
+      "datatype": "",
+      "value": "1222"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Advertising and public relations managers plan, direct and coordinate the advertising, public relations and public information activities of enterprises and organizations or of enterprises that provide related services to other enterprises and organizations.\nTasks include -\n(a)  planning, directing and coordinating the advertising and public relations activities of an enterprise or organization;\n(b)  negotiating advertising contracts with clients or with newspapers, radio and television stations, sports and cultural organizations and advertising agencies;\n(c)  planning and managing information programmes to inform legislators, the mass media and the general public about the plans, accomplishments and points of view of the enterprise or organization;\n(d)  leading and managing the activities of advertising and public relations staff;\n(e)  establishing and managing budgets and controlling expenditure and ensuring the efficient use of resources;\n(f)  establishing and directing operational and administrative procedures;\n(g)  planning and directing daily operations;\n(h)  overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n-  Advertising manager\n-  Public relations manager\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1222&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1222",
+      "title": "Advertising and public relations managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C122&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C122",
+        "title": "Sales, marketing and development managers",
+        "code": "122"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cd7b838c-51f6-41ec-9067-bb974c0f991b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cd7b838c-51f6-41ec-9067-bb974c0f991b",
+        "title": "communication manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

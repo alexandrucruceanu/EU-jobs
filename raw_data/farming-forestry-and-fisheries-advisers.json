@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2132",
+  "title": "Farming, forestry and fisheries advisers",
+  "preferredLabel": {
+    "no": "Sivilagronomer mv.",
+    "de": "Agrar-, Forst- und Fischereiwissenschaftler und -berater",
+    "fi": "Maa-, metsä- ja kalatalouden erityisasiantuntijat",
+    "sv": "Rådgivare inom jordbruk, skogsbruk och fiske",
+    "pt": "Engenheiros agrónomos, consultores da pesca e similares",
+    "bg": "Специалисти в селското, горското и рибното стопанство",
+    "mt": "Konsulenti tal-biedja, forestrija u sajd",
+    "el": "Σύμβουλοι γεωργίας, δασοκομίας και αλιείας",
+    "lt": "Žemės ir miškų ūkio bei žuvininkystės konsultantai",
+    "en": "Farming, forestry and fisheries advisers",
+    "hr": "Savjetnici/savjetnice u poljoprivredi, šumarstvu i ribarstvu",
+    "lv": "Lauksaimniecības, mežsaimniecības un zivsaimniecības vecākie speciālisti",
+    "it": "Agronomi, forestali e ittiologi",
+    "fr": "Agronomes et assimilés",
+    "hu": "Mezőgazdasági, erdészeti és halászati tanácsadók",
+    "es": "Agrónomos y afines",
+    "et": "Taime- ja loomakasvatuse, metsanduse ja kalanduse nõuandjad",
+    "cs": "Specialisté v oblasti zemědělství, lesnictví a rybářství",
+    "sk": "Špecialisti v oblasti poľnohospodárstva, lesníctva a rybárstva",
+    "sl": "Svetovalci/svetovalke v kmetijstvu, gozdarstvu in ribištvu",
+    "pl": "Doradcy w dziedzinie rolnictwa, leśnictwa i rybołówstwa",
+    "ro": "Consultanți în agricultură, silvicultură și pescuit",
+    "da": "Rådgivning inden for landbrug, skovbrug og fiskeri",
+    "nl": "Adviseurs op het gebied van landbouw, bosbouw en visserij"
+  },
+  "code": "2132",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2132"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2132"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Farming, forestry and fisheries advisers study and provide assistance and advice on farm, forestry and fisheries management, including cultivation, fertilization, harvesting, soil erosion and composition, disease prevention, nutrition, crop rotation and marketing. They develop techniques for increasing productivity, and study and develop plans and policies for land and fisheries management.\nTasks include -\n(a)  collecting and analysing data and samples related to produce, feed, soil, water quality and other factors affecting farm, forest or fishery production;\n(b)  advising on techniques for improving the production of crops, livestock and fish, and alternative production options; \n(c)  advising on livestock and crop disease, control of pests and weeds, soil improvement, animal husbandry and feeding programmes; \n(d)  studying the environmental factors affecting commercial crop production, pasture growth, animal breeding, fish stocks and the growth and health of forest trees; \n(e)  studying the effects of cultivation techniques, soils, insects, diseases and fisheries practices on animal, crop, forestry and fisheries yield;\n(f)  studying fish migration, growth, feeding and spawning, and devising methods of collecting, fertilizing, incubating and hatching fish eggs; \n(g)  researching into characteristics, use capability and productivity of soils, and applying findings to development of improved agricultural, horticultural and forestry practices;\n(h)  developing procedures and techniques for solving agricultural problems and improving the efficiency of production; \n(i)   managing forest and fisheries resources to maximize their long-term commercial, recreational and environmental benefits;\n(j)   studying the propagation and culture of forest trees, methods for improving the growth of stock, and the effects of thinning on forest yields; \n(k)  investigating, planning and implementing management procedures to cope with the effects of fires, floods, droughts, soil erosion, pests and diseases;\n(l)   preparing scientific reports and conducting advisory information sessions and lectures for farming, forestry and fishing communities and other groups.\nExamples of the occupations classified here:\n-  Agronomist\n-  Fisheries adviser\n-  Forestry adviser\n-  Forestry scientist \n-  Horticultural scientist\n-  Silviculturist\n-  Soil scientist\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2132&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2132",
+      "title": "Farming, forestry and fisheries advisers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C213&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C213",
+        "title": "Life science professionals",
+        "code": "213"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3b018148-8e92-4177-9267-5f090386f6a3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3b018148-8e92-4177-9267-5f090386f6a3",
+        "title": "fisheries adviser"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c25b3700-6095-42b7-99fc-b87dc326c044&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c25b3700-6095-42b7-99fc-b87dc326c044",
+        "title": "agricultural scientist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a330b7b6-696e-455c-b6d5-f39f82c1489f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a330b7b6-696e-455c-b6d5-f39f82c1489f",
+        "title": "aquaculture recirculation manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fa32eb3f-5c9f-4668-8f85-5eefb3badab8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fa32eb3f-5c9f-4668-8f85-5eefb3badab8",
+        "title": "forestry adviser"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e1fdca51-a0e1-4bea-822f-82a090ece780&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e1fdca51-a0e1-4bea-822f-82a090ece780",
+        "title": "livestock advisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c40ef517-d4ab-4932-b184-9c2ea5b24fe2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c40ef517-d4ab-4932-b184-9c2ea5b24fe2",
+        "title": "agronomist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

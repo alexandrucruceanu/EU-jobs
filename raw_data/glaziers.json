@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7125",
+  "title": "Glaziers",
+  "preferredLabel": {
+    "no": "Glassarbeidere",
+    "de": "Glaser",
+    "sv": "Glastekniker",
+    "fi": "Lasinasentajat",
+    "pt": "Vidraceiros",
+    "bg": "Работници по стъклопоставяне",
+    "el": "Τεχνίτες τοποθέτησης υαλοπινάκων",
+    "mt": "Ħaddiema involuti fl-għoti tal-lostru",
+    "lt": "Stikliai",
+    "en": "Glaziers",
+    "lv": "Stiklinieki",
+    "hr": "Ostakljivači/ostakljivačice",
+    "it": "Vetrai",
+    "fr": "Vitriers",
+    "hu": "Üvegesek",
+    "es": "Cristaleros",
+    "et": "Klaasijad",
+    "cs": "Sklenáři",
+    "sk": "Sklenári",
+    "sl": "Zastekljevalci/zastekljevalke",
+    "pl": "Szklarze",
+    "ro": "Geamgii",
+    "da": "Glarmesterarbejde",
+    "nl": "Glaszetters"
+  },
+  "code": "7125",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7125"
+    },
+    {
+      "datatype": "",
+      "value": "7125"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Glaziers measure, cut, finish, fit and install flat glass and mirrors.\nTasks include -\n(a)  selecting the type of glass to be used, cutting to right size and shape and installing in windows, doors, showers and partitions of buildings;\n(b)  installing glass and mirrors in skylights, display cases, interior walls and ceilings;\n(c)  installing or replacing windscreens in vehicles or boats;\n(d)  creating decorative glass features such as glass walls, staircases, balustrades and stained-glass windows.\nExamples of the occupations classified here:\n- Autoglazier\n- Glazier\n- Roofing glazier\n- Vehicle glazier\nSome related occupations classified elsewhere:\n- Glass cutter - 7315\n- Glass finisher - 7315\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7125&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7125",
+      "title": "Glaziers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C712&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C712",
+        "title": "Building finishers and related trades workers",
+        "code": "712"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5f9e0588-e819-42f7-9975-f53198666c07&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5f9e0588-e819-42f7-9975-f53198666c07",
+        "title": "plate glass installer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/211716b7-2857-40c8-a078-da983c78c70a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/211716b7-2857-40c8-a078-da983c78c70a",
+        "title": "vehicle glazier"
+      }
+    ]
+  },
+  "_embedded": {}
+}

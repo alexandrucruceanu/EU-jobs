@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C6123",
+  "title": "Apiarists and sericulturists",
+  "preferredLabel": {
+    "de": "Imker und Seidenraupenzüchter",
+    "no": "Birøktere mv.",
+    "fi": "Mehiläistenhoitajat ym.",
+    "sv": "Biodlare och silkesodlare",
+    "pt": "Apicultores e sericultores",
+    "bg": "Пчелари и бубари",
+    "el": "Μελισσοκόμοι και σηροτρόφοι",
+    "mt": "Ħaddiema involuti fit-trawwim tan-naħal u tad-dud tal-ħarir",
+    "lt": "Bitininkai ir šilkverpių augintojai",
+    "en": "Apiarists and sericulturists",
+    "hr": "Pčelari/pčelarke i svilari/svilarke",
+    "lv": "Biškopji un zīdtārpiņu audzētāji",
+    "it": "Apicoltori e sericoltori",
+    "fr": "Apiculteurs, sériciculteurs et ouvriers qualifiés de l’apiculture et de la sériciculture",
+    "hu": "Méhészek és selyemhernyó-tenyésztők",
+    "es": "Apicultores y sericultores y trabajadores calificados de la apicultura y la sericultura",
+    "et": "Mesinikud ja siidiussikasvatajad",
+    "cs": "Včelaři a chovatelé bource morušového",
+    "sk": "Včelári a chovatelia priadky morušovej",
+    "sl": "Čebelarji/čebelarke, svilorejci/svilorejke",
+    "pl": "Pszczelarze i producenci jedwabników",
+    "ro": "Apicultori și sericicultori",
+    "da": "Arbejde med bi- og silkeavl",
+    "nl": "Bijenhouders en zijderupstelers"
+  },
+  "code": "6123",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "6123"
+    },
+    {
+      "datatype": "",
+      "value": "6123"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Apiarists and sericulturists plan, organize and perform operations to breed, raise and tend insects such as honey bees, silkworms and other species to produce honey, beeswax, silk and other products for sale or delivery to wholesale buyers, marketing organizations or at markets.\nTasks include -\n(a)  monitoring market activity and conditions, determining kinds and amounts of insect products to produce, and planning and coordinating production accordingly;\n(b)  purchasing insects and growing or purchasing feed and other supplies;\n(c)  breeding, raising and tending insects and collecting their products;\n(d)  renting or investing in, and maintaining and cleaning, buildings, machinery, equipment and structures;\n(e)  storing and carrying out some processing of produce;\n(f)  arranging the sale, purchase and transportation of stock, produce and supplies, and maintaining and evaluating records of farming activities;\n(g)  training and supervising workers in production procedures, maintenance duties and health and safety precautions, and hiring and discharging workers and contractors.\nExamples of occupations classified here:\n- Apiarist\n- Sericulturist\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6123&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C6123",
+      "title": "Apiarists and sericulturists"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C612&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C612",
+        "title": "Animal producers",
+        "code": "612"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/026401a9-7d56-4d7b-8052-38985ddbeafa&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/026401a9-7d56-4d7b-8052-38985ddbeafa",
+        "title": "bee breeder"
+      }
+    ]
+  },
+  "_embedded": {}
+}

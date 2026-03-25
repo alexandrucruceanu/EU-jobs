@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3514",
+  "title": "Web technicians",
+  "preferredLabel": {
+    "de": "Webmaster",
+    "no": "Internett-teknikere",
+    "sv": "Webbtekniker",
+    "fi": "Web-masterit ja -teknikot",
+    "pt": "Técnicos da web",
+    "bg": "Уеб техници",
+    "mt": "Tekniċi tal-Internet (web)",
+    "el": "Τεχνικοί του διαδικτύου",
+    "lt": "Saityno technikai",
+    "en": "Web technicians",
+    "lv": "Tīmekļa vietņu speciālisti",
+    "hr": "Tehničari/tehničarke za mrežne aplikacije",
+    "it": "Tecnici Web",
+    "fr": "Techniciens de l’internet",
+    "hu": "Webtechnikusok",
+    "es": "Técnicos de la web",
+    "et": "Veebitehnikud",
+    "cs": "Správci webu",
+    "sk": "Weboví technici",
+    "sl": "Tehniki/tehnice za spletne strani",
+    "pl": "Technicy sieci internetowych",
+    "da": "Internetteknikerarbejde",
+    "ro": "Tehnicieni web",
+    "nl": "Webtechnici"
+  },
+  "code": "3514",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3514"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3514"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Web technicians maintain, monitor and support the optimal functioning of Internet and Intranet websites and web server hardware and software.\nTasks include -\n(a)  installing, monitoring and supporting the reliability and usability of Internet and Intranet websites or web server hardware or software;\n(b)  developing and maintaining documentation, policies and instructions, recording operational procedures and system logs;\n(c)  developing, coordinating, implementing and monitoring security measures;\n(d)  analysing and making recommendations to enhance performance, including upgrading and acquiring new systems;\n(e)  liaising with, and providing guidance to, clients and users;\n(f)  creating and modifying web pages;\n(g)  performing web server backup and recovery operations.\nExamples of the occupations classified here:\n- Webmaster\n- Website administrator\n- Website technician\nSome related occupations classified elsewhere:\n- Computer games designer - 2166\n- Website designer - 2166\n- Systems analyst (computers) - 2511\n- Computer software designer - 2512\n- Website developer - 2513\n- Computer systems administrator - 2522\n- Network administrator - 2522\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3514&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3514",
+      "title": "Web technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C351&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C351",
+        "title": "Information and communications technology operations and user support technicians",
+        "code": "351"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/dc8ef7da-d2c0-4474-96a0-6d0385eeec1e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/dc8ef7da-d2c0-4474-96a0-6d0385eeec1e",
+        "title": "webmaster"
+      }
+    ]
+  },
+  "_embedded": {}
+}

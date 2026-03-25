@@ -1,0 +1,93 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7516",
+  "title": "Tobacco preparers and tobacco products makers",
+  "preferredLabel": {
+    "de": "Tabakaufbereiter und Tabakwarenmacher",
+    "fi": "Tupakkatuotteiden valmistajat",
+    "sv": "Tobaksberedare och tillverkare av tobaksvaror",
+    "pt": "Preparadores e transformadores de tabaco e seus produtos",
+    "bg": "Работници по преработка на тютюн и производство на тютюневи изделия",
+    "mt": "Ħaddiema li jħejju t-tabakk u dawk li jagħmlu prodotti tat-tabakk",
+    "el": "Τεχνίτες επεξεργασίας καπνού και παραγωγής προϊόντων καπνού",
+    "lt": "Tabako ruošėjai ir tabako produktų gamintojai",
+    "en": "Tobacco preparers and tobacco products makers",
+    "lv": "Tabakas apstrādātāji un tās izstrādājumu ražotāji",
+    "hr": "Prerađivači/prerađivačice duhana i srodna zanimanja",
+    "it": "Operai specializzati della preparazione e della lavorazione del tabacco",
+    "fr": "Métiers qualifiés de la préparation du tabac et de la fabrication des produits du tabac",
+    "hu": "Dohány- és dohánytermékgyártók",
+    "es": "Preparadores y elaboradores de tabaco y sus productos",
+    "et": "Tubakatootjad ja tubakatoodete valmistajad",
+    "cs": "Zpracovatelé tabáku a výrobci tabákových výrobků",
+    "sk": "Spracovatelia tabaku a výrobcovia tabakových výrobkov",
+    "sl": "Predelovalci/predelovalke tobaka ipd.",
+    "pl": "Pracownicy obróbki tytoniu i producenci wyrobów tytoniowych",
+    "ro": "Lucrători în prelucrarea tutunului și produselor din tutun",
+    "da": "Fremstilling af tobaksprodukter",
+    "nl": "Tabaksbereiders en vervaardigers van tabaksproducten"
+  },
+  "code": "7516",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7516"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7516"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Tobacco preparers and tobacco products makers prepare tobacco leaves and make various tobacco products.\nTasks include -\n(a)  grading cured tobacco leaves by type, quality and locality where grown;\n(b)  mixing tobacco leaves according to formula to obtain a blend of distinct flavour;\n(c)  tending vacuum containers which moisten tobacco for further processing;\n(d)  removing midribs and stalks from tobacco leaves and shredding tobacco;\n(e)  making cigars, cigarettes, snuff and other tobacco products by hand or with simple machines.\nExamples of the occupations classified here:\n- Cigarette maker\n- Cigar maker\n- Tobacco grader\nSome related occupations classified elsewhere:\n- Cigarette production machine operator - 8160\n- Cigar production machine operator - 8160\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7516&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7516",
+      "title": "Tobacco preparers and tobacco products makers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C751&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C751",
+        "title": "Food processing and related trades workers",
+        "code": "751"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5f84de7d-5008-45c4-a993-8066388e0756&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5f84de7d-5008-45c4-a993-8066388e0756",
+        "title": "leaf sorter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9f686e81-c236-42cb-b848-1918eb36e16a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9f686e81-c236-42cb-b848-1918eb36e16a",
+        "title": "leaf tier"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/066a9d8f-3948-409c-a3cf-ed8ed37cfe22&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/066a9d8f-3948-409c-a3cf-ed8ed37cfe22",
+        "title": "curing room worker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

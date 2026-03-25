@@ -1,0 +1,134 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C8181",
+  "title": "Glass and ceramics plant operators",
+  "preferredLabel": {
+    "de": "Bediener von Anlagen zur Glas- und Keramikherstellung",
+    "no": "Operatører innen glass- og keramisk produksjon",
+    "fi": "Lasi- ja keramiikkateollisuuden uunienhoitajat",
+    "sv": "Processoperatörer, glas och keramiska produkter",
+    "pt": "Operadores de instalações de fabrico de vidro e cerâmica",
+    "bg": "Машинни оператори в стъкларското и керамичното производство",
+    "mt": "Operaturi ta’ impjant tal-ħġieġ u taċ-ċeramika",
+    "el": "Χειριστές εγκαταστάσεων υαλουργίας και κεραμικής",
+    "lt": "Stiklo ir keramikos gamybos įrenginių operatoriai",
+    "en": "Glass and ceramics plant operators",
+    "hr": "Rukovatelji/rukovateljice staklarskim i keramičarskim strojevima i uređajima",
+    "lv": "Stikla un keramikas ražošanas iekārtu operatori",
+    "it": "Conduttori di impianti per la lavorazione del vetro e della ceramica",
+    "fr": "d’installations de verrerie et de céramique",
+    "hu": "Üveg- és kerámiagyártó berendezések kezelői",
+    "es": "Operadores de instalaciones de vidriería y cerámica",
+    "et": "Klaasi- ja keraamikaahjude jms seadmete operaatorid",
+    "cs": "Obsluha strojů a zařízení na výrobu skla, keramiky a příbuzných výrobků",
+    "sk": "Operátori zariadení na výrobu skla a keramiky",
+    "sl": "Upravljavci/upravljavke steklarskih in keramijskih strojev in naprav",
+    "pl": "Operatorzy maszyn i urządzeń do produkcji wyrobów szklanych i ceramicznych",
+    "ro": "Operatori la utilaje pentru fabricarea produselor din sticlă și ceramică",
+    "da": "Operatørarbejde ved fremstilling af glas og keramik",
+    "nl": "Bedieningspersoneel van installaties voor de vervaardiging van glas en aardewerk"
+  },
+  "code": "8181",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "8181"
+    },
+    {
+      "datatype": "",
+      "value": "8181"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Glass and ceramics plant operators monitor and operate kilns, furnaces and other machinery and equipment used in the manufacture of glass, ceramics, porcelain, tiles or bricks. They operate machines to anneal, harden or decorate glass and ceramics.\nTasks include -\n(a)  operating and monitoring glass-making furnaces to make glass by melting and fusing pre-mixed ingredients;\n(b)  tending hot- or cold-end spray equipment used to coat glassware with surface hardener;\n(c)  operating and maintaining machines that press or blow molten glass into moulds to form or shape containers such as bottles, jars and drinking glasses;\n(d)  operating hand presses to mould glass into required shape;\n(e)  operating drawing kilns to process molten glass into continuous sheets of flat glass;\n(f)  operating and monitoring floating-glass production plants;\n(g)  operating and maintaining finishing machines to grind, drill, sand, bevel, decorate, wash or polish glass or glass products; \n(h)  setting and operating press machines to mould ceramic articles from moist clay;\n(i)  operating machines to mix clay with water to knead it into a suitable plastic condition or semi-liquid form for making ceramic products;\n(j)  operating and monitoring kilns which bake pottery, porcelain ware, bricks and tiles;\n(k)  operating and monitoring machines for making glaze or abrasives;\n(l)  operating and monitoring machines which extrude molten glass to form fibreglass filaments;\n(m)  observing finished products to identify splits, cracks, breaks, colour and other imperfections.\nExamples of the occupations classified here:\n- Brick kiln operator\n- Ceramics painting machine operator\n- Clay mixing machine operato3\n- Extruding clay press operator\n- Furnace operator (glass production)\n- Glass blowing machine operator\n- Glass mixing machine operator\n- Glass production furnace operator\n- Pottery kiln operator\n- Tile kiln operator\nSome related occupations classified elsewhere:\n- Brick and tile moulder - 7314\n- Glass blower - 7315\n- Glass cutter - 7315\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C8181&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C8181",
+      "title": "Glass and ceramics plant operators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C818&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C818",
+        "title": "Other stationary plant and machine operators",
+        "code": "818"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5c4ba833-da16-4bd0-a4b2-c08a2eaf5884&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5c4ba833-da16-4bd0-a4b2-c08a2eaf5884",
+        "title": "kiln firer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d4fdb8cb-8928-4047-8166-5feedc3c1a98&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d4fdb8cb-8928-4047-8166-5feedc3c1a98",
+        "title": "dry press operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/447cfc9c-c0bf-4553-8f47-91f7ce5e51bc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/447cfc9c-c0bf-4553-8f47-91f7ce5e51bc",
+        "title": "glass polisher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b6a62e85-5ffe-41aa-8f2a-9959365dfe85&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b6a62e85-5ffe-41aa-8f2a-9959365dfe85",
+        "title": "brick and tile caster"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ac401ec0-7ce0-423f-b8b5-167da9e046a7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ac401ec0-7ce0-423f-b8b5-167da9e046a7",
+        "title": "fibre machine tender"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e19a0f13-da49-42cb-8b3a-27da8ce44c8c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e19a0f13-da49-42cb-8b3a-27da8ce44c8c",
+        "title": "glass forming machine operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/43c86ca8-7357-4e8e-9a1c-bae427f61c5e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/43c86ca8-7357-4e8e-9a1c-bae427f61c5e",
+        "title": "auger press operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5f617498-da0d-454a-9658-5e02d28a4bd7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5f617498-da0d-454a-9658-5e02d28a4bd7",
+        "title": "pottery and porcelain caster"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9980a417-f990-495a-ae11-66a112737f3b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9980a417-f990-495a-ae11-66a112737f3b",
+        "title": "glass annealer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6837611a-7093-40fb-9e7f-74947bf6f54f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6837611a-7093-40fb-9e7f-74947bf6f54f",
+        "title": "clay kiln burner"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/49f1e9aa-189b-4417-afaa-373cc4ffeea1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/49f1e9aa-189b-4417-afaa-373cc4ffeea1",
+        "title": "drawing kiln operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

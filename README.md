@@ -41,13 +41,13 @@ scrape_eu.py → process_eu.py → make_csv_eu.py → score.py → build_site_da
 
 | Step | Script | Output |
 |:--:|:--|:--|
-| 1 | `scrape_eu.py` | Download ESCO taxonomy JSON into `raw_eu/` |
-| 2 | `process_eu.py` | Parse into clean Markdown (`pages_eu/`) |
-| 3 | `make_csv_eu.py` | Build structured CSV with EU-adapted stats |
-| 4 | `score.py` | Generate AI exposure scores via Gemini API |
-| 5 | `build_site_data.py` | Merge CSV + scores → `site/data.json` |
-| 6 | `translate_ui.py` | Translate UI into 23 additional EU languages |
-| 7 | `inject_native_titles.py` | Inject official ESCO job titles per language |
+| 1 | `scripts/scrape_eu.py` | Download ESCO taxonomy JSON into `raw_data/` |
+| 2 | `scripts/process_eu.py` | Parse into clean Markdown (`pages/`) |
+| 3 | `scripts/make_csv_eu.py` | Build structured CSV with EU-adapted stats |
+| 4 | `scripts/score.py` | Generate AI exposure scores via Gemini API |
+| 5 | `scripts/build_site_data.py` | Merge CSV + scores → `site/data.json` |
+| 6 | `scripts/translate_ui.py` | Translate UI into 23 additional EU languages |
+| 7 | `scripts/inject_native_titles.py` | Inject official ESCO job titles per language |
 
 ## Quick Start
 
@@ -64,11 +64,11 @@ cp .env.example .env
 pip install google-genai python-dotenv requests
 
 # Rebuild from scratch (optional — data files are already included)
-python scrape_eu.py
-python process_eu.py
-python make_csv_eu.py
-python score.py
-python build_site_data.py
+python scripts/scrape_eu.py
+python scripts/process_eu.py
+python scripts/make_csv_eu.py
+python scripts/score.py
+python scripts/build_site_data.py
 
 # Serve locally
 python -m http.server 8000 --directory site

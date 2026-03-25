@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3154",
+  "title": "Air traffic controllers",
+  "preferredLabel": {
+    "de": "Flugverkehrslotsen",
+    "no": "Flygeledere",
+    "sv": "Flygledare",
+    "fi": "Lennonjohtajat",
+    "pt": "Controladores de tráfego aéreo",
+    "bg": "Авиационни диспечери",
+    "el": "Ελεγκτές εναέριας κυκλοφορίας",
+    "mt": "Kontrolluri tat-traffiku tal-ajru",
+    "lt": "Skrydžių vadovai",
+    "en": "Air traffic controllers",
+    "hr": "Kontrolori/kontrolorke leta",
+    "lv": "Gaisa satiksmes vadības dispečeri",
+    "it": "Controllori del traffico aereo",
+    "fr": "Contrôleurs de la circulation aérienne",
+    "hu": "Légiirányítók",
+    "es": "Controladores de tráfico aéreo",
+    "et": "Lennujuhid",
+    "cs": "Řídící letového provozu",
+    "sk": "Dispečeri leteckej dopravy",
+    "sl": "Kontrolorji/kontrolorke zračnega prometa",
+    "pl": "Kontrolerzy ruchu lotniczego",
+    "ro": "Controlori de trafic aerian",
+    "da": "Flyvelederarbejde",
+    "nl": "Luchtverkeersleiders"
+  },
+  "code": "3154",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3154"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3154"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Air traffic controllers direct aircraft movements in airspace and on the ground, using radio, radar and lighting systems, and provide information relevant to the operation of aircraft.\nTasks include -\n(a)  directing and controlling aircraft approaching and leaving airport and their movement on the ground;\n(b)  directing and controlling aircraft operating in designated airspace sectors;\n(c)  examining and approving flight plans;\n(d)  informing flight crew and operations staff about weather conditions, operational facilities, flight plans and air traffic;\n(e)  applying knowledge of principles and practices of air traffic control in order to identify and solve problems arising in the course of their work;\n(f)  initiating and organizing emergency, search and rescue services and procedures;\n(g)  directing activities of all aircraft and service vehicles on or near airport runways;\n(h)  maintaining radio and telephone contact with adjacent control towers, terminal control units and other control centres, and coordinating the movement of aircraft into adjoining areas.\nExamples of the occupations classified here:\n- Air traffic controller\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3154&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3154",
+      "title": "Air traffic controllers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C315&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C315",
+        "title": "Ship and aircraft controllers and technicians",
+        "code": "315"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b0473a10-e3de-480c-a841-171f2356a074&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b0473a10-e3de-480c-a841-171f2356a074",
+        "title": "aviation inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e53e1bd8-7316-4fab-9338-c6a66f50e5b7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e53e1bd8-7316-4fab-9338-c6a66f50e5b7",
+        "title": "flight operations officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3c2da05f-eb24-41f7-8307-46c96660fee0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3c2da05f-eb24-41f7-8307-46c96660fee0",
+        "title": "air traffic controller"
+      }
+    ]
+  },
+  "_embedded": {}
+}

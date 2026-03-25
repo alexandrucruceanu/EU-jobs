@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1345",
+  "title": "Education managers",
+  "preferredLabel": {
+    "no": "Ledere av utdanning og undervisning",
+    "de": "Führungskräfte in der Erbringung von Dienstleistungen des Bildungswesens",
+    "fi": "Opetusalan johtajat",
+    "sv": "Chefer inom utbildning",
+    "pt": "Directores dos serviços de educação",
+    "bg": "Ръководители в образованието",
+    "el": "Διευθυντές εκπαίδευσης",
+    "mt": "Maniġers fl-edukazzjoni",
+    "lt": "Švietimo vadovai",
+    "en": "Education managers",
+    "lv": "Vadītāji izglītības jomā",
+    "hr": "Ravnatelji/ravnateljice osnovnih škola i srednjoškolskih ustanova te dekani/dekanice i rektori/rektorice visokih učilišta",
+    "it": "Dirigenti nel settore dell’educazione",
+    "fr": "Cadres de direction, éducation",
+    "hu": "Oktatási vezetők",
+    "es": "Directores de servicios de educación",
+    "et": "Haridus- ja koolitusasutuste juhid",
+    "cs": "Vedoucí a řídící pracovníci v oblasti vzdělávání",
+    "sk": "Riadiaci pracovníci (manažéri) vo výchove a vzdelávaní",
+    "sl": "Menedžerji/menedžerke na področju izobraževanja",
+    "pl": "Kierownicy do spraw edukacji",
+    "da": "Ledelse af hovedaktiviteten inden for undervisningsområdet",
+    "ro": "Conducători de unități de învățământ",
+    "nl": "Leidinggevende functies op het gebied van onderwijs"
+  },
+  "code": "1345",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1345"
+    },
+    {
+      "datatype": "",
+      "value": "1345"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Education managers plan, direct, coordinate and evaluate the educational and administrative aspects of education services, primary and secondary schools, colleges and faculties and departments in universities and other educational institutions.\nTasks include -\n (a)  determining educational programmes based on frameworks established by education authorities and governing bodies;\n(b)  implementing systems and procedures to monitor school performance and student enrolments; \n(c)  directing administrative and clerical activities concerning student admissions and educational services;\n(d)  controlling administrative operations such as budget planning, report preparation, and expenditure on supplies, equipment and services;\n(e)  providing leadership and guidance to teaching, academic and administrative staff as well as to students;\n(f)  evaluating the work of teachers and lecturers by visiting classrooms, observing teaching methods, reviewing instructional objectives and examining learning materials;\n(g)  promoting the educational programme, and representing the service or institution in the wider community;\n(h)  supervising the maintenance of educational facilities;\n(i)  developing and enforcing a disciplinary code to create a safe and conducive environment for students and teachers;\n(j)  organizing and implementing methods of raising additional funds in conjunction with parent and community groups and sponsors;\n(k)  controlling selection, training and supervision of staff.\nExamples of the occupations classified here:\n-  College director\n-  Dean (university)  \n-  Head teacher\n-  School principal\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1345&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1345",
+      "title": "Education managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C134&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C134",
+        "title": "Professional services managers",
+        "code": "134"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e1587bbb-2d4e-4726-839a-7f4895c440e7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e1587bbb-2d4e-4726-839a-7f4895c440e7",
+        "title": "headteacher"
+      }
+    ]
+  },
+  "_embedded": {}
+}

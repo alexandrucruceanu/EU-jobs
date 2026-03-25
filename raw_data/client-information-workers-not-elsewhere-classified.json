@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C4229",
+  "title": "Client information workers not elsewhere classified",
+  "preferredLabel": {
+    "no": "Andre opplysningsmedarbeidere",
+    "de": "Berufe im Bereich Kundeninformation, anderweitig nicht genannt",
+    "fi": "Muualla luokittelemattomat asiakaspalvelutyötekijät",
+    "sv": "Övrig kundtjänstpersonal",
+    "pt": "Outros empregados que prestam informações ao cliente",
+    "bg": "Персонал, информиращ клиенти, некласифициран другаде",
+    "el": "Υπάλληλοι πληροφόρησης πελατών π.δ.κ.α.",
+    "mt": "Ħaddiema li jwasslu informazzjoni lill-klijent li mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti klientų informavimo tarnautojai",
+    "en": "Client information workers not elsewhere classified",
+    "lv": "Citur neklasificēti klientu informēšanas darbinieki",
+    "hr": "Službenici/službenice za šalterske informacije d. n.",
+    "it": "Personale addetto all’informazione della clientela non classificato altrove",
+    "fr": "Employés chargés d’informer la clientèle non classés ailleurs",
+    "hu": "Máshová nem sorolható, ügyfél-tájékoztatási foglalkozásúak",
+    "es": "Empleados de servicios de información al cliente no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata klienditeenindajad",
+    "cs": "Pracovníci informačních služeb jinde neuvedení",
+    "sk": "Pracovníci informačných služieb inde neuvedení",
+    "sl": "Uradniki/uradnice v turističnih in potovalnih agencijah, receptorji/receptorke, telefonisti/telefonistke ipd., d. n.",
+    "pl": "Pracownicy do spraw informowania klientów gdzie indziej niesklasyfikowani",
+    "ro": "Agenți în centre de informare neclasificați în grupele de bază anterioare",
+    "da": "Andet kundeinformationsarbejde",
+    "nl": "Klantenvoorlichters, niet elders geclassificeerd"
+  },
+  "code": "4229",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "4229"
+    },
+    {
+      "datatype": "",
+      "value": "4229"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group includes client information workers not included elsewhere in Minor Group 422: Client Information Workers. For instance, it includes workers who obtain and process information from clients needed to determine eligibility for services.\nIn such cases tasks would include -\n(a)  interviewing patients to obtain and process information required to provide hospital services;\n(b)  interviewing applicants for public assistance to gather information pertinent to their application;\n(c)  verifying the accuracy of information provided;\n(d)  initiating procedures to grant, modify, deny or terminate assistance;\n(e)  providing information and answering questions concerning benefits and claims procedures;\n(f)  referring patients or applicants to other organizations if they are ineligible for services.\nExamples of the occupations classified here:\n- Eligibility interviewer\n- Eligibility specialist\n- Hospital admissions clerk \n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C4229&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C4229",
+      "title": "Client information workers not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C422&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C422",
+        "title": "Client information workers",
+        "code": "422"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1ae8d28e-407c-48ab-88ff-4cb25bfcdea6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1ae8d28e-407c-48ab-88ff-4cb25bfcdea6",
+        "title": "hotel concierge"
+      }
+    ]
+  },
+  "_embedded": {}
+}

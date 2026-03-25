@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7514",
+  "title": "Fruit, vegetable and related preservers",
+  "preferredLabel": {
+    "no": "Saftere",
+    "de": "Obst- und Gemüsekonservierer und verwandte Berufe",
+    "sv": "Frukt- och grönsaksberedare",
+    "fi": "Hedelmä- ja vihannestuotteiden valmistajat",
+    "pt": "Conserveiros de frutas, legumes e similares",
+    "bg": "Работници по производство на плодови, зеленчукови и други консерви",
+    "mt": "Ħaddiema li jippresevaw frott, ħaxix u affarijiet oħra relatati",
+    "el": "Συντηρητές φρούτων, λαχανικών και ασκούντες συναφή επαγγέλματα",
+    "lt": "Vaisių, daržovių ir panašių produktų konservuotojai",
+    "en": "Fruit, vegetable and related preservers",
+    "hr": "Prerađivači/prerađivačice voća, povrća i srodna zanimanja",
+    "lv": "Augļu, dārzeņu un tiem līdzīgu produktu pārstrādātāji",
+    "it": "Conservieri di frutta, verdura e simili",
+    "fr": "Conserveurs de fruits, de légumes et assimilés",
+    "hu": "Gyümölcs, zöldség és hasonló terméktartósítók",
+    "es": "Operarios de la conservación de frutas, legumbres, verduras y afines",
+    "et": "Puu- ja köögivilja ning marjade töötlejad",
+    "cs": "Konzerváři ovoce, zeleniny a příbuzných produktů",
+    "sk": "Konzervári ovocia, zeleniny a podobných produktov",
+    "sl": "Predelovalci/predelovalke sadja, zelenjave ipd.",
+    "pl": "Robotnicy przetwórstwa surowców roślinnych",
+    "ro": "Lucrători în conservarea fructelor și legumelor",
+    "da": "Fremstilling og konservering af frugt, grøntsager og tilsvarende produkter",
+    "nl": "Bereiders van groente- en fruitconserven"
+  },
+  "code": "7514",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7514"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7514"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Fruit, vegetable and related preservers process or preserve fruit, nuts and related foods in various ways including cooking, drying and salting, or juice or oil extraction.\nTasks include -\n(a)  extracting juices from various fruits;\n(b)  extracting oils from oil-bearing seeds, nuts or fruits;\n(c)  cooking, salting or drying fruit, vegetables and related foods;\n(d)  mixing and adding ingredients such as pectin, sugar, spices and vinegar to assist preservation and enhance texture, appearance and flavour;\n(e)  transferring preserved foods to sterile jars, bottles or other containers.\nExamples of the occupations classified here:\n- Chutney maker\n- Fruit preserver\n- Jam maker\n- Oil expeller\n- Vegetable and fruit pickler\n- Vegetable preserver\nSome related occupations classified elsewhere: \n- Canning machine operator - 8183\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7514&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7514",
+      "title": "Fruit, vegetable and related preservers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C751&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C751",
+        "title": "Food processing and related trades workers",
+        "code": "751"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6a0b0c4f-b57a-4978-a637-2c0adff65996&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6a0b0c4f-b57a-4978-a637-2c0adff65996",
+        "title": "oil mill operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6fe645b0-463a-445d-ab8f-c0a5132beb68&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6fe645b0-463a-445d-ab8f-c0a5132beb68",
+        "title": "fruit and vegetable preserver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/303931a2-860a-4f76-83ac-3c190d67287e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/303931a2-860a-4f76-83ac-3c190d67287e",
+        "title": "oilseed presser"
+      }
+    ]
+  },
+  "_embedded": {}
+}

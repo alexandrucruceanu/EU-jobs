@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2653",
+  "title": "Dancers and choreographers",
+  "preferredLabel": {
+    "de": "Tänzer und Choreografen",
+    "no": "Koreografer og dansere",
+    "sv": "Koreografer och dansare",
+    "fi": "Tanssitaiteilijat ja koreografit",
+    "pt": "Bailarinos e coreógrafos",
+    "bg": "Танцьори и хореографи",
+    "mt": "Żeffiena u koreografi",
+    "el": "Χορευτές και χορογράφοι",
+    "lt": "Šokėjai ir choreografai",
+    "en": "Dancers and choreographers",
+    "hr": "Plesači/plesačice i koreografi/koreografkinje",
+    "lv": "Dejotāji un horeogrāfi",
+    "it": "Ballerini e coreografi",
+    "fr": "Danseurs et chorégraphes",
+    "hu": "Táncosok és koreográfusok",
+    "es": "Bailarines y coreógrafos",
+    "et": "Tantsijad ja koreograafid",
+    "cs": "Tanečníci a choreografové",
+    "sk": "Tanečníci a choreografi",
+    "sl": "Plesalci/plesalke, koreografi/koreografke",
+    "pl": "Tancerze i choreografowie",
+    "da": "Kunstnerisk arbejde inden for dans og koreografi",
+    "ro": "Dansatori și coregrafi",
+    "nl": "Dansers en choreografen"
+  },
+  "code": "2653",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2653"
+    },
+    {
+      "datatype": "",
+      "value": "2653"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Dancers and choreographers conceive and create or perform dances.\nTasks include -\n(a)  conceiving and creating dances, which often convey a story, theme, idea or mood, by a pattern of steps, movements and gestures;\n(b)  performing dances as a soloist, with a partner or as a member of a dancing group before live audiences or for film, television or other visual media;\n(c)  training, exercising and attending dance classes to maintain the required levels of ability and fitness;\n(d)  directing and participating in rehearsals to practice dance steps and techniques required for a performance;\n(e)  auditioning for dance roles or for membership in dance companies;\n(f)  coordinating the production music with the music directors.\nExamples of the occupations classified here:\n- Choreographer\n- Ballet dancer\n- Night-club dancer\n- Street dancer\nSome related occupations classified elsewhere:\n- Dance teacher - 2355\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2653&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2653",
+      "title": "Dancers and choreographers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C265&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C265",
+        "title": "Creative and performing artists",
+        "code": "265"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/07b91f36-8272-493a-8e1c-5625e77efe68&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/07b91f36-8272-493a-8e1c-5625e77efe68",
+        "title": "dancer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/189a337d-f6fb-44e2-9e7a-bc27b7b76e0e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/189a337d-f6fb-44e2-9e7a-bc27b7b76e0e",
+        "title": "choreographer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

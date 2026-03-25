@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C6121",
+  "title": "Livestock and dairy producers",
+  "preferredLabel": {
+    "de": "Nutztierhalter (ohne Geflügel) und Milchproduzenten",
+    "no": "Melke- og husdyrprodusenter",
+    "sv": "Husdjursuppfödare och husdjursskötare",
+    "fi": "Liha- ja lypsykarjan kasvattajat sekä muiden kotieläinten kasvattajat",
+    "pt": "Produtores e trabalhadores qualificados na criação de animais e produtores de leite",
+    "bg": "Животновъди и производители на млечни продукти",
+    "mt": "Produtturi tal-annimali ħajjin u annimali tal-ħalib",
+    "el": "Κτηνοτρόφοι γαλακτοπαραγωγών και λοιπών ζώων",
+    "lt": "Gyvulių augintojai",
+    "en": "Livestock and dairy producers",
+    "lv": "Mājlopu un piena lopu audzētāji",
+    "hr": "Stočari/stočarice",
+    "it": "Lavoratori specializzati nell’allevamento del bestiame e nella produzione del latte",
+    "fr": "Éleveurs et ouvriers qualifiés de l’élevage de bétail",
+    "hu": "Haszonállat-tenyésztők (kivéve a baromfitenyésztőket) és tejtermelők",
+    "es": "Criadores de ganado",
+    "et": "Veisekasvatajad",
+    "cs": "Chovatelé hospodářských zvířat (kromě drůbeže)",
+    "sk": "Chovatelia hospodárskych zvierat a dojníc",
+    "sl": "Živinorejci/živinorejke",
+    "pl": "Producenci bydła i producenci mleka",
+    "ro": "Crescători de animale pentru producția de lapte și carne",
+    "da": "Arbejde med opdræt af husdyr, ekskl. fjerkræ",
+    "nl": "Melkveehouders en andere rundveehouders"
+  },
+  "code": "6121",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "6121"
+    },
+    {
+      "datatype": "",
+      "value": "6121"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Livestock and dairy producers plan, organize and perform farming operations to breed and raise domesticated animals (excluding poultry), such as cattle, sheep, pigs, goats, horses and camels, for the production of meat, milk and other dairy products, skins and wool or for use as working, sporting or recreational animals, for sale or delivery to wholesale buyers, marketing organizations or at markets.\nTasks include -\n(a)  monitoring market activity and conditions, determining kinds and amounts of stock to produce, and planning and coordinating production accordingly;\n(b)  cultivating pastures and providing and monitoring fodder and water supplies to maintain appropriate nutritional levels and condition of livestock;\n(c)  monitoring and examining animals to detect illness, injury or disease, and to check physical condition such as rate of weight gain;\n(d)  grooming, marking, clipping, trimming, drenching and/or castrating animals, and shearing coats to collect hair or wool;\n(e)  herding livestock to pastures for grazing or to scales, sheds, vehicles or other enclosures;\n(f)  milking animals by hand or using milking machines;\n(g)  mixing feed, additives and medicines in prescribed portions and distributing or hand-feeding to animals for consumption; \n(h)  performing duties related to livestock reproduction, such as breeding, artificial insemination and helping with animal births; \n(i)  maintaining and cleaning farm buildings, machinery, equipment and structures;\n(j)  slaughtering and skinning animals and preparing them for market;\n(k)  storing and carrying out some processing of animal and dairy produce;\n(l)   promoting and marketing products, arranging the sale, purchase and transportation of livestock, produce and supplies, and maintaining and evaluating records of farm activities and transactions;\n(m)  training and supervising workers in animal care procedures, maintenance duties and health and safety precautions, and hiring and discharging workers and contractors.\nExamples of the occupations classified here:\n- Cattle farmer \n- Dairy farmer\n- Dog breeder\n- Drover\n- Goat farmer\n- Horse breeder\n- Shearer\n- Sheep farmer\n- Shepherd\n- Stockman/woman\nSome related occupations classified elsewhere:\n- Agricultural production manager - 1311\n- Ranch manager - 1311\nNote\nWorkers who produce a combination of domestic livestock and other animals such as poultry, insects and non-domesticated animals should be classified according to their predominant activity. Those who produce and store hay and other fodder for later consumption, primarily by livestock for which they are responsible, are classified in Unit Group 6121: Livestock and Dairy Producers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6121&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C6121",
+      "title": "Livestock and dairy producers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C612&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C612",
+        "title": "Animal producers",
+        "code": "612"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5734feab-60be-4f11-8e3f-e983ca6fb07a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5734feab-60be-4f11-8e3f-e983ca6fb07a",
+        "title": "equine yard manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b4ff30f8-073b-4dd8-9128-ecf9d0ff87ba&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b4ff30f8-073b-4dd8-9128-ecf9d0ff87ba",
+        "title": "cattle breeder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2a1190f0-14d5-4ce4-ade0-ef726a1887a0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2a1190f0-14d5-4ce4-ade0-ef726a1887a0",
+        "title": "shepherd"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b2678105-9d5c-403f-b822-274aff706309&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b2678105-9d5c-403f-b822-274aff706309",
+        "title": "sheep breeder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/15151ba4-fbf2-4fd9-8dde-2abbc6ec362c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/15151ba4-fbf2-4fd9-8dde-2abbc6ec362c",
+        "title": "horse breeder"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ea3db1b3-7c03-4306-9e3d-7e20eb7f1826&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ea3db1b3-7c03-4306-9e3d-7e20eb7f1826",
+        "title": "pig breeder"
+      }
+    ]
+  },
+  "_embedded": {}
+}

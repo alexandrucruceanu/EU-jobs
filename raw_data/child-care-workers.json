@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5311",
+  "title": "Child care workers",
+  "preferredLabel": {
+    "no": "Barnehage- og skolefritidsassistenter mv.",
+    "de": "Kinderbetreuer",
+    "fi": "Lastenhoitotyöntekijät",
+    "sv": "Barnskötare",
+    "pt": "Auxiliares de cuidados de crianças",
+    "bg": "Персонал, грижещ се за деца",
+    "el": "Παιδοκόμοι",
+    "mt": "Ħaddiema involuti fil-kura tat-tfal",
+    "lt": "Vaikų priežiūros darbuotojai",
+    "en": "Child care workers",
+    "lv": "Bērnu aprūpes darbinieki",
+    "hr": "Njegovatelji/njegovateljice djece",
+    "it": "Addetti alla sorveglianza di bambini",
+    "fr": "Gardes d’enfants",
+    "hu": "Gyermekgondozók",
+    "es": "Cuidadores de niños",
+    "et": "Lapsehoidjad",
+    "cs": "Pracovníci pečující o děti",
+    "sk": "Detské pestúnky",
+    "sl": "Varuhi/varuhinje otrok",
+    "pl": "Pracownicy opieki nad dziećmi",
+    "da": "Børneomsorgsarbejde",
+    "ro": "Personal de îngrijire copii",
+    "nl": "Kinderverzorgers"
+  },
+  "code": "5311",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5311"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5311"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Child care workers provide care and supervision for children in residential homes and in before-school, after-school, vacation and day care centres.\nTasks include -\n(a)  assisting children to wash, dress and feed themselves;\n(b)  taking children to and from school or outdoors for recreation;\n(c)  playing games with children, or entertaining them by reading or storytelling;\n(d)  assisting in the preparation of materials and equipment for children’s education and recreational activities; \n(e)  managing children’s behaviour and guiding their social development; \n(f)  disciplining children and recommending or initiating other measures to control behaviour, such as caring for own clothing and picking up toys and books; \n(g)  observing and monitoring children’s play activities; \n(h)  keeping records on individual children, including daily observations and information about activities, meals served and medications administered.\nExamples of the occupations classified here:\n- Babysitter\n- Child care worker\n- Creche ayah\n- Family day care worker\n- Nanny\n- Out of school hours care worker\nSome related occupations classified elsewhere:\n-  Early childhood educator - 2342\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5311&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5311",
+      "title": "Child care workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C531&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C531",
+        "title": "Child care workers and teachers’ aides",
+        "code": "531"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3413f234-6230-47a8-8cc7-2691fd54ce3a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3413f234-6230-47a8-8cc7-2691fd54ce3a",
+        "title": "child care worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/78eacaf8-06d6-4b78-920f-edece2e41464&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/78eacaf8-06d6-4b78-920f-edece2e41464",
+        "title": "school bus attendant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

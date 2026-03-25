@@ -1,0 +1,124 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3112",
+  "title": "Civil engineering technicians",
+  "preferredLabel": {
+    "no": "Bygningsingeniører",
+    "de": "Bautechniker",
+    "fi": "Rakentamisen asiantuntijat",
+    "sv": "Byggnadsingenjörer och byggnadstekniker",
+    "pt": "Técnicos de engenharia civil",
+    "bg": "Строителни техници",
+    "el": "Τεχνικοί δομικών έργων",
+    "mt": "Tekniċi tal-inġinerija ċivili",
+    "lt": "Civilinės inžinerijos technikai",
+    "en": "Civil engineering technicians",
+    "lv": "Būvniecības speciālisti",
+    "hr": "Tehničari/tehničarke za arhitekturu, građevinarstvo, geodeziju i srodna zanimanja",
+    "it": "Tecnici delle costruzioni civili",
+    "fr": "Techniciens du génie civil",
+    "hu": "Építésztechnikusok",
+    "es": "Técnicos en ingeniería civil",
+    "et": "Ehitustehnikud",
+    "cs": "Stavební technici",
+    "sk": "Stavební technici",
+    "sl": "Tehniki/tehnice za gradbeništvo, geodezijo ipd.",
+    "pl": "Technicy budownictwa",
+    "ro": "Tehnicieni constructori",
+    "da": "Teknikerarbejde inden for byggeri og anlæg",
+    "nl": "Technici op het gebied van weg- en waterbouw"
+  },
+  "code": "3112",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3112"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3112"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Civil engineering technicians perform technical tasks in civil engineering research and in the design, construction, operation, maintenance and repair of buildings and other structures such as water supply and wastewater treatment systems, bridges, roads, dams and airports.\nTasks include - \n (a)  performing or assisting with field and laboratory tests of soils and construction materials;\n(b)  providing technical assistance connected with the construction of buildings and other structures, and with surveys or the preparation of survey reports;\n(c)  ensuring compliance with design specifications, relevant legislation and regulations, and maintenance of desired standards of materials and work;\n(d)  applying technical knowledge of building and civil engineering principles and practices in order to identify and solve problems arising;\n(e)  assisting with the preparation of detailed estimates of quantities and costs of materials and labour required for projects, according to the specifications given;\n(f)  organizing maintenance and repairs;\n(g)  inspecting buildings and structures during and after construction to ensure that they comply with building, grading, zoning and safety laws and approved plans, specifications and standards, as well as with other rules concerning quality and safety of buildings;\n(h)  inspecting industrial plant, hotels, cinemas and other buildings and structures to detect fire hazards and advise on how they can be removed;\n(i)  advising on the installation of fire detectors and sprinkler systems and the use of materials in the construction of buildings, and means of transportation to reduce risk of fire and extent of damage and danger if fire occurs.\nExamples of the occupations classified here:\n- Building inspector\n- Building surveyor\n- Civil engineering technician\n- Clerk of works\n- Fire inspector\n- Fire prevention specialist\n- Geotechnical technician\n- Surveying technician\nSome related occupations classified elsewhere:\n- Quantity surveyor - 2149\n- Marine surveyor - 3115\n- Fire investigator - 3119\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3112&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3112",
+      "title": "Civil engineering technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C311&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C311",
+        "title": "Physical and engineering science technicians",
+        "code": "311"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6d1e2801-3ab0-4d74-ac27-918339e8db64&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6d1e2801-3ab0-4d74-ac27-918339e8db64",
+        "title": "construction safety inspector"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0f5cc4eb-925d-4b99-be6d-b0964a253a9a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0f5cc4eb-925d-4b99-be6d-b0964a253a9a",
+        "title": "civil engineering technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/624986f9-21ef-4cdf-8cf6-8407a337ec2f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/624986f9-21ef-4cdf-8cf6-8407a337ec2f",
+        "title": "surveying technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3f54ceba-3c4e-4ba1-8ddb-9e49a881a60a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3f54ceba-3c4e-4ba1-8ddb-9e49a881a60a",
+        "title": "construction safety manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/de74eb4e-c95e-425a-9b3a-7be805ec0321&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/de74eb4e-c95e-425a-9b3a-7be805ec0321",
+        "title": "energy consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/23a61ff1-c954-4867-b982-a018b535f98b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/23a61ff1-c954-4867-b982-a018b535f98b",
+        "title": "energy conservation officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/41d609a1-62df-4cec-ac71-6434e545a729&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/41d609a1-62df-4cec-ac71-6434e545a729",
+        "title": "corrosion technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/cbde1a3a-406d-4d17-b30b-03981925035d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/cbde1a3a-406d-4d17-b30b-03981925035d",
+        "title": "energy analyst"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/511c8e9f-b19e-4ae8-9959-c047e7410441&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/511c8e9f-b19e-4ae8-9959-c047e7410441",
+        "title": "railway infrastructure inspector"
+      }
+    ]
+  },
+  "_embedded": {}
+}

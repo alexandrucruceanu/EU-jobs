@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3256",
+  "title": "Medical assistants",
+  "preferredLabel": {
+    "de": "Medizinische Assistenten",
+    "no": "Helsesekretærer",
+    "fi": "Avustavat hoitotyöntekijät",
+    "sv": "Sjukvårdsassistenter",
+    "pt": "Assistentes de médicos",
+    "bg": "Медицински асистенти",
+    "el": "Βοηθοί επαγγελματιών ιατρικής",
+    "mt": "Assistenti mediċi",
+    "lt": "Gydytojo padėjėjai",
+    "en": "Medical assistants",
+    "hr": "Asistenti/asistentice zdravstvene njege",
+    "lv": "Medicīniskie asistenti",
+    "it": "Assistenti medici",
+    "fr": "Assistants médicaux",
+    "hu": "Orvosi asszisztensek",
+    "es": "Practicantes y asistentes médicos",
+    "et": "Meditsiiniline abipersonal",
+    "cs": "Odborní zdravotničtí asistenti",
+    "sk": "Zdravotnícki asistenti",
+    "sl": "Asistenti/asistentke za zdravstveno nego",
+    "pl": "Asystenci medyczni",
+    "ro": "Personal auxiliar de îngrijire de sănătate",
+    "da": "Assisterende arbejde inden for sundhedsområdet",
+    "nl": "Medisch assistenten"
+  },
+  "code": "3256",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3256"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3256"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Medical assistants perform basic clinical and administrative tasks to support patient care under the direct supervision of a medical practitioner or other health professional.\nTasks include -\n(a)  interviewing patients and their families to obtain information on their health status and medical history;\n(b)  assisting medical doctors and other health professionals to examine and treat patients, including measuring and recording vital signs, administering medications and performing routine clinical procedures such as giving injections and removing sutures; \n(c)  getting patients ready for examination and treatment, including explaining procedures and showing them to examination rooms; \n(d)  preparing and handling medical instruments and supplies, including sterilizing instruments and disposing of contaminated supplies in accordance with safety procedures;\n(e)  collecting blood, tissue or other specimens, and preparing them for laboratory testing; \n(f)  providing information to patients and families on health care topics including medications prescribed by a medical doctor or other health professional; \n(g)  providing prescription and drug refill information to pharmacies; \n(h)  maintaining cleanliness of patient waiting and examination rooms; \n(i)   recording information on patients’ medical history, diagnostic testing and treatment procedures and results, and other information in medical record-keeping systems; \n(j)   scheduling appointments with patients, and preparing documentation required for billing, reporting and insurance purposes.\nExamples of the occupations classified here:\n- Clinical assistant\n- Medical assistant\n- Ophthalmic assistant\nSome related occupations classified elsewhere:\n- Clinical officer (paramedical) - 2240\n- Medical prosthetic technician - 3214\n- Dental assistant - 3251\n- Physiotherapy assistant - 3255\n- Medical secretary - 3344\n- Medical imaging assistant - 5329\nNote\nOccupations included in this unit group normally require formal training in health services provision. Clinical care providers with advanced training and skills to provide independent medical diagnostic and treatment services are classified in Unit Group 2240: Paramedical Practitioners.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3256&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3256",
+      "title": "Medical assistants"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C325&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C325",
+        "title": "Other health associate professionals",
+        "code": "325"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0c041d1e-1841-4acb-b0a1-2c387a61bf65&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0c041d1e-1841-4acb-b0a1-2c387a61bf65",
+        "title": "doctors' surgery assistant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3155",
+  "title": "Air traffic safety electronics technicians",
+  "preferredLabel": {
+    "no": "Teknikere innen luftfartssikkerhet",
+    "de": "Flugsicherungstechniker",
+    "fi": "Lennonvalvonnan tekniset asiantuntijat",
+    "sv": "Flygtekniker",
+    "pt": "Técnicos de segurança aérea",
+    "bg": "Техници по сигурността на въздушния трафик",
+    "el": "Τεχνικοί ηλεκτρονικοί ασφάλειας εναέριας κυκλοφορίας",
+    "mt": "Tekniċi tal-elettronika tas-sigurtà tat-traffiku tal-ajru",
+    "lt": "Skrydžių saugos elektronikos technikai",
+    "en": "Air traffic safety electronics technicians",
+    "hr": "Tehničari/tehničarke za sigurnost zračnog prometa",
+    "lv": "Gaisa satiksmes drošības elektronikas speciālisti",
+    "it": "Tecnici elettronici addetti alla sicurezza del traffico aereo",
+    "fr": "Techniciens de la sécurité aérienne",
+    "hu": "Légiközlekedés-biztonsági elektrotechnikusok",
+    "es": "Técnicos en seguridad aeronáutica",
+    "et": "Lennuohutuselektroonika tehnikud",
+    "cs": "Elektrotechnici řídicích a navigačních zařízení letového provozu",
+    "sk": "Technici bezpečnostných elektronických zariadení v leteckej doprave",
+    "sl": "Tehniki/tehnice za varnost zračnega prometa",
+    "pl": "Technicy urządzeń bezpieczeństwa ruchu lotniczego",
+    "da": "Teknikerarbejde inden for luftfartssikkerhed",
+    "ro": "Tehnicieni pentru siguranța traficului aerian",
+    "nl": "Elektrotechnicus luchtvaartveiligheid"
+  },
+  "code": "3155",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3155"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3155"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Air traffic safety electronics technicians perform technical tasks concerning the design, installation, management, operation, maintenance and repair of air traffic control and air navigation systems.\nTasks include -\n(a)  carrying out technical duties related to the development of electronic and computerized air navigation systems and equipment, and testing prototypes; \n(b)  providing technical help in the design and layout of specific interface circuitry of air navigation and aircraft detection tracking systems; \n(c)  preparing and contributing to the preparation of cost estimates and technical and training specifications for air traffic control and safety equipment; \n(d)  providing or assisting with the technical supervision of construction, installation and operation of ground-based air navigation equipment and its maintenance and repair to ensure that standards and specifications are met; \n(e)  applying the knowledge and skills of air traffic safety engineering principles and practices in order to identify and solve problems arising in the course of their work; \n(f)  developing, modifying and debugging system software;\n(g)  modifying existing ground-based air navigation systems and equipment to adapt them to new air traffic control procedures,  in order to improve capability, reliability and integrity, or to facilitate air traffic control procedures and airspace designation;\n(h)  controlling, monitoring and certifying communication navigation and surveillance air traffic management equipment, and calibrating the ground-based air navigation system to ensure maximum accuracy and safety of flight, take-off and landing operations; \n(i)  providing technical training and supervising other workers.\nExample of the occupations classified here:\n-  Air traffic safety engineer \n-  Air traffic safety technician\nSome related occupations classified elsewhere:\n-  Aeronautical engineer - 2144\n-  Electronics engineer - 2152\n-  Aeromechanic - 7232\n-  Aircraft maintenance engineer (avionics) - 7421\n-  Avionics technician - 7421\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3155&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3155",
+      "title": "Air traffic safety electronics technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C315&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C315",
+        "title": "Ship and aircraft controllers and technicians",
+        "code": "315"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0022f466-426c-41a4-ac96-a235c945cf97&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0022f466-426c-41a4-ac96-a235c945cf97",
+        "title": "air traffic safety technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

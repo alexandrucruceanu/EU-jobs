@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2320",
+  "title": "Vocational education teachers",
+  "preferredLabel": {
+    "de": "Lehrkräfte im Bereich Berufsbildung",
+    "no": "Yrkesfaglærere",
+    "fi": "Ammatillisen koulutuksen opettajat",
+    "sv": "Lärare i yrkesämnen",
+    "pt": "Professores dos ensinos tecnológico, artístico e profissional",
+    "bg": "Учители в системата за професионално образование и обучение",
+    "mt": "Għalliema tal-edukazzjoni vokazzjonali",
+    "el": "Καθηγητές επαγγελματικής εκπαίδευσης",
+    "lt": "Profesijos mokytojai",
+    "en": "Vocational education teachers",
+    "lv": "Profesionālās izglītības pedagogi",
+    "hr": "Strukovni  nastavnici/strukovne nastavnice",
+    "it": "Professori dell’educazione professionale",
+    "fr": "Professeurs, enseignement technique et professionnel",
+    "hu": "Szakoktatók",
+    "es": "Profesores de formación profesional",
+    "et": "Kutsehariduse õpetajad",
+    "cs": "Lektoři dalšího vzdělávání",
+    "sk": "Učitelia ďalšieho odborného vzdelávania",
+    "sl": "Učitelji/učiteljice v poklicnem izobraževanju",
+    "pl": "Nauczyciele kształcenia zawodowego",
+    "ro": "Profesori în învățământul profesional",
+    "da": "Undervisning ved erhvervsuddannelser",
+    "nl": "Onderwijsgevenden in het beroepsonderwijs"
+  },
+  "code": "2320",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2320"
+    },
+    {
+      "datatype": "",
+      "value": "2320"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Vocational education teachers teach or instruct vocational or occupational subjects in adult and further education institutions and to senior students in secondary schools and colleges. They prepare students for employment in specific occupations or occupational areas for which university or higher education is not normally required.\nTasks include -\n(a)  developing curricula and planning course content and methods of instruction;\n(b)  determining training needs of students or workers and liaising with individuals, industry and other education sectors to ensure provision of relevant education and training programmes;\n(c)  presenting lectures and conducting discussions to increase students’ knowledge and competence;\n(d)  instructing and monitoring students in the use of tools, equipment and materials and the prevention of injury and damage; \n(e)  observing and evaluating students’ work to determine progress, provide feedback and make suggestions for improvement; \n(f)  administering oral, written or performance tests to measure progress, evaluate training effectiveness and assess competency; \n(g)  preparing reports and maintaining records such as student grades, attendance rolls and training activity details; \n(h)  supervising independent or group projects, field placements, laboratory work or other training; \n(i)  providing individualized instruction and tutorial or remedial instruction; \n(j)  conducting on-the-job training sessions to teach and demonstrate principles, techniques, procedures or methods of designated subjects.\nExamples of the occupations classified here:\n- Automotive technology instructor\n- Cosmetology instructor\n- Vocational education teacher\nSome related occupations classified elsewhere:\n- School principal - 1345\n- Secondary education teacher - 2330\nNotes\nThose who teach vocational subjects that are intended to prepare students for employment in a particular occupational group should be classified in Unit Group 2320: Vocational Education Teachers, whether they work in a general secondary school or in a vocational or technical school or college.  Those who teach, at secondary education level, subjects such as mathematics that do not aim to prepare students for employment in a specific occupational area, should be classified in Unit Group 2330: Secondary Education Teachers, even if they are employed in a vocational or technical college.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2320&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2320",
+      "title": "Vocational education teachers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C232&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C232",
+        "title": "Vocational education teachers",
+        "code": "232"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/81f8d141-3f67-4fb0-a349-db0147ef7b3a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/81f8d141-3f67-4fb0-a349-db0147ef7b3a",
+        "title": "vocational teacher"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1323",
+  "title": "Construction managers",
+  "preferredLabel": {
+    "de": "Führungskräfte in der Produktion im Bau",
+    "no": "Ledere av bygge- og anleggsvirksomhet",
+    "sv": "Chefer inom bygg och anläggning",
+    "fi": "Rakennustoiminnan tuotantojohtajat",
+    "pt": "Directores da construção e de engenharia civil",
+    "bg": "Ръководители в строителството",
+    "el": "Διευθυντές επιχειρήσεων κατασκευών",
+    "mt": "Maniġers tal-industrija tal-kostruzzjoni",
+    "lt": "Statybos vadovai",
+    "en": "Construction managers",
+    "hr": "Direktori/direktorice proizvodnje u građevinarstvu",
+    "lv": "Vadītāji būvniecībā",
+    "it": "Dirigenti dell’edilizia",
+    "fr": "Directeurs et cadres de direction, bâtiment",
+    "hu": "Építési vezetők",
+    "es": "Directores de empresas de construcción",
+    "et": "Põhitegevuse juhid ehituses",
+    "cs": "Vedoucí a řídící pracovníci ve stavebnictví",
+    "sk": "Riadiaci pracovníci (manažéri) v stavebníctve",
+    "sl": "Menedžerji/menedžerke proizvodnje v gradbeništvu",
+    "pl": "Kierownicy w budownictwie",
+    "ro": "Conducători de unități din domeniul construcțiilor",
+    "da": "Ledelse af hovedaktiviteten inden for bygge- og anlægsvirksomhed",
+    "nl": "Leidinggevende functies in de bouwnijverheid"
+  },
+  "code": "1323",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1323"
+    },
+    {
+      "datatype": "",
+      "value": "1323"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Construction managers plan, direct and coordinate the construction of civil engineering projects, buildings and dwellings, either as the manager of a department or as the general manager of an enterprise or organization that does not have a hierarchy of managers.\nTasks include - \n(a)  interpreting architectural drawings and specifications;\n(b)  coordinating labour resources and procurement and delivery of materials, plant and equipment; \n(c)  negotiating with building owners, property developers and subcontractors involved in the construction process to ensure projects are completed on time and within budget;\n(d)  preparing tenders and contract bids; \n(e)  operating and implementing coordinated work programmes for sites; \n(f)  ensuring adherence to building legislation and standards of performance, quality, cost and safety;\n(g)  arranging submission of plans to local authorities; \n(h)  building under contract, or subcontracting specialized building services;\n(i)  arranging building inspections by relevant authorities;\n(j)  establishing and managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(k)  overseeing the selection, training and performance of staff and subcontractors.\nExamples of the occupations classified here:\n-  Civil engineering project manager\n-  Construction project manager \n-  Project builder\nSome related occupations classified elsewhere:\n-  Building construction supervisor - 3123\n-  House builder - 7111\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1323&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1323",
+      "title": "Construction managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C132&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C132",
+        "title": "Manufacturing, mining, construction, and distribution managers",
+        "code": "132"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/faed05c0-c1d1-4e34-b575-0dea96459e56&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/faed05c0-c1d1-4e34-b575-0dea96459e56",
+        "title": "construction manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

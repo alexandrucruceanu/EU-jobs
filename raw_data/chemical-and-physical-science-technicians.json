@@ -1,0 +1,148 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3111",
+  "title": "Chemical and physical science technicians",
+  "preferredLabel": {
+    "de": "Chemo- und Physikotechniker",
+    "sv": "Laboratorieingenjörer",
+    "fi": "Luonnontieteen tekniset asiantuntijat",
+    "pt": "Técnicos das ciências químicas e físicas",
+    "bg": "Техници в областта на химическите и физическите науки",
+    "el": "Τεχνικοί φυσικοχημικών επιστημών",
+    "mt": "Tekniċi tax-xjenza kimika u fiżika",
+    "lt": "Chemijos ir fizinių mokslų technikai",
+    "en": "Chemical and physical science technicians",
+    "hr": "Tehničari/tehničarke za fiziku, kemiju i srodna zanimanja",
+    "lv": "Ķīmijas un fizikas zinātņu speciālisti",
+    "it": "Tecnici delle scienze chimiche e fisiche",
+    "fr": "Techniciens des sciences chimiques et physiques",
+    "hu": "Kémia- és fizika tudományok technikusai",
+    "es": "Técnicos en ciencias físicas y químicas",
+    "et": "Keemia- ja füüsikateaduste tehnikud",
+    "cs": "Technici v chemických a fyzikálních vědách (kromě chemického inženýrství)",
+    "sk": "Technici v chemických a fyzikálnych vedách",
+    "sl": "Tehniki/tehnice za fiziko, kemijo ipd.",
+    "pl": "Technicy nauk chemicznych i fizycznych",
+    "ro": "Tehnicieni în domeniul chimiei și fizicii",
+    "da": "Teknikerarbejde inden for kemisk og fysisk videnskab",
+    "nl": "Technici op chemisch en natuurkundig gebied"
+  },
+  "code": "3111",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3111"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3111"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Chemical and physical science technicians perform technical tasks to aid in research in chemistry, physics, geology, geophysics, meteorology and astronomy, and in the development of industrial, medical, military and other practical applications of research results.\nTasks include -\n(a)  collecting samples and preparing materials and equipment for experiments, tests and analyses;\n(b)  carrying out routine laboratory tests and performing a variety of technical support functions to assist chemical and physical scientists in research, development, analysis and testing;\n(c)  controlling the quality and quantity of laboratory supplies by testing samples and monitoring usage and preparing detailed estimates of quantities and costs of materials and labour required for projects, according to the specifications given; \n(d)  setting up, operating, and maintaining laboratory instruments and equipment, monitoring experiments, making observations, and calculating and recording results; \n(e)  preparing materials for experimentation such as freezing and slicing specimens and mixing chemicals;\n(f)  collecting and testing earth and water samples, recording observations and analysing data in support of geologists or geophysicists.\nExamples of the occupations classified here:\n- Chemistry technician\n- Geology technician\n- Meteorology technician\n- Physics technician\nSome related occupations classified elsewhere:\n- Chemical engineering technician - 3116\n- Chemical process technician - 3133\n- Life science technician - 3141\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3111&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3111",
+      "title": "Chemical and physical science technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C311&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C311",
+        "title": "Physical and engineering science technicians",
+        "code": "311"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0d7ae791-653e-4297-9f61-8bad87f61d57&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0d7ae791-653e-4297-9f61-8bad87f61d57",
+        "title": "meteorology technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/87775d69-ae88-449e-ad71-6f9875711816&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/87775d69-ae88-449e-ad71-6f9875711816",
+        "title": "chemistry technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e6a3ce2e-c0f2-47a7-937a-61ae9abfe1fa&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e6a3ce2e-c0f2-47a7-937a-61ae9abfe1fa",
+        "title": "metrology technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/eb00745b-9abb-4bd8-8291-aade48af029d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/eb00745b-9abb-4bd8-8291-aade48af029d",
+        "title": "material testing technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a9bcc9e0-5be7-47a0-818b-acad10fe90d9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a9bcc9e0-5be7-47a0-818b-acad10fe90d9",
+        "title": "physics technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/668943cc-c454-4a1b-a296-2fcb524a6222&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/668943cc-c454-4a1b-a296-2fcb524a6222",
+        "title": "hydrographic surveying technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/84cb6e91-ce11-409e-9306-23c9698631af&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/84cb6e91-ce11-409e-9306-23c9698631af",
+        "title": "soil surveying technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/774ad663-2124-4ac2-a287-5fb2e478906e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/774ad663-2124-4ac2-a287-5fb2e478906e",
+        "title": "nuclear technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4b8dced3-ac9e-445d-8787-e07daf52e295&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4b8dced3-ac9e-445d-8787-e07daf52e295",
+        "title": "leather laboratory technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/33fe4c90-c4fd-4860-bdc5-24fcab16f45a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/33fe4c90-c4fd-4860-bdc5-24fcab16f45a",
+        "title": "food analyst"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b176e5d7-1f94-495c-907f-80a7f61aed59&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b176e5d7-1f94-495c-907f-80a7f61aed59",
+        "title": "remote sensing technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/184e59d7-5646-4fe4-9059-46867ff09574&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/184e59d7-5646-4fe4-9059-46867ff09574",
+        "title": "radiation protection technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fb3f5f35-e6f7-4168-aef2-e4dfb7f2a3ee&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fb3f5f35-e6f7-4168-aef2-e4dfb7f2a3ee",
+        "title": "geology technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e8461d2e-3d75-477c-93a2-ea8d342bb55b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e8461d2e-3d75-477c-93a2-ea8d342bb55b",
+        "title": "environmental technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}

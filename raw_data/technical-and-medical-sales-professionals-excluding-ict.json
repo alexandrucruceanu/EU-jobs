@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2433",
+  "title": "Technical and medical sales professionals (excluding ICT)",
+  "preferredLabel": {
+    "no": "Salgskonsulenter innen tekniske og medisinske produkter",
+    "de": "Akademische und vergleichbare Fachkräfte im Bereich Vertrieb (Technik und Medizin, ohne Informations- und Kommunikationstechnologie)",
+    "sv": "Försäljare inom teknik och medicin (utom IKT)",
+    "fi": "Myynti-insinöörit ja lääke-esittelijät (pl. tieto- ja viestintätekniikka)",
+    "pt": "Especialistas em vendas, de material técnico e médico (excluindo TIC)",
+    "bg": "Специалисти по продажби в областта на медицината и техниката (без информационни и комуникационни технологии)",
+    "el": "Επαγγελματίες σύμβουλοι τεχνικών και ιατρικών πωλήσεων (εξαιρουμένου του τομέα των ΤΠΕ)",
+    "mt": "Professjonisti tal-bejgħ tekniku u mediku (esklużi l-ICT)",
+    "lt": "Techninės ir medicinos sričių pardavimo specialistai (išskyrus informacinių technologijų ir ryšių)",
+    "en": "Technical and medical sales professionals (excluding ICT)",
+    "lv": "Vecākie speciālisti tehnisko un medicīnas preču tirdzniecības jomā (izņemot IKT)",
+    "hr": "Stručnjaci/stručnjakinje za prodaju tehničke i medicinske opreme (osim opreme informacijske i komunikacijske tehnologije)",
+    "it": "Informatori tecnici e scientifici (ad eccezione del settore ICT)",
+    "fr": "Spécialistes des ventes, secteurs médical et technique (à l’exception des TIC)",
+    "hu": "Műszaki és gyógyászati termékek/szolgáltatások értékesítői (kivéve az IKT-t)",
+    "es": "Profesionales de ventas técnicas y médicas (excluyendo la TIC)",
+    "et": "Tehnika (v.a info- ja kommunikatsioonitehnoloogia) ja meditsiiniseadmete müügispetsialistid",
+    "cs": "Specialisté v oblasti prodeje technických a lékařských produktů (kromě informačních a komunikačních technologií)",
+    "sk": "Špecialisti v oblasti predaja technického a lekárskeho vybavenia (okrem IKT)",
+    "sl": "Strokovnjaki/strokovnjakinje za prodajo tehničnih in medicinskih izdelkov (razen IKT)",
+    "pl": "Specjaliści do spraw sprzedaży produktów technicznych i medycznych (z wyłączeniem technologii informacyjno-komunikacyjnych)",
+    "ro": "Specialiști în vânzarea de produse tehnice și medicale (exclusiv TIC)",
+    "da": "Arbejde inden for teknisk og medicinsk salg (undtagen informations- og kommunikationsteknologi)",
+    "nl": "Technisch verkopers en artsenbezoekers (m.u.v. ICT)"
+  },
+  "code": "2433",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2433"
+    },
+    {
+      "datatype": "",
+      "value": "2433"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Technical and medical sales professionals (excluding ICT) represent companies in selling a range of industrial, medical and pharmaceutical goods and services to industrial, business, professional and other establishments.\nTasks include - \n(a)  compiling lists of prospective client businesses by using directories and other sources; \n(b)  acquiring and updating knowledge of employers’ and competitors’ goods and services, and of market conditions; \n(c)  visiting regular and prospective client businesses to establish and act on selling opportunities; \n(d)  assessing clients’ needs and resources and recommending appropriate goods or services; \n(e)  providing input to product design where goods or services must be tailored to suit clients’ needs; \n(f)  developing reports and proposals as part of sales presentations to demonstrate benefits from the use of goods or services;\n(g)  estimating costs of installing and maintaining equipment or service; \n(h)  monitoring customers’ changing needs and competitor activity, and reporting these developments to sales management; \n(i)  quoting and negotiating prices and credit terms, and preparing and administering sales contracts; \n(j)  arranging delivery of goods, installation of equipment and the provision of services; \n(k)  reporting to sales management on sales made and the marketability of goods and services; \n(l)  consulting with clients after sale to ensure a satisfactory resolution of any problems, and provide ongoing support.\nExamples of the occupations classified here:\n- Sales representative (industrial products) \n- Sales representative (medical and pharmaceutical products) \n- Technical sales representative\nSome related occupations classified elsewhere:\n- Commercial sales representatives - 3322\n- Sales representative (computers)\n- Sales representative (communications technology)\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2433&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2433",
+      "title": "Technical and medical sales professionals (excluding ICT)"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C243&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C243",
+        "title": "Sales, marketing and public relations professionals",
+        "code": "243"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/98e58946-3227-4f6c-a5d1-5892fe76883d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/98e58946-3227-4f6c-a5d1-5892fe76883d",
+        "title": "after-sales service technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8529edc5-96ad-4cde-b34a-f86ad3753e4d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8529edc5-96ad-4cde-b34a-f86ad3753e4d",
+        "title": "sales engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/114e1eff-215e-47df-8e10-45a5b72f8197&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/114e1eff-215e-47df-8e10-45a5b72f8197",
+        "title": "renewable energy consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fd4b90ed-6bb4-447e-b13a-afb8015700b3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fd4b90ed-6bb4-447e-b13a-afb8015700b3",
+        "title": "solar energy sales consultant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ab762f91-d737-485f-a85c-67cab92dee01&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ab762f91-d737-485f-a85c-67cab92dee01",
+        "title": "medical sales representative"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c956be07-53a3-4b01-b8f8-f0c5a428eaa8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c956be07-53a3-4b01-b8f8-f0c5a428eaa8",
+        "title": "technical sales representative"
+      }
+    ]
+  },
+  "_embedded": {}
+}

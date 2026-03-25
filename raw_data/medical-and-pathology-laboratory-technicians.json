@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3212",
+  "title": "Medical and pathology laboratory technicians",
+  "preferredLabel": {
+    "no": "Bioingeniører",
+    "de": "Medizintechniker im Bereich Labor und Pathologie",
+    "sv": "Biomedicinska analytiker m.fl.",
+    "fi": "Bioanalyytikot (terveydenhuolto)",
+    "pt": "Técnicos de laboratório, de anatomia patológica e medicina",
+    "bg": "Приложни специалисти в медицински и патологични лаборатории",
+    "el": "Τεχνικοί εργαστηρίων ιατρικής και παθολογίας",
+    "mt": "Tekniċi mediċi u tal-laboratorju patoloġiku",
+    "lt": "Medicinos ir patologijos laboratorijų technikai",
+    "en": "Medical and pathology laboratory technicians",
+    "lv": "Klīnisko un patoloģijas laboratoriju speciālisti",
+    "hr": "Zdravstveno laboratorijski i patološki tehničari/zdravstveno laboratorijske i patološke tehničarke",
+    "it": "Tecnici di laboratorio medico e patologico",
+    "fr": "Techniciens de laboratoire médical",
+    "hu": "Orvosi és patológiai labortechnikusok",
+    "es": "Técnicos de laboratorios médicos",
+    "et": "Meditsiini- ja patoloogialaborite tehnikud",
+    "cs": "Odborní laboranti v oblasti zdravotnictví",
+    "sk": "Laboranti v zdravotníckych laboratóriách a na patológii",
+    "sl": "Laboratorijski tehniki/laboratorijske tehnice v zdravstvu in patologiji",
+    "pl": "Technicy analityki medycznej",
+    "da": "Teknikerarbejde i medicinske og patologiske laboratorier",
+    "ro": "Tehnicieni în laboratoare medicale și de patologie",
+    "nl": "Laboratoriumtechnici (geneeskunde en pathologie)"
+  },
+  "code": "3212",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3212"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3212"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Medical and pathology laboratory technicians perform clinical tests on specimens of bodily fluids and tissues in order to obtain information about the health of a patient or cause of death.\nTasks include -\n(a)  conducting chemical analysis of body fluids, including blood, urine and spinal fluid, to determine presence of normal and abnormal components;\n(b)  operating, calibrating and maintaining equipment used in quantitative and qualitative analysis, such as spectrophotometers, calorimeters, flame photometers and computer-controlled analysers;\n(c)  entering data from analysis of laboratory tests and clinical results into record-keeping systems, and reporting results to medical practitioners and other health professionals;\n(d)  analysing samples of biological material for chemical content or reaction;\n(e)  setting up, cleaning and maintaining laboratory equipment;\n(f)  analysing laboratory findings to check the accuracy of the results; \n(g)  establishing and monitoring programmes to ensure the accuracy of laboratory results, and developing, standardizing, evaluating and modifying procedures, techniques and tests used in the analysis of specimens;\n(h)  obtaining specimens, cultivating, isolating and identifying microorganisms for analysis; \n(i)   examining cells stained with dye to locate abnormalities;\n(j)   inoculating fertilized eggs, broths, or other bacteriological media with organisms.\nExamples of the occupations classified here:\n-  Blood-bank technician\n-  Cytology technician\n-  Medical laboratory technician\n-  Pathology technician\nSome related occupations classified elsewhere:\n- Pathologist - 2212\n- Forensic science technician - 3119\n- Veterinary technician - 3240\n- Phlebotomist - 5329\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3212&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3212",
+      "title": "Medical and pathology laboratory technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C321&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C321",
+        "title": "Medical and pharmaceutical technicians",
+        "code": "321"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2e8820ba-5b2d-4572-92a1-942dbd02a6d6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2e8820ba-5b2d-4572-92a1-942dbd02a6d6",
+        "title": "biomedical scientist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0044c991-c26f-4261-a213-4bd1c0564a4c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0044c991-c26f-4261-a213-4bd1c0564a4c",
+        "title": "medical laboratory assistant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

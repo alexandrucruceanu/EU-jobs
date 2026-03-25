@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5230",
+  "title": "Cashiers and ticket clerks",
+  "preferredLabel": {
+    "no": "Billettselgere",
+    "de": "Kassierer und Kartenverkäufer",
+    "fi": "Kassanhoitajat ja lipunmyyjät",
+    "sv": "Butikskassörer, biljettförsäljare m.fl.",
+    "pt": "Operadores de caixa e de venda de bilhetes",
+    "bg": "Касиери и продавачи на билети",
+    "el": "Ταμίες και υπάλληλοι έκδοσης εισιτηρίων",
+    "mt": "Kaxxiera u skrivani li jbiegħu l-biljetti",
+    "lt": "Kasininkai ir bilietų pardavėjai",
+    "en": "Cashiers and ticket clerks",
+    "hr": "Blagajnici/blagajnice, prodavači/prodavačice ulaznica i srodna zanimanja",
+    "lv": "Kasieri un biļešu pārdevēji",
+    "it": "Cassieri e addetti al registratore di cassa",
+    "fr": "Caissiers et billettistes",
+    "hu": "Pénztárosok és jegyárusítók",
+    "es": "Cajeros y expendedores de billetes",
+    "et": "Kassapidajad ja piletimüüjad",
+    "cs": "Pokladníci a prodavači vstupenek a jízdenek",
+    "sk": "Pokladníci a predavači lístkov",
+    "sl": "Blagajniki/blagajničarke, prodajalci/prodajalke vstopnic ipd.",
+    "pl": "Kasjerzy i sprzedawcy biletów",
+    "da": "Kasseassistentarbejde og beslægtet kundebetjening",
+    "ro": "Casieri și vânzători de bilete",
+    "nl": "Kassabedienden en kaartverkopers"
+  },
+  "code": "5230",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5230"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5230"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Cashiers and ticket clerks operate cash registers, optical price scanners, computers or other equipment to record and accept payment for the purchase of goods, services and admissions in settings such as stores, restaurants and ticket offices.\nTasks include -\n(a)  receiving and verifying payment by cash, cheque, credit card or automatic debit in stores, ticket offices or similar establishments;\n(b)  giving change and issuing receipts;\n(c)  issuing tickets for attendance at sporting and cultural events;\n(d)  counting and recording money received or paid out and balancing against cash register sales records;\n(e)  receiving incoming cash, checking it against sales slips and other documents, and preparing it for deposit at a financial institution\n(f)  operating cash registers to calculate totals to be paid from or to clients;\n(g)  scanning, weighing and recording prices of goods;\n(h)  wrapping and placing merchandise in bags.\nExamples of the occupations classified here:\n\n- Checkout operator \n- Service station cashier\n- Service station console operator\n- Store cashier\n- Ticket issuing clerk (entertainment and sporting events)\n\nSome related occupations classified elsewhere:\n- Ticket issuing clerk (travel) - 4221\n- Checkout supervisor - 5222\n- Shop sales assistant - 5223\n- Service station attendant - 5245\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5230&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5230",
+      "title": "Cashiers and ticket clerks"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C523&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C523",
+        "title": "Cashiers and ticket clerks",
+        "code": "523"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2b871272-bd61-4206-bd1a-0b96d7023098&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2b871272-bd61-4206-bd1a-0b96d7023098",
+        "title": "cashier"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3f32394b-f1b1-48ef-96ee-74405fb7c6b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3f32394b-f1b1-48ef-96ee-74405fb7c6b6",
+        "title": "lottery cashier"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/612430b3-dd43-4786-b823-0466c4953f66&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/612430b3-dd43-4786-b823-0466c4953f66",
+        "title": "ticket issuing clerk"
+      }
+    ]
+  },
+  "_embedded": {}
+}

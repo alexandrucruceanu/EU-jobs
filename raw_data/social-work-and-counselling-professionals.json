@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2635",
+  "title": "Social work and counselling professionals",
+  "preferredLabel": {
+    "de": "Sozialarbeiter",
+    "no": "Rådgivere innen sosiale fagfelt",
+    "fi": "Sosiaalityön erityisasiantuntijat",
+    "sv": "Socialsekreterare och kuratorer",
+    "pt": "Especialistas do trabalho social",
+    "bg": "Специалисти по социална работа и консултиране",
+    "el": "Κοινωνικοί λειτουργοί και σύμβουλοι",
+    "mt": "Professjonisti tal-ħidma soċjali u l-għoti tal-pariri",
+    "lt": "Socialiniai darbuotojai ir konsultantai",
+    "en": "Social work and counselling professionals",
+    "lv": "Sociālā darba un konsultāciju vecākie speciālisti",
+    "hr": "Stručnjaci/stručnjakinje za socijalni rad i savjetovanje",
+    "it": "Specialisti nell’assistenza sociale e nell’orientamento",
+    "fr": "Spécialistes du travail social",
+    "hu": "Szociális munkások, tanácsadással foglalkozó szakemberek",
+    "es": "Profesionales del trabajo social",
+    "et": "Sotsiaaltöötajad ja nõustajad",
+    "cs": "Specialisté v oblasti sociální práce a poradenství",
+    "sk": "Špecialisti v oblasti sociálnej práce a poradenstva",
+    "sl": "Socialni delavci/socialne delavke, svetovalci/svetovalke",
+    "pl": "Specjaliści pracy socjalnej i doradztwa socjalnego",
+    "da": "Socialrådgivning",
+    "ro": "Specialiști în asistență socială și consiliere",
+    "nl": "Maatschappelijk werkers en counselors"
+  },
+  "code": "2635",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2635"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2635"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Social work and counselling professionals provide advice and guidance to individuals, families, groups, communities and organizations in response to social and personal difficulties.  They assist clients to develop skills and access resources and support services needed to respond to issues arising from unemployment, poverty, disability, addiction, criminal and delinquent behaviour, marital and other problems.\nTasks include -\n(a)  interviewing clients individually, in families or in groups, to assess their situation and problems and determine the types of services required;\n(b)  analysing the client’s situation and presenting alternative approaches to resolving problems;\n(c)  compiling case records or reports for courts and other legal proceedings;\n(d)  providing counselling, therapy and mediation services, and facilitating group sessions to assist clients to develop skills and insights needed to deal with and resolve their social and personal problems;\n(e)  planning and implementing programmes of assistance for clients, including crisis intervention and referral to agencies that provide financial assistance, legal aid, housing, medical treatment and other services;\n(f)  investigating cases of abuse or neglect and taking action to protect children and other persons at risk;\n(g)  working with offenders during and after sentence to help them to integrate into the community and to change attitudes and behaviour in order to reduce further offending;\n(h)  providing advice to prison governors and to probation and parole review boards that helps determine whether, and under what conditions, an offender should be incarcerated, released from prison or undergo alternative correctional measures;\n(i)  acting as advocates for client groups in the community and lobbying  for solutions to problems affecting them;\n(j)  developing prevention and intervention programmes to meet community needs;\n(k)  maintaining contact with other social service agencies, educational institutions and health care providers involved with clients to provide information and obtain feedback on clients’ overall situation and progress.\nExamples of the occupations classified here:\n- Addictions counsellor\n- Bereavement counsellor\n- Child and youth counsellor\n- District social welfare officer\n- Family counsellor\n- Marriage counsellor\n- Parole officer\n- Probation officer\n- Sexual assault counsellor\n- Social worker\n- Women’s welfare organizer\nSome related occupations classified elsewhere:\n- Psychologists - 2634\n- Welfare support worker - 3412\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2635&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2635",
+      "title": "Social work and counselling professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C263&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C263",
+        "title": "Social and religious professionals",
+        "code": "263"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/4b05bef2-ded4-4b09-ab94-f4c6a555a775&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/4b05bef2-ded4-4b09-ab94-f4c6a555a775",
+        "title": "social worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5727b567-993d-4d41-a13d-81a6af1a9a8e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5727b567-993d-4d41-a13d-81a6af1a9a8e",
+        "title": "social counsellor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/fa4a3b52-990c-44eb-a912-490f5d689400&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/fa4a3b52-990c-44eb-a912-490f5d689400",
+        "title": "social pedagogue"
+      }
+    ]
+  },
+  "_embedded": {}
+}

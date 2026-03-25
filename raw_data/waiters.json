@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5131",
+  "title": "Waiters",
+  "preferredLabel": {
+    "no": "Servitører",
+    "de": "Kellner",
+    "sv": "Hovmästare och servitörer",
+    "fi": "Tarjoilijat",
+    "pt": "Empregados de mesa",
+    "bg": "Сервитьори",
+    "mt": "Wejters",
+    "el": "Σερβιτόροι",
+    "lt": "Padavėjai",
+    "en": "Waiters",
+    "hr": "Konobari/konobarice",
+    "lv": "Viesmīļi",
+    "it": "Camerieri",
+    "fr": "Serveurs",
+    "hu": "Felszolgálók",
+    "es": "Camareros de mesas",
+    "et": "Ettekandjad ja kelnerid",
+    "cs": "Číšníci a servírky",
+    "sk": "Čašníci",
+    "sl": "Natakarji/natakarice",
+    "pl": "Kelnerzy",
+    "da": "Tjenerarbejde",
+    "ro": "Chelneri",
+    "nl": "Kelners"
+  },
+  "code": "5131",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5131"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5131"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Waiters serve food and beverages at tables in dining and drinking places, clubs, institutions and canteens, on board ships and on passenger trains.\nTasks include -\n(a)  setting tables with clean linen, cutlery, crockery and glassware;\n(b)  greeting customers and presenting them with menus and beverage lists;\n(c)  advising on food and beverage choices;\n(d)  taking orders for food and drinks and passing orders to kitchen or bar staff;\n(e)  serving food and beverages to clients at tables;\n(f)  clearing tables and returning dishes and cutlery to the kitchen;\n(g)  presenting bills, accepting payment and operating point-of-sales machines and cash registers.\nExamples of the occupations classified here:\n- Sommelier\n- Waiter\nSome related occupations classified elsewhere:\n- Café manager - 1412 \n- Restaurant manager - 1412\n- Bartender - 5132\nNotes\nOperators of small cafés, restaurants and bars for whom the management and supervision of staff is not a significant component of the work are classified in Unit Groups 5120: Cooks, 5131: Waiters or 5132: Bartenders, depending on the main tasks performed. \n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5131&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5131",
+      "title": "Waiters"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C513&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C513",
+        "title": "Waiters and bartenders",
+        "code": "513"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d5db9d5c-2ebf-4a54-a79a-1b7e7ff70471",
+        "title": "waiter/waitress"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a1b86a8b-ad91-4192-b386-bbf89bb11699&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a1b86a8b-ad91-4192-b386-bbf89bb11699",
+        "title": "restaurant host/restaurant hostess"
+      }
+    ]
+  },
+  "_embedded": {}
+}

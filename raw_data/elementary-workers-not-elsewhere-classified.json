@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9629",
+  "title": "Elementary workers not elsewhere classified",
+  "preferredLabel": {
+    "de": "Hilfsarbeitskräfte, anderweitig nicht genannt",
+    "no": "Andre hjelpearbeidere",
+    "fi": "Muut muualla luokittelemattomat työntekijät",
+    "sv": "Övriga servicearbetare",
+    "pt": "Outros trabalhadores não qualificados, n.e.",
+    "bg": "Други неквалифицирани работници, некласифицирани другаде",
+    "el": "Ανειδίκευτοι εργάτες π.δ.κ.α.",
+    "mt": "Ħaddiema oħra elementari li mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti nekvalifikuoti darbininkai",
+    "en": "Elementary workers not elsewhere classified",
+    "hr": "Djelatnici/djelatnice jednostavnih zanimanja, d. n.",
+    "lv": "Citur neklasificēti vienkāršo profesiju strādnieki",
+    "it": "Altre professioni non qualificate non classificate altrove",
+    "fr": "Professions élémentaires non classées ailleurs",
+    "hu": "Máshová nem sorolható képesítést nem igénylő foglalkozásúak",
+    "es": "Ocupaciones elementales no clasificadas bajo otros epígrafes",
+    "et": "Mujal liigitamata lihttöölised",
+    "cs": "Pomocní a nekvalifikovaní pracovníci jinde neuvedení",
+    "sk": "Ostatní pomocní pracovníci inde neuvedení",
+    "sl": "Delavci/delavke za preprosta dela, d. n.",
+    "pl": "Pracownicy przy pracach prostych gdzie indziej niesklasyfikowani",
+    "ro": "Muncitori cu pregătire elementară neclasificați în grupele de bază anterioare",
+    "da": "Andet manuelt arbejde",
+    "nl": "Elementaire beroepen, niet elders geclassificeerd"
+  },
+  "code": "9629",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "9629"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9629"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers elementary workers not classified elsewhere in Major Group 9: Elementary Workers.  For instance, the group includes those who issue and collect parking or admission tickets, provide personal items to patrons or customers in cloakrooms, and assist patrons at entertainment events.\nIn such cases tasks would include -\n(a)  selling admission tickets and passes to patrons at entertainment events or collecting tickets, passes and tags from patrons;\n(b)  examining tickets or passes to verify authenticity, using criteria such as colour and date issued;\n(c)  guiding patrons to exits or providing other instructions or assistance in case of emergency;\n(d)  directing patrons to restrooms, concession stands and telephones;\n(e)  directing vehicle drivers to parking spaces;\n(f)  patrolling parking areas in order to prevent vehicle damage and vehicle property theft;\n(g)  calculating parking charges and collecting fees from customers;\n(h)  assigning dressing room facilities, locker space, or clothing containers to patrons of athletic or bathing establishments.\nExamples of the occupations classified here:\n- Cloakroom attendant\n- Fairground attendant\n- Parking attendant\n- Ticket collector\n- Usher\nSome related occupations classified elsewhere:\n- Parking valet - 8322\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9629&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9629",
+      "title": "Elementary workers not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C962&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C962",
+        "title": "Other elementary workers",
+        "code": "962"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c28cb56b-003e-499a-8dbf-b654864e7867&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c28cb56b-003e-499a-8dbf-b654864e7867",
+        "title": "advertising installer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e16e4cb0-6f7d-4bf9-8f90-d1d866ad229b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e16e4cb0-6f7d-4bf9-8f90-d1d866ad229b",
+        "title": "laundromat attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1f1a45a8-8f5c-4b66-a8a1-e02490addc55&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1f1a45a8-8f5c-4b66-a8a1-e02490addc55",
+        "title": "locker room attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e31c83ac-cb74-4936-88f1-90ed0997b29b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e31c83ac-cb74-4936-88f1-90ed0997b29b",
+        "title": "amusement and recreation attendant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/39a59c5c-4338-4480-bdc8-96328a491907&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/39a59c5c-4338-4480-bdc8-96328a491907",
+        "title": "attraction operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7f346896-a4fb-47a1-9572-13398bc297a6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7f346896-a4fb-47a1-9572-13398bc297a6",
+        "title": "usher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/26087cc4-6226-41b0-9f97-9564ebe90dce&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/26087cc4-6226-41b0-9f97-9564ebe90dce",
+        "title": "cloak room attendant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

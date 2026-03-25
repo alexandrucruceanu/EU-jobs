@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7313",
+  "title": "Jewellery and precious-metal workers",
+  "preferredLabel": {
+    "no": "Gull- og sølvsmeder",
+    "de": "Schmuckwarenhersteller und Edelmetallbearbeiter",
+    "fi": "Koru-, kulta- ja hopeasepät",
+    "sv": "Guld- och silversmeder",
+    "pt": "Joalheiros e trabalhadores de metais preciosos",
+    "bg": "Бижутери и работници по обработка на скъпоценни камъни",
+    "mt": "Ħaddiema tal-ġojjelli u tal-metall prezzjuż",
+    "el": "Κοσμηματοποιοί και τεχνίτες πολύτιμων μετάλλων",
+    "lt": "Juvelyrai ir tauriųjų metalų apdirbėjai",
+    "en": "Jewellery and precious-metal workers",
+    "lv": "Juvelieri",
+    "hr": "Zlatari/zlatarice, draguljari/draguljarke i srodna zanimanja",
+    "it": "Gioiellieri e orafi",
+    "fr": "Joailliers et orfèvres",
+    "hu": "Ékszerészek és nemesfém-megmunkálók",
+    "es": "Joyeros, orfebres y plateros",
+    "et": "Juveeli- ja väärismetallitöölised",
+    "cs": "Klenotníci, zlatníci a šperkaři",
+    "sk": "Výrobcovia šperkov a výrobkov z drahých kovov",
+    "sl": "Izdelovalci/izdelovalke nakita in bižuterije",
+    "pl": "Jubilerzy, złotnicy i pokrewni",
+    "ro": "Giuvaergii și lucrători în metale prețioase",
+    "da": "Juveler-, guld- og sølvsmedearbejde",
+    "nl": "Juweliers en bewerkers van edele metalen"
+  },
+  "code": "7313",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7313"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7313"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Jewellery and precious metal workers design, fabricate, adjust, repair or appraise jewellery, ceremonial or religious items, gold, silver, other precious metals or gems. They cut, file, polish and set precious and semi-precious stones including gems and diamonds, and engrave designs on jewellery and precious metal articles. They cut and polish diamonds for industrial purposes.\nTasks include -\n(a)  casting jewellery and other non-ferrous metal articles by hand;\n(b)  creating new jewellery designs and modifying existing designs, using computers as necessary;\n(c)  cutting designs in moulds or other materials to be used as models in the fabrication of metal and jewellery products;\n(d)  altering existing jewellery mountings in order to reposition jewels or to adjust mountings; \n(e)  repairing, reshaping and restyling old jewellery or precious metal ware following designs or instructions;\n(f)  making complete jewellery articles such as rings, necklaces, bangles, brooches and bracelets from materials such as gold, silver, platinum and precious or semi-precious stones; \n(g)  examining gem surfaces and internal structures, using polariscopes, refractometers, microscopes and other optical instruments to differentiate between stones, to identify rare specimens, or to detect flaws, defects or peculiarities affecting gem values;\n(h)  cutting and polishing gems and setting them in jewellery articles;\n(i)  engraving or embossing letters, designs or decorative lines on jewellery and precious metal ware;\n(j)  grinding, drilling and finishing jewel bearings for use in precision instruments such as compasses and chronometers; \n(k)  examining assembled or finished products to ensure conformity with specifications, using magnifying glasses or precision measuring instruments.\nExamples of the occupations classified here:\n- Enameller (jewellery)\n- Gem setter\n- Goldsmith\n- Jeweller\n- Silversmith\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7313&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7313",
+      "title": "Jewellery and precious-metal workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C731&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C731",
+        "title": "Handicraft workers",
+        "code": "731"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/618a854a-4ecd-4535-84e6-350e1fe0aa0f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/618a854a-4ecd-4535-84e6-350e1fe0aa0f",
+        "title": "jeweller"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/73bcde7c-bc34-485d-a7af-7b94fc43f61b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/73bcde7c-bc34-485d-a7af-7b94fc43f61b",
+        "title": "precious stone cutter"
+      }
+    ]
+  },
+  "_embedded": {}
+}

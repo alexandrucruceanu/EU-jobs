@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3139",
+  "title": "Process control technicians not elsewhere classified",
+  "preferredLabel": {
+    "de": "Techniker in der Prozesssteuerung, anderweitig nicht genannt",
+    "no": "Andre prosesskontrolloperatører",
+    "fi": "Muut prosessinvalvonnan asiantuntijat",
+    "sv": "Övriga processövervakare och drifttekniker",
+    "pt": "Outros técnicos de controlo de processos industriais",
+    "bg": "Техници по контрол на производствени процеси, некласифицирани другаде",
+    "el": "Τεχνικοί ελέγχου διαδικασίας π.δ.κ.α.",
+    "mt": "Tekniċi tal-kontroll tal-proċess li mhumiex ikklassifikati x’imkien ieħor",
+    "lt": "Kitur nepriskirti technologinių procesų valdymo technikai",
+    "en": "Process control technicians not elsewhere classified",
+    "lv": "Citur neklasificēti tehnoloģisko procesu kontroles speciālisti",
+    "hr": "Procesni tehničari/procesne tehničarke d. n.",
+    "it": "Tecnici del controllo del processo di produzione non classificati altrove",
+    "fr": "Techniciens, contrôle de processus industriels non classés ailleurs",
+    "hu": "Folyamatirányító rendszerek máshová nem sorolható kezelő technikusai",
+    "es": "Técnicos en control de procesos no clasificados bajo otros epígrafes",
+    "et": "Mujal liigitamata protsessijuhtimistehnikud",
+    "cs": "Operátoři velínů a zařízení jinde neuvedení",
+    "sk": "Technici procesu výroby inde neuvedení",
+    "sl": "Tehniki/tehnice za nadzor procesov in naprav, d. n.",
+    "pl": "Technicy kontroli procesów przemysłowych gdzie indziej niesklasyfikowani",
+    "ro": "Tehnicieni controlori de procese industriale neclasificați în grupele de bază anterioare",
+    "da": "Andet teknisk kontrolarbejde inden for processtyring",
+    "nl": "Technici op het gebied van procesbeheer, niet elders geclassificeerd"
+  },
+  "code": "3139",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3139"
+    },
+    {
+      "datatype": "",
+      "value": "3139"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "This unit group covers process control technicians not classified elsewhere in Minor Group 313: Process Control Technicians.  For instance, the unit group includes those who operate multiple process control equipment in manufacturing assembly lines and paper and pulp production.\nExamples of the occupations classified here: \n- Automated assembly line operator\n- Industrial robot controller\n- Panel board operator (pulp and paper)\n- Paper pulp refinery operator\n- Pulping control operator\n- Pulping technician\nNote\nAll mining plant operators are classified in Unit Group 8111:  Miners and Quarriers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3139&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3139",
+      "title": "Process control technicians not elsewhere classified"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C313&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C313",
+        "title": "Process control technicians",
+        "code": "313"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/869e3a85-6e4c-4e3c-b14f-a8399c1abd2d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/869e3a85-6e4c-4e3c-b14f-a8399c1abd2d",
+        "title": "automated assembly line operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d0d7d777-073f-4c33-8f27-1d4a0e8e626f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d0d7d777-073f-4c33-8f27-1d4a0e8e626f",
+        "title": "pulp control operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5001506f-dd7d-4801-92ac-6f7e93b45133&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5001506f-dd7d-4801-92ac-6f7e93b45133",
+        "title": "industrial robot controller"
+      }
+    ]
+  },
+  "_embedded": {}
+}

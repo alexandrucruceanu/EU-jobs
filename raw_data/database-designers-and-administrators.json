@@ -1,0 +1,104 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2521",
+  "title": "Database designers and administrators",
+  "preferredLabel": {
+    "de": "Datenbankentwickler und -administratoren",
+    "no": "Databasedesignere og -administratorer",
+    "fi": "Tietokantasuunnittelijat ja -vastaavat",
+    "sv": "Databasutvecklare och administratörer",
+    "pt": "Administradores e especialistas de concepção de bases de dados",
+    "bg": "Проектанти и администратори на бази данни",
+    "el": "Σχεδιαστές και διαχειριστές βάσεων δεδομένων",
+    "mt": "Disinjaturi u amministraturi tal-bażi tad-dejta",
+    "lt": "Duomenų bazių projektuotojai ir administratoriai",
+    "en": "Database designers and administrators",
+    "lv": "Datubāzu veidotāji un administratori",
+    "hr": "Stručnjaci/stručnjakinje za razvoj baza podataka",
+    "it": "Specialisti nella progettazione e amministrazione delle basi dati",
+    "fr": "Spécialistes des bases de données",
+    "hu": "Adatbázis-tervezők és -rendszergazdák",
+    "es": "Diseñadores y administradores de bases de datos",
+    "et": "Andmebaaside kujundajad ja haldajad",
+    "cs": "Návrháři a správci databází",
+    "sk": "Dizajnéri a správcovia databáz",
+    "sl": "Snovalci/snovalke in upravljavci/upravljavke podatkovnih zbirk",
+    "pl": "Projektanci i administratorzy baz danych",
+    "ro": "Designeri și administratori de baze de date",
+    "da": "Design og administration af databaser",
+    "nl": "Ontwerpers en beheerders van databanken"
+  },
+  "code": "2521",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2521"
+    },
+    {
+      "datatype": "",
+      "value": "2521"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Database designers and administrators design, develop, control, maintain and support the optimal performance and security of databases.\nTasks include -\n(a)  designing and developing database architecture, data structures, tables, dictionaries and naming conventions for information systems projects;\n(b)  designing, constructing, modifying, integrating, implementing and testing database management systems;\n(c)  conducting research and providing advice on the selection, application and implementation of database management tools;\n(d)  developing and implementing data administration policy, documentation, standards and models;\n(e)  developing policies and procedures for database access and usage and for the backup and recovery of data;\n(f)  performing the operational establishment and preventive maintenance of backups, recovery procedures, and enforcing security and integrity controls.\nExamples of the occupations classified here:\n- Data administrator \n- Database administrator \n- Database analyst\n- Database architect\nSome related occupations classified elsewhere:\n- Network administrator - 2522\n- Systems administrator (computers) - 2522\n- Webmaster - 3514\n- Website administrator - 3514\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2521&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2521",
+      "title": "Database designers and administrators"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C252&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C252",
+        "title": "Database and network professionals",
+        "code": "252"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8c57af09-719c-42b3-be40-6ed4946236cc",
+        "title": "database administrator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3d190639-90f8-4402-b1b3-a104a17e0d67&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3d190639-90f8-4402-b1b3-a104a17e0d67",
+        "title": "database integrator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8d9ec84d-cf2d-4179-87bc-335cda54a427&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8d9ec84d-cf2d-4179-87bc-335cda54a427",
+        "title": "database designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b11e1742-5e28-4270-b081-b0193d85ee7d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b11e1742-5e28-4270-b081-b0193d85ee7d",
+        "title": "database developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1562c7a3-c7d9-419d-b9b6-db26610bcf84&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1562c7a3-c7d9-419d-b9b6-db26610bcf84",
+        "title": "data warehouse designer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

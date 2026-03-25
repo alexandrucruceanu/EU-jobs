@@ -1,0 +1,88 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C6223",
+  "title": "Deep-sea fishery workers",
+  "preferredLabel": {
+    "de": "Hochseefischer",
+    "fi": "Syvänmerenkalastajat",
+    "sv": "Fiskare (havsfiske)",
+    "pt": "Trabalhadores qualificados da pesca do alto mar",
+    "bg": "Риболовци в дълбоки морски води",
+    "el": "Αλιείς ανοικτής θαλάσσης",
+    "mt": "Ħaddiema fis-sajd fl-ibħra fondi",
+    "lt": "Giliavandenės žvejybos žvejai",
+    "en": "Deep-sea fishery workers",
+    "hr": "Ribari/ribarke na otvorenom moru",
+    "lv": "Dziļūdens zvejnieki",
+    "it": "Pescatori d’alto mare",
+    "fr": "Pêcheurs de la pêche en haute mer",
+    "hu": "Mélytengeri halászok",
+    "es": "Pescadores de alta mar",
+    "et": "Avamerekalurid",
+    "cs": "Rybáři na moři",
+    "sk": "Pracovníci v rybárstve na mori",
+    "sl": "Ribiči/ribičke na odprtem morju",
+    "pl": "Rybacy dalekomorscy",
+    "da": "Arbejde med havfiskeri",
+    "ro": "Pescari în mări și oceane",
+    "nl": "Vissers, volle zee"
+  },
+  "code": "6223",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "6223"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "6223"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Deep-sea fishery workers, as skippers or members of fishing vessel crews, catch deep-sea fish for sale or delivery to wholesale buyers, marketing organizations or at markets.\nTasks include -\n(a)  preparing and repairing nets and other fishing gear and equipment;\n(b)  commanding and operating fishing vessels to, from and at deep-sea fishing grounds;\n(c)  determining areas for fishing, plotting courses and computing navigational positions using compass, charts, tables and other aids;\n(d)  steering vessels and operating navigational instruments and electronic fishing aids;\n(e)  directing fishing operations and supervising crew activities;\n(f)  recording fishing progress and activities, as well as weather and sea conditions, on the ship’s log;\n(g)  baiting, setting and hauling in fishing gear;\n(h)  cleaning, freezing, icing or salting catch on- or offshore;\n(i)   selecting and training vessel crews.\nExamples of the occupations classified here:\n- Deep-sea fisher\n- Trawler skipper\nSome related occupations classified elsewhere:\n- Fishing operations manager - 1312\n- Coastal fishery skipper - 6222\n- Fisher(coastal waters) - 6222\n- Fisher (inland waters) - 6222\n- Fishery labourer - 9216\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6223&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C6223",
+      "title": "Deep-sea fishery workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C622&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C622",
+        "title": "Fishery workers, hunters and trappers",
+        "code": "622"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/24413f38-e457-4de1-bba0-5a02b7282e2c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/24413f38-e457-4de1-bba0-5a02b7282e2c",
+        "title": "deep-sea fishery worker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bcead4e9-3697-4831-b62e-ddb83d7d469d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bcead4e9-3697-4831-b62e-ddb83d7d469d",
+        "title": "fisheries master"
+      }
+    ]
+  },
+  "_embedded": {}
+}

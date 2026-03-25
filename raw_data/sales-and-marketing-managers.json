@@ -1,0 +1,104 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1221",
+  "title": "Sales and marketing managers",
+  "preferredLabel": {
+    "de": "Führungskräfte in Vertrieb und Marketing",
+    "no": "Salgs- og markedssjefer",
+    "fi": "Myynti- ja markkinointijohtajat",
+    "sv": "Försäljnings- och marknadschefer",
+    "pt": "Directores de vendas e marketing",
+    "bg": "Ръководители на звена за продажби и маркетинг",
+    "el": "Διευθυντές πωλήσεων και μάρκετινγκ",
+    "mt": "Maniġers ta’ bejgħ u tqegħid fis-suq",
+    "lt": "Pardavimo ir rinkodaros vadovai",
+    "en": "Sales and marketing managers",
+    "lv": "Tirdzniecības un tirgzinības jomas vadītāji",
+    "hr": "Direktori/direktorice prodaje i marketinga",
+    "it": "Dirigenti nei servizi di vendita e commercializzazione",
+    "fr": "Directeurs et cadres de direction, ventes et commercialisation",
+    "hu": "Értékesítési és marketingvezetők",
+    "es": "Directores de ventas y comercialización",
+    "et": "Müügi- ja turundusjuhid",
+    "cs": "Vedoucí a řídící pracovníci v oblasti prodeje a marketingu",
+    "sk": "Riadiaci pracovníci (manažéri) v oblasti odbytu a marketingu",
+    "sl": "Menedžerji/menedžerke za trženje in prodajo",
+    "pl": "Kierownicy do spraw sprzedaży i marketingu",
+    "ro": "Conducători în domeniul vânzări și marketing",
+    "da": "Ledelse af salg og marketing",
+    "nl": "Leidinggevende functies op het gebied van verkoop en marketing"
+  },
+  "code": "1221",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1221"
+    },
+    {
+      "datatype": "",
+      "value": "1221"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Sales and marketing managers plan, direct and coordinate the sales and marketing activities of an enterprise or organization, or of enterprises that provide sales and marketing services to other enterprises and organizations.\nTasks include -\n(a)  planning and organizing special sales and marketing programmes based on sales records and market assessments;\n(b)  determining price lists, discount and delivery terms, sales promotion budgets, sales methods, special incentives and campaigns;\n(c)  establishing and directing operational and administrative procedures related to sales and marketing activities;\n(d)  leading and managing the activities of sales and marketing staff;\n(e)  planning and directing daily operations; \n(f)  establishing and managing budgets and controlling expenditure to ensure the efficient use of resources;\n(g)  overseeing the selection, training and performance of staff;\n(h)  representing the enterprise or organization at sales and marketing conventions, trade exhibitions and other forums.\nExamples of the occupations classified here:\n-  Marketing manager\n-  Sales manager\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1221&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1221",
+      "title": "Sales and marketing managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C122&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C122",
+        "title": "Sales, marketing and development managers",
+        "code": "122"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2d3d7188-47ab-49b9-9045-e452d9db06f1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2d3d7188-47ab-49b9-9045-e452d9db06f1",
+        "title": "commercial director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/04b52c04-0620-4558-8f89-e252de2963ff&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/04b52c04-0620-4558-8f89-e252de2963ff",
+        "title": "auction house manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0ddbf393-38f1-4c22-b14c-fe775008f321&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0ddbf393-38f1-4c22-b14c-fe775008f321",
+        "title": "chief marketing officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c530b0ee-46f8-40fb-818c-d9b44b891cb9&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c530b0ee-46f8-40fb-818c-d9b44b891cb9",
+        "title": "banking products manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6ce3c372-408b-4c46-86d8-ad6b9255d686&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6ce3c372-408b-4c46-86d8-ad6b9255d686",
+        "title": "tourism product manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

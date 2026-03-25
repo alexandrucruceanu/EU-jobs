@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C6112",
+  "title": "Tree and shrub crop growers",
+  "preferredLabel": {
+    "de": "Baum- und Strauchfrüchteanbauer",
+    "no": "Frukt- og bærprodusenter",
+    "fi": "Hedelmäpuiden ja pensaiden ym. kasvattajat",
+    "sv": "Odlare av träd och buskar",
+    "pt": "Trabalhadores qualificados de árvores e arbustos",
+    "bg": "Лесовъди и работници, отглеждащи трайни насаждения",
+    "mt": "Ħaddiema involuti fit-tkabbir tas-siġar u tal-arbuxelli",
+    "el": "Καλλιεργητές δένδρων και θάμνων",
+    "lt": "Vaismedžių ir vaiskrūmių augintojai",
+    "en": "Tree and shrub crop growers",
+    "lv": "Koku un krūmu audzētāji",
+    "hr": "Voćari/voćarke, vinogradari/vinogradarke i srodna zanimanja",
+    "it": "Lavoratori agricoli specializzati di coltivazioni legnose agrarie",
+    "fr": "Arboriculteurs et ouvriers qualifiés de l’arboriculture",
+    "hu": "Csemete- és cserjegondozók",
+    "es": "Agricultores y trabajadores calificados de plantaciones de árboles y arbustos",
+    "et": "Puuvilja- ja marjakasvatajad",
+    "cs": "Ovocnáři, vinaři, chmelaři a ostatní pěstitelé plodů rostoucích na stromech a keřích",
+    "sk": "Pestovatelia stromových a kríkových plodín",
+    "sl": "Drevesničarji/drevesničarke, gojitelji/gojiteljice grmičevja",
+    "pl": "Sadownicy",
+    "da": "Dyrkning af afgrøder fra træer og buske",
+    "ro": "Arboricultori și pomicultori",
+    "nl": "Fruittelers"
+  },
+  "code": "6112",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "6112"
+    },
+    {
+      "datatype": "",
+      "value": "6112"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Tree and shrub crop growers plan, organize and perform farming operations to grow and harvest trees and shrubs such as fruit and nut trees, tea and coffee bushes, grape vines, berry-bearing bushes, cocoa trees and rubber trees, and to collect sap, for sale or delivery on a regular basis to wholesale buyers, marketing organizations or at markets.\nTasks include -\n(a)  monitoring market activity and conditions, determining types and quantities of crops to be grown, and planning and coordinating production accordingly; \n(b)  preparing soil by hand or machine, and spreading fertilizers and manure;\n(c)  selecting and sowing seeds, and planting seedlings;\n(d)  maintaining crops by cultivating soil, by transplanting, pruning or thinning trees and shrubs, and by setting up and operating irrigation equipment;\n(e)  controlling weeds, pests and diseases by applying herbicides and pesticides;\n(f)  tending trees or bushes, collecting sap and harvesting crops;\n(g)  inspecting, cleaning, grading, packaging, storing and loading crops for sale or delivery to market;\n(h)  tending working animals and maintaining farm buildings, structures, equipment and water supply systems;\n(i)  storing and carrying out some processing of produce;\n(j)  promoting and marketing products, arranging the sale, purchase and transportation of produce and supplies, and maintaining and evaluating records of farm activities and transactions;\n(k)  training and supervising workers in crop production, maintenance duties, and health and safety precautions, and hiring and discharging workers and contractors.\nExamples of the occupations classified here:\n- Fruit farmer\n- Rubber farmer\n- Rubber tapper\n- Tea grower\n- Viticulturist\nSome related occupations classified elsewhere:\n- Plantation manager - 1311\n- Fruit picker - 9211\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6112&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C6112",
+      "title": "Tree and shrub crop growers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C611&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C611",
+        "title": "Market gardeners and crop growers",
+        "code": "611"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1fc60ca6-c3ea-4aeb-bf3b-350c0c5e7f93&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1fc60ca6-c3ea-4aeb-bf3b-350c0c5e7f93",
+        "title": "vineyard machinery operator"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b865693a-eb11-44cc-bf6c-38e5b4d7e169&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b865693a-eb11-44cc-bf6c-38e5b4d7e169",
+        "title": "arboriculturist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a6af318e-8a3a-4266-a1ef-cf7afe588201&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a6af318e-8a3a-4266-a1ef-cf7afe588201",
+        "title": "hop farmer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5aeaea2f-6585-4d3d-8f3e-1fdd9903aa32",
+        "title": "fruit production team leader"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c56295bb-ef33-4ccd-a929-59e3dd73f876&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c56295bb-ef33-4ccd-a929-59e3dd73f876",
+        "title": "vineyard cellar master"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8b304664-ba25-45fe-a5bf-80c727943a86&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8b304664-ba25-45fe-a5bf-80c727943a86",
+        "title": "vineyard manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

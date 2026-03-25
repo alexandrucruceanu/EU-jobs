@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1346",
+  "title": "Financial and insurance services branch managers",
+  "preferredLabel": {
+    "no": "Ledere av forsikring og finansvirksomhet",
+    "de": "Führungskräfte auf Filialebene in der Erbringung von Finanz- und Versicherungsdienstleistungen",
+    "sv": "Bank- och försäkringschefer",
+    "fi": "Rahoitus- ja vakuutuspalvelujen johtajat",
+    "pt": "Directores de sucursais de bancos, serviços financeiros e de seguros",
+    "bg": "Ръководители на клонове на финансови и застрахователни институции",
+    "mt": "Maniġers tal-fergħat ta’ servizzi finanzjarji u ta’ assigurazzjoni",
+    "el": "Διευθυντές υπηρεσιών του χρηματοοικονομικού και ασφαλιστικού κλάδου",
+    "lt": "Finansinių ir draudimo paslaugų skyrių vadovai",
+    "en": "Financial and insurance services branch managers",
+    "lv": "Vadītāji finanšu un apdrošināšanas pakalpojumu jomā",
+    "hr": "Direktori/direktorice financijskih institucija i osiguravajućih društava",
+    "it": "Dirigenti di filiale nei servizi finanziari e assicurativi",
+    "fr": "Directeurs et cadres de direction, succursales de banque, services financiers et assurances",
+    "hu": "Pénzügyi és biztosítási szolgáltatások vezetői",
+    "es": "Gerentes de sucursales de bancos, de servicios financieros y de seguros",
+    "et": "Finantsvahendus- ja kindlustusteenuseid osutavate asutuste juhid",
+    "cs": "Vedoucí a řídící pracovníci v oblasti finančních a pojišťovacích služeb",
+    "sk": "Riadiaci pracovníci (manažéri) vo finančníctve a poisťovníctve",
+    "sl": "Direktorji/direktorice finančne in zavarovalniške podružnice",
+    "pl": "Kierownicy oddziałów do spraw usług finansowych i ubezpieczeniowych",
+    "da": "Ledelse af hovedaktiviteten inden for finans- og forsikringsområdet",
+    "ro": "Conducători de unități furnizoare de servicii financiare și de asigurări",
+    "nl": "Filiaalhouders op het gebied van financiële en verzekeringsdiensten"
+  },
+  "code": "1346",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "1346"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1346"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Financial and insurance services branch managers plan, direct and coordinate the branches of institutions that provide financial and insurance services, such as banks, building societies, credit unions and insurance companies. They provide advice and assistance to clients on financial and insurance matters.\nTasks include - \n(a)  planning, directing and coordinating the activities of staff in the branch;\n(b)  establishing and maintaining relationships with individual and business customers;\n(c)  providing advice and assistance to customers on their financial and insurance needs and on matters such as changes in law that may affect customers;\n(d)  examining, evaluating and processing loan and insurance applications;\n(e)  monitoring credit extension decisions;\n(f)  conducting financial investigations;\n(g)  overseeing the flow of cash and financial instruments, and the preparation of financial and regulatory reports;\n(h)  approving or rejecting, or coordinating the approval or rejection of, lines of credit for commercial, real estate and personal loans;\n(i)  coordinating cooperation with other branches of the company;\n(j)  managing budgets, controlling expenditure and ensuring the efficient use of resources;\n(k)  overseeing the selection, training and performance of staff.\nExamples of the occupations classified here:\n-  Bank manager\n-  Building society manager\n-  Credit union manager\n-  Financial institution branch manager\n-  Insurance agency manager\nSome related occupations classified elsewhere:\n-  Finance manager - 1211\n-  Credit and loans officers - 3312\n-  Insurance agent - 3321\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1346&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1346",
+      "title": "Financial and insurance services branch managers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C134&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C134",
+        "title": "Professional services managers",
+        "code": "134"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/754ce08f-b4d9-4b9c-b9d2-06f15258a3ce&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/754ce08f-b4d9-4b9c-b9d2-06f15258a3ce",
+        "title": "bank manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/942211c1-b534-4a14-ae85-38ea44c2d14b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/942211c1-b534-4a14-ae85-38ea44c2d14b",
+        "title": "insurance claims manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d0e85fe6-78e3-4218-b21a-99b75438b775&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d0e85fe6-78e3-4218-b21a-99b75438b775",
+        "title": "brokerage firm director"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/594170bc-5663-40b0-97ef-c9f1ad51b2a0&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/594170bc-5663-40b0-97ef-c9f1ad51b2a0",
+        "title": "insurance agency manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ceda53cd-3f1f-425b-bd1b-c4fa17254680&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ceda53cd-3f1f-425b-bd1b-c4fa17254680",
+        "title": "pension scheme manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/45a28fe1-30a4-4175-af19-e451ada60858&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/45a28fe1-30a4-4175-af19-e451ada60858",
+        "title": "credit union manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

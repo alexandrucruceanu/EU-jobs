@@ -1,0 +1,94 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2424",
+  "title": "Training and staff development professionals",
+  "preferredLabel": {
+    "no": "Rådgivere innen kompetanseutvikling",
+    "de": "Fachkräfte in Personalschulung und -entwicklung",
+    "fi": "Henkilöstön kehittämisen erityisasiantuntijat ja kouluttajat",
+    "sv": "Utbildare och personalutvecklare",
+    "pt": "Especialistas em formação e desenvolvimento de recursos humanos",
+    "bg": "Специалисти по обучение и развитие на персонала",
+    "mt": "Professjonisti tal-iżvilupp tat-taħriġ u tal-persunal",
+    "el": "Επαγγελματίες σύμβουλοι επιμόρφωσης και ανάπτυξης του προσωπικού",
+    "lt": "Mokymo ir darbuotojų ugdymo specialistai",
+    "en": "Training and staff development professionals",
+    "lv": "Apmācības un personāla attīstības vecākie speciālisti",
+    "hr": "Stručnjaci/stručnjakinje za osposobljavanje i razvoj zaposlenika",
+    "it": "Specialisti della formazione e dello sviluppo delle risorse umane",
+    "fr": "Spécialistes de la formation du personnel",
+    "hu": "Továbbképzési és személyzet-fejlesztési foglalkozásúak",
+    "es": "Especialistas en formación del personal",
+    "et": "Töötajate koolitus- ja täiendõppespetsialistid",
+    "cs": "Specialisté v oblasti vzdělávání a rozvoje lidských zdrojů",
+    "sk": "Špecialisti v oblasti vzdelávania a rozvoja ľudských zdrojov",
+    "sl": "Strokovnjaki/strokovnjakinje za usposabljanje in poklicni razvoj",
+    "pl": "Specjaliści do spraw szkoleń i rozwoju kadr",
+    "da": "Arbejde med personaleudvikling og -oplæring",
+    "ro": "Specialiști în formarea și dezvoltarea personalului",
+    "nl": "Specialisten op het gebied van personeelsopleidingen"
+  },
+  "code": "2424",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2424"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2424"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Training and staff development professionals plan, develop, implement and evaluate training and development programmes to ensure management and staff acquire the skills and develop the competencies required by organizations to meet organizational objectives.\nTasks include - \n(a)  identifying training needs and requirements of individuals and organizations; \n(b)  setting human resource development objectives and evaluating learning outcomes; \n(c)  preparing and developing instructional training material and aids such as handbooks, visual aids, online tutorials, demonstration models and supporting training reference documentation;\n(d)  designing, coordinating, scheduling and conducting training and development programmes that can be delivered in the form of individual and group instruction, and facilitating workshops, meetings, demonstrations and conferences;\n(e)  liaising with external training providers to arrange delivery of specific training and development programmes; \n(f)  promoting internal and external training and development, and evaluating these promotional activities;\n(g)  monitoring and performing ongoing evaluation and assessment of internal and external training quality and effectiveness, and reviewing and modifying training objectives, methods and course deliverables;\n(h)  gathering, investigating and researching background materials to gain an understanding of various subject matters and systems.\nExamples of the occupations classified here:\n- Staff development officer\n- Training officer \n- Workforce development specialist\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2424&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2424",
+      "title": "Training and staff development professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C242&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C242",
+        "title": "Administration professionals",
+        "code": "242"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d9612966-e295-4d81-ba2b-9f36bad0b392&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d9612966-e295-4d81-ba2b-9f36bad0b392",
+        "title": "business coach"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0ba06640-e0ac-4911-9e43-289a8e41651e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0ba06640-e0ac-4911-9e43-289a8e41651e",
+        "title": "corporate trainer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a14e96a7-6c4d-4d69-8c6f-7ccadf77bac5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a14e96a7-6c4d-4d69-8c6f-7ccadf77bac5",
+        "title": "corporate training manager"
+      }
+    ]
+  },
+  "_embedded": {}
+}

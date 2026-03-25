@@ -1,0 +1,76 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C1113",
+  "title": "Traditional chiefs and heads of village",
+  "preferredLabel": {
+    "de": "Traditionelle Dorf- und Stammeshäuptlinge",
+    "fi": "Heimo- ja kyläpäälliköt",
+    "sv": "Traditionella byhövdingar",
+    "pt": "Chefes tradicionais e chefes de aldeia",
+    "bg": "Традиционни старейшини и селски водачи/управници",
+    "el": "Παραδοσιακοί αρχηγοί και αρχηγοί χωριών (πρωτογέροντες)",
+    "mt": "Kapijiet tradizzjonali u kapijiet tal-villaġġi",
+    "lt": "Seniūnai",
+    "en": "Traditional chiefs and heads of village",
+    "hr": "Plemenski i seoski poglavari/plemenske i seoske poglavarke",
+    "lv": "Vietējo pašvaldību vadītāji",
+    "it": "Capi tradizionali e capi villaggio",
+    "fr": "Chefs traditionnels et chefs de village",
+    "hu": "Tradicionális helyi vezetők",
+    "es": "Jefes de pequeñas poblaciones",
+    "et": "Aleviku- ja külavanemad",
+    "cs": "Představitelé samosprávy",
+    "sk": "Predstavitelia obcí a vyšších územných samosprávnych celkov",
+    "sl": "Predsedniki/predsednice vaške skupnosti",
+    "pl": "Tradycyjni wodzowie i sołtysi",
+    "ro": "Conducători și membri ai consiliilor locale",
+    "da": "Ledelse af stamme- og landbysamfund",
+    "nl": "Traditionele dorpshoofden"
+  },
+  "code": "1113",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "1113"
+    },
+    {
+      "datatype": "",
+      "value": "1113"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Traditional chiefs and heads of villages perform a variety of legislative, administrative and ceremonial tasks and duties, determined by ancient traditions as well as by the division of rights and responsibilities between village chiefs and the local, regional and national authorities.\nTasks include -\n(a)  allocating the use of communal land and other resources among households in the community or village;\n(b)  collecting and distributing surplus production of the community or village;\n(c)  settling disputes between members of the community or village;\n(d)  disciplining members of the community or village for violation of rules and customs;\n(e)  performing ceremonial duties in connection with births, marriages, deaths, harvests and other important occasions;\n(f)  representing the community or village on local or regional councils;\n(g)  informing the community or village about government rules and regulations.\nExamples of the occupations classified here:\n-  Village chief\n-  Village head\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C1113&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C1113",
+      "title": "Traditional chiefs and heads of village"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C111&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C111",
+        "title": "Legislators and senior officials",
+        "code": "111"
+      }
+    ]
+  },
+  "_embedded": {}
+}

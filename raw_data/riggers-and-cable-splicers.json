@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7215",
+  "title": "Riggers and cable splicers",
+  "preferredLabel": {
+    "de": "Verspannungsmonteure und Seilspleißer",
+    "no": "Riggere og spleisere",
+    "sv": "Riggare och kabelsplitsare",
+    "fi": "Kaapelin- ja köysienasentajat",
+    "pt": "Armadores e montadores de cabos",
+    "bg": "Производители и монтажници на кабели и въжета",
+    "el": "Τεχνίτες συναρμογής και μάτισης καλωδίων και συρματόσχοινων",
+    "mt": "Riggers u dawk li jwaħħlu l-kejbil",
+    "lt": "Takelažininkai, lynų montuotojai ir sujungėjai",
+    "en": "Riggers and cable splicers",
+    "hr": "Monteri/monterke čelične užadi i žica",
+    "lv": "Takelētāji",
+    "it": "Attrezzatori e montatori di cavi metallici",
+    "fr": "Gréeurs et épisseurs de câbles",
+    "hu": "Állványozók, rakományrögzítők és tartószerkezetek szerelői",
+    "es": "Aparejadores y empalmadores de cables",
+    "et": "Troppijad ja trossijätkajad",
+    "cs": "Montéři lan a zdvihacích zařízení",
+    "sk": "Montéri lán a zdvíhacích zariadení",
+    "sl": "Monterji/monterke in polagalci/polagalke kablov",
+    "pl": "Takielarze i monterzy konstrukcji linowych",
+    "ro": "Macaragii și alți lucrători la instalații de ridicat",
+    "da": "Riggerarbejde",
+    "nl": "Kraanmonteurs en kabellassers"
+  },
+  "code": "7215",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7215"
+    },
+    {
+      "datatype": "",
+      "value": "7215"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Riggers and cable splicers assemble rigging gear to move and position equipment and structural components, or install and maintain cables, ropes and wires on construction sites, buildings or other structures.\nTasks include -\n(a)  estimating the size, shape and weight of objects to be moved and deciding on the type of equipment to move them;\n(b)  installing and repairing cables, ropes, wires, pulleys and other tackle;\n(c)  joining, repairing and fitting attachments to wires, ropes and cables;\n(d)  working as member of a crew erecting and repairing derricks for drilling water, gas and oil wells;\n(e)  lifting and mounting scenery, lighting and other equipment in theatres and on film sets;\n(f)  installing and maintaining communication towers, aerial cableways, funicular railways, ski lifts and similar infrastructure.\nExamples of the occupations classified here:\n- Cable and rope splicer\n- Rigger\n- Ship rigger\n- Theatrical rigger\n- Tower rigger\n\nSome related occupations classified elsewhere:\n- Cable splicing machine operator - 8189\n- Crane, hoist and related plant operators - 8343\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7215&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7215",
+      "title": "Riggers and cable splicers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C721&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C721",
+        "title": "Sheet and structural metal workers, moulders and welders, and related workers",
+        "code": "721"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a4c5fb46-1d72-47de-b349-f579a0f1edfb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a4c5fb46-1d72-47de-b349-f579a0f1edfb",
+        "title": "rigging supervisor"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b05f53db-b6b0-49bc-aa0c-1790c8c7012b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b05f53db-b6b0-49bc-aa0c-1790c8c7012b",
+        "title": "rigger"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8c778238-98a4-4fec-a828-a4e978fb7a64&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8c778238-98a4-4fec-a828-a4e978fb7a64",
+        "title": "tent installer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6cfba9ca-f9a0-4a50-a8d3-064d88c928b1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6cfba9ca-f9a0-4a50-a8d3-064d88c928b1",
+        "title": "event scaffolder"
+      }
+    ]
+  },
+  "_embedded": {}
+}

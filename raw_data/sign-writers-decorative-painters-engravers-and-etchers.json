@@ -1,0 +1,99 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7316",
+  "title": "Sign writers, decorative painters, engravers and etchers",
+  "preferredLabel": {
+    "de": "Schildermaler, Dekormaler, Graveure und Ätzer",
+    "no": "Dekormalere mv.",
+    "fi": "Kaivertajat, etsaajat ja koristemaalarit",
+    "sv": "Skyltmålare, dekorationsmålare, gravörer och etsare",
+    "pt": "Pintores de tabuletas, pintores-decoradores, lapidadores e gravadores",
+    "bg": "Рисувачи на табели, художник-декоратори, гравьори и офортисти",
+    "mt": "Ħaddiema li jagħmlu t-tabelli, dawk li jagħmlu pittura dekorattiva, naqqaxa u inċiżuri",
+    "el": "Επιγραφοποιοί, ζωγράφοι διακοσμήσεων, και χαράκτες",
+    "lt": "Ženklų kūrėjai, piešėjai, graveriai ir ėsdintojai",
+    "en": "Sign writers, decorative painters, engravers and etchers",
+    "hr": "Izrađivači/izrađivačice tiskarskih formi i klišeja, dekorateri/dekoraterke, graveri/graverke, jetkači/jetkačice stakla, keramike i ostalih materijala",
+    "lv": "Dekoratīvie apgleznotāji, gravētāji un kodinātāji",
+    "it": "Pittori di insegne, decoratori, incisori e acquafortisti",
+    "fr": "Peintres d’enseignes, peintres-décorateurs et graveurs",
+    "hu": "Címfestők, díszítőfestők, üveg-, réz-, fametszők és -vésők",
+    "es": "Redactores de carteles, pintores decorativos y grabadores",
+    "et": "Klaasi, keraamika jms materjalide dekoratiivmaalijad, graveerijad ja -söövitajad",
+    "cs": "Malíři a rytci skla a keramiky a pracovníci v příbuzných oborech",
+    "sk": "Písmomaliari, dekoratívni maliari, rytci a leptači",
+    "sl": "Izdelovalci/izdelovalke znakov, dekoraterji/dekoraterke, graverji/graverke, jedkalci/jedkalke",
+    "pl": "Cechowacze skal i znaków na szkle oraz na wyrobach z metali, zdobnicy ceramiki i szkła, grawerzy i trawiacze",
+    "ro": "Pictori decoratori, gravori pe sticlă și ceramică",
+    "da": "Skiltemaler-, dekoratør- og gravørarbejde",
+    "nl": "Letterschilders, decoratieschilders, graveurs en etsers"
+  },
+  "code": "7316",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7316"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7316"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Signwriters, decorative painters, engravers and etchers decorate articles made of wood, metal, textiles, glass, ceramics and other materials. They plan, lay out and paint letters, figures, monograms and designs to make signs and engrave and etch ornamental and floral designs on glass and other articles.\nTasks include -\n(a)  painting decorative freehand designs on objects such as pottery, glass, cigarette cases or lampshades;\n(b)  transferring decorative or ornamental designs onto articles from paper transfers; \n(c)  integrating and developing visual elements, such as line, space, mass, colour and perspective, in order to produce desired effects such as the illustration of ideas, emotions or moods; \n(d)  laying out and painting in one or more languages letters, figures, monograms and designs to make signs;\n(e)  sketching or tracing designs or lettering onto work pieces or pattern materials to prepare patterns or stencils;\n(f)  designing patterns or lettering to paint work pieces such as signs, glassware, pottery or zinc plates;\n(g)  using software and routing equipment to produce three-dimensional carved images for application onto larger signage as well as engraved and inlaid signs;\n(h)  designing and producing normal flat cut lettering, or lettering that is shadowed with applied vinyl, or lettering that is ready cut for application; \n(i)  writing, painting or printing signs or show cards used for display or other purposes;\n(j)  cutting out letters and signs for display purposes from wallboard or cardboard, by hand or machines such as electrically powered jigsaws or bandsaws;\n(k)  examining sketches, diagrams, samples, blueprints or photographs to decide how designs are to be etched, cut or engraved onto work pieces; \n(l)  measuring and computing dimensions of lettering, designs or patterns to be engraved; \n(m)  engraving and printing patterns, ornamental designs, etchings, trademarks, figures or lettering onto flat or curved surfaces of a wide variety of metal, glass, plastic, or ceramic items;\n(n)  etching decorative designs, calibration markings and other figures on glass articles.\nExamples of the occupations classified here:\n- Decorative painter\n- Glass enameller\n- Glass engraver\n- Glass etcher\n- Signwriter\nSome related occupations classified elsewhere:\n- Building painter - 7 131\n- Manufactured articles painter - 7132\n- Vehicle painter - 7132\n- Ceramics painting machine operator - 8181\n- Glass painting machine operator - 8181\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7316&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7316",
+      "title": "Sign writers, decorative painters, engravers and etchers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C731&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C731",
+        "title": "Handicraft workers",
+        "code": "731"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/41a51397-089d-459d-9b7e-f1cdee5ad6bb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/41a51397-089d-459d-9b7e-f1cdee5ad6bb",
+        "title": "decorative painter"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/8b2d562c-8407-49cd-9843-636c352b8c82&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/8b2d562c-8407-49cd-9843-636c352b8c82",
+        "title": "metal engraver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3a55bf97-a0d2-47a0-a8b3-b248d32c7969&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3a55bf97-a0d2-47a0-a8b3-b248d32c7969",
+        "title": "glass engraver"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a1b4eb5e-45d4-441b-a7e8-795ac5cf6fbf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a1b4eb5e-45d4-441b-a7e8-795ac5cf6fbf",
+        "title": "sign maker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -2,6 +2,16 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.2.0] — 2026-03-25
+
+### Added
+- **Eurostat Earnings Data Fix** — Restored real median hourly earnings by fixing indicator codes (`MED_E_EUR`) and implementing a 2018 fallback for missing 2022 aggregate data.
+- **ISCO-08 Depth Mapping** — Implemented 1-digit major group to 2nd-digit sub-major group data distribution for earnings metrics.
+
+### Changed
+- **Project Structure Reorganization** — Cleaned up the root directory and moved files into professional subfolders: `/data`, `/scripts`, `/docs`, `/raw_data`, and `/pages`.
+- **Global Path Update** — Refactored all 14 utility scripts to support the new directory architecture.
+
 ## [2.1.0] — 2026-03-24
 
 ### Added

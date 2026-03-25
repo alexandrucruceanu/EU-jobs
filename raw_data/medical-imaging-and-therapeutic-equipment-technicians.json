@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3211",
+  "title": "Medical imaging and therapeutic equipment technicians",
+  "preferredLabel": {
+    "no": "Radiografer mv.",
+    "de": "Medizintechniker im Bereich bildgebende Verfahren und Therapiegeräte",
+    "sv": "Tekniker, bilddiagnostik och medicinteknisk utrustning",
+    "fi": "Lääketieteellisen kuvantamis- ja laitetekniikan asiantuntijat",
+    "pt": "Técnicos de equipamentos de imagiologia médica e terapêutica",
+    "bg": "Оператори на медицинска апаратура за образна диагностика и за терапия",
+    "el": "Τεχνικοί εξοπλισμού ιατρικής απεικόνισης και θεραπευτικού εξοπλισμού",
+    "mt": "Tekniċi tat-teħid tax-xbihat elettroniċi għall-użu mediku u tal-apparat terapewtiku",
+    "lt": "Medicininio vizualizavimo ir medicininės įrangos technikai",
+    "en": "Medical imaging and therapeutic equipment technicians",
+    "lv": "Attēldiagnostikas un terapijas iekārtu speciālisti",
+    "hr": "Tehničari/tehničarke medicinskih uređaja",
+    "it": "Tecnici radiologi e di apparecchiature mediche",
+    "fr": "Techniciens d’appareils électromédicaux",
+    "hu": "Orvosi képalkotó diagnosztikai és terápiás berendezések technikusai",
+    "es": "Técnicos en aparatos de diagnóstico y tratamiento médico",
+    "et": "Meditsiiniliste kuvamis- ja raviseadmete tehnikud",
+    "cs": "Technici pro obsluhu lékařských zařízení",
+    "sk": "Rádiologickí asistenti",
+    "sl": "Tehniki/tehnice za opremo za medicinsko slikanje in terapevtsko opremo",
+    "pl": "Technicy sprzętu do obrazowania medycznego i technicy sprzętu terapeutycznego",
+    "da": "Teknikerarbejde inden for brug af medicinsk røntgen- og behandlingsudstyr",
+    "ro": "Tehnicieni specialiști în echipamente medicale de imagistică și tratament",
+    "nl": "Technici voor medische apparatuur"
+  },
+  "code": "3211",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3211"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3211"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Medical imaging and therapeutic equipment technicians test and operate radiographic, ultrasound and other medical imaging equipment to produce images of body structures for the diagnosis and treatment of injury, disease and other impairments. They may administer radiation treatments to patients under the supervision of a radiologist or other health professional.\nTasks include -\n(a)  operating or overseeing operation of radiologic, ultrasound and magnetic imaging equipment to produce images of the body for diagnostic purposes;\n(b)  explaining procedures, observing and positioning patients, and using protection devices to ensure safety and comfort during examination, scan or treatment;\n(c)  positioning imaging or treatment equipment, monitoring video displays, and adjusting settings and controls according to technical specifications;\n(d)  reviewing and evaluating developed X-rays, videotape, or computer-generated information to determine if images are satisfactory for diagnostic purposes, and recording results of procedures; \n(e)  monitoring patients’ conditions and reactions, reporting abnormal signs to a medical practitioner;\n(f)  measuring and recording radiation dosage or radiopharmaceuticals received and used for patients, following prescriptions issued by a medical practitioner;\n(g)  administering, detecting and mapping radiopharmaceuticals or radiation in patients’ bodies, using radioisotope, camera or other equipment for diagnosing and treating diseases; \n(h)  recording and disposing of radioactive materials and storing radiopharmaceuticals, following radiation safety procedures.\nExamples of the occupations classified here:\n- Diagnostic medical radiographer\n- Magnetic resonance imaging technologist\n- Mammographer\n- Medical radiation therapist \n- Nuclear medicine technologist \n- Radiographer\n- Sonographer\nSome related occupations classified elsewhere:\n- Medical physicist - 2111\n- Radiologist - 2212\n- Radiation protection expert - 2263\n- Medical imaging assistant - 5329\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3211&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3211",
+      "title": "Medical imaging and therapeutic equipment technicians"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C321&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C321",
+        "title": "Medical and pharmaceutical technicians",
+        "code": "321"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/57a73b7c-cf10-4852-b067-c25833fa149e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/57a73b7c-cf10-4852-b067-c25833fa149e",
+        "title": "clinical perfusion scientist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

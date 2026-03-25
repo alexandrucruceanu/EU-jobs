@@ -1,0 +1,76 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C6320",
+  "title": "Subsistence livestock farmers",
+  "preferredLabel": {
+    "de": "Nutztierhalter für den Eigenbedarf",
+    "fi": "Kotitarvekarjankasvattajat",
+    "sv": "Djuruppfödare (självhushållning)",
+    "pt": "Criadores de animais de subsistência",
+    "bg": "Животновъди, произвеждащи за собствено потребление",
+    "mt": "Bdiewa sustanzjali li jkabbru l-annimali ħajjin",
+    "el": "Κτηνοτρόφοι, για ίδια κατανάλωση",
+    "lt": "Natūraliojo žemės ūkio gyvulių augintojai",
+    "en": "Subsistence livestock farmers",
+    "lv": "Personiskā patēriņa lopkopji",
+    "hr": "Stočari/stočarice za osobne potrebe",
+    "it": "Lavoratori dell’allevamento di sussistenza",
+    "fr": "Éleveurs de bétail, subsistance",
+    "hu": "Saját szükségletre termelő állattenyésztők",
+    "es": "Trabajadores pecuarios de subsistencia",
+    "et": "Ainult oma tarbeks loomi kasvatavad talunikud",
+    "cs": "Farmáři samozásobitelé v živočišné výrobě",
+    "sk": "Farmári samozásobovatelia v živočíšnej výrobe",
+    "sl": "Samooskrbni živinorejci/živinorejke",
+    "pl": "Rolnicy produkcji zwierzęcej pracujący na własne potrzeby",
+    "da": "Arbejde med opdræt af dyr til eget forbrug",
+    "ro": "Crescători de animale a căror producție este destinată consumului propriu",
+    "nl": "Veetelers, voor zelfvoorziening"
+  },
+  "code": "6320",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "6320"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "6320"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Subsistence livestock farmers breed, raise and tend livestock in order to provide food, shelter and, in some cases, a minimum of cash income for themselves and their households.\nTasks include -\n(a)  cultivating pastures, or managing grazing lands, and monitoring feed and water supplies needed to maintain condition of livestock;\n(b)  monitoring and examining animals to detect illness, injury or disease, and to check physical condition;\n(c)  grooming and marking animals and shearing coats to collect hair or wool;\n(d)  herding or leading livestock to pastures, grazing land and water supplies;\n(e)  raising, tending, feeding and milking animals or draining blood from them;\n(f)  breeding animals and helping with animal births; \n(g)  slaughtering and skinning animals and preparing them and their products for consumption or sale;\n(h)  carrying out some processing of animal products;\n(i)  building and maintaining houses and other shelters;\n(j)  making tools, clothes and utensils for use by the household;\n(k)  fetching water and gathering firewood;\n(l)  buying, bartering and selling animals and some products.\nExamples of the occupations classified here:\n- Subsistence cattle farmer\nSome related occupations classified elsewhere:\n- Livestock farm labourer - 9212\n- Mixed crop and livestock farm labourer - 9213\n- Water and firewood collector - 9624\nNotes\nWorkers in a subsistence setting whose main tasks are fetching water and gathering firewood are classified in Unit Group 9624: Water and Firewood Collectors. Workers in subsistence agriculture who perform a limited range of simple and routine tasks, usually under the direction of others, are classified in the relevant unit group in Sub-major Group 92: Agricultural, Forestry and Fishery Labourers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C6320&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C6320",
+      "title": "Subsistence livestock farmers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C632&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C632",
+        "title": "Subsistence livestock farmers",
+        "code": "632"
+      }
+    ]
+  },
+  "_embedded": {}
+}

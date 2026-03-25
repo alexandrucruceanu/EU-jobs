@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3135",
+  "title": "Metal production process controllers",
+  "preferredLabel": {
+    "de": "Steuerer von Verfahren in der Metallerzeugung",
+    "no": "Kontrolloperatører innen metallproduksjon",
+    "sv": "Processövervakare, metallproduktion",
+    "fi": "Metallien jalostuksen prosessinhoitajat",
+    "pt": "Técnicos de controlo de instalações de produção de metais",
+    "bg": "Оператори по контрол на процеси в металургичното производство",
+    "el": "Ελεγκτές διαδικασίας παραγωγής μετάλλων",
+    "mt": "Kontrolluri tal-proċess tal-produzzjoni tal-metall",
+    "lt": "Metalurgijos technologinių procesų valdymo įrangos operatoriai",
+    "en": "Metal production process controllers",
+    "lv": "Metāla ražošanas procesu speciālisti",
+    "hr": "Metalurški procesni tehničari/metalurške procesne tehničarke",
+    "it": "Tecnici per il controllo del processo di produzione del metallo",
+    "fr": "Contrôleurs des processus industriels, métallurgie",
+    "hu": "Fémfeldolgozási folyamatirányító rendszerek kezelői",
+    "es": "Controladores de procesos de producción de metales",
+    "et": "Metallurgiatehnik",
+    "cs": "Operátoři velínů a zařízení na zpracování kovů, kontroloři",
+    "sk": "Dispečeri v prevádzkach spracovania kovov",
+    "sl": "Kontrolorji/kontrolorke metalurških proizvodnih procesov",
+    "pl": "Kontrolerzy procesów metalurgicznych",
+    "ro": "Controlori în procesul de producție metalurgică",
+    "da": "Teknisk kontrolarbejde ved metalproduktion",
+    "nl": "Procesbeheerders metaalproductie"
+  },
+  "code": "3135",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3135"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3135"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Metal production process controllers operate and monitor multi-function process control machinery and equipment to control the processing of metal converting and refining furnaces, metal-rolling mills, metal heat-treating or metal-extrusion plant.\nTasks include -\n(a)  coordinating and monitoring the operation of a particular aspect of metal processing production through control panels, computer terminals or other control systems, usually from a central control room;\n(b)  operating multi-function central process control machinery to grind, separate, filter, melt, roast, treat, refine or otherwise process metals;\n(c)  observing computer printouts, video monitors and gauges to verify specified processing conditions and to make necessary adjustments; \n(d)  coordinating and supervising production crew such as machine and process operators, assistants and helpers;\n(e)  starting up and shutting down the production system in cases of emergency or as required by schedule;\n(f)  providing and organizing training for members of production crews;\n(g)  maintaining shift logs of production and other data and preparing production and other reports.\nExamples of the occupations classified here:\n- Blast furnace operator\n- Central control caster\n- Rolling mill control operator\nSome related occupations classified elsewhere:\n- Ladle pourer - 8121\n- Steel roller - 8121\n- Metal finishing machine operator - 8122\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3135&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3135",
+      "title": "Metal production process controllers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C313&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C313",
+        "title": "Process control technicians",
+        "code": "313"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/528e63a7-91be-4477-be2f-69ce82deb726&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/528e63a7-91be-4477-be2f-69ce82deb726",
+        "title": "metal furnace operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

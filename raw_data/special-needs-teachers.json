@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2352",
+  "title": "Special needs teachers",
+  "preferredLabel": {
+    "no": "Spesiallærere / spesialpedagoger",
+    "de": "Lehrkräfte im Bereich Sonderpädagogik",
+    "sv": "Specialpedagoger m.fl.",
+    "fi": "Erityisopettajat",
+    "pt": "Professores do ensino especial",
+    "bg": "Учители за лица със специални образователни потребности",
+    "el": "Εκπαιδευτικοί ειδικής αγωγής",
+    "mt": "Għalliema għal dawk bi bżonnijiet speċjali",
+    "lt": "Specialiųjų poreikių mokinių mokytojai",
+    "en": "Special needs teachers",
+    "lv": "Skolotāji bērniem ar īpašām vajadzībām",
+    "hr": "Stručnjaci/stručnjakinje edukacijsko-rehabilitacijskog profila",
+    "it": "Professori per l’insegnamento ad alunni con esigenze speciali",
+    "fr": "Enseignants, éducation spécialisée",
+    "hu": "Gyógypedagógusok",
+    "es": "Educadores para necesidades especiales",
+    "et": "Eripedagoogid",
+    "cs": "Učitelé a vychovatelé pro děti se speciálními vzdělávacími potřebami",
+    "sk": "Učitelia na špeciálnych školách",
+    "sl": "Učitelji/učiteljice za vzgojo in izobraževanje oseb s posebnimi potrebami",
+    "pl": "Nauczyciele pracujący z osobami o specjalnych potrzebach edukacyjnych",
+    "ro": "Instructori-formatori pentru elevi cu nevoi speciale",
+    "da": "Specialundervisning",
+    "nl": "Onderwijsgevenden speciaal onderwijs"
+  },
+  "code": "2352",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2352"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2352"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Special needs teachers teach physically or mentally handicapped children, young persons or adults, or those with learning difficulties or other special needs. They promote the social, emotional, intellectual and physical development of their students.\nTasks include -\n(a)  assessing students’ abilities and limitations with regard to intellectual, physical, social and emotional impairments, exceptional intellectual gifts, or other special situations; \n(b)  designing or modifying curricula and preparing and delivering programmes, lessons and activities adapted to students’ abilities and needs;\n(c)  giving instruction on an individual or group basis using special techniques or aids appropriate to students’ needs;\n(d)  employing special educational strategies and techniques during instruction to improve the development of sensory- and perceptual-motor skills, language, cognition and memory;\n(e)  establishing and enforcing rules for behaviour and policies and procedures to maintain order among students;\n(f)  teaching academic subjects and practical and self-help skills to students with hearing, sight and other impairments;\n(g)  stimulating and developing students’ confidence, interests, abilities, manual skills and coordination;\n(h)  conferring with other staff members to plan and schedule lessons for special needs students;\n(i)  preparing and maintaining student data and other records and submitting reports;\n(j)  administering various forms of assessment and evaluating progress of each student;\n(k)  conferring with students, parents, head teachers and other relevant professionals involved in the students’ care to develop individual educational plans designed to promote students’ development.\nExamples of the occupations classified here:\n- Learning disabilities special education teacher\n- Learning support teacher\n- Remedial teacher\n- Teacher of gifted children\n- Teacher of the hearing impaired\n- Teacher of the sight impaired\nSome related occupations classified elsewhere:\n- Vocational education teacher - 2320\n- Secondary school teacher - 2330\n- Primary school teacher - 2341\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2352&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2352",
+      "title": "Special needs teachers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C235&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C235",
+        "title": "Other teaching professionals",
+        "code": "235"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/976cbfcc-8958-4800-a435-71d15405a42a&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/976cbfcc-8958-4800-a435-71d15405a42a",
+        "title": "special educational needs teacher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/1044dedc-81d1-48b6-96b3-ced5393b2de1&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/1044dedc-81d1-48b6-96b3-ced5393b2de1",
+        "title": "teacher of talented and gifted students"
+      }
+    ]
+  },
+  "_embedded": {}
+}

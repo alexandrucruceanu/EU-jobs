@@ -1,0 +1,134 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2146",
+  "title": "Mining engineers, metallurgists and related professionals",
+  "preferredLabel": {
+    "de": "Bergbauingenieure, Metallurgen und verwandte Berufe",
+    "no": "Sivilingeniører (geofag",
+    "sv": "Civilingenjörer m.fl., gruvteknik och metallurgi",
+    "fi": "Kaivosteollisuuden, metallurgian ym. erityisasiantuntijat",
+    "pt": "Engenheiros de minas, metalúrgicos e especialistas similares",
+    "bg": "Минни инженери, инженер-металурзи и сродни на тях",
+    "el": "Μηχανικοί ορυχείων, μεταλλειολόγοι και ασκούντες συναφή επαγγέλματα",
+    "mt": "Inġiniera tal-industrija tal-minjieri, tal-metallurġija u professjonisti relatati ma’ dan",
+    "lt": "Gavybos inžinieriai, metalurgai ir susijusių profesijų specialistai",
+    "en": "Mining engineers, metallurgists and related professionals",
+    "hr": "Inženjeri/inženjerke rudarstva, metalurgije i srodni stručnjaci/stručnjakinje",
+    "lv": "Ieguves rūpniecības inženieri, metalurgi un tiem radniecīgu profesiju vecākie speciālisti",
+    "it": "Ingegneri minerari, metallurgici ed assimilati",
+    "fr": "Ingénieurs des mines, ingénieurs métallurgistes et assimilés",
+    "hu": "Bánya- és kohómérnökök és hasonló foglalkozásúak",
+    "es": "Ingenieros de minas, metalúrgicos y afines",
+    "et": "Mäeinsenerid, metallurgid jms alade tippspetsialistid",
+    "cs": "Důlní a hutní inženýři a specialisté v příbuzných oborech",
+    "sk": "Špecialisti v baníctve, metalurgii a príbuzných odboroch",
+    "sl": "Inženirji/inženirke rudarstva, metalurgije ipd.",
+    "pl": "Inżynierowie górnicy, metalurdzy i inżynierowie w dziedzinach pokrewnych",
+    "ro": "Ingineri mineri, petroliști, metalurgiști și asimilați",
+    "da": "Ingeniørarbejde inden for minedrift, metallurgi og beslægtede områder",
+    "nl": "Mijnbouwingenieurs, metallurgen e.d."
+  },
+  "code": "2146",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2146"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2146"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Mining engineers, metallurgists and related professionals conduct research on, design, develop and maintain commercial-scale methods of extracting metals from their ores, or minerals, water, oil or gas from the earth, and of developing new alloys, ceramic and other materials, or study and advise on mining or metallurgical aspects of particular materials, products or processes.\nTasks include -\n(a)  determining the location and planning the extraction of coal, metallic ores, non-metallic minerals, and building materials such as stone and gravel;\n(b)  determining the most suitable methods of efficient mining and extraction and types of machinery to be used, planning layout and directing construction of shafts and tunnels;\n(c)  determining drilling sites and devising methods of controlling the flow of water, oil or gas from wells;\n(d)  planning and directing storage, initial treatment and transportation of water, oil or gas;\n(e)  establishing safety standards and procedures and first-aid facilities, especially underground;\n(f)  conducting research, developing methods of extracting metals from their ores and advising on their application;\n(g)  investigating properties of metals and alloys, developing new alloys and advising on and supervising technical aspects of metal and alloy manufacture and processing;\n(h)  maintaining technical liaison and consultancy with other relevant specialists such as geologists and geophysicists;\n(i)  examining deposits or mines to evaluate profitability.\nExamples of the occupations classified here:\n-  Extractive metallurgist\n-  Mining engineer\n-  Petroleum and natural gas extraction engineer\nSome related occupations classified elsewhere:\n-  Geologist - 2114\n-  Geophysicist - 2114\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2146&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2146",
+      "title": "Mining engineers, metallurgists and related professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C214&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C214",
+        "title": "Engineering professionals (excluding electrotechnology)",
+        "code": "214"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/808b5940-8092-4f08-bc37-9b60ee5761d8&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/808b5940-8092-4f08-bc37-9b60ee5761d8",
+        "title": "assayer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7b99007f-c6bf-4703-85d3-f168bc6a9f28&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7b99007f-c6bf-4703-85d3-f168bc6a9f28",
+        "title": "mine planning engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d6d1af75-7811-4914-b16f-50441bcb0e74&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d6d1af75-7811-4914-b16f-50441bcb0e74",
+        "title": "mine health and safety engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/3f863faa-c045-4f05-a419-b19182aea866&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/3f863faa-c045-4f05-a419-b19182aea866",
+        "title": "drilling engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/47dd863b-b124-4bb1-bb42-a9498492a8cb&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/47dd863b-b124-4bb1-bb42-a9498492a8cb",
+        "title": "liquid fuel engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/40b77b1b-6f9c-4d25-8b08-8b3cb0aaf7e7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/40b77b1b-6f9c-4d25-8b08-8b3cb0aaf7e7",
+        "title": "explosives engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5fd69ee2-2042-4280-85e1-8f1462886987&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5fd69ee2-2042-4280-85e1-8f1462886987",
+        "title": "mine development engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7569f423-2c37-49aa-947e-41acb66ec909&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7569f423-2c37-49aa-947e-41acb66ec909",
+        "title": "petroleum engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/03b2f112-a891-461d-a8d4-effb9dcf2df6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/03b2f112-a891-461d-a8d4-effb9dcf2df6",
+        "title": "quarry engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/62d3f108-ade2-44b5-beeb-d63d0b21268f&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/62d3f108-ade2-44b5-beeb-d63d0b21268f",
+        "title": "mineral processing engineer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bcf8f332-c7e1-4a08-8651-28d668290eaf&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bcf8f332-c7e1-4a08-8651-28d668290eaf",
+        "title": "metallurgist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

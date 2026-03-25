@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5152",
+  "title": "Domestic housekeepers",
+  "preferredLabel": {
+    "de": "Hauswirtschafter in Privathaushalten",
+    "no": "Husholdere",
+    "sv": "Hushållerskor",
+    "fi": "Yksityiskotien taloudenhoitajat",
+    "pt": "Governantes e mordomos domésticos",
+    "bg": "Домашни помощници",
+    "el": "Οικονόμοι σπιτιών",
+    "mt": "Ħaddiema involuti fiż-żamma domestika tad-dar",
+    "lt": "Namų ūkio ūkvedžiai",
+    "en": "Domestic housekeepers",
+    "hr": "Domaćini/domaćice",
+    "lv": "Saimniecības vadītāji mājsaimniecībās",
+    "it": "Collaboratori domestici",
+    "fr": "Gouvernantes et intendants à domicile",
+    "hu": "Házvezetők",
+    "es": "Ecónomos y mayordomos domésticos",
+    "et": "Majapidajad",
+    "cs": "Hospodyně v domácnostech",
+    "sk": "Správcovia domácností",
+    "sl": "Gospodinjci/gospodinje v zasebnem gospodinjstvu",
+    "pl": "Pracownicy usług domowych",
+    "ro": "Administratori în gospodării individuale",
+    "da": "Husbestyrerarbejde",
+    "nl": "Huishoud(st)ers in privéhuishoudens"
+  },
+  "code": "5152",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5152"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5152"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Domestic housekeepers organize, supervise and carry out housekeeping functions in private households and small accommodation establishments with or without the support of subordinate staff.\nTasks include -\n(a)  supervising workers employed in households as domestic staff;\n(b)  purchasing or controlling the purchase of supplies;\n(c)  controlling storage and issue of supplies;\n(d)  assisting in cases of minor injury or illness by performing tasks such as taking temperature, giving medicine, putting on bandages;\n(e)  sweeping or vacuum-cleaning, washing and polishing floors, furniture and other fixtures.\n(f)  making beds, cleaning bathrooms, supplying towels, soap and related items;\n(g)  taking care of household pets and plants, receiving visitors, answering telephones, delivering messages and shopping for groceries;\n(h)  preparing and cooking meals, setting and clearing tables and serving food and beverages;\n(i)  cleaning kitchens and generally helping with kitchen work, including dishwashing.\nExamples of the occupations classified here:\n- Bed and breakfast operator\n- Domestic housekeeper\n- Butler\nSome related occupations classified elsewhere:\n- Hotel manager - 1411\n- Domestic helper - 9111\nNote\nOperators of small accommodation establishments, such as some bed and breakfast establishments and small guest houses that provide accommodation and limited meal services to clients effectively as paying guests in private households, and for whom the management and supervision of staff is not a significant component of the work, are classified in Unit Group 5152: Domestic Housekeepers.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5152&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5152",
+      "title": "Domestic housekeepers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C515&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C515",
+        "title": "Building and housekeeping supervisors",
+        "code": "515"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/6d50f735-dca9-4a02-96dc-e4310ed98ae2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/6d50f735-dca9-4a02-96dc-e4310ed98ae2",
+        "title": "domestic housekeeper"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2171a849-4065-411c-8390-835b7782ed8b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2171a849-4065-411c-8390-835b7782ed8b",
+        "title": "bed and breakfast operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

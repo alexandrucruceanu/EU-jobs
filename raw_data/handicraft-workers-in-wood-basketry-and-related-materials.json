@@ -1,0 +1,109 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7317",
+  "title": "Handicraft workers in wood, basketry and related materials",
+  "preferredLabel": {
+    "de": "Kunsthandwerkliche Berufe für Holz, Korbwaren und verwandte Materialien",
+    "no": "Kunsthåndverkere i tre mv.",
+    "sv": "Konsthantverkare i trä m.m.",
+    "fi": "Puu-, kori- yms. käsityötuotteiden tekijät",
+    "pt": "Artesãos de artigos em madeira, cestaria e materiais similares",
+    "bg": "Майстори занаятчии на изделия от дърво и сродни материали",
+    "mt": "Ħaddiema li jagħmlu l-affarijiet maħduma bl-idejn mill-injam, li jagħmlu l-qfief u materjali relatati",
+    "el": "Χειροτέχνες ξύλου, καλαθοπλεκτικής και συναφών υλικών",
+    "lt": "Amatininkai, gaminantys dirbinius iš medienos, vytelių ir panašių medžiagų",
+    "en": "Handicraft workers in wood, basketry and related materials",
+    "hr": "Izrađivači/izrađivačice tradicijskih proizvoda od drva i srodnih materijala, pletači/pletačice košara",
+    "lv": "Koka, pinumu un tiem radniecīgu materiālu mākslas priekšmetu izgatavotāji",
+    "it": "Artigiani delle lavorazioni del legno, delle ceste e dei materiali affini",
+    "fr": "Métiers de l’artisanat sur bois et sur des matériaux similaires",
+    "hu": "Famegmunkálók, kosárfonók és hasonló foglalkozásúak",
+    "es": "Artesanos en madera, cestería y materiales similares",
+    "et": "Käsitöölised, kes kasutavad puitu ning punumis- jms materjale",
+    "cs": "Řezbáři, košíkáři, kartáčníci a pracovníci v příbuzných oborech",
+    "sk": "Remeselníci spracúvajúci drevo, prútie a podobný materiál",
+    "sl": "Izdelovalci/izdelovalke predmetov domače obrti iz lesa, vrbja in podobnih materialov",
+    "pl": "Rękodzielnicy wytwarzający wyroby z drewna i pokrewnych materiałów",
+    "da": "Håndfremstilling af produkter i træ og tilsvarende materialer",
+    "ro": "Muncitori calificați în executarea de produse artizanale din lemn și alte materiale",
+    "nl": "Ambachtslieden werkend met hout, vlechtwerk e.d."
+  },
+  "code": "7317",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7317"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7317"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Handicraft workers in wood, basketry and related materials apply traditional techniques such as seasoning or impregnation to prepare wood, straw, rattan, reeds, clay, shells and other materials, and carve, mould, assemble, weave or paint and decorate various articles for personal or household use or for decorative purposes.  Basketry weavers, brush makers and related workers select and prepare materials such as bristles, nylon, fibre, bass, whisker and wire to make wicker furniture, brushes and brooms, and to weave various kinds of baskets.\nTasks include -\n(a)  preparing wood, straw, rattan, reeds, shells or similar materials;\n(b)  carving floral and artistic designs on wooden surfaces for decorative purposes;\n(c)  painting freehand decorative designs on glass and pottery or porcelain ware;\n(d)  carving, assembling, weaving, painting and decorating various articles for personal or household use such as salad bowls, serving spoons, cutting-boards, trays, vases, jugs, baskets, straw hats, straw mats and similar objects;\n(e)  carving, assembling, weaving and painting various decorative articles such as statues and other sculptures, chess pieces, jewellery and similar objects;\n(f)  making wicker furniture from peeled and softened rattan, reeds, rushes, willow branches and similar materials;\n(g)  making various kinds of baskets by interlacing osier, rattan, reeds, rushes and similar materials;\n(h)  forming bottoms of baskets by interlacing strips of rattan, wood veneer or other materials with frameworks of rods of material such as willow;\n(i)  inserting rods around bottom edges between woven sections of bottom and bending them upright to serve as framework for sides;\n(j)  selecting and preparing brush materials such as bristles, nylon, fibres and wire, and setting them in brush base;\n(k)  selecting and preparing materials such as broom corn, bass, whisker and fibre, and fastening them to broom handles.\nExamples of the occupations classified here:\n- Basket maker\n- Brush maker\n- Reed weaving handicraft worker\n- Wicker furniture maker\n- Wooden articles handicraft worker\n\nSome related occupations classified elsewhere:\n- Machine operator (wood products) - 7523\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7317&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7317",
+      "title": "Handicraft workers in wood, basketry and related materials"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C731&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C731",
+        "title": "Handicraft workers",
+        "code": "731"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9c57263e-a38f-4c45-9265-a3c3e7cc2c5c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9c57263e-a38f-4c45-9265-a3c3e7cc2c5c",
+        "title": "brush maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/949bccd9-e1d2-4c57-b787-53b451aa1354&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/949bccd9-e1d2-4c57-b787-53b451aa1354",
+        "title": "wicker furniture maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b07e291d-1ea0-44d6-861c-e2c36861f9e3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b07e291d-1ea0-44d6-861c-e2c36861f9e3",
+        "title": "basketmaker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/5e29c263-a3ca-4220-b67e-ee65205db294&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/5e29c263-a3ca-4220-b67e-ee65205db294",
+        "title": "toymaker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9efbe0de-37c0-4cc2-a1e6-a916eb4ecaa2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9efbe0de-37c0-4cc2-a1e6-a916eb4ecaa2",
+        "title": "artisan papermaker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b9d03330-c71c-4827-8797-3e96249d54db&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b9d03330-c71c-4827-8797-3e96249d54db",
+        "title": "woodcarver"
+      }
+    ]
+  },
+  "_embedded": {}
+}

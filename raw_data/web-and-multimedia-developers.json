@@ -1,0 +1,104 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2513",
+  "title": "Web and multimedia developers",
+  "preferredLabel": {
+    "de": "Web- und Multimediaentwickler",
+    "no": "Nett- og multimediautviklere",
+    "sv": "Webb- och multimedieutvecklare",
+    "fi": "Web- ja multimediakehittäjät",
+    "pt": "Programadores de sítios web e de multimédia",
+    "bg": "Разработчици на уеб съдържание и мултимедия",
+    "el": "Σχεδιαστές διαδικτύου και πολυμέσων",
+    "mt": "Żviluppaturi tal-web u multimidja",
+    "lt": "Saityno ir multimedijos kūrėjai",
+    "en": "Web and multimedia developers",
+    "lv": "Tīmekļa lapu un multimediju veidotāji",
+    "hr": "Razvojni inženjeri/razvojne inženjerke internetskih i multimedijskih aplikacija",
+    "it": "Sviluppatori Web e multimediali",
+    "fr": "Concepteurs de sites internet et de multimédia",
+    "hu": "Web- és multimédia-fejlesztők",
+    "es": "Desarrolladores web y multimedios",
+    "et": "Veebi- ja multimeediaarendajad",
+    "cs": "Vývojáři webu a multimédií",
+    "sk": "Vývojári webových aplikácií a multimediálnych aplikácií",
+    "sl": "Razvijalci/razvijalke spletnih in multimedijskih vsebin",
+    "pl": "Projektanci stron internetowych i multimediów",
+    "da": "Web- og multimedieudvikling",
+    "ro": "Proiectanți de sisteme web și multimedia",
+    "nl": "Web- en multimediaontwikkelaars"
+  },
+  "code": "2513",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2513"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2513"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Web and multimedia development professionals combine design and technical knowledge to research, analyse, evaluate, design, program and modify websites and applications that draw together text, graphics, animations, imaging, audio and video displays and other interactive media.\nTasks include -\n(a)  analysing, designing and developing Internet sites by applying a mixture of artistry and creativity with software programming and scripting languages and interfacing with operating environments;\n(b)  designing and developing digital animations, imaging, presentations, games, audio and video clips and Internet applications using multimedia software, tools and utilities, interactive graphics and programming languages;\n(c)  communicating with network specialists regarding web-related issues such as security and hosting websites, to control and enforce Internet and web server security, space allocation, user access, business continuity, website backup and disaster recovery planning; \n(d)  designing, developing and integrating computer code with other specialized inputs such as image files, audio files and scripting languages, to produce, maintain and support websites;\n(e)  assisting in analysing, specifying and developing Internet strategies, web-based methodologies and development plans.\nExamples of the occupations classified here:\n- Animation programmer\n- Computer games programmer\n- Internet developer \n- Multimedia programmer\n- Website architect\n- Website developer\nSome related occupations classified elsewhere:\n- Website designer - 2166 \n- Webmaster - 3514\n- Website administrator - 3514\n- Website technician - 3514\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2513&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2513",
+      "title": "Web and multimedia developers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C251&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C251",
+        "title": "Software and applications developers and analysts",
+        "code": "251"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/96e20037-0a25-4bf6-a25e-808d1605d890&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/96e20037-0a25-4bf6-a25e-808d1605d890",
+        "title": "user interface designer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a74f6c51-37e5-423e-aa5b-044e98663027&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a74f6c51-37e5-423e-aa5b-044e98663027",
+        "title": "web content manager"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c40a2919-48a9-40ea-b506-1f34f693496d",
+        "title": "web developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9ebaf3f0-0be0-47b7-b2b1-b3b04130fa81&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9ebaf3f0-0be0-47b7-b2b1-b3b04130fa81",
+        "title": "digital games developer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/092fdeeb-a76f-4ed2-b248-90fd6eaaffef&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/092fdeeb-a76f-4ed2-b248-90fd6eaaffef",
+        "title": "search engine optimisation expert"
+      }
+    ]
+  },
+  "_embedded": {}
+}

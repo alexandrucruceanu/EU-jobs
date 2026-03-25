@@ -1,0 +1,88 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C3314",
+  "title": "Statistical, mathematical and related associate professionals",
+  "preferredLabel": {
+    "de": "Nicht akademische statistische, mathematische und verwandte Fachkräfte",
+    "sv": "Statistikassistenter m.fl.",
+    "fi": "Tilastointi- ja matematiikka-asiantuntijat",
+    "pt": "Técnicos de nível intermédio da estatística, matemática e similares",
+    "bg": "Приложни специалисти по статистика, математика и сродни на тях",
+    "el": "Βοηθοί επαγγελματιών στατιστικής, μαθηματικών και ασκούντες συναφή επαγγέλματα",
+    "mt": "Professjonisti assoċjati tal-istatistika, matematika u ħwejjeġ oħra relatati",
+    "lt": "Statistikai, matematikai ir jaunesnieji susijusių profesijų specialistai",
+    "en": "Statistical, mathematical and related associate professionals",
+    "lv": "Statistiķi, matemātiķi un tiem radniecīgu profesiju speciālisti",
+    "hr": "Statističko-matematički stručnjaci/statističko-matematičke stručnjakinje i srodna zanimanja",
+    "it": "Tecnici statistici e matematici ed assimilati",
+    "fr": "Professions intermédiaires de la statistique, des mathématiques et assimilées",
+    "hu": "Statisztikusokat, matematikusokat és aktuáriusokat segítő foglalkozások",
+    "es": "Profesionales de nivel medio de servicios estadísticos, matemáticos y afines",
+    "et": "Statistika, matemaatika jms alade töötajad",
+    "cs": "Odborní pracovníci v oblasti statistiky, matematiky a v příbuzných oborech",
+    "sk": "Štatistici, matematici a podobní odborní pracovníci",
+    "sl": "Strokovni sodelavci/strokovne sodelavke za statistične, računovodske, zavarovalniške izračune in prikaze ipd.",
+    "pl": "Średni personel w dziedzinie statystyki, matematyki i w dziedzinach pokrewnych",
+    "da": "Arbejde med statistik og matematik",
+    "ro": "Specialiști statisticieni, matematicieni și alți specialiști auxiliari asimilați",
+    "nl": "Vakspecialisten op statistisch en wiskundig gebied e.d."
+  },
+  "code": "3314",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "3314"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "3314"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Statistical, mathematical and related associate professionals assist in planning the collection, processing and presentation of statistical, mathematical or actuarial data and in carrying out these operations, usually working under the guidance of statisticians, mathematicians and actuaries.\nTasks include -\n(a)  assisting in planning and performing statistical, mathematical, actuarial, and related calculations;\n(b)  preparing detailed estimates of quantities and costs of materials and labour required for statistical census and survey operations;\n(c)  performing technical tasks connected with establishing, maintaining and using registers and sampling frames for census and survey operations;\n(d)  performing technical tasks connected with data collection and quality control operations in censuses and surveys;\n(e)  using standard computer software packages to perform mathematical, actuarial, statistical, accounting and related calculations;\n(f)  preparing statistical, mathematical, actuarial, accounting and other results for presentation in graphical or tabular form;\n(g)  applying knowledge of statistical, mathematical, actuarial, accounting and related principles and practices in order to identify and solve problems arising in the course of their work;\n(h)  supervising the work of statistical clerks.\nExamples of the occupations classified here:\n- Actuarial assistant\n- Mathematical assistant\n- Statistical assistant\nSome related occupations classified elsewhere:\n- Actuary - 2120\n- Mathematician - 2120\n- Statistician - 2120\n- Accounting assistant - 3313\n- Statistical clerk - 4312\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C3314&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C3314",
+      "title": "Statistical, mathematical and related associate professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C331&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C331",
+        "title": "Financial and mathematical associate professionals",
+        "code": "331"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/160c1469-bbb6-48d3-b2a7-db8b30d724b5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/160c1469-bbb6-48d3-b2a7-db8b30d724b5",
+        "title": "actuarial assistant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d2e63d7e-2605-4af1-bb7d-b1ed9ad08825&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d2e63d7e-2605-4af1-bb7d-b1ed9ad08825",
+        "title": "statistical assistant"
+      }
+    ]
+  },
+  "_embedded": {}
+}

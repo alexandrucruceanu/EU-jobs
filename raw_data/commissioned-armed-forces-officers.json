@@ -1,0 +1,139 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C0110",
+  "title": "Commissioned armed forces officers",
+  "preferredLabel": {
+    "de": "Offiziere in regulären Streitkräften",
+    "no": "Offiserer fra fenrik og høyere grad",
+    "fi": "Upseerit",
+    "sv": "Officerare",
+    "pt": "Oficiais das forças armadas",
+    "bg": "Офицери във въоръжените сили",
+    "mt": "Uffiċjali kkummissjonati tal-forzi armati",
+    "el": "Αξιωματικοί των ενόπλων δυνάμεων",
+    "lt": "Ginkluotųjų pajėgų karininkai",
+    "en": "Commissioned armed forces officers",
+    "lv": "Virsnieka pakāpes armijas profesijas",
+    "hr": "Časnici/časnice",
+    "it": "Ufficiali delle forze armate",
+    "fr": "Officiers des forces armées",
+    "hu": "Fegyveres erők tisztjei",
+    "es": "Oficiales de las fuerzas armadas",
+    "et": "Kaitseväe ohvitserid",
+    "cs": "Generálové a důstojníci v ozbrojených silách",
+    "sk": "Dôstojníci ozbrojených síl",
+    "sl": "Častniki/častnice",
+    "pl": "Oficerowie",
+    "da": "Militært arbejde på officersniveau",
+    "ro": "Ofițeri de armată",
+    "nl": "Officieren"
+  },
+  "code": "0110",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "0110"
+    },
+    {
+      "datatype": "",
+      "value": "0110"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Commissioned armed forces officers provide leadership and management to organizational units in the armed forces and/or perform similar tasks to those performed in a variety of civilian occupations outside the armed forces. This group includes all members of the armed forces holding the rank of second lieutenant (or equivalent) or higher.\nExamples of the occupations classified here: \n- Admiral\n- Air commodore\n- Air marshal\n- Brigadier (army)\n- Captain (air force)\n- Captain (army)\n- Captain (navy)\n- Colonel (army)\n- Field marshal\n- Flight lieutenant (air force)\n- Flying officer (military)\n- General (army)\n- Group captain, (air force)\n- Lieutenant (army)\n- Major (army)\n- Midshipman\n- Naval officer (military) \n- Navy commander \n- Officer cadet (armed forces)\n- Second lieutenant (army)\n- Squadron leader\n- Sublieutenant (navy)\n- Wing commander\nExcluded from this group are: \n -  jobs held by persons in civilian employment of government establishments concerned with defence issues;\n -  police (other than military police);\n -  customs inspectors and members of border or other armed civilian services.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C0110&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C0110",
+      "title": "Commissioned armed forces officers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C011&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C011",
+        "title": "Commissioned armed forces officers",
+        "code": "011"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9bf4c8ea-e814-4772-ae31-0f29672dc497&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9bf4c8ea-e814-4772-ae31-0f29672dc497",
+        "title": "army captain"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bbd1fe06-1b55-4937-9317-fc162311ab38&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bbd1fe06-1b55-4937-9317-fc162311ab38",
+        "title": "brigadier"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/7696b15a-c52e-4ac5-b38d-9eeb010c5fa3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/7696b15a-c52e-4ac5-b38d-9eeb010c5fa3",
+        "title": "artillery officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e4c915ff-6c9c-4fa9-a8fb-09d0c67e30d4",
+        "title": "army major"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0b1d8dcb-d941-4d79-99bf-fc10c1806c43&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0b1d8dcb-d941-4d79-99bf-fc10c1806c43",
+        "title": "fleet commander"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e44b2459-af5e-492d-9c57-d9c2e62944e7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e44b2459-af5e-492d-9c57-d9c2e62944e7",
+        "title": "squadron leader"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/f2cc5978-e45c-4f28-b859-7f89221b0505&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/f2cc5978-e45c-4f28-b859-7f89221b0505",
+        "title": "air force officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b864c9a3-ef6e-46a0-a40c-66188f74dfa7&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b864c9a3-ef6e-46a0-a40c-66188f74dfa7",
+        "title": "colonel"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c6a26e11-bdf1-47a1-849d-fdcf819d458d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c6a26e11-bdf1-47a1-849d-fdcf819d458d",
+        "title": "armed forces officer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b223f402-0318-4e27-8691-df6e7f7295d2&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b223f402-0318-4e27-8691-df6e7f7295d2",
+        "title": "lieutenant"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c6e5e0e7-fa99-4f71-9fc1-9889d85282a5&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c6e5e0e7-fa99-4f71-9fc1-9889d85282a5",
+        "title": "army general"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/262f21a3-ae78-46f4-a5f9-5a1f502caa90&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/262f21a3-ae78-46f4-a5f9-5a1f502caa90",
+        "title": "navy officer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

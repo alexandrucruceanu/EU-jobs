@@ -1,0 +1,89 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9623",
+  "title": "Meter readers and vending-machine collectors",
+  "preferredLabel": {
+    "no": "Måleravlesere mv.",
+    "de": "Zählerableser, Automatenbefüller und -kassierer",
+    "sv": "Mätaravläsare",
+    "fi": "Mittareiden lukijat ym.",
+    "pt": "Leitores de contadores e colectores de dinheiro em máquinas de venda automática",
+    "bg": "Отчетници на измервателни уреди и събирачи на монети и жетони от автомати",
+    "mt": "Ħaddiema li jaqraw il-miter u l-kolletturi tal-magni ta’ distribuzzjoni",
+    "el": "Καταγραφείς ενδείξεων μετρητών και συλλέκτες χρημάτων από αυτόματους πωλητές",
+    "lt": "Pinigų iš automatų surinkėjai ir matavimo prietaisų rodmenų tikrintojai",
+    "en": "Meter readers and vending-machine collectors",
+    "lv": "Skaitītāju nolasītāji un pārdošanas automātu naudas savācēji",
+    "hr": "Praznitelji/prazniteljice prodajnih automata, parkirališnih satova i sl.",
+    "it": "Lettori di contatori e collettori di monete (distributori automatici)",
+    "fr": "Encaisseurs de distributeurs automatiques à prépaiement et releveurs de compteurs",
+    "hu": "Mérőóra-leolvasók és árusító automaták pénzbegyűjtői",
+    "es": "Recolectores de dinero en aparatos de venta automática y lectores de medidores",
+    "et": "Arvestikontrolörid ning müügi- ja parkimisautomaatide rahakogujad",
+    "cs": "Pracovníci provádějící odečet měřidel a výběrčí peněz z prodejních automatů",
+    "sk": "Odčítavači údajov z meracích prístrojov a vyberači predajných automatov",
+    "sl": "Odčitovalci/odčitovalke števcev in oskrbovalci/oskrbovalke prodajnih avtomatov",
+    "pl": "Odczytywacze liczników i wybieracze monet (żetonów) z automatów",
+    "da": "Måleraflæsning og tømning af salgsautomater",
+    "ro": "Cititori de contoare și încasatori",
+    "nl": "Meteropnemers en geldophalers verkoopautomaten"
+  },
+  "code": "9623",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9623"
+    },
+    {
+      "datatype": "",
+      "value": "9623"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Meter readers and vending-machine collectors stock vending machines and collect money from them or from parking meters and other coinboxes, or read electricity, gas or water meters.\nTasks include -\n(a)  filling storage areas of vending machines and collecting money from their containers;\n(b)  collecting money from parking meters and similar coinboxes;\n(c)  reading electricity, gas or water meters and recording consumption;\n(d)  keeping records of merchandise distributed and money collected;\n(e)  proceeding along established routes to take readings of meter dials;\n(f)  verifying readings in cases where consumption appears to be abnormal, and recording possible reasons for fluctuations;\n(g)  inspecting meters for unauthorized connections, defects and damage such as broken seals.\nExamples of the occupations classified here:\n- Meter reader\n- Vending-machine collector\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9623&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9623",
+      "title": "Meter readers and vending-machine collectors"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C962&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C962",
+        "title": "Other elementary workers",
+        "code": "962"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2bdf0696-776c-47e6-9259-6460af224dac&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2bdf0696-776c-47e6-9259-6460af224dac",
+        "title": "meter reader"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9ab02537-920a-4549-9711-fd999fd40c28&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9ab02537-920a-4549-9711-fd999fd40c28",
+        "title": "vending machine operator"
+      }
+    ]
+  },
+  "_embedded": {}
+}

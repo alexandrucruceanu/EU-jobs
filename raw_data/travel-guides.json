@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5113",
+  "title": "Travel guides",
+  "preferredLabel": {
+    "de": "Reiseleiter/Fremdenführer",
+    "no": "Reiseledere og guider",
+    "sv": "Guider och reseledare",
+    "fi": "Matkaoppaat",
+    "pt": "Guias-intérpretes",
+    "bg": "Екскурзоводи",
+    "mt": "Gwidi tal-ivvjaġġar",
+    "el": "Ξεναγοί",
+    "lt": "Kelionių gidai",
+    "en": "Travel guides",
+    "hr": "Vodiči/vodičice",
+    "lv": "Ceļojumu gidi",
+    "it": "Guide",
+    "fr": "Guides",
+    "hu": "Idegenvezetők",
+    "es": "Guías de turismo",
+    "et": "Giidid",
+    "cs": "Průvodci v cestovním ruchu",
+    "sk": "Turistickí sprievodcovia",
+    "sl": "Vodniki/vodnice",
+    "pl": "Przewodnicy turystyczni i piloci wycieczek",
+    "ro": "Ghizi",
+    "da": "Turist- og rejselederarbejde",
+    "nl": "Reisleiders en gidsen"
+  },
+  "code": "5113",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5113"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5113"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Travel guides accompany individuals or groups on trips, sightseeing tours and excursions and on tours of places of interest such as historical sites, industrial establishments and theme parks. They describe points of interest and provide background information on interesting features.\nTasks include -\n(a)  escorting and guiding tourists on cruises and sightseeing tours;\n(b)  escorting visitors through places of interest such as museums, exhibitions, theme parks, factories and other industrial establishments;\n(c)  describing and providing information on points of interest and exhibits and responding to questions;\n(d)  conducting educational activities for schoolchildren; \n(e)  monitoring visitors’ activities to ensure compliance with establishment or tour regulations and safety practices;\n(f)  greeting and registering visitors and tour participants, and issuing any required identification badges or safety devices;\n(g)  distributing brochures, showing audiovisual presentations, and explaining procedures and operations at tour sites;\n(h)  providing for physical safety of groups, and performing activities such as providing first aid and directing emergency evacuations;\n(i)  resolving any problems with tour itineraries, service or accommodation.\nExamples of the occupations classified here:\n- Art gallery guide\n- Tour escort\n- Tourist guide\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5113&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5113",
+      "title": "Travel guides"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C511&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C511",
+        "title": "Travel attendants, conductors and guides",
+        "code": "511"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b476f45f-2c79-44d5-a4d7-fa357aa83074&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b476f45f-2c79-44d5-a4d7-fa357aa83074",
+        "title": "guide"
+      }
+    ]
+  },
+  "_embedded": {}
+}

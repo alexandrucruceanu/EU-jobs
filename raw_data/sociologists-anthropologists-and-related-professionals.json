@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2632",
+  "title": "Sociologists, anthropologists and related professionals",
+  "preferredLabel": {
+    "no": "Rådgivere/forskere",
+    "de": "Soziologen, Anthropologen und verwandte Wissenschaftler",
+    "fi": "Yhteiskunta- ja kulttuuritutkijat",
+    "sv": "Sociologer, antropologer m.fl.",
+    "pt": "Sociólogos, antropólogos e especialistas similares",
+    "bg": "Социолози, антрополози и сродни на тях",
+    "el": "Κοινωνιολόγοι, ανθρωπολόγοι και ασκούντες συναφή επαγγέλματα",
+    "mt": "Soċjologi, antropoloġi u professjonisti relatati ma’ dan",
+    "lt": "Sociologai, antropologai ir susijusių profesijų specialistai",
+    "en": "Sociologists, anthropologists and related professionals",
+    "lv": "Sociologi, antropologi un tiem radniecīgu profesiju vecākie speciālisti",
+    "hr": "Sociolozi/sociologinje, antropolozi/antropologinje i srodni stručnjaci/srodne stručnjakinje",
+    "it": "Sociologi, antropologi ed assimilati",
+    "fr": "Sociologues, anthropologues et assimilés",
+    "hu": "Szociológusok, antropológusok, és hasonló foglalkozásúak",
+    "es": "Sociólogos, antropólogos y afines",
+    "et": "Sotsioloogid, antropoloogid jms alade spetsialistid",
+    "cs": "Sociologové, antropologové a specialisté v příbuzných oborech",
+    "sk": "Sociológovia, antropológovia a podobní špecialisti",
+    "sl": "Sociologi/sociologinje, antropologi/antropologinje ipd.",
+    "pl": "Socjolodzy, antropolodzy i specjaliści w dziedzinach pokrewnych",
+    "da": "Arbejde inden for sociologi, antropologi og beslægtede områder",
+    "ro": "Sociologi, antropologi și asimilați",
+    "nl": "Sociologen, antropologen e.d."
+  },
+  "code": "2632",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2632"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2632"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Sociologists, anthropologists and related professionals investigate and describe the structure, origin and evolution of societies and the interdependence between environmental conditions and human activities. They provide advice on the practical application of their findings in the formulation of economic and social policies.\nTasks include -\n(a)  conducting research on the origin, development, structure, social patterns, organizations and interrelationships of human society;\n(b)  tracing the origin and evolution of humanity through the study of changing characteristics and cultural and social institutions; \n(c)  tracing the development of humanity through the material remains of its past, such as dwellings, temples, tools, pottery, coins, weapons or sculpture;\n(d)  studying physical and climatic aspects of areas and regions, and correlating these findings with economic, social and cultural activities;\n(e)  developing theories, models and methods to interpret and describe social phenomena;\n(f)  evaluating the outcome of political decisions concerning social policy;\n(g)  analysing and evaluating social data;\n(h)  advising on the practical application of findings in the formulation of economic and social policies for population groups and regions, and for the development of markets;\n(i)  preparing scholarly papers and reports.\nExamples of the occupations classified here:\n- Anthropologist\n- Archaeologist\n- Criminologist\n- Ethnologist\n- Geographer\n- Sociologist\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2632&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2632",
+      "title": "Sociologists, anthropologists and related professionals"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C263&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C263",
+        "title": "Social and religious professionals",
+        "code": "263"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/9851c83c-5670-4da0-964a-1ef0e682e30b&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/9851c83c-5670-4da0-964a-1ef0e682e30b",
+        "title": "thanatology researcher"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/0611f232-b30e-46c7-9c26-2d59b1448e79&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/0611f232-b30e-46c7-9c26-2d59b1448e79",
+        "title": "criminologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/441a5b76-2f51-4704-9df7-3b8e715dd3ad&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/441a5b76-2f51-4704-9df7-3b8e715dd3ad",
+        "title": "behavioural scientist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/bac64fa2-dcd6-47bb-8e5c-04e04a86a199&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/bac64fa2-dcd6-47bb-8e5c-04e04a86a199",
+        "title": "geographer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/11df8941-508c-4103-ad40-52cdf9430a59&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/11df8941-508c-4103-ad40-52cdf9430a59",
+        "title": "sociologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/acf69cab-8629-45c8-ae10-c8fb15f474b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/acf69cab-8629-45c8-ae10-c8fb15f474b6",
+        "title": "anthropologist"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/203ea2ee-bbee-4aaf-83d7-2f2225f916e3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/203ea2ee-bbee-4aaf-83d7-2f2225f916e3",
+        "title": "archaeologist"
+      }
+    ]
+  },
+  "_embedded": {}
+}

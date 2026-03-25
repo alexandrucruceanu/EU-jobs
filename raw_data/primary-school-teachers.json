@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C2341",
+  "title": "Primary school teachers",
+  "preferredLabel": {
+    "de": "Lehrkräfte im Primarbereich",
+    "no": "Grunnskolelærere",
+    "fi": "Peruskoulun alaluokkien opettajat",
+    "sv": "Grundskollärare",
+    "pt": "Professores do ensino básico (1.o ciclo)",
+    "bg": "Учители в начални училища",
+    "mt": "Għalliema tal-iskola primarja",
+    "el": "Δάσκαλοι πρωτοβάθμιας εκπαίδευσης",
+    "lt": "Pradinio ugdymo mokytojai",
+    "en": "Primary school teachers",
+    "hr": "Učitelji/učiteljice razredne/predmetne nastave u osnovnim školama",
+    "lv": "Pamatizglītības pedagogi",
+    "it": "Professori di scuola primaria",
+    "fr": "Instituteurs, enseignement primaire",
+    "hu": "Általános iskolai tanárok",
+    "es": "Maestros de enseñanza primaria",
+    "et": "Algklasside õpetajad",
+    "cs": "Učitelé na základních školách",
+    "sk": "Učitelia na základných školách",
+    "sl": "Osnovnošolski učitelji/osnovnošolske učiteljice",
+    "pl": "Nauczyciele szkół podstawowych",
+    "ro": "Profesori în învățământul primar",
+    "da": "Undervisning på grundskoleniveau (inkl. 10. klasse)",
+    "nl": "Onderwijsgevenden in het basisonderwijs"
+  },
+  "code": "2341",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "2341"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "2341"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Primary school teachers teach a range of subjects at the primary education level.\nTasks include -\n(a)  preparing daily and longer term lesson plans in accordance with curriculum guidelines;\n(b)  instructing children individually and in groups, using various teaching methods and materials (e.g. computers, books, games), adapting to children’s varying needs;\n(c)  maintaining discipline and good working habits in the classroom;\n(d)  planning and conducting activities with the children such as sporting activities, concerts and excursions;\n(e)  assigning and grading class work and homework;\n(f)  preparing, administering and grading tests and assignments to evaluate children’s progress;\n(g)  observing and evaluating children’s performance and behaviour;\n(h)  supervising children during classes and at other times in the school day, including the playground during breaks;\n(i)  participating in staff meetings and other sessions, and conferring with other teachers concerning educational issues;\n(j)  preparing for and attending parent meetings to discuss children’s progress and problems.\nExample of the occupations classified here:\n- Primary school teacher\nSome related occupations classified elsewhere:\n- Head teacher - 1345\n- School principal - 1345\n- Schools inspector - 2351\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C2341&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C2341",
+      "title": "Primary school teachers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C234&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C234",
+        "title": "Primary school and early childhood teachers",
+        "code": "234"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/03d79393-7b30-4159-945b-01963eddd302&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/03d79393-7b30-4159-945b-01963eddd302",
+        "title": "primary school teacher"
+      }
+    ]
+  },
+  "_embedded": {}
+}

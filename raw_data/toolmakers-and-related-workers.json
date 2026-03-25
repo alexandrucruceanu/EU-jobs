@@ -1,0 +1,104 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7222",
+  "title": "Toolmakers and related workers",
+  "preferredLabel": {
+    "de": "Werkzeugmechaniker und verwandte Berufe",
+    "no": "Verktøymaker",
+    "sv": "Verktygsmakare",
+    "fi": "Työkaluntekijät ja lukkosepät",
+    "pt": "Serralheiros mecânicos e similares",
+    "bg": "Производители на инструменти и сродни на тях",
+    "el": "Κατασκευαστές εργαλείων και ασκούντες συναφή επαγγέλματα",
+    "mt": "Ħaddiema li jagħmlu l-għodda u dawk relatati ma’ dan",
+    "lt": "Įrankininkai ir susijusių profesijų darbininkai",
+    "en": "Toolmakers and related workers",
+    "hr": "Alatničari/alatničarke i srodna zanimanja",
+    "lv": "Instrumentatslēdznieki un tiem radniecīgu profesiju strādnieki",
+    "it": "Costruttori di utensili ed assimilati",
+    "fr": "Outilleurs et assimilés",
+    "hu": "Szerszámkészítők és hasonló foglalkozásúak",
+    "es": "Herramentistas y afines",
+    "et": "Tööriistavalmistajad jms alade töölised",
+    "cs": "Nástrojáři a pracovníci v příbuzných oborech",
+    "sk": "Nástrojári a podobní robotníci",
+    "sl": "Orodjarji/orodjarke ipd.",
+    "pl": "Ślusarze i pokrewni",
+    "da": "Værktøjsmagerarbejde",
+    "ro": "Lăcătuși și asimilați",
+    "nl": "Gereedschapsmakers e.d."
+  },
+  "code": "7222",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7222"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7222"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Toolmakers and related workers make and repair custom-made and specialized tools, sports guns, locks, dies, patterns, machinery components and other metal articles using hand and machine tools to work metal to fine tolerances.\nTasks include -\n(a)  reading and interpreting engineering drawings and specifications of tools, dies, prototypes or models; \n(b)  preparing templates and sketches, and determining work processes;\n(c)  visualizing and computing dimensions, sizes, shapes and tolerances of assemblies, based on specifications;\n(d)  positioning, securing and measuring metal stock or castings to lay out for machining;\n(e)  setting up, operating and maintaining conventional and computer numerically controlled machine tools to cut, turn, mill, plane, drill, bore, grind or otherwise shape work pieces to prescribed dimensions and finish;\n(f)  fitting and assembling parts to make and repair jigs, fixtures and gauges;\n(g)  repairing and modifying sports guns and other small arms;\n(h)  making, fitting, assembling, repairing and installing lock parts and locks;\n(i)  making and repairing metal patterns for preparation of foundry moulds;\n(j)  laying out lines and reference points on metal stock to guide other workers who cut, turn, mill, grind or otherwise shape metal;\n(k)  verifying dimensions, alignments and clearances of finished parts for conformity with specifications, using precision measuring instruments and testing completed items for proper operation.\nExamples of the occupations classified here:\n- Die maker\n- Gunsmith\n- Jig maker\n- Locksmith\n- Patternmaker\n- Toolmaker\nSome related occupations classified elsewhere:\n- Tool production machine operator - 7223\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7222&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7222",
+      "title": "Toolmakers and related workers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C722&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C722",
+        "title": "Blacksmiths, toolmakers and related trades workers",
+        "code": "722"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/12dc4509-7d36-46d8-aca0-c147c7ecd806&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/12dc4509-7d36-46d8-aca0-c147c7ecd806",
+        "title": "gunsmith"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2a8d6b4c-661d-4620-8f68-2c99e78f512e&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2a8d6b4c-661d-4620-8f68-2c99e78f512e",
+        "title": "casting mould maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/aaa485d0-6787-45c0-8596-b266c0b687fd&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/aaa485d0-6787-45c0-8596-b266c0b687fd",
+        "title": "locksmith"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/ecac98ea-9fc3-4475-9b23-8af94f41603d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/ecac98ea-9fc3-4475-9b23-8af94f41603d",
+        "title": "tool and die maker"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d1974e0c-8f92-473b-a32d-f0616c08b1ff&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d1974e0c-8f92-473b-a32d-f0616c08b1ff",
+        "title": "precision mechanic"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C9214",
+  "title": "Garden and horticultural labourers",
+  "preferredLabel": {
+    "no": "Hjelpearbeidere i gartneri mv.",
+    "de": "Hilfsarbeiter im Gartenbau",
+    "fi": "Avustavat puutarhatyöntekijät",
+    "sv": "Medhjälpare, trädgårdsodling",
+    "pt": "Trabalhadores não qualificados de jardinagem e horticultura",
+    "bg": "Работници в градинарството",
+    "mt": "Ħaddiema li jaħdmu fil-ġonna u fl-ortikultura",
+    "el": "Ανειδίκευτοι εργάτες ανθοκομίας και φυτοκομίας",
+    "lt": "Nekvalifikuoti sodininkystės, daržininkystės ir vaisininkystės ūkių darbininkai",
+    "en": "Garden and horticultural labourers",
+    "hr": "Radnici/radnice za jednostavne vrtlarske i hortikulturne radove",
+    "lv": "Dārza un dārza kultūru strādnieki",
+    "it": "Operai adetti ai giardini e alle coltivazioni ortive",
+    "fr": "Manœuvres, cultures maraîchères et horticulture",
+    "hu": "Képesítést nem igénylő kertészeti foglalkozásúak",
+    "es": "Peones de jardinería y horticultura",
+    "et": "Aiatöölised",
+    "cs": "Pomocní pracovníci v zahradnictví",
+    "sk": "Pomocní pracovníci v sadovníctve a záhradníctve",
+    "sl": "Delavci/delavke za preprosta vrtnarska in hortikulturna dela",
+    "pl": "Pomocniczy robotnicy w ogrodnictwie i sadownictwie",
+    "ro": "Muncitori în grădinărit și horticultură",
+    "da": "Manuelt arbejde inden for havebrug og væksthusgartneri",
+    "nl": "Ongeschoolde arbeiders in de tuinbouw"
+  },
+  "code": "9214",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "9214"
+    },
+    {
+      "datatype": "",
+      "value": "9214"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Garden and horticultural labourers perform simple and routine tasks in operations to cultivate and maintain trees, shrubs, flowers and other plants in parks and private gardens, to produce saplings, bulbs and seeds, or to grow vegetables and flowers by intensive cultivation techniques.\nTasks include -\n(a)  loading, unloading and moving supplies, produce and equipment;\n(b)  preparing garden sites and plots using hand tools and simple machines;\n(c)  assisting with planting and transplanting flowers, shrubs, trees and lawns;\n(d)  maintaining gardens by watering, weeding and mowing lawns;\n(e)  cleaning gardens and removing rubbish;\n(f)  assisting with propagating, planting and potting seeds, bulbs and cuttings;\n(g)  tending plants by hand watering and weeding;\n(h)  harvesting and packaging plants for sale and transport;\n(i)   performing minor repairs on fixtures, buildings, equipment and fences.\nExamples of the occupations classified here:\n- Garden labourer\n- Horticultural labourer\n- Lawn mower\n- Nursery labourer\nSome related occupations classified elsewhere:\n- Horticulturist - 6113\n- Landscape gardener - 6113\n- Market gardener - 6113\n- Crop farm labourer - 9211\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C9214&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C9214",
+      "title": "Garden and horticultural labourers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C921&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C921",
+        "title": "Agricultural, forestry and fishery labourers",
+        "code": "921"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/a10eb17a-3c78-4f7a-a1da-8f31146339d3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/a10eb17a-3c78-4f7a-a1da-8f31146339d3",
+        "title": "garden labourer"
+      }
+    ]
+  },
+  "_embedded": {}
+}

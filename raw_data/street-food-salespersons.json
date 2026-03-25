@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C5212",
+  "title": "Street food salespersons",
+  "preferredLabel": {
+    "no": "Gateselgere",
+    "de": "Straßenverkäufer von Lebensmitteln",
+    "sv": "Matförsäljare på gator, torg m.m.",
+    "fi": "Katumyyjät (elintarvikkeet)",
+    "pt": "Vendedores ambulantes de produtos comestíveis",
+    "bg": "Амбулантни търговци на храни",
+    "mt": "Ħaddiema li jbiegħu l-ikel fit-toroq",
+    "el": "Πλανόδιοι πωλητές τροφίμων",
+    "lt": "Gatvės maisto prekeiviai",
+    "en": "Street food salespersons",
+    "hr": "Ulični prodavači/ulične prodavačice hrane",
+    "lv": "Ielu pārtikas tirgotāji",
+    "it": "Venditori ambulanti di generi alimentari",
+    "fr": "Vendeurs ambulants de comestibles",
+    "hu": "Utcai élelmiszerárusok",
+    "es": "Vendedores ambulantes de productos comestibles",
+    "et": "Tänaval toidu müüjad",
+    "cs": "Pouliční prodavači rychlého občerstvení",
+    "sk": "Pouliční predavači jedla",
+    "sl": "Poulični prodajalci/poulične prodajalke hrane",
+    "pl": "Uliczni sprzedawcy żywności",
+    "ro": "Vânzători stradali de produse alimentare",
+    "da": "Gadesalg af fødevarer",
+    "nl": "Straathandelaars met voedsel"
+  },
+  "code": "5212",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "5212"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "5212"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Street food salespersons prepare and sell, or sell previously prepared hot or cold foods and beverages ready for immediate consumption in streets and public places such as stations, cinemas or theatres.\nTasks include -\n(a)  obtaining permission or a licence, where required, to sell food and drinks on the street or in a public place;\n(b)  obtaining food and drinks for sale;\n(c)  preparing, either beforehand or on the spot, food and drinks for sale;\n(d)  loading and unloading, pushing, pedalling or carrying handcarts, trucks, trays or baskets to bring food and drinks to the desired place in the street, or to public places such as stations or cinemas;\n(e)  displaying and selling food and drinks and accepting payment.\nExamples of the occupations classified here:\n- Hawker (food)\n- Street food vendor\nSome related occupations classified elsewhere:\n - Cook - 5120\n - Food service counter attendant - 5246\n - Fast food preparer - 9411\n - Street vendor (excluding food) - 9520\nNotes\nVendors from street and market stalls of fresh food products not intended for immediate consumption (such as fruit, vegetables, meat and dairy products) are classified in Unit Group 5211: Stall and Market Salespersons.  Vendors from street and market stalls of a variety of prepared meals and food items for immediate consumption are classified in Unit Group 5246: Food Service Counter Attendants.  Vendors in streets and public places of food and beverages for immediate consumption from pushcarts, trucks, trays or baskets are classified in Unit Group 5212: Street Food Salespersons.  Vendors in streets and public places of non-food items (or of pre-packaged non-perishable food items such as confectionery) from pushcarts, trucks, trays or baskets are classified in Unit Group 9520: Street Vendors (excluding Food).  Workers who prepare simple food items for immediate consumption, such as hamburger cooks, but have limited direct contact with clients, are classified in Unit Group 9411: Fast Food Preparers.\nIf adapting these categories to national circumstances please note that the aim of separately identifying vendors of food items for immediate consumption is to ensure that jobs that require skills in service, basic preparation and hygienic handling of food are identified.   Food service counter attendants generally serve a wider range of more elaborate products and meals than street food salespersons and do not generally transport food using, or sell food from, equipment such as handcarts, bicycles or baskets.\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C5212&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C5212",
+      "title": "Street food salespersons"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C521&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C521",
+        "title": "Street and market salespersons",
+        "code": "521"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/e982a28b-9de2-460c-b85d-0f65ea0aa3ca&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/e982a28b-9de2-460c-b85d-0f65ea0aa3ca",
+        "title": "street food vendor"
+      }
+    ]
+  },
+  "_embedded": {}
+}

@@ -1,0 +1,84 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7413",
+  "title": "Electrical line installers and repairers",
+  "preferredLabel": {
+    "no": "Energimontører",
+    "de": "Elektroleitungsinstallateure und Wartungspersonal",
+    "fi": "Linja-asentajat ja -korjaajat",
+    "sv": "Distributionselektriker",
+    "pt": "Instaladores e reparadores de linhas eléctricas",
+    "bg": "Работници по инсталиране и ремонт на електропроводни линии",
+    "el": "Εγκαταστάτες και επισκευαστές ηλεκτρικών γραμμών",
+    "mt": "Ħaddiema li jinstallaw u dawk li jsewwu l-linja elettrika",
+    "lt": "Elektros linijų įrengėjai ir taisytojai",
+    "en": "Electrical line installers and repairers",
+    "lv": "Elektrolīniju mehāniķi un labotāji",
+    "hr": "Monteri/monterke električnih vodova",
+    "it": "Installatori e riparatori di linee elettriche",
+    "fr": "Monteurs et réparateurs de lignes électriques",
+    "hu": "Elektromosvezeték-szerelők és -javítók",
+    "es": "Instaladores y reparadores de líneas eléctricas",
+    "et": "Elektriliinide paigaldajad ja hooldajad",
+    "cs": "Montéři a opraváři elektrických vedení",
+    "sk": "Montéri a opravári elektrických vedení",
+    "sl": "Monterji/monterke, popravljavci/popravljavke električnega omrežja",
+    "pl": "Monterzy linii elektrycznych",
+    "ro": "Montatori de linii electrice",
+    "da": "Installation og reparation af elektrisk ledningsføring inden for forsyningsvirksomhed",
+    "nl": "Installateurs en reparateurs van elektriciteitsleidingen"
+  },
+  "code": "7413",
+  "codes": [
+    {
+      "datatype": "",
+      "value": "7413"
+    },
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7413"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Electrical line installers and repairers install, repair and join electrical transmission and supply cables and related equipment.\nTasks include -\n(a)  installing and repairing overhead and underground electrical power and electrical traction lines;\n(b)  making joints in overhead and underground cables;\n(c)  adhering to safety practices and procedures, such as checking equipment regularly and erecting barriers around work areas;\n(d)  opening switches or attaching grounding devices to remove electrical hazards from disturbed or fallen lines or to facilitate repairs;\n(e)  climbing poles or using truck-mounted buckets to access equipment;\n(f)  identifying defective sectionalizing devices, circuit breakers, fuses, voltage regulators, transformers, switches, relays or wiring, using wiring diagrams and electrical-testing instruments.\nExamples of the occupations classified here:\n- Electric cable jointer\n- Electric power line worker\nSome related occupations classified elsewhere:\n- Data and telecommunications cabler - 7422\n- Telecommunications line worker - 7422\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7413&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7413",
+      "title": "Electrical line installers and repairers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C741&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C741",
+        "title": "Electrical equipment installers and repairers",
+        "code": "741"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c89afd9a-7dad-4bae-9315-5fcadd9ad8b6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c89afd9a-7dad-4bae-9315-5fcadd9ad8b6",
+        "title": "electricity distribution worker"
+      }
+    ]
+  },
+  "_embedded": {}
+}

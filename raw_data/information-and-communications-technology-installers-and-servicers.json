@@ -1,0 +1,114 @@
+{
+  "className": "Concept",
+  "classId": "http://www.w3.org/2004/02/skos/core#Concept",
+  "uri": "http://data.europa.eu/esco/isco/C7422",
+  "title": "Information and communications technology installers and servicers",
+  "preferredLabel": {
+    "no": "Tele- og IKT-installatører",
+    "de": "Installateure und Servicetechniker im Bereich Informations- und Kommunikationstechnik",
+    "sv": "Kommunikationselektriker",
+    "fi": "Tieto- ja viestintäteknologian asentajat ja korjaajat",
+    "pt": "Instaladores e reparadores de tecnologias da informação e comunicação",
+    "bg": "Работници по инсталиране, ремонт и поддръжка на информационни и комуникационни съоръжения",
+    "el": "Εγκαταστάτες και συντηρητές τεχνολογικού εξοπλισμού πληροφόρησης και επικοινωνίας",
+    "mt": "Dawk li jinstallaw u dawk li jagħtu servizz fit-teknoloġija tal-informazzjoni u tal-komunikazzjoni",
+    "lt": "Informacinių technologijų ir ryšių sistemų įrengėjai ir taisytojai",
+    "en": "Information and communications technology installers and servicers",
+    "hr": "Monteri/monterke, serviseri/serviserke informacijsko-komunikacijskih uređaja",
+    "lv": "Informācijas un komunikāciju tehnoloģiju uzstādītāji un apkalpotāji",
+    "it": "Installatori e manutentori di attrezzature delle tecnologie dell’informazione e della comunicazione",
+    "fr": "Monteurs et réparateurs, technologies de l’information et des communications",
+    "hu": "Információs és kommunikációs technológiai berendezések szerelői",
+    "es": "Instaladores y reparadores en tecnología de la información y las comunicaciones",
+    "et": "Info- ja kommunikatsiooniseadmete paigaldajad ja hooldajad",
+    "cs": "Mechanici a opraváři informačních a komunikačních technologií",
+    "sk": "Montéri a opravári zariadení informačných a komunikačných technológií",
+    "sl": "Monterji/monterke, serviserji/serviserke naprav s področja informacijske in komunikacijske tehnologije",
+    "pl": "Monterzy i serwisanci instalacji i urządzeń teleinformatycznych",
+    "ro": "Muncitori în tehnologia informației și comunicațiilor",
+    "da": "Installation og service inden for informations- og kommunikationsteknologi",
+    "nl": "Installateurs en onderhoudsmonteurs op het gebied van de informatie- en communicatietechnologie"
+  },
+  "code": "7422",
+  "codes": [
+    {
+      "datatype": "http://data.europa.eu/esco/Notation/ISCO08",
+      "value": "7422"
+    },
+    {
+      "datatype": "",
+      "value": "7422"
+    }
+  ],
+  "description": {
+    "en": {
+      "literal": "Information and communications technology (ICT) installers and servicers install, repair and maintain telecommunications equipment, data transmission equipment, cables, antennae and conduits, and repair, fit and maintain computers.\nTasks include -\n(a)  maintaining, troubleshooting, testing and repairing computers, data transmission equipment and computer peripherals;\n(b)  fitting and adjusting computer hardware;\n(c)  installing, maintaining, repairing and diagnosing malfunctions of microwave, telemetry, multiplexing, satellite and other radio and electromagnetic wave communications systems;\n(d)  providing technical advice and information, and monitoring the performance of complex telecommunications networks and equipment;\n(e)  installing and repairing cabling for computer, radio, telephone and television transmission;\n(f)  joining telecommunications and data cables, and sealing sheathes;\n(g)  installing, maintaining and repairing antennae used in communications.\nExamples of the occupations classified here:\n- Communications technology servicer\n- Computer equipment fitter\n- Computer hardware installer\n- Data and telecommunications cabler\n- Telecommunications equipment repairer\n- Telecommunications line worker\n- Telephone installer\nSome related occupations classified elsewhere:\n- Engineering technician (telecommunications) - 3522\n",
+      "mimetype": "plain/text"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C7422&language=en",
+      "uri": "http://data.europa.eu/esco/isco/C7422",
+      "title": "Information and communications technology installers and servicers"
+    },
+    "isInScheme": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/occupations&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "title": "ESCO Occupations"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/taxonomy?uri=http://data.europa.eu/esco/concept-scheme/isco&language=en",
+        "uri": "http://data.europa.eu/esco/concept-scheme/isco",
+        "title": "ISCO 2008"
+      }
+    ],
+    "broaderConcept": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/concept?uri=http://data.europa.eu/esco/isco/C742&language=en",
+        "uri": "http://data.europa.eu/esco/isco/C742",
+        "title": "Electronics and telecommunications installers and repairers",
+        "code": "742"
+      }
+    ],
+    "narrowerOccupation": [
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/056bef79-c125-47ab-b6b9-8eed05c9458c&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/056bef79-c125-47ab-b6b9-8eed05c9458c",
+        "title": "telecommunications technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/35efc04c-429a-407e-a00a-f07fd03c2743&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/35efc04c-429a-407e-a00a-f07fd03c2743",
+        "title": "radio technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b7aa4b4e-dbb6-4f58-b36c-35b9a7267972&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b7aa4b4e-dbb6-4f58-b36c-35b9a7267972",
+        "title": "computer hardware repair technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/c0c1364d-f784-4e76-8d3f-1e998dc6545d&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/c0c1364d-f784-4e76-8d3f-1e998dc6545d",
+        "title": "security alarm technician"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/2ef000b1-8058-4e5a-9646-c5d4e7dbfdae&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/2ef000b1-8058-4e5a-9646-c5d4e7dbfdae",
+        "title": "communication infrastructure maintainer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/d07e6a57-a339-4cfd-bf22-a951713148a3&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/d07e6a57-a339-4cfd-bf22-a951713148a3",
+        "title": "telecommunications equipment maintainer"
+      },
+      {
+        "href": "https://ec.europa.eu/esco/api/resource/occupation?uri=http://data.europa.eu/esco/occupation/b37d15b3-402e-4792-8292-f18c0de7aca6&language=en",
+        "uri": "http://data.europa.eu/esco/occupation/b37d15b3-402e-4792-8292-f18c0de7aca6",
+        "title": "mobile devices technician"
+      }
+    ]
+  },
+  "_embedded": {}
+}
