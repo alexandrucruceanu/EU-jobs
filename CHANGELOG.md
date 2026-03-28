@@ -2,6 +2,16 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.4.0] — 2026-03-28
+
+### Added
+- **Premium Branding Refinement** — Updated the app icon (`logo-eu-jobs.png`) to reduce background space for a cleaner, edge-to-edge look.
+- **Interactive Header Logo** — Integrated the refined premium logo across all views as a clickable link to the homepage, including a 1.05x scale hover effect.
+- **Full SEO Optimization** — Implemented `sitemap.xml` for efficient indexing and `manifest.json` for PWA support (installable on mobile).
+- **Structured Data Integration** — Added JSON-LD (Schema.org) metadata to `index.html` and `map.html` to improve rich results in search engines.
+- **Canonical URL Enforcement** — Consistently applied canonical links to prevent duplicate content indexing.
+
+
 ## [2.3.0] — 2026-03-28
 
 ### Added

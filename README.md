@@ -24,6 +24,8 @@ An interactive treemap exploring **436 ISCO-08 occupations** across the **27 EU 
 | **Country-specific pay** | Wage levels scaled per country using Eurostat indices |
 | **Responsive Layout** | Vertical category stacking on mobile devices |
 | **Real-time search** | Filter by job title or 4-digit ISCO code |
+| **SEO & PWA Support** | `sitemap.xml`, `manifest.json`, and Schema.org JSON-LD |
+
 
 ## Screenshots
 
@@ -87,7 +89,10 @@ python -m http.server 8000 --directory site
 | `site/index.html` | Interactive treemap visualization |
 | `site/map.html` | Interactive choropleth map view |
 | `site/i18n/*.json` | 24 language dictionaries |
+| `site/sitemap.xml` | Search engine indexing guide |
+| `site/manifest.json` | PWA manifest for mobile/desktop app support |
 | `prompt.md` | Full dataset summary for LLM analysis |
+
 
 ## Deployment
 

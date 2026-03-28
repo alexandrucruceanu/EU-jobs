@@ -1,0 +1,21 @@
+{
+  "name": "European Job Market Visualizer",
+  "short_name": "EU-jobs",
+  "description": "Interactive visualizer for the European job market and AI exposure.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

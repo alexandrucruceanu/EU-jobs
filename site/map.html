@@ -5,6 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>EU Job Market Map</title>
 <meta name="description" content="Interactive choropleth map of EU job market data across 27 member states.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="canonical" href="https://alexandrucruceanu.github.io/EU-jobs/map.html">
+<link rel="manifest" href="manifest.json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "European Job Market Visualizer - Map View",
+  "description": "Interactive choropleth map of EU job market data across 27 member states.",
+  "url": "https://alexandrucruceanu.github.io/EU-jobs/map.html",
+  "applicationCategory": "DataVisualization",
+  "operatingSystem": "Any",
+  "author": {
+    "@type": "Person",
+    "name": "Alexandru Cruceanu"
+  }
+}
+</script>
+
+
 <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -46,7 +66,22 @@ body {
   gap: 14px;
   flex-wrap: wrap;
 }
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+.logo-link:hover {
+  transform: scale(1.05);
+}
+.logo-img {
+  height: 48px;
+  width: auto;
+  border-radius: 8px;
+}
 .intro h1 a {
+
   font-size: 13px;
   font-weight: 400;
   color: var(--fg2);
@@ -365,9 +400,13 @@ body {
   <div class="intro">
     <div class="header-top">
       <h1>
+        <a href="index.html" class="logo-link">
+          <img src="logo.png" alt="EU-jobs Logo" class="logo-img">
+        </a>
         <span data-i18n="title">European Job Market Visualizer</span>
         <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">github.com/alexandrucruceanu/EU-jobs</a>
       </h1>
+
       <div style="display:flex; align-items:center; gap:16px;">
         <a href="index.html" style="padding:4px 12px; border-radius:8px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2); text-decoration:none; white-space:nowrap;" title="Treemap View">▤ Treemap</a>
         <a href="https://buymeacoffee.com/alexander_th" target="_blank" class="bmc-link">

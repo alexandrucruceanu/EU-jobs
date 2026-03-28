@@ -45,4 +45,7 @@
 | Markdown | `prompt.md`, `pages/*.md`, `docs/*.md` |
 | HTML | `site/index.html`, `site/map.html` |
 | JS | `site/shared.js` (Cookie consent, Localized quotes) |
+| XML | `site/sitemap.xml` (Search indexing) |
+| JSON | `site/manifest.json` (PWA support) |
 | TXT | `site/robots.txt` (SEO) |
+

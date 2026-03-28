@@ -11,6 +11,26 @@
 <meta property="og:image" content="https://alexandrucruceanu.github.io/EU-jobs/screenshot.png">
 <meta property="og:url" content="https://alexandrucruceanu.github.io/EU-jobs/">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="canonical" href="https://alexandrucruceanu.github.io/EU-jobs/">
+<link rel="manifest" href="manifest.json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "European Job Market Visualizer",
+  "description": "Interactive treemap exploring 436 ISCO-08 occupations across the EU, with AI exposure scoring and Eurostat data.",
+  "url": "https://alexandrucruceanu.github.io/EU-jobs/",
+  "applicationCategory": "DataVisualization",
+  "operatingSystem": "Any",
+  "author": {
+    "@type": "Person",
+    "name": "Alexandru Cruceanu"
+  }
+}
+</script>
+
+
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-91Q0QPVNGQ"></script>
@@ -63,7 +83,22 @@ body {
   gap: 14px;
   flex-wrap: wrap;
 }
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+.logo-link:hover {
+  transform: scale(1.05);
+}
+.logo-img {
+  height: 48px;
+  width: auto;
+  border-radius: 8px;
+}
 .intro h1 a {
+
   font-size: 13px;
   font-weight: 400;
   color: var(--fg2);
@@ -322,9 +357,13 @@ canvas#canvas {
   <div class="intro">
     <div class="header-top">
       <h1>
+        <a href="index.html" class="logo-link">
+          <img src="logo.png" alt="EU-jobs Logo" class="logo-img">
+        </a>
         <span data-i18n="title">European Job Market Visualizer</span>
         <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">github.com/alexandrucruceanu/EU-jobs</a>
       </h1>
+
       <div style="display:flex; align-items:center; gap:16px;">
         <a href="map.html" style="padding:4px 12px; border-radius:8px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2); text-decoration:none; white-space:nowrap;" title="Map View">🗺 Map</a>
         <a href="https://buymeacoffee.com/alexander_th" target="_blank" class="bmc-link">
