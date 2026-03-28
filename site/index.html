@@ -74,10 +74,10 @@ body {
   display: inline-flex; 
   align-items: center; 
   margin-left: auto; 
-  transition: transform 0.2s; 
+  transition: transform 0.15s ease; 
 }
 .bmc-link:hover { transform: scale(1.05); }
-.bmc-link img { height: 32px !important; width: 116px !important; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.bmc-link img { height: 32px !important; width: 116px !important; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 
 .intro p {
   font-size: 15px;
@@ -108,13 +108,13 @@ body {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.1);
   padding: 16px 24px;
-  border-radius: 12px;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 10000;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-  transition: opacity 0.4s, transform 0.4s;
+  transition: opacity 0.15s ease, transform 0.15s ease;
 }
 #cookie-banner.hidden {
   opacity: 0;
@@ -138,10 +138,10 @@ body {
   color: var(--bg);
   border: none;
   padding: 8px 20px;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.15s ease;
 }
 .cookie-content button:hover {
   transform: scale(1.05);
@@ -172,7 +172,7 @@ body {
   margin-top: 8px;
   background: rgba(0,0,0,0.3);
   border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 12px 16px;
   font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
   font-size: 11px;
@@ -250,11 +250,11 @@ body {
   font-size: 12px;
   font-weight: 500;
   border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 4px;
+  border-radius: 8px;
   background: transparent;
   color: var(--fg2);
   cursor: pointer;
-  transition: all 0.15s;
+  transition: all 0.15s ease;
 }
 .color-toggle button.active {
   background: rgba(255,255,255,0.08);
@@ -290,7 +290,7 @@ canvas#canvas {
   line-height: 1.5;
   max-width: 340px;
   opacity: 0;
-  transition: opacity 0.12s;
+  transition: opacity 0.15s ease;
   z-index: 20;
   box-shadow: 0 8px 32px rgba(0,0,0,0.6);
 }
@@ -306,7 +306,7 @@ canvas#canvas {
 .search-container input {
   width: 100%; padding: 6px 12px 6px 32px; font-size: 13px;
   background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 20px; color: var(--fg); outline: none; transition: all 0.2s;
+  border-radius: 8px; color: var(--fg); outline: none; transition: all 0.15s ease;
 }
 .search-container input:focus { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.3); box-shadow: 0 0 0 2px rgba(255,255,255,0.05); }
 .search-container .search-icon {
@@ -326,11 +326,11 @@ canvas#canvas {
         <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">github.com/alexandrucruceanu/EU-jobs</a>
       </h1>
       <div style="display:flex; align-items:center; gap:16px;">
-        <a href="map.html" style="padding:4px 12px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2); text-decoration:none; white-space:nowrap;" title="Map View">🗺 Map</a>
+        <a href="map.html" style="padding:4px 12px; border-radius:8px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2); text-decoration:none; white-space:nowrap;" title="Map View">🗺 Map</a>
         <a href="https://buymeacoffee.com/alexander_th" target="_blank" class="bmc-link">
           <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
         </a>
-        <select id="languageSelect" style="padding:4px 8px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
+        <select id="languageSelect" style="padding:4px 8px; border-radius:8px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
           <option value="en">English (EN)</option>
           <option value="bg">Bulgarian (BG)</option>
           <option value="cs">Czech (CS)</option>
@@ -356,7 +356,7 @@ canvas#canvas {
           <option value="sl">Slovenian (SL)</option>
           <option value="sv">Swedish (SV)</option>
         </select>
-        <select id="regionSelect" style="padding:4px 8px; border-radius:4px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
+        <select id="regionSelect" style="padding:4px 8px; border-radius:8px; font-size:12px; background:var(--bg2); color:var(--fg); border: 1px solid rgba(255,255,255,0.2);">
           <option value="eu" data-i18n="region_eu">European Union (EU)</option>
           <option value="at" data-i18n="region_at">Austria (AT)</option>
           <option value="be" data-i18n="region_be">Belgium (BE)</option>

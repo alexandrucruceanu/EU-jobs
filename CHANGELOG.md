@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.3.0] — 2026-03-28
+
+### Added
+- **Uncodixfy UI Alignment** — Updated structural components (buttons, dropdowns, cookie banners) to a strict 8px border-radius standard for a premium aesthetic.
+- **Snappy Transitions** — Altered all dynamic animation logic across the platform from standard timings to snappy 150ms ease transitions.
+- **Portfolio Meta-Data** — Created `portfolio-meta.json` with multi-lingual project descriptions and Tech Stack definitions.
+- **Visual Artifacts** — Produced a tailored logo (`logo-eu-jobs.png`) and optimized interactive UI mockup (`preview-eu-jobs.png`), correctly referenced in `README.md`.
+
 ## [2.2.0] — 2026-03-25
 
 ### Added

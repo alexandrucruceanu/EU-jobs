@@ -1,0 +1,13 @@
+{
+  "elevator_pitch": {
+    "en": "An interactive, multilingual data visualization tool exploring the impact of AI across 436 European job roles using real Eurostat data and Gemini 3.1 inference.",
+    "es": "Una herramienta de visualización de datos interactiva y multilingüe que explora el impacto de la IA en 436 empleos europeos utilizando datos reales de Eurostat y la inferencia de Gemini 3.1.",
+    "ro": "Un instrument interactiv și multilingv de vizualizare a datelor care explorează impactul IA asupra a 436 de roluri profesionale europene utilizând date reale Eurostat și inferență Gemini 3.1."
+  },
+  "tech_stack": [
+    "Python",
+    "Google Gemini",
+    "Eurostat API",
+    "D3.js/Traditional JS"
+  ]
+}

@@ -76,6 +76,12 @@
 - Unified header/footer styling across all views
 - Added `robots.txt` for SEO
 
+### Phase 15: Uncodixfy Portfolio Alignment ✅
+- Adjusted CSS border-radii across map and treemap views to strict 8px
+- Updated all UI transitions to a snappy 150ms ease
+- Created `portfolio-meta.json` with multi-language elevator pitches and Tech Stack tags
+- Generated and embedded `logo-eu-jobs.png` and `preview-eu-jobs.png` for external portfolio rendering
+
 ---
 
 ## Future Ideas

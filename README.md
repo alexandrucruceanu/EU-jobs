@@ -29,7 +29,7 @@ An interactive treemap exploring **436 ISCO-08 occupations** across the **27 EU 
 
 The interactive treemap grouped by industry sector:
 
-![Treemap](site/screenshot.png)
+![Treemap](preview-eu-jobs.png)
 
 ## Data Pipeline
 
