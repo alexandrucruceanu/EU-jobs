@@ -4,7 +4,7 @@ An interactive treemap exploring **436 ISCO-08 occupations** across the **27 EU 
 
 > Forked from [karpathy/jobs](https://github.com/karpathy/jobs) and fully adapted for the European labor market.
 
-🔗 **Live demo**: [alexandrucruceanu.github.io/EU-jobs](https://alexandrucruceanu.github.io/EU-jobs/)
+🔗 **Live demo**: [eu-jobs.alexandrucruceanu.com](https://eu-jobs.alexandrucruceanu.com)
 
 ---
 
@@ -94,10 +94,30 @@ python -m http.server 8000 --directory site
 | `prompt.md` | Full dataset summary for LLM analysis |
 
 
-## Deployment
+## 🚀 Self-Hosted Deployment (NUC)
 
-The site auto-deploys to GitHub Pages via the `.github/workflows/deploy.yml` action on every push to `master`.
+Este proyecto ha migrado de GitHub Pages a una infraestructura **soberana** autoalojada en un servidor NUC bajo Docker.
 
-## License
+### Pipeline de Despliegue Autónomo
+El despliegue oficial se realiza a través de **Antigravity** (este agente). Para actualizar el servidor, simplemente indica:
+
+> "Ejecuta el despliegue de EU-jobs"
+
+**El flujo automatizado incluye:**
+1.  **Data Sync:** Construcción local de JSONs con `scripts/build_site_data.py`.
+2.  **Atomic Bundle:** Empaquetado en `tar.gz` para compatibilidad Linux.
+3.  **SSH/SCP:** Transferencia segura al NUC (`192.168.1.247`).
+4.  **Docker Orchestration:** `docker compose up --build -d` con Nginx endurecido.
+5.  **Health Check & Self-Healing:** Verificación del puerto 3050 y reinicio automático en caso de fallo.
+
+---
+
+## 🏗️ Stack Tecnológico (NUC)
+- **Host:** NUC Server (Proxmox/Debian)
+- **Puerto:** 3050 (Interno)
+- **Servidor:** Nginx Alpine (Hardened Config)
+- **Data Build:** Python 3.11-slim
+
+## 🔑 Licencia
 
 MIT — see the original [karpathy/jobs](https://github.com/karpathy/jobs) repository.

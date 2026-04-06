@@ -1,0 +1,12 @@
+services:
+  eu_jobs_app:
+    build: .
+    container_name: eu_jobs_app
+    restart: unless-stopped
+    ports:
+      - "3050:80"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
