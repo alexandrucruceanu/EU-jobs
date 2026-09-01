@@ -608,5 +608,19 @@
   "embed_modal_sub": "Añade este visualizador interactivo del mercado laboral europeo a tu blog, artículo o sitio web.",
   "embed_copy_code": "Copiar Código HTML",
   "embed_preview_title": "Vista Previa del Widget",
-  "embed_powered_by": "Explorar dataset interactivo en EU-jobs"
+  "embed_powered_by": "Explorar dataset interactivo en EU-jobs",
+  "btn_compare": "⚖️ Comparar Países",
+  "compare_modal_title": "Comparativa Laboral País vs País de la UE",
+  "compare_modal_sub": "Compara salarios, volumen de empleo y exposición a la IA en paralelo entre estados miembros de la UE.",
+  "compare_country_a": "País A",
+  "compare_country_b": "País B",
+  "compare_metric_workforce": "Población Ocupada",
+  "compare_metric_salary": "Salario Medio Anual",
+  "compare_metric_exposure": "Exposición Media a IA",
+  "compare_metric_wages_exposed": "Masa Salarial en Riesgo",
+  "compare_sector_breakdown": "Comparativa Salarial por Sector",
+  "compare_search_occupation": "Comparar Ocupación Específica:",
+  "compare_download_card": "Descargar Tarjeta Comparativa (PNG)",
+  "compare_share_x": "Compartir Comparativa en X",
+  "compare_share_linkedin": "Compartir en LinkedIn"
 }

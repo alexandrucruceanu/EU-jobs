@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.8.0] — 2026-09-01
+
+### Added
+- **Country-vs-Country Labor Benchmark Mode (`⚖️ Compare Countries`)** — Side-by-side comparative dashboard enabling direct labor market analysis between any two EU member states (e.g. Spain 🇪🇸 vs. Germany 🇩🇪, France 🇫🇷 vs. Poland 🇵🇱).
+- **Comparative KPI Analytics Engine** — Real-time computation of Total Workforce, Weighted Average Annual Pay (€), Aggregate AI Exposure Index (0–10), and Total Wages at Risk (€B) with percentage deltas.
+- **Sector Salary Benchmark Table** — Dynamic side-by-side salary ranking across all 19 ESCO sectors with color-coded wage gap indicators.
+- **1200x630 Social Comparison Card Generator** — Canvas 2D engine rendering high-impact dual-country share cards with country badges, key wage disparity banners, and social share intents for LinkedIn and X (Twitter).
+- **Deep-linking Support for Comparisons** — URL parameter support (`?compare=1&countryA=es&countryB=de`) for direct link sharing and analytical discussions.
+
 ## [2.7.0] — 2026-09-01
 
 ### Added

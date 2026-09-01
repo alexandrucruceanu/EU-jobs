@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>European Job Market Visualizer</title>
-<meta name="description" content="Interactive treemap, scatter matrix, and personal AI job exposure calculator exploring 436 ISCO-08 occupations across 27 EU member states with real Eurostat data.">
-<meta name="keywords" content="EU job market, AI exposure, ISCO-08, ESCO, automation, job visualization, Eurostat, scatter matrix, AI job quiz">
+<meta name="description" content="Interactive treemap, scatter matrix, country-vs-country comparison, and personal AI job exposure calculator exploring 436 ISCO-08 occupations across 27 EU member states with real Eurostat data.">
+<meta name="keywords" content="EU job market, AI exposure, ISCO-08, ESCO, automation, job visualization, Eurostat, scatter matrix, AI job quiz, EU salary comparison">
 <meta property="og:title" content="European Job Market Visualizer">
-<meta property="og:description" content="Explore AI impact on 436 EU occupations across 24 languages with interactive treemaps, scatter matrices, and career impact cards.">
+<meta property="og:description" content="Explore AI impact on 436 EU occupations across 24 languages with interactive treemaps, scatter matrices, country benchmarks, and career impact cards.">
 <meta property="og:image" content="https://alexandrucruceanu.github.io/EU-jobs/screenshot.png">
 <meta property="og:url" content="https://alexandrucruceanu.github.io/EU-jobs/">
 <meta name="twitter:card" content="summary_large_image">
@@ -173,6 +173,17 @@ body {
   background: rgba(234, 179, 8, 0.22);
   border-color: rgba(234, 179, 8, 0.6);
   color: #fef08a;
+}
+.btn-compare {
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: #60a5fa;
+  font-weight: 600;
+}
+.btn-compare:hover {
+  background: rgba(59, 130, 246, 0.22);
+  border-color: rgba(59, 130, 246, 0.6);
+  color: #93c5fd;
 }
 
 select.custom-select {
@@ -754,7 +765,7 @@ canvas#canvas { display: block; cursor: default; }
 .btn-secondary-drawer:hover { border-color: var(--border-strong); }
 
 /* Quiz / Career Impact Modal */
-#quiz-modal-overlay {
+#quiz-modal-overlay, #embed-modal-overlay, #compare-modal-overlay {
   position: fixed;
   top: 0; left: 0; width: 100vw; height: 100vh;
   background: rgba(0,0,0,0.65);
@@ -768,13 +779,13 @@ canvas#canvas { display: block; cursor: default; }
   justify-content: center;
   padding: 20px;
 }
-#quiz-modal-overlay.open { opacity: 1; pointer-events: auto; }
+#quiz-modal-overlay.open, #embed-modal-overlay.open, #compare-modal-overlay.open { opacity: 1; pointer-events: auto; }
 
-#quiz-modal-panel {
+#quiz-modal-panel, #embed-modal-panel, #compare-modal-panel {
   background: var(--drawer-bg);
   border: 1px solid var(--border-strong);
   border-radius: 12px;
-  max-width: 680px;
+  max-width: 720px;
   width: 100%;
   max-height: 90vh;
   overflow-y: auto;
@@ -782,18 +793,25 @@ canvas#canvas { display: block; cursor: default; }
   display: flex;
   flex-direction: column;
 }
+#compare-modal-panel { max-width: 860px; }
 
-.quiz-header {
+.modal-header-standard {
   padding: 20px 24px 16px;
   border-bottom: 1px solid var(--border);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
-.quiz-header h2 { font-size: 20px; font-weight: 700; color: var(--fg); display: flex; align-items: center; gap: 8px; }
-.quiz-header p { font-size: 13px; color: var(--fg2); margin-top: 4px; }
+.modal-header-standard h2 { font-size: 20px; font-weight: 700; color: var(--fg); display: flex; align-items: center; gap: 8px; }
+.modal-header-standard p { font-size: 13px; color: var(--fg2); margin-top: 4px; }
 
-.quiz-body { padding: 24px; display: flex; flex-direction: column; gap: 18px; }
+.quiz-body, .embed-modal-body, .compare-modal-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
 .quiz-field { display: flex; flex-direction: column; gap: 6px; position: relative; }
 .quiz-field label { font-size: 13px; font-weight: 600; color: var(--fg); }
 .quiz-input {
@@ -943,7 +961,7 @@ canvas#canvas { display: block; cursor: default; }
   box-shadow: 0 8px 24px rgba(0,0,0,0.35);
   border: 1px solid var(--border);
 }
-canvas#quizCardCanvas { width: 100%; height: auto; display: block; }
+canvas#quizCardCanvas, canvas#compareCardCanvas { width: 100%; height: auto; display: block; }
 
 .quiz-share-actions {
   display: flex;
@@ -970,61 +988,70 @@ canvas#quizCardCanvas { width: 100%; height: auto; display: block; }
 .btn-share.x-twitter { background: #000; color: #fff; border-color: #333; }
 .btn-share.linkedin { background: #0a66c2; color: #fff; border-color: #0a66c2; }
 
-/* Embed Modal */
-#embed-modal-overlay {
-  position: fixed;
-  top: 0; left: 0; width: 100vw; height: 100vh;
-  background: rgba(0,0,0,0.65);
-  backdrop-filter: blur(6px);
-  z-index: 10000;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-#embed-modal-overlay.open { opacity: 1; pointer-events: auto; }
-
-#embed-modal-panel {
-  background: var(--drawer-bg);
-  border: 1px solid var(--border-strong);
-  border-radius: 12px;
-  max-width: 720px;
-  width: 100%;
-  max-height: 90vh;
-  overflow-y: auto;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.6);
-  display: flex;
-  flex-direction: column;
-}
-
-.embed-modal-header {
-  padding: 20px 24px 16px;
-  border-bottom: 1px solid var(--border);
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.embed-modal-header h2 { font-size: 20px; font-weight: 700; color: var(--fg); display: flex; align-items: center; gap: 8px; }
-.embed-modal-header p { font-size: 13px; color: var(--fg2); margin-top: 4px; }
-
-.embed-modal-body {
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.embed-config-grid {
+/* Compare Mode Styles */
+.compare-selector-bar {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 16px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+}
+.compare-vs-badge {
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--accent);
+  padding: 4px 10px;
+  background: rgba(59,130,246,0.12);
+  border-radius: 6px;
+}
+
+.compare-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+@media (max-width: 768px) {
+  .compare-kpi-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.compare-kpi-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.compare-kpi-title { font-size: 11px; font-weight: 600; text-transform: uppercase; color: var(--fg2); }
+.compare-kpi-row { display: flex; justify-content: space-between; align-items: baseline; font-size: 14px; font-weight: 700; }
+.compare-kpi-diff { font-size: 11px; font-weight: 700; margin-top: 2px; }
+
+.compare-sector-table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 280px;
+  overflow-y: auto;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+}
+.compare-sector-row {
+  display: grid;
+  grid-template-columns: 140px 1fr 1fr 90px;
+  align-items: center;
   gap: 10px;
+  font-size: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
 }
-@media (max-width: 640px) {
-  .embed-config-grid { grid-template-columns: 1fr 1fr; }
-}
+.compare-sector-row:last-child { border-bottom: none; }
+.compare-sector-row .diff-tag { font-weight: 700; text-align: right; }
 
 .embed-code-box {
   width: 100%;
@@ -1039,13 +1066,6 @@ canvas#quizCardCanvas { width: 100%; height: auto; display: block; }
   line-height: 1.4;
   outline: none;
   resize: none;
-}
-
-.embed-preview-wrapper {
-  margin-top: 6px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
 }
 
 /* Toast notification */
@@ -1087,6 +1107,11 @@ canvas#quizCardCanvas { width: 100%; height: auto; display: block; }
         <!-- Personal Quiz CTA -->
         <button id="btnOpenQuiz" class="btn-action btn-quiz" title="Check your job AI exposure">
           <span>⚡</span> <span data-i18n="quiz_btn">Check Your Job</span>
+        </button>
+
+        <!-- Compare Countries CTA -->
+        <button id="btnOpenCompare" class="btn-action btn-compare" title="Compare two EU countries side-by-side">
+          <span>⚖️</span> <span data-i18n="btn_compare">Compare</span>
         </button>
 
         <!-- Embed Button -->
@@ -1171,7 +1196,7 @@ canvas#quizCardCanvas { width: 100%; height: auto; display: block; }
           <option value="mt" data-i18n="region_mt">Malta (MT)</option>
           <option value="nl" data-i18n="region_nl">Netherlands (NL)</option>
           <option value="pl" data-i18n="region_pl">Poland (PL)</option>
-          <option value="pt" data-i18n="region_pt">Portuguese (PT)</option>
+          <option value="pt" data-i18n="region_pt">Portugal (PT)</option>
           <option value="ro" data-i18n="region_ro">Romania (RO)</option>
           <option value="se" data-i18n="region_se">Sweden (SE)</option>
           <option value="si" data-i18n="region_si">Slovenia (SI)</option>
@@ -1388,7 +1413,7 @@ AI Exposure measures: how much will AI reshape this occupation? Consider both di
 <!-- Personal Quiz & Career Card Modal -->
 <div id="quiz-modal-overlay">
   <div id="quiz-modal-panel">
-    <div class="quiz-header">
+    <div class="modal-header-standard">
       <div>
         <h2><span>⚡</span> <span data-i18n="quiz_modal_title">Personal AI Job Impact Calculator</span></h2>
         <p data-i18n="quiz_modal_sub">Find out your AI exposure score, salary rank, and risk level across the European labor market.</p>
@@ -1485,10 +1510,128 @@ AI Exposure measures: how much will AI reshape this occupation? Consider both di
   </div>
 </div>
 
+<!-- Compare Countries Modal -->
+<div id="compare-modal-overlay">
+  <div id="compare-modal-panel">
+    <div class="modal-header-standard">
+      <div>
+        <h2><span>⚖️</span> <span data-i18n="compare_modal_title">EU Country-vs-Country Labor Benchmark</span></h2>
+        <p data-i18n="compare_modal_sub">Compare salaries, workforce volume, and AI exposure distributions side-by-side across European member states.</p>
+      </div>
+      <button class="btn-close-drawer" id="btnCloseCompare" title="Close">&times;</button>
+    </div>
+    <div class="compare-modal-body">
+      <!-- Country Dual Pickers -->
+      <div class="compare-selector-bar">
+        <div>
+          <label style="font-size: 11px; font-weight: 700; color: var(--fg2); display: block; margin-bottom: 4px;" data-i18n="compare_country_a">Country A</label>
+          <select id="compareSelectA" class="custom-select" style="width: 100%; font-size: 13px; padding: 8px 12px; font-weight: 600;">
+            <option value="es">Spain (ES)</option>
+            <option value="de" selected>Germany (DE)</option>
+            <option value="fr">France (FR)</option>
+            <option value="it">Italy (IT)</option>
+            <option value="nl">Netherlands (NL)</option>
+            <option value="pl">Poland (PL)</option>
+            <option value="se">Sweden (SE)</option>
+            <option value="at">Austria (AT)</option>
+            <option value="be">Belgium (BE)</option>
+            <option value="ie">Ireland (IE)</option>
+            <option value="pt">Portugal (PT)</option>
+            <option value="ro">Romania (RO)</option>
+            <option value="dk">Denmark (DK)</option>
+            <option value="fi">Finland (FI)</option>
+            <option value="cz">Czechia (CZ)</option>
+            <option value="el">Greece (EL)</option>
+            <option value="hu">Hungary (HU)</option>
+          </select>
+        </div>
+
+        <span class="compare-vs-badge">VS</span>
+
+        <div>
+          <label style="font-size: 11px; font-weight: 700; color: var(--fg2); display: block; margin-bottom: 4px;" data-i18n="compare_country_b">Country B</label>
+          <select id="compareSelectB" class="custom-select" style="width: 100%; font-size: 13px; padding: 8px 12px; font-weight: 600;">
+            <option value="es" selected>Spain (ES)</option>
+            <option value="de">Germany (DE)</option>
+            <option value="fr">France (FR)</option>
+            <option value="it">Italy (IT)</option>
+            <option value="nl">Netherlands (NL)</option>
+            <option value="pl">Poland (PL)</option>
+            <option value="se">Sweden (SE)</option>
+            <option value="at">Austria (AT)</option>
+            <option value="be">Belgium (BE)</option>
+            <option value="ie">Ireland (IE)</option>
+            <option value="pt">Portugal (PT)</option>
+            <option value="ro">Romania (RO)</option>
+            <option value="dk">Denmark (DK)</option>
+            <option value="fi">Finland (FI)</option>
+            <option value="cz">Czechia (CZ)</option>
+            <option value="el">Greece (EL)</option>
+            <option value="hu">Hungary (HU)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Comparative KPI Cards -->
+      <div class="compare-kpi-grid">
+        <div class="compare-kpi-card">
+          <div class="compare-kpi-title" data-i18n="compare_metric_workforce">Total Workforce</div>
+          <div class="compare-kpi-row"><span id="kpiWorkforceA">0M</span> <span style="color:var(--fg2);">vs</span> <span id="kpiWorkforceB">0M</span></div>
+          <div class="compare-kpi-diff" id="kpiWorkforceDiff">+0%</div>
+        </div>
+
+        <div class="compare-kpi-card">
+          <div class="compare-kpi-title" data-i18n="compare_metric_salary">Avg. Annual Pay</div>
+          <div class="compare-kpi-row"><span id="kpiSalaryA">€0</span> <span style="color:var(--fg2);">vs</span> <span id="kpiSalaryB">€0</span></div>
+          <div class="compare-kpi-diff" id="kpiSalaryDiff">+0%</div>
+        </div>
+
+        <div class="compare-kpi-card">
+          <div class="compare-kpi-title" data-i18n="compare_metric_exposure">Avg. AI Exposure</div>
+          <div class="compare-kpi-row"><span id="kpiExposureA">0.0</span> <span style="color:var(--fg2);">vs</span> <span id="kpiExposureB">0.0</span></div>
+          <div class="compare-kpi-diff" id="kpiExposureDiff">0.0</div>
+        </div>
+
+        <div class="compare-kpi-card">
+          <div class="compare-kpi-title" data-i18n="compare_metric_wages_exposed">Wages at AI Risk</div>
+          <div class="compare-kpi-row"><span id="kpiWagesA">€0B</span> <span style="color:var(--fg2);">vs</span> <span id="kpiWagesB">€0B</span></div>
+          <div class="compare-kpi-diff" id="kpiWagesDiff">+0%</div>
+        </div>
+      </div>
+
+      <!-- Sector by Sector Comparison Breakdown -->
+      <div style="display:flex; flex-direction:column; gap:6px;">
+        <label style="font-size:13px; font-weight:700;" data-i18n="compare_sector_breakdown">Sector Salary Comparison</label>
+        <div class="compare-sector-table" id="compareSectorTable"></div>
+      </div>
+
+      <!-- Live Comparison Card Preview & Share Actions -->
+      <div class="quiz-card-preview" style="margin-top: 8px;">
+        <canvas id="compareCardCanvas" width="1200" height="630"></canvas>
+      </div>
+
+      <div class="quiz-share-actions">
+        <button class="btn-share primary" id="btnDownloadComparePng">
+          <span>📥</span> <span data-i18n="compare_download_card">Download Comparison Card (PNG)</span>
+        </button>
+        <button class="btn-share" id="btnCopyCompareText">
+          <span>📋</span> <span data-i18n="quiz_copy_post">Copy Summary</span>
+        </button>
+        <a href="#" target="_blank" class="btn-share x-twitter" id="btnShareCompareX">
+          <span>𝕏</span> <span data-i18n="compare_share_x">Share on X</span>
+        </a>
+        <a href="#" target="_blank" class="btn-share linkedin" id="btnShareCompareLinkedin">
+          <span>in</span> <span data-i18n="compare_share_linkedin">Share on LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Embed Modal -->
 <div id="embed-modal-overlay">
   <div id="embed-modal-panel">
-    <div class="embed-modal-header">
+    <div class="modal-header-standard">
       <div>
         <h2><span>&lt;/&gt;</span> <span data-i18n="embed_modal_title">Embed Interactive Visualizer</span></h2>
         <p data-i18n="embed_modal_sub">Add this live European job market visualizer to your blog, article, or website.</p>
@@ -1496,7 +1639,7 @@ AI Exposure measures: how much will AI reshape this occupation? Consider both di
       <button class="btn-close-drawer" id="btnCloseEmbed" title="Close">&times;</button>
     </div>
     <div class="embed-modal-body">
-      <div class="embed-config-grid">
+      <div class="embed-config-grid" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 10px;">
         <div class="quiz-field">
           <label>View Mode:</label>
           <select id="embedConfigView" class="custom-select">
@@ -1553,7 +1696,7 @@ AI Exposure measures: how much will AI reshape this occupation? Consider both di
         </a>
       </div>
 
-      <div class="embed-preview-wrapper">
+      <div class="embed-preview-wrapper" style="margin-top: 6px; display: flex; flex-direction: column; gap: 6px;">
         <label style="font-size: 12px; font-weight: 600; color: var(--fg2);" data-i18n="embed_preview_title">Live Widget Preview</label>
         <iframe id="embedPreviewIframe" src="" width="100%" height="340" frameborder="0" style="border:1px solid var(--border);border-radius:8px;background:var(--bg2);"></iframe>
       </div>
@@ -1591,6 +1734,10 @@ let currentRegion = "eu";
 // Quiz state
 let quizSelectedJob = null;
 let quizUserCustomTitle = "";
+
+// Compare state
+let compareDataA = [];
+let compareDataB = [];
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
@@ -3242,6 +3389,293 @@ ${shareUrl}`;
   };
 }
 
+// ── Compare Countries Logic ───────────────────────────────────────────
+const compareOverlay = document.getElementById("compare-modal-overlay");
+const compareSelectA = document.getElementById("compareSelectA");
+const compareSelectB = document.getElementById("compareSelectB");
+const compareCardCanvas = document.getElementById("compareCardCanvas");
+
+function openCompareModal() {
+  compareOverlay.classList.add("open");
+  if (currentRegion !== "eu") {
+    compareSelectA.value = currentRegion;
+    if (currentRegion === "de") compareSelectB.value = "es";
+  }
+  loadCompareData();
+}
+
+function closeCompareModal() {
+  compareOverlay.classList.remove("open");
+}
+
+document.getElementById("btnOpenCompare").addEventListener("click", openCompareModal);
+document.getElementById("btnCloseCompare").addEventListener("click", closeCompareModal);
+compareOverlay.addEventListener("click", (e) => {
+  if (e.target === compareOverlay) closeCompareModal();
+});
+
+compareSelectA.addEventListener("change", loadCompareData);
+compareSelectB.addEventListener("change", loadCompareData);
+
+function loadCompareData() {
+  const codeA = compareSelectA.value.toLowerCase();
+  const codeB = compareSelectB.value.toLowerCase();
+
+  Promise.all([
+    fetch(`data_${codeA}.json?v=` + new Date().getTime()).then(r => r.json()),
+    fetch(`data_${codeB}.json?v=` + new Date().getTime()).then(r => r.json())
+  ]).then(([dataA, dataB]) => {
+    compareDataA = dataA;
+    compareDataB = dataB;
+    renderComparisonDashboard(codeA, codeB);
+  }).catch(e => console.error("Error loading comparison datasets:", e));
+}
+
+function renderComparisonDashboard(codeA, codeB) {
+  const nameA = (_t("region_" + codeA) || codeA.toUpperCase()).replace(/\s\([A-Z]{2}\)$/, "");
+  const nameB = (_t("region_" + codeB) || codeB.toUpperCase()).replace(/\s\([A-Z]{2}\)$/, "");
+
+  // 1. Calculate Aggregates
+  const totalJobsA = compareDataA.reduce((s, d) => s + (d.jobs || 0), 0);
+  const totalJobsB = compareDataB.reduce((s, d) => s + (d.jobs || 0), 0);
+
+  let wWageA = 0, wJobsA = 0;
+  compareDataA.forEach(d => { if (d.pay && d.jobs) { wWageA += d.pay * d.jobs; wJobsA += d.jobs; } });
+  const avgPayA = wJobsA > 0 ? Math.round(wWageA / wJobsA) : 0;
+
+  let wWageB = 0, wJobsB = 0;
+  compareDataB.forEach(d => { if (d.pay && d.jobs) { wWageB += d.pay * d.jobs; wJobsB += d.jobs; } });
+  const avgPayB = wJobsB > 0 ? Math.round(wWageB / wJobsB) : 0;
+
+  let expSumA = 0, expJobsA = 0;
+  compareDataA.forEach(d => { if (d.exposure != null && d.jobs) { expSumA += d.exposure * d.jobs; expJobsA += d.jobs; } });
+  const avgExpA = expJobsA > 0 ? (expSumA / expJobsA).toFixed(1) : "0.0";
+
+  let expSumB = 0, expJobsB = 0;
+  compareDataB.forEach(d => { if (d.exposure != null && d.jobs) { expSumB += d.exposure * d.jobs; expJobsB += d.jobs; } });
+  const avgExpB = expJobsB > 0 ? (expSumB / expJobsB).toFixed(1) : "0.0";
+
+  let wagesRiskA = 0;
+  compareDataA.forEach(d => { if (d.exposure >= 7 && d.pay && d.jobs) wagesRiskA += d.pay * d.jobs; });
+  let wagesRiskB = 0;
+  compareDataB.forEach(d => { if (d.exposure >= 7 && d.pay && d.jobs) wagesRiskB += d.pay * d.jobs; });
+
+  // Update KPI Cards
+  document.getElementById("kpiWorkforceA").textContent = (totalJobsA / 1e6).toFixed(1) + "M";
+  document.getElementById("kpiWorkforceB").textContent = (totalJobsB / 1e6).toFixed(1) + "M";
+  const diffJobs = totalJobsB > 0 ? Math.round((totalJobsA - totalJobsB) / totalJobsB * 100) : 0;
+  document.getElementById("kpiWorkforceDiff").textContent = `${diffJobs >= 0 ? "+" : ""}${diffJobs}% vs ${codeB.toUpperCase()}`;
+  document.getElementById("kpiWorkforceDiff").style.color = diffJobs >= 0 ? "#22c55e" : "#ef4444";
+
+  document.getElementById("kpiSalaryA").textContent = formatPay(avgPayA);
+  document.getElementById("kpiSalaryB").textContent = formatPay(avgPayB);
+  const diffSalary = avgPayB > 0 ? Math.round((avgPayA - avgPayB) / avgPayB * 100) : 0;
+  document.getElementById("kpiSalaryDiff").textContent = `${diffSalary >= 0 ? "+" : ""}${diffSalary}% vs ${codeB.toUpperCase()}`;
+  document.getElementById("kpiSalaryDiff").style.color = diffSalary >= 0 ? "#22c55e" : "#ef4444";
+
+  document.getElementById("kpiExposureA").textContent = avgExpA + "/10";
+  document.getElementById("kpiExposureB").textContent = avgExpB + "/10";
+  const expDiff = (parseFloat(avgExpA) - parseFloat(avgExpB)).toFixed(1);
+  document.getElementById("kpiExposureDiff").textContent = `${expDiff >= 0 ? "+" : ""}${expDiff} vs ${codeB.toUpperCase()}`;
+  document.getElementById("kpiExposureDiff").style.color = expDiff <= 0 ? "#22c55e" : "#ef4444";
+
+  document.getElementById("kpiWagesA").textContent = "€" + (wagesRiskA / 1e9).toFixed(1) + "B";
+  document.getElementById("kpiWagesB").textContent = "€" + (wagesRiskB / 1e9).toFixed(1) + "B";
+  const diffWages = wagesRiskB > 0 ? Math.round((wagesRiskA - wagesRiskB) / wagesRiskB * 100) : 0;
+  document.getElementById("kpiWagesDiff").textContent = `${diffWages >= 0 ? "+" : ""}${diffWages}% vs ${codeB.toUpperCase()}`;
+  document.getElementById("kpiWagesDiff").style.color = diffWages <= 0 ? "#22c55e" : "#ef4444";
+
+  // 2. Sector Salary Breakdown
+  const sectorMapA = {}, sectorMapB = {};
+  compareDataA.forEach(d => {
+    if (!sectorMapA[d.category]) sectorMapA[d.category] = { paySum: 0, jobsSum: 0 };
+    if (d.pay && d.jobs) { sectorMapA[d.category].paySum += d.pay * d.jobs; sectorMapA[d.category].jobsSum += d.jobs; }
+  });
+  compareDataB.forEach(d => {
+    if (!sectorMapB[d.category]) sectorMapB[d.category] = { paySum: 0, jobsSum: 0 };
+    if (d.pay && d.jobs) { sectorMapB[d.category].paySum += d.pay * d.jobs; sectorMapB[d.category].jobsSum += d.jobs; }
+  });
+
+  const sectorRows = Object.keys(SECTOR_LABELS).map(slug => {
+    const sA = sectorMapA[slug] || { paySum: 0, jobsSum: 0 };
+    const sB = sectorMapB[slug] || { paySum: 0, jobsSum: 0 };
+    const pA = sA.jobsSum > 0 ? Math.round(sA.paySum / sA.jobsSum) : 0;
+    const pB = sB.jobsSum > 0 ? Math.round(sB.paySum / sB.jobsSum) : 0;
+    const diff = pB > 0 ? Math.round((pA - pB) / pB * 100) : 0;
+    return { slug, label: sectorLabel(slug), pA, pB, diff };
+  }).sort((a, b) => b.pA - a.pA);
+
+  document.getElementById("compareSectorTable").innerHTML = sectorRows.map(r => `
+    <div class="compare-sector-row">
+      <span style="font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${r.label}</span>
+      <span style="color:#60a5fa; font-weight:700;">${formatPay(r.pA)} <small style="font-size:10px;color:var(--fg2);">(${codeA.toUpperCase()})</small></span>
+      <span style="color:#a855f7; font-weight:700;">${formatPay(r.pB)} <small style="font-size:10px;color:var(--fg2);">(${codeB.toUpperCase()})</small></span>
+      <span class="diff-tag" style="color:${r.diff >= 0 ? '#22c55e' : '#ef4444'};">${r.diff >= 0 ? '+' : ''}${r.diff}%</span>
+    </div>
+  `).join("");
+
+  renderComparisonCard(codeA, codeB, nameA, nameB, avgPayA, avgPayB, totalJobsA, totalJobsB, avgExpA, avgExpB, sectorRows.slice(0, 4));
+  updateCompareShareLinks(codeA, codeB, nameA, nameB, avgPayA, avgPayB);
+}
+
+function renderComparisonCard(codeA, codeB, nameA, nameB, payA, payB, jobsA, jobsB, expA, expB, topSectors) {
+  const c = compareCardCanvas;
+  const qctx = c.getContext("2d");
+  const W = 1200, H = 630;
+  c.width = W; c.height = H;
+
+  // Background Gradient
+  const bgGrad = qctx.createLinearGradient(0, 0, W, H);
+  bgGrad.addColorStop(0, "#0f172a");
+  bgGrad.addColorStop(1, "#020617");
+  qctx.fillStyle = bgGrad;
+  qctx.fillRect(0, 0, W, H);
+
+  // Decorative grid lines
+  qctx.strokeStyle = "rgba(255,255,255,0.04)";
+  qctx.lineWidth = 1;
+  for (let x = 0; x < W; x += 60) { qctx.beginPath(); qctx.moveTo(x, 0); qctx.lineTo(x, H); qctx.stroke(); }
+  for (let y = 0; y < H; y += 60) { qctx.beginPath(); qctx.moveTo(0, y); qctx.lineTo(W, y); qctx.stroke(); }
+
+  // Header Banner
+  qctx.fillStyle = "rgba(59,130,246,0.15)";
+  qctx.fillRect(40, 36, 1120, 56);
+  qctx.strokeStyle = "rgba(59,130,246,0.3)";
+  qctx.strokeRect(40, 36, 1120, 56);
+
+  qctx.font = "700 20px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#60a5fa";
+  qctx.fillText("⚖️ EU-jobs · Country-vs-Country Labor & AI Benchmark", 60, 71);
+
+  qctx.font = "600 16px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#cbd5e1";
+  qctx.textAlign = "right";
+  qctx.fillText("EUROSTAT CENSUS 2023", 1140, 71);
+  qctx.textAlign = "left";
+
+  // Dual Country Titles
+  const boxW = 545, boxH = 440;
+  // Box A (Left)
+  qctx.fillStyle = "rgba(59,130,246,0.06)";
+  qctx.fillRect(40, 115, boxW, boxH);
+  qctx.strokeStyle = "rgba(59,130,246,0.25)";
+  qctx.strokeRect(40, 115, boxW, boxH);
+
+  qctx.font = "800 32px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#60a5fa";
+  qctx.fillText(`${nameA.toUpperCase()} (${codeA.toUpperCase()})`, 65, 165);
+
+  qctx.font = "600 13px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#94a3b8";
+  qctx.fillText("AVERAGE ANNUAL PAY", 65, 215);
+  qctx.font = "800 38px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#ffffff";
+  qctx.fillText(formatPay(payA), 65, 260);
+
+  qctx.font = "600 13px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#94a3b8";
+  qctx.fillText("TOTAL WORKFORCE", 65, 310);
+  qctx.font = "800 30px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#ffffff";
+  qctx.fillText((jobsA / 1e6).toFixed(1) + " Million", 65, 350);
+
+  qctx.font = "600 13px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#94a3b8";
+  qctx.fillText("AVG. AI EXPOSURE SCORE", 65, 400);
+  qctx.font = "800 30px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = exposureColor(parseFloat(expA), 1);
+  qctx.fillText(`${expA} / 10`, 65, 440);
+
+  // Box B (Right)
+  qctx.fillStyle = "rgba(168,85,247,0.06)";
+  qctx.fillRect(615, 115, boxW, boxH);
+  qctx.strokeStyle = "rgba(168,85,247,0.25)";
+  qctx.strokeRect(615, 115, boxW, boxH);
+
+  qctx.font = "800 32px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#c084fc";
+  qctx.fillText(`${nameB.toUpperCase()} (${codeB.toUpperCase()})`, 640, 165);
+
+  qctx.font = "600 13px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#94a3b8";
+  qctx.fillText("AVERAGE ANNUAL PAY", 640, 215);
+  qctx.font = "800 38px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#ffffff";
+  qctx.fillText(formatPay(payB), 640, 260);
+
+  qctx.font = "600 13px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#94a3b8";
+  qctx.fillText("TOTAL WORKFORCE", 640, 310);
+  qctx.font = "800 30px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#ffffff";
+  qctx.fillText((jobsB / 1e6).toFixed(1) + " Million", 640, 350);
+
+  qctx.font = "600 13px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#94a3b8";
+  qctx.fillText("AVG. AI EXPOSURE SCORE", 640, 400);
+  qctx.font = "800 30px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = exposureColor(parseFloat(expB), 1);
+  qctx.fillText(`${expB} / 10`, 640, 440);
+
+  // Pay Gap Banner in Center
+  const payDiff = payB > 0 ? Math.round((payA - payB) / payB * 100) : 0;
+  qctx.fillStyle = payDiff >= 0 ? "rgba(34,197,94,0.15)" : "rgba(239,68,68,0.15)";
+  qctx.fillRect(40, 490, 1120, 50);
+  qctx.strokeStyle = payDiff >= 0 ? "rgba(34,197,94,0.3)" : "rgba(239,68,68,0.3)";
+  qctx.strokeRect(40, 490, 1120, 50);
+
+  qctx.font = "700 16px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = payDiff >= 0 ? "#4ade80" : "#f87171";
+  qctx.textAlign = "center";
+  const diffSign = payDiff >= 0 ? `+${payDiff}% higher` : `${payDiff}% lower`;
+  qctx.fillText(`📊 Average salaries in ${nameA} are ${diffSign} compared to ${nameB} (${formatPay(Math.abs(payA - payB))} delta)`, W / 2, 522);
+  qctx.textAlign = "left";
+
+  // Watermark
+  qctx.font = "500 13px -apple-system, system-ui, sans-serif";
+  qctx.fillStyle = "#64748b";
+  qctx.textAlign = "center";
+  qctx.fillText("https://eu-jobs.alexandrucruceanu.com  ·  436 ISCO-08 Standard European Occupations", W / 2, 605);
+  qctx.textAlign = "left";
+}
+
+function updateCompareShareLinks(codeA, codeB, nameA, nameB, payA, payB) {
+  const shareUrl = `https://eu-jobs.alexandrucruceanu.com/?compare=1&countryA=${codeA}&countryB=${codeB}`;
+  const diff = payB > 0 ? Math.round((payA - payB) / payB * 100) : 0;
+  const diffStr = diff >= 0 ? `+${diff}% higher` : `${diff}% lower`;
+  
+  const textMsg = `⚖️ European Labor Comparison: ${nameA} vs ${nameB}
+
+Average salaries in ${nameA} (${formatPay(payA)}) are ${diffStr} compared to ${nameB} (${formatPay(payB)}).
+
+Explore side-by-side AI risk and job market data:
+${shareUrl}`;
+
+  // X (Twitter)
+  document.getElementById("btnShareCompareX").href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(textMsg)}`;
+
+  // LinkedIn
+  document.getElementById("btnShareCompareLinkedin").href = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
+
+  // Copy handler
+  document.getElementById("btnCopyCompareText").onclick = () => {
+    navigator.clipboard.writeText(textMsg).then(() => {
+      showToast(_t("link_copied") || "Comparison copied to clipboard!");
+    }).catch(() => {
+      prompt("Copy text:", textMsg);
+    });
+  };
+
+  // Download PNG handler
+  document.getElementById("btnDownloadComparePng").onclick = () => {
+    const link = document.createElement("a");
+    link.download = `eu-jobs-compare-${codeA}-vs-${codeB}.png`;
+    link.href = compareCardCanvas.toDataURL("image/png");
+    link.click();
+    showToast("Comparison card downloaded!");
+  };
+}
+
 // ── Embed Modal Logic ─────────────────────────────────────────────────
 const embedOverlay = document.getElementById("embed-modal-overlay");
 const embedConfigView = document.getElementById("embedConfigView");
@@ -3401,6 +3835,7 @@ const initialLayer = urlParams.get("layer") || "outlook";
 const initialJob = urlParams.get("job") || null;
 const initialLang = urlParams.get("lang") || getBestLanguage();
 const initialQuiz = urlParams.get("quiz") === "1";
+const initialCompare = urlParams.get("compare") === "1";
 
 const savedTheme = localStorage.getItem("eu_jobs_theme") || "dark";
 setTheme(savedTheme);
@@ -3419,6 +3854,9 @@ loadData(initialRegion, initialJob);
 
 if (initialQuiz) {
   setTimeout(() => openQuizModal(), 400);
+}
+if (initialCompare) {
+  setTimeout(() => openCompareModal(), 400);
 }
 
 window.addEventListener("resize", resize);

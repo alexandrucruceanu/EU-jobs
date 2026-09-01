@@ -27,7 +27,21 @@ NEW_KEYS_EN = {
     "embed_modal_sub": "Add this live European job market visualizer to your blog, article, or website.",
     "embed_copy_code": "Copy Embed Code",
     "embed_preview_title": "Live Widget Preview",
-    "embed_powered_by": "Explore full interactive dataset on EU-jobs"
+    "embed_powered_by": "Explore full interactive dataset on EU-jobs",
+    "btn_compare": "⚖️ Compare Countries",
+    "compare_modal_title": "EU Country-vs-Country Labor Benchmark",
+    "compare_modal_sub": "Compare salaries, workforce volume, and AI exposure distributions side-by-side across European member states.",
+    "compare_country_a": "Country A",
+    "compare_country_b": "Country B",
+    "compare_metric_workforce": "Total Workforce",
+    "compare_metric_salary": "Avg. Annual Pay",
+    "compare_metric_exposure": "Avg. AI Exposure",
+    "compare_metric_wages_exposed": "Wages at AI Risk",
+    "compare_sector_breakdown": "Sector Salary Comparison",
+    "compare_search_occupation": "Compare Specific Occupation:",
+    "compare_download_card": "Download Comparison Card (PNG)",
+    "compare_share_x": "Share Comparison on X",
+    "compare_share_linkedin": "Share on LinkedIn"
 }
 
 NEW_KEYS_ES = {
@@ -55,7 +69,21 @@ NEW_KEYS_ES = {
     "embed_modal_sub": "Añade este visualizador interactivo del mercado laboral europeo a tu blog, artículo o sitio web.",
     "embed_copy_code": "Copiar Código HTML",
     "embed_preview_title": "Vista Previa del Widget",
-    "embed_powered_by": "Explorar dataset interactivo en EU-jobs"
+    "embed_powered_by": "Explorar dataset interactivo en EU-jobs",
+    "btn_compare": "⚖️ Comparar Países",
+    "compare_modal_title": "Comparativa Laboral País vs País de la UE",
+    "compare_modal_sub": "Compara salarios, volumen de empleo y exposición a la IA en paralelo entre estados miembros de la UE.",
+    "compare_country_a": "País A",
+    "compare_country_b": "País B",
+    "compare_metric_workforce": "Población Ocupada",
+    "compare_metric_salary": "Salario Medio Anual",
+    "compare_metric_exposure": "Exposición Media a IA",
+    "compare_metric_wages_exposed": "Masa Salarial en Riesgo",
+    "compare_sector_breakdown": "Comparativa Salarial por Sector",
+    "compare_search_occupation": "Comparar Ocupación Específica:",
+    "compare_download_card": "Descargar Tarjeta Comparativa (PNG)",
+    "compare_share_x": "Compartir Comparativa en X",
+    "compare_share_linkedin": "Compartir en LinkedIn"
 }
 
 def update_all_i18n():

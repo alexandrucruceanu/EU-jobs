@@ -172,5 +172,19 @@
   "embed_modal_sub": "Add this live European job market visualizer to your blog, article, or website.",
   "embed_copy_code": "Copy Embed Code",
   "embed_preview_title": "Live Widget Preview",
-  "embed_powered_by": "Explore full interactive dataset on EU-jobs"
+  "embed_powered_by": "Explore full interactive dataset on EU-jobs",
+  "btn_compare": "⚖️ Compare Countries",
+  "compare_modal_title": "EU Country-vs-Country Labor Benchmark",
+  "compare_modal_sub": "Compare salaries, workforce volume, and AI exposure distributions side-by-side across European member states.",
+  "compare_country_a": "Country A",
+  "compare_country_b": "Country B",
+  "compare_metric_workforce": "Total Workforce",
+  "compare_metric_salary": "Avg. Annual Pay",
+  "compare_metric_exposure": "Avg. AI Exposure",
+  "compare_metric_wages_exposed": "Wages at AI Risk",
+  "compare_sector_breakdown": "Sector Salary Comparison",
+  "compare_search_occupation": "Compare Specific Occupation:",
+  "compare_download_card": "Download Comparison Card (PNG)",
+  "compare_share_x": "Share Comparison on X",
+  "compare_share_linkedin": "Share on LinkedIn"
 }
