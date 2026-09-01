@@ -42,6 +42,8 @@ ssh "${REMOTE_HOST}" << EOF
     rm "${ARCHIVE_NAME}"
     
     # Build y Up Atómico
+    docker compose down --remove-orphans || true
+    docker rm -f eu_jobs_app 2>/dev/null || true
     docker compose up --build -d
     
     # Limpieza de imágenes huérfanas
