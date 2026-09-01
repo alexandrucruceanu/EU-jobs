@@ -1834,21 +1834,21 @@ function openJobDrawer(job) {
   document.getElementById("drawerEscoLink").href = job.url || `https://ec.europa.eu/esco/portal/occupation`;
 
   // Open Drawer UI
-  document.getElementById("drawerOverlay").classList.add("open");
-  document.getElementById("drawerPanel").classList.add("open");
+  document.getElementById("drawer-overlay").classList.add("open");
+  document.getElementById("drawer-panel").classList.add("open");
 
   // Sync URL
   updateUrlParams();
 }
 
 function closeJobDrawer() {
-  document.getElementById("drawerOverlay").classList.remove("open");
-  document.getElementById("drawerPanel").classList.remove("open");
+  document.getElementById("drawer-overlay").classList.remove("open");
+  document.getElementById("drawer-panel").classList.remove("open");
   selectedJob = null;
   updateUrlParams();
 }
 
-document.getElementById("drawerOverlay").addEventListener("click", closeJobDrawer);
+document.getElementById("drawer-overlay").addEventListener("click", closeJobDrawer);
 document.getElementById("btnCloseDrawer").addEventListener("click", closeJobDrawer);
 
 document.getElementById("drawerShareBtn").addEventListener("click", () => {
