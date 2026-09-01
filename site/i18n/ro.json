@@ -574,5 +574,11 @@
   "quiz_explore_in_treemap": "Explore in Treemap",
   "ai_matching_title": "AI Occupation Matcher",
   "ai_matching_sub": "We analyzed your title. Select the closest official European occupation:",
-  "ai_match_confidence": "Match"
+  "ai_match_confidence": "Match",
+  "btn_embed": "</> Embed",
+  "embed_modal_title": "Embed Interactive Visualizer",
+  "embed_modal_sub": "Add this live European job market visualizer to your blog, article, or website.",
+  "embed_copy_code": "Copy Embed Code",
+  "embed_preview_title": "Live Widget Preview",
+  "embed_powered_by": "Explore full interactive dataset on EU-jobs"
 }

@@ -21,7 +21,13 @@ NEW_KEYS_EN = {
     "quiz_explore_in_treemap": "Explore in Treemap",
     "ai_matching_title": "AI Occupation Matcher",
     "ai_matching_sub": "We analyzed your title. Select the closest official European occupation:",
-    "ai_match_confidence": "Match"
+    "ai_match_confidence": "Match",
+    "btn_embed": "</> Embed",
+    "embed_modal_title": "Embed Interactive Visualizer",
+    "embed_modal_sub": "Add this live European job market visualizer to your blog, article, or website.",
+    "embed_copy_code": "Copy Embed Code",
+    "embed_preview_title": "Live Widget Preview",
+    "embed_powered_by": "Explore full interactive dataset on EU-jobs"
 }
 
 NEW_KEYS_ES = {
@@ -43,7 +49,13 @@ NEW_KEYS_ES = {
     "quiz_explore_in_treemap": "Ver en el Treemap",
     "ai_matching_title": "Análisis y Coincidencia por IA",
     "ai_matching_sub": "Analizamos tu puesto. Selecciona la ocupación estándar europea más cercana:",
-    "ai_match_confidence": "Coincidencia"
+    "ai_match_confidence": "Coincidencia",
+    "btn_embed": "</> Incrustar",
+    "embed_modal_title": "Incrustar Visualizador Interactivo",
+    "embed_modal_sub": "Añade este visualizador interactivo del mercado laboral europeo a tu blog, artículo o sitio web.",
+    "embed_copy_code": "Copiar Código HTML",
+    "embed_preview_title": "Vista Previa del Widget",
+    "embed_powered_by": "Explorar dataset interactivo en EU-jobs"
 }
 
 def update_all_i18n():

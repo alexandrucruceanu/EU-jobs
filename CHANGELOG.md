@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.7.0] — 2026-09-01
+
+### Added
+- **Embeddable Interactive Visualizer Widget (`site/embed.html`)** — Lightweight, responsive standalone canvas widget designed for seamless `<iframe />` embedding on third-party news outlets, blogs, academic articles, and labor reports.
+- **Interactive Embed Modal Generator** — In-app modal with configurable view mode (Treemap / Matrix), country selection, active layer (AI Exposure, Pay, Growth), dark/light theme options, and instant HTML snippet generator.
+- **Live Embed Preview** — Real-time interactive widget sandbox preview in the modal before copying code.
+- **AI Semantic Occupation Matcher & Suggestions Grid** — Intelligent keyword, alias, and semantic rationale scoring engine for freeform user titles (e.g. Prompt Engineer, Growth Hacker, Bartender, Data Scientist) displaying the top 4 closest ISCO-08 standard matches.
+- **Updated Nginx Zero-Trust CSP Framing** — Configured `frame-ancestors *` and removed restrictive `X-Frame-Options` to enable universal embedding.
+
 ## [2.6.0] — 2026-09-01
 
 ### Added
