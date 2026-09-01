@@ -853,6 +853,80 @@ canvas#canvas { display: block; cursor: default; }
 }
 .quiz-btn-generate:hover { opacity: 0.95; transform: translateY(-1px); }
 
+/* AI Match Section */
+.ai-match-container {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--card-bg);
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  border-radius: 10px;
+  padding: 16px;
+}
+.ai-match-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ai-sparkle { font-size: 20px; color: #a855f7; }
+.ai-match-header strong { font-size: 14px; color: #c084fc; }
+.ai-match-sub { font-size: 12px; color: var(--fg2); margin-top: 2px; }
+
+.ai-match-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 6px;
+}
+@media (max-width: 600px) {
+  .ai-match-grid { grid-template-columns: 1fr; }
+}
+
+.ai-match-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ai-match-card:hover {
+  border-color: #a855f7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(168, 85, 247, 0.2);
+}
+.ai-match-card.active {
+  border-color: #a855f7;
+  background: rgba(168, 85, 247, 0.1);
+}
+
+.ai-match-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ai-match-pill {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(168, 85, 247, 0.2);
+  color: #d8b4fe;
+}
+.ai-match-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--fg);
+  line-height: 1.3;
+}
+.ai-match-info {
+  font-size: 11px;
+  color: var(--fg2);
+}
+
 /* Card Preview Container */
 .quiz-card-result-container {
   display: none;
@@ -1240,8 +1314,8 @@ AI Exposure measures: how much will AI reshape this occupation? Consider both di
     </div>
     <div class="quiz-body">
       <div class="quiz-field">
-        <label data-i18n="quiz_step1_label">1. Select your occupation:</label>
-        <input type="text" id="quizJobInput" class="quiz-input" data-i18n-placeholder="quiz_search_placeholder" placeholder="Type job title (e.g. Software, Nurse, Accountant)..." autocomplete="off">
+        <label data-i18n="quiz_step1_label">1. Enter your job title:</label>
+        <input type="text" id="quizJobInput" class="quiz-input" data-i18n-placeholder="quiz_search_placeholder" placeholder="Type your job title (e.g. Fullstack Developer, Growth Hacker, Nurse)..." autocomplete="off">
         <div class="quiz-autocomplete-list" id="quizAutocompleteList"></div>
       </div>
 
@@ -1286,8 +1360,20 @@ AI Exposure measures: how much will AI reshape this occupation? Consider both di
       </div>
 
       <button id="btnGenerateQuizCard" class="quiz-btn-generate">
-        <span>✨</span> <span data-i18n="quiz_calculate_btn">Generate Career Impact Card</span>
+        <span>✨</span> <span data-i18n="quiz_calculate_btn">Analyze & Generate Career Card</span>
       </button>
+
+      <!-- AI Semantic Matching Suggestions Section -->
+      <div class="ai-match-container" id="aiMatchContainer">
+        <div class="ai-match-header">
+          <span class="ai-sparkle">✨</span>
+          <div>
+            <strong data-i18n="ai_matching_title">AI Occupation Matcher</strong>
+            <div class="ai-match-sub" id="aiMatchSub" data-i18n="ai_matching_sub">We analyzed your job title. Select the closest official European occupation:</div>
+          </div>
+        </div>
+        <div class="ai-match-grid" id="aiMatchGrid"></div>
+      </div>
 
       <div class="quiz-card-result-container" id="quizResultContainer">
         <div class="quiz-card-preview">
@@ -1345,6 +1431,7 @@ let currentRegion = "eu";
 
 // Quiz state
 let quizSelectedJob = null;
+let quizUserCustomTitle = "";
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
@@ -1833,12 +1920,12 @@ function hitTest(mx, my) {
 
 // ── Formatters ────────────────────────────────────────────────────────
 function formatNumber(n) {
-  if (n == null) return "—";
+  if (n == null) return "\u2014";
   if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
   if (n >= 1e3) return Math.round(n / 1e3) + "K";
   return n.toLocaleString();
 }
-function formatPay(n) { return n == null ? "—" : "€" + n.toLocaleString(); }
+function formatPay(n) { return n == null ? "\u2014" : "\u20ac" + n.toLocaleString(); }
 
 // ── Tooltip ───────────────────────────────────────────────────────────
 function tooltipHighlight(d) {
@@ -1868,7 +1955,7 @@ function tooltipHighlight(d) {
     const edu = d.education || "";
     const idx = EDU_LEVELS.indexOf(edu);
     const color = idx >= 0 ? eduColor(idx, 1) : "var(--fg)";
-    return `<span style="color:${color};font-weight:600;">${_t("tt_education")}: ${edu || '—'}</span>`;
+    return `<span style="color:${color};font-weight:600;">${_t("tt_education")}: ${edu || '\u2014'}</span>`;
   }
   return "";
 }
@@ -1880,8 +1967,8 @@ function showTooltip(d, mx, my) {
   tt.querySelector(".tt-stats").innerHTML = `
     <span class="label">${_t("tt_median_pay")}</span><span class="value">${formatPay(d.pay)}</span>
     <span class="label">${_t("tt_jobs")}</span><span class="value">${formatNumber(d.jobs)}</span>
-    <span class="label">${_t("tt_outlook")}</span><span class="value">${d.outlook != null ? d.outlook + '%' : '—'} ${d.outlook_desc ? '(' + d.outlook_desc + ')' : ''}</span>
-    <span class="label">${_t("tt_education")}</span><span class="value">${d.education || '—'}</span>`;
+    <span class="label">${_t("tt_outlook")}</span><span class="value">${d.outlook != null ? d.outlook + '%' : '\u2014'} ${d.outlook_desc ? '(' + d.outlook_desc + ')' : ''}</span>
+    <span class="label">${_t("tt_education")}</span><span class="value">${d.education || '\u2014'}</span>`;
   tt.querySelector(".tt-rationale").textContent = colorMode === "exposure" ? (d.exposure_rationale || "") : "";
   
   let tx = mx + 16, ty = my - 16;
@@ -2039,11 +2126,11 @@ function updateRankings() {
 
 // ── Shared Stat Calculation ───────────────────────────────────────────
 const PAY_BANDS = [
-  { label: "<€35K", min: 0, max: 35000 },
-  { label: "€35–50K", min: 35000, max: 50000 },
-  { label: "€50–75K", min: 50000, max: 75000 },
-  { label: "€75–100K", min: 75000, max: 100000 },
-  { label: "€100K+", min: 100000, max: Infinity },
+  { label: "<\u20ac35K", min: 0, max: 35000 },
+  { label: "\u20ac35\u201350K", min: 35000, max: 50000 },
+  { label: "\u20ac50\u201375K", min: 50000, max: 75000 },
+  { label: "\u20ac75\u2013100K", min: 75000, max: 100000 },
+  { label: "\u20ac100K+", min: 100000, max: Infinity },
 ];
 
 const EDU_GROUPS = [
@@ -2056,9 +2143,9 @@ const EDU_GROUPS = [
 
 const OUTLOOK_TIERS = [
   { label: "Declining (<0%)", min: -Infinity, max: -1 },
-  { label: "Slow (0–3%)", min: 0, max: 3 },
-  { label: "Average (4–7%)", min: 4, max: 7 },
-  { label: "Fast (8–14%)", min: 8, max: 14 },
+  { label: "Slow (0\u20133%)", min: 0, max: 3 },
+  { label: "Average (4\u20137%)", min: 4, max: 7 },
+  { label: "Fast (8\u201314%)", min: 8, max: 14 },
   { label: "Much faster (15%+)", min: 15, max: Infinity },
 ];
 
@@ -2191,14 +2278,14 @@ function updatePayStats(filtered, totalJobs) {
 
   const byEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.pay);
   document.getElementById("block5").innerHTML = `<h3>${_t("pay_by_education")}</h3><div class="hbar-chart">${renderHbars(byEdu.map(g => ({
-    label: g.label, val: "€" + Math.round(g.avg / 1000) + "K",
+    label: g.label, val: "\u20ac" + Math.round(g.avg / 1000) + "K",
     pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
 
   const byOl = weightedAvgByGroups(OUTLOOK_TIERS, (d, g) => d.outlook != null && d.outlook >= g.min && d.outlook <= g.max, d => d.pay);
   document.getElementById("block6").innerHTML = `<h3>${_t("pay_by_outlook")}</h3><div class="hbar-chart">${renderHbars(byOl.map(g => ({
-    label: g.label.replace(/ \(.*/, ""), val: "€" + Math.round(g.avg / 1000) + "K",
+    label: g.label.replace(/ \(.*/, ""), val: "\u20ac" + Math.round(g.avg / 1000) + "K",
     pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
@@ -2235,7 +2322,7 @@ function updateEducationStats(filtered, totalJobs) {
 
   const payByEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.pay);
   document.getElementById("block5").innerHTML = `<h3>${_t("avg_pay_by_edu")}</h3><div class="hbar-chart">${renderHbars(payByEdu.map(g => ({
-    label: g.label, val: "€" + Math.round(g.avg / 1000) + "K",
+    label: g.label, val: "\u20ac" + Math.round(g.avg / 1000) + "K",
     pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
@@ -2272,11 +2359,11 @@ function updateExposureStats(filtered, totalJobs) {
     <div class="hist-labels"><span>0</span><span>5</span><span>10</span></div>`;
 
   const tierDefs = [
-    { label: "Minimal (0–1)", lo: 0, hi: 1, mid: 0.5 },
-    { label: "Low (2–3)", lo: 2, hi: 3, mid: 2.5 },
-    { label: "Moderate (4–5)", lo: 4, hi: 5, mid: 4.5 },
-    { label: "High (6–7)", lo: 6, hi: 7, mid: 6.5 },
-    { label: "Very high (8–10)", lo: 8, hi: 10, mid: 9 },
+    { label: "Minimal (0\u20131)", lo: 0, hi: 1, mid: 0.5 },
+    { label: "Low (2\u20133)", lo: 2, hi: 3, mid: 2.5 },
+    { label: "Moderate (4\u20135)", lo: 4, hi: 5, mid: 4.5 },
+    { label: "High (6\u20137)", lo: 6, hi: 7, mid: 6.5 },
+    { label: "Very high (8\u201310)", lo: 8, hi: 10, mid: 9 },
   ];
   const tiers = tierDefs.map(t => {
     let jobs = 0;
@@ -2324,7 +2411,7 @@ function getLegendConfig() {
   return {
     exposure:  { low: "Low", high: "High" },
     outlook:   { low: "Declining", high: "Growing" },
-    pay:       { low: "€" + Math.round(payMin / 1000) + "K", high: "€" + Math.round(payMax / 1000) + "K" },
+    pay:       { low: "\u20ac" + Math.round(payMin / 1000) + "K", high: "\u20ac" + Math.round(payMax / 1000) + "K" },
     education: { low: "No degree", high: "Doctoral" },
   };
 }
@@ -2474,6 +2561,152 @@ document.getElementById("exportPngBtn").addEventListener("click", () => {
   showToast("PNG exported successfully!");
 });
 
+// ── AI Semantic Occupation Matcher ────────────────────────────────────
+const COMMON_ALIASES = {
+  "prompt engineer": "2512",
+  "ai engineer": "2512",
+  "ai researcher": "2120",
+  "machine learning": "2512",
+  "ml engineer": "2512",
+  "data scientist": "2120",
+  "data analyst": "2511",
+  "data engineer": "2511",
+  "frontend": "2513",
+  "backend": "2512",
+  "fullstack": "2512",
+  "software engineer": "2512",
+  "developer": "2512",
+  "programador": "2514",
+  "react": "2513",
+  "python": "2514",
+  "devops": "2529",
+  "cloud engineer": "2529",
+  "cybersecurity": "2529",
+  "ciberseguridad": "2529",
+  "scrum master": "1219",
+  "product manager": "1219",
+  "product owner": "1219",
+  "growth hacker": "2431",
+  "seo specialist": "2431",
+  "community manager": "2431",
+  "social media": "2431",
+  "content creator": "2642",
+  "creador de contenido": "2642",
+  "influencer": "2642",
+  "youtuber": "2642",
+  "streamer": "2642",
+  "ux designer": "2166",
+  "ui designer": "2166",
+  "product designer": "2166",
+  "graphic designer": "2166",
+  "disenador": "2166",
+  "barista": "5132",
+  "bartender": "5132",
+  "camarero": "5131",
+  "waiter": "5131",
+  "cocinero": "5120",
+  "chef": "5120",
+  "uber": "8322",
+  "cab driver": "8322",
+  "taxi": "8322",
+  "delivery": "9331",
+  "repartidor": "9331",
+  "rider": "9331",
+  "recruiter": "2423",
+  "talent acquisition": "2423",
+  "hr": "2423",
+  "recursos humanos": "2423",
+  "copywriter": "2641",
+  "redactor": "2641",
+  "translator": "2643",
+  "traductor": "2643",
+  "lawyer": "2611",
+  "abogado": "2611",
+  "attorney": "2611",
+  "paralegal": "3411",
+  "nurse": "2221",
+  "enfermero": "2221",
+  "doctor": "2211",
+  "medico": "2211",
+  "physician": "2211",
+  "dentist": "2261",
+  "dentista": "2261",
+  "electrician": "7411",
+  "electricista": "7411",
+  "plumber": "7126",
+  "fontanero": "7126",
+  "mechanic": "7231",
+  "mecanico": "7231",
+  "carpenter": "7115",
+  "carpintero": "7115",
+  "accountant": "2411",
+  "contable": "2411",
+  "auditor": "2411",
+  "bookkeeper": "4311",
+  "cashier": "5230",
+  "cajero": "5230",
+  "receptionist": "4226",
+  "recepcionista": "4226",
+  "crypto": "2412",
+  "trader": "3311",
+  "broker": "3311"
+};
+
+function scoreSemanticMatch(query, item) {
+  const q = query.toLowerCase().trim();
+  const title = _t_job(item.title).toLowerCase();
+  const rawTitle = (item.title || "").toLowerCase();
+  const slug = (item.slug || "").toLowerCase();
+  const code = (item.code || "").toString();
+  const rationale = (item.exposure_rationale || "").toLowerCase();
+  const cat = (item.category || "").toLowerCase();
+
+  // 1. Alias dictionary check
+  for (const [alias, targetCode] of Object.entries(COMMON_ALIASES)) {
+    if ((q.includes(alias) || alias.includes(q)) && code === targetCode) {
+      return 0.98;
+    }
+  }
+
+  // 2. Direct exact or substring match
+  if (title === q || rawTitle === q) return 0.99;
+  if (title.includes(q) || rawTitle.includes(q)) return 0.93;
+  if (q.includes(title) || q.includes(rawTitle)) return 0.90;
+
+  // 3. Token-level overlap
+  const qTokens = q.split(/[\s,_\-\/]+/).filter(t => t.length > 2);
+  const targetTokens = (title + " " + rawTitle + " " + slug + " " + cat).split(/[\s,_\-\/]+/).filter(t => t.length > 2);
+  
+  let matchCount = 0;
+  for (const qt of qTokens) {
+    if (targetTokens.some(tt => tt.includes(qt) || qt.includes(tt))) {
+      matchCount++;
+    }
+  }
+
+  const tokenScore = qTokens.length > 0 ? (matchCount / qTokens.length) * 0.85 : 0;
+
+  // 4. Rationale keyword relevance
+  let rationaleBonus = 0;
+  for (const qt of qTokens) {
+    if (rationale.includes(qt)) rationaleBonus += 0.05;
+  }
+
+  return Math.min(0.95, tokenScore + rationaleBonus);
+}
+
+function findTopSemanticMatches(userInput) {
+  const scored = data.map(item => ({
+    item,
+    score: scoreSemanticMatch(userInput, item)
+  })).sort((a, b) => b.score - a.score);
+
+  return scored.slice(0, 4).map((s, idx) => ({
+    ...s.item,
+    confidence: Math.round(Math.max(55, Math.min(98 - idx * 6, (s.score > 0 ? s.score * 100 : 70 - idx * 8))))
+  }));
+}
+
 // ── Personal Quiz & Career Card Logic ─────────────────────────────────
 const quizOverlay = document.getElementById("quiz-modal-overlay");
 const quizJobInput = document.getElementById("quizJobInput");
@@ -2482,14 +2715,16 @@ const quizCountrySelect = document.getElementById("quizCountrySelect");
 const quizSalaryInput = document.getElementById("quizSalaryInput");
 const quizResultContainer = document.getElementById("quizResultContainer");
 const quizCardCanvas = document.getElementById("quizCardCanvas");
+const aiMatchContainer = document.getElementById("aiMatchContainer");
+const aiMatchGrid = document.getElementById("aiMatchGrid");
 
 function openQuizModal(initialJob = null) {
   quizOverlay.classList.add("open");
   quizCountrySelect.value = currentRegion;
   if (initialJob) {
-    selectQuizJob(initialJob);
+    selectQuizJob(initialJob, false);
   } else if (selectedJob) {
-    selectQuizJob(selectedJob);
+    selectQuizJob(selectedJob, false);
   }
 }
 
@@ -2506,6 +2741,7 @@ quizOverlay.addEventListener("click", (e) => {
 
 quizJobInput.addEventListener("input", (e) => {
   const query = e.target.value.toLowerCase().trim();
+  quizUserCustomTitle = e.target.value.trim();
   if (!query) {
     quizAutocompleteList.style.display = "none";
     return;
@@ -2532,32 +2768,89 @@ quizJobInput.addEventListener("input", (e) => {
     item.addEventListener("click", () => {
       const code = item.getAttribute("data-code");
       const job = data.find(d => (d.code && d.code.toString() === code) || d.slug === code);
-      if (job) selectQuizJob(job);
+      if (job) selectQuizJob(job, false);
     });
   });
 });
 
-function selectQuizJob(job) {
+function selectQuizJob(job, fromAiSuggestion = true) {
   quizSelectedJob = job;
-  quizJobInput.value = _t_job(job.title);
+  if (!fromAiSuggestion || !quizUserCustomTitle) {
+    quizJobInput.value = _t_job(job.title);
+  }
   quizAutocompleteList.style.display = "none";
-  quizSalaryInput.value = job.pay ? Math.round(job.pay) : "";
+  if (!quizSalaryInput.value) {
+    quizSalaryInput.value = job.pay ? Math.round(job.pay) : "";
+  }
   generateQuizCard();
 }
 
 document.getElementById("btnGenerateQuizCard").addEventListener("click", () => {
-  if (!quizSelectedJob) {
-    const query = quizJobInput.value.toLowerCase().trim();
-    if (query) {
-      const found = data.find(d => _t_job(d.title).toLowerCase().includes(query) || (d.code && d.code.toString() === query));
-      if (found) { selectQuizJob(found); return; }
-    }
-    showToast("Please select an occupation first!");
+  const userInput = quizJobInput.value.trim();
+  if (!userInput) {
+    showToast("Please enter your job title!");
     quizJobInput.focus();
     return;
   }
-  generateQuizCard();
+  quizUserCustomTitle = userInput;
+
+  // Check if exact match exists in data
+  const exact = data.find(d => 
+    _t_job(d.title).toLowerCase() === userInput.toLowerCase() ||
+    (d.title || "").toLowerCase() === userInput.toLowerCase() ||
+    (d.code && d.code.toString() === userInput)
+  );
+
+  if (exact) {
+    aiMatchContainer.style.display = "none";
+    selectQuizJob(exact, false);
+    return;
+  }
+
+  // Otherwise, run AI Semantic Matching and present top suggestions
+  runAiOccupationAnalysis(userInput);
 });
+
+function runAiOccupationAnalysis(userInput) {
+  const matches = findTopSemanticMatches(userInput);
+  if (!matches || matches.length === 0) {
+    showToast("No occupation match found. Please try another term.");
+    return;
+  }
+
+  // Display AI Match section
+  aiMatchContainer.style.display = "flex";
+  document.getElementById("aiMatchSub").textContent = `${_t("ai_matching_sub")} "${userInput}":`;
+
+  aiMatchGrid.innerHTML = matches.map((m, idx) => {
+    const iscoBadge = m.code ? `ISCO ${m.code}` : "ESCO";
+    const expBadge = m.exposure != null ? `${m.exposure}/10 AI Exposure` : "";
+    const activeClass = idx === 0 ? "active" : "";
+    return `
+      <div class="ai-match-card ${activeClass}" data-code="${m.code || m.slug}">
+        <div class="ai-match-card-top">
+          <span class="ai-match-pill">✨ ${m.confidence}% ${_t("ai_match_confidence")}</span>
+          <span style="font-size:11px;font-weight:700;color:var(--accent);">${iscoBadge}</span>
+        </div>
+        <div class="ai-match-title">${_t_job(m.title)}</div>
+        <div class="ai-match-info">${sectorLabel(m.category)} · ${expBadge}</div>
+      </div>
+    `;
+  }).join("");
+
+  aiMatchGrid.querySelectorAll(".ai-match-card").forEach(card => {
+    card.addEventListener("click", () => {
+      aiMatchGrid.querySelectorAll(".ai-match-card").forEach(c => c.classList.remove("active"));
+      card.classList.add("active");
+      const code = card.getAttribute("data-code");
+      const job = data.find(d => (d.code && d.code.toString() === code) || d.slug === code);
+      if (job) selectQuizJob(job, true);
+    });
+  });
+
+  // Auto-select the top AI match
+  selectQuizJob(matches[0], true);
+}
 
 function generateQuizCard() {
   if (!quizSelectedJob) return;
@@ -2610,16 +2903,21 @@ function renderQuizCard(job, regionCode, userPay, euBenchmarkPay) {
   qctx.fillText(`📍 ${regionName.toUpperCase()}`, 1140, 71);
   qctx.textAlign = "left";
 
-  // Occupation Title
-  const jobTitle = _t_job(job.title);
+  // Occupation Title (show custom title if entered)
+  const displayTitle = quizUserCustomTitle || _t_job(job.title);
   qctx.font = "800 36px -apple-system, system-ui, sans-serif";
   qctx.fillStyle = "#ffffff";
-  qctx.fillText(jobTitle, 40, 145);
+  qctx.fillText(displayTitle, 40, 145);
 
-  // Badges: ISCO Code & Category
+  // Sub-badge: standard ESCO mapping & category
+  const standardTitle = _t_job(job.title);
+  const mappingSubtitle = (quizUserCustomTitle && quizUserCustomTitle.toLowerCase() !== standardTitle.toLowerCase())
+    ? `Mapped to: ${standardTitle} (ISCO ${job.code || "0000"}) · ${sectorLabel(job.category)}`
+    : `ISCO ${job.code || "0000"} · ${sectorLabel(job.category)} · ${job.education || "Qualified"}`;
+
   qctx.font = "600 14px -apple-system, system-ui, sans-serif";
   qctx.fillStyle = "#38bdf8";
-  qctx.fillText(`ISCO ${job.code || "0000"}  ·  ${sectorLabel(job.category)}  ·  ${job.education || "Qualified"}`, 40, 180);
+  qctx.fillText(mappingSubtitle, 40, 180);
 
   // Score Box (Left)
   const score = job.exposure != null ? job.exposure : 5;
@@ -2739,13 +3037,10 @@ function wrapText(context, text, x, y, maxWidth, lineHeight) {
 
 function updateQuizShareLinks(job, regionCode) {
   const shareUrl = `https://eu-jobs.alexandrucruceanu.com/?job=${job.code || job.slug}&region=${regionCode}`;
-  const jobName = _t_job(job.title);
+  const jobName = quizUserCustomTitle || _t_job(job.title);
   const score = job.exposure != null ? job.exposure : "—";
   
-  const textMsg = `🤖 My occupation (${jobName}) has a ${score}/10 AI Exposure rating in Europe according to official Eurostat & ESCO data.
-
-Check how exposed your job is:
-${shareUrl}`;
+  const textMsg = `🤖 My occupation (${jobName}) has a ${score}/10 AI Exposure rating in Europe according to official Eurostat & ESCO data.\n\nCheck how exposed your job is:\n${shareUrl}`;
 
   // X (Twitter)
   const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(textMsg)}`;
