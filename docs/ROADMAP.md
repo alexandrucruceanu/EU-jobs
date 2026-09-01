@@ -100,14 +100,23 @@
 - **High-Res PNG Export** — 2x resolution branded visual snapshot generator with title, country, view, and date tags.
 - **Deep-linking URL State** — Comprehensive URL query parameter sync for `region`, `view`, `layer`, `job`, `theme`, and `lang`.
 
+### Phase 18: Personal AI Career Impact Calculator & Virality Suite ✅
+- **Interactive AI Impact Quiz Modal** — Searchable autocomplete selector across 436 ESCO occupations with country and optional salary input.
+- **Social Share Card Generator (1200x630 Canvas Engine)** — Automatic generation of crisp, high-resolution OG-format social image cards featuring AI exposure rating, automation risk badge, Gemini AI rationale, and salary comparison.
+- **One-Click Multi-Platform Sharing** — Direct intent links for X (Twitter), LinkedIn, instant formatted clipboard text copying, and direct PNG card download.
+- **Deep-linking & Treemap Focus** — One-click transition from quiz result card directly into the interactive Treemap/Scatter Matrix focused on that occupation.
+
 ---
 
 ## Future Ideas
 
 - [ ] Historical trend comparisons (2019 vs. 2023 employment shifts)
 - [ ] ESCO skills/competences taxonomy graph overlay
+- [ ] Embeddable `<iframe />` widget for external blogs and news media
 - [ ] Custom LLM prompt builder for community scoring layers
+- [x] Personal AI Job Exposure quiz & card generator
 - [x] Dark/light theme toggle
 - [x] Fix Eurostat earnings API fetch (currently returns 0 records) <!-- id: 10 -->
+
 
 

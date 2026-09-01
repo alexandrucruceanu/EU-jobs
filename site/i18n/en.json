@@ -147,5 +147,21 @@
   "quadrant_q1_desc": "High-value digital knowledge work facing major AI restructuring.",
   "quadrant_q2_desc": "High-value technical, clinical, and physical roles with high resilience.",
   "quadrant_q3_desc": "Physical, manual, and service trades shielded by manual dexterity.",
-  "quadrant_q4_desc": "Routine clerical, support, and repetitive digital processing roles."
+  "quadrant_q4_desc": "Routine clerical, support, and repetitive digital processing roles.",
+  "quiz_btn": "⚡ Check Your Job",
+  "quiz_modal_title": "Personal AI Job Impact Calculator",
+  "quiz_modal_sub": "Find out your AI exposure score, salary rank, and risk level across the European labor market.",
+  "quiz_step1_label": "1. Select your occupation:",
+  "quiz_search_placeholder": "Type job title (e.g. Software, Nurse, Accountant)...",
+  "quiz_step2_label": "2. Select country:",
+  "quiz_step3_label": "3. Optional: Your annual salary (€):",
+  "quiz_calculate_btn": "Generate Career Impact Card",
+  "quiz_result_badge_high": "High AI Exposure · Restructuring",
+  "quiz_result_badge_mid": "Moderate Exposure · Augmentation",
+  "quiz_result_badge_low": "Resilient Role · Shielded",
+  "quiz_download_card": "Download Image (PNG)",
+  "quiz_copy_post": "Copy Share Text",
+  "quiz_share_x": "Share on X",
+  "quiz_share_linkedin": "Share on LinkedIn",
+  "quiz_explore_in_treemap": "Explore in Treemap"
 }

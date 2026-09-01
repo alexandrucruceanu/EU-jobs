@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.6.0] — 2026-09-01
+
+### Added
+- **Personal AI Job Impact Calculator & Quiz Modal** — Fast, searchable occupation autocomplete across 436 ESCO roles with regional country and salary inputs.
+- **Dynamic 1200x630 Social Share Card Generator** — Canvas 2D engine rendering high-impact viral cards formatted for LinkedIn, X (Twitter), and Instagram with risk badges, AI exposure score gauges, and salary benchmarks.
+- **Viral Social Sharing Intent Suite** — Instant 1-click sharing to X, LinkedIn, formatted text clipboard copy, and direct PNG image download.
+- **Deep-linking & Quiz Query Param** — `?quiz=1` opens calculator directly for viral campaigns; `?job=...` focuses directly on specific career profiles.
+
 ## [2.5.0] — 2026-09-01
 
 ### Added

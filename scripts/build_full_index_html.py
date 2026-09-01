@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+import json
+
+html_content = '''<!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
@@ -1446,15 +1448,15 @@ function tileColorCSS(d, alpha = 1) {
 function tileSubInfo(r) {
   if (colorMode === "exposure") {
     return (r.exposure != null ? r.exposure + "/10" : "") +
-           (r.jobs ? " · " + formatNumber(r.jobs) + " jobs" : "");
+           (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " jobs" : "");
   }
   if (colorMode === "outlook") {
     const o = r.outlook != null ? (r.outlook > 0 ? "+" : "") + r.outlook + "%" : "";
-    return o + (r.jobs ? " · " + formatNumber(r.jobs) + " jobs" : "");
+    return o + (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " jobs" : "");
   }
   if (colorMode === "pay") {
     return (r.pay != null ? formatPay(r.pay) : "") +
-           (r.jobs ? " · " + formatNumber(r.jobs) + " " + _t("tt_jobs") : "");
+           (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " " + _t("tt_jobs") : "");
   }
   if (colorMode === "education") {
     const short = {
@@ -1467,7 +1469,7 @@ function tileSubInfo(r) {
       "Master's degree": "Master's",
       "Doctoral or professional degree": "Doctoral/Prof",
     }[r.education] || "";
-    return short + (r.jobs ? " · " + formatNumber(r.jobs) + " " + _t("tt_jobs") : "");
+    return short + (r.jobs ? " \u00b7 " + formatNumber(r.jobs) + " " + _t("tt_jobs") : "");
   }
   return "";
 }
@@ -1833,12 +1835,12 @@ function hitTest(mx, my) {
 
 // ── Formatters ────────────────────────────────────────────────────────
 function formatNumber(n) {
-  if (n == null) return "—";
+  if (n == null) return "\u2014";
   if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
   if (n >= 1e3) return Math.round(n / 1e3) + "K";
   return n.toLocaleString();
 }
-function formatPay(n) { return n == null ? "—" : "€" + n.toLocaleString(); }
+function formatPay(n) { return n == null ? "\u2014" : "\u20ac" + n.toLocaleString(); }
 
 // ── Tooltip ───────────────────────────────────────────────────────────
 function tooltipHighlight(d) {
@@ -1868,7 +1870,7 @@ function tooltipHighlight(d) {
     const edu = d.education || "";
     const idx = EDU_LEVELS.indexOf(edu);
     const color = idx >= 0 ? eduColor(idx, 1) : "var(--fg)";
-    return `<span style="color:${color};font-weight:600;">${_t("tt_education")}: ${edu || '—'}</span>`;
+    return `<span style="color:${color};font-weight:600;">${_t("tt_education")}: ${edu || '\u2014'}</span>`;
   }
   return "";
 }
@@ -1880,8 +1882,8 @@ function showTooltip(d, mx, my) {
   tt.querySelector(".tt-stats").innerHTML = `
     <span class="label">${_t("tt_median_pay")}</span><span class="value">${formatPay(d.pay)}</span>
     <span class="label">${_t("tt_jobs")}</span><span class="value">${formatNumber(d.jobs)}</span>
-    <span class="label">${_t("tt_outlook")}</span><span class="value">${d.outlook != null ? d.outlook + '%' : '—'} ${d.outlook_desc ? '(' + d.outlook_desc + ')' : ''}</span>
-    <span class="label">${_t("tt_education")}</span><span class="value">${d.education || '—'}</span>`;
+    <span class="label">${_t("tt_outlook")}</span><span class="value">${d.outlook != null ? d.outlook + '%' : '\u2014'} ${d.outlook_desc ? '(' + d.outlook_desc + ')' : ''}</span>
+    <span class="label">${_t("tt_education")}</span><span class="value">${d.education || '\u2014'}</span>`;
   tt.querySelector(".tt-rationale").textContent = colorMode === "exposure" ? (d.exposure_rationale || "") : "";
   
   let tx = mx + 16, ty = my - 16;
@@ -2039,11 +2041,11 @@ function updateRankings() {
 
 // ── Shared Stat Calculation ───────────────────────────────────────────
 const PAY_BANDS = [
-  { label: "<€35K", min: 0, max: 35000 },
-  { label: "€35–50K", min: 35000, max: 50000 },
-  { label: "€50–75K", min: 50000, max: 75000 },
-  { label: "€75–100K", min: 75000, max: 100000 },
-  { label: "€100K+", min: 100000, max: Infinity },
+  { label: "<\u20ac35K", min: 0, max: 35000 },
+  { label: "\u20ac35\u201350K", min: 35000, max: 50000 },
+  { label: "\u20ac50\u201375K", min: 50000, max: 75000 },
+  { label: "\u20ac75\u2013100K", min: 75000, max: 100000 },
+  { label: "\u20ac100K+", min: 100000, max: Infinity },
 ];
 
 const EDU_GROUPS = [
@@ -2056,9 +2058,9 @@ const EDU_GROUPS = [
 
 const OUTLOOK_TIERS = [
   { label: "Declining (<0%)", min: -Infinity, max: -1 },
-  { label: "Slow (0–3%)", min: 0, max: 3 },
-  { label: "Average (4–7%)", min: 4, max: 7 },
-  { label: "Fast (8–14%)", min: 8, max: 14 },
+  { label: "Slow (0\u20133%)", min: 0, max: 3 },
+  { label: "Average (4\u20137%)", min: 4, max: 7 },
+  { label: "Fast (8\u201314%)", min: 8, max: 14 },
   { label: "Much faster (15%+)", min: 15, max: Infinity },
 ];
 
@@ -2191,14 +2193,14 @@ function updatePayStats(filtered, totalJobs) {
 
   const byEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.pay);
   document.getElementById("block5").innerHTML = `<h3>${_t("pay_by_education")}</h3><div class="hbar-chart">${renderHbars(byEdu.map(g => ({
-    label: g.label, val: "€" + Math.round(g.avg / 1000) + "K",
+    label: g.label, val: "\u20ac" + Math.round(g.avg / 1000) + "K",
     pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
 
   const byOl = weightedAvgByGroups(OUTLOOK_TIERS, (d, g) => d.outlook != null && d.outlook >= g.min && d.outlook <= g.max, d => d.pay);
   document.getElementById("block6").innerHTML = `<h3>${_t("pay_by_outlook")}</h3><div class="hbar-chart">${renderHbars(byOl.map(g => ({
-    label: g.label.replace(/ \(.*/, ""), val: "€" + Math.round(g.avg / 1000) + "K",
+    label: g.label.replace(/ \(.*/, ""), val: "\u20ac" + Math.round(g.avg / 1000) + "K",
     pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
@@ -2235,7 +2237,7 @@ function updateEducationStats(filtered, totalJobs) {
 
   const payByEdu = weightedAvgByGroups(EDU_GROUPS, (d, g) => g.match.includes(d.education), d => d.pay);
   document.getElementById("block5").innerHTML = `<h3>${_t("avg_pay_by_edu")}</h3><div class="hbar-chart">${renderHbars(payByEdu.map(g => ({
-    label: g.label, val: "€" + Math.round(g.avg / 1000) + "K",
+    label: g.label, val: "\u20ac" + Math.round(g.avg / 1000) + "K",
     pct: Math.max(0, Math.min(100, (Math.log(Math.max(payMin, g.avg)) - Math.log(Math.max(1, payMin))) / (Math.log(Math.max(2, payMax)) - Math.log(Math.max(1, payMin))) * 100)),
     color: payColor(g.avg, 0.8)
   })))}</div>`;
@@ -2272,11 +2274,11 @@ function updateExposureStats(filtered, totalJobs) {
     <div class="hist-labels"><span>0</span><span>5</span><span>10</span></div>`;
 
   const tierDefs = [
-    { label: "Minimal (0–1)", lo: 0, hi: 1, mid: 0.5 },
-    { label: "Low (2–3)", lo: 2, hi: 3, mid: 2.5 },
-    { label: "Moderate (4–5)", lo: 4, hi: 5, mid: 4.5 },
-    { label: "High (6–7)", lo: 6, hi: 7, mid: 6.5 },
-    { label: "Very high (8–10)", lo: 8, hi: 10, mid: 9 },
+    { label: "Minimal (0\u20131)", lo: 0, hi: 1, mid: 0.5 },
+    { label: "Low (2\u20133)", lo: 2, hi: 3, mid: 2.5 },
+    { label: "Moderate (4\u20135)", lo: 4, hi: 5, mid: 4.5 },
+    { label: "High (6\u20137)", lo: 6, hi: 7, mid: 6.5 },
+    { label: "Very high (8\u201310)", lo: 8, hi: 10, mid: 9 },
   ];
   const tiers = tierDefs.map(t => {
     let jobs = 0;
@@ -2324,7 +2326,7 @@ function getLegendConfig() {
   return {
     exposure:  { low: "Low", high: "High" },
     outlook:   { low: "Declining", high: "Growing" },
-    pay:       { low: "€" + Math.round(payMin / 1000) + "K", high: "€" + Math.round(payMax / 1000) + "K" },
+    pay:       { low: "\u20ac" + Math.round(payMin / 1000) + "K", high: "\u20ac" + Math.round(payMax / 1000) + "K" },
     education: { low: "No degree", high: "Doctoral" },
   };
 }
@@ -2742,10 +2744,7 @@ function updateQuizShareLinks(job, regionCode) {
   const jobName = _t_job(job.title);
   const score = job.exposure != null ? job.exposure : "—";
   
-  const textMsg = `🤖 My occupation (${jobName}) has a ${score}/10 AI Exposure rating in Europe according to official Eurostat & ESCO data.
-
-Check how exposed your job is:
-${shareUrl}`;
+  const textMsg = `🤖 My occupation (${jobName}) has a ${score}/10 AI Exposure rating in Europe according to official Eurostat & ESCO data.\n\nCheck how exposed your job is:\n${shareUrl}`;
 
   // X (Twitter)
   const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(textMsg)}`;
@@ -2913,3 +2912,8 @@ window.addEventListener("resize", resize);
 <script src="shared.js"></script>
 </body>
 </html>
+'''
+
+with open("site/index.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
+print("Wrote updated site/index.html successfully!")
