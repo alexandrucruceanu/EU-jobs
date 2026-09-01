@@ -14,11 +14,15 @@
 
 | Technology | Purpose |
 |:--|:--|
-| **Vanilla HTML/CSS/JS** | Zero-dependency static site |
-| **Canvas API** | Squarified treemap rendering with domain grouping |
+| **Vanilla HTML/CSS/JS** | Zero-dependency static site architecture |
+| **Canvas API (2D)** | Squarified treemap rendering & 2D Scatter Matrix quadrant engine |
+| **Faceted Filter Engine** | Real-time multi-dimensional filtering (Sector, Education, AI Exposure) |
+| **Slide-in Detail Drawer** | Glassmorphic occupation profile with EU salary benchmark and AI rationale |
+| **Theme Engine** | Light/Dark theme switching via CSS Custom Properties and adaptive Canvas |
+| **Visual Export (Offscreen Canvas)** | High-res (2x) branded PNG snapshot generator with metadata banner |
 | **Responsive Design** | Vertical category stacking logic for mobile viewports |
 | **Custom i18n engine** | 24-language JSON dictionaries loaded dynamically |
-| **CSS Custom Properties** | Dark theme design tokens |
+| **URL State Sync** | Deep-linking via History API / SearchParams for instant view sharing |
 
 ## Infrastructure
 

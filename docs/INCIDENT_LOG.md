@@ -80,3 +80,13 @@ Notable issues encountered during development and their resolutions.
 **Symptom:** `fetch_eurostat.py` was returning 0 records for median hourly earnings across all regions.  
 **Root Cause:** (1) Incorrect indicator code `ERN_MD_H` (should be `MED_E_EUR`), (2) Invalid `sizeclas` dimension for the dataset, and (3) ISCO depth mismatch (dataset only provided 1-digit Major Groups).  
 **Resolution:** Updated the fetch script with the correct indicator and filters. Implemented a 2018 fallback for missing 2022 aggregate data and added a 1-digit to 2nd-digit ISCO mapping to distribute data across the project's classification.
+
+---
+
+### INC-009: Frontend Drawer Element ID Mismatch
+**Date:** 2026-09-01  
+**Severity:** High  
+**Symptom:** On initial load of `site/index.html`, canvas remained empty with stats displaying dashes.  
+**Root Cause:** The slide-in drawer HTML was defined with kebab-case IDs (`drawer-overlay`, `drawer-panel`) while initialization event listeners referenced camelCase names (`drawerOverlay`, `drawerPanel`), causing a TypeError that halted data loading scripts.  
+**Resolution:** Aligned all JavaScript element selector calls to match HTML IDs and added automated Node-based ID validation checks.
+
