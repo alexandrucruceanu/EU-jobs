@@ -17,12 +17,17 @@
 | **Vanilla HTML/CSS/JS** | Zero-dependency static site architecture |
 | **Canvas API (2D)** | Squarified treemap rendering & 2D Scatter Matrix quadrant engine |
 | **Faceted Filter Engine** | Real-time multi-dimensional filtering (Sector, Education, AI Exposure) |
+| **Career AI Calculator & Quiz** | Personal exposure evaluator & 1200x630 social card canvas engine |
+| **AI Semantic Matcher** | Client-side keyword, synonym, and rationale relevance scorer |
+| **Country Compare Engine** | Dual-country benchmark dashboard, KPI metrics, & sector wage gap analysis |
+| **Embeddable Widget (`<iframe />`)** | Standalone responsive visualizer (`site/embed.html`) & code generator |
 | **Slide-in Detail Drawer** | Glassmorphic occupation profile with EU salary benchmark and AI rationale |
 | **Theme Engine** | Light/Dark theme switching via CSS Custom Properties and adaptive Canvas |
 | **Visual Export (Offscreen Canvas)** | High-res (2x) branded PNG snapshot generator with metadata banner |
 | **Responsive Design** | Vertical category stacking logic for mobile viewports |
 | **Custom i18n engine** | 24-language JSON dictionaries loaded dynamically |
 | **URL State Sync** | Deep-linking via History API / SearchParams for instant view sharing |
+| **Umami Analytics** | Privacy-respecting, zero-cookie traffic analytics via `stats.alexandrucruceanu.com` |
 
 ## Infrastructure
 

@@ -98,25 +98,39 @@
 - **ESCO Detail Drawer & Benchmark** — Glassmorphic slide-in profile featuring AI exposure rationale, national employment share, and dynamic salary benchmark comparisons vs. the EU27 average.
 - **Dark & Light Mode** — Native theme toggle with responsive CSS custom variables, adaptive canvas rendering, and persistent storage.
 - **High-Res PNG Export** — 2x resolution branded visual snapshot generator with title, country, view, and date tags.
-- **Deep-linking URL State** — Comprehensive URL query parameter sync for `region`, `view`, `layer`, `job`, `theme`, and `lang`.
 
-### Phase 18: Personal AI Career Impact Calculator & Virality Suite ✅
-- **Interactive AI Impact Quiz Modal** — Searchable autocomplete selector across 436 ESCO occupations with country and optional salary input.
-- **Social Share Card Generator (1200x630 Canvas Engine)** — Automatic generation of crisp, high-resolution OG-format social image cards featuring AI exposure rating, automation risk badge, Gemini AI rationale, and salary comparison.
-- **One-Click Multi-Platform Sharing** — Direct intent links for X (Twitter), LinkedIn, instant formatted clipboard text copying, and direct PNG card download.
-- **Deep-linking & Treemap Focus** — One-click transition from quiz result card directly into the interactive Treemap/Scatter Matrix focused on that occupation.
+### Phase 18: Personal AI Career Impact Calculator & Social Cards ✅
+- **Interactive Career Quiz (`?quiz=1`)** — Instant career exposure assessment with live percentile ranking, wage comparison, and tailored vulnerability rationale.
+- **1200x630 Canvas Share Card Generator** — Dynamic Canvas 2D engine rendering branded career impact cards with direct PNG download and 1-click social share intents (LinkedIn, X).
 
+### Phase 19: AI Semantic Occupation Matcher & Suggestions Grid ✅
+- **Freeform Job Title AI Matcher** — Client-side token, synonym, and Gemini rationale similarity scoring engine for modern or non-standard titles (e.g., "Prompt Engineer", "Growth Hacker", "Data Scientist").
+- **Top 4 Selection Cards Grid** — Interactive selection modal displaying match confidence badges (e.g., `✨ 96% Match`) and AI exposure indicators mapping cleanly to official ISCO-08 roles.
+
+### Phase 20: Embeddable Interactive Widget & Generator Modal ✅
+- **Standalone Embed View (`site/embed.html`)** — Lightweight, responsive iframe visualizer supporting Treemap and Matrix views with country switching and layer controls.
+- **In-App Embed Modal (`</> Embed`)** — Embed code generator with customizable dimensions, live interactive preview, and 1-click clipboard copy.
+- **Universal Iframe CSP Headers** — Configured Nginx with `frame-ancestors *` and permissive embedding policies for media publishers and blogs.
+
+### Phase 21: Country-vs-Country Side-by-Side Labor Benchmark Mode ✅
+- **Comparative Dashboard (`⚖️ Compare Countries` / `?compare=1`)** — Dual country selectors comparing any two EU member states (e.g. Spain vs. Germany).
+- **Real-Time Comparative KPIs** — Workforce population, weighted average annual pay, aggregate AI exposure index, and wages at AI risk with percentage deltas.
+- **Sector Salary Benchmark Table** — Side-by-side wage ranking across all 19 ESCO sectors with color-coded wage gap badges.
+- **Dual-Country 1200x630 Social Comparison Card Generator** — High-impact share card canvas engine with country flags, wage gap highlights, and social share links.
 ---
 
 ## Future Ideas
 
-- [ ] Historical trend comparisons (2019 vs. 2023 employment shifts)
-- [ ] ESCO skills/competences taxonomy graph overlay
-- [ ] Embeddable `<iframe />` widget for external blogs and news media
-- [ ] Custom LLM prompt builder for community scoring layers
-- [x] Personal AI Job Exposure quiz & card generator
+- [ ] Historical trend comparisons (2019 vs. 2024 employment shifts)
+- [ ] ESCO skills/competences granular taxonomy graph overlay
+- [ ] Scenario simulator for 2030 generative AI labor adoption
+- [ ] Export filtered dataset to CSV / JSON in 1-click
+- [x] Embeddable `<iframe />` widget for external blogs and news media
+- [x] Side-by-side country-vs-country labor benchmark mode
+- [x] AI Semantic Matcher for non-standard occupation titles
+- [x] Personal AI Job Exposure quiz & 1200x630 share card generator
 - [x] Dark/light theme toggle
-- [x] Fix Eurostat earnings API fetch (currently returns 0 records) <!-- id: 10 -->
+- [x] Fix Eurostat earnings API fetch and multi-country scaling
 
 
 

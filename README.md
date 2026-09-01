@@ -16,6 +16,10 @@ An interactive treemap exploring **436 ISCO-08 occupations** across the **27 EU 
 | **27 EU member states** | Per-country data with real Eurostat employment figures |
 | **Interactive map view** | Choropleth map of Europe with 4 metric layers |
 | **2D Scatter Matrix** | AI Exposure vs. Median Annual Pay 2D plane with 4 quadrants |
+| **Country-vs-Country Benchmark** | Side-by-side comparative dashboard with KPI cards and wage gaps |
+| **AI Career Impact Calculator** | Check your job risk score and generate 1200x630 social share cards |
+| **AI Semantic Matcher** | Freeform job title analyzer mapping to closest ESCO standard roles |
+| **Embeddable Widgets (`<iframe />`)** | Standalone widget generator for external blogs and media outlets |
 | **Faceted Filtering** | Real-time filters by Sector domain, Education, and Min. Exposure slider |
 | **Live Rankings** | Dynamic Top 5 AI-Exposed vs. Most AI-Resilient leaderboards |
 | **ESCO Detail Drawer** | Rich profile with Gemini AI rationale and EU salary benchmark |
