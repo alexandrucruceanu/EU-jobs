@@ -2,6 +2,18 @@
 
 All notable changes to this project are documented in this file.
 
+## [2.5.0] — 2026-09-01
+
+### Added
+- **2D Scatter Matrix & Quadrant Analysis** — Interactive 2D visualization plotting AI Exposure (0–10) vs. Median Annual Pay (€) categorized into 4 quadrants (High Pay/High Exposure, High Pay/Low Exposure, Low Pay/Low Exposure, Low Pay/High Exposure) with employment-scaled nodes.
+- **Faceted Multi-Dimensional Filters** — Real-time filtering toolbar with Sector domain dropdown, Education level selector, and Minimum AI Exposure range slider (`0` to `10`).
+- **Live Occupational Rankings** — Dynamic "Top 5 AI-Exposed" vs. "Most AI-Resilient" leaderboards that automatically adapt to the current country and active filters.
+- **ESCO Detail Profile Drawer** — Glassmorphic slide-in drawer on node/tile click featuring Gemini AI rationale, country employment share, and salary benchmark comparisons vs. the EU27 aggregate average.
+- **Dark & Light Mode** — Seamless theme toggle with CSS custom variables, adaptive canvas rendering for light/dark palettes, and `localStorage` persistence.
+- **Branded High-Res PNG Export** — 2x high-resolution snapshot generator with region, layer, view mode, and date watermark.
+- **Deep-linking URL State** — URL synchronization for `region`, `view`, `layer`, `job`, `theme`, and `lang`.
+- **Multilingual Support for New Features** — Injected translation keys across all 24 official EU language dictionaries.
+
 ## [2.4.0] — 2026-03-28
 
 ### Added

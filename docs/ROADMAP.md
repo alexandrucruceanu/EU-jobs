@@ -91,14 +91,23 @@
 - Injected Schema.org JSON-LD structured data for improved rich search results
 - Consistently applied canonical URL meta tags across the application
 
+### Phase 17: Advanced Analytics & UX Suite ✅
+- **2D Scatter Matrix & Quadrant Analysis** — 2D canvas visualization plotting AI Exposure (0-10) vs. Median Annual Pay (€) across 4 categorized quadrants with employment-scaled bubbles.
+- **Faceted Multi-Dimensional Filters** — Real-time filtering by Sector Domain, Minimum AI Exposure slider, and Education levels.
+- **Live Occupational Rankings** — Instant "Top 5 AI-Exposed" vs. "Most AI-Resilient" leaderboards updated dynamically on filter change.
+- **ESCO Detail Drawer & Benchmark** — Glassmorphic slide-in profile featuring AI exposure rationale, national employment share, and dynamic salary benchmark comparisons vs. the EU27 average.
+- **Dark & Light Mode** — Native theme toggle with responsive CSS custom variables, adaptive canvas rendering, and persistent storage.
+- **High-Res PNG Export** — 2x resolution branded visual snapshot generator with title, country, view, and date tags.
+- **Deep-linking URL State** — Comprehensive URL query parameter sync for `region`, `view`, `layer`, `job`, `theme`, and `lang`.
 
 ---
 
 ## Future Ideas
 
 - [ ] Historical trend comparisons (2019 vs. 2023 employment shifts)
-- [ ] ESCO skills/competences overlay on the treemap
-- [ ] Dark/light theme toggle
+- [ ] ESCO skills/competences taxonomy graph overlay
 - [ ] Custom LLM prompt builder for community scoring layers
+- [x] Dark/light theme toggle
 - [x] Fix Eurostat earnings API fetch (currently returns 0 records) <!-- id: 10 -->
+
 
