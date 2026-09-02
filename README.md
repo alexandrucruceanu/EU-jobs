@@ -1,10 +1,11 @@
 # European Job Market Visualizer
 
-An interactive treemap exploring **436 ISCO-08 occupations** across the **27 EU member states**, with AI exposure scoring, multilingual support, and real Eurostat employment data.
+An interactive analytical platform and treemap exploring **436 ISCO-08 occupations** across all **27 EU member states**, crossing official Eurostat census employment data with LLM AI exposure scoring.
 
-> Forked from [karpathy/jobs](https://github.com/karpathy/jobs) and fully adapted for the European labor market.
+> [!NOTE]
+> **Acknowledgements & Lineage**: This project is directly inspired by and builds upon the brilliant open-source work of **[Andrej Karpathy](https://github.com/karpathy)** in **[karpathy/jobs](https://github.com/karpathy/jobs)** ([karpathy.ai/jobs](https://karpathy.ai/jobs/)). We took Karpathy's original US-centric concept and treemap architecture and adapted/expanded it for the European labor market ecosystem.
 
-🔗 **Live demo**: [eu-jobs.alexandrucruceanu.com](https://eu-jobs.alexandrucruceanu.com)
+🔗 **Live demo**: [https://eu-jobs.alexandrucruceanu.com](https://eu-jobs.alexandrucruceanu.com)
 
 ---
 

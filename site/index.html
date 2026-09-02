@@ -6,21 +6,13 @@
 <title>European Job Market Visualizer</title>
 <meta name="description" content="Interactive treemap, scatter matrix, country-vs-country comparison, and personal AI job exposure calculator exploring 436 ISCO-08 occupations across 27 EU member states with real Eurostat data.">
 <meta name="keywords" content="EU job market, AI exposure, ISCO-08, ESCO, automation, job visualization, Eurostat, scatter matrix, AI job quiz, EU salary comparison">
-<meta property="og:type" content="website">
-<meta property="og:title" content="European Job Market Visualizer & AI Exposure Matrix">
+<meta property="og:title" content="European Job Market Visualizer">
 <meta property="og:description" content="Explore AI impact on 436 EU occupations across 24 languages with interactive treemaps, scatter matrices, country benchmarks, and career impact cards.">
-<meta property="og:image" content="https://eu-jobs.alexandrucruceanu.com/screenshot.png">
-<meta property="og:image:secure_url" content="https://eu-jobs.alexandrucruceanu.com/screenshot.png">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:url" content="https://eu-jobs.alexandrucruceanu.com/">
+<meta property="og:image" content="https://alexandrucruceanu.github.io/EU-jobs/screenshot.png">
+<meta property="og:url" content="https://alexandrucruceanu.github.io/EU-jobs/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="European Job Market Visualizer & AI Exposure Matrix">
-<meta name="twitter:description" content="Explore AI impact on 436 EU occupations across 24 languages with interactive treemaps, scatter matrices, country benchmarks, and career impact cards.">
-<meta name="twitter:image" content="https://eu-jobs.alexandrucruceanu.com/screenshot.png">
 <link rel="icon" type="image/png" href="favicon.png">
-<link rel="canonical" href="https://eu-jobs.alexandrucruceanu.com/">
+<link rel="canonical" href="https://alexandrucruceanu.github.io/EU-jobs/">
 <link rel="manifest" href="manifest.json">
 <script defer src="https://stats.alexandrucruceanu.com/script.js" data-website-id="239c650d-5487-44a6-a4a2-45cfbc0cd97f"></script>
 <script type="application/ld+json">
@@ -29,7 +21,7 @@
   "@type": "WebApplication",
   "name": "European Job Market Visualizer",
   "description": "Interactive treemap and scatter matrix exploring 436 ISCO-08 occupations across the EU, with AI exposure scoring and Eurostat data.",
-  "url": "https://eu-jobs.alexandrucruceanu.com/",
+  "url": "https://alexandrucruceanu.github.io/EU-jobs/",
   "applicationCategory": "DataVisualization",
   "operatingSystem": "Any",
   "author": {
@@ -1215,6 +1207,7 @@ canvas#quizCardCanvas, canvas#compareCardCanvas { width: 100%; height: auto; dis
 
     <p data-i18n="intro1_html">This is a research tool that visualizes <b>over 400 occupations</b> from the <a href="https://ec.europa.eu/esco/portal/home">ESCO framework</a>, covering the European job market. Each rectangle's <b>area</b> is proportional to total employment. <b>Color</b> shows the selected metric &mdash; toggle between projected growth outlook, median pay, education requirements, and AI exposure. Click any tile or node to view its detailed profile and ESCO data.</p>
     <p data-i18n="intro2_html"><b>LLM-powered coloring:</b> The pipeline scores each occupation via Gemini. The "Digital AI Exposure" metric estimates how much current AI will reshape each occupation based on routine digital knowledge processing vs hands-on real-world interaction.</p>
+    <p data-i18n="attribution_html"><b>Acknowledgements & Credits:</b> Based on the original open-source visualizer by <a href="https://github.com/karpathy/jobs" target="_blank" rel="noopener"><b>Andrej Karpathy</b></a> (<a href="https://karpathy.ai/jobs/" target="_blank" rel="noopener">karpathy.ai/jobs</a>), expanded and adapted for the European Union with 27 Eurostat datasets, 24 official EU languages, 2D Scatter Matrix, Country Benchmark, and embeddable widgets.</p>
     <details>
       <summary data-i18n="prompt_summary">View the Digital AI Exposure scoring prompt (example)</summary>
       <div class="prompt-box">You are an expert analyst evaluating how exposed different occupations are to AI. You will be given a detailed description of an occupation from the ESCO framework (European Skills, Competences, Qualifications and Occupations).
@@ -1326,8 +1319,10 @@ AI Exposure measures: how much will AI reshape this occupation? Consider both di
 <div class="footer">
   <div id="footer-quote"></div>
   <div class="footer-bottom">
-    Data: <a href="https://ec.europa.eu/eurostat" target="_blank">Eurostat</a> &middot;
-    <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">GitHub</a>
+    Data: <a href="https://ec.europa.eu/eurostat" target="_blank" rel="noopener">Eurostat</a> &middot;
+    Taxonomy: <a href="https://esco.ec.europa.eu" target="_blank" rel="noopener">ESCO</a> &middot;
+    Based on <a href="https://github.com/karpathy/jobs" target="_blank" rel="noopener">karpathy/jobs</a> by Andrej Karpathy &middot;
+    <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank" rel="noopener">EU-jobs GitHub</a>
   </div>
 </div>
 

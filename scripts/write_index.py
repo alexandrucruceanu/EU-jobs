@@ -1209,6 +1209,7 @@ canvas#quizCardCanvas, canvas#compareCardCanvas { width: 100%; height: auto; dis
 
     <p data-i18n="intro1_html">This is a research tool that visualizes <b>over 400 occupations</b> from the <a href="https://ec.europa.eu/esco/portal/home">ESCO framework</a>, covering the European job market. Each rectangle's <b>area</b> is proportional to total employment. <b>Color</b> shows the selected metric &mdash; toggle between projected growth outlook, median pay, education requirements, and AI exposure. Click any tile or node to view its detailed profile and ESCO data.</p>
     <p data-i18n="intro2_html"><b>LLM-powered coloring:</b> The pipeline scores each occupation via Gemini. The "Digital AI Exposure" metric estimates how much current AI will reshape each occupation based on routine digital knowledge processing vs hands-on real-world interaction.</p>
+    <p data-i18n="attribution_html"><b>Acknowledgements & Credits:</b> Based on the original open-source visualizer by <a href="https://github.com/karpathy/jobs" target="_blank" rel="noopener"><b>Andrej Karpathy</b></a> (<a href="https://karpathy.ai/jobs/" target="_blank" rel="noopener">karpathy.ai/jobs</a>), expanded and adapted for the European Union with 27 Eurostat datasets, 24 official EU languages, 2D Scatter Matrix, Country Benchmark, and embeddable widgets.</p>
     <details>
       <summary data-i18n="prompt_summary">View the Digital AI Exposure scoring prompt (example)</summary>
       <div class="prompt-box">You are an expert analyst evaluating how exposed different occupations are to AI. You will be given a detailed description of an occupation from the ESCO framework (European Skills, Competences, Qualifications and Occupations).
@@ -1320,8 +1321,10 @@ AI Exposure measures: how much will AI reshape this occupation? Consider both di
 <div class="footer">
   <div id="footer-quote"></div>
   <div class="footer-bottom">
-    Data: <a href="https://ec.europa.eu/eurostat" target="_blank">Eurostat</a> &middot;
-    <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank">GitHub</a>
+    Data: <a href="https://ec.europa.eu/eurostat" target="_blank" rel="noopener">Eurostat</a> &middot;
+    Taxonomy: <a href="https://esco.ec.europa.eu" target="_blank" rel="noopener">ESCO</a> &middot;
+    Based on <a href="https://github.com/karpathy/jobs" target="_blank" rel="noopener">karpathy/jobs</a> by Andrej Karpathy &middot;
+    <a href="https://github.com/alexandrucruceanu/EU-jobs" target="_blank" rel="noopener">EU-jobs GitHub</a>
   </div>
 </div>
 
