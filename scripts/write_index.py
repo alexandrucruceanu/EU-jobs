@@ -1143,8 +1143,8 @@ canvas#quizCardCanvas, canvas#compareCardCanvas { width: 100%; height: auto; dis
           <span>📸</span> <span data-i18n="export_png">Export PNG</span>
         </button>
 
-        <a href="https://buymeacoffee.com/alexander_th" target="_blank" class="bmc-link">
-          <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee">
+        <a href="https://buymeacoffee.com/alexander_th" target="_blank" rel="noopener" class="bmc-link">
+          <img src="bmc-button.png" alt="Buy Me A Coffee" width="116" height="32">
         </a>
 
         <select id="languageSelect" class="custom-select">
